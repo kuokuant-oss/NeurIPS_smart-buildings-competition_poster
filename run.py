@@ -94,7 +94,7 @@ def cmd_setup(args):
     launch("pipeline/setup/new_stations_build.py")
     # the TRAIN pool (80 buildings, 367 scenarios); the generator refuses to write a split that differs from the
     # registered configs/splits/v1-train-r1.json, so a successful run reproduces the recorded pool
-    sh(["python3", "-B", "scripts/workspace.py", "make-split", "--train-r1"])
+    launch("scripts/make_split.py", "--train-r1")
     # the 12 new validation buildings (seeds recorded in data/final/val2/manifest.json) and their 180 scenarios
     launch("pipeline/final/gen_val2.py", FINAL, "12", f"{FINAL}/recorded/val2-manifest.json")
     # reduced thermal models of the fast simulator (data/runs/fastsim/rom-cache)
@@ -103,8 +103,8 @@ def cmd_setup(args):
     launch("pipeline/final/prebuild_official.py", w)
     if args.chain:
         # pools only the training chain uses: VAL (S4 sets) and INNER
-        sh(["python3", "-B", "scripts/workspace.py", "make-split"])
-        sh(["python3", "-B", "scripts/workspace.py", "make-split", "--inner"])
+        launch("scripts/make_split.py")
+        launch("scripts/make_split.py", "--inner")
         launch("scripts/fastsim.py", "build", "--pool", "inner", "--workers", w)
         launch("scripts/fastsim.py", "build", "--pool", "val", "--workers", w)
 

@@ -12,7 +12,8 @@ PARTS = ("cost", "comfort_part", "energy_part", "carbon_part")
 
 def main():
     p = argparse.ArgumentParser()
-    p.add_argument("--tolerance", type=float, default=1e-9, help="relative difference counted as equal")
+    p.add_argument("--tolerance", type=float, default=1e-8,
+                   help="relative difference counted as equal (floating-point noise between machines is ~1e-9)")
     args = p.parse_args()
     total = same = missing = 0
     worst = (0.0, "")
