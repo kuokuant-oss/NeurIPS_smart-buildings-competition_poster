@@ -1,0 +1,17 @@
+{
+  "id": "antonktt/sb-gt-x8",
+  "title": "SB gt-x8",
+  "code_file": "sb-gt-x8.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "dataset_sources": [],
+  "competition_sources": [
+    "neurips-2026-smart-buildings"
+  ],
+  "kernel_sources": [],
+  "model_sources": []
+}

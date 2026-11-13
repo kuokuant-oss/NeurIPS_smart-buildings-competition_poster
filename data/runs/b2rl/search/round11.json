@@ -1,0 +1,33 @@
+{
+ "_note": "on INNER 29 (rom) l180_freeze0 is -0.62% against s5\n(18/9), and its worst scenarios against s5 are the hot ones (singapore_1 x2, phoenix_3: +0.35 to +0.6%), the same\nthree in l180_freeze2, so they come from the 180 min unoccupied lead, not the freeze protection. Keep the lead at\n180 min in the cold and mild bands and put the hot band (> 25 C, linear from 20 C) back to the rule's 120 min.\nHost python3.",
+ "f0_hot120": {
+  "breaks_c": [
+   0,
+   5,
+   20,
+   25
+  ],
+  "cold": {
+   "heating_max_ratio": 0.4529957279624725,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180
+  },
+  "mild": {
+   "heating_max_ratio": 0.36,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180
+  },
+  "hot": {
+   "heating_max_ratio": 0.4529957279624725,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 120
+  },
+  "rule_config": {
+   "freeze_on_k": 273.15,
+   "freeze_off_k": 276.15
+  }
+ }
+}

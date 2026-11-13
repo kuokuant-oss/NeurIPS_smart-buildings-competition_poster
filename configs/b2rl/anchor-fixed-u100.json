@@ -1,0 +1,12 @@
+{
+ "_note": "The new base (2026-10-28): the fixed-parameter rule that passed both gates on the official simulator (Kaggle j15, .tmp/setup/gates-fixed-u100.json) and was submitted as sb-fixed-u100: the v2 B2-RL actor (data/runs/b2rl/v2-rom-s42, update 100) mean parameters over train_val25, decoded from data/runs/b2rl/offset-check/model-fixed-u100.json. b2rl.py train --anchor: the zero action gives these parameters.",
+ "source": "data/runs/b2rl/offset-check/model-fixed-u100.json",
+ "parameters": {
+  "occupied_margin_k": 0.07262655106825111,
+  "discharge_offset_k": 11.563461318727997,
+  "heating_max_ratio": 0.4529957279624725,
+  "unoccupied_lead_min": 132,
+  "t_opt_max_s": 12165.244914685723,
+  "sp_max_pa": 1807.1323159420097
+ }
+}

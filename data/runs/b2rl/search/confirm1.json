@@ -1,0 +1,8 @@
+{
+ "_note": "held-out check (2026-10-28 22:0x) of round 2 best so far on train_ceiling_rest60 (the 60 of train_ceiling100 not used by the search)",
+ "c1_topt7200": {
+  "heating_max_ratio": 0.36,
+  "t_opt_max_s": 7200.0,
+  "occupied_margin_k": 0.1
+ }
+}

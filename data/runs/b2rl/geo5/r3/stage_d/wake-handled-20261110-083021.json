@@ -1,0 +1,6 @@
+{
+ "time": "2026-11-10 08:25:43",
+ "label": "d",
+ "stage": "submit",
+ "reason": "crash: submit gt_r3d1 exited with code 1: kaggle kernels push failed: 400 Client Error: Bad Request for url: https://api.kaggle.com/v1/kernels.KernelsApiService/SaveKernel"
+}

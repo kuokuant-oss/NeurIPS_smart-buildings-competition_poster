@@ -1,0 +1,176 @@
+2026-11-06 21:09:03 EVENT wu: wu smoke: recording 2 episodes with 2 workers; estimate after the first episodes
+2026-11-06 21:09:18 PROGRESS wu: wu smoke: 0/2 episodes in 0.3 min; memory: our tree 2.3 GB, host used 2.9 GB
+2026-11-06 21:09:25 EVENT wu: wu smoke: estimate fixed from measured progress: 0.4 min for 2 episodes (2 done in 0.4 min)
+2026-11-06 21:09:26 PROGRESS wu: wu smoke: 2/2 episodes in 0.4 min, estimate 0 min; memory: our tree 0.1 GB, host used 0.9 GB
+2026-11-06 21:09:34 EVENT wu: wu data: 9 columns (['o538_2', 'o522_1', 'o545_3'] + ['ratio03_SMe', 'ratio03_SMc', 'heatrelax04_core', 'cool04_SMn', 'cool04_LXn', 'ratio06_LXe']), 24 runs (row 12 = gt_r5pa2, reused) x 188 scenarios = 4324 episodes, workers 11
+2026-11-06 21:09:34 EVENT wu: wu data: recording 4324 episodes with 11 workers; estimate after the first episodes
+2026-11-06 21:09:49 PROGRESS wu: wu data: 0/4324 episodes in 0.3 min; memory: our tree 9.2 GB, host used 8.6 GB
+2026-11-06 21:12:07 EVENT wu: wu data: estimate fixed from measured progress: 1000.7 min for 4324 episodes (11 done in 2.5 min)
+2026-11-06 21:13:58 PROGRESS wu: wu data: 25/4324 episodes in 4.4 min, ETA 756 min (measured), estimate 1001 min; memory: our tree 11.3 GB, host used 10.7 GB; last wur05 train/building_18842/fairbanks_3 cost 0.014163083725502837
+2026-11-06 21:18:00 PROGRESS wu: wu data: 48/4324 episodes in 8.4 min, ETA 751 min (measured), estimate 1001 min; memory: our tree 12.6 GB, host used 12.3 GB; last wur05 train/building_19655/fairbanks_1 cost 0.02603121241286769
+2026-11-06 21:22:02 PROGRESS wu: wu data: 72/4324 episodes in 12.5 min, ETA 736 min (measured), estimate 1001 min; memory: our tree 13.1 GB, host used 13.0 GB
+2026-11-06 21:26:08 PROGRESS wu: wu data: 97/4324 episodes in 16.6 min, ETA 722 min (measured), estimate 1001 min; memory: our tree 11.9 GB, host used 11.6 GB; last wur10 train/building_19664/fairbanks_7 cost 0.005152109051436866
+2026-11-06 21:30:18 PROGRESS wu: wu data: 124/4324 episodes in 20.7 min, ETA 703 min (measured), estimate 1001 min; memory: our tree 9.7 GB, host used 9.5 GB
+2026-11-06 21:34:19 PROGRESS wu: wu data: 148/4324 episodes in 24.7 min, ETA 698 min (measured), estimate 1001 min; memory: our tree 9.8 GB, host used 9.8 GB; last wuf02 train/building_19664/phoenix_1 cost 0.0026841562887084235
+2026-11-06 21:38:24 PROGRESS wu: wu data: 174/4324 episodes in 28.8 min, ETA 688 min (measured), estimate 1001 min; memory: our tree 9.9 GB, host used 9.1 GB
+2026-11-06 21:42:27 PROGRESS wu: wu data: 202/4324 episodes in 32.9 min, ETA 671 min (measured), estimate 1001 min; memory: our tree 11.9 GB, host used 11.3 GB; last wuf10 train/building_18842/fairbanks_3 cost 0.014019141559330187
+2026-11-06 21:46:37 PROGRESS wu: wu data: 226/4324 episodes in 37.1 min, ETA 672 min (measured), estimate 1001 min; memory: our tree 12.8 GB, host used 12.2 GB
+2026-11-06 21:50:48 PROGRESS wu: wu data: 257/4324 episodes in 41.2 min, ETA 653 min (measured), estimate 1001 min; memory: our tree 9.5 GB, host used 8.8 GB; last wuf10 train/building_19768/fairbanks_3 cost 0.01782476713115006
+2026-11-06 21:54:54 PROGRESS wu: wu data: 285/4324 episodes in 45.3 min, ETA 643 min (measured), estimate 1001 min; memory: our tree 10.8 GB, host used 10.1 GB; last wur06 train/building_11902/phoenix_5 cost 0.012526309886484035
+2026-11-06 21:59:09 PROGRESS wu: wu data: 312/4324 episodes in 49.6 min, ETA 638 min (measured), estimate 1001 min; memory: our tree 12.3 GB, host used 11.6 GB
+2026-11-06 22:03:13 PROGRESS wu: wu data: 338/4324 episodes in 53.7 min, ETA 633 min (measured), estimate 1001 min; memory: our tree 13.2 GB, host used 12.7 GB; last wuf10 train/building_18764/denver_7 cost 0.008274292353392634
+2026-11-06 22:07:27 PROGRESS wu: wu data: 366/4324 episodes in 57.9 min, ETA 626 min (measured), estimate 1001 min; memory: our tree 10.4 GB, host used 9.7 GB
+2026-11-06 22:11:33 PROGRESS wu: wu data: 394/4324 episodes in 62.0 min, ETA 618 min (measured), estimate 1001 min; memory: our tree 10.2 GB, host used 9.5 GB
+2026-11-06 22:15:38 PROGRESS wu: wu data: 421/4324 episodes in 66.1 min, ETA 612 min (measured), estimate 1001 min; memory: our tree 12.2 GB, host used 11.6 GB; last wur07 train/building_19655/denver_1 cost 0.008042330532865273
+2026-11-06 22:19:47 PROGRESS wu: wu data: 447/4324 episodes in 70.2 min, ETA 609 min (measured), estimate 1001 min; memory: our tree 12.4 GB, host used 11.8 GB; last wuf02 train/building_12336/atlanta_7 cost 0.004337084730859249
+2026-11-06 22:23:59 PROGRESS wu: wu data: 474/4324 episodes in 74.4 min, ETA 604 min (measured), estimate 1001 min; memory: our tree 10.7 GB, host used 10.0 GB
+2026-11-06 22:28:13 PROGRESS wu: wu data: 504/4324 episodes in 78.7 min, ETA 596 min (measured), estimate 1001 min; memory: our tree 9.8 GB, host used 9.2 GB
+2026-11-06 22:32:27 PROGRESS wu: wu data: 530/4324 episodes in 82.9 min, ETA 593 min (measured), estimate 1001 min; memory: our tree 11.2 GB, host used 10.5 GB
+2026-11-06 22:36:27 PROGRESS wu: wu data: 555/4324 episodes in 86.9 min, ETA 590 min (measured), estimate 1001 min; memory: our tree 11.0 GB, host used 10.4 GB
+2026-11-06 22:40:34 PROGRESS wu: wu data: 580/4324 episodes in 91.0 min, ETA 587 min (measured), estimate 1001 min; memory: our tree 11.2 GB, host used 10.6 GB; last wur07 train/building_10740/phoenix_3 cost 0.004633147315494241
+2026-11-06 22:44:36 PROGRESS wu: wu data: 604/4324 episodes in 95.0 min, ETA 585 min (measured), estimate 1001 min; memory: our tree 11.8 GB, host used 11.1 GB; last wur08 train/building_14219/phoenix_1 cost 0.005389417287141703
+2026-11-06 22:48:42 PROGRESS wu: wu data: 630/4324 episodes in 99.1 min, ETA 581 min (measured), estimate 1001 min; memory: our tree 10.8 GB, host used 10.1 GB; last wuf02 train/building_19664/singapore_1 cost 0.004694689705486928
+2026-11-06 22:52:49 PROGRESS wu: wu data: 653/4324 episodes in 103.3 min, ETA 580 min (measured), estimate 1001 min; memory: our tree 11.2 GB, host used 10.4 GB
+2026-11-06 22:56:57 PROGRESS wu: wu data: 681/4324 episodes in 107.4 min, ETA 574 min (measured), estimate 1001 min; memory: our tree 11.2 GB, host used 10.5 GB
+2026-11-06 23:00:58 PROGRESS wu: wu data: 709/4324 episodes in 111.4 min, ETA 568 min (measured), estimate 1001 min; memory: our tree 10.8 GB, host used 10.2 GB; last wuf08 train/building_16821/atlanta_7 cost 0.0029226799198793273
+2026-11-06 23:05:08 PROGRESS wu: wu data: 735/4324 episodes in 115.6 min, ETA 564 min (measured), estimate 1001 min; memory: our tree 11.3 GB, host used 10.6 GB; last wur03 train/building_18842/phoenix_7 cost 0.009144459560123013
+2026-11-06 23:09:19 PROGRESS wu: wu data: 759/4324 episodes in 119.7 min, ETA 562 min (measured), estimate 1001 min; memory: our tree 11.8 GB, host used 11.1 GB
+2026-11-06 23:13:25 PROGRESS wu: wu data: 785/4324 episodes in 123.9 min, ETA 558 min (measured), estimate 1001 min; memory: our tree 10.5 GB, host used 9.8 GB
+2026-11-06 23:17:25 PROGRESS wu: wu data: 809/4324 episodes in 127.9 min, ETA 556 min (measured), estimate 1001 min; memory: our tree 10.7 GB, host used 9.9 GB; last wur10 train/building_14979/fairbanks_1 cost 0.022990260387328848
+2026-11-06 23:21:33 PROGRESS wu: wu data: 837/4324 episodes in 132.0 min, ETA 550 min (measured), estimate 1001 min; memory: our tree 12.0 GB, host used 11.5 GB; last wur10 train/building_14078/atlanta_1 cost 0.007057314324112171
+2026-11-06 23:25:37 PROGRESS wu: wu data: 864/4324 episodes in 136.1 min, ETA 545 min (measured), estimate 1001 min; memory: our tree 10.7 GB, host used 10.2 GB; last wuf02 train/building_19299/atlanta_7 cost 0.00574322117168939
+2026-11-06 23:29:45 PROGRESS wu: wu data: 888/4324 episodes in 140.2 min, ETA 542 min (measured), estimate 1001 min; memory: our tree 11.9 GB, host used 11.3 GB; last wuf09 train/building_18842/phoenix_7 cost 0.009095674017318554
+2026-11-06 23:33:45 PROGRESS wu: wu data: 912/4324 episodes in 144.2 min, ETA 539 min (measured), estimate 1001 min; memory: our tree 11.6 GB, host used 10.9 GB
+2026-11-06 23:38:00 PROGRESS wu: wu data: 938/4324 episodes in 148.4 min, ETA 536 min (measured), estimate 1001 min; memory: our tree 10.6 GB, host used 10.0 GB
+2026-11-06 23:42:02 PROGRESS wu: wu data: 963/4324 episodes in 152.5 min, ETA 532 min (measured), estimate 1001 min; memory: our tree 11.0 GB, host used 10.3 GB; last wur03 train/building_14979/fairbanks_1 cost 0.02303795019302759
+2026-11-06 23:46:05 PROGRESS wu: wu data: 989/4324 episodes in 156.5 min, ETA 528 min (measured), estimate 1001 min; memory: our tree 12.5 GB, host used 12.0 GB; last wur05 train/building_11852/atlanta_5 cost 0.004467206841713229
+2026-11-06 23:50:11 PROGRESS wu: wu data: 1016/4324 episodes in 160.6 min, ETA 523 min (measured), estimate 1001 min; memory: our tree 10.8 GB, host used 10.1 GB
+2026-11-06 23:54:11 PROGRESS wu: wu data: 1041/4324 episodes in 164.6 min, ETA 519 min (measured), estimate 1001 min; memory: our tree 11.2 GB, host used 10.5 GB; last wur11 train/building_11852/phoenix_1 cost 0.002487999514804976
+2026-11-06 23:58:11 PROGRESS wu: wu data: 1064/4324 episodes in 168.6 min, ETA 517 min (measured), estimate 1001 min; memory: our tree 10.5 GB, host used 9.9 GB; last wur07 train/building_12739/atlanta_3 cost 0.002860324973077643
+2026-11-07 00:02:15 PROGRESS wu: wu data: 1094/4324 episodes in 172.7 min, ETA 510 min (measured), estimate 1001 min; memory: our tree 8.8 GB, host used 8.2 GB; last wur11 train/building_14540/atlanta_5 cost 0.006544529313068843
+2026-11-07 00:06:19 PROGRESS wu: wu data: 1120/4324 episodes in 176.7 min, ETA 506 min (measured), estimate 1001 min; memory: our tree 9.3 GB, host used 8.5 GB
+2026-11-07 00:10:20 PROGRESS wu: wu data: 1150/4324 episodes in 180.8 min, ETA 499 min (measured), estimate 1001 min; memory: our tree 9.4 GB, host used 8.6 GB; last wuf12 train/building_11104/atlanta_7 cost 0.0038178126030076398
+2026-11-07 00:14:27 PROGRESS wu: wu data: 1176/4324 episodes in 184.9 min, ETA 495 min (measured), estimate 1001 min; memory: our tree 10.0 GB, host used 9.3 GB
+2026-11-07 00:18:35 PROGRESS wu: wu data: 1207/4324 episodes in 189.0 min, ETA 488 min (measured), estimate 1001 min; memory: our tree 8.9 GB, host used 8.2 GB
+2026-11-07 00:22:36 PROGRESS wu: wu data: 1233/4324 episodes in 193.0 min, ETA 484 min (measured), estimate 1001 min; memory: our tree 10.6 GB, host used 9.9 GB; last wuf07 train/building_10298/atlanta_5 cost 0.008690259397319662
+2026-11-07 00:26:42 PROGRESS wu: wu data: 1261/4324 episodes in 197.1 min, ETA 479 min (measured), estimate 1001 min; memory: our tree 9.6 GB, host used 8.9 GB
+2026-11-07 00:30:54 PROGRESS wu: wu data: 1291/4324 episodes in 201.3 min, ETA 473 min (measured), estimate 1001 min; memory: our tree 10.0 GB, host used 9.4 GB; last wur05 train/building_17001/atlanta_5 cost 0.007909666883043431
+2026-11-07 00:35:02 PROGRESS wu: wu data: 1319/4324 episodes in 205.5 min, ETA 468 min (measured), estimate 1001 min; memory: our tree 9.5 GB, host used 8.9 GB; last wur11 train/building_12618/denver_3 cost 0.006133331175350297
+2026-11-07 00:39:12 PROGRESS wu: wu data: 1349/4324 episodes in 209.6 min, ETA 462 min (measured), estimate 1001 min; memory: our tree 9.9 GB, host used 9.2 GB
+2026-11-07 00:43:19 PROGRESS wu: wu data: 1375/4324 episodes in 213.7 min, ETA 458 min (measured), estimate 1001 min; memory: our tree 10.1 GB, host used 9.3 GB
+2026-11-07 00:47:23 PROGRESS wu: wu data: 1405/4324 episodes in 217.8 min, ETA 453 min (measured), estimate 1001 min; memory: our tree 9.2 GB, host used 8.4 GB
+2026-11-07 00:51:26 PROGRESS wu: wu data: 1432/4324 episodes in 221.9 min, ETA 448 min (measured), estimate 1001 min; memory: our tree 10.0 GB, host used 9.2 GB; last wur09 train/building_10298/atlanta_5 cost 0.008646997949481879
+2026-11-07 00:55:28 PROGRESS wu: wu data: 1459/4324 episodes in 225.9 min, ETA 444 min (measured), estimate 1001 min; memory: our tree 10.0 GB, host used 9.3 GB
+2026-11-07 00:59:33 PROGRESS wu: wu data: 1488/4324 episodes in 230.0 min, ETA 438 min (measured), estimate 1001 min; memory: our tree 9.3 GB, host used 8.7 GB; last wuf08 train/building_16671/atlanta_3 cost 0.0027654690294224436
+2026-11-07 01:03:39 PROGRESS wu: wu data: 1517/4324 episodes in 234.1 min, ETA 433 min (measured), estimate 1001 min; memory: our tree 9.4 GB, host used 8.7 GB; last wuf11 train/building_11104/denver_3 cost 0.0037366890650576386
+2026-11-07 01:07:51 PROGRESS wu: wu data: 1546/4324 episodes in 238.3 min, ETA 428 min (measured), estimate 1001 min; memory: our tree 10.3 GB, host used 9.6 GB
+2026-11-07 01:11:55 PROGRESS wu: wu data: 1574/4324 episodes in 242.3 min, ETA 423 min (measured), estimate 1001 min; memory: our tree 9.7 GB, host used 9.1 GB; last wuf01 train/building_14277/atlanta_3 cost 0.00533221152397628
+2026-11-07 01:15:55 PROGRESS wu: wu data: 1601/4324 episodes in 246.4 min, ETA 419 min (measured), estimate 1001 min; memory: our tree 10.8 GB, host used 10.2 GB
+2026-11-07 01:20:04 PROGRESS wu: wu data: 1627/4324 episodes in 250.5 min, ETA 415 min (measured), estimate 1001 min; memory: our tree 9.9 GB, host used 9.1 GB
+2026-11-07 01:24:07 PROGRESS wu: wu data: 1652/4324 episodes in 254.5 min, ETA 412 min (measured), estimate 1001 min; memory: our tree 11.4 GB, host used 10.7 GB
+2026-11-07 01:28:14 PROGRESS wu: wu data: 1681/4324 episodes in 258.7 min, ETA 407 min (measured), estimate 1001 min; memory: our tree 10.6 GB, host used 9.9 GB; last wur04 train/building_10298/fairbanks_5 cost 0.003895533652398373
+2026-11-07 01:32:27 PROGRESS wu: wu data: 1706/4324 episodes in 262.9 min, ETA 403 min (measured), estimate 1001 min; memory: our tree 10.8 GB, host used 10.1 GB
+2026-11-07 01:36:30 PROGRESS wu: wu data: 1735/4324 episodes in 266.9 min, ETA 398 min (measured), estimate 1001 min; memory: our tree 10.6 GB, host used 9.9 GB; last wur05 train/building_11754/fairbanks_3 cost 0.011161461603541681
+2026-11-07 01:40:39 PROGRESS wu: wu data: 1759/4324 episodes in 271.1 min, ETA 395 min (measured), estimate 1001 min; memory: our tree 10.6 GB, host used 9.8 GB
+2026-11-07 01:44:52 PROGRESS wu: wu data: 1785/4324 episodes in 275.3 min, ETA 392 min (measured), estimate 1001 min; memory: our tree 12.1 GB, host used 11.3 GB; last wuf07 train/building_14078/denver_3 cost 0.0066686688845968714
+2026-11-07 01:49:03 PROGRESS wu: wu data: 1815/4324 episodes in 279.5 min, ETA 386 min (measured), estimate 1001 min; memory: our tree 8.9 GB, host used 8.2 GB
+2026-11-07 01:53:07 PROGRESS wu: wu data: 1840/4324 episodes in 283.5 min, ETA 383 min (measured), estimate 1001 min; memory: our tree 11.0 GB, host used 10.4 GB; last wuf07 train/building_15570/denver_1 cost 0.011895041158284212
+2026-11-07 01:57:10 PROGRESS wu: wu data: 1868/4324 episodes in 287.6 min, ETA 378 min (measured), estimate 1001 min; memory: our tree 11.4 GB, host used 10.8 GB; last wuf12 train/building_11754/fairbanks_3 cost 0.011209244494634644
+2026-11-07 02:01:11 PROGRESS wu: wu data: 1892/4324 episodes in 291.6 min, ETA 375 min (measured), estimate 1001 min; memory: our tree 10.6 GB, host used 9.9 GB
+2026-11-07 02:05:17 PROGRESS wu: wu data: 1917/4324 episodes in 295.7 min, ETA 371 min (measured), estimate 1001 min; memory: our tree 11.3 GB, host used 10.5 GB; last wuf05 train/building_16710/denver_1 cost 0.03635872162801355
+2026-11-07 02:09:21 PROGRESS wu: wu data: 1945/4324 episodes in 299.8 min, ETA 367 min (measured), estimate 1001 min; memory: our tree 10.7 GB, host used 10.1 GB; last wuf05 train/building_10298/fairbanks_5 cost 0.0039648184286858
+2026-11-07 02:13:24 PROGRESS wu: wu data: 1970/4324 episodes in 303.8 min, ETA 363 min (measured), estimate 1001 min; memory: our tree 10.2 GB, host used 9.5 GB; last wuf10 train/building_12302/fairbanks_3 cost 0.005561667479071163
+2026-11-07 02:17:39 PROGRESS wu: wu data: 1997/4324 episodes in 308.1 min, ETA 359 min (measured), estimate 1001 min; memory: our tree 11.2 GB, host used 10.6 GB
+2026-11-07 02:21:53 PROGRESS wu: wu data: 2024/4324 episodes in 312.3 min, ETA 355 min (measured), estimate 1001 min; memory: our tree 10.6 GB, host used 9.9 GB
+2026-11-07 02:26:01 PROGRESS wu: wu data: 2050/4324 episodes in 316.4 min, ETA 351 min (measured), estimate 1001 min; memory: our tree 11.2 GB, host used 10.5 GB; last wur06 train/building_14078/denver_3 cost 0.006680971497469366
+2026-11-07 02:30:09 PROGRESS wu: wu data: 2079/4324 episodes in 320.6 min, ETA 346 min (measured), estimate 1001 min; memory: our tree 10.3 GB, host used 9.7 GB; last wuf12 train/building_15570/fairbanks_3 cost 0.011731209857414247
+2026-11-07 02:34:14 PROGRESS wu: wu data: 2103/4324 episodes in 324.7 min, ETA 343 min (measured), estimate 1001 min; memory: our tree 11.2 GB, host used 10.5 GB; last wur06 train/building_15570/denver_1 cost 0.011719968202838233
+2026-11-07 02:38:16 PROGRESS wu: wu data: 2130/4324 episodes in 328.7 min, ETA 339 min (measured), estimate 1001 min; memory: our tree 11.4 GB, host used 10.6 GB
+2026-11-07 02:42:21 PROGRESS wu: wu data: 2159/4324 episodes in 332.8 min, ETA 334 min (measured), estimate 1001 min; memory: our tree 9.8 GB, host used 9.2 GB; last wuf05 train/building_12098/singapore_1 cost 0.004630692796741187
+2026-11-07 02:46:33 PROGRESS wu: wu data: 2185/4324 episodes in 337.0 min, ETA 330 min (measured), estimate 1001 min; memory: our tree 10.5 GB, host used 9.8 GB
+2026-11-07 02:50:40 PROGRESS wu: wu data: 2216/4324 episodes in 341.1 min, ETA 324 min (measured), estimate 1001 min; memory: our tree 9.8 GB, host used 9.3 GB; last wur05 train/building_14540/phoenix_5 cost 0.01134449475725373
+2026-11-07 02:54:48 PROGRESS wu: wu data: 2242/4324 episodes in 345.2 min, ETA 321 min (measured), estimate 1001 min; memory: our tree 10.5 GB, host used 9.8 GB; last wuf03 train/building_14078/singapore_3 cost 0.009016626705177389
+2026-11-07 02:58:56 PROGRESS wu: wu data: 2271/4324 episodes in 349.4 min, ETA 316 min (measured), estimate 1001 min; memory: our tree 9.6 GB, host used 9.0 GB; last wur11 train/building_12098/singapore_1 cost 0.004624004759208021
+2026-11-07 03:02:57 PROGRESS wu: wu data: 2295/4324 episodes in 353.4 min, ETA 312 min (measured), estimate 1001 min; memory: our tree 10.1 GB, host used 9.3 GB
+2026-11-07 03:07:05 PROGRESS wu: wu data: 2326/4324 episodes in 357.5 min, ETA 307 min (measured), estimate 1001 min; memory: our tree 10.6 GB, host used 9.9 GB; last wuf09 train/building_14042/phoenix_1 cost 0.005576203635821328
+2026-11-07 03:11:13 PROGRESS wu: wu data: 2351/4324 episodes in 361.6 min, ETA 303 min (measured), estimate 1001 min; memory: our tree 10.7 GB, host used 10.0 GB; last wur05 train/building_11104/singapore_3 cost 0.007538396640227777
+2026-11-07 03:15:13 PROGRESS wu: wu data: 2378/4324 episodes in 365.7 min, ETA 299 min (measured), estimate 1001 min; memory: our tree 9.1 GB, host used 8.5 GB; last wuf02 train/building_12120/phoenix_3 cost 0.013112799875899857
+2026-11-07 03:19:18 PROGRESS wu: wu data: 2405/4324 episodes in 369.7 min, ETA 295 min (measured), estimate 1001 min; memory: our tree 10.0 GB, host used 9.2 GB; last wur10 train/building_15361/singapore_1 cost 0.004444306115755371
+2026-11-07 03:23:23 PROGRESS wu: wu data: 2432/4324 episodes in 373.8 min, ETA 291 min (measured), estimate 1001 min; memory: our tree 11.1 GB, host used 10.5 GB; last wuf07 train/building_14277/phoenix_3 cost 0.010178102897873811
+2026-11-07 03:27:26 PROGRESS wu: wu data: 2460/4324 episodes in 377.9 min, ETA 286 min (measured), estimate 1001 min; memory: our tree 10.7 GB, host used 10.0 GB; last wuf12 train/building_10298/singapore_3 cost 0.009316707684324398
+2026-11-07 03:31:31 PROGRESS wu: wu data: 2486/4324 episodes in 381.9 min, ETA 282 min (measured), estimate 1001 min; memory: our tree 10.6 GB, host used 9.9 GB; last wur04 train/building_14277/singapore_1 cost 0.009727975286965609
+2026-11-07 03:35:35 PROGRESS wu: wu data: 2514/4324 episodes in 386.0 min, ETA 278 min (measured), estimate 1001 min; memory: our tree 9.6 GB, host used 8.8 GB; last wur09 train/building_12618/phoenix_3 cost 0.00712275097566728
+2026-11-07 03:39:41 PROGRESS wu: wu data: 2542/4324 episodes in 390.1 min, ETA 273 min (measured), estimate 1001 min; memory: our tree 10.4 GB, host used 9.8 GB; last wuf02 train/building_14277/phoenix_3 cost 0.010117619749674869
+2026-11-07 03:43:46 PROGRESS wu: wu data: 2570/4324 episodes in 394.2 min, ETA 269 min (measured), estimate 1001 min; memory: our tree 10.5 GB, host used 9.8 GB; last wuf07 train/building_10298/singapore_3 cost 0.009359876577555003
+2026-11-07 03:47:47 PROGRESS wu: wu data: 2594/4324 episodes in 398.2 min, ETA 266 min (measured), estimate 1001 min; memory: our tree 10.6 GB, host used 9.8 GB
+2026-11-07 03:51:58 PROGRESS wu: wu data: 2624/4324 episodes in 402.4 min, ETA 261 min (measured), estimate 1001 min; memory: our tree 9.6 GB, host used 8.9 GB
+2026-11-07 03:56:11 PROGRESS wu: wu data: 2652/4324 episodes in 406.6 min, ETA 256 min (measured), estimate 1001 min; memory: our tree 10.8 GB, host used 10.1 GB
+2026-11-07 04:00:25 PROGRESS wu: wu data: 2677/4324 episodes in 410.9 min, ETA 253 min (measured), estimate 1001 min; memory: our tree 11.2 GB, host used 10.5 GB
+2026-11-07 04:04:31 PROGRESS wu: wu data: 2699/4324 episodes in 415.0 min, ETA 250 min (measured), estimate 1001 min; memory: our tree 11.6 GB, host used 10.9 GB
+2026-11-07 04:08:33 PROGRESS wu: wu data: 2723/4324 episodes in 419.0 min, ETA 246 min (measured), estimate 1001 min; memory: our tree 11.4 GB, host used 10.7 GB
+2026-11-07 04:12:33 PROGRESS wu: wu data: 2746/4324 episodes in 423.0 min, ETA 243 min (measured), estimate 1001 min; memory: our tree 12.1 GB, host used 11.4 GB; last wur06 gen5/building_11446/atlanta_7 cost 0.0032925882167763694
+2026-11-07 04:16:35 PROGRESS wu: wu data: 2768/4324 episodes in 427.0 min, ETA 240 min (measured), estimate 1001 min; memory: our tree 11.6 GB, host used 11.0 GB
+2026-11-07 04:20:38 PROGRESS wu: wu data: 2794/4324 episodes in 431.1 min, ETA 236 min (measured), estimate 1001 min; memory: our tree 11.1 GB, host used 10.7 GB; last wuf03 gen5/building_10085/denver_7 cost 0.0020160137714983987
+2026-11-07 04:24:40 PROGRESS wu: wu data: 2820/4324 episodes in 435.1 min, ETA 232 min (measured), estimate 1001 min; memory: our tree 11.7 GB, host used 11.2 GB; last wuf01 gen5/building_18017/atlanta_1 cost 0.002062754345870866
+2026-11-07 04:28:45 PROGRESS wu: wu data: 2845/4324 episodes in 439.2 min, ETA 228 min (measured), estimate 1001 min; memory: our tree 10.0 GB, host used 9.4 GB; last wuf05 train/building_16671/singapore_3 cost 0.005174587558076219
+2026-11-07 04:32:47 PROGRESS wu: wu data: 2868/4324 episodes in 443.2 min, ETA 225 min (measured), estimate 1001 min; memory: our tree 11.1 GB, host used 10.5 GB; last wuf11 gen5/building_11757/phoenix_7 cost 0.004166421399037663
+2026-11-07 04:36:50 PROGRESS wu: wu data: 2892/4324 episodes in 447.3 min, ETA 221 min (measured), estimate 1001 min; memory: our tree 10.6 GB, host used 9.8 GB; last wuf05 train/building_17001/singapore_1 cost 0.007537045440185838
+2026-11-07 04:40:58 PROGRESS wu: wu data: 2917/4324 episodes in 451.4 min, ETA 218 min (measured), estimate 1001 min; memory: our tree 10.9 GB, host used 10.2 GB
+2026-11-07 04:45:03 PROGRESS wu: wu data: 2941/4324 episodes in 455.5 min, ETA 214 min (measured), estimate 1001 min; memory: our tree 11.0 GB, host used 10.4 GB
+2026-11-07 04:49:10 PROGRESS wu: wu data: 2964/4324 episodes in 459.6 min, ETA 211 min (measured), estimate 1001 min; memory: our tree 11.6 GB, host used 10.9 GB; last wur02 gen5/building_12214/phoenix_3 cost 0.006874179818935155
+2026-11-07 04:53:15 PROGRESS wu: wu data: 2987/4324 episodes in 463.7 min, ETA 208 min (measured), estimate 1001 min; memory: our tree 11.1 GB, host used 10.4 GB
+2026-11-07 04:57:16 PROGRESS wu: wu data: 3009/4324 episodes in 467.7 min, ETA 204 min (measured), estimate 1001 min; memory: our tree 12.2 GB, host used 11.5 GB; last wuf12 gen5/building_16558/singapore_3 cost 0.01717606114748556
+2026-11-07 05:01:23 PROGRESS wu: wu data: 3032/4324 episodes in 471.8 min, ETA 201 min (measured), estimate 1001 min; memory: our tree 11.4 GB, host used 10.7 GB
+2026-11-07 05:05:29 PROGRESS wu: wu data: 3056/4324 episodes in 475.9 min, ETA 197 min (measured), estimate 1001 min; memory: our tree 12.1 GB, host used 11.5 GB
+2026-11-07 05:09:29 PROGRESS wu: wu data: 3081/4324 episodes in 479.9 min, ETA 194 min (measured), estimate 1001 min; memory: our tree 10.9 GB, host used 10.3 GB; last wur02 gen5/building_15002/denver_1 cost 0.017583347646780864
+2026-11-07 05:13:31 PROGRESS wu: wu data: 3105/4324 episodes in 484.0 min, ETA 190 min (measured), estimate 1001 min; memory: our tree 12.1 GB, host used 11.4 GB; last wuf10 gen5/building_16154/fairbanks_3 cost 0.015674324244110957
+2026-11-07 05:17:35 PROGRESS wu: wu data: 3130/4324 episodes in 488.0 min, ETA 186 min (measured), estimate 1001 min; memory: our tree 11.8 GB, host used 11.3 GB; last wuf11 gen5/building_18017/atlanta_1 cost 0.001970916610570168
+2026-11-07 05:21:47 PROGRESS wu: wu data: 3153/4324 episodes in 492.2 min, ETA 183 min (measured), estimate 1001 min; memory: our tree 11.5 GB, host used 10.8 GB
+2026-11-07 05:25:51 PROGRESS wu: wu data: 3178/4324 episodes in 496.3 min, ETA 179 min (measured), estimate 1001 min; memory: our tree 9.0 GB, host used 8.3 GB; last wur07 gen5/building_11520/atlanta_7 cost 0.0020525630119467937
+2026-11-07 05:29:53 PROGRESS wu: wu data: 3202/4324 episodes in 500.3 min, ETA 175 min (measured), estimate 1001 min; memory: our tree 9.3 GB, host used 8.5 GB
+2026-11-07 05:33:53 PROGRESS wu: wu data: 3227/4324 episodes in 504.3 min, ETA 171 min (measured), estimate 1001 min; memory: our tree 9.9 GB, host used 9.2 GB
+2026-11-07 05:38:01 PROGRESS wu: wu data: 3249/4324 episodes in 508.4 min, ETA 168 min (measured), estimate 1001 min; memory: our tree 11.4 GB, host used 10.7 GB; last wur09 gen5/building_12689/singapore_3 cost 0.0148548251693715
+2026-11-07 05:42:02 PROGRESS wu: wu data: 3274/4324 episodes in 512.5 min, ETA 164 min (measured), estimate 1001 min; memory: our tree 11.0 GB, host used 10.3 GB; last wuf03 gen5/building_15729/denver_1 cost 0.018781488334843416
+2026-11-07 05:46:09 PROGRESS wu: wu data: 3298/4324 episodes in 516.6 min, ETA 161 min (measured), estimate 1001 min; memory: our tree 11.5 GB, host used 10.8 GB; last wur09 gen5/building_12515/fairbanks_3 cost 0.005539091403855333
+2026-11-07 05:50:15 PROGRESS wu: wu data: 3324/4324 episodes in 520.7 min, ETA 157 min (measured), estimate 1001 min; memory: our tree 10.0 GB, host used 9.3 GB; last wuf04 gen5/building_18511/atlanta_5 cost 0.00627549985059008
+2026-11-07 05:54:15 PROGRESS wu: wu data: 3348/4324 episodes in 524.7 min, ETA 153 min (measured), estimate 1001 min; memory: our tree 9.2 GB, host used 8.5 GB; last wuf05 gen5/building_13755/denver_5 cost 0.005119680709980091
+2026-11-07 05:58:22 PROGRESS wu: wu data: 3373/4324 episodes in 528.8 min, ETA 149 min (measured), estimate 1001 min; memory: our tree 10.4 GB, host used 9.7 GB; last wuf05 gen5/building_19387/atlanta_5 cost 0.006970006508952578
+2026-11-07 06:02:24 PROGRESS wu: wu data: 3399/4324 episodes in 532.8 min, ETA 145 min (measured), estimate 1001 min; memory: our tree 9.4 GB, host used 8.6 GB; last wuf04 gen5/building_19387/atlanta_5 cost 0.006961172275868543
+2026-11-07 06:06:27 PROGRESS wu: wu data: 3424/4324 episodes in 536.9 min, ETA 141 min (measured), estimate 1001 min; memory: our tree 10.2 GB, host used 9.4 GB
+2026-11-07 06:10:31 PROGRESS wu: wu data: 3447/4324 episodes in 541.0 min, ETA 138 min (measured), estimate 1001 min; memory: our tree 11.1 GB, host used 10.4 GB
+2026-11-07 06:14:42 PROGRESS wu: wu data: 3472/4324 episodes in 545.1 min, ETA 134 min (measured), estimate 1001 min; memory: our tree 11.2 GB, host used 10.5 GB
+2026-11-07 06:18:42 PROGRESS wu: wu data: 3498/4324 episodes in 549.1 min, ETA 130 min (measured), estimate 1001 min; memory: our tree 10.0 GB, host used 9.2 GB; last wur02 gen5/building_13787/atlanta_1 cost 0.005612574360415154
+2026-11-07 06:22:50 PROGRESS wu: wu data: 3523/4324 episodes in 553.3 min, ETA 126 min (measured), estimate 1001 min; memory: our tree 9.1 GB, host used 8.4 GB
+2026-11-07 06:26:59 PROGRESS wu: wu data: 3548/4324 episodes in 557.4 min, ETA 122 min (measured), estimate 1001 min; memory: our tree 10.0 GB, host used 9.2 GB
+2026-11-07 06:31:03 PROGRESS wu: wu data: 3576/4324 episodes in 561.5 min, ETA 117 min (measured), estimate 1001 min; memory: our tree 9.2 GB, host used 8.6 GB; last wur11 gen5/building_10585/phoenix_7 cost 0.0051018360844119395
+2026-11-07 06:35:09 PROGRESS wu: wu data: 3600/4324 episodes in 565.6 min, ETA 114 min (measured), estimate 1001 min; memory: our tree 9.5 GB, host used 8.7 GB
+2026-11-07 06:39:19 PROGRESS wu: wu data: 3624/4324 episodes in 569.8 min, ETA 110 min (measured), estimate 1001 min; memory: our tree 11.0 GB, host used 10.3 GB; last wuf05 gen5/building_12689/singapore_3 cost 0.014854768729940902
+2026-11-07 06:43:21 PROGRESS wu: wu data: 3648/4324 episodes in 573.8 min, ETA 106 min (measured), estimate 1001 min; memory: our tree 11.4 GB, host used 10.7 GB; last wuf05 gen5/building_15185/phoenix_3 cost 0.004414576870435363
+2026-11-07 06:47:25 PROGRESS wu: wu data: 3672/4324 episodes in 577.8 min, ETA 103 min (measured), estimate 1001 min; memory: our tree 11.5 GB, host used 10.8 GB; last wur10 gen5/building_11673/singapore_1 cost 0.007382966743649717
+2026-11-07 06:51:28 PROGRESS wu: wu data: 3698/4324 episodes in 581.9 min, ETA 99 min (measured), estimate 1001 min; memory: our tree 10.8 GB, host used 10.3 GB; last wuf05 gen5/building_17053/atlanta_3 cost 0.003987345730134232
+2026-11-07 06:55:37 PROGRESS wu: wu data: 3725/4324 episodes in 586.1 min, ETA 94 min (measured), estimate 1001 min; memory: our tree 11.0 GB, host used 10.4 GB
+2026-11-07 06:59:37 PROGRESS wu: wu data: 3750/4324 episodes in 590.1 min, ETA 90 min (measured), estimate 1001 min; memory: our tree 10.1 GB, host used 9.4 GB; last wur06 gen5/building_16255/singapore_7 cost 0.007512192266358087
+2026-11-07 07:03:47 PROGRESS wu: wu data: 3775/4324 episodes in 594.2 min, ETA 86 min (measured), estimate 1001 min; memory: our tree 10.8 GB, host used 10.1 GB
+2026-11-07 07:07:52 PROGRESS wu: wu data: 3803/4324 episodes in 598.3 min, ETA 82 min (measured), estimate 1001 min; memory: our tree 10.7 GB, host used 10.1 GB; last wuf01 gen5/building_16592/fairbanks_7 cost 0.004457217220454186
+2026-11-07 07:11:56 PROGRESS wu: wu data: 3827/4324 episodes in 602.4 min, ETA 78 min (measured), estimate 1001 min; memory: our tree 10.9 GB, host used 10.2 GB
+2026-11-07 07:16:06 PROGRESS wu: wu data: 3854/4324 episodes in 606.5 min, ETA 74 min (measured), estimate 1001 min; memory: our tree 10.7 GB, host used 10.0 GB
+2026-11-07 07:20:13 PROGRESS wu: wu data: 3881/4324 episodes in 610.7 min, ETA 70 min (measured), estimate 1001 min; memory: our tree 10.7 GB, host used 10.2 GB; last wuf06 gen5/building_11214/singapore_5 cost 0.01692425303316252
+2026-11-07 07:24:16 PROGRESS wu: wu data: 3907/4324 episodes in 614.7 min, ETA 66 min (measured), estimate 1001 min; memory: our tree 10.1 GB, host used 9.5 GB; last wuf11 gen5/building_11623/phoenix_1 cost 0.00607678718966308
+2026-11-07 07:28:21 PROGRESS wu: wu data: 3933/4324 episodes in 618.8 min, ETA 62 min (measured), estimate 1001 min; memory: our tree 12.4 GB, host used 11.7 GB; last wur02 gen5/building_15934/atlanta_3 cost 0.004810182575692013
+2026-11-07 07:32:24 PROGRESS wu: wu data: 3959/4324 episodes in 622.8 min, ETA 57 min (measured), estimate 1001 min; memory: our tree 10.5 GB, host used 9.9 GB
+2026-11-07 07:36:30 PROGRESS wu: wu data: 3984/4324 episodes in 626.9 min, ETA 54 min (measured), estimate 1001 min; memory: our tree 11.3 GB, host used 10.7 GB; last wur09 train/building_18061/denver_3 cost 0.003084567943198752
+2026-11-07 07:40:39 PROGRESS wu: wu data: 4010/4324 episodes in 631.1 min, ETA 49 min (measured), estimate 1001 min; memory: our tree 11.6 GB, host used 11.0 GB
+2026-11-07 07:44:39 PROGRESS wu: wu data: 4036/4324 episodes in 635.1 min, ETA 45 min (measured), estimate 1001 min; memory: our tree 10.7 GB, host used 10.1 GB; last wuf06 gen5/building_16255/singapore_7 cost 0.007439780978821255
+2026-11-07 07:48:45 PROGRESS wu: wu data: 4062/4324 episodes in 639.2 min, ETA 41 min (measured), estimate 1001 min; memory: our tree 11.1 GB, host used 10.4 GB; last wuf01 gen5/building_12862/atlanta_7 cost 0.003153429693511815
+2026-11-07 07:52:45 PROGRESS wu: wu data: 4088/4324 episodes in 643.2 min, ETA 37 min (measured), estimate 1001 min; memory: our tree 10.3 GB, host used 9.6 GB; last wuf02 gen5/building_17682/fairbanks_5 cost 0.0017585588256175744
+2026-11-07 07:56:49 PROGRESS wu: wu data: 4114/4324 episodes in 647.3 min, ETA 33 min (measured), estimate 1001 min; memory: our tree 10.6 GB, host used 9.9 GB
+2026-11-07 08:00:56 PROGRESS wu: wu data: 4141/4324 episodes in 651.4 min, ETA 29 min (measured), estimate 1001 min; memory: our tree 10.8 GB, host used 10.1 GB; last wur04 train/building_19087/denver_5 cost 0.016751399418057502
+2026-11-07 08:05:03 PROGRESS wu: wu data: 4167/4324 episodes in 655.5 min, ETA 25 min (measured), estimate 1001 min; memory: our tree 11.0 GB, host used 10.3 GB; last wur04 gen5/building_11214/singapore_5 cost 0.016956669520780412
+2026-11-07 08:09:10 PROGRESS wu: wu data: 4194/4324 episodes in 659.6 min, ETA 20 min (measured), estimate 1001 min; memory: our tree 10.2 GB, host used 9.5 GB; last wur06 gen5/building_12862/atlanta_7 cost 0.00316277122483942
+2026-11-07 08:13:13 PROGRESS wu: wu data: 4217/4324 episodes in 663.7 min, ETA 17 min (measured), estimate 1001 min; memory: our tree 11.5 GB, host used 10.8 GB; last wuf03 gen5/building_13672/atlanta_1 cost 0.0020944407817269925
+2026-11-07 08:17:15 PROGRESS wu: wu data: 4242/4324 episodes in 667.7 min, ETA 13 min (measured), estimate 1001 min; memory: our tree 10.0 GB, host used 9.3 GB; last wuf11 train/building_19631/denver_7 cost 0.0048502357004708545
+2026-11-07 08:21:15 PROGRESS wu: wu data: 4268/4324 episodes in 671.7 min, ETA 9 min (measured), estimate 1001 min; memory: our tree 8.6 GB, host used 8.0 GB; last wuf05 train/building_19208/singapore_5 cost 0.007116692506414741
+2026-11-07 08:25:22 PROGRESS wu: wu data: 4292/4324 episodes in 675.8 min, ETA 5 min (measured), estimate 1001 min; memory: our tree 9.8 GB, host used 9.1 GB; last wuf04 train/building_19965/phoenix_5 cost 0.01037892558416573
+2026-11-07 08:29:34 PROGRESS wu: wu data: 4316/4324 episodes in 680.0 min, ETA 1 min (measured), estimate 1001 min; memory: our tree 7.4 GB, host used 7.1 GB
+2026-11-07 08:31:28 PROGRESS wu: wu data: 4324/4324 episodes in 681.9 min, estimate 1001 min; memory: our tree 0.1 GB, host used 1.0 GB
+2026-11-07 08:31:28 EVENT wu: wu data: done

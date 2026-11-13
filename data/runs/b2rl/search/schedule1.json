@@ -1,0 +1,35 @@
+{
+ "_note": "side line 1 (2026-10-28 22:5x, user: \u4f9d\u5916\u6c23\u6eab\u5ea6\u5207\u63db): parameters switched on the 24 h mean outside air (hand-built G36PolicyB2RL network). s1: the fixed rule below 0 C and above 25 C, the round-2 best (c1_topt7200) from 5 to 20 C, linear in between. s3: the same without the hot switch (the round-2 best from 5 C up)",
+ "s1_cold_hot_fixed": {
+  "breaks_c": [
+   0,
+   5,
+   20,
+   25
+  ],
+  "mild": {
+   "heating_max_ratio": 0.36,
+   "t_opt_max_s": 7200.0,
+   "occupied_margin_k": 0.1
+  },
+  "hot": {}
+ },
+ "s3_cold_fixed": {
+  "breaks_c": [
+   0,
+   5,
+   40,
+   45
+  ],
+  "mild": {
+   "heating_max_ratio": 0.36,
+   "t_opt_max_s": 7200.0,
+   "occupied_margin_k": 0.1
+  },
+  "hot": {
+   "heating_max_ratio": 0.36,
+   "t_opt_max_s": 7200.0,
+   "occupied_margin_k": 0.1
+  }
+ }
+}

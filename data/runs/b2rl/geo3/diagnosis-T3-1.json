@@ -1,0 +1,3789 @@
+{
+ "diagnosis": {
+  "stage": "T3",
+  "k": 1,
+  "attempt": "gt_t3a",
+  "scenarios": 80,
+  "realised mean %": 0.0,
+  "predicted mean %": 0.0,
+  "slope actual on predicted": null,
+  "correlation": null,
+  "by part predicted / realised %": {
+   "comfort_cost": [
+    0.0,
+    0.0
+   ],
+   "fan_cost": [
+    0.0,
+    0.0
+   ],
+   "coil_cost": [
+    0.0,
+    0.0
+   ],
+   "gas_cost": [
+    0.0,
+    0.0
+   ],
+   "pump_cost": [
+    0.0,
+    0.0
+   ]
+  },
+  "by station realised (predicted) %": {
+   "atlanta": [
+    0.0,
+    0.0
+   ],
+   "denver": [
+    0.0,
+    0.0
+   ],
+   "fairbanks": [
+    0.0,
+    0.0
+   ],
+   "phoenix": [
+    0.0,
+    0.0
+   ],
+   "singapore": [
+    0.0,
+    0.0
+   ]
+  },
+  "vs gm_tree_m1 on design scenarios %": -1.59,
+  "vs gm_tree_m1 by part %": {
+   "comfort_cost": -2.74,
+   "fan_cost": 0.05,
+   "coil_cost": 0.4,
+   "gas_cost": 0.42,
+   "pump_cost": 0.05
+  },
+  "vs gm_tree_m1 by cell group (allocated, % of base)": {
+   "l|core": -0.025,
+   "l|long": -0.077,
+   "l|perim": -0.11,
+   "m|core": -0.012,
+   "m|long": -0.094,
+   "m|perim": -0.016,
+   "s|core": -0.001,
+   "s|long": -0.293,
+   "s|perim": -1.162,
+   "x|core": -0.064,
+   "x|long": 0.091,
+   "x|perim": -0.064
+  },
+  "vs gm_tree_m1 by station %": {
+   "atlanta": -0.97,
+   "denver": -0.83,
+   "fairbanks": -2.96,
+   "phoenix": -2.24,
+   "singapore": -0.96
+  },
+  "factor heterogeneity": {
+   "morning_off_sm": {
+    "by station %": {
+     "atlanta": 2.4,
+     "denver": 0.97,
+     "fairbanks": 1.87,
+     "phoenix": 3.09,
+     "singapore": 2.46
+    },
+    "corr with": {
+     "oat_mean": 0.1,
+     "small_share": 0.36,
+     "long_share": -0.21,
+     "ahu_size": -0.05,
+     "rooms": -0.09
+    }
+   },
+   "evening_off_sm": {
+    "by station %": {
+     "atlanta": 0.66,
+     "denver": 1.08,
+     "fairbanks": 0.81,
+     "phoenix": 0.87,
+     "singapore": 0.7
+    },
+    "corr with": {
+     "oat_mean": -0.15,
+     "small_share": 0.26,
+     "long_share": -0.12,
+     "ahu_size": 0.02,
+     "rooms": 0.0
+    }
+   },
+   "morning_warm_sm": {
+    "by station %": {
+     "atlanta": 0.26,
+     "denver": -0.07,
+     "fairbanks": -0.07,
+     "phoenix": -0.44,
+     "singapore": 0.39
+    },
+    "corr with": {
+     "oat_mean": 0.16,
+     "small_share": -0.14,
+     "long_share": 0.18,
+     "ahu_size": 0.08,
+     "rooms": 0.07
+    }
+   },
+   "midday_edge_sm": {
+    "by station %": {
+     "atlanta": 1.56,
+     "denver": 2.08,
+     "fairbanks": 0.88,
+     "phoenix": 2.26,
+     "singapore": 1.9
+    },
+    "corr with": {
+     "oat_mean": 0.19,
+     "small_share": 0.4,
+     "long_share": -0.28,
+     "ahu_size": -0.31,
+     "rooms": -0.18
+    }
+   },
+   "morning_off_lx": {
+    "by station %": {
+     "atlanta": -0.24,
+     "denver": 0.19,
+     "fairbanks": 0.03,
+     "phoenix": 0.12,
+     "singapore": -0.11
+    },
+    "corr with": {
+     "oat_mean": -0.16,
+     "small_share": -0.19,
+     "long_share": 0.2,
+     "ahu_size": -0.19,
+     "rooms": -0.04
+    }
+   },
+   "evening_off_lx": {
+    "by station %": {
+     "atlanta": 0.06,
+     "denver": -0.02,
+     "fairbanks": 0.02,
+     "phoenix": -0.03,
+     "singapore": -0.08
+    },
+    "corr with": {
+     "oat_mean": -0.11,
+     "small_share": 0.22,
+     "long_share": -0.26,
+     "ahu_size": 0.19,
+     "rooms": 0.09
+    }
+   },
+   "morning_warm_lx": {
+    "by station %": {
+     "atlanta": 0.31,
+     "denver": 0.96,
+     "fairbanks": 0.44,
+     "phoenix": -0.22,
+     "singapore": 0.24
+    },
+    "corr with": {
+     "oat_mean": -0.07,
+     "small_share": -0.38,
+     "long_share": 0.23,
+     "ahu_size": 0.04,
+     "rooms": 0.06
+    }
+   },
+   "midday_edge_lx": {
+    "by station %": {
+     "atlanta": 2.37,
+     "denver": 1.87,
+     "fairbanks": 1.67,
+     "phoenix": 2.75,
+     "singapore": 0.58
+    },
+    "corr with": {
+     "oat_mean": 0.13,
+     "small_share": -0.35,
+     "long_share": 0.3,
+     "ahu_size": -0.41,
+     "rooms": -0.22
+    }
+   }
+  },
+  "closed loop by station vs base (points)": {
+   "train_ceiling_rest60": {
+    "singapore": [
+     0.0,
+     12
+    ],
+    "denver": [
+     0.0,
+     12
+    ],
+    "fairbanks": [
+     0.0,
+     12
+    ],
+    "atlanta": [
+     0.0,
+     12
+    ],
+    "phoenix": [
+     0.0,
+     12
+    ]
+   },
+   "inner": {
+    "phoenix": [
+     0.0,
+     7
+    ],
+    "denver": [
+     0.0,
+     8
+    ],
+    "fairbanks": [
+     0.0,
+     5
+    ],
+    "singapore": [
+     0.0,
+     4
+    ],
+    "atlanta": [
+     0.0,
+     5
+    ]
+   },
+   "s4_first": {
+    "fairbanks": [
+     0.0,
+     6
+    ],
+    "singapore": [
+     0.0,
+     6
+    ],
+    "phoenix": [
+     0.0,
+     6
+    ],
+    "atlanta": [
+     0.0,
+     6
+    ],
+    "denver": [
+     0.0,
+     6
+    ]
+   }
+  }
+ },
+ "rows": [
+  {
+   "spec": "train/building_10419/atlanta_3",
+   "station": "atlanta",
+   "oat_mean": 20.81954230235784,
+   "small_share": 0.03333333333333333,
+   "long_share": 0.4666666666666667,
+   "ahu_size": 8.466666666666667,
+   "rooms": 30,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": 0.010125708809292977,
+   "vs_m1_cells": {
+    "l|long": 0.0024298792062999036,
+    "x|long": 0.01846037182866689,
+    "x|perim": -0.004605581933952746,
+    "l|perim": -0.0010357279610160863,
+    "s|long": 0.00040485505113904176,
+    "x|core": -0.005567468407654208
+   },
+   "vs_m1_parts": {
+    "comfort_cost": -0.01497798931332002,
+    "fan_cost": 0.0042630353183571645,
+    "coil_cost": 0.020775669416719985,
+    "gas_cost": 1.2132171343790439e-05,
+    "pump_cost": 1.362997027512103e-05
+   }
+  },
+  {
+   "spec": "train/building_11852/atlanta_5",
+   "station": "atlanta",
+   "oat_mean": 26.984091539528432,
+   "small_share": 0.5853658536585366,
+   "long_share": 0.0975609756097561,
+   "ahu_size": 8.804878048780488,
+   "rooms": 41,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": -0.03713430376867455,
+   "vs_m1_cells": {
+    "s|perim": -0.006629237833902457,
+    "x|long": -0.00014781598561394022,
+    "m|long": -0.016609346033699582,
+    "m|perim": -0.005063774746716154,
+    "s|core": -0.00019971082466976875,
+    "l|core": -0.0020199644574010606,
+    "l|perim": -0.002086659629617238,
+    "m|core": -0.0008968252511202812,
+    "s|long": -0.004948182271274061
+   },
+   "vs_m1_parts": {
+    "comfort_cost": -0.04247133579046754,
+    "fan_cost": -0.00016561385460420286,
+    "coil_cost": 0.004083767876315001,
+    "gas_cost": -4.12161176616803e-05,
+    "pump_cost": -6.557109627994552e-06
+   }
+  },
+  {
+   "spec": "train/building_12336/atlanta_7",
+   "station": "atlanta",
+   "oat_mean": 18.155561719833564,
+   "small_share": 0.3275862068965517,
+   "long_share": 0.25862068965517243,
+   "ahu_size": 9.724137931034482,
+   "rooms": 58,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": -0.0058841424857930535,
+   "vs_m1_cells": {
+    "m|long": -0.001602127998357239,
+    "m|perim": -0.001073329986943844,
+    "s|core": -0.00039631347297820405,
+    "l|core": -0.0002704417600415121,
+    "x|perim": -0.00027066978850697615,
+    "s|long": -0.00043393816977993493,
+    "s|perim": -0.0009292159967699276,
+    "l|long": 0.0006277623654252079,
+    "l|perim": -0.0006818051117404023,
+    "m|core": -9.714012628810054e-05,
+    "x|core": -0.0008582991440103382
+   },
+   "vs_m1_parts": {
+    "comfort_cost": -0.013066031071145595,
+    "fan_cost": 0.000422764774972152,
+    "coil_cost": 0.007224853899793656,
+    "gas_cost": -0.0006042754334823222,
+    "pump_cost": 3.5800469078007735e-05
+   }
+  },
+  {
+   "spec": "train/building_12567/atlanta_5",
+   "station": "atlanta",
+   "oat_mean": 26.984091539528432,
+   "small_share": 0.3076923076923077,
+   "long_share": 0.2692307692307692,
+   "ahu_size": 7.153846153846154,
+   "rooms": 26,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": -0.00765411895117496,
+   "vs_m1_cells": {
+    "s|perim": -0.0015352227648740835,
+    "l|long": -0.00047564052149726144,
+    "x|long": -1.703982577874741e-05,
+    "m|long": -0.00198612277009641,
+    "m|perim": -0.0013268125880416572,
+    "s|core": -2.5723583146768786e-05,
+    "l|core": -0.00011551035744250537,
+    "l|perim": -0.002262364561086583,
+    "m|core": -1.900595952245357e-05
+   },
+   "vs_m1_parts": {
+    "comfort_cost": -0.01576183884534547,
+    "fan_cost": 0.0005313476442354928,
+    "coil_cost": 0.00751472701290806,
+    "gas_cost": -4.3910320276014346e-05,
+    "pump_cost": -3.2768895728368624e-06
+   }
+  },
+  {
+   "spec": "train/building_14073/atlanta_3",
+   "station": "atlanta",
+   "oat_mean": 20.81954230235784,
+   "small_share": 0.013333333333333334,
+   "long_share": 0.26666666666666666,
+   "ahu_size": 9.48,
+   "rooms": 75,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": -0.01604404141631466,
+   "vs_m1_cells": {
+    "x|long": 0.0003334823220043637,
+    "m|long": -0.002076251074105683,
+    "m|perim": -2.434852443470442e-05,
+    "l|core": -0.006033040399329281,
+    "x|perim": -0.000885330840995853,
+    "s|long": 0.0002641352587409735,
+    "l|long": -0.0022813642767802594,
+    "l|perim": -0.0021115410240775123,
+    "m|core": -0.0007360034981020308,
+    "x|core": -0.0028712766282741192
+   },
+   "vs_m1_parts": {
+    "comfort_cost": -0.037385772328214883,
+    "fan_cost": 0.0009435823741370838,
+    "coil_cost": 0.019374644848279117,
+    "gas_cost": 0.0006367601453428862,
+    "pump_cost": 8.321647591606054e-06
+   }
+  },
+  {
+   "spec": "train/building_16821/atlanta_7",
+   "station": "atlanta",
+   "oat_mean": 18.155561719833564,
+   "small_share": 0.3888888888888889,
+   "long_share": 0.25,
+   "ahu_size": 9.305555555555555,
+   "rooms": 72,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": -0.02902328314374536,
+   "vs_m1_cells": {
+    "s|perim": -0.0034881079524817504,
+    "l|long": -0.0014733014149936746,
+    "m|long": -0.009377175125335632,
+    "m|perim": -0.003999370284478235,
+    "s|core": -0.0010117009284463657,
+    "l|core": -5.443702289627261e-05,
+    "l|perim": -0.0026546803153915666,
+    "m|core": -0.002734266606175595,
+    "s|long": -0.005422691508859559
+   },
+   "vs_m1_parts": {
+    "comfort_cost": -0.03816958506001304,
+    "fan_cost": -0.0001426186330849376,
+    "coil_cost": 0.008155684734382652,
+    "gas_cost": -3.9156455065730055e-05,
+    "pump_cost": -1.7827329135619354e-05
+   }
+  },
+  {
+   "spec": "train/building_19299/atlanta_7",
+   "station": "atlanta",
+   "oat_mean": 18.155561719833564,
+   "small_share": 0.04081632653061224,
+   "long_share": 0.3877551020408163,
+   "ahu_size": 7.571428571428571,
+   "rooms": 49,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": 0.0025139512321976643,
+   "vs_m1_cells": {
+    "s|perim": 0.0001423978602785661,
+    "l|long": 0.005603842561738959,
+    "x|long": 0.006135483240554143,
+    "m|long": 0.0006167823890165444,
+    "l|core": -0.0008095062601699288,
+    "x|perim": -0.00405495644999504,
+    "l|perim": -0.0004860997640563913,
+    "x|core": -0.00468493910415918
+   },
+   "vs_m1_parts": {
+    "comfort_cost": -0.009586692563365869,
+    "fan_cost": 0.0002022940633852398,
+    "coil_cost": 0.011174354453980441,
+    "gas_cost": 0.0006426879093684966,
+    "pump_cost": 2.904058332448228e-05
+   }
+  },
+  {
+   "spec": "train/building_19629/atlanta_5",
+   "station": "atlanta",
+   "oat_mean": 26.984091539528432,
+   "small_share": 0.16055045871559634,
+   "long_share": 0.14220183486238533,
+   "ahu_size": 9.926605504587156,
+   "rooms": 218,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": -0.0027288103443630085,
+   "vs_m1_cells": {
+    "x|long": -0.0003812620122036342,
+    "m|long": -0.0016227422515901271,
+    "m|perim": -0.0006114933432988523,
+    "l|core": 0.0003898387323376107,
+    "s|core": 2.1173777830646445e-05,
+    "x|perim": -5.306845582869757e-05,
+    "s|long": -0.00039720935120267104,
+    "s|perim": -0.00024577663633795765,
+    "l|long": -0.0005765164065026779,
+    "l|perim": 0.00010533284414485089,
+    "m|core": 0.0005710219451667553,
+    "x|core": -2.3317957864123218e-05
+   },
+   "vs_m1_parts": {
+    "comfort_cost": -0.003993535312361529,
+    "fan_cost": -5.119229829940644e-05,
+    "coil_cost": 0.0012653342422589975,
+    "gas_cost": -5.722280464356978e-05,
+    "pump_cost": 1.0184855159042836e-05
+   }
+  },
+  {
+   "spec": "train/building_11534/denver_1",
+   "station": "denver",
+   "oat_mean": -0.8943689320388348,
+   "small_share": 0.0,
+   "long_share": 0.11594202898550725,
+   "ahu_size": 9.869565217391305,
+   "rooms": 138,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": 0.006558240752626343,
+   "vs_m1_cells": {
+    "l|long": -0.0016467337693226725,
+    "x|long": 0.012159063249386759,
+    "m|long": 0.0005104053901962037,
+    "m|perim": 0.003124751045757476,
+    "l|core": -0.0005895197456450146,
+    "x|perim": -0.0013295923617454644,
+    "l|perim": -0.005438066958827981,
+    "m|core": -0.00020914765244490173,
+    "x|core": -0.00029677383095833704
+   },
+   "vs_m1_parts": {
+    "comfort_cost": 0.017715231753236364,
+    "fan_cost": -0.0019672951058098465,
+    "coil_cost": -4.6587031594740184e-05,
+    "gas_cost": -0.009480422930319405,
+    "pump_cost": 6.399066982507746e-05
+   }
+  },
+  {
+   "spec": "train/building_14219/denver_3",
+   "station": "denver",
+   "oat_mean": 11.507919556171984,
+   "small_share": 0.013513513513513514,
+   "long_share": 0.5135135135135135,
+   "ahu_size": 9.378378378378379,
+   "rooms": 74,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": -0.00674612936889174,
+   "vs_m1_cells": {
+    "s|perim": -0.0035614243016377292,
+    "l|long": 0.0014101444434672233,
+    "x|long": 0.004001726448456255,
+    "m|long": 0.00047489337272819433,
+    "l|core": -0.00010432566537654786,
+    "x|perim": -0.0035938075769574307,
+    "l|perim": -9.01579824241841e-05,
+    "x|core": -0.005944354975873589
+   },
+   "vs_m1_parts": {
+    "comfort_cost": -0.023367477077288187,
+    "fan_cost": 0.0033121098808524202,
+    "coil_cost": 0.008776419599287984,
+    "gas_cost": 0.0035356648780879626,
+    "pump_cost": 0.00033726445261944294
+   }
+  },
+  {
+   "spec": "train/building_16761/denver_3",
+   "station": "denver",
+   "oat_mean": 11.507919556171984,
+   "small_share": 0.08333333333333333,
+   "long_share": 0.21666666666666667,
+   "ahu_size": 10.0,
+   "rooms": 120,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": 0.018458351473300327,
+   "vs_m1_cells": {
+    "x|long": 0.0030634828560654054,
+    "m|long": 0.0032098969603555003,
+    "m|perim": 0.0060231622771417664,
+    "l|core": 0.0005308712709161667,
+    "x|perim": 0.00017428724887048538,
+    "s|long": 0.0001118129592937514,
+    "s|perim": 0.0012671067450050894,
+    "l|long": -0.00042226212134427454,
+    "l|perim": -0.0007025954720091265,
+    "m|core": 0.0016393894346879712,
+    "x|core": 0.001639389434687999
+   },
+   "vs_m1_parts": {
+    "comfort_cost": -0.009771619651745937,
+    "fan_cost": 0.002949427229966301,
+    "coil_cost": 0.0027139472154078417,
+    "gas_cost": 0.01945833834586197,
+    "pump_cost": 0.0011844484541804865
+   }
+  },
+  {
+   "spec": "train/building_17821/denver_3",
+   "station": "denver",
+   "oat_mean": 11.507919556171984,
+   "small_share": 0.6625,
+   "long_share": 0.15,
+   "ahu_size": 10.0,
+   "rooms": 80,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": -0.025860653299203173,
+   "vs_m1_cells": {
+    "s|perim": -0.03231399651356742,
+    "l|long": -0.002264947905685294,
+    "m|long": 0.00448650296810707,
+    "m|perim": 0.0030769290549721613,
+    "s|core": 0.0012688939189929652,
+    "l|core": 0.00018981892167321476,
+    "l|perim": -0.0005950169329693757,
+    "m|core": -0.00026293289045965784,
+    "s|long": 0.0010360784357298924
+   },
+   "vs_m1_parts": {
+    "comfort_cost": -0.066813090175582,
+    "fan_cost": 0.0019798232415018154,
+    "coil_cost": 0.0007386690396636088,
+    "gas_cost": 0.03649357932544086,
+    "pump_cost": 0.002222545766605881
+   }
+  },
+  {
+   "spec": "train/building_18764/denver_7",
+   "station": "denver",
+   "oat_mean": 12.940332871012481,
+   "small_share": 0.0,
+   "long_share": 0.45652173913043476,
+   "ahu_size": 9.478260869565217,
+   "rooms": 46,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": 0.006344413242031832,
+   "vs_m1_cells": {
+    "l|long": -0.0007292487815966087,
+    "x|long": 0.010268869900372901,
+    "x|perim": -0.0009654128398998429,
+    "l|perim": 0.00018531037192057523,
+    "x|core": -0.0023969268144002354
+   },
+   "vs_m1_parts": {
+    "comfort_cost": -0.001683591431263459,
+    "fan_cost": 0.004937304843902522,
+    "coil_cost": 0.0056969966486397775,
+    "gas_cost": -0.0027768880312504544,
+    "pump_cost": 0.0001893463787763459
+   }
+  },
+  {
+   "spec": "train/building_19195/denver_3",
+   "station": "denver",
+   "oat_mean": 11.507919556171984,
+   "small_share": 0.056818181818181816,
+   "long_share": 0.19318181818181818,
+   "ahu_size": 9.829545454545455,
+   "rooms": 176,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": 0.0019210070180637473,
+   "vs_m1_cells": {
+    "x|long": 0.0016933964569893836,
+    "m|long": -0.003392432868873016,
+    "m|perim": 0.006489120602980375,
+    "l|core": 0.003903906278342556,
+    "s|core": 0.00013958888363193103,
+    "x|perim": 0.0002139657887994459,
+    "s|long": -0.0005936052526166,
+    "s|perim": -0.008356298170147894,
+    "l|long": 0.0014240886107903944,
+    "l|perim": 9.27067585737365e-05,
+    "m|core": 0.00024251806045144653,
+    "x|core": -0.0004459089338242281
+   },
+   "vs_m1_parts": {
+    "comfort_cost": -0.02855227165198599,
+    "fan_cost": 0.0032486140190704244,
+    "coil_cost": 0.00479360916290565,
+    "gas_cost": 0.02082236097227742,
+    "pump_cost": 0.001094503746659466
+   }
+  },
+  {
+   "spec": "train/building_19655/denver_1",
+   "station": "denver",
+   "oat_mean": -0.8943689320388348,
+   "small_share": 0.21052631578947367,
+   "long_share": 0.21052631578947367,
+   "ahu_size": 9.605263157894736,
+   "rooms": 76,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": -0.0013967538930383938,
+   "vs_m1_cells": {
+    "s|perim": -0.00246718244498699,
+    "l|long": -0.0009732219185506485,
+    "m|long": 0.0007710512853369988,
+    "m|perim": 0.0059810326226445165,
+    "s|core": -0.0008077741923969914,
+    "l|core": -3.594432952513547e-05,
+    "l|perim": -0.0038819875887146638,
+    "m|core": -0.0002739295293413789,
+    "x|core": -2.776926540931082e-05
+   },
+   "vs_m1_parts": {
+    "comfort_cost": -0.014312850348817456,
+    "fan_cost": 0.00021423858500360863,
+    "coil_cost": 2.3357326045214177e-05,
+    "gas_cost": 0.011802197324801755,
+    "pump_cost": 0.0005596674846278354
+   }
+  },
+  {
+   "spec": "train/building_19950/denver_1",
+   "station": "denver",
+   "oat_mean": -0.8943689320388348,
+   "small_share": 0.5681818181818182,
+   "long_share": 0.20454545454545456,
+   "ahu_size": 8.954545454545455,
+   "rooms": 44,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": -0.01591791416502819,
+   "vs_m1_cells": {
+    "s|perim": -0.022059640314004647,
+    "l|long": -0.0019309106857523517,
+    "m|long": 0.00517849431319739,
+    "m|perim": 0.002039355206928592,
+    "s|core": -0.00043462171252168363,
+    "l|core": -1.8713198845119253e-05,
+    "l|perim": -0.000555567264073957,
+    "m|core": -0.00010737081304577206,
+    "s|long": 0.0011549264811830107
+   },
+   "vs_m1_parts": {
+    "comfort_cost": -0.032939831573683916,
+    "fan_cost": 0.000555567264073961,
+    "coil_cost": 2.5232141065755524e-05,
+    "gas_cost": 0.015202403338836991,
+    "pump_cost": 0.0004217372149561964
+   }
+  },
+  {
+   "spec": "train/building_12567/fairbanks_3",
+   "station": "fairbanks",
+   "oat_mean": -1.6671567267683773,
+   "small_share": 0.3076923076923077,
+   "long_share": 0.2692307692307692,
+   "ahu_size": 7.153846153846154,
+   "rooms": 26,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": 0.005991654930255441,
+   "vs_m1_cells": {
+    "s|perim": -0.03288849003338751,
+    "l|long": 0.009938691614328227,
+    "x|long": 0.007997860728722661,
+    "m|long": 0.02202948415807507,
+    "m|perim": 0.0008148987404219127,
+    "s|core": -0.00010585452325076548,
+    "l|core": -0.00021077616578859051,
+    "l|perim": -0.002893466719526394,
+    "m|core": -0.0004925610164327994
+   },
+   "vs_m1_parts": {
+    "comfort_cost": 0.006354563915209283,
+    "fan_cost": -0.006732380603950327,
+    "coil_cost": -5.26803226131337e-06,
+    "gas_cost": 0.0036309912361101528,
+    "pump_cost": 0.0009415510160376499
+   }
+  },
+  {
+   "spec": "train/building_15790/fairbanks_1",
+   "station": "fairbanks",
+   "oat_mean": -21.432649098474343,
+   "small_share": 0.5903614457831325,
+   "long_share": 0.14457831325301204,
+   "ahu_size": 9.506024096385541,
+   "rooms": 83,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": -0.09132979960757359,
+   "vs_m1_cells": {
+    "x|long": 0.007722648811926025,
+    "m|long": 0.0016788057363531506,
+    "m|perim": 0.0012578135784072214,
+    "s|core": -0.0019003015802214057,
+    "l|core": 0.0003308322352782462,
+    "s|long": 0.0004905767978384129,
+    "s|perim": -0.10677684149254396,
+    "l|long": -0.0017049508422776333,
+    "l|perim": -0.000614384556243585,
+    "m|core": -0.001486023729633506
+   },
+   "vs_m1_parts": {
+    "comfort_cost": -0.10760440530740577,
+    "fan_cost": -0.0013313911965391282,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0073312097795484674,
+    "pump_cost": 0.0006027616832790899
+   }
+  },
+  {
+   "spec": "train/building_16092/fairbanks_7",
+   "station": "fairbanks",
+   "oat_mean": 6.386380027739251,
+   "small_share": 0.2761904761904762,
+   "long_share": 0.13333333333333333,
+   "ahu_size": 9.59047619047619,
+   "rooms": 105,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": -0.04213242611413459,
+   "vs_m1_cells": {
+    "x|long": -0.0005431818638867887,
+    "m|long": -0.010114476950879192,
+    "m|perim": 0.010881106851518246,
+    "l|core": -0.0013362192597783512,
+    "s|core": -0.0007341283680205105,
+    "x|perim": 0.00012878732300083094,
+    "s|long": -0.006004658151269063,
+    "s|perim": -0.026863735516668874,
+    "l|long": -0.009698457333362304,
+    "l|perim": -0.003499602524697651,
+    "m|core": -0.0005793398189248775
+   },
+   "vs_m1_parts": {
+    "comfort_cost": -0.08031941248348407,
+    "fan_cost": 0.0019269346151197366,
+    "coil_cost": -0.00021491638443987338,
+    "gas_cost": 0.028833328393350253,
+    "pump_cost": 0.001411379053958643
+   }
+  },
+  {
+   "spec": "train/building_18764/fairbanks_5",
+   "station": "fairbanks",
+   "oat_mean": 18.90900138696255,
+   "small_share": 0.0,
+   "long_share": 0.45652173913043476,
+   "ahu_size": 9.478260869565217,
+   "rooms": 46,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": 0.01324185291067903,
+   "vs_m1_cells": {
+    "l|long": 0.0011369737329306462,
+    "x|long": 0.02169339108010221,
+    "x|perim": -0.0052817905885299,
+    "l|perim": -0.0006394301132900231,
+    "x|core": -0.003969528700646319
+   },
+   "vs_m1_parts": {
+    "comfort_cost": -0.016456198766101427,
+    "fan_cost": 0.008910810522254994,
+    "coil_cost": 0.020067812200274055,
+    "gas_cost": 0.0003586679799678612,
+    "pump_cost": 5.955845522551236e-05
+   }
+  },
+  {
+   "spec": "train/building_18842/fairbanks_3",
+   "station": "fairbanks",
+   "oat_mean": -1.6671567267683773,
+   "small_share": 0.0,
+   "long_share": 0.32558139534883723,
+   "ahu_size": 7.883720930232558,
+   "rooms": 43,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": 0.010265233063613044,
+   "vs_m1_cells": {
+    "l|long": -0.005021385572121728,
+    "x|long": 0.025439517654883836,
+    "l|core": -0.00022478996551098885,
+    "x|perim": -0.006131425744352242,
+    "l|perim": -0.00150489223319622,
+    "x|core": -0.002481051972929013
+   },
+   "vs_m1_parts": {
+    "comfort_cost": 0.05428077399226683,
+    "fan_cost": -0.007694440465868411,
+    "coil_cost": -8.527943442957961e-06,
+    "gas_cost": -0.03677216094376671,
+    "pump_cost": 0.000270079140882814
+   }
+  },
+  {
+   "spec": "train/building_19655/fairbanks_1",
+   "station": "fairbanks",
+   "oat_mean": -21.432649098474343,
+   "small_share": 0.21052631578947367,
+   "long_share": 0.21052631578947367,
+   "ahu_size": 9.605263157894736,
+   "rooms": 76,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": -0.00026152578684190964,
+   "vs_m1_cells": {
+    "s|perim": 0.00014607006730987804,
+    "l|long": -0.002675867966683898,
+    "m|long": 0.002779675653444197,
+    "m|perim": 0.00328941560135379,
+    "s|core": -0.0012109753532238074,
+    "l|core": -7.13773117848814e-05,
+    "l|perim": -0.002016628182078095,
+    "m|core": -0.0005012417415411335,
+    "x|core": 2.8047891870620987e-05
+   },
+   "vs_m1_parts": {
+    "comfort_cost": -0.008566801756135318,
+    "fan_cost": 0.0005840897264959375,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0070647151991074806,
+    "pump_cost": 0.0006850773806496611
+   }
+  },
+  {
+   "spec": "train/building_19664/fairbanks_7",
+   "station": "fairbanks",
+   "oat_mean": 6.386380027739251,
+   "small_share": 0.19047619047619047,
+   "long_share": 0.35714285714285715,
+   "ahu_size": 7.238095238095238,
+   "rooms": 42,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": 0.025457833177612743,
+   "vs_m1_cells": {
+    "x|long": -0.0022987750471027413,
+    "m|long": 0.023045127460526893,
+    "l|core": -0.00030691826925527757,
+    "s|core": 0.00028552345961137347,
+    "x|perim": -0.0002647121447759415,
+    "s|long": 0.003584992103240342,
+    "s|perim": 0.003960762759895105,
+    "l|long": -0.0017854941139184843,
+    "l|perim": -0.001179048509648617,
+    "m|core": -0.00032228363254498994,
+    "x|core": -5.4459515457204455e-06
+   },
+   "vs_m1_parts": {
+    "comfort_cost": 0.0006612941162661223,
+    "fan_cost": 0.0010633220393020165,
+    "coil_cost": -1.3420380594812522e-05,
+    "gas_cost": 0.021431180820298688,
+    "pump_cost": 0.0015734910001743959
+   }
+  },
+  {
+   "spec": "train/building_19768/fairbanks_3",
+   "station": "fairbanks",
+   "oat_mean": -1.6671567267683773,
+   "small_share": 0.08403361344537816,
+   "long_share": 0.31932773109243695,
+   "ahu_size": 9.92436974789916,
+   "rooms": 119,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": 0.0063111249969607375,
+   "vs_m1_cells": {
+    "x|long": 0.008260806835620166,
+    "m|long": 0.002471888819512144,
+    "m|perim": 0.001561111311294286,
+    "l|core": -0.0002565664062558516,
+    "x|perim": -0.0009057924096507082,
+    "s|long": 0.0007060007370762456,
+    "s|perim": -0.004093098263532602,
+    "l|long": 0.002380273785844822,
+    "l|perim": -0.0034478049490073714,
+    "m|core": -7.782292763158002e-05,
+    "x|core": -0.000285036858072683
+   },
+   "vs_m1_parts": {
+    "comfort_cost": 0.02088202399794022,
+    "fan_cost": -0.0037818065530062796,
+    "coil_cost": -3.412023019292083e-05,
+    "gas_cost": -0.011697699957763983,
+    "pump_cost": 0.0009458393681401244
+   }
+  },
+  {
+   "spec": "train/building_10740/phoenix_3",
+   "station": "phoenix",
+   "oat_mean": 26.982496532593615,
+   "small_share": 0.7333333333333333,
+   "long_share": 0.08333333333333333,
+   "ahu_size": 8.933333333333334,
+   "rooms": 60,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": -0.03244560636863825,
+   "vs_m1_cells": {
+    "s|perim": -0.006834144758647298,
+    "l|long": -0.004835162051527918,
+    "m|long": -0.00586686515981636,
+    "m|perim": 0.0005723959293514186,
+    "s|core": 0.0031391397809693578,
+    "l|core": 0.00018214704472478,
+    "l|perim": 0.0009416337893108778,
+    "m|core": 8.991482614912477e-05,
+    "s|long": -0.021000982633301843
+   },
+   "vs_m1_parts": {
+    "comfort_cost": -0.03629036539936442,
+    "fan_cost": -9.424062534530705e-05,
+    "coil_cost": 0.0030861487408160556,
+    "gas_cost": -0.0003058958003011545,
+    "pump_cost": -5.716234652092344e-06
+   }
+  },
+  {
+   "spec": "train/building_11818/phoenix_3",
+   "station": "phoenix",
+   "oat_mean": 26.982496532593615,
+   "small_share": 0.04838709677419355,
+   "long_share": 0.5,
+   "ahu_size": 9.193548387096774,
+   "rooms": 62,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": 0.00129514500005401,
+   "vs_m1_cells": {
+    "s|perim": -0.00012496120579481504,
+    "l|long": -3.590839246978006e-05,
+    "x|long": -0.00029169584149607575,
+    "m|long": 0.001588407740900466,
+    "l|core": -4.129465134025331e-06,
+    "x|perim": -0.0002477080607206916,
+    "s|long": 0.0004930222286100025,
+    "x|core": -8.199082947260572e-05
+   },
+   "vs_m1_parts": {
+    "comfort_cost": -0.000221435086896944,
+    "fan_cost": 7.445006705397715e-05,
+    "coil_cost": 0.0014408242478497044,
+    "gas_cost": 1.0772517740932103e-06,
+    "pump_cost": 0.0
+   }
+  },
+  {
+   "spec": "train/building_11852/phoenix_1",
+   "station": "phoenix",
+   "oat_mean": 13.916185852981968,
+   "small_share": 0.5853658536585366,
+   "long_share": 0.0975609756097561,
+   "ahu_size": 8.804878048780488,
+   "rooms": 41,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": -0.1272971962317021,
+   "vs_m1_cells": {
+    "s|perim": -0.1225821067366284,
+    "x|long": 0.0019128264058623223,
+    "m|long": -0.013517920760518248,
+    "m|perim": -0.011655343734844989,
+    "s|core": -0.0006163923969854102,
+    "l|core": 0.0014488571287836205,
+    "l|perim": -0.00264604861178723,
+    "m|core": 0.00035007068198355737,
+    "s|long": -0.005047131495152922
+   },
+   "vs_m1_parts": {
+    "comfort_cost": -0.18516896599656701,
+    "fan_cost": 0.0029504761067657547,
+    "coil_cost": 0.0032842157401878915,
+    "gas_cost": 0.02438393048156058,
+    "pump_cost": 0.002193385445251059
+   }
+  },
+  {
+   "spec": "train/building_11902/phoenix_5",
+   "station": "phoenix",
+   "oat_mean": 36.82235783633842,
+   "small_share": 0.010869565217391304,
+   "long_share": 0.1956521739130435,
+   "ahu_size": 9.326086956521738,
+   "rooms": 92,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": -0.0014417531392638683,
+   "vs_m1_cells": {
+    "x|long": -1.777246187634196e-05,
+    "m|long": 0.00013730406387655984,
+    "m|perim": -0.0005158732296851459,
+    "l|core": 0.00014815627511080565,
+    "x|perim": -3.9005049073753684e-05,
+    "s|perim": 8.650313302657059e-07,
+    "l|long": 6.731516533697857e-05,
+    "l|perim": -0.0012501275506562881,
+    "m|core": 2.3198567493463995e-05,
+    "x|core": 1.7143348181612728e-05
+   },
+   "vs_m1_parts": {
+    "comfort_cost": -0.0020210277443457477,
+    "fan_cost": 3.011881813558586e-05,
+    "coil_cost": 0.0004241012694653245,
+    "gas_cost": 0.00014005643629104244,
+    "pump_cost": -1.5727842368449065e-06
+   }
+  },
+  {
+   "spec": "train/building_13597/phoenix_7",
+   "station": "phoenix",
+   "oat_mean": 23.302538141470183,
+   "small_share": 0.7352941176470589,
+   "long_share": 0.029411764705882353,
+   "ahu_size": 9.764705882352942,
+   "rooms": 68,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": -0.004686833972847637,
+   "vs_m1_cells": {
+    "s|perim": -0.0008275516137504213,
+    "l|long": 0.00020814739403845345,
+    "m|long": -0.0006652761931751419,
+    "m|perim": -0.0018767735732537483,
+    "s|core": -0.0004658789443637845,
+    "l|core": -0.00020682161445859798,
+    "l|perim": -0.00025295874383782224,
+    "m|core": -0.0006496319941327738
+   },
+   "vs_m1_parts": {
+    "comfort_cost": -0.006125101658966021,
+    "fan_cost": 4.534166163131656e-05,
+    "coil_cost": 0.0010919120619749842,
+    "gas_cost": 0.00023864032437530028,
+    "pump_cost": 1.2992639882655124e-05
+   }
+  },
+  {
+   "spec": "train/building_14219/phoenix_1",
+   "station": "phoenix",
+   "oat_mean": 13.916185852981968,
+   "small_share": 0.013513513513513514,
+   "long_share": 0.5135135135135135,
+   "ahu_size": 9.378378378378379,
+   "rooms": 74,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": -0.007969914017018853,
+   "vs_m1_cells": {
+    "s|perim": -0.0029007350559071138,
+    "l|long": 0.0015244638822671797,
+    "x|long": 0.003860728794549073,
+    "m|long": 0.0005015225463264189,
+    "l|core": -0.0009339227991612062,
+    "x|perim": -0.0028209785634167317,
+    "l|perim": -7.375331563623869e-05,
+    "x|core": -0.00784134960684163
+   },
+   "vs_m1_parts": {
+    "comfort_cost": -0.03152525445102452,
+    "fan_cost": 0.006657008573194587,
+    "coil_cost": 0.013431679412729733,
+    "gas_cost": 0.002640368699777331,
+    "pump_cost": 0.0001125166861799349
+   }
+  },
+  {
+   "spec": "train/building_18842/phoenix_7",
+   "station": "phoenix",
+   "oat_mean": 23.302538141470183,
+   "small_share": 0.0,
+   "long_share": 0.32558139534883723,
+   "ahu_size": 7.883720930232558,
+   "rooms": 43,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": 0.0,
+   "vs_m1_cells": {
+    "l|long": 0.0,
+    "x|long": 0.0,
+    "l|core": 0.0,
+    "x|perim": 0.0,
+    "l|perim": 0.0,
+    "x|core": 0.0
+   },
+   "vs_m1_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   }
+  },
+  {
+   "spec": "train/building_19664/phoenix_1",
+   "station": "phoenix",
+   "oat_mean": 13.916185852981968,
+   "small_share": 0.19047619047619047,
+   "long_share": 0.35714285714285715,
+   "ahu_size": 7.238095238095238,
+   "rooms": 42,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": 0.02030105924125758,
+   "vs_m1_cells": {
+    "x|long": -0.004116027017735002,
+    "m|long": 0.025225004841554544,
+    "l|core": 0.0014151773874298418,
+    "s|core": 0.000661233788212829,
+    "x|perim": 3.0302039394369124e-05,
+    "s|long": -0.0008329453447808999,
+    "s|perim": 0.0003895976493561576,
+    "l|long": -0.005964812159355681,
+    "l|perim": -7.791952987123985e-05,
+    "m|core": 0.0012279540726003457,
+    "x|core": 0.0005616699444884674
+   },
+   "vs_m1_parts": {
+    "comfort_cost": -0.015764275256355823,
+    "fan_cost": 0.0019768473319182987,
+    "coil_cost": 0.0020976947509315784,
+    "gas_cost": 0.028767818280746118,
+    "pump_cost": 0.001441150564053584
+   }
+  },
+  {
+   "spec": "train/building_11010/singapore_1",
+   "station": "singapore",
+   "oat_mean": 27.327919556171985,
+   "small_share": 0.10869565217391304,
+   "long_share": 0.30434782608695654,
+   "ahu_size": 9.26086956521739,
+   "rooms": 46,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": 0.0014409845856242498,
+   "vs_m1_cells": {
+    "x|long": -0.00021811036990729282,
+    "m|long": 0.0013958357815265325,
+    "m|perim": -0.0001094081143547948,
+    "l|core": -0.00011693727491254857,
+    "x|perim": -7.682096631579649e-05,
+    "s|long": 0.000912322501958553,
+    "s|perim": 0.0,
+    "l|long": -0.00022328666779075634,
+    "l|perim": -0.00011705491804625545,
+    "x|core": 0.0
+   },
+   "vs_m1_parts": {
+    "comfort_cost": -0.00037645802788747513,
+    "fan_cost": 0.00011670198864511821,
+    "coil_cost": 0.0017071195133359911,
+    "gas_cost": -9.411450697187595e-07,
+    "pump_cost": -1.1764313371483872e-07
+   }
+  },
+  {
+   "spec": "train/building_11534/singapore_5",
+   "station": "singapore",
+   "oat_mean": 28.382954230235786,
+   "small_share": 0.0,
+   "long_share": 0.11594202898550725,
+   "ahu_size": 9.869565217391305,
+   "rooms": 138,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": 0.0004578439280402691,
+   "vs_m1_cells": {
+    "l|long": 1.6947288563107232e-05,
+    "x|long": -9.038553900317381e-06,
+    "m|long": 0.0005582248549482619,
+    "m|perim": -4.5192769501517516e-06,
+    "l|core": -5.366641378345971e-06,
+    "x|perim": -4.142670537637949e-06,
+    "l|perim": -8.680777808434126e-05,
+    "m|core": -1.8830320625690122e-07,
+    "x|core": -6.590612218984604e-06
+   },
+   "vs_m1_parts": {
+    "comfort_cost": -1.8830320625678487e-05,
+    "fan_cost": 4.1615008582753195e-05,
+    "coil_cost": 0.0004293313102655517,
+    "gas_cost": 6.119854203345796e-06,
+    "pump_cost": 0.0
+   }
+  },
+  {
+   "spec": "train/building_16092/singapore_5",
+   "station": "singapore",
+   "oat_mean": 28.382954230235786,
+   "small_share": 0.2761904761904762,
+   "long_share": 0.13333333333333333,
+   "ahu_size": 9.59047619047619,
+   "rooms": 105,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": -0.002324693582750892,
+   "vs_m1_cells": {
+    "x|long": 0.00017814038173033508,
+    "m|long": 0.0006387449467241992,
+    "m|perim": -0.0004068083487985402,
+    "l|core": 0.00015961814020482024,
+    "s|core": -5.025519943309409e-05,
+    "x|perim": -0.0001605714908716055,
+    "s|long": -0.0016490242675770983,
+    "s|perim": -0.002504043622701735,
+    "l|long": 0.000979635906564441,
+    "l|perim": 1.83860485730436e-05,
+    "m|core": 0.0004414013587064336
+   },
+   "vs_m1_parts": {
+    "comfort_cost": -0.0030234835431294663,
+    "fan_cost": -7.49061238162687e-06,
+    "coil_cost": 0.0010490943122850216,
+    "gas_cost": -0.0003980919998453801,
+    "pump_cost": 2.5740468002318405e-05
+   }
+  },
+  {
+   "spec": "train/building_17224/singapore_7",
+   "station": "singapore",
+   "oat_mean": 27.514771151178916,
+   "small_share": 0.5555555555555556,
+   "long_share": 0.1388888888888889,
+   "ahu_size": 9.333333333333334,
+   "rooms": 36,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": -0.043472714152110514,
+   "vs_m1_cells": {
+    "s|perim": -0.009700689589953682,
+    "l|long": -0.0027438751138069706,
+    "m|long": -0.014619502251989797,
+    "m|perim": -0.0013684358355734172,
+    "s|core": -0.002666652943422429,
+    "l|perim": -0.0029958147484505926,
+    "m|core": -0.0006074565002087418,
+    "s|long": -0.010584966376361887
+   },
+   "vs_m1_parts": {
+    "comfort_cost": -0.0474943993033353,
+    "fan_cost": -0.00044951043810957935,
+    "coil_cost": 0.0030975489681456976,
+    "gas_cost": -0.0004049095664316177,
+    "pump_cost": -3.667592340459347e-05
+   }
+  },
+  {
+   "spec": "train/building_17524/singapore_7",
+   "station": "singapore",
+   "oat_mean": 27.514771151178916,
+   "small_share": 0.0,
+   "long_share": 0.4909090909090909,
+   "ahu_size": 8.236363636363636,
+   "rooms": 55,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": 0.0,
+   "vs_m1_cells": {
+    "l|long": 0.0,
+    "x|long": 0.0,
+    "l|core": 0.0,
+    "x|perim": 0.0,
+    "l|perim": 0.0,
+    "x|core": 0.0
+   },
+   "vs_m1_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   }
+  },
+  {
+   "spec": "train/building_18662/singapore_5",
+   "station": "singapore",
+   "oat_mean": 28.382954230235786,
+   "small_share": 0.0,
+   "long_share": 0.6538461538461539,
+   "ahu_size": 8.846153846153847,
+   "rooms": 26,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": 0.0,
+   "vs_m1_cells": {
+    "l|long": 0.0,
+    "x|long": 0.0,
+    "x|perim": 0.0,
+    "x|core": 0.0
+   },
+   "vs_m1_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   }
+  },
+  {
+   "spec": "train/building_19655/singapore_5",
+   "station": "singapore",
+   "oat_mean": 28.382954230235786,
+   "small_share": 0.21052631578947367,
+   "long_share": 0.21052631578947367,
+   "ahu_size": 9.605263157894736,
+   "rooms": 76,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": 0.003200296924559254,
+   "vs_m1_cells": {
+    "s|perim": 0.003136468710643797,
+    "l|long": -0.0039545130587001764,
+    "m|long": -0.0031226540544349313,
+    "m|perim": 0.009506379601005671,
+    "s|core": 0.001370495158606308,
+    "l|core": -3.2775949044642e-05,
+    "l|perim": -0.004489898705697992,
+    "m|core": 0.0002697921094914346,
+    "x|core": 4.022502837296854e-05
+   },
+   "vs_m1_parts": {
+    "comfort_cost": -0.009223314586529198,
+    "fan_cost": 0.000789873284414666,
+    "coil_cost": 0.007298337050283258,
+    "gas_cost": 0.003684179197984836,
+    "pump_cost": 0.00017525652092465182
+   }
+  },
+  {
+   "spec": "train/building_19664/singapore_1",
+   "station": "singapore",
+   "oat_mean": 27.327919556171985,
+   "small_share": 0.19047619047619047,
+   "long_share": 0.35714285714285715,
+   "ahu_size": 7.238095238095238,
+   "rooms": 42,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": -0.0010238018930118775,
+   "vs_m1_cells": {
+    "x|long": -0.00367904147589998,
+    "m|long": 0.010143521264985494,
+    "l|core": -0.0004412254327357812,
+    "s|core": 0.0002404840823642812,
+    "x|perim": -0.0024843262876282357,
+    "s|long": 0.0011282069428961428,
+    "s|perim": -4.7853493623926935e-05,
+    "l|long": -0.002547184690269849,
+    "l|perim": -0.0030257196265090214,
+    "m|core": -0.00022264040677566488,
+    "x|core": -5.900579086678265e-05
+   },
+   "vs_m1_parts": {
+    "comfort_cost": -0.012916387897642734,
+    "fan_cost": 0.0005890440634639242,
+    "coil_cost": 0.011575881769050594,
+    "gas_cost": -0.0002390646990788192,
+    "pump_cost": -4.258149856365777e-06
+   }
+  },
+  {
+   "spec": "train/building_10298/atlanta_5",
+   "station": "atlanta",
+   "oat_mean": 26.984091539528432,
+   "small_share": 0.024390243902439025,
+   "long_share": 0.3902439024390244,
+   "ahu_size": 7.878048780487805,
+   "rooms": 41,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": -0.0005901238283413379,
+   "vs_m1_cells": {
+    "s|perim": 0.0,
+    "l|long": -7.459579468604982e-05,
+    "x|long": -0.00010500427150073044,
+    "m|long": -0.0003614570115120803,
+    "l|core": -2.019312913478788e-06,
+    "x|perim": -8.314817879023773e-06,
+    "l|perim": -8.908733441781447e-06,
+    "x|core": -1.1878311255736351e-05
+   },
+   "vs_m1_parts": {
+    "comfort_cost": -0.0009621432117147029,
+    "fan_cost": 2.5538369199824682e-05,
+    "coil_cost": 0.0003651392880014142,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   }
+  },
+  {
+   "spec": "train/building_11400/atlanta_1",
+   "station": "atlanta",
+   "oat_mean": 9.585963938973649,
+   "small_share": 0.029411764705882353,
+   "long_share": 0.3431372549019608,
+   "ahu_size": 9.411764705882353,
+   "rooms": 102,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": 0.04289145065769118,
+   "vs_m1_cells": {
+    "x|long": 0.02130935078470328,
+    "m|long": 0.008304566681089115,
+    "m|perim": 0.0007439295343151936,
+    "l|core": 0.0009645725405106123,
+    "x|perim": -6.991373450875721e-05,
+    "s|long": 0.00041960090490762714,
+    "s|perim": 0.0005973476875570059,
+    "l|long": 0.00918168780453621,
+    "l|perim": -0.0004635636091495643,
+    "x|core": -0.0006639434821229806
+   },
+   "vs_m1_parts": {
+    "comfort_cost": 0.042765875905440155,
+    "fan_cost": -0.0019043790293054143,
+    "coil_cost": 0.0003103458825058172,
+    "gas_cost": -0.0012053601820730957,
+    "pump_cost": 0.00035904850095174254
+   }
+  },
+  {
+   "spec": "train/building_12302/atlanta_3",
+   "station": "atlanta",
+   "oat_mean": 20.81954230235784,
+   "small_share": 0.2,
+   "long_share": 0.36,
+   "ahu_size": 4.92,
+   "rooms": 25,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": -0.0894751392703671,
+   "vs_m1_cells": {
+    "s|perim": -0.003088958424953131,
+    "l|long": -0.0062525561718480005,
+    "x|long": -0.007699953833826018,
+    "m|long": -0.0460045512624733,
+    "m|perim": -0.018893330526370433,
+    "l|core": -0.007689363119226161,
+    "x|perim": 0.0041076843055091045,
+    "l|perim": 0.0025306764696187423,
+    "s|long": -0.01537015280282392
+   },
+   "vs_m1_parts": {
+    "comfort_cost": -0.11559008506110309,
+    "fan_cost": 0.0015185067457198157,
+    "coil_cost": 0.015493206820079208,
+    "gas_cost": 0.00019971061816839855,
+    "pump_cost": 1.815551074258194e-05
+   }
+  },
+  {
+   "spec": "train/building_13640/atlanta_5",
+   "station": "atlanta",
+   "oat_mean": 26.984091539528432,
+   "small_share": 0.10638297872340426,
+   "long_share": 0.2765957446808511,
+   "ahu_size": 9.553191489361701,
+   "rooms": 47,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": -0.001080834558721433,
+   "vs_m1_cells": {
+    "x|long": -0.00016328970508798502,
+    "m|long": -0.00032593040498882925,
+    "m|perim": -0.00020326842461669548,
+    "s|core": -7.827002557079382e-05,
+    "l|core": -0.00013745929863925865,
+    "x|perim": -2.9205233421938925e-05,
+    "s|long": 0.0004800042364192323,
+    "s|perim": -0.00013486327789064,
+    "l|long": -5.879986995616093e-05,
+    "l|perim": -0.0004131567021423421,
+    "m|core": -1.0773486106757657e-05
+   },
+   "vs_m1_parts": {
+    "comfort_cost": -0.0016874134866008714,
+    "fan_cost": 1.0254281957035687e-05,
+    "coil_cost": 0.0007695903509274293,
+    "gas_cost": -0.00015576124491700367,
+    "pump_cost": -1.0384082994466906e-05
+   }
+  },
+  {
+   "spec": "train/building_14078/atlanta_1",
+   "station": "atlanta",
+   "oat_mean": 9.585963938973649,
+   "small_share": 0.17857142857142858,
+   "long_share": 0.39285714285714285,
+   "ahu_size": 9.571428571428571,
+   "rooms": 56,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": 0.025253510468290274,
+   "vs_m1_cells": {
+    "s|perim": 0.0008033823929268213,
+    "l|long": -0.001262901324836141,
+    "x|long": 0.013982464344310441,
+    "m|long": 0.00884002718733859,
+    "m|perim": 0.005321985223368547,
+    "l|core": -0.0003733415017691949,
+    "l|perim": -0.0017489363890962756,
+    "m|core": -0.0002071925448050363,
+    "s|long": -0.0010375141998542198
+   },
+   "vs_m1_parts": {
+    "comfort_cost": 0.003695333338251819,
+    "fan_cost": -0.0008355402555650195,
+    "coil_cost": 0.0004810985502586634,
+    "gas_cost": 0.019593447201651397,
+    "pump_cost": 0.0013834933097294701
+   }
+  },
+  {
+   "spec": "train/building_14277/atlanta_3",
+   "station": "atlanta",
+   "oat_mean": 20.81954230235784,
+   "small_share": 0.04918032786885246,
+   "long_share": 0.47540983606557374,
+   "ahu_size": 9.262295081967213,
+   "rooms": 61,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": -0.009100356286639522,
+   "vs_m1_cells": {
+    "x|long": 0.006540937289483295,
+    "m|long": 0.0005404353385491563,
+    "m|perim": -0.0002567578988630498,
+    "l|core": -0.00242207716671336,
+    "x|perim": -0.005865733869978046,
+    "s|long": 0.000544524382724813,
+    "s|perim": -0.0005024413030836911,
+    "l|long": 0.0018276323696774233,
+    "l|perim": -0.0016068239841920268,
+    "x|core": -0.008181495888124363
+   },
+   "vs_m1_parts": {
+    "comfort_cost": -0.03530208138316064,
+    "fan_cost": 0.0017403994272634162,
+    "coil_cost": 0.02335202015664727,
+    "gas_cost": 0.0007735108565615275,
+    "pump_cost": 5.554285005265646e-05
+   }
+  },
+  {
+   "spec": "train/building_14679/atlanta_5",
+   "station": "atlanta",
+   "oat_mean": 26.984091539528432,
+   "small_share": 0.6578947368421053,
+   "long_share": 0.039473684210526314,
+   "ahu_size": 9.552631578947368,
+   "rooms": 76,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": -0.03386573396620729,
+   "vs_m1_cells": {
+    "s|perim": -0.007658924877997519,
+    "m|long": -0.006360005787816113,
+    "m|perim": -0.011193142393323835,
+    "s|core": 0.00020158716842888502,
+    "l|core": -0.0005371693475341721,
+    "l|perim": -0.0013205247945655696,
+    "m|core": -0.0013151729228373654,
+    "s|long": -0.0068765605183231555
+   },
+   "vs_m1_parts": {
+    "comfort_cost": -0.037482923844543645,
+    "fan_cost": -0.0004505483125259021,
+    "coil_cost": 0.002724102709653975,
+    "gas_cost": 0.00010723565203542142,
+    "pump_cost": 4.2418538882772795e-05
+   }
+  },
+  {
+   "spec": "train/building_17001/atlanta_5",
+   "station": "atlanta",
+   "oat_mean": 26.984091539528432,
+   "small_share": 0.0,
+   "long_share": 0.2153846153846154,
+   "ahu_size": 9.492307692307692,
+   "rooms": 65,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": -0.0028587347234309,
+   "vs_m1_cells": {
+    "l|long": -0.0003193807844457802,
+    "x|long": -0.0007691661798417265,
+    "m|long": -0.0007002801282946156,
+    "m|perim": -0.00015484012656136886,
+    "l|core": -0.0010704966085345324,
+    "x|perim": -5.685248104513735e-05,
+    "l|perim": -1.461219275245007e-05,
+    "m|core": 0.00019008129731720724,
+    "x|core": -4.2485871364184025e-05
+   },
+   "vs_m1_parts": {
+    "comfort_cost": -0.00578348133310121,
+    "fan_cost": 9.025177876495176e-05,
+    "coil_cost": 0.002311059494061477,
+    "gas_cost": 0.00040312461181680006,
+    "pump_cost": 4.088958139963277e-05
+   }
+  },
+  {
+   "spec": "train/building_10298/denver_3",
+   "station": "denver",
+   "oat_mean": 11.507919556171984,
+   "small_share": 0.024390243902439025,
+   "long_share": 0.3902439024390244,
+   "ahu_size": 7.878048780487805,
+   "rooms": 41,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": -0.009295172116766226,
+   "vs_m1_cells": {
+    "s|perim": 0.0005481768678603054,
+    "l|long": -0.001848196133840907,
+    "x|long": -0.007140009935995784,
+    "m|long": 0.0021515755100055822,
+    "l|core": -0.0005808331523940585,
+    "x|perim": -0.002676070339463571,
+    "l|perim": 0.0006825412752166915,
+    "x|core": -0.0004928356833832775
+   },
+   "vs_m1_parts": {
+    "comfort_cost": -0.014533293040589224,
+    "fan_cost": -0.0006855326905938405,
+    "coil_cost": 0.0031350033152392595,
+    "gas_cost": 0.002648649031839854,
+    "pump_cost": 7.70289459612704e-05
+   }
+  },
+  {
+   "spec": "train/building_11164/denver_1",
+   "station": "denver",
+   "oat_mean": -0.8943689320388348,
+   "small_share": 0.23469387755102042,
+   "long_share": 0.25510204081632654,
+   "ahu_size": 9.816326530612244,
+   "rooms": 98,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": 0.0011525651030919182,
+   "vs_m1_cells": {
+    "x|long": -0.00019748187779499576,
+    "m|long": 0.005267381688618261,
+    "m|perim": 0.004396726524188516,
+    "l|core": -0.0005277384727936582,
+    "s|core": -9.479442729138591e-05,
+    "x|perim": -0.0003151738872763099,
+    "s|long": 0.00019701298532692757,
+    "s|perim": -0.002944410253138935,
+    "l|long": -0.0018688490801699875,
+    "l|perim": -0.0021325229447051453,
+    "m|core": -0.000526409944134193,
+    "x|core": 5.001519659232449e-06
+   },
+   "vs_m1_parts": {
+    "comfort_cost": -0.016317457888245183,
+    "fan_cost": 0.0007515564775443163,
+    "coil_cost": -4.77488829967329e-05,
+    "gas_cost": 0.015777918955005372,
+    "pump_cost": 0.0010942387229464071
+   }
+  },
+  {
+   "spec": "train/building_12098/denver_7",
+   "station": "denver",
+   "oat_mean": 12.940332871012481,
+   "small_share": 0.6666666666666666,
+   "long_share": 0.13513513513513514,
+   "ahu_size": 9.594594594594595,
+   "rooms": 111,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": 0.03422293455905279,
+   "vs_m1_cells": {
+    "s|perim": 0.006780222328707508,
+    "l|long": 0.0005617619364562954,
+    "m|long": 0.004099071011116229,
+    "m|perim": 0.0021721461542977064,
+    "l|core": -0.00015696768311416684,
+    "s|core": 0.005435250272148237,
+    "l|perim": -0.0002501061838831656,
+    "m|core": 0.000764321892674176,
+    "s|long": 0.012138942713860151
+   },
+   "vs_m1_parts": {
+    "comfort_cost": -0.02087474789962265,
+    "fan_cost": 0.0030370967068935797,
+    "coil_cost": 0.001812944174059272,
+    "gas_cost": 0.04519138675948123,
+    "pump_cost": 0.0023769857241707623
+   }
+  },
+  {
+   "spec": "train/building_12618/denver_3",
+   "station": "denver",
+   "oat_mean": 11.507919556171984,
+   "small_share": 0.3958333333333333,
+   "long_share": 0.25,
+   "ahu_size": 9.666666666666666,
+   "rooms": 48,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": -0.010693148361750393,
+   "vs_m1_cells": {
+    "s|perim": -0.011524724732720593,
+    "l|long": -0.0025458915180556208,
+    "m|long": 0.002107933684752289,
+    "m|perim": 0.004532127185412141,
+    "l|core": 0.0008802564876092961,
+    "s|core": 0.0004162537282900655,
+    "l|perim": -0.0002854089809243912,
+    "m|core": 0.0013459645694652855,
+    "s|long": -0.008317013041081983
+   },
+   "vs_m1_parts": {
+    "comfort_cost": -0.04945435356593252,
+    "fan_cost": 0.002097081632245678,
+    "coil_cost": 0.002412256242902533,
+    "gas_cost": 0.030084680076168494,
+    "pump_cost": 0.0014712282612561096
+   }
+  },
+  {
+   "spec": "train/building_13640/denver_7",
+   "station": "denver",
+   "oat_mean": 12.940332871012481,
+   "small_share": 0.10638297872340426,
+   "long_share": 0.2765957446808511,
+   "ahu_size": 9.553191489361701,
+   "rooms": 47,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": 0.017941194462028465,
+   "vs_m1_cells": {
+    "x|long": 0.0017356985567435756,
+    "m|long": 0.007632163952849984,
+    "m|perim": 0.002955878947201847,
+    "s|core": 0.00023461911861384632,
+    "l|core": 0.001551786143010242,
+    "x|perim": 0.0006688455834240256,
+    "s|long": 0.0007545640607220482,
+    "s|perim": 0.0007779052423337179,
+    "l|long": -0.00159927337456503,
+    "l|perim": -0.0003283862792262532,
+    "m|core": 0.00019115622871625215
+   },
+   "vs_m1_parts": {
+    "comfort_cost": -0.01150961713954698,
+    "fan_cost": 0.0038460633217710515,
+    "coil_cost": 0.004418727139588228,
+    "gas_cost": 0.01597744124735304,
+    "pump_cost": 0.0018407338739960932
+   }
+  },
+  {
+   "spec": "train/building_14078/denver_3",
+   "station": "denver",
+   "oat_mean": 11.507919556171984,
+   "small_share": 0.17857142857142858,
+   "long_share": 0.39285714285714285,
+   "ahu_size": 9.571428571428571,
+   "rooms": 56,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": 0.017490170470303434,
+   "vs_m1_cells": {
+    "s|perim": -0.0022250172697270143,
+    "l|long": -0.001007188424026223,
+    "x|long": 0.012853009752232719,
+    "m|long": 0.007221226938613073,
+    "m|perim": 0.004807626600660114,
+    "l|core": -4.250787982475884e-05,
+    "l|perim": -0.001756700215712767,
+    "m|core": 4.762051141879095e-05,
+    "s|long": -0.0018888982612158128
+   },
+   "vs_m1_parts": {
+    "comfort_cost": -0.008413930851908794,
+    "fan_cost": -0.0009902437021716741,
+    "coil_cost": 0.004690036073997159,
+    "gas_cost": 0.021403666980485264,
+    "pump_cost": 0.0013202275527699975
+   }
+  },
+  {
+   "spec": "train/building_15361/denver_1",
+   "station": "denver",
+   "oat_mean": -0.8943689320388348,
+   "small_share": 0.6116504854368932,
+   "long_share": 0.10679611650485436,
+   "ahu_size": 9.679611650485437,
+   "rooms": 103,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": -0.07278955691600553,
+   "vs_m1_cells": {
+    "m|long": 0.0009694187242639818,
+    "m|perim": -0.00017268604745458715,
+    "l|core": -0.0004302598991354264,
+    "s|core": -0.001383913745471664,
+    "x|perim": -0.0001531618524825383,
+    "s|long": -0.003817040751180001,
+    "s|perim": -0.06942355039378512,
+    "l|long": -0.0016892673041027303,
+    "l|perim": -0.0026983407597695533,
+    "m|core": -0.0006432070194516103
+   },
+   "vs_m1_parts": {
+    "comfort_cost": -0.09845772607329546,
+    "fan_cost": 0.0002824338514899712,
+    "coil_cost": 2.777043881116474e-05,
+    "gas_cost": 0.017825832546057224,
+    "pump_cost": 0.0008784675054501136
+   }
+  },
+  {
+   "spec": "train/building_16671/denver_7",
+   "station": "denver",
+   "oat_mean": 12.940332871012481,
+   "small_share": 0.37735849056603776,
+   "long_share": 0.1320754716981132,
+   "ahu_size": 8.320754716981131,
+   "rooms": 53,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": -0.09479837176514427,
+   "vs_m1_cells": {
+    "m|long": -0.012501519926618035,
+    "m|perim": 0.005774658866318075,
+    "s|core": -0.00013856212090857661,
+    "l|core": 0.0008594150594448888,
+    "x|perim": 0.00017279026387111499,
+    "s|long": -0.03270890827971745,
+    "s|perim": -0.06123249821091953,
+    "l|long": -0.010524535380083064,
+    "l|perim": -0.00016165580772667387,
+    "m|core": -0.001376136301999828
+   },
+   "vs_m1_parts": {
+    "comfort_cost": -0.13163401486315265,
+    "fan_cost": 0.0016718179707244094,
+    "coil_cost": 0.0008952927514658563,
+    "gas_cost": 0.016920661854166706,
+    "pump_cost": 0.0003084656739274409
+   }
+  },
+  {
+   "spec": "train/building_10298/fairbanks_5",
+   "station": "fairbanks",
+   "oat_mean": 18.90900138696255,
+   "small_share": 0.024390243902439025,
+   "long_share": 0.3902439024390244,
+   "ahu_size": 7.878048780487805,
+   "rooms": 41,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": -0.005774221656103973,
+   "vs_m1_cells": {
+    "s|perim": -6.268475690473889e-05,
+    "l|long": 0.002264653557962723,
+    "x|long": -0.005786781122344292,
+    "m|long": 0.00025474018231500754,
+    "l|core": 0.0011394399428854285,
+    "x|perim": -0.0025569601371461803,
+    "l|perim": -6.668591160108317e-07,
+    "x|core": -0.0009436056491511358
+   },
+   "vs_m1_parts": {
+    "comfort_cost": -0.020850461693846016,
+    "fan_cost": 0.0027599075947845426,
+    "coil_cost": 0.012722782787942118,
+    "gas_cost": -0.0002954185883914857,
+    "pump_cost": -3.0230946592356518e-05
+   }
+  },
+  {
+   "spec": "train/building_11400/fairbanks_5",
+   "station": "fairbanks",
+   "oat_mean": 18.90900138696255,
+   "small_share": 0.029411764705882353,
+   "long_share": 0.3431372549019608,
+   "ahu_size": 9.411764705882353,
+   "rooms": 102,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": 0.0009731289284782285,
+   "vs_m1_cells": {
+    "x|long": 0.0021854881691650563,
+    "m|long": 2.5940512393643478e-05,
+    "m|perim": -0.00023258824288090695,
+    "l|core": 0.0010323622837743462,
+    "x|perim": -0.0012919426814432255,
+    "s|long": -0.00018561488260051065,
+    "s|perim": 2.3661953872585427e-05,
+    "l|long": 0.003301105475824434,
+    "l|perim": -0.0014006123955247335,
+    "x|core": -0.0027919352832328215
+   },
+   "vs_m1_parts": {
+    "comfort_cost": -0.01931516530932621,
+    "fan_cost": 0.0004243377061150255,
+    "coil_cost": 0.018544136160544518,
+    "gas_cost": 0.0011270100992646745,
+    "pump_cost": -0.00011305155739124538
+   }
+  },
+  {
+   "spec": "train/building_12098/fairbanks_3",
+   "station": "fairbanks",
+   "oat_mean": -1.6671567267683773,
+   "small_share": 0.6666666666666666,
+   "long_share": 0.13513513513513514,
+   "ahu_size": 9.594594594594595,
+   "rooms": 111,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": -0.05329578406419522,
+   "vs_m1_cells": {
+    "s|perim": -0.05859619662539289,
+    "l|long": 0.0006158713119764903,
+    "m|long": 0.0022404022516025884,
+    "m|perim": 0.0017584618584976994,
+    "l|core": -0.00026413026762321743,
+    "s|core": -0.001286580480498841,
+    "l|perim": -0.0027461111239499986,
+    "m|core": -0.0008283274455468913,
+    "s|long": 0.002764444490191642
+   },
+   "vs_m1_parts": {
+    "comfort_cost": -0.10278853258764738,
+    "fan_cost": 0.0038303756070740477,
+    "coil_cost": 4.461659926067851e-06,
+    "gas_cost": 0.040204909925782774,
+    "pump_cost": 0.0024060515164940617
+   }
+  },
+  {
+   "spec": "train/building_12302/fairbanks_3",
+   "station": "fairbanks",
+   "oat_mean": -1.6671567267683773,
+   "small_share": 0.2,
+   "long_share": 0.36,
+   "ahu_size": 4.92,
+   "rooms": 25,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": -0.0888108229749418,
+   "vs_m1_cells": {
+    "s|perim": -0.06323876821745983,
+    "l|long": -0.003679069663918122,
+    "x|long": -0.0035323188095840938,
+    "m|long": -0.02208692306884047,
+    "m|perim": 0.0060649663858852315,
+    "l|core": -0.0005930720616882882,
+    "x|perim": -0.0007059856263011977,
+    "l|perim": -0.0054454129670238605,
+    "s|long": -0.0084994122626696
+   },
+   "vs_m1_parts": {
+    "comfort_cost": -0.12788288734822875,
+    "fan_cost": 0.0015712271922681436,
+    "coil_cost": 3.126271332930526e-06,
+    "gas_cost": 0.023522801102224253,
+    "pump_cost": 0.0010690008975485373
+   }
+  },
+  {
+   "spec": "train/building_12739/fairbanks_1",
+   "station": "fairbanks",
+   "oat_mean": -21.432649098474343,
+   "small_share": 0.696969696969697,
+   "long_share": 0.12121212121212122,
+   "ahu_size": 9.636363636363637,
+   "rooms": 66,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": -0.10763372035119811,
+   "vs_m1_cells": {
+    "s|perim": -0.10673661068308715,
+    "l|long": 0.002065310674753379,
+    "m|perim": 0.0011335352662995846,
+    "s|core": -0.0012717277512153194,
+    "l|perim": -0.003554858333395111,
+    "m|core": -0.0002412810363219449,
+    "s|long": -0.013318403120225392
+   },
+   "vs_m1_parts": {
+    "comfort_cost": -0.12317677735703418,
+    "fan_cost": 0.0004977737771646716,
+    "coil_cost": 0.0,
+    "gas_cost": -0.0014306315569016998,
+    "pump_cost": 0.002185600153579235
+   }
+  },
+  {
+   "spec": "train/building_14042/fairbanks_1",
+   "station": "fairbanks",
+   "oat_mean": -21.432649098474343,
+   "small_share": 0.0,
+   "long_share": 0.3225806451612903,
+   "ahu_size": 9.516129032258064,
+   "rooms": 93,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": 0.006626046973303934,
+   "vs_m1_cells": {
+    "l|long": -0.0014276114045771102,
+    "x|long": 0.013412005860557685,
+    "l|core": -0.00012047715673282194,
+    "x|perim": -0.0037917094497774695,
+    "l|perim": -0.0008866559411357736,
+    "x|core": -0.0007932392694881552
+   },
+   "vs_m1_parts": {
+    "comfort_cost": 0.06238371370786838,
+    "fan_cost": -0.006982781003946863,
+    "coil_cost": -1.5889891418203903e-08,
+    "gas_cost": -0.04938552828951483,
+    "pump_cost": 0.0003769558941140488
+   }
+  },
+  {
+   "spec": "train/building_14277/fairbanks_1",
+   "station": "fairbanks",
+   "oat_mean": -21.432649098474343,
+   "small_share": 0.04918032786885246,
+   "long_share": 0.47540983606557374,
+   "ahu_size": 9.262295081967213,
+   "rooms": 61,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": -0.012995104878357755,
+   "vs_m1_cells": {
+    "x|long": -0.004480242695893588,
+    "m|long": 0.0007079801280937825,
+    "m|perim": 0.00038699688536364407,
+    "l|core": -0.0003048512302342918,
+    "x|perim": -0.0014983344640323304,
+    "s|long": 0.00019941224419299172,
+    "s|perim": 0.0004366499627859177,
+    "l|long": -0.006245926698773829,
+    "l|perim": -0.0023880901851134895,
+    "x|core": -0.00032696370544996363
+   },
+   "vs_m1_parts": {
+    "comfort_cost": 0.012467550625475946,
+    "fan_cost": -0.0013410330576531628,
+    "coil_cost": 0.0,
+    "gas_cost": -0.024829776541268292,
+    "pump_cost": 0.0001897368459074127
+   }
+  },
+  {
+   "spec": "train/building_14979/fairbanks_1",
+   "station": "fairbanks",
+   "oat_mean": -21.432649098474343,
+   "small_share": 0.08,
+   "long_share": 0.68,
+   "ahu_size": 5.64,
+   "rooms": 25,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": -0.13983560441857812,
+   "vs_m1_cells": {
+    "s|perim": -0.06878714309453385,
+    "l|long": -0.006649961767602575,
+    "x|long": -0.08622993500745824,
+    "l|core": -0.00014111732063527144,
+    "x|perim": -0.0015402179146119938,
+    "s|long": -0.00023245111249745737,
+    "x|core": -0.0006764928871324447
+   },
+   "vs_m1_parts": {
+    "comfort_cost": -0.10166590040446759,
+    "fan_cost": -0.010457527200885861,
+    "coil_cost": 8.531881537803589e-08,
+    "gas_cost": -0.053479454536445294,
+    "pump_cost": 0.0013453497402885566
+   }
+  },
+  {
+   "spec": "train/building_11104/phoenix_5",
+   "station": "phoenix",
+   "oat_mean": 36.82235783633842,
+   "small_share": 0.0967741935483871,
+   "long_share": 0.3225806451612903,
+   "ahu_size": 9.193548387096774,
+   "rooms": 62,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": -0.004174788149838515,
+   "vs_m1_cells": {
+    "x|long": -0.0004996940320040194,
+    "m|long": 0.0036353230429017197,
+    "m|perim": -8.255421451257294e-05,
+    "l|core": -0.00014462052177384443,
+    "x|perim": -9.859805364685614e-05,
+    "s|long": -0.005345460712877538,
+    "s|perim": -3.0882507253832125e-06,
+    "l|long": -0.0005033848682368391,
+    "l|perim": -0.0007762807798964988,
+    "m|core": -0.0003014434000723487
+   },
+   "vs_m1_parts": {
+    "comfort_cost": -0.008594375799164784,
+    "fan_cost": 0.00027711401021144266,
+    "coil_cost": 0.004247399272034105,
+    "gas_cost": -4.6625053634382046e-05,
+    "pump_cost": -3.766159421194029e-06
+   }
+  },
+  {
+   "spec": "train/building_11754/phoenix_1",
+   "station": "phoenix",
+   "oat_mean": 13.916185852981968,
+   "small_share": 0.010416666666666666,
+   "long_share": 0.2708333333333333,
+   "ahu_size": 9.6875,
+   "rooms": 96,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": -0.003328528515102791,
+   "vs_m1_cells": {
+    "l|long": -0.004290860754170886,
+    "x|long": -0.0034341072895394675,
+    "m|long": 0.0025915406869355673,
+    "l|core": -0.0002786388370094317,
+    "x|perim": 0.00011859329976138255,
+    "l|perim": -0.00020482282052249057,
+    "s|long": 0.0003759518437295977,
+    "x|core": 0.00017689243590574
+   },
+   "vs_m1_parts": {
+    "comfort_cost": -0.0212137921255439,
+    "fan_cost": 0.005909049704186245,
+    "coil_cost": 0.008732013577945983,
+    "gas_cost": 0.0016352575183922217,
+    "pump_cost": -9.310128205567982e-06
+   }
+  },
+  {
+   "spec": "train/building_12302/phoenix_3",
+   "station": "phoenix",
+   "oat_mean": 26.982496532593615,
+   "small_share": 0.2,
+   "long_share": 0.36,
+   "ahu_size": 4.92,
+   "rooms": 25,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": -0.1260656341972195,
+   "vs_m1_cells": {
+    "s|perim": -0.0038083056824307904,
+    "l|long": 0.005745161425628198,
+    "x|long": -0.00012237214935233165,
+    "m|long": -0.0666725139498297,
+    "m|perim": -0.038486304704393154,
+    "l|core": -0.0034522660237547576,
+    "x|perim": -0.0003159522304398976,
+    "l|perim": -0.0036012752142376703,
+    "s|long": -0.033523903061691146
+   },
+   "vs_m1_parts": {
+    "comfort_cost": -0.15022236265322403,
+    "fan_cost": 2.4263443406064508e-05,
+    "coil_cost": 0.00606849818232212,
+    "gas_cost": -0.000103647100636792,
+    "pump_cost": -3.428530046509685e-06
+   }
+  },
+  {
+   "spec": "train/building_12739/phoenix_1",
+   "station": "phoenix",
+   "oat_mean": 13.916185852981968,
+   "small_share": 0.696969696969697,
+   "long_share": 0.12121212121212122,
+   "ahu_size": 9.636363636363637,
+   "rooms": 66,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": -0.06314223686972331,
+   "vs_m1_cells": {
+    "s|perim": -0.04741894748701225,
+    "l|long": -0.00436830372409501,
+    "m|perim": 0.004260205284364452,
+    "s|core": 0.0024288698282127624,
+    "l|perim": 0.0005387316377450657,
+    "m|core": 0.0005489428910095198,
+    "s|long": -0.0243358813144528
+   },
+   "vs_m1_parts": {
+    "comfort_cost": -0.11102097083726863,
+    "fan_cost": 0.0022609123176216147,
+    "coil_cost": 0.0019595042902296276,
+    "gas_cost": 0.03682565250560021,
+    "pump_cost": 0.0016253498299550631
+   }
+  },
+  {
+   "spec": "train/building_14078/phoenix_7",
+   "station": "phoenix",
+   "oat_mean": 23.302538141470183,
+   "small_share": 0.17857142857142858,
+   "long_share": 0.39285714285714285,
+   "ahu_size": 9.571428571428571,
+   "rooms": 56,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": -0.008749889124252785,
+   "vs_m1_cells": {
+    "s|perim": -0.00019779197611798777,
+    "l|long": 2.2378552563401266e-05,
+    "x|long": 0.0005238302726954525,
+    "m|long": 0.0006327966094079873,
+    "m|perim": -0.0003480725637168003,
+    "l|core": -0.0008860185387983832,
+    "l|perim": -0.0008095871746587602,
+    "m|core": -0.0003358504311629304,
+    "s|long": -0.007632291423101498
+   },
+   "vs_m1_parts": {
+    "comfort_cost": -0.017558556626662874,
+    "fan_cost": 0.00021053053680793998,
+    "coil_cost": 0.00789962905487801,
+    "gas_cost": 0.0003520318460933881,
+    "pump_cost": 6.661922955410331e-05
+   }
+  },
+  {
+   "spec": "train/building_14277/phoenix_3",
+   "station": "phoenix",
+   "oat_mean": 26.982496532593615,
+   "small_share": 0.04918032786885246,
+   "long_share": 0.47540983606557374,
+   "ahu_size": 9.262295081967213,
+   "rooms": 61,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": 0.0005052109565120144,
+   "vs_m1_cells": {
+    "x|long": -0.000505219984332006,
+    "m|long": 0.0016641616280174756,
+    "m|perim": -5.775065139721619e-05,
+    "l|core": -0.00014781416726665497,
+    "x|perim": -0.00042016545353275314,
+    "s|long": 0.00036261123292260014,
+    "s|perim": -2.4848494563765866e-05,
+    "l|long": -0.00032754833743142697,
+    "l|perim": -3.0446771995110145e-05,
+    "x|core": -1.5714462965235598e-05
+   },
+   "vs_m1_parts": {
+    "comfort_cost": -0.0014535878242834482,
+    "fan_cost": 7.867053021965763e-05,
+    "coil_cost": 0.0018714943237651508,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   }
+  },
+  {
+   "spec": "train/building_14979/phoenix_7",
+   "station": "phoenix",
+   "oat_mean": 23.302538141470183,
+   "small_share": 0.08,
+   "long_share": 0.68,
+   "ahu_size": 5.64,
+   "rooms": 25,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": -0.0008161000722444189,
+   "vs_m1_cells": {
+    "s|perim": -6.579544042996724e-05,
+    "l|long": -2.1088282189940522e-07,
+    "x|long": -0.0002825829813337677,
+    "l|core": 4.006773615926329e-05,
+    "x|perim": 0.0,
+    "s|long": -4.133303309061982e-05,
+    "x|core": -0.0005331117737402136
+   },
+   "vs_m1_parts": {
+    "comfort_cost": -0.0011598555204000705,
+    "fan_cost": 8.435312875635815e-05,
+    "coil_cost": 0.00019464484460529619,
+    "gas_cost": -1.8979453970181444e-06,
+    "pump_cost": -2.108828218909347e-07
+   }
+  },
+  {
+   "spec": "train/building_16710/phoenix_3",
+   "station": "phoenix",
+   "oat_mean": 26.982496532593615,
+   "small_share": 0.0,
+   "long_share": 0.631578947368421,
+   "ahu_size": 9.578947368421053,
+   "rooms": 38,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": 0.0,
+   "vs_m1_cells": {
+    "l|long": 0.0,
+    "x|long": 0.0,
+    "x|perim": 0.0,
+    "x|core": 0.0
+   },
+   "vs_m1_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   }
+  },
+  {
+   "spec": "train/building_10298/singapore_3",
+   "station": "singapore",
+   "oat_mean": 28.594313453536756,
+   "small_share": 0.024390243902439025,
+   "long_share": 0.3902439024390244,
+   "ahu_size": 7.878048780487805,
+   "rooms": 41,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": -0.0007926513894049858,
+   "vs_m1_cells": {
+    "s|perim": 1.949676541320583e-06,
+    "l|long": -9.791708851963898e-05,
+    "x|long": -8.63273446350954e-05,
+    "m|long": -0.0005699554422459226,
+    "l|core": -5.632398897129076e-06,
+    "x|perim": -1.2456266791804893e-05,
+    "l|perim": -2.252959558859957e-05,
+    "x|core": -3.5744069924181776e-06
+   },
+   "vs_m1_parts": {
+    "comfort_cost": -0.0013431105062427712,
+    "fan_cost": 5.242463588882238e-05,
+    "coil_cost": 0.0004948928954050341,
+    "gas_cost": -1.0831536340666027e-07,
+    "pump_cost": 0.0
+   }
+  },
+  {
+   "spec": "train/building_11400/singapore_3",
+   "station": "singapore",
+   "oat_mean": 28.594313453536756,
+   "small_share": 0.029411764705882353,
+   "long_share": 0.3431372549019608,
+   "ahu_size": 9.411764705882353,
+   "rooms": 102,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": -0.004596075449329051,
+   "vs_m1_cells": {
+    "x|long": -0.00012686504375516994,
+    "m|long": 0.0048503695840225736,
+    "m|perim": -1.12715634338241e-05,
+    "l|core": -0.00015580338391854576,
+    "x|perim": 3.229582714371626e-05,
+    "s|long": -0.008305223686738476,
+    "s|perim": -1.5108691411293458e-05,
+    "l|long": -0.00033598851852734146,
+    "l|perim": -0.0004410298969106108,
+    "x|core": -0.00011919078780023296
+   },
+   "vs_m1_parts": {
+    "comfort_cost": -0.009137160996354013,
+    "fan_cost": 0.0002733953683948589,
+    "coil_cost": 0.004212207237269481,
+    "gas_cost": 2.1583844873277225e-05,
+    "pump_cost": 1.6787434901437831e-06
+   }
+  },
+  {
+   "spec": "train/building_14042/singapore_7",
+   "station": "singapore",
+   "oat_mean": 27.514771151178916,
+   "small_share": 0.0,
+   "long_share": 0.3225806451612903,
+   "ahu_size": 9.516129032258064,
+   "rooms": 93,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": 0.0,
+   "vs_m1_cells": {
+    "l|long": 0.0,
+    "x|long": 0.0,
+    "l|core": 0.0,
+    "x|perim": 0.0,
+    "l|perim": 0.0,
+    "x|core": 0.0
+   },
+   "vs_m1_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   }
+  },
+  {
+   "spec": "train/building_14213/singapore_3",
+   "station": "singapore",
+   "oat_mean": 28.594313453536756,
+   "small_share": 0.36231884057971014,
+   "long_share": 0.2463768115942029,
+   "ahu_size": 9.869565217391305,
+   "rooms": 69,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": -0.01996590103706586,
+   "vs_m1_cells": {
+    "m|long": 0.005783674594467464,
+    "m|perim": -0.005257428607567921,
+    "l|core": -0.00042562075835511637,
+    "s|core": -0.00020376608780243305,
+    "x|perim": -7.199495518475305e-05,
+    "s|long": -0.01205885551359892,
+    "s|perim": -0.00547413222475468,
+    "l|long": -0.0014759564772567901,
+    "l|perim": -0.001239008022422411,
+    "m|core": 5.3546996618282494e-05
+   },
+   "vs_m1_parts": {
+    "comfort_cost": -0.029097461920758766,
+    "fan_cost": 0.00033242263001278524,
+    "coil_cost": 0.008414784737026554,
+    "gas_cost": -1.665107948532508e-05,
+    "pump_cost": -2.7552145910969882e-06
+   }
+  },
+  {
+   "spec": "train/building_14679/singapore_1",
+   "station": "singapore",
+   "oat_mean": 27.327919556171985,
+   "small_share": 0.6578947368421053,
+   "long_share": 0.039473684210526314,
+   "ahu_size": 9.552631578947368,
+   "rooms": 76,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": -0.05613812589759004,
+   "vs_m1_cells": {
+    "s|perim": -0.028931030048402973,
+    "m|long": -0.011165068294769674,
+    "m|perim": -0.006728254049670701,
+    "s|core": -0.0030616981631661766,
+    "l|core": -6.557178932645874e-05,
+    "l|perim": -0.0013580926366268536,
+    "m|core": -0.0016682976399789579,
+    "s|long": -0.006633679353526781
+   },
+   "vs_m1_parts": {
+    "comfort_cost": -0.06239828285585166,
+    "fan_cost": -0.0009623500747623484,
+    "coil_cost": 0.002952622013613432,
+    "gas_cost": 0.0007355809700083554,
+    "pump_cost": 6.325996342071858e-05
+   }
+  },
+  {
+   "spec": "train/building_15570/singapore_3",
+   "station": "singapore",
+   "oat_mean": 28.594313453536756,
+   "small_share": 0.059322033898305086,
+   "long_share": 0.23728813559322035,
+   "ahu_size": 9.847457627118644,
+   "rooms": 118,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": -0.0029622164665766837,
+   "vs_m1_cells": {
+    "x|long": -9.537743333731807e-07,
+    "m|long": 0.0008878685269197752,
+    "m|perim": -9.680809483549047e-05,
+    "l|core": -0.00014430605663659501,
+    "x|perim": -0.00019008722463757788,
+    "s|long": -0.002947067312632303,
+    "s|perim": -6.30444834347349e-05,
+    "l|long": -0.00016576597913701974,
+    "l|perim": -0.00018636750473746688,
+    "m|core": -1.2399066333622366e-06,
+    "x|core": -5.2171456034477703e-05
+   },
+   "vs_m1_parts": {
+    "comfort_cost": -0.004559041313434873,
+    "fan_cost": 8.488591566854946e-05,
+    "coil_cost": 0.0015251805364672943,
+    "gas_cost": -1.0300762800229421e-05,
+    "pump_cost": -1.14452920002549e-06
+   }
+  },
+  {
+   "spec": "train/building_16710/singapore_5",
+   "station": "singapore",
+   "oat_mean": 28.382954230235786,
+   "small_share": 0.0,
+   "long_share": 0.631578947368421,
+   "ahu_size": 9.578947368421053,
+   "rooms": 38,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": 0.0,
+   "vs_m1_cells": {
+    "l|long": 0.0,
+    "x|long": 0.0,
+    "x|perim": 0.0,
+    "x|core": 0.0
+   },
+   "vs_m1_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   }
+  },
+  {
+   "spec": "train/building_17084/singapore_3",
+   "station": "singapore",
+   "oat_mean": 28.594313453536756,
+   "small_share": 0.569620253164557,
+   "long_share": 0.189873417721519,
+   "ahu_size": 9.886075949367088,
+   "rooms": 79,
+   "actual": 0.0,
+   "actual_parts": {
+    "comfort_cost": 0.0,
+    "fan_cost": 0.0,
+    "coil_cost": 0.0,
+    "gas_cost": 0.0,
+    "pump_cost": 0.0
+   },
+   "predicted": 0,
+   "predicted_parts": {
+    "comfort_cost": 0,
+    "fan_cost": 0,
+    "coil_cost": 0,
+    "gas_cost": 0,
+    "pump_cost": 0
+   },
+   "vs_m1": -0.027103373000360476,
+   "vs_m1_cells": {
+    "m|long": -0.0013595902249890768,
+    "m|perim": -0.001903255975846077,
+    "s|core": 0.001110185336149469,
+    "l|core": 0.00023875869267402094,
+    "x|perim": -0.000638203972807571,
+    "s|long": -0.013239609551548556,
+    "s|perim": -0.008532145505681654,
+    "l|long": -0.0026699240490520026,
+    "l|perim": -0.0014714462593690691,
+    "m|core": 0.00020625230704836295
+   },
+   "vs_m1_parts": {
+    "comfort_cost": -0.03706295758453233,
+    "fan_cost": 0.0004433076083358659,
+    "coil_cost": 0.007293070221287304,
+    "gas_cost": 0.0009493567994077066,
+    "pump_cost": 0.00011795985351492292
+   }
+  }
+ ]
+}

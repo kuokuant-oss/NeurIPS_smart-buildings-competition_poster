@@ -1,0 +1,100 @@
+{
+  "generated": "2026-11-12T18:32:31+0800",
+  "notebook": "data/submissions/pr-opt2/sb-pr-opt2.ipynb",
+  "notebook_sha256": "cce6239c1be970195813835806cb0ce6e6297fbf8e7bc8b8ca7567f0b7495e2d",
+  "policy": "smart_building.policies.b2rl.G36PolicyB2RL (default G36Config)",
+  "embedded": [
+    {
+      "module": "smart_building",
+      "package": true,
+      "file": "packages/smart_building/__init__.py",
+      "sha256": "2244f62f660a13724610470f4f2f01a1f5bdcc5072d3f7f461a4fb378f9233ed"
+    },
+    {
+      "module": "smart_building.g36",
+      "package": true,
+      "file": "packages/smart_building/g36/__init__.py",
+      "sha256": "0a0067790d6e8061ccd7df1d4435b0db33cb2f619328e7553435937ffeb70019"
+    },
+    {
+      "module": "smart_building.g36.modes",
+      "package": false,
+      "file": "packages/smart_building/g36/modes.py",
+      "sha256": "42a152ef19de513dd8ded0dd2ddae8d88c3468f62b1408d9f6220d55211777d8"
+    },
+    {
+      "module": "smart_building.g36.trim_respond",
+      "package": false,
+      "file": "packages/smart_building/g36/trim_respond.py",
+      "sha256": "b9c2977da77791bb537365565878e47964d8c571124f854aaaa54172e8709b01"
+    },
+    {
+      "module": "smart_building.g36.zone",
+      "package": false,
+      "file": "packages/smart_building/g36/zone.py",
+      "sha256": "a5771ed04f71d549165275ebc21f058deeccddbdbd627dbe73c513eedc75e0e9"
+    },
+    {
+      "module": "smart_building.g36.building",
+      "package": false,
+      "file": "packages/smart_building/g36/building.py",
+      "sha256": "203a2d09003b584a1f9eae867da78399903dfc4f905d5fbda035f4757942e3f6"
+    },
+    {
+      "module": "smart_building.g36.requests",
+      "package": false,
+      "file": "packages/smart_building/g36/requests.py",
+      "sha256": "af4d7691f15ed6bb2b252ea9fa76f6b47f9d4b2afc9ebadfec7ae6c5d6efd37d"
+    },
+    {
+      "module": "smart_building.g36.optimal_start",
+      "package": false,
+      "file": "packages/smart_building/g36/optimal_start.py",
+      "sha256": "fbd91423018e59cf4ac0890478c65567ee68ca35b7ada1c50c5f80399350113c"
+    },
+    {
+      "module": "smart_building.g36.ahu",
+      "package": false,
+      "file": "packages/smart_building/g36/ahu.py",
+      "sha256": "aef07b974539b2cdcf6183b6388ab456dd36d9e92b190a2f72c994aa5924f990"
+    },
+    {
+      "module": "smart_building.g36.plant",
+      "package": false,
+      "file": "packages/smart_building/g36/plant.py",
+      "sha256": "d4c5e97c5210cc194483005e3dd8f3f3f4f99e6c52c10771aa829f1525323050"
+    },
+    {
+      "module": "smart_building.g36.rooms",
+      "package": false,
+      "file": "packages/smart_building/g36/rooms.py",
+      "sha256": "277d627d6bfd8f036c65226112d80c5a55cdf43de588e90414a745ef31e464f2"
+    },
+    {
+      "module": "smart_building.g36.planner",
+      "package": false,
+      "file": "packages/smart_building/g36/planner.py",
+      "sha256": "852c5b903e835713a2742c3068568e5dccc7ac62488f21e924f9101fc2807019"
+    },
+    {
+      "module": "smart_building.policies",
+      "package": true,
+      "file": null,
+      "sha256": null
+    },
+    {
+      "module": "smart_building.policies.g36",
+      "package": false,
+      "file": "packages/smart_building/policies/g36.py",
+      "sha256": "3f55478631c7134501a5f2abf49942753afb118f8d46f98b961edcad6a5aeef1"
+    },
+    {
+      "module": "smart_building.policies.b2rl",
+      "package": false,
+      "file": "packages/smart_building/policies/b2rl.py",
+      "sha256": "1f1988127f8f4fca1feb5db112ccfc8f5cba89f81f13faaaff9b63284a38dffc",
+      "embedded_json": "data/runs/b2rl/search/models/model-pr_opt2.json",
+      "embedded_json_sha256": "bcff73f165242ab236115c2b314d2d00aa2b04fdc1bada1fa866595bc26a6e6e"
+    }
+  ]
+}

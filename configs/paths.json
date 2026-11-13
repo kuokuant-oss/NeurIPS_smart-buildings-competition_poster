@@ -1,0 +1,7 @@
+{
+  "raw": "data/raw/kaggle",
+  "starter_kit": "reference/starter-kit",
+  "processed": "data/processed",
+  "runs": "data/runs",
+  "submissions": "data/submissions"
+}

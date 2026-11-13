@@ -1,0 +1,144 @@
+{
+ "_note": "the step-0\nplanner's largest gain (building_16909/denver_5, -43%) chose \"A12 without the guard\" in 78 of 85 blocks; there one zone\nnear its cooling limit puts the whole group back on G36's 12 C supply air and over-cools the others (comfort 5.9 with\nno guard, 84 with the 0.5 K guard, 25 in night1_dcv07). G36's rogue-zone practice: the guard ignores the first 1 / 2 /\n3 zones near the limit (G36Config.sat_cost_guard_ignore). On night1_dcv07 (TRAIN 100 -26.52%).",
+ "dcv07_ignore1": {
+  "breaks_c": [
+   0,
+   5,
+   20,
+   25
+  ],
+  "cold": {
+   "heating_max_ratio": 0.4529957279624725,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180,
+   "discharge_offset_k": 14.0,
+   "sat_cost_guard_k": 30.0,
+   "sp_max_pa": 1807.1323159420097
+  },
+  "mild": {
+   "heating_max_ratio": 0.36,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180,
+   "discharge_offset_k": 14.0,
+   "sat_cost_guard_k": 0.0,
+   "sp_max_pa": 1807.1323159420097
+  },
+  "hot": {
+   "heating_max_ratio": 0.4529957279624725,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180,
+   "discharge_offset_k": 14.0,
+   "sat_cost_guard_k": 0.25,
+   "sp_max_pa": 1807.1323159420097
+  },
+  "rule_config": {
+   "freeze_on_k": 275.15,
+   "freeze_off_k": 278.15,
+   "sat_cost_optimal": true,
+   "sat_cost_guard_k": 0.5,
+   "zone_gain_per_k": 0.05,
+   "zone_ti_s": 450.0,
+   "empty_day_delay_min": 60,
+   "dcv_area_share": 0.7,
+   "sat_cost_guard_ignore": 1
+  },
+  "layout": "v3"
+ },
+ "dcv07_ignore2": {
+  "breaks_c": [
+   0,
+   5,
+   20,
+   25
+  ],
+  "cold": {
+   "heating_max_ratio": 0.4529957279624725,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180,
+   "discharge_offset_k": 14.0,
+   "sat_cost_guard_k": 30.0,
+   "sp_max_pa": 1807.1323159420097
+  },
+  "mild": {
+   "heating_max_ratio": 0.36,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180,
+   "discharge_offset_k": 14.0,
+   "sat_cost_guard_k": 0.0,
+   "sp_max_pa": 1807.1323159420097
+  },
+  "hot": {
+   "heating_max_ratio": 0.4529957279624725,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180,
+   "discharge_offset_k": 14.0,
+   "sat_cost_guard_k": 0.25,
+   "sp_max_pa": 1807.1323159420097
+  },
+  "rule_config": {
+   "freeze_on_k": 275.15,
+   "freeze_off_k": 278.15,
+   "sat_cost_optimal": true,
+   "sat_cost_guard_k": 0.5,
+   "zone_gain_per_k": 0.05,
+   "zone_ti_s": 450.0,
+   "empty_day_delay_min": 60,
+   "dcv_area_share": 0.7,
+   "sat_cost_guard_ignore": 2
+  },
+  "layout": "v3"
+ },
+ "dcv07_ignore3": {
+  "breaks_c": [
+   0,
+   5,
+   20,
+   25
+  ],
+  "cold": {
+   "heating_max_ratio": 0.4529957279624725,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180,
+   "discharge_offset_k": 14.0,
+   "sat_cost_guard_k": 30.0,
+   "sp_max_pa": 1807.1323159420097
+  },
+  "mild": {
+   "heating_max_ratio": 0.36,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180,
+   "discharge_offset_k": 14.0,
+   "sat_cost_guard_k": 0.0,
+   "sp_max_pa": 1807.1323159420097
+  },
+  "hot": {
+   "heating_max_ratio": 0.4529957279624725,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180,
+   "discharge_offset_k": 14.0,
+   "sat_cost_guard_k": 0.25,
+   "sp_max_pa": 1807.1323159420097
+  },
+  "rule_config": {
+   "freeze_on_k": 275.15,
+   "freeze_off_k": 278.15,
+   "sat_cost_optimal": true,
+   "sat_cost_guard_k": 0.5,
+   "zone_gain_per_k": 0.05,
+   "zone_ti_s": 450.0,
+   "empty_day_delay_min": 60,
+   "dcv_area_share": 0.7,
+   "sat_cost_guard_ignore": 3
+  },
+  "layout": "v3"
+ }
+}

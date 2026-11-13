@@ -1,0 +1,34 @@
+{
+ "_note": "round 2 (2026-10-28 21:3x): c1 = the three round-1 gains together (heating airflow ratio 0.36, optimal start cap 2.5 h, comfort margin 0.10 K); then one parameter at a time around c1 (discharge 11.8, optimal start 2 h, margin 0.13, heating ratio 0.33 / 0.39)",
+ "c1": {
+  "heating_max_ratio": 0.36,
+  "t_opt_max_s": 9000.0,
+  "occupied_margin_k": 0.1
+ },
+ "c1_dis118": {
+  "heating_max_ratio": 0.36,
+  "t_opt_max_s": 9000.0,
+  "occupied_margin_k": 0.1,
+  "discharge_offset_k": 11.8
+ },
+ "c1_topt7200": {
+  "heating_max_ratio": 0.36,
+  "t_opt_max_s": 7200.0,
+  "occupied_margin_k": 0.1
+ },
+ "c1_margin013": {
+  "heating_max_ratio": 0.36,
+  "t_opt_max_s": 9000.0,
+  "occupied_margin_k": 0.13
+ },
+ "c1_heat033": {
+  "heating_max_ratio": 0.33,
+  "t_opt_max_s": 9000.0,
+  "occupied_margin_k": 0.1
+ },
+ "c1_heat039": {
+  "heating_max_ratio": 0.39,
+  "t_opt_max_s": 9000.0,
+  "occupied_margin_k": 0.1
+ }
+}

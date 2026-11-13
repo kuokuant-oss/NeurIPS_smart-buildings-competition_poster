@@ -1,0 +1,11 @@
+{
+ "_note": "Stage 3 of the user's staged check (2026-10-29 18:2x): a short autotune v2 run from round 19's band_pi_empty (TRAIN 100 -18.98%, INNER 29 -18.69% vs the original rule), one sweep over four parameters, then an INNER 29 check of the end state before any overnight run. pilot2 found lead 240 slightly better than 180 on f2d_a12_g05.",
+ "tag": "short1",
+ "start": {"round": "data/runs/b2rl/search/round19.json", "name": "band_pi_empty"},
+ "start_rows": "band_pi_empty",
+ "moves": [{"parameter": "unoccupied_lead_min", "bands": "all", "step": 60, "low": 0, "high": 360, "reach": 1},
+           {"parameter": "heating_max_ratio", "bands": "mild", "step": 0.04, "low": 0.1, "high": 0.5, "reach": 1},
+           {"parameter": "occupied_margin_k", "bands": "all", "step": 0.05, "low": 0.0, "high": 1.0, "reach": 1},
+           {"parameter": "discharge_offset_k", "bands": "all", "step": 0.8, "low": 8.0, "high": 14.0, "reach": 1}],
+ "sweeps": 1
+}

@@ -1,0 +1,141 @@
+{
+ "note": "gt_m1 = gt_r3d1 merged with hand-chosen rule levers (2026-11-10, model field source.merged); no script wrote the model file",
+ "input": "data/runs/b2rl/search/models/model-gt_r3d1.json",
+ "output": "data/runs/b2rl/search/models/model-gt_m1.json",
+ "key_order": [
+  "format",
+  "layout",
+  "features",
+  "parameters",
+  "ranges",
+  "interval",
+  "obs_mean",
+  "obs_var",
+  "obs_epsilon",
+  "obs_clip",
+  "layers",
+  "log_std",
+  "rule",
+  "source",
+  "rule_config",
+  "room_policy",
+  "rule_oat_gates"
+ ],
+ "ops": [
+  [
+   "set",
+   [
+    "source",
+    "merged"
+   ],
+   {
+    "name": "gt_m1",
+    "base": "gt_r3d1 (trees + building-wide gates)",
+    "levers": [
+     "cold low airflow for not-heating zones (gate o526_3 dropped)",
+     "big-room heating max 0.6 when short of heat"
+    ],
+    "date": "2026-11-10"
+   }
+  ],
+  [
+   "set",
+   [
+    "rule_config",
+    "cold_low_flow_deadband_only"
+   ],
+   true
+  ],
+  [
+   "set",
+   [
+    "rule_config",
+    "big_room_heat_max_ratio"
+   ],
+   0.6
+  ],
+  [
+   "set",
+   [
+    "rule_config",
+    "big_room_need"
+   ],
+   true
+  ],
+  [
+   "set",
+   [
+    "rule_oat_gates"
+   ],
+   [
+    {
+     "id": "o538_2",
+     "on": {
+      "hw_off_setpoint": "low_warm"
+     },
+     "off": {
+      "hw_off_setpoint": "max"
+     },
+     "lo": 25.375,
+     "hi": null
+    },
+    {
+     "id": "o522_1",
+     "on": {
+      "night_cool_mode": "night",
+      "night_cool_scale": 0.5,
+      "night_cool_floor_k": 1.0
+     },
+     "off": {
+      "night_cool_mode": "off",
+      "night_cool_scale": 1.0,
+      "night_cool_floor_k": 0.0
+     },
+     "lo": 27.125,
+     "hi": null
+    },
+    {
+     "id": "o545_3",
+     "on": {
+      "hourly_lp": true,
+      "hourly_lp_horizon_h": 6,
+      "hourly_lp_every_steps": 24
+     },
+     "off": {
+      "hourly_lp": false,
+      "hourly_lp_horizon_h": 12,
+      "hourly_lp_every_steps": 12
+     },
+     "lo": 25.875,
+     "hi": null
+    },
+    {
+     "id": "o13s",
+     "on": {
+      "zone_temp_lead": 0.5,
+      "zone_temp_lead_steady": true,
+      "zone_temp_lead_max_k": 0.3
+     },
+     "off": {
+      "zone_temp_lead": 0.0,
+      "zone_temp_lead_steady": false,
+      "zone_temp_lead_max_k": 0.0
+     },
+     "lo": 16.625,
+     "hi": null
+    },
+    {
+     "id": "o508_2",
+     "on": {
+      "setback_heat_drop_k": 2.0
+     },
+     "off": {
+      "setback_heat_drop_k": 0.0
+     },
+     "lo": -11.375,
+     "hi": null
+    }
+   ]
+  ]
+ ]
+}

@@ -1,0 +1,6 @@
+{
+ "time": "2026-11-10 07:52:52",
+ "label": "d",
+ "stage": "gate",
+ "reason": "memory: gate gt_r3d1: host memory used 22.1 GB > 18 GB (our tree 6.8 GB)"
+}

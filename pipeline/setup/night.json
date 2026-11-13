@@ -1,0 +1,7 @@
+{
+ "skip_r7": "restarted at R5 with an early pause time (R7 on Kaggle)",
+ "j13": "define failed (exit 1)",
+ "rl": "handled by .tmp/setup/rl_single.py (one run s42-e6; user 2026-10-27)",
+ "rule_baseline": "done for a1_cold3+a1_econ",
+ "b2rx": "eval s4_first failed"
+}

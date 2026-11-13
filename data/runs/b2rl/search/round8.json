@@ -1,0 +1,149 @@
+{
+ "_note": "round 8 (2026-10-29 04:3x, rule side: zone loops and freeze protection, .tmp/setup/zone_diag.py): s5 with the unoccupied lead 180 min (round 6 best, -4.71% on train_ceiling100) plus one whitelisted rule switch each (policies/b2rl.py rule_config): zone loop gain 0.05 / 0.2 per K (B2R2 0.1), integral time 450 / 1800 s (B2R2 900 s), freeze protection on/off 2 / 5 C (B2R2 4 / 7 C)",
+ "l180_gain005": {
+  "breaks_c": [
+   0,
+   5,
+   20,
+   25
+  ],
+  "cold": {
+   "heating_max_ratio": 0.4529957279624725,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180
+  },
+  "mild": {
+   "heating_max_ratio": 0.36,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180
+  },
+  "hot": {
+   "heating_max_ratio": 0.4529957279624725,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180
+  },
+  "rule_config": {
+   "zone_gain_per_k": 0.05
+  }
+ },
+ "l180_gain02": {
+  "breaks_c": [
+   0,
+   5,
+   20,
+   25
+  ],
+  "cold": {
+   "heating_max_ratio": 0.4529957279624725,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180
+  },
+  "mild": {
+   "heating_max_ratio": 0.36,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180
+  },
+  "hot": {
+   "heating_max_ratio": 0.4529957279624725,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180
+  },
+  "rule_config": {
+   "zone_gain_per_k": 0.2
+  }
+ },
+ "l180_ti450": {
+  "breaks_c": [
+   0,
+   5,
+   20,
+   25
+  ],
+  "cold": {
+   "heating_max_ratio": 0.4529957279624725,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180
+  },
+  "mild": {
+   "heating_max_ratio": 0.36,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180
+  },
+  "hot": {
+   "heating_max_ratio": 0.4529957279624725,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180
+  },
+  "rule_config": {
+   "zone_ti_s": 450.0
+  }
+ },
+ "l180_ti1800": {
+  "breaks_c": [
+   0,
+   5,
+   20,
+   25
+  ],
+  "cold": {
+   "heating_max_ratio": 0.4529957279624725,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180
+  },
+  "mild": {
+   "heating_max_ratio": 0.36,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180
+  },
+  "hot": {
+   "heating_max_ratio": 0.4529957279624725,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180
+  },
+  "rule_config": {
+   "zone_ti_s": 1800.0
+  }
+ },
+ "l180_freeze2": {
+  "breaks_c": [
+   0,
+   5,
+   20,
+   25
+  ],
+  "cold": {
+   "heating_max_ratio": 0.4529957279624725,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180
+  },
+  "mild": {
+   "heating_max_ratio": 0.36,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180
+  },
+  "hot": {
+   "heating_max_ratio": 0.4529957279624725,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180
+  },
+  "rule_config": {
+   "freeze_on_k": 275.15,
+   "freeze_off_k": 278.15
+  }
+ }
+}

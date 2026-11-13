@@ -1,0 +1,47 @@
+{
+ "_note": "B2-RL v2 recipe, the new base for reinforcement learning work (user 2026-10-28 12:3x: the early-stopping logic is right though it may hide later gains; the current RL settings help; take them as the new base). Origin: docs/plan/reviews/WIN-b2rl-rl-alignment-20261028.md (alignment with the Wenhao Zhang / H3C records). Reference run data/runs/b2rl/v2-rom-s42: validation on train_val10 (first 7 days, paired with the rule 0.016106) +0.02% (update 25), -0.51% (50), -0.52% (75), -1.54% (100, best), -0.20% (125), -0.47% (150), -0.45% (175); plateau stop at update 189. The previous recipe (v1, 15 M steps) was flat against the rule (official INNER -0.03%, 13/29). Unlisted settings are learned/b2rl_ppo.py Settings defaults (learning rate 3e-4 to 3e-5, 10 epochs, 4 minibatches, clip 0.2, value 0.5, entropy 0.02, gradient norm 0.5, ReLU 128 x 2, log sigma -1.0). Launcher: .tmp/setup/v2_run.py. 2026-10-28 13:4x (user: fix the validation first): validate is now the noise-aware protocol of docs/reference/notes/19-auto-rl-hyperparameter-tuning.md section 5 (b2rl.py validate --protocol smoothed on train_val25); the 1% H3C rule of the reference run triggered on noise, its anchor being a lucky update 100. validate_h3c keeps the reference run's settings.",
+ "train": {
+  "layout": "v2",
+  "gamma": 0.96,
+  "gae_lambda": 0.81,
+  "envs": 4,
+  "seed": 42,
+  "steps_per_env": 168,
+  "lr_decay_updates": 300,
+  "max_updates": 600,
+  "fast": "rom"
+ },
+ "validate": {
+  "protocol": "smoothed",
+  "set": "train_val25",
+  "max_steps": 2016,
+  "every": 25,
+  "min_update": 300,
+  "patience": 4,
+  "min_gain": 0.005,
+  "smooth": 3,
+  "cap": 600,
+  "workers": 2,
+  "fast": "rom",
+  "select_top": 3,
+  "select_set": "inner",
+  "select_workers": 4
+ },
+ "reference": {
+  "run": "data/runs/b2rl/v2-rom-s42",
+  "best": "data/runs/b2rl/v2-rom-s42/best.json",
+  "best_update": 100,
+  "best_train_val10_rel": -0.0154
+ },
+ "validate_h3c": {
+  "set": "train_val10",
+  "max_steps": 2016,
+  "every": 25,
+  "min_update": 100,
+  "patience": 3,
+  "min_delta": 0.01,
+  "cap": 700,
+  "workers": 1,
+  "fast": "rom"
+ }
+}

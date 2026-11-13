@@ -1,0 +1,2602 @@
+{
+ "_note": "Pipeline 5 option levels (docs/plan/option-set-20261104.md): every implemented level, batch 1 first in the order of options_b1.json; 'batch' = the screening batch of section 6, 'compare_with' = the level a stacked competition level is compared with. Built by .tmp/setup/geo5_impl/make_options.py.",
+ "base": {
+  "name": "gt_u1b",
+  "model": "data/runs/b2rl/search/models/model-gt_u1b.json"
+ },
+ "options": [
+  {
+   "id": "o502_1",
+   "option": "O502",
+   "level": 1,
+   "layer": "ahu",
+   "category": "physics",
+   "batch": 1,
+   "build": {
+    "rule_config": {
+     "opt_start_continuous": true
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O502 level 1",
+   "expected": "66 scenarios -0.12% (M012)",
+   "ms_per_step": 0.0
+  },
+  {
+   "id": "o516_2",
+   "option": "O516",
+   "level": 2,
+   "layer": "ahu",
+   "category": "physics",
+   "batch": 1,
+   "build": {
+    "rule_config": {
+     "sat_cost_model": "economizer",
+     "sat_cost_model_min_oat_k": 288.15
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O516 level 2",
+   "expected": "-0.30%, Atlanta -0.60%, Phoenix -0.65% (M070)",
+   "ms_per_step": 0.0,
+   "conditions": {
+    "oat_c": [
+     15.0,
+     50.0
+    ],
+    "note": "the build switches it on at 15 C outside air and above"
+   }
+  },
+  {
+   "id": "o521_1",
+   "option": "O521",
+   "level": 1,
+   "layer": "building",
+   "category": "physics",
+   "batch": 1,
+   "build": {
+    "rule_config": {
+     "night_flush": true,
+     "night_flush_min_range_k": 12.0,
+     "night_flush_min_max_k": 298.15
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O521 level 1",
+   "expected": "-0.24% (M111)",
+   "ms_per_step": 0.0,
+   "conditions": {
+    "cities": [
+     "phoenix",
+     "denver",
+     "atlanta"
+    ],
+    "seasons": [
+     "summer",
+     "spring",
+     "autumn"
+    ],
+    "note": "hot days with a large day-night range"
+   }
+  },
+  {
+   "id": "o541_1",
+   "option": "O541",
+   "level": 1,
+   "layer": "ahu",
+   "category": "physics",
+   "batch": 1,
+   "build": {
+    "rule_config": {
+     "freeze_min_airflow": true
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O541 level 1",
+   "expected": "-0.68%, Fairbanks -1.43%, Denver -0.82% (M278)",
+   "ms_per_step": 0.0,
+   "conditions": {
+    "cities": [
+     "fairbanks",
+     "denver"
+    ],
+    "seasons": [
+     "winter",
+     "spring",
+     "autumn"
+    ],
+    "note": "cold weather (the build's own switch is an observable condition)"
+   }
+  },
+  {
+   "id": "o501_1",
+   "option": "O501",
+   "level": 1,
+   "layer": "building",
+   "category": "physics",
+   "batch": 1,
+   "build": {
+    "rule_config": {},
+    "wrappers": [
+     {
+      "name": "geo5_option_wrappers:rule_set",
+      "args": {
+       "empty_day_delay_min": 30
+      }
+     }
+    ]
+   },
+   "source": "option-set-20261104 O501 level 1",
+   "expected": "-0.15% to -0.2% (M004)",
+   "ms_per_step": 0.0
+  },
+  {
+   "id": "o512_1",
+   "option": "O512",
+   "level": 1,
+   "layer": "ahu",
+   "category": "physics",
+   "batch": 1,
+   "build": {
+    "rule_config": {
+     "sat_cost_respect_requests": true
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O512 level 1",
+   "expected": "not estimated (M061)",
+   "ms_per_step": 0.0
+  },
+  {
+   "id": "o523_1",
+   "option": "O523",
+   "level": 1,
+   "layer": "building",
+   "category": "physics",
+   "batch": 1,
+   "build": {
+    "rule_config": {
+     "precool_until_hour": 6,
+     "precool_k": 2.5
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O523 level 1; cool-down target = lower edge + 2.5 K until the occupied start (06:00 in every scenario)",
+   "expected": "comfort part of the Atlanta gap (M138, M132, 7.2 R6)",
+   "ms_per_step": 0.0,
+   "conditions": {
+    "cities": [
+     "phoenix",
+     "atlanta",
+     "singapore"
+    ],
+    "seasons": [
+     "summer",
+     "spring",
+     "autumn"
+    ],
+    "note": "warm weather"
+   }
+  },
+  {
+   "id": "o523_2",
+   "option": "O523",
+   "level": 2,
+   "layer": "building",
+   "category": "physics",
+   "batch": 1,
+   "build": {
+    "rule_config": {
+     "precool_until_hour": 6,
+     "precool_k": 1.0
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O523 level 2; deep: lower edge + 1.0 K",
+   "expected": "",
+   "ms_per_step": 0.0,
+   "conditions": {
+    "cities": [
+     "phoenix",
+     "atlanta",
+     "singapore"
+    ],
+    "seasons": [
+     "summer",
+     "spring",
+     "autumn"
+    ],
+    "note": "warm weather"
+   }
+  },
+  {
+   "id": "o524_1",
+   "option": "O524",
+   "level": 1,
+   "layer": "ahu",
+   "category": "physics",
+   "batch": 1,
+   "build": {
+    "rule_config": {
+     "static_pressure_reset": "closed_form"
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O524 level 1",
+   "expected": "0 to 0.7 points (M095)",
+   "ms_per_step": 0.0
+  },
+  {
+   "id": "o527_1",
+   "option": "O527",
+   "level": 1,
+   "layer": "room",
+   "category": "physics",
+   "batch": 1,
+   "build": {
+    "rule_config": {},
+    "wrappers": [
+     {
+      "name": "geo5_option_wrappers:room_option_replace",
+      "args": {
+       "key": "room_cool_margin_k",
+       "from": 0.4,
+       "to": 0.0
+      }
+     }
+    ]
+   },
+   "source": "option-set-20261104 O527 level 1; room tree options with a 0.4 K cooling margin set to 0",
+   "expected": "hot 0.8%-2% (M120, 7.2 R4)",
+   "ms_per_step": 0.0,
+   "conditions": {
+    "cities": [
+     "phoenix",
+     "atlanta",
+     "singapore"
+    ],
+    "seasons": [
+     "summer",
+     "spring",
+     "autumn"
+    ],
+    "note": "warm weather"
+   }
+  },
+  {
+   "id": "o527_2",
+   "option": "O527",
+   "level": 2,
+   "layer": "room",
+   "category": "physics",
+   "batch": 1,
+   "build": {
+    "rule_config": {},
+    "wrappers": [
+     {
+      "name": "geo5_option_wrappers:room_option_replace",
+      "args": {
+       "key": "room_cool_margin_k",
+       "from": 0.4,
+       "to": 0.0
+      }
+     },
+     {
+      "name": "geo5_option_wrappers:slow_band",
+      "args": {
+       "parameter": "occupied_margin_k",
+       "band": "hot",
+       "value": 0.0
+      }
+     }
+    ]
+   },
+   "source": "option-set-20261104 O527 level 2; level 1 + the slow layer's hot-band occupied margin 0.1 -> 0 K",
+   "expected": "",
+   "ms_per_step": 0.0,
+   "conditions": {
+    "cities": [
+     "phoenix",
+     "atlanta",
+     "singapore"
+    ],
+    "seasons": [
+     "summer",
+     "spring",
+     "autumn"
+    ],
+    "note": "warm weather"
+   }
+  },
+  {
+   "id": "o528_1",
+   "option": "O528",
+   "level": 1,
+   "layer": "room",
+   "category": "physics",
+   "batch": 1,
+   "build": {
+    "rule_config": {},
+    "wrappers": [
+     {
+      "name": "geo5_option_wrappers:room_option_replace",
+      "args": {
+       "key": "room_heat_margin_k",
+       "from": 0.4,
+       "to": 0.0
+      }
+     }
+    ]
+   },
+   "source": "option-set-20261104 O528 level 1; room tree options with a +0.4 K heating margin set to 0",
+   "expected": "about 2% (M121)",
+   "ms_per_step": 0.0,
+   "conditions": {
+    "cities": [
+     "fairbanks",
+     "denver"
+    ],
+    "seasons": [
+     "winter",
+     "spring",
+     "autumn"
+    ],
+    "note": "cold weather (the build's own switch is an observable condition)"
+   }
+  },
+  {
+   "id": "o528_2",
+   "option": "O528",
+   "level": 2,
+   "layer": "room",
+   "category": "physics",
+   "batch": 1,
+   "build": {
+    "rule_config": {},
+    "wrappers": [
+     {
+      "name": "geo5_option_wrappers:room_option_replace",
+      "args": {
+       "key": "room_heat_margin_k",
+       "from": 0.4,
+       "to": 0.0
+      }
+     },
+     {
+      "name": "geo5_option_wrappers:slow_band",
+      "args": {
+       "parameter": "occupied_margin_k",
+       "band": "cold",
+       "value": 0.0
+      }
+     }
+    ]
+   },
+   "source": "option-set-20261104 O528 level 2; level 1 + the slow layer's cold-band occupied margin 0.1 -> 0 K",
+   "expected": "",
+   "ms_per_step": 0.0,
+   "conditions": {
+    "cities": [
+     "fairbanks",
+     "denver"
+    ],
+    "seasons": [
+     "winter",
+     "spring",
+     "autumn"
+    ],
+    "note": "cold weather (the build's own switch is an observable condition)"
+   }
+  },
+  {
+   "id": "o531_1",
+   "option": "O531",
+   "level": 1,
+   "layer": "building",
+   "category": "physics",
+   "batch": 1,
+   "build": {
+    "rule_config": {},
+    "wrappers": [
+     {
+      "name": "geo5_option_wrappers:rule_set",
+      "args": {
+       "zone_gain_per_k": 0.05,
+       "zone_ti_s": 900.0
+      }
+     }
+    ]
+   },
+   "source": "option-set-20261104 O531 level 1",
+   "expected": "old base 1800 s -3.30% (M189)",
+   "ms_per_step": 0.0
+  },
+  {
+   "id": "o531_2",
+   "option": "O531",
+   "level": 2,
+   "layer": "building",
+   "category": "physics",
+   "batch": 1,
+   "build": {
+    "rule_config": {},
+    "wrappers": [
+     {
+      "name": "geo5_option_wrappers:rule_set",
+      "args": {
+       "zone_gain_per_k": 0.05,
+       "zone_ti_s": 1800.0
+      }
+     }
+    ]
+   },
+   "source": "option-set-20261104 O531 level 2",
+   "expected": "",
+   "ms_per_step": 0.0
+  },
+  {
+   "id": "o531_3",
+   "option": "O531",
+   "level": 3,
+   "layer": "building",
+   "category": "physics",
+   "batch": 1,
+   "build": {
+    "rule_config": {},
+    "wrappers": [
+     {
+      "name": "geo5_option_wrappers:rule_set",
+      "args": {
+       "zone_gain_per_k": 0.07,
+       "zone_ti_s": 630.0
+      }
+     }
+    ]
+   },
+   "source": "option-set-20261104 O531 level 3",
+   "expected": "",
+   "ms_per_step": 0.0
+  },
+  {
+   "id": "o532_1",
+   "option": "O532",
+   "level": 1,
+   "layer": "building",
+   "category": "physics",
+   "batch": 1,
+   "build": {
+    "rule_config": {
+     "inversion_supply_air": "same_step"
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O532 level 1",
+   "expected": "not estimated (M167)",
+   "ms_per_step": 0.0
+  },
+  {
+   "id": "o542_1",
+   "option": "O542",
+   "level": 1,
+   "layer": "ahu",
+   "category": "physics",
+   "batch": 1,
+   "build": {
+    "rule_config": {
+     "ahu_vot_check": true
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O542 level 1",
+   "expected": "+1.34% (M283); paper version always on, never dropped by the screen rule",
+   "ms_per_step": 0.0,
+   "paper_required": true
+  },
+  {
+   "id": "o517_2",
+   "option": "O517",
+   "level": 2,
+   "layer": "building",
+   "category": "competition",
+   "batch": 1,
+   "build": {
+    "rule_config": {
+     "sat_cost_max_k": 295.15
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O517 level 2; cost-based SAT candidates up to 22 C with no climate condition (ignores humidity)",
+   "expected": "M076, M084",
+   "ms_per_step": 0.0
+  },
+  {
+   "id": "o550_1",
+   "option": "O550",
+   "level": 1,
+   "layer": "building",
+   "category": "competition",
+   "batch": 1,
+   "build": {
+    "rule_config": {},
+    "wrappers": [
+     {
+      "name": "geo5_option_wrappers:rule_set",
+      "args": {
+       "freeze_on_k": 173.15,
+       "freeze_off_k": 176.15
+      }
+     }
+    ]
+   },
+   "source": "option-set-20261104 O550 level 1; zone freeze protection thresholds that are never reached",
+   "expected": "probe -1.51% (M281)",
+   "ms_per_step": 0.0
+  },
+  {
+   "id": "o551_1",
+   "option": "O551",
+   "level": 1,
+   "layer": "building",
+   "category": "competition",
+   "batch": 1,
+   "build": {
+    "rule_config": {
+     "min_flow": 0.0
+    },
+    "wrappers": [
+     {
+      "name": "geo5_option_wrappers:room_vent_off",
+      "args": {}
+     }
+    ]
+   },
+   "source": "option-set-20261104 O551 level 1; minimum airflow 0 (damper floor only), per-room 62.1 minima removed (as ub_make_models vent0)",
+   "expected": "probe -2.04%, very cold -5.0% (M295)",
+   "ms_per_step": 0.0
+  },
+  {
+   "id": "o526_1",
+   "option": "O526",
+   "level": 1,
+   "layer": "building",
+   "category": "physics",
+   "batch": 2,
+   "build": {
+    "rule_config": {
+     "cold_low_flow_oat_k": 278.15
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O526 level 1; 24 h mean outside air below 5 C (the slow layer's cold band incl. its 0-5 C blend), occupied groups: every zone minimum at the damper floor (per-room 62.1 minima kept), static pressure cap 200 Pa",
+   "expected": "7.3b rule 1: fan 297 vs 801 kWh (Denver January); the empty-room part is over-estimated (M154, R10)",
+   "ms_per_step": 0.0,
+   "conditions": {
+    "cities": [
+     "fairbanks",
+     "denver"
+    ],
+    "seasons": [
+     "winter",
+     "spring",
+     "autumn"
+    ],
+    "note": "cold weather (the build's own switch is an observable condition)"
+   }
+  },
+  {
+   "id": "o526_2",
+   "option": "O526",
+   "level": 2,
+   "layer": "building",
+   "category": "physics",
+   "batch": 2,
+   "build": {
+    "rule_config": {
+     "cold_low_flow_oat_k": 278.15,
+     "cold_low_flow_heat_max_scale": 0.5
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O526 level 2; level 1 + heating airflow maximum x 0.5",
+   "expected": "",
+   "ms_per_step": 0.0,
+   "conditions": {
+    "cities": [
+     "fairbanks",
+     "denver"
+    ],
+    "seasons": [
+     "winter",
+     "spring",
+     "autumn"
+    ],
+    "note": "cold weather (the build's own switch is an observable condition)"
+   }
+  },
+  {
+   "id": "o546_1",
+   "option": "O546",
+   "level": 1,
+   "layer": "building",
+   "category": "competition",
+   "batch": 2,
+   "build": {
+    "rule_config": {
+     "hw_sawtooth": "band"
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O546 level 1; closed loop: 37 C until the tank is below 67 C, then 77 C until back at 77 C, while a valve is open",
+   "expected": "probe 59 scenarios -11.25% (M379); report billing-corrected",
+   "ms_per_step": 0.0
+  },
+  {
+   "id": "o546_2",
+   "option": "O546",
+   "level": 2,
+   "layer": "building",
+   "category": "competition",
+   "batch": 2,
+   "build": {
+    "rule_config": {
+     "hw_sawtooth": "saw"
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O546 level 2; open loop: the last of every 6 steps at 77 C, else 37 C, while a valve is open",
+   "expected": "-11.78% (M380)",
+   "ms_per_step": 0.0
+  },
+  {
+   "id": "o546_3",
+   "option": "O546",
+   "level": 3,
+   "layer": "building",
+   "category": "competition",
+   "batch": 2,
+   "build": {
+    "rule_config": {
+     "hw_sawtooth": "saw_pump_off"
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O546 level 3; level 2 with the hot-water run command off in the refill step (refill billed as tank heating only)",
+   "expected": "7.2 R1",
+   "ms_per_step": 0.0
+  },
+  {
+   "id": "o538_1",
+   "option": "O538",
+   "level": 1,
+   "layer": "building",
+   "category": "physics",
+   "batch": 2,
+   "build": {
+    "rule_config": {
+     "hw_off_setpoint": "hold"
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O538 level 1; plant off: the setpoint stays at its last value while the plant ran",
+   "expected": "M210; billing-corrected",
+   "ms_per_step": 0.0
+  },
+  {
+   "id": "o538_2",
+   "option": "O538",
+   "level": 2,
+   "layer": "building",
+   "category": "physics",
+   "batch": 2,
+   "build": {
+    "rule_config": {
+     "hw_off_setpoint": "low_warm"
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O538 level 2; level 1, and 37 C once the plant has been off 1 h after a day with mean outside air >= 18 C (M211 setpoint-not-below-tank limit not applied: it would stop the tank from cooling)",
+   "expected": "-0.5% to -1%, Phoenix January -3% to -4% (M209, 7.1b); billing-corrected",
+   "ms_per_step": 0.0,
+   "conditions": {
+    "cities": [
+     "phoenix",
+     "atlanta",
+     "singapore"
+    ],
+    "seasons": [
+     "summer",
+     "spring",
+     "autumn"
+    ],
+    "note": "warm weather"
+   }
+  },
+  {
+   "id": "o519_1",
+   "option": "O519",
+   "level": 1,
+   "layer": "building",
+   "category": "physics",
+   "batch": 2,
+   "build": {
+    "rule_config": {
+     "no_reheat_oat_k": 288.15
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O519 level 1",
+   "expected": "hot 0.7%-1.8% (M137, 7.2 R5)",
+   "ms_per_step": 0.0,
+   "conditions": {
+    "cities": [
+     "phoenix",
+     "atlanta",
+     "singapore"
+    ],
+    "seasons": [
+     "summer",
+     "spring",
+     "autumn"
+    ],
+    "note": "warm weather"
+   }
+  },
+  {
+   "id": "o508_1",
+   "option": "O508",
+   "level": 1,
+   "layer": "building",
+   "category": "physics",
+   "batch": 2,
+   "build": {
+    "rule_config": {
+     "setback_heat_drop_k": 1.0
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O508 level 1; setback heating edge -1 K (trigger, release, target); freeze protection unchanged",
+   "expected": "-0.2% to -1%, Monday 06:00 comfort risk (M032, M033)",
+   "ms_per_step": 0.0,
+   "conditions": {
+    "cities": [
+     "fairbanks",
+     "denver"
+    ],
+    "seasons": [
+     "winter",
+     "spring",
+     "autumn"
+    ],
+    "note": "cold weather (the build's own switch is an observable condition)"
+   }
+  },
+  {
+   "id": "o508_2",
+   "option": "O508",
+   "level": 2,
+   "layer": "building",
+   "category": "physics",
+   "batch": 2,
+   "build": {
+    "rule_config": {
+     "setback_heat_drop_k": 2.0
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O508 level 2",
+   "expected": "",
+   "ms_per_step": 0.0,
+   "conditions": {
+    "cities": [
+     "fairbanks",
+     "denver"
+    ],
+    "seasons": [
+     "winter",
+     "spring",
+     "autumn"
+    ],
+    "note": "cold weather (the build's own switch is an observable condition)"
+   }
+  },
+  {
+   "id": "o540_1",
+   "option": "O540",
+   "level": 1,
+   "layer": "building",
+   "category": "physics",
+   "batch": 2,
+   "build": {
+    "rule_config": {
+     "pump_dp_reset": "trim_respond"
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O540 level 1; trim & respond on valves above 0.95 (I = 2, -0.5 / +1 / +3 bar, 2-20 bar); water-side requests as at 20 bar",
+   "expected": "-0.2% to -0.8% (M224); billing-corrected",
+   "ms_per_step": 0.0
+  },
+  {
+   "id": "o540_2",
+   "option": "O540",
+   "level": 2,
+   "layer": "building",
+   "category": "physics",
+   "batch": 2,
+   "build": {
+    "rule_config": {
+     "pump_dp_reset": "valve_inverse"
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O540 level 2; the pressure at which the most open valve would be at 0.9, valves solved at it (2-20 bar)",
+   "expected": "lower bound 0.2%, up to about -1% (M225, 7.1b); billing-corrected",
+   "ms_per_step": 0.0
+  },
+  {
+   "id": "o510_1",
+   "option": "O510",
+   "level": 1,
+   "layer": "ahu",
+   "category": "physics",
+   "batch": 2,
+   "build": {
+    "rule_config": {
+     "warmup_target_add_k": 0.3
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O510 level 1",
+   "expected": "-1% to -2% (M125); pair with O528",
+   "ms_per_step": 0.0,
+   "conditions": {
+    "cities": [
+     "fairbanks",
+     "denver"
+    ],
+    "seasons": [
+     "winter",
+     "spring",
+     "autumn"
+    ],
+    "note": "cold weather (the build's own switch is an observable condition)"
+   }
+  },
+  {
+   "id": "o541_2",
+   "option": "O541",
+   "level": 2,
+   "layer": "ahu",
+   "category": "physics",
+   "batch": 2,
+   "build": {
+    "rule_config": {
+     "freeze_min_airflow": true,
+     "freeze_coldest_only": true
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O541 level 2; level 1 + only the coldest zone of a freeze-only group heats, to 2.5 C (the others to 2 C)",
+   "expected": "a further -0.1% to -0.3% (M279)",
+   "ms_per_step": 0.0,
+   "conditions": {
+    "cities": [
+     "fairbanks",
+     "denver"
+    ],
+    "seasons": [
+     "winter",
+     "spring",
+     "autumn"
+    ],
+    "note": "cold weather (the build's own switch is an observable condition)"
+   }
+  },
+  {
+   "id": "o516_1",
+   "option": "O516",
+   "level": 1,
+   "layer": "ahu",
+   "category": "physics",
+   "batch": 2,
+   "build": {
+    "rule_config": {
+     "sat_cost_fan_observed": true
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O516 level 1",
+   "expected": "66 scenarios -0.13%, high static pressure buildings -0.57% (M072)",
+   "ms_per_step": 0.0
+  },
+  {
+   "id": "o543_1",
+   "option": "O543",
+   "level": 1,
+   "layer": "building",
+   "category": "physics",
+   "batch": 2,
+   "build": {
+    "rule_config": {
+     "margin_feedback_step_k": 0.05
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O543 level 1; occupied margin +/-0.05 K a day by the first two occupied hours' comfort, within 0-0.3 K",
+   "expected": "+/-0.3% (M304)",
+   "ms_per_step": 0.0
+  },
+  {
+   "id": "o515_1",
+   "option": "O515",
+   "level": 1,
+   "layer": "ahu",
+   "category": "physics",
+   "batch": 2,
+   "build": {
+    "rule_config": {
+     "sat_guard_trend_s": 1800.0,
+     "sat_guard_trend_k": 0.25
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O515 level 1",
+   "expected": "0.5-1.5 points, old base (M067)",
+   "ms_per_step": 0.0,
+   "conditions": {
+    "cities": [
+     "phoenix",
+     "atlanta",
+     "singapore"
+    ],
+    "seasons": [
+     "summer",
+     "spring",
+     "autumn"
+    ],
+    "note": "warm weather"
+   }
+  },
+  {
+   "id": "o515_2",
+   "option": "O515",
+   "level": 2,
+   "layer": "ahu",
+   "category": "physics",
+   "batch": 2,
+   "build": {
+    "rule_config": {
+     "sat_guard_trend_s": 900.0,
+     "sat_guard_trend_k": 0.25
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O515 level 2",
+   "expected": "",
+   "ms_per_step": 0.0,
+   "conditions": {
+    "cities": [
+     "phoenix",
+     "atlanta",
+     "singapore"
+    ],
+    "seasons": [
+     "summer",
+     "spring",
+     "autumn"
+    ],
+    "note": "warm weather"
+   }
+  },
+  {
+   "id": "o515_3",
+   "option": "O515",
+   "level": 3,
+   "layer": "ahu",
+   "category": "physics",
+   "batch": 2,
+   "build": {
+    "rule_config": {
+     "sat_guard_trend_s": 1800.0,
+     "sat_guard_trend_k": 0.5
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O515 level 3",
+   "expected": "",
+   "ms_per_step": 0.0,
+   "conditions": {
+    "cities": [
+     "phoenix",
+     "atlanta",
+     "singapore"
+    ],
+    "seasons": [
+     "summer",
+     "spring",
+     "autumn"
+    ],
+    "note": "warm weather"
+   }
+  },
+  {
+   "id": "o514_1",
+   "option": "O514",
+   "level": 1,
+   "layer": "ahu",
+   "category": "physics",
+   "batch": 2,
+   "build": {
+    "rule_config": {
+     "sat_rate_limit_k": 0.5,
+     "sat_guard_hysteresis_k": 0.25
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O514 level 1",
+   "expected": "hot and shoulder -0.1% to -0.5% (M066)",
+   "ms_per_step": 0.0,
+   "conditions": {
+    "cities": [
+     "phoenix",
+     "atlanta",
+     "singapore"
+    ],
+    "seasons": [
+     "summer",
+     "spring",
+     "autumn"
+    ],
+    "note": "warm weather"
+   }
+  },
+  {
+   "id": "o522_1",
+   "option": "O522",
+   "level": 1,
+   "layer": "room",
+   "category": "physics",
+   "batch": 3,
+   "build": {
+    "rule_config": {
+     "night_cool_mode": "night"
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O522 level 1; hot days (24 h mean >= 20 C): 19:00 to the occupied start before a weekday, outside air not above the return air, 7.5 W/m2 to rooms above the lower edge + 1 K, as airflow at 200 Pa",
+   "expected": "hot scenarios 4%-8% of cost (M133, 7.2 R3)",
+   "ms_per_step": 0.0,
+   "conditions": {
+    "cities": [
+     "phoenix",
+     "atlanta",
+     "singapore"
+    ],
+    "seasons": [
+     "summer",
+     "spring",
+     "autumn"
+    ],
+    "note": "warm weather"
+   }
+  },
+  {
+   "id": "o522_2",
+   "option": "O522",
+   "level": 2,
+   "layer": "room",
+   "category": "physics",
+   "batch": 3,
+   "build": {
+    "rule_config": {
+     "night_cool_mode": "tree"
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O522 level 2; the 7.3 hot-day cooling tree on schedule, 24 h mean and room temperature (12.5 / 20.3 / 7.5 / 3.4 / 0 W/m2)",
+   "expected": "7.3 tree explains about half (R2, R3)",
+   "ms_per_step": 0.0,
+   "conditions": {
+    "cities": [
+     "phoenix",
+     "atlanta",
+     "singapore"
+    ],
+    "seasons": [
+     "summer",
+     "spring",
+     "autumn"
+    ],
+    "note": "warm weather"
+   }
+  },
+  {
+   "id": "o507_1",
+   "option": "O507",
+   "level": 1,
+   "layer": "room",
+   "category": "physics",
+   "batch": 3,
+   "build": {
+    "rule_config": {
+     "night_heat_mode": "weekday"
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O507 level 1; cold (24 h mean < 5 C), 2-24 h before the occupied start: 5-32 W/m2 by heat loss (wall per area), boxes at the 35 C discharge limit, stop above the lower edge + 0.6 K",
+   "expected": "near flat billed as is; value in arrival comfort (M027, R8, 7.3b rule 2)",
+   "ms_per_step": 0.0,
+   "conditions": {
+    "cities": [
+     "fairbanks",
+     "denver"
+    ],
+    "seasons": [
+     "winter",
+     "spring",
+     "autumn"
+    ],
+    "note": "cold weather (the build's own switch is an observable condition)"
+   }
+  },
+  {
+   "id": "o507_2",
+   "option": "O507",
+   "level": 2,
+   "layer": "room",
+   "category": "physics",
+   "batch": 3,
+   "build": {
+    "rule_config": {
+     "night_heat_mode": "always"
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O507 level 2; level 1, also more than 24 h ahead (weekends)",
+   "expected": "",
+   "ms_per_step": 0.0,
+   "conditions": {
+    "cities": [
+     "fairbanks",
+     "denver"
+    ],
+    "seasons": [
+     "winter",
+     "spring",
+     "autumn"
+    ],
+    "note": "cold weather (the build's own switch is an observable condition)"
+   }
+  },
+  {
+   "id": "o507_3",
+   "option": "O507",
+   "level": 3,
+   "layer": "room",
+   "category": "competition",
+   "batch": 3,
+   "build": {
+    "rule_config": {
+     "night_heat_mode": "free_gas",
+     "hw_sawtooth": "band"
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O507 level 3; gas-free tree (26 / 4 W/m2, 57-98 below -18 C) on top of O546 level 1",
+   "expected": "R8 (only with the gas billing gap)",
+   "ms_per_step": 0.0,
+   "conditions": {
+    "cities": [
+     "fairbanks",
+     "denver"
+    ],
+    "seasons": [
+     "winter",
+     "spring",
+     "autumn"
+    ],
+    "note": "cold weather (the build's own switch is an observable condition)"
+   },
+   "compare_with": "o546_1"
+  },
+  {
+   "id": "o547_1",
+   "option": "O547",
+   "level": 1,
+   "layer": "building",
+   "category": "competition",
+   "batch": 3,
+   "build": {
+    "rule_config": {
+     "hw_sawtooth": "band"
+    },
+    "wrappers": [
+     {
+      "name": "geo5_option_wrappers:slow_band",
+      "args": {
+       "parameter": "t_opt_max_s",
+       "band": "cold",
+       "value": 10800.0
+      }
+     }
+    ]
+   },
+   "source": "option-set-20261104 O547 level 1; O546 level 1 + the slow layer's cold-band optimal start cap 1 h -> 3 h",
+   "expected": "comfort part of the gap: Atlanta 24%, Fairbanks March 21% (M387, R6)",
+   "ms_per_step": 0.0,
+   "conditions": {
+    "cities": [
+     "fairbanks",
+     "denver"
+    ],
+    "seasons": [
+     "winter",
+     "spring",
+     "autumn"
+    ],
+    "note": "cold weather (the build's own switch is an observable condition)"
+   },
+   "compare_with": "o546_1"
+  },
+  {
+   "id": "o547_2",
+   "option": "O547",
+   "level": 2,
+   "layer": "building",
+   "category": "competition",
+   "batch": 3,
+   "build": {
+    "rule_config": {
+     "hw_sawtooth": "band"
+    },
+    "wrappers": [
+     {
+      "name": "geo5_option_wrappers:slow_band",
+      "args": {
+       "parameter": "t_opt_max_s",
+       "band": "cold",
+       "value": 21600.0
+      }
+     }
+    ]
+   },
+   "source": "option-set-20261104 O547 level 2; O546 level 1 + cold-band cap 6 h",
+   "expected": "",
+   "ms_per_step": 0.0,
+   "conditions": {
+    "cities": [
+     "fairbanks",
+     "denver"
+    ],
+    "seasons": [
+     "winter",
+     "spring",
+     "autumn"
+    ],
+    "note": "cold weather (the build's own switch is an observable condition)"
+   },
+   "compare_with": "o546_1"
+  },
+  {
+   "id": "o548_1",
+   "option": "O548",
+   "level": 1,
+   "layer": "building",
+   "category": "competition",
+   "batch": 3,
+   "build": {
+    "rule_config": {
+     "hw_sawtooth": "band",
+     "unoccupied_conditioning": "always"
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O548 level 1; O546 level 1 + setback at any hour",
+   "expected": "M388, R9",
+   "ms_per_step": 0.0,
+   "conditions": {
+    "cities": [
+     "fairbanks",
+     "denver"
+    ],
+    "seasons": [
+     "winter",
+     "spring",
+     "autumn"
+    ],
+    "note": "cold weather (the build's own switch is an observable condition)"
+   },
+   "compare_with": "o546_1"
+  },
+  {
+   "id": "o549_1",
+   "option": "O549",
+   "level": 1,
+   "layer": "room",
+   "category": "competition",
+   "batch": 3,
+   "build": {
+    "rule_config": {
+     "hw_sawtooth": "band"
+    },
+    "wrappers": [
+     {
+      "name": "room_option_add",
+      "args": {
+       "room_heat_margin_k": 0.4
+      }
+     }
+    ]
+   },
+   "source": "option-set-20261104 O549 level 1; O546 level 1 + every room option's heating margin +0.4 K",
+   "expected": "M388",
+   "ms_per_step": 0.0,
+   "conditions": {
+    "cities": [
+     "fairbanks",
+     "denver"
+    ],
+    "seasons": [
+     "winter",
+     "spring",
+     "autumn"
+    ],
+    "note": "cold weather (the build's own switch is an observable condition)"
+   },
+   "compare_with": "o546_1"
+  },
+  {
+   "id": "o549_2",
+   "option": "O549",
+   "level": 2,
+   "layer": "room",
+   "category": "competition",
+   "batch": 3,
+   "build": {
+    "rule_config": {
+     "hw_sawtooth": "band"
+    },
+    "wrappers": [
+     {
+      "name": "room_option_add",
+      "args": {
+       "room_heat_margin_k": 1.3
+      }
+     }
+    ]
+   },
+   "source": "option-set-20261104 O549 level 2; O546 level 1 + heating margin +1.3 K",
+   "expected": "",
+   "ms_per_step": 0.0,
+   "conditions": {
+    "cities": [
+     "fairbanks",
+     "denver"
+    ],
+    "seasons": [
+     "winter",
+     "spring",
+     "autumn"
+    ],
+    "note": "cold weather (the build's own switch is an observable condition)"
+   },
+   "compare_with": "o546_1"
+  },
+  {
+   "id": "o530_1",
+   "option": "O530",
+   "level": 1,
+   "layer": "room",
+   "category": "physics",
+   "batch": 3,
+   "build": {
+    "rule_config": {
+     "disturbance_ff_steps": 3.0
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O530 level 1; per-zone recursive least squares of dT on box air heat and outside - zone; the smoothed residual (people and other unseen heat) x 3 steps added to the occupied loops' temperature (clipped 0.5 K)",
+   "expected": "-0.3% to -1% (M332)",
+   "ms_per_step": 0.0
+  },
+  {
+   "id": "o530_2",
+   "option": "O530",
+   "level": 2,
+   "layer": "room",
+   "category": "physics",
+   "batch": 3,
+   "build": {
+    "rule_config": {
+     "disturbance_ff_steps": 3.0,
+     "disturbance_ff_cool_k": 0.2
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O530 level 2; level 1 + occupied cooling target 0.2 K up (not above the upper edge)",
+   "expected": "cooling 1%-2%, overall <= 0.5%, band-crossing risk (M122)",
+   "ms_per_step": 0.0
+  },
+  {
+   "id": "o509_1",
+   "option": "O509",
+   "level": 1,
+   "layer": "ahu",
+   "category": "physics",
+   "batch": 4,
+   "build": {
+    "rule_config": {
+     "warmup_heat_max_ratio": 0.6
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O509 level 1",
+   "expected": "+/-0.3% (M042)",
+   "ms_per_step": 0.0,
+   "conditions": {
+    "cities": [
+     "fairbanks",
+     "denver"
+    ],
+    "seasons": [
+     "winter",
+     "spring",
+     "autumn"
+    ],
+    "note": "cold weather (the build's own switch is an observable condition)"
+   }
+  },
+  {
+   "id": "o509_2",
+   "option": "O509",
+   "level": 2,
+   "layer": "ahu",
+   "category": "physics",
+   "batch": 4,
+   "build": {
+    "rule_config": {
+     "warmup_heat_max_ratio": 1.0
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O509 level 2",
+   "expected": "",
+   "ms_per_step": 0.0,
+   "conditions": {
+    "cities": [
+     "fairbanks",
+     "denver"
+    ],
+    "seasons": [
+     "winter",
+     "spring",
+     "autumn"
+    ],
+    "note": "cold weather (the build's own switch is an observable condition)"
+   }
+  },
+  {
+   "id": "o511_1",
+   "option": "O511",
+   "level": 1,
+   "layer": "ahu",
+   "category": "physics",
+   "batch": 4,
+   "build": {
+    "rule_config": {
+     "arrival_keep_flow_min": 30
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O511 level 1; heating zones keep at least their last warm-up airflow for 30 min after the occupied start",
+   "expected": "not estimated (M128)",
+   "ms_per_step": 0.0,
+   "conditions": {
+    "cities": [
+     "fairbanks",
+     "denver"
+    ],
+    "seasons": [
+     "winter",
+     "spring",
+     "autumn"
+    ],
+    "note": "cold weather (the build's own switch is an observable condition)"
+   }
+  },
+  {
+   "id": "o511_2",
+   "option": "O511",
+   "level": 2,
+   "layer": "ahu",
+   "category": "physics",
+   "batch": 4,
+   "build": {
+    "rule_config": {
+     "arrival_keep_flow_min": 60
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O511 level 2",
+   "expected": "",
+   "ms_per_step": 0.0,
+   "conditions": {
+    "cities": [
+     "fairbanks",
+     "denver"
+    ],
+    "seasons": [
+     "winter",
+     "spring",
+     "autumn"
+    ],
+    "note": "cold weather (the build's own switch is an observable condition)"
+   }
+  },
+  {
+   "id": "o513_1",
+   "option": "O513",
+   "level": 1,
+   "layer": "ahu",
+   "category": "physics",
+   "batch": 4,
+   "build": {
+    "rule_config": {
+     "sat_guard_rogue_hours": 24.0
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O513 level 1; zones near the cooling limit in > 70% of running occupied steps (24 h mean) leave the A12 guard",
+   "expected": "+/-0.3%, tropics overheating risk (M064)",
+   "ms_per_step": 0.0
+  },
+  {
+   "id": "o517_1",
+   "option": "O517",
+   "level": 1,
+   "layer": "building",
+   "category": "physics",
+   "batch": 4,
+   "build": {
+    "rule_config": {
+     "sat_cost_max_k": 295.15,
+     "sat_cost_max_min_range_k": 12.0
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O517 level 1; cost-based SAT candidates up to 22 C only after a day with an outdoor range >= 12 K",
+   "expected": "not estimated (M076)",
+   "ms_per_step": 0.0
+  },
+  {
+   "id": "o518_1",
+   "option": "O518",
+   "level": 1,
+   "layer": "building",
+   "category": "physics",
+   "batch": 4,
+   "build": {
+    "rule_config": {
+     "humid_low_sat_k": 286.15
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O518 level 1; outside air > return + 2 K after a day with range < 8 K: SAT <= 13 C, 200 Pa, zone minima at the damper floor (per-room 62.1 minima kept)",
+   "expected": "Singapore, Atlanta 0 to small (M083)",
+   "ms_per_step": 0.0,
+   "conditions": {
+    "cities": [
+     "phoenix",
+     "atlanta",
+     "singapore"
+    ],
+    "seasons": [
+     "summer",
+     "spring",
+     "autumn"
+    ],
+    "note": "warm weather"
+   }
+  },
+  {
+   "id": "o520_1",
+   "option": "O520",
+   "level": 1,
+   "layer": "ahu",
+   "category": "physics",
+   "batch": 4,
+   "build": {
+    "rule_config": {
+     "economizer_hysteresis_k": 1.0
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O520 level 1",
+   "expected": "not estimated (M105)",
+   "ms_per_step": 0.0
+  },
+  {
+   "id": "o524_2",
+   "option": "O524",
+   "level": 2,
+   "layer": "ahu",
+   "category": "physics",
+   "batch": 4,
+   "build": {
+    "rule_config": {
+     "sp_damper_pi": true
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O524 level 2; most open demanded damper held near 0.9 (400 Pa per unit damper error per step, 50-410 Pa)",
+   "expected": "literature (M096)",
+   "ms_per_step": 0.0
+  },
+  {
+   "id": "o524_3",
+   "option": "O524",
+   "level": 3,
+   "layer": "ahu",
+   "category": "physics",
+   "batch": 4,
+   "build": {
+    "rule_config": {
+     "sp_smooth_alpha": 0.5
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O524 level 3; trim & respond with a first-order hold (alpha 0.5)",
+   "expected": "literature (M097)",
+   "ms_per_step": 0.0
+  },
+  {
+   "id": "o525_1",
+   "option": "O525",
+   "level": 1,
+   "layer": "ahu",
+   "category": "physics",
+   "batch": 4,
+   "build": {
+    "rule_config": {
+     "low_load_max_loop": 0.5
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O525 level 1; no heating zone and every cooling loop below 0.5 (this session's reading of low load): 200 Pa and zone minima at the damper floor; the cost-based SAT then rises",
+   "expected": "warm cities -2% to -5% (M101)",
+   "ms_per_step": 0.0
+  },
+  {
+   "id": "o533_1",
+   "option": "O533",
+   "level": 1,
+   "layer": "room",
+   "category": "physics",
+   "batch": 4,
+   "build": {
+    "rule_config": {
+     "heating_ramp_from_supply": true
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O533 level 1",
+   "expected": "not estimated (M169)",
+   "ms_per_step": 0.0,
+   "conditions": {
+    "cities": [
+     "fairbanks",
+     "denver"
+    ],
+    "seasons": [
+     "winter",
+     "spring",
+     "autumn"
+    ],
+    "note": "cold weather (the build's own switch is an observable condition)"
+   }
+  },
+  {
+   "id": "o535_1",
+   "option": "O535",
+   "level": 1,
+   "layer": "building",
+   "category": "physics",
+   "batch": 4,
+   "build": {
+    "rule_config": {
+     "dcv_area_share_auto": true
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O535 level 1; area share Ra A / (Ra A + Rp P) from the largest head count so far (62.1 office rates)",
+   "expected": "+/-0.3%, defensibility (M155)",
+   "ms_per_step": 0.0
+  },
+  {
+   "id": "o536_1",
+   "option": "O536",
+   "level": 1,
+   "layer": "room",
+   "category": "physics",
+   "batch": 4,
+   "build": {
+    "rule_config": {
+     "cooldown_learn_step_k": 0.2
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O536 level 1; per-zone cool-down target learned day by day: -0.2 K after a first occupied hour above the window, +0.1 K otherwise, within 0-2 K",
+   "expected": "literature, Hong Kong 5.1%-17.8% a day (M021)",
+   "ms_per_step": 0.0,
+   "conditions": {
+    "cities": [
+     "phoenix",
+     "atlanta",
+     "singapore"
+    ],
+    "seasons": [
+     "summer",
+     "spring",
+     "autumn"
+    ],
+    "note": "warm weather"
+   }
+  },
+  {
+   "id": "o537_1",
+   "option": "O537",
+   "level": 1,
+   "layer": "ahu",
+   "category": "physics",
+   "batch": 4,
+   "build": {
+    "rule_config": {
+     "return_air_area_weighted": true
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O537 level 1",
+   "expected": "small, estimate accuracy (M404)",
+   "ms_per_step": 0.0
+  },
+  {
+   "id": "o539_1",
+   "option": "O539",
+   "level": 1,
+   "layer": "room",
+   "category": "physics",
+   "batch": 4,
+   "build": {
+    "rule_config": {
+     "hw_request_rogue": "share"
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O539 level 1; zones with a hot-water reset request in > 70% of plant-on steps (24 h mean) not counted",
+   "expected": "0 to -0.3% (M219); billing-corrected",
+   "ms_per_step": 0.0
+  },
+  {
+   "id": "o539_2",
+   "option": "O539",
+   "level": 2,
+   "layer": "room",
+   "category": "physics",
+   "batch": 4,
+   "build": {
+    "rule_config": {
+     "hw_request_rogue": "three"
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O539 level 2; zones that send 3 requests in > 70% of plant-on steps not counted",
+   "expected": "M218; billing-corrected",
+   "ms_per_step": 0.0
+  },
+  {
+   "id": "o529_1",
+   "option": "O529",
+   "level": 1,
+   "layer": "room",
+   "category": "physics",
+   "batch": 4,
+   "build": {
+    "rule_config": {
+     "economic_target_k": 0.6
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O529 level 1; a room mostly cooling yesterday moves its cooling target up to 0.6 K (to 0.3 K inside the band), a room mostly heating its heating target down the same way; targets already nearer the edge stay",
+   "expected": "similar to a uniform margin change (M123)",
+   "ms_per_step": 0.0
+  },
+  {
+   "id": "o504_1",
+   "option": "O504",
+   "level": 1,
+   "layer": "ahu",
+   "category": "physics",
+   "batch": 4,
+   "build": {
+    "rule_config": {
+     "opt_start_fit": "affine"
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O504 level 1; each zone's start time from a line through its last 3 (start deviation, time to reach) pairs",
+   "expected": "-0.1% to -0.4% (M014)",
+   "ms_per_step": 0.0
+  },
+  {
+   "id": "o503_1",
+   "option": "O503",
+   "level": 1,
+   "layer": "building",
+   "category": "physics",
+   "batch": 4,
+   "build": {
+    "rule_config": {
+     "departure_learn": true
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O503 level 1; departure half: unoccupied for the rest of the day once today's occupants are away longer than the longest midday absence learned so far (60 min before any); the arrival half is the empty-day wait (O501) and the optimal start",
+   "expected": "not estimated (M006)",
+   "ms_per_step": 0.0
+  },
+  {
+   "id": "o503_2",
+   "option": "O503",
+   "level": 2,
+   "layer": "building",
+   "category": "physics",
+   "batch": 5,
+   "build": {
+    "rule_config": {
+     "arrival_learn": true,
+     "departure_learn": true
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O503 level 2; level 1 complete: the occupied mode starts at the earliest first arrival of the last 5 scheduled days with people (or at once when someone comes earlier; the optimal start aims at it) and ends once the occupants are away longer than the longest midday absence",
+   "expected": "not estimated (M006)",
+   "ms_per_step": 0.0
+  },
+  {
+   "id": "o506_1",
+   "option": "O506",
+   "level": 1,
+   "layer": "ahu",
+   "category": "physics",
+   "batch": 5,
+   "build": {
+    "rule_config": {
+     "capacity_start_extra_s": 1800.0
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O506 level 1; AHUs above the building's median exterior wall per zone start 30 min before G36's optimal start time (the amount is the screened parameter)",
+   "expected": "not estimated (M024)",
+   "ms_per_step": 0.0,
+   "conditions": {
+    "cities": [
+     "fairbanks",
+     "denver"
+    ],
+    "seasons": [
+     "winter",
+     "spring",
+     "autumn"
+    ],
+    "note": "cold weather (the build's own switch is an observable condition)"
+   }
+  },
+  {
+   "id": "o506_2",
+   "option": "O506",
+   "level": 2,
+   "layer": "ahu",
+   "category": "physics",
+   "batch": 5,
+   "build": {
+    "rule_config": {
+     "capacity_start_extra_s": 3600.0
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O506 level 2; AHUs above the building's median exterior wall per zone start 60 min before G36's optimal start time (the amount is the screened parameter)",
+   "expected": "not estimated (M024)",
+   "ms_per_step": 0.0,
+   "conditions": {
+    "cities": [
+     "fairbanks",
+     "denver"
+    ],
+    "seasons": [
+     "winter",
+     "spring",
+     "autumn"
+    ],
+    "note": "cold weather (the build's own switch is an observable condition)"
+   }
+  },
+  {
+   "id": "o506_3",
+   "option": "O506",
+   "level": 3,
+   "layer": "ahu",
+   "category": "physics",
+   "batch": 5,
+   "build": {
+    "rule_config": {
+     "capacity_start_extra_s": 5400.0
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O506 level 3; AHUs above the building's median exterior wall per zone start 90 min before G36's optimal start time (the amount is the screened parameter)",
+   "expected": "not estimated (M024)",
+   "ms_per_step": 0.0,
+   "conditions": {
+    "cities": [
+     "fairbanks",
+     "denver"
+    ],
+    "seasons": [
+     "winter",
+     "spring",
+     "autumn"
+    ],
+    "note": "cold weather (the build's own switch is an observable condition)"
+   }
+  },
+  {
+   "id": "o505_1",
+   "option": "O505",
+   "level": 1,
+   "layer": "ahu",
+   "category": "physics",
+   "batch": 5,
+   "build": {
+    "rule_config": {
+     "daily_start": true
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O505 level 1; each night per AHU, 4 h before the start: candidates {G36 lead -1 h, 0, +1 h, +2 h} x warm-up airflow {the rule's, 1.0} simulated with the learned first-order model; the cheapest that reaches the target",
+   "expected": "cold -3% to -6%, low confidence (M013)",
+   "ms_per_step": 0.0,
+   "conditions": {
+    "cities": [
+     "fairbanks",
+     "denver"
+    ],
+    "seasons": [
+     "winter",
+     "spring",
+     "autumn"
+    ],
+    "note": "cold weather (the build's own switch is an observable condition)"
+   }
+  },
+  {
+   "id": "o505_ubm1",
+   "option": "O505",
+   "level": "ubm1",
+   "layer": "ahu",
+   "category": "physics",
+   "batch": 5,
+   "build": {
+    "rule_config": {
+     "start_offset_s": -3600.0
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O505 level ubm1; O505's fixed candidate (its perfect-choice upper bound = the per-scenario best of these, the base and o509_2): every AHU -1 h vs G36's start, warm-up airflow as the rule",
+   "expected": "upper bound measurement (M013)",
+   "ms_per_step": 0.0,
+   "conditions": {
+    "cities": [
+     "fairbanks",
+     "denver"
+    ],
+    "seasons": [
+     "winter",
+     "spring",
+     "autumn"
+    ],
+    "note": "cold weather (the build's own switch is an observable condition)"
+   }
+  },
+  {
+   "id": "o505_ubp1",
+   "option": "O505",
+   "level": "ubp1",
+   "layer": "ahu",
+   "category": "physics",
+   "batch": 5,
+   "build": {
+    "rule_config": {
+     "start_offset_s": 3600.0
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O505 level ubp1; O505's fixed candidate (its perfect-choice upper bound = the per-scenario best of these, the base and o509_2): every AHU +1 h vs G36's start, warm-up airflow as the rule",
+   "expected": "upper bound measurement (M013)",
+   "ms_per_step": 0.0,
+   "conditions": {
+    "cities": [
+     "fairbanks",
+     "denver"
+    ],
+    "seasons": [
+     "winter",
+     "spring",
+     "autumn"
+    ],
+    "note": "cold weather (the build's own switch is an observable condition)"
+   }
+  },
+  {
+   "id": "o505_ubp2",
+   "option": "O505",
+   "level": "ubp2",
+   "layer": "ahu",
+   "category": "physics",
+   "batch": 5,
+   "build": {
+    "rule_config": {
+     "start_offset_s": 7200.0
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O505 level ubp2; O505's fixed candidate (its perfect-choice upper bound = the per-scenario best of these, the base and o509_2): every AHU +2 h vs G36's start, warm-up airflow as the rule",
+   "expected": "upper bound measurement (M013)",
+   "ms_per_step": 0.0,
+   "conditions": {
+    "cities": [
+     "fairbanks",
+     "denver"
+    ],
+    "seasons": [
+     "winter",
+     "spring",
+     "autumn"
+    ],
+    "note": "cold weather (the build's own switch is an observable condition)"
+   }
+  },
+  {
+   "id": "o505_ubm1f",
+   "option": "O505",
+   "level": "ubm1f",
+   "layer": "ahu",
+   "category": "physics",
+   "batch": 5,
+   "build": {
+    "rule_config": {
+     "start_offset_s": -3600.0,
+     "warmup_heat_max_ratio": 1.0
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O505 level ubm1f; O505's fixed candidate (its perfect-choice upper bound = the per-scenario best of these, the base and o509_2): every AHU -1 h vs G36's start, warm-up airflow 1.0 x the cooling maximum",
+   "expected": "upper bound measurement (M013)",
+   "ms_per_step": 0.0,
+   "conditions": {
+    "cities": [
+     "fairbanks",
+     "denver"
+    ],
+    "seasons": [
+     "winter",
+     "spring",
+     "autumn"
+    ],
+    "note": "cold weather (the build's own switch is an observable condition)"
+   }
+  },
+  {
+   "id": "o505_ubp1f",
+   "option": "O505",
+   "level": "ubp1f",
+   "layer": "ahu",
+   "category": "physics",
+   "batch": 5,
+   "build": {
+    "rule_config": {
+     "start_offset_s": 3600.0,
+     "warmup_heat_max_ratio": 1.0
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O505 level ubp1f; O505's fixed candidate (its perfect-choice upper bound = the per-scenario best of these, the base and o509_2): every AHU +1 h vs G36's start, warm-up airflow 1.0 x the cooling maximum",
+   "expected": "upper bound measurement (M013)",
+   "ms_per_step": 0.0,
+   "conditions": {
+    "cities": [
+     "fairbanks",
+     "denver"
+    ],
+    "seasons": [
+     "winter",
+     "spring",
+     "autumn"
+    ],
+    "note": "cold weather (the build's own switch is an observable condition)"
+   }
+  },
+  {
+   "id": "o505_ubp2f",
+   "option": "O505",
+   "level": "ubp2f",
+   "layer": "ahu",
+   "category": "physics",
+   "batch": 5,
+   "build": {
+    "rule_config": {
+     "start_offset_s": 7200.0,
+     "warmup_heat_max_ratio": 1.0
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O505 level ubp2f; O505's fixed candidate (its perfect-choice upper bound = the per-scenario best of these, the base and o509_2): every AHU +2 h vs G36's start, warm-up airflow 1.0 x the cooling maximum",
+   "expected": "upper bound measurement (M013)",
+   "ms_per_step": 0.0,
+   "conditions": {
+    "cities": [
+     "fairbanks",
+     "denver"
+    ],
+    "seasons": [
+     "winter",
+     "spring",
+     "autumn"
+    ],
+    "note": "cold weather (the build's own switch is an observable condition)"
+   }
+  },
+  {
+   "id": "o544_1",
+   "option": "O544",
+   "level": 1,
+   "layer": "ahu",
+   "category": "physics",
+   "batch": 5,
+   "build": {
+    "rule_config": {
+     "daily_layer": true
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O544 level 1; O505 + each evening per AHU: tonight's setback depth (0-2 K, the deepest the model recovers from; the building takes the smallest), tomorrow's static pressure cap (1.15 x p95 of today) and heating airflow budget (1.2 x p95 of today, 0.5-1)",
+   "expected": "upper bound -4.87% (seeing the future, M306; M307)",
+   "ms_per_step": 0.0,
+   "conditions": {
+    "cities": [
+     "fairbanks",
+     "denver"
+    ],
+    "seasons": [
+     "winter",
+     "spring",
+     "autumn"
+    ],
+    "note": "cold weather (the build's own switch is an observable condition)"
+   }
+  },
+  {
+   "id": "o545_1",
+   "option": "O545",
+   "level": 1,
+   "layer": "building",
+   "category": "physics",
+   "batch": 5,
+   "build": {
+    "rule_config": {
+     "hourly_lp": true
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O545 level 1; hourly rolling LP, 12 h horizon, one node per AHU, HiGHS (0.5 s cap, rule on failure); first hour -> per-AHU targets and warm-up / cool-down",
+   "expected": "-5% to -12% (literature, M322)",
+   "ms_per_step": 0.0
+  },
+  {
+   "id": "o545_2",
+   "option": "O545",
+   "level": 2,
+   "layer": "building",
+   "category": "physics",
+   "batch": 5,
+   "build": {
+    "rule_config": {
+     "hourly_lp": true,
+     "hourly_lp_horizon_h": 24
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O545 level 2; level 1 with a 24 h horizon",
+   "expected": "",
+   "ms_per_step": 0.0
+  },
+  {
+   "id": "o545_3",
+   "option": "O545",
+   "level": 3,
+   "layer": "building",
+   "category": "physics",
+   "batch": 5,
+   "build": {
+    "rule_config": {
+     "hourly_lp": true,
+     "hourly_lp_horizon_h": 6,
+     "hourly_lp_every_steps": 24
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O545 level 3; 6 h horizon, re-solved every 2 h",
+   "expected": "",
+   "ms_per_step": 0.0
+  },
+  {
+   "id": "o526_3",
+   "option": "O526",
+   "level": 3,
+   "layer": "building",
+   "category": "physics",
+   "batch": 6,
+   "build": {
+    "rule_config": {
+     "cold_low_flow_oat_k": 278.15,
+     "cold_low_flow_sp_pa": 2000.0
+    },
+    "wrappers": []
+   },
+   "source": "option-set-20261104 O526 level 3; O526 level 1 without the 200 Pa static pressure cap (minimum airflow at the damper floor only)",
+   "expected": "",
+   "ms_per_step": 0.0,
+   "conditions": {
+    "cities": [
+     "fairbanks",
+     "denver"
+    ],
+    "seasons": [
+     "winter",
+     "spring",
+     "autumn"
+    ],
+    "note": "cold weather (the build's own switch is an observable condition)"
+   }
+  },
+  {
+   "id": "p601_1",
+   "option": "P601",
+   "level": 1,
+   "layer": "building",
+   "category": "physics",
+   "batch": 6,
+   "build": {
+    "rule_config": {
+     "cold_low_flow_oat_k": 278.15,
+     "cold_low_flow_sp_pa": 2000.0,
+     "night_heat_mode": "weekday",
+     "warmup_target_add_k": 0.3,
+     "freeze_min_airflow": true,
+     "freeze_coldest_only": true
+    },
+    "wrappers": [
+     {
+      "name": "geo5_option_wrappers:room_option_replace",
+      "args": {
+       "key": "room_heat_margin_k",
+       "from": 0.4,
+       "to": 0.0
+      }
+     }
+    ]
+   },
+   "source": "option-set-20261104 P601 level 1; cold package of 7.3b: low minimum airflow (no cap) + night low-intensity heating + hold the lower edge + warm-up target +0.3 K + freeze heats the coldest only",
+   "expected": "",
+   "ms_per_step": 0.0,
+   "conditions": {
+    "cities": [
+     "fairbanks",
+     "denver"
+    ],
+    "seasons": [
+     "winter",
+     "spring",
+     "autumn"
+    ],
+    "note": "cold weather (the build's own switch is an observable condition)"
+   }
+  },
+  {
+   "id": "p601_2",
+   "option": "P601",
+   "level": 2,
+   "layer": "building",
+   "category": "physics",
+   "batch": 6,
+   "build": {
+    "rule_config": {
+     "cold_low_flow_oat_k": 278.15,
+     "cold_low_flow_sp_pa": 200.0,
+     "night_heat_mode": "weekday",
+     "warmup_target_add_k": 0.3,
+     "freeze_min_airflow": true,
+     "freeze_coldest_only": true
+    },
+    "wrappers": [
+     {
+      "name": "geo5_option_wrappers:room_option_replace",
+      "args": {
+       "key": "room_heat_margin_k",
+       "from": 0.4,
+       "to": 0.0
+      }
+     }
+    ]
+   },
+   "source": "option-set-20261104 P601 level 2; P601 level 1 with O526's original 200 Pa cap",
+   "expected": "",
+   "ms_per_step": 0.0,
+   "conditions": {
+    "cities": [
+     "fairbanks",
+     "denver"
+    ],
+    "seasons": [
+     "winter",
+     "spring",
+     "autumn"
+    ],
+    "note": "cold weather (the build's own switch is an observable condition)"
+   }
+  },
+  {
+   "id": "p601_3",
+   "option": "P601",
+   "level": 3,
+   "layer": "building",
+   "category": "physics",
+   "batch": 6,
+   "build": {
+    "rule_config": {
+     "cold_low_flow_oat_k": 278.15,
+     "cold_low_flow_sp_pa": 2000.0,
+     "warmup_target_add_k": 0.3,
+     "freeze_min_airflow": true,
+     "freeze_coldest_only": true
+    },
+    "wrappers": [
+     {
+      "name": "geo5_option_wrappers:room_option_replace",
+      "args": {
+       "key": "room_heat_margin_k",
+       "from": 0.4,
+       "to": 0.0
+      }
+     }
+    ]
+   },
+   "source": "option-set-20261104 P601 level 3; P601 level 1 without the night heating",
+   "expected": "",
+   "ms_per_step": 0.0,
+   "conditions": {
+    "cities": [
+     "fairbanks",
+     "denver"
+    ],
+    "seasons": [
+     "winter",
+     "spring",
+     "autumn"
+    ],
+    "note": "cold weather (the build's own switch is an observable condition)"
+   }
+  },
+  {
+   "id": "p602_1",
+   "option": "P602",
+   "level": 1,
+   "layer": "building",
+   "category": "physics",
+   "batch": 6,
+   "build": {
+    "rule_config": {
+     "night_cool_mode": "night",
+     "no_reheat_oat_k": 288.15,
+     "precool_until_hour": 6,
+     "precool_k": 2.5,
+     "opt_start_continuous": true
+    },
+    "wrappers": [
+     {
+      "name": "geo5_option_wrappers:room_option_replace",
+      "args": {
+       "key": "room_cool_margin_k",
+       "from": 0.4,
+       "to": 0.0
+      }
+     }
+    ]
+   },
+   "source": "option-set-20261104 P602 level 1; hot package of 7.2: night pre-cooling + hold the upper edge + no reheat above 15 C + pre-arrival cooling + start recomputed every step",
+   "expected": "",
+   "ms_per_step": 0.0,
+   "conditions": {
+    "cities": [
+     "phoenix",
+     "atlanta",
+     "singapore"
+    ],
+    "seasons": [
+     "summer",
+     "spring",
+     "autumn"
+    ],
+    "note": "warm weather"
+   }
+  },
+  {
+   "id": "p602_2",
+   "option": "P602",
+   "level": 2,
+   "layer": "building",
+   "category": "physics",
+   "batch": 6,
+   "build": {
+    "rule_config": {
+     "night_cool_mode": "night",
+     "no_reheat_oat_k": 288.15
+    },
+    "wrappers": [
+     {
+      "name": "geo5_option_wrappers:room_option_replace",
+      "args": {
+       "key": "room_cool_margin_k",
+       "from": 0.4,
+       "to": 0.0
+      }
+     }
+    ]
+   },
+   "source": "option-set-20261104 P602 level 2; P602 core: night pre-cooling + hold the upper edge + no reheat above 15 C",
+   "expected": "",
+   "ms_per_step": 0.0,
+   "conditions": {
+    "cities": [
+     "phoenix",
+     "atlanta",
+     "singapore"
+    ],
+    "seasons": [
+     "summer",
+     "spring",
+     "autumn"
+    ],
+    "note": "warm weather"
+   }
+  },
+  {
+   "id": "p603_1",
+   "option": "P603",
+   "level": 1,
+   "layer": "building",
+   "category": "physics",
+   "batch": 6,
+   "build": {
+    "rule_config": {
+     "cold_low_flow_oat_k": 278.15,
+     "cold_low_flow_sp_pa": 2000.0,
+     "night_heat_mode": "weekday",
+     "warmup_target_add_k": 0.3,
+     "freeze_min_airflow": true,
+     "freeze_coldest_only": true,
+     "night_cool_mode": "night",
+     "no_reheat_oat_k": 288.15,
+     "precool_until_hour": 6,
+     "precool_k": 2.5,
+     "opt_start_continuous": true,
+     "pump_dp_reset": "valve_inverse"
+    },
+    "wrappers": [
+     {
+      "name": "geo5_option_wrappers:room_option_replace",
+      "args": {
+       "key": "room_heat_margin_k",
+       "from": 0.4,
+       "to": 0.0
+      }
+     },
+     {
+      "name": "geo5_option_wrappers:room_option_replace",
+      "args": {
+       "key": "room_cool_margin_k",
+       "from": 0.4,
+       "to": 0.0
+      }
+     }
+    ]
+   },
+   "source": "option-set-20261104 P603 level 1; P601 level 1 + P602 level 1 + pump pressure from valve position (all climates)",
+   "expected": "",
+   "ms_per_step": 0.0
+  },
+  {
+   "id": "p611_1",
+   "option": "P611",
+   "level": 1,
+   "layer": "building",
+   "category": "competition",
+   "batch": 6,
+   "build": {
+    "rule_config": {
+     "cold_low_flow_oat_k": 278.15,
+     "cold_low_flow_sp_pa": 2000.0,
+     "night_heat_mode": "free_gas",
+     "hw_sawtooth": "band",
+     "warmup_target_add_k": 0.3
+    },
+    "wrappers": [
+     {
+      "name": "geo5_option_wrappers:room_option_replace",
+      "args": {
+       "key": "room_heat_margin_k",
+       "from": 0.4,
+       "to": 0.0
+      }
+     }
+    ]
+   },
+   "source": "option-set-20261104 P611 level 1; competition cold package: hot-water sawtooth + free-gas night heating + low airflow + lower edge + warm-up +0.3 K",
+   "expected": "",
+   "ms_per_step": 0.0,
+   "compare_with": "o546_1"
+  },
+  {
+   "id": "p611_2",
+   "option": "P611",
+   "level": 2,
+   "layer": "building",
+   "category": "competition",
+   "batch": 6,
+   "build": {
+    "rule_config": {
+     "cold_low_flow_oat_k": 278.15,
+     "cold_low_flow_sp_pa": 2000.0,
+     "night_heat_mode": "free_gas",
+     "hw_sawtooth": "band",
+     "warmup_target_add_k": 0.3,
+     "min_flow": 0.0
+    },
+    "wrappers": [
+     {
+      "name": "geo5_option_wrappers:room_option_replace",
+      "args": {
+       "key": "room_heat_margin_k",
+       "from": 0.4,
+       "to": 0.0
+      }
+     },
+     {
+      "name": "geo5_option_wrappers:room_vent_off",
+      "args": {}
+     },
+     {
+      "name": "geo5_option_wrappers:rule_set",
+      "args": {
+       "freeze_on_k": 173.15,
+       "freeze_off_k": 176.15
+      }
+     }
+    ]
+   },
+   "source": "option-set-20261104 P611 level 2; P611 level 1 + freeze protection off + ventilation minimum 0 (as O550 + O551)",
+   "expected": "",
+   "ms_per_step": 0.0,
+   "compare_with": "o546_1"
+  }
+ ]
+}

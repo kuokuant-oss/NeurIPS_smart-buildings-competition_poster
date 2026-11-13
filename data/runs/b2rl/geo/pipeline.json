@@ -1,0 +1,443 @@
+{
+ "stage": "done",
+ "rounds": {
+  "r1": {
+   "candidates": {
+    "gr_v62": {
+     "zone_min_ra_lps_m2": 0.3,
+     "zone_min_rp_lps_m2": 0.125,
+     "zone_min_oa_divide": true
+    },
+    "gr_v62core": {
+     "zone_min_ra_lps_m2": 0.3,
+     "zone_min_rp_lps_m2": 0.125,
+     "zone_min_oa_divide": true,
+     "zone_min_scope": "core"
+    },
+    "gr_v62perim": {
+     "zone_min_ra_lps_m2": 0.3,
+     "zone_min_rp_lps_m2": 0.125,
+     "zone_min_oa_divide": true,
+     "zone_min_scope": "perimeter"
+    },
+    "gr_hw30p05": {
+     "zone_heat_wall_ref_m": 30.0,
+     "zone_heat_wall_power": 0.5
+    },
+    "gr_hw50p10": {
+     "zone_heat_wall_ref_m": 50.0,
+     "zone_heat_wall_power": 1.0
+    },
+    "gr_v62_hw30p05": {
+     "zone_min_ra_lps_m2": 0.3,
+     "zone_min_rp_lps_m2": 0.125,
+     "zone_min_oa_divide": true,
+     "zone_heat_wall_ref_m": 30.0,
+     "zone_heat_wall_power": 0.5
+    }
+   },
+   "results": {
+    "gr_v62": {
+     "train_breakdown40": {
+      "mean": 6.020996162658254,
+      "per_scenario": 3.947988291626504,
+      "se": 1.742852989207316,
+      "better": 14,
+      "worse": 26,
+      "n": 40
+     }
+    },
+    "gr_v62core": {
+     "train_breakdown40": {
+      "mean": 0.019118181073474183,
+      "per_scenario": 0.204641053421824,
+      "se": 0.5943381129613824,
+      "better": 17,
+      "worse": 23,
+      "n": 40
+     }
+    },
+    "gr_v62perim": {
+     "train_breakdown40": {
+      "mean": 5.603199620018029,
+      "per_scenario": 3.2113153089399993,
+      "se": 1.4764776603763714,
+      "better": 9,
+      "worse": 31,
+      "n": 40
+     }
+    },
+    "gr_hw30p05": {
+     "train_breakdown40": {
+      "mean": -0.2582033415610474,
+      "per_scenario": -0.07725122576710514,
+      "se": 0.09518231230508976,
+      "better": 14,
+      "worse": 11,
+      "n": 40
+     },
+     "train_ceiling_rest60": {
+      "mean": 0.27647637165901795,
+      "per_scenario": 0.1216586530620589,
+      "se": 0.132366297487358,
+      "better": 12,
+      "worse": 20,
+      "n": 60
+     },
+     "s4_first": {
+      "mean": -0.15501433247814278,
+      "per_scenario": -0.10539209155085327,
+      "se": 0.08921431162790389,
+      "better": 9,
+      "worse": 9,
+      "n": 30
+     }
+    },
+    "gr_hw50p10": {
+     "train_breakdown40": {
+      "mean": -0.09241493295188974,
+      "per_scenario": -0.04271235606720131,
+      "se": 0.031052429070095863,
+      "better": 8,
+      "worse": 5,
+      "n": 40
+     },
+     "train_ceiling_rest60": {
+      "mean": 0.362282498797728,
+      "per_scenario": 0.06936105380881019,
+      "se": 0.07541516728884981,
+      "better": 6,
+      "worse": 10,
+      "n": 60
+     },
+     "s4_first": {
+      "mean": -0.014832927567420828,
+      "per_scenario": -0.06065005868689188,
+      "se": 0.07757275886394063,
+      "better": 8,
+      "worse": 8,
+      "n": 30
+     }
+    },
+    "gr_v62_hw30p05": {
+     "train_breakdown40": {
+      "mean": 5.834634309672926,
+      "per_scenario": 3.872970778228236,
+      "se": 1.7633032985722454,
+      "better": 14,
+      "worse": 26,
+      "n": 40
+     }
+    }
+   },
+   "done": true,
+   "passed": null
+  },
+  "r2": {
+   "candidates": {
+    "gr_hw20p05": {
+     "zone_heat_wall_ref_m": 20.0,
+     "zone_heat_wall_power": 0.5
+    },
+    "gr_hw30p10": {
+     "zone_heat_wall_ref_m": 30.0,
+     "zone_heat_wall_power": 1.0
+    },
+    "gr_hw50p05": {
+     "zone_heat_wall_ref_m": 50.0,
+     "zone_heat_wall_power": 0.5
+    },
+    "gr_v62core_hw30p05": {
+     "zone_min_ra_lps_m2": 0.3,
+     "zone_min_rp_lps_m2": 0.125,
+     "zone_min_oa_divide": true,
+     "zone_min_scope": "core",
+     "zone_heat_wall_ref_m": 30.0,
+     "zone_heat_wall_power": 0.5
+    }
+   },
+   "results": {
+    "gr_hw20p05": {
+     "train_breakdown40": {
+      "mean": -0.1304717792861565,
+      "per_scenario": 0.056418042300116766,
+      "se": 0.09879574880579428,
+      "better": 6,
+      "worse": 20,
+      "n": 40
+     },
+     "train_ceiling_rest60": {
+      "mean": 2.225379322811194,
+      "per_scenario": 0.7362457032911458,
+      "se": 0.4059221854530482,
+      "better": 6,
+      "worse": 28,
+      "n": 60
+     },
+     "s4_first": {
+      "mean": 0.6850937145706615,
+      "per_scenario": 0.42023561576826923,
+      "se": 0.19252141581898616,
+      "better": 4,
+      "worse": 15,
+      "n": 30
+     }
+    },
+    "gr_hw30p10": {
+     "train_breakdown40": {
+      "mean": 0.21987344064280379,
+      "per_scenario": 0.25079237620737466,
+      "se": 0.13913559577328435,
+      "better": 10,
+      "worse": 15,
+      "n": 40
+     }
+    },
+    "gr_hw50p05": {
+     "train_breakdown40": {
+      "mean": -0.07331216069275115,
+      "per_scenario": -0.038443282648423505,
+      "se": 0.027153239961357226,
+      "better": 8,
+      "worse": 5,
+      "n": 40
+     }
+    },
+    "gr_v62core_hw30p05": {
+     "train_breakdown40": {
+      "mean": -0.2135500645930044,
+      "per_scenario": 0.0944373182197436,
+      "se": 0.5974900338996109,
+      "better": 17,
+      "worse": 23,
+      "n": 40
+     },
+     "train_ceiling_rest60": {
+      "mean": 2.5197357671178144,
+      "per_scenario": 0.9505679378504911,
+      "se": 0.6278990883895,
+      "better": 23,
+      "worse": 37,
+      "n": 60
+     },
+     "s4_first": {
+      "mean": 2.8256467072545144,
+      "per_scenario": 1.8672768518279144,
+      "se": 0.40784425997714036,
+      "better": 7,
+      "worse": 23,
+      "n": 30
+     }
+    }
+   },
+   "done": true,
+   "passed": null
+  },
+  "r3": {
+   "candidates": {
+    "gr_hw20p10": {
+     "zone_heat_wall_ref_m": 20.0,
+     "zone_heat_wall_power": 1.0
+    },
+    "gr_v62core_hwbest": {
+     "zone_min_ra_lps_m2": 0.3,
+     "zone_min_rp_lps_m2": 0.125,
+     "zone_min_oa_divide": true,
+     "zone_min_scope": "core",
+     "zone_heat_wall_ref_m": 30.0,
+     "zone_heat_wall_power": 0.5
+    },
+    "gr_v62perim_hwbest": {
+     "zone_min_ra_lps_m2": 0.3,
+     "zone_min_rp_lps_m2": 0.125,
+     "zone_min_oa_divide": true,
+     "zone_min_scope": "perimeter",
+     "zone_heat_wall_ref_m": 30.0,
+     "zone_heat_wall_power": 0.5
+    }
+   },
+   "results": {
+    "gr_hw20p10": {
+     "train_breakdown40": {
+      "mean": 0.8662790238882057,
+      "per_scenario": 1.36770416810385,
+      "se": 0.3846640103276777,
+      "better": 1,
+      "worse": 25,
+      "n": 40
+     }
+    },
+    "gr_v62core_hwbest": {
+     "train_breakdown40": {
+      "mean": -0.2135500645930044,
+      "per_scenario": 0.0944373182197436,
+      "se": 0.5974900338996109,
+      "better": 17,
+      "worse": 23,
+      "n": 40
+     },
+     "train_ceiling_rest60": {
+      "mean": 2.5197357671178144,
+      "per_scenario": 0.9505679378504911,
+      "se": 0.6278990883895,
+      "better": 23,
+      "worse": 37,
+      "n": 60
+     },
+     "s4_first": {
+      "mean": 2.8256467072545144,
+      "per_scenario": 1.8672768518279144,
+      "se": 0.40784425997714036,
+      "better": 7,
+      "worse": 23,
+      "n": 30
+     }
+    },
+    "gr_v62perim_hwbest": {
+     "train_breakdown40": {
+      "mean": 5.400815662248348,
+      "per_scenario": 3.1593619713238423,
+      "se": 1.5027618902499358,
+      "better": 9,
+      "worse": 31,
+      "n": 40
+     }
+    }
+   },
+   "done": true,
+   "passed": null
+  }
+ },
+ "stage_r": {
+  "passed": null,
+  "best_holdout": "gr_hw30p05",
+  "best_holdout_result": {
+   "train_breakdown40": {
+    "mean": -0.2582033415610474,
+    "per_scenario": -0.07725122576710514,
+    "se": 0.09518231230508976,
+    "better": 14,
+    "worse": 11,
+    "n": 40
+   },
+   "train_ceiling_rest60": {
+    "mean": 0.27647637165901795,
+    "per_scenario": 0.1216586530620589,
+    "se": 0.132366297487358,
+    "better": 12,
+    "worse": 20,
+    "n": 60
+   },
+   "s4_first": {
+    "mean": -0.15501433247814278,
+    "per_scenario": -0.10539209155085327,
+    "se": 0.08921431162790389,
+    "better": 9,
+    "worse": 9,
+    "n": 30
+   }
+  }
+ },
+ "stage_m_base": "night1_dcv07",
+ "stage_m": {
+  "base": "night1_dcv07",
+  "options": [
+   {},
+   {
+    "zone_min_ra_lps_m2": 0.3,
+    "zone_min_rp_lps_m2": 0.125,
+    "zone_min_oa_divide": true
+   },
+   {
+    "zone_heat_wall_ref_m": 30.0,
+    "zone_heat_wall_power": 0.5
+   },
+   {
+    "zone_min_ra_lps_m2": 0.3,
+    "zone_min_rp_lps_m2": 0.125,
+    "zone_min_oa_divide": true,
+    "zone_heat_wall_ref_m": 30.0,
+    "zone_heat_wall_power": 0.5
+   },
+   {
+    "zone_heat_wall_ref_m": 20.0,
+    "zone_heat_wall_power": 1.0
+   }
+  ],
+  "attempts": [
+   {
+    "tag": "m1",
+    "tree": {
+     "feature": "area",
+     "threshold": 132.84,
+     "left": {
+      "feature": "area",
+      "threshold": 95.44,
+      "left": {
+       "feature": "wall",
+       "threshold": 7.4,
+       "left": {
+        "leaf": 3
+       },
+       "right": {
+        "leaf": 1
+       }
+      },
+      "right": {
+       "leaf": 3
+      }
+     },
+     "right": {
+      "feature": "wall",
+      "threshold": 11.200000000000001,
+      "left": {
+       "feature": "oat",
+       "threshold": 20.419770114942526,
+       "left": {
+        "leaf": 4
+       },
+       "right": {
+        "leaf": 2
+       }
+      },
+      "right": {
+       "leaf": 2
+      }
+     }
+    },
+    "lobo": {
+     "base option": 39.15803383631883,
+     "single best option": 38.84516724662228,
+     "policy tree": 36.90905833547077,
+     "forest argmin": 36.591047050682626
+    },
+    "closed_loop": {
+     "train_ceiling_rest60": {
+      "mean": -2.402735374871212,
+      "per_scenario": -4.933033630856748,
+      "se": 1.0444859657304977,
+      "better": 46,
+      "worse": 10,
+      "n": 60
+     },
+     "s4_first": {
+      "mean": -0.08078983464817613,
+      "per_scenario": -0.7967708983232868,
+      "se": 0.7182530580936489,
+      "better": 15,
+      "worse": 11,
+      "n": 30
+     }
+    },
+    "against_base": {
+     "train_ceiling_rest60": -2.402735374871212,
+     "s4_first": -0.08078983464817613
+    },
+    "passed": true
+   }
+  ],
+  "passed": null,
+  "candidate": "gm_tree_m1",
+  "gate_started": true
+ }
+}

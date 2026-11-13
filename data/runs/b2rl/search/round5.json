@@ -1,0 +1,50 @@
+{
+ "_note": "round 5 (2026-10-28 23:0x): the optimal start cap at its floor (1 h) was the strongest lever on train_breakdown40 (d0_topt3600 -4.38% vs rule, 35/5 vs fixed) but the 0.36 heating ratio still lost +9.6% in building_18842/fairbanks_3; with the fixed heating ratio (r_heat0453) the cold tail vanished (months below 0 C: -1.61%, worst +0.6%) but hot months lost up to +5.2%. On all 100 of train_ceiling100: r3 = heat 0.453 + optimal start 1 h + margin 0.10 as one set; s4 = schedule: below 0 C r3, 5-20 C heat 0.36 + 1 h + 0.10, above 25 C the fixed rule; s5 = s4 with r3 above 25 C",
+ "r3_safe_topt3600": {
+  "heating_max_ratio": 0.4529957279624725,
+  "t_opt_max_s": 3600.0,
+  "occupied_margin_k": 0.1
+ },
+ "s4_sched_topt3600": {
+  "breaks_c": [
+   0,
+   5,
+   20,
+   25
+  ],
+  "cold": {
+   "heating_max_ratio": 0.4529957279624725,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1
+  },
+  "mild": {
+   "heating_max_ratio": 0.36,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1
+  },
+  "hot": {}
+ },
+ "s5_sched_topt3600_hot_safe": {
+  "breaks_c": [
+   0,
+   5,
+   20,
+   25
+  ],
+  "cold": {
+   "heating_max_ratio": 0.4529957279624725,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1
+  },
+  "mild": {
+   "heating_max_ratio": 0.36,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1
+  },
+  "hot": {
+   "heating_max_ratio": 0.4529957279624725,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1
+  }
+ }
+}

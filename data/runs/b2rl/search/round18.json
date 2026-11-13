@@ -1,0 +1,75 @@
+{
+ "_note": "empty weekday\ndetection (G36Config.empty_day_delay_min; policies/g36.py G36Controller._empty_day). The simulator sends nobody on\nweekends and US federal holidays (smart_control/utils/conversion_utils.py is_work_day), the score charges no comfort\nwith nobody in (setpoint_energy_carbon_regret.py: regret 0 when total occupancy is 0), but the schedule runs a weekday\nholiday as occupied; the agent's estimate from the stored hourly rule rewards is about -2% mean cost (-3% where a\nholiday falls). On f2d_a12_g05: the day turns empty when nobody has come 60 or 120 min after the morning start.\nScenarios without an empty weekday must come out unchanged.",
+ "a12g05_empty60": {
+  "breaks_c": [
+   0,
+   5,
+   20,
+   25
+  ],
+  "cold": {
+   "heating_max_ratio": 0.4529957279624725,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180,
+   "discharge_offset_k": 11.8
+  },
+  "mild": {
+   "heating_max_ratio": 0.36,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180,
+   "discharge_offset_k": 11.8
+  },
+  "hot": {
+   "heating_max_ratio": 0.4529957279624725,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180,
+   "discharge_offset_k": 11.8
+  },
+  "rule_config": {
+   "freeze_on_k": 275.15,
+   "freeze_off_k": 278.15,
+   "sat_cost_optimal": true,
+   "sat_cost_guard_k": 0.5,
+   "empty_day_delay_min": 60
+  }
+ },
+ "a12g05_empty120": {
+  "breaks_c": [
+   0,
+   5,
+   20,
+   25
+  ],
+  "cold": {
+   "heating_max_ratio": 0.4529957279624725,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180,
+   "discharge_offset_k": 11.8
+  },
+  "mild": {
+   "heating_max_ratio": 0.36,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180,
+   "discharge_offset_k": 11.8
+  },
+  "hot": {
+   "heating_max_ratio": 0.4529957279624725,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180,
+   "discharge_offset_k": 11.8
+  },
+  "rule_config": {
+   "freeze_on_k": 275.15,
+   "freeze_off_k": 278.15,
+   "sat_cost_optimal": true,
+   "sat_cost_guard_k": 0.5,
+   "empty_day_delay_min": 120
+  }
+ }
+}

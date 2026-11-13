@@ -1,0 +1,99 @@
+{
+ "note": "gt_b2 = gt_r5pa2 merged with four hand-chosen rule levers (2026-11-10, model field source.merged); no script wrote the model file",
+ "input": "data/runs/b2rl/search/models/model-gt_r5pa2.json",
+ "output": "data/runs/b2rl/search/models/model-gt_b2.json",
+ "key_order": [
+  "format",
+  "layout",
+  "features",
+  "parameters",
+  "ranges",
+  "interval",
+  "obs_mean",
+  "obs_var",
+  "obs_epsilon",
+  "obs_clip",
+  "layers",
+  "log_std",
+  "rule",
+  "source",
+  "rule_config",
+  "room_policy"
+ ],
+ "ops": [
+  [
+   "set",
+   [
+    "source",
+    "merged"
+   ],
+   {
+    "name": "gt_b2",
+    "base": "gt_r5pa2 (paper rule, no trees)",
+    "levers": [
+     "cold low airflow for not-heating zones below 5 C",
+     "big-room heating max 0.6 when short of heat",
+     "empty weekday float + night re-cool",
+     "deep-cold economic target 0.6 K"
+    ],
+    "date": "2026-11-10"
+   }
+  ],
+  [
+   "set",
+   [
+    "rule_config",
+    "cold_low_flow_oat_k"
+   ],
+   278.15
+  ],
+  [
+   "set",
+   [
+    "rule_config",
+    "cold_low_flow_sp_pa"
+   ],
+   2000.0
+  ],
+  [
+   "set",
+   [
+    "rule_config",
+    "cold_low_flow_deadband_only"
+   ],
+   true
+  ],
+  [
+   "set",
+   [
+    "rule_config",
+    "big_room_heat_max_ratio"
+   ],
+   0.6
+  ],
+  [
+   "set",
+   [
+    "rule_config",
+    "big_room_need"
+   ],
+   true
+  ],
+  [
+   "set",
+   [
+    "rule_config",
+    "empty_day_setup"
+   ],
+   "night"
+  ],
+  [
+   "set",
+   [
+    "rule_config",
+    "economic_keep_cold_k"
+   ],
+   0.6
+  ]
+ ]
+}

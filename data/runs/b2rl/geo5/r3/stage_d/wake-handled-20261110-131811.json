@@ -1,0 +1,6 @@
+{
+ "time": "2026-11-10 13:17:03",
+ "label": "d",
+ "stage": "score",
+ "reason": "memory: score 58180500: host memory used 19.1 GB > 18 GB (our tree 0.1 GB)"
+}

@@ -1,0 +1,544 @@
+{
+ "rows": {
+  "building_19897/fairbanks_5": {
+   "cost": 0.003332680024582007,
+   "steps": 8640,
+   "comfort_part": -2.869200863921941,
+   "energy_part": -19.458608161365557,
+   "carbon_part": -6.466546382832167,
+   "oat_mean_c": 18.910248823522224,
+   "elapsed_seconds": 144.49862695099955
+  },
+  "building_19897/denver_3": {
+   "cost": 0.0085035494533452,
+   "steps": 8640,
+   "comfort_part": -3.922465103682093,
+   "energy_part": -22.2923570282248,
+   "carbon_part": -47.255845080717705,
+   "oat_mean_c": 11.507268831465923,
+   "elapsed_seconds": 146.42088552199994
+  },
+  "building_19897/atlanta_1": {
+   "cost": 0.00905597640781387,
+   "steps": 8640,
+   "comfort_part": -4.0499360021777475,
+   "energy_part": -23.548903165555387,
+   "carbon_part": -50.644797102990566,
+   "oat_mean_c": 9.589653075183039,
+   "elapsed_seconds": 147.13418856900034
+  },
+  "building_19897/phoenix_7": {
+   "cost": 0.006135184350171551,
+   "steps": 8640,
+   "comfort_part": -2.5813088453586372,
+   "energy_part": -39.72933417469031,
+   "carbon_part": -10.697349798677898,
+   "oat_mean_c": 23.31240177861356,
+   "elapsed_seconds": 147.4226478190003
+  },
+  "building_19897/singapore_1": {
+   "cost": 0.009139321849898317,
+   "steps": 8640,
+   "comfort_part": -1.484535696128205,
+   "energy_part": -62.111552625283366,
+   "carbon_part": -15.367652408379946,
+   "oat_mean_c": 27.329786042817794,
+   "elapsed_seconds": 147.9686828439999
+  },
+  "building_17160/fairbanks_7": {
+   "cost": 0.004381347829978158,
+   "steps": 8640,
+   "comfort_part": -3.0392712819903296,
+   "energy_part": -10.837483560262626,
+   "carbon_part": -23.978090468596204,
+   "oat_mean_c": 6.396614332551218,
+   "elapsed_seconds": 174.5563133340006
+  },
+  "building_17160/denver_5": {
+   "cost": 0.005790595928664078,
+   "steps": 8640,
+   "comfort_part": -1.2463123503698086,
+   "energy_part": -39.291521868328715,
+   "carbon_part": -9.492914608393766,
+   "oat_mean_c": 24.1805962562596,
+   "elapsed_seconds": 175.51024876599968
+  },
+  "building_17160/singapore_3": {
+   "cost": 0.00816686678166518,
+   "steps": 8640,
+   "comfort_part": -1.0854479995308508,
+   "energy_part": -56.41181954547429,
+   "carbon_part": -13.064461389079225,
+   "oat_mean_c": 28.596428920608606,
+   "elapsed_seconds": 175.63280964199976
+  },
+  "building_17160/phoenix_1": {
+   "cost": 0.0027886213129868845,
+   "steps": 8640,
+   "comfort_part": -4.7465271478668,
+   "energy_part": -10.948501124200995,
+   "carbon_part": -8.398659883347136,
+   "oat_mean_c": 13.923524468035046,
+   "elapsed_seconds": 175.98936172700041
+  },
+  "building_17160/atlanta_3": {
+   "cost": 0.004208079908921213,
+   "steps": 8640,
+   "comfort_part": -2.3667576145566955,
+   "energy_part": -27.02828747548483,
+   "carbon_part": -6.962765315901925,
+   "oat_mean_c": 20.819866840930803,
+   "elapsed_seconds": 176.73156657800018
+  },
+  "building_14342/singapore_5": {
+   "cost": 0.007089797656853821,
+   "steps": 8640,
+   "comfort_part": -2.2796277242635825,
+   "energy_part": -47.767953510042574,
+   "carbon_part": -11.20827052394161,
+   "oat_mean_c": 28.383292318277448,
+   "elapsed_seconds": 146.80658254299942
+  },
+  "building_14342/denver_7": {
+   "cost": 0.0046290191931129135,
+   "steps": 8640,
+   "comfort_part": -1.5391557779814036,
+   "energy_part": -12.899311464542553,
+   "carbon_part": -25.556258637347494,
+   "oat_mean_c": 12.937234069684665,
+   "elapsed_seconds": 147.75819006300026
+  },
+  "building_14342/atlanta_5": {
+   "cost": 0.006515262516231562,
+   "steps": 8640,
+   "comfort_part": -2.977189392187074,
+   "energy_part": -43.07825742292334,
+   "carbon_part": -10.23642128080246,
+   "oat_mean_c": 26.990266259515224,
+   "elapsed_seconds": 150.40231065999978
+  },
+  "building_14342/phoenix_3": {
+   "cost": 0.0068993134217449825,
+   "steps": 8640,
+   "comfort_part": -4.426614571316793,
+   "energy_part": -44.53393503098269,
+   "carbon_part": -10.649518393920154,
+   "oat_mean_c": 26.989242002702895,
+   "elapsed_seconds": 150.7275178609998
+  },
+  "building_14342/fairbanks_1": {
+   "cost": 0.05304704962320388,
+   "steps": 8640,
+   "comfort_part": -16.7095294366936,
+   "energy_part": -129.31958998952615,
+   "carbon_part": -312.29738932863694,
+   "oat_mean_c": -21.42443253905298,
+   "elapsed_seconds": 151.73190271899966
+  },
+  "building_12698/fairbanks_5": {
+   "cost": 0.002457526290527312,
+   "steps": 8640,
+   "comfort_part": -2.7459570837722365,
+   "energy_part": -13.315063941608242,
+   "carbon_part": -5.1720061184591035,
+   "oat_mean_c": 18.910248823522224,
+   "elapsed_seconds": 200.25400596100008
+  },
+  "building_12698/phoenix_7": {
+   "cost": 0.004164261328588526,
+   "steps": 8640,
+   "comfort_part": -2.5940557349399853,
+   "energy_part": -25.78938352237965,
+   "carbon_part": -7.595778588830581,
+   "oat_mean_c": 23.31240177861356,
+   "elapsed_seconds": 199.6663925590001
+  },
+  "building_12698/atlanta_1": {
+   "cost": 0.006276748353702209,
+   "steps": 8640,
+   "comfort_part": -2.0541179767330644,
+   "energy_part": -16.596288602336426,
+   "carbon_part": -35.58069922177238,
+   "oat_mean_c": 9.589653075183039,
+   "elapsed_seconds": 202.3193115289996
+  },
+  "building_12698/denver_3": {
+   "cost": 0.006241677208180152,
+   "steps": 8640,
+   "comfort_part": -3.0034342940899763,
+   "energy_part": -16.400785535605973,
+   "carbon_part": -34.5238713275292,
+   "oat_mean_c": 11.507268831465923,
+   "elapsed_seconds": 203.66354857199985
+  },
+  "building_12698/singapore_1": {
+   "cost": 0.005763956867614465,
+   "steps": 8640,
+   "comfort_part": -1.353794633718951,
+   "energy_part": -38.81646812757754,
+   "carbon_part": -9.630324591285898,
+   "oat_mean_c": 27.329786042817794,
+   "elapsed_seconds": 200.4184486309996
+  },
+  "building_16653/fairbanks_3": {
+   "cost": 0.006341563175932084,
+   "steps": 8640,
+   "comfort_part": -1.5916029462792152,
+   "energy_part": -15.528568136955801,
+   "carbon_part": -37.67093470832187,
+   "oat_mean_c": -1.6750054606692526,
+   "elapsed_seconds": 366.68599169799927
+  },
+  "building_16653/denver_1": {
+   "cost": 0.006225940597674598,
+   "steps": 8640,
+   "comfort_part": -2.3044177875077847,
+   "energy_part": -16.088930615572462,
+   "carbon_part": -35.39877833518695,
+   "oat_mean_c": -0.890832752651599,
+   "elapsed_seconds": 368.45343377799963
+  },
+  "building_16653/atlanta_7": {
+   "cost": 0.0032650799282923464,
+   "steps": 8640,
+   "comfort_part": -2.6416504817744055,
+   "energy_part": -19.763233708164265,
+   "carbon_part": -5.8054063695672085,
+   "oat_mean_c": 18.172441846356552,
+   "elapsed_seconds": 369.70446822600024
+  },
+  "building_16653/phoenix_5": {
+   "cost": 0.01079333562102365,
+   "steps": 8640,
+   "comfort_part": -4.218908043949886,
+   "energy_part": -72.23164846535784,
+   "carbon_part": -16.803863187689423,
+   "oat_mean_c": 36.825324097385675,
+   "elapsed_seconds": 371.24416932500026
+  },
+  "building_16653/singapore_7": {
+   "cost": 0.0063467690223121655,
+   "steps": 8640,
+   "comfort_part": -1.3101089852163568,
+   "energy_part": -43.14203714963915,
+   "carbon_part": -10.38393820908459,
+   "oat_mean_c": 27.51678219195161,
+   "elapsed_seconds": 370.5699177359993
+  },
+  "building_16266/atlanta_3": {
+   "cost": 0.01114383047223555,
+   "steps": 8640,
+   "comfort_part": -7.485299002896209,
+   "energy_part": -71.67325514990516,
+   "carbon_part": -17.124141207398498,
+   "oat_mean_c": 20.819866840930803,
+   "elapsed_seconds": 165.66411556599996
+  },
+  "building_16266/denver_5": {
+   "cost": 0.013711773748793298,
+   "steps": 8640,
+   "comfort_part": -2.8181097652813265,
+   "energy_part": -93.67166821084321,
+   "carbon_part": -21.97994712951477,
+   "oat_mean_c": 24.1805962562596,
+   "elapsed_seconds": 161.3471599730001
+  },
+  "building_16266/singapore_3": {
+   "cost": 0.018132748617692533,
+   "steps": 8640,
+   "comfort_part": -1.523235114890096,
+   "energy_part": -126.09322246413795,
+   "carbon_part": -29.05049047988723,
+   "oat_mean_c": 28.596428920608606,
+   "elapsed_seconds": 162.07795198299937
+  },
+  "building_16266/fairbanks_7": {
+   "cost": 0.00439498771462636,
+   "steps": 8640,
+   "comfort_part": -3.384053763939707,
+   "energy_part": -14.456405741834898,
+   "carbon_part": -20.132234389314547,
+   "oat_mean_c": 6.396614332551218,
+   "elapsed_seconds": 163.66045556800054
+  },
+  "building_16266/phoenix_1": {
+   "cost": 0.006385979718131946,
+   "steps": 8640,
+   "comfort_part": -11.386586261107627,
+   "energy_part": -32.37605958285494,
+   "carbon_part": -11.41221894233022,
+   "oat_mean_c": 13.923524468035046,
+   "elapsed_seconds": 163.94627189600033
+  },
+  "building_19219/denver_7": {
+   "cost": 0.002513372313218396,
+   "steps": 8640,
+   "comfort_part": -2.9219555457673407,
+   "energy_part": -9.585938123696542,
+   "carbon_part": -9.20764310839877,
+   "oat_mean_c": 12.937234069684665,
+   "elapsed_seconds": 185.4001724059999
+  },
+  "building_19219/atlanta_5": {
+   "cost": 0.007994009340969417,
+   "steps": 8640,
+   "comfort_part": -0.5814444595108256,
+   "energy_part": -55.48186979833845,
+   "carbon_part": -13.004926504618197,
+   "oat_mean_c": 26.990266259515224,
+   "elapsed_seconds": 186.8398518390004
+  },
+  "building_19219/singapore_5": {
+   "cost": 0.008595542934924188,
+   "steps": 8640,
+   "comfort_part": -0.4174397576801652,
+   "energy_part": -59.86093223172065,
+   "carbon_part": -13.987118946609554,
+   "oat_mean_c": 28.383292318277448,
+   "elapsed_seconds": 185.62323849299992
+  },
+  "building_19219/fairbanks_1": {
+   "cost": 0.035214819174221805,
+   "steps": 8640,
+   "comfort_part": -11.964585496615149,
+   "energy_part": -84.93223044566258,
+   "carbon_part": -207.35922181008792,
+   "oat_mean_c": -21.42443253905298,
+   "elapsed_seconds": 189.14642715300033
+  },
+  "building_19219/phoenix_3": {
+   "cost": 0.007989286841001962,
+   "steps": 8640,
+   "comfort_part": -1.1911209570534311,
+   "energy_part": -54.913356585869046,
+   "carbon_part": -12.922960725326266,
+   "oat_mean_c": 26.989242002702895,
+   "elapsed_seconds": 191.75302708399977
+  },
+  "building_12096/atlanta_7": {
+   "cost": 0.0045499972717961,
+   "steps": 8640,
+   "comfort_part": -2.8058371352371183,
+   "energy_part": -24.29134575854478,
+   "carbon_part": -12.21479348403227,
+   "oat_mean_c": 18.172441846356552,
+   "elapsed_seconds": 149.28001087699977
+  },
+  "building_12096/denver_1": {
+   "cost": 0.016954017726660216,
+   "steps": 8640,
+   "comfort_part": -12.402523455316963,
+   "energy_part": -40.5376866017541,
+   "carbon_part": -93.54250316235412,
+   "oat_mean_c": -0.890832752651599,
+   "elapsed_seconds": 151.17092836400025
+  },
+  "building_12096/phoenix_5": {
+   "cost": 0.015703076435896805,
+   "steps": 8640,
+   "comfort_part": -3.6232240079783704,
+   "energy_part": -107.30634984212011,
+   "carbon_part": -24.745006701617967,
+   "oat_mean_c": 36.825324097385675,
+   "elapsed_seconds": 147.74148896899987
+  },
+  "building_12096/fairbanks_3": {
+   "cost": 0.015404479195913407,
+   "steps": 8640,
+   "comfort_part": -9.209100397659762,
+   "energy_part": -35.18160156949307,
+   "carbon_part": -88.70399844114728,
+   "oat_mean_c": -1.6750054606692526,
+   "elapsed_seconds": 148.74652581600003
+  },
+  "building_12096/singapore_7": {
+   "cost": 0.007997140207348569,
+   "steps": 8640,
+   "comfort_part": -0.8967877539122809,
+   "energy_part": -54.91071121614514,
+   "carbon_part": -13.287792474441813,
+   "oat_mean_c": 27.51678219195161,
+   "elapsed_seconds": 149.1704717749999
+  },
+  "building_11229/atlanta_1": {
+   "cost": 0.0035241235545754534,
+   "steps": 8640,
+   "comfort_part": -2.7060311368174665,
+   "energy_part": -9.655580533835746,
+   "carbon_part": -18.08681584284641,
+   "oat_mean_c": 9.589653075183039,
+   "elapsed_seconds": 149.91989786199974
+  },
+  "building_11229/denver_3": {
+   "cost": 0.003790640183953858,
+   "steps": 8640,
+   "comfort_part": -7.5709990147661355,
+   "energy_part": -9.654322679151665,
+   "carbon_part": -15.525809483826743,
+   "oat_mean_c": 11.507268831465923,
+   "elapsed_seconds": 153.36369895499956
+  },
+  "building_11229/fairbanks_5": {
+   "cost": 0.002366690832988112,
+   "steps": 8640,
+   "comfort_part": -2.3199537860890556,
+   "energy_part": -14.225468690568233,
+   "carbon_part": -3.9027863151677593,
+   "oat_mean_c": 18.910248823522224,
+   "elapsed_seconds": 152.75132428599954
+  },
+  "building_11229/phoenix_7": {
+   "cost": 0.003968050774380185,
+   "steps": 8640,
+   "comfort_part": -1.6083337524684735,
+   "energy_part": -26.128328471579152,
+   "carbon_part": -6.547296486972482,
+   "oat_mean_c": 23.31240177861356,
+   "elapsed_seconds": 153.3791369540004
+  },
+  "building_11229/singapore_1": {
+   "cost": 0.005884544078396124,
+   "steps": 8640,
+   "comfort_part": -1.240330498426806,
+   "energy_part": -39.73793972406493,
+   "carbon_part": -9.86419058975298,
+   "oat_mean_c": 27.329786042817794,
+   "elapsed_seconds": 154.63726656299968
+  },
+  "building_17989/denver_5": {
+   "cost": 0.0074663384977034855,
+   "steps": 8640,
+   "comfort_part": -1.073076626131177,
+   "energy_part": -51.18833055985888,
+   "carbon_part": -12.247757429722697,
+   "oat_mean_c": 24.1805962562596,
+   "elapsed_seconds": 132.37114075299996
+  },
+  "building_17989/atlanta_3": {
+   "cost": 0.0053022100514719265,
+   "steps": 8640,
+   "comfort_part": -2.619386306604588,
+   "energy_part": -34.374109277898974,
+   "carbon_part": -8.817599236109528,
+   "oat_mean_c": 20.819866840930803,
+   "elapsed_seconds": 133.3861139620003
+  },
+  "building_17989/fairbanks_7": {
+   "cost": 0.006279728265763895,
+   "steps": 8640,
+   "comfort_part": -1.6944398277297978,
+   "energy_part": -15.839766390730802,
+   "carbon_part": -36.7226460473059,
+   "oat_mean_c": 6.396614332551218,
+   "elapsed_seconds": 132.9269807640003
+  },
+  "building_17989/phoenix_1": {
+   "cost": 0.0034452278080796834,
+   "steps": 8640,
+   "comfort_part": -3.3761062782689577,
+   "energy_part": -13.958176632564573,
+   "carbon_part": -12.432485357561383,
+   "oat_mean_c": 13.923524468035046,
+   "elapsed_seconds": 132.02531924199957
+  },
+  "building_17989/singapore_3": {
+   "cost": 0.010775941970184619,
+   "steps": 8640,
+   "comfort_part": -0.575907027852827,
+   "energy_part": -75.0552319527771,
+   "carbon_part": -17.472999655926834,
+   "oat_mean_c": 28.596428920608606,
+   "elapsed_seconds": 135.309403794
+  },
+  "building_10248/atlanta_5": {
+   "cost": 0.007894698558344418,
+   "steps": 8640,
+   "comfort_part": -0.5748592625621015,
+   "energy_part": -54.74868797171803,
+   "carbon_part": -12.886648367517047,
+   "oat_mean_c": 26.990266259515224,
+   "elapsed_seconds": 154.96361155700015
+  },
+  "building_10248/denver_7": {
+   "cost": 0.003748630725346579,
+   "steps": 8640,
+   "comfort_part": -2.61831360431097,
+   "energy_part": -11.824770106558573,
+   "carbon_part": -17.94508572817722,
+   "oat_mean_c": 12.937234069684665,
+   "elapsed_seconds": 150.28806643899952
+  },
+  "building_10248/fairbanks_1": {
+   "cost": 0.048273032635560646,
+   "steps": 8640,
+   "comfort_part": -27.069494505582515,
+   "energy_part": -114.03239347059134,
+   "carbon_part": -275.97711372502965,
+   "oat_mean_c": -21.42443253905298,
+   "elapsed_seconds": 155.76613376899968
+  },
+  "building_10248/phoenix_3": {
+   "cost": 0.00798664794132075,
+   "steps": 8640,
+   "comfort_part": -1.0154032876263612,
+   "energy_part": -54.99883417442034,
+   "carbon_part": -12.99040074426157,
+   "oat_mean_c": 26.989242002702895,
+   "elapsed_seconds": 155.58167316799972
+  },
+  "building_10248/singapore_5": {
+   "cost": 0.008601300604166058,
+   "steps": 8640,
+   "comfort_part": -0.3937595636182323,
+   "energy_part": -59.90724280652648,
+   "carbon_part": -14.014234869423673,
+   "oat_mean_c": 28.383292318277448,
+   "elapsed_seconds": 155.73303220099933
+  },
+  "building_19263/atlanta_7": {
+   "cost": 0.009432900268796873,
+   "steps": 8640,
+   "comfort_part": -8.015973112329814,
+   "energy_part": -56.69718321098044,
+   "carbon_part": -16.787101948511555,
+   "oat_mean_c": 18.172441846356552,
+   "elapsed_seconds": 121.21944426499977
+  },
+  "building_19263/denver_1": {
+   "cost": 0.01625744796083971,
+   "steps": 8640,
+   "comfort_part": -17.909532392720642,
+   "energy_part": -39.62275387241971,
+   "carbon_part": -82.93206410078565,
+   "oat_mean_c": -0.890832752651599,
+   "elapsed_seconds": 122.18125569400036
+  },
+  "building_19263/fairbanks_3": {
+   "cost": 0.016418394843032258,
+   "steps": 8640,
+   "comfort_part": -16.770578390627723,
+   "energy_part": -38.01369924610626,
+   "carbon_part": -87.07065400144202,
+   "oat_mean_c": -1.6750054606692526,
+   "elapsed_seconds": 122.28845344000001
+  },
+  "building_19263/phoenix_5": {
+   "cost": 0.027069263598683495,
+   "steps": 8640,
+   "comfort_part": -3.0661959728173316,
+   "energy_part": -187.68029587883868,
+   "carbon_part": -43.13194562338759,
+   "oat_mean_c": 36.825324097385675,
+   "elapsed_seconds": 122.08521011199991
+  },
+  "building_19263/singapore_7": {
+   "cost": 0.01612796929635107,
+   "steps": 8640,
+   "comfort_part": -1.1161232452812442,
+   "energy_part": -111.6189480009387,
+   "carbon_part": -26.610583488259,
+   "oat_mean_c": 27.51678219195161,
+   "elapsed_seconds": 123.6303039280001
+  }
+ }
+}

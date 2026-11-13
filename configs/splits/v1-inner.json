@@ -1,0 +1,743 @@
+{
+  "version": "v1",
+  "protocol": "docs/plan/validation-v1.md",
+  "generator": {
+    "starter_kit_commit": "23a4560df0e2fe61054dd21066fa0c4b5da2c79c",
+    "building_shape": "composite",
+    "name_format": "building_{seed:04d}",
+    "geometry": "smart_control/utils/config_generator.py generate_config, seeded by the building seed",
+    "materials": "run_floor_generator.py:229-241: draw_materials(Random(sha256(repr(pool seeds))[:8])) over the pool's full seed list (D-E03)",
+    "scenario": "scenario_generator.load_scenario_from_parts + generate_scenario_from_config"
+  },
+  "size_strata": {
+    "shipped": {
+      "overrides": {
+        "width": [
+          318,
+          430
+        ],
+        "height": [
+          188,
+          301
+        ],
+        "min_room_size": [
+          25,
+          35
+        ]
+      },
+      "source": "D-E05: min-max of the six shipped building YAMLs (notes/01 §E); other fields DEFAULT_RANGES"
+    },
+    "default": {
+      "overrides": {},
+      "source": "D-E04: run_floor_generator.py DEFAULT_RANGES"
+    }
+  },
+  "stations": {
+    "training": [
+      "atlanta",
+      "denver",
+      "fairbanks",
+      "phoenix",
+      "singapore"
+    ],
+    "lockbox": [
+      "minneapolis"
+    ]
+  },
+  "folds": [
+    {
+      "fold": 0,
+      "held_out_station": "atlanta",
+      "val_group": 0,
+      "training_stations": [
+        "denver",
+        "fairbanks",
+        "phoenix",
+        "singapore"
+      ],
+      "validation_windows": [
+        "atlanta_1",
+        "atlanta_3",
+        "atlanta_5",
+        "atlanta_7"
+      ]
+    },
+    {
+      "fold": 1,
+      "held_out_station": "denver",
+      "val_group": 1,
+      "training_stations": [
+        "atlanta",
+        "fairbanks",
+        "phoenix",
+        "singapore"
+      ],
+      "validation_windows": [
+        "denver_1",
+        "denver_3",
+        "denver_5",
+        "denver_7"
+      ]
+    },
+    {
+      "fold": 2,
+      "held_out_station": "fairbanks",
+      "val_group": 2,
+      "training_stations": [
+        "atlanta",
+        "denver",
+        "phoenix",
+        "singapore"
+      ],
+      "validation_windows": [
+        "fairbanks_1",
+        "fairbanks_3",
+        "fairbanks_5",
+        "fairbanks_7"
+      ]
+    },
+    {
+      "fold": 3,
+      "held_out_station": "phoenix",
+      "val_group": 3,
+      "training_stations": [
+        "atlanta",
+        "denver",
+        "fairbanks",
+        "singapore"
+      ],
+      "validation_windows": [
+        "phoenix_1",
+        "phoenix_3",
+        "phoenix_5",
+        "phoenix_7"
+      ]
+    },
+    {
+      "fold": 4,
+      "held_out_station": "singapore",
+      "val_group": 4,
+      "training_stations": [
+        "atlanta",
+        "denver",
+        "fairbanks",
+        "phoenix"
+      ],
+      "validation_windows": [
+        "singapore_1",
+        "singapore_3",
+        "singapore_5",
+        "singapore_7"
+      ]
+    }
+  ],
+  "fold_order": "alphabetical station order",
+  "training_windows": {
+    "rule": "any 30-day window of a training station's CSV starting on a Sunday at 06:00; fold k never uses its held-out station (D-E06, D-E12)",
+    "convection_coefficients": {
+      "atlanta": 19.1,
+      "denver": 26.7,
+      "fairbanks": 8.8,
+      "phoenix": 19.5,
+      "singapore": 17.6,
+      "minneapolis": 21.5
+    }
+  },
+  "registry_ids": [
+    "D-E03",
+    "D-E04",
+    "D-E05",
+    "D-E06",
+    "D-E07",
+    "D-E12",
+    "REQ-007"
+  ],
+  "command": "python3 -B scripts/workspace.py make-split --inner",
+  "base_split": {
+    "file": "configs/splits/v1.json",
+    "sha256": "0c4aca66c5f9327bff5eacd0de14073af6ea9db4d3387a3e7b47ed6e8c453070"
+  },
+  "pools": {
+    "inner": {
+      "seed_range": [
+        20000,
+        30000
+      ],
+      "buildings": 12,
+      "strata": [
+        "shipped",
+        "shipped",
+        "shipped",
+        "shipped",
+        "shipped",
+        "shipped",
+        "default",
+        "default",
+        "default",
+        "default",
+        "default",
+        "default"
+      ],
+      "draw": {
+        "rng_label": "split-v1/inner",
+        "method": "random.Random(int.from_bytes(sha256(label)[:8], 'big')).shuffle(range); take candidates in order, skipping seeds whose floor plan fails the official zone-area check (scenario_generator._check_generated_zone_areas)"
+      },
+      "episodes": {
+        "per_fold": 6,
+        "per_stratum_per_fold": 3,
+        "presets": [
+          1,
+          3,
+          5,
+          7
+        ],
+        "rng_label": "split-v1/inner-episodes/fold<k>",
+        "method": "random.Random(sha256(label)[:8]): sample 3 + 3 buildings by stratum; stations = the 4 training stations + 2 drawn, presets = the 4 seasons + 2 drawn, each list shuffled and paired with the shuffled buildings; redraw until the 6 station-preset pairs are distinct (attempt counter in the label)"
+      },
+      "disjoint_from": {
+        "train": [
+          10000,
+          20000
+        ],
+        "train_shipped_seeds": [
+          0,
+          1,
+          8,
+          3001,
+          4007,
+          9008
+        ],
+        "val": [
+          30000,
+          40000
+        ],
+        "lock": [
+          40000,
+          50000
+        ]
+      },
+      "seeds": [
+        20509,
+        26806,
+        29410,
+        20358,
+        20369,
+        27668,
+        28041,
+        22103,
+        23159,
+        29457,
+        24692,
+        27884
+      ],
+      "rejected": [
+        {
+          "seed": 29540,
+          "stratum": "shipped",
+          "reason": "seed 29540 produces 1 zone(s) below the 20.0 m2 minimum floor area (smallest 5.20 m2)"
+        },
+        {
+          "seed": 27018,
+          "stratum": "default",
+          "reason": "seed 27018 produces 2 zone(s) below the 20.0 m2 minimum floor area (smallest 19.00 m2)"
+        }
+      ]
+    }
+  },
+  "scenarios": {
+    "inner": [
+      {
+        "fold": 0,
+        "building": "building_26806",
+        "seed": 26806,
+        "stratum": "shipped",
+        "weather": "phoenix_7",
+        "station": "phoenix",
+        "preset": 7,
+        "start": "2023-10-08 06:00",
+        "class": "S2",
+        "draw_attempt": 0
+      },
+      {
+        "fold": 0,
+        "building": "building_23159",
+        "seed": 23159,
+        "stratum": "default",
+        "weather": "singapore_3",
+        "station": "singapore",
+        "preset": 3,
+        "start": "2023-04-30 06:00",
+        "class": "S2",
+        "draw_attempt": 0
+      },
+      {
+        "fold": 0,
+        "building": "building_20369",
+        "seed": 20369,
+        "stratum": "shipped",
+        "weather": "fairbanks_5",
+        "station": "fairbanks",
+        "preset": 5,
+        "start": "2023-06-18 06:00",
+        "class": "S2",
+        "draw_attempt": 0
+      },
+      {
+        "fold": 0,
+        "building": "building_24692",
+        "seed": 24692,
+        "stratum": "default",
+        "weather": "denver_1",
+        "station": "denver",
+        "preset": 1,
+        "start": "2023-01-15 06:00",
+        "class": "S2",
+        "draw_attempt": 0
+      },
+      {
+        "fold": 0,
+        "building": "building_27668",
+        "seed": 27668,
+        "stratum": "shipped",
+        "weather": "denver_3",
+        "station": "denver",
+        "preset": 3,
+        "start": "2023-04-09 06:00",
+        "class": "S2",
+        "draw_attempt": 0
+      },
+      {
+        "fold": 0,
+        "building": "building_29457",
+        "seed": 29457,
+        "stratum": "default",
+        "weather": "denver_7",
+        "station": "denver",
+        "preset": 7,
+        "start": "2023-09-24 06:00",
+        "class": "S2",
+        "draw_attempt": 0
+      },
+      {
+        "fold": 1,
+        "building": "building_29410",
+        "seed": 29410,
+        "stratum": "shipped",
+        "weather": "fairbanks_7",
+        "station": "fairbanks",
+        "preset": 7,
+        "start": "2023-09-10 06:00",
+        "class": "S2",
+        "draw_attempt": 0
+      },
+      {
+        "fold": 1,
+        "building": "building_27884",
+        "seed": 27884,
+        "stratum": "default",
+        "weather": "singapore_5",
+        "station": "singapore",
+        "preset": 5,
+        "start": "2023-07-23 06:00",
+        "class": "S2",
+        "draw_attempt": 0
+      },
+      {
+        "fold": 1,
+        "building": "building_24692",
+        "seed": 24692,
+        "stratum": "default",
+        "weather": "atlanta_1",
+        "station": "atlanta",
+        "preset": 1,
+        "start": "2023-01-22 06:00",
+        "class": "S2",
+        "draw_attempt": 0
+      },
+      {
+        "fold": 1,
+        "building": "building_20369",
+        "seed": 20369,
+        "stratum": "shipped",
+        "weather": "fairbanks_3",
+        "station": "fairbanks",
+        "preset": 3,
+        "start": "2023-03-26 06:00",
+        "class": "S2",
+        "draw_attempt": 0
+      },
+      {
+        "fold": 1,
+        "building": "building_27668",
+        "seed": 27668,
+        "stratum": "shipped",
+        "weather": "phoenix_3",
+        "station": "phoenix",
+        "preset": 3,
+        "start": "2023-04-23 06:00",
+        "class": "S2",
+        "draw_attempt": 0
+      },
+      {
+        "fold": 1,
+        "building": "building_23159",
+        "seed": 23159,
+        "stratum": "default",
+        "weather": "phoenix_1",
+        "station": "phoenix",
+        "preset": 1,
+        "start": "2023-01-29 06:00",
+        "class": "S2",
+        "draw_attempt": 0
+      },
+      {
+        "fold": 2,
+        "building": "building_23159",
+        "seed": 23159,
+        "stratum": "default",
+        "weather": "denver_7",
+        "station": "denver",
+        "preset": 7,
+        "start": "2023-09-24 06:00",
+        "class": "S2",
+        "draw_attempt": 3
+      },
+      {
+        "fold": 2,
+        "building": "building_20509",
+        "seed": 20509,
+        "stratum": "shipped",
+        "weather": "atlanta_3",
+        "station": "atlanta",
+        "preset": 3,
+        "start": "2023-04-16 06:00",
+        "class": "S2",
+        "draw_attempt": 3
+      },
+      {
+        "fold": 2,
+        "building": "building_22103",
+        "seed": 22103,
+        "stratum": "default",
+        "weather": "phoenix_3",
+        "station": "phoenix",
+        "preset": 3,
+        "start": "2023-04-23 06:00",
+        "class": "S2",
+        "draw_attempt": 3
+      },
+      {
+        "fold": 2,
+        "building": "building_26806",
+        "seed": 26806,
+        "stratum": "shipped",
+        "weather": "atlanta_5",
+        "station": "atlanta",
+        "preset": 5,
+        "start": "2023-07-09 06:00",
+        "class": "S2",
+        "draw_attempt": 3
+      },
+      {
+        "fold": 2,
+        "building": "building_20369",
+        "seed": 20369,
+        "stratum": "shipped",
+        "weather": "singapore_1",
+        "station": "singapore",
+        "preset": 1,
+        "start": "2023-02-05 06:00",
+        "class": "S2",
+        "draw_attempt": 3
+      },
+      {
+        "fold": 2,
+        "building": "building_24692",
+        "seed": 24692,
+        "stratum": "default",
+        "weather": "phoenix_5",
+        "station": "phoenix",
+        "preset": 5,
+        "start": "2023-07-16 06:00",
+        "class": "S2",
+        "draw_attempt": 3
+      },
+      {
+        "fold": 3,
+        "building": "building_29410",
+        "seed": 29410,
+        "stratum": "shipped",
+        "weather": "denver_5",
+        "station": "denver",
+        "preset": 5,
+        "start": "2023-07-02 06:00",
+        "class": "S2",
+        "draw_attempt": 0
+      },
+      {
+        "fold": 3,
+        "building": "building_23159",
+        "seed": 23159,
+        "stratum": "default",
+        "weather": "singapore_3",
+        "station": "singapore",
+        "preset": 3,
+        "start": "2023-04-30 06:00",
+        "class": "S2",
+        "draw_attempt": 0
+      },
+      {
+        "fold": 3,
+        "building": "building_22103",
+        "seed": 22103,
+        "stratum": "default",
+        "weather": "singapore_1",
+        "station": "singapore",
+        "preset": 1,
+        "start": "2023-02-05 06:00",
+        "class": "S2",
+        "draw_attempt": 0
+      },
+      {
+        "fold": 3,
+        "building": "building_20509",
+        "seed": 20509,
+        "stratum": "shipped",
+        "weather": "atlanta_7",
+        "station": "atlanta",
+        "preset": 7,
+        "start": "2023-10-01 06:00",
+        "class": "S2",
+        "draw_attempt": 0
+      },
+      {
+        "fold": 3,
+        "building": "building_27884",
+        "seed": 27884,
+        "stratum": "default",
+        "weather": "fairbanks_5",
+        "station": "fairbanks",
+        "preset": 5,
+        "start": "2023-06-18 06:00",
+        "class": "S2",
+        "draw_attempt": 0
+      },
+      {
+        "fold": 3,
+        "building": "building_20369",
+        "seed": 20369,
+        "stratum": "shipped",
+        "weather": "denver_1",
+        "station": "denver",
+        "preset": 1,
+        "start": "2023-01-15 06:00",
+        "class": "S2",
+        "draw_attempt": 0
+      },
+      {
+        "fold": 4,
+        "building": "building_24692",
+        "seed": 24692,
+        "stratum": "default",
+        "weather": "fairbanks_7",
+        "station": "fairbanks",
+        "preset": 7,
+        "start": "2023-09-10 06:00",
+        "class": "S2",
+        "draw_attempt": 0
+      },
+      {
+        "fold": 4,
+        "building": "building_20358",
+        "seed": 20358,
+        "stratum": "shipped",
+        "weather": "phoenix_1",
+        "station": "phoenix",
+        "preset": 1,
+        "start": "2023-01-29 06:00",
+        "class": "S2",
+        "draw_attempt": 0
+      },
+      {
+        "fold": 4,
+        "building": "building_29457",
+        "seed": 29457,
+        "stratum": "default",
+        "weather": "phoenix_3",
+        "station": "phoenix",
+        "preset": 3,
+        "start": "2023-04-23 06:00",
+        "class": "S2",
+        "draw_attempt": 0
+      },
+      {
+        "fold": 4,
+        "building": "building_27884",
+        "seed": 27884,
+        "stratum": "default",
+        "weather": "denver_7",
+        "station": "denver",
+        "preset": 7,
+        "start": "2023-09-24 06:00",
+        "class": "S2",
+        "draw_attempt": 0
+      },
+      {
+        "fold": 4,
+        "building": "building_29410",
+        "seed": 29410,
+        "stratum": "shipped",
+        "weather": "atlanta_1",
+        "station": "atlanta",
+        "preset": 1,
+        "start": "2023-01-22 06:00",
+        "class": "S2",
+        "draw_attempt": 0
+      },
+      {
+        "fold": 4,
+        "building": "building_20509",
+        "seed": 20509,
+        "stratum": "shipped",
+        "weather": "denver_5",
+        "station": "denver",
+        "preset": 5,
+        "start": "2023-07-02 06:00",
+        "class": "S2",
+        "draw_attempt": 0
+      }
+    ]
+  },
+  "files": {
+    "inner": {
+      "buildings/split-v1/inner/building_20358.yaml": "3547c7348e9847968e79e3b6543c5b2327ab501432b60361edaeff2a704e20be",
+      "buildings/split-v1/inner/building_20369.yaml": "ccda55472e1bbde9a4149e7145cc4f633f09c11682a1c67d2419528cda0b3528",
+      "buildings/split-v1/inner/building_20509.yaml": "677ffb419866fe3ffe6274c7610efe5ef56a3edcd5ffd8195cb3c993a4d27ace",
+      "buildings/split-v1/inner/building_22103.yaml": "925df032d158c2fa1208d78d5401d138bcae8f75cc74e61f07b8c426088ceec4",
+      "buildings/split-v1/inner/building_23159.yaml": "105e0a1f4994446e04099022c3d2302162b6d1ed6b1139d230c4de646ed7a641",
+      "buildings/split-v1/inner/building_24692.yaml": "b0ad9e8b31528858f928308c930d9eeb5e91eb2e8a231cbfba35617c20e7b216",
+      "buildings/split-v1/inner/building_26806.yaml": "8b707e2004ac3a3182bcd8106e6246d0b870358a1282176693d81df2a47ae521",
+      "buildings/split-v1/inner/building_27668.yaml": "ac8f48d9f04421e0a3aacae56289816287f2f17376cd415d26e4bbd4bbc1fbad",
+      "buildings/split-v1/inner/building_27884.yaml": "68fbab51b4620ec8ad6b89982ea1de131187445e64559e6e4a8d9e8ea5de376c",
+      "buildings/split-v1/inner/building_28041.yaml": "93d154cc9bb1c6cb45e49b0c03a65b5fff9cd8ef7e0363cf4abaf72bbfd94efe",
+      "buildings/split-v1/inner/building_29410.yaml": "ddf4cb916861c9c92740a66d4666ee58af11653910a98f53cb117affefdf5c34",
+      "buildings/split-v1/inner/building_29457.yaml": "7e89f8ad402aab779069aaaddbf85c333f2cb57c76f1561e7eb73feef6b8c3a0",
+      "scenarios/split-v1/inner/building_20358/phoenix_1/config.gin": "bf334169fba9d85123a41024960a9ecf422e8f0cce93c941c5287049f967b313",
+      "scenarios/split-v1/inner/building_20358/phoenix_1/config.yaml": "6b00fda9a951c70b8cdc92cc7a2ea2a935003820bf34fde8fdd4e0754dafe1c2",
+      "scenarios/split-v1/inner/building_20358/phoenix_1/floor_plan.npy": "d4e51c7192302f7e642c2e47bfac3e504d971ac844ab2b533ce3793a58bd2616",
+      "scenarios/split-v1/inner/building_20358/phoenix_1/zone_map.npy": "8d06885531804d70c70e9f718e60c0d8758fad522c7c90f5099724e1a9cbb070",
+      "scenarios/split-v1/inner/building_20369/denver_1/config.gin": "87edca8c52518c2e6c16055ceca6d780d161b3bf7f7eba671a326d187f5a54dd",
+      "scenarios/split-v1/inner/building_20369/denver_1/config.yaml": "df59961b7006c180f146561440a18a2bbe9729440db576a06de97c470bccf462",
+      "scenarios/split-v1/inner/building_20369/denver_1/floor_plan.npy": "5dff69f04b150b8d38d2d4adadbb4fa3dba4ec65f0c5d47e3ed2122d66c4099e",
+      "scenarios/split-v1/inner/building_20369/denver_1/zone_map.npy": "ebb7d8f7f28d3cd7687be60a9552a08f30716576ee8e190efaceb129bb22fe4c",
+      "scenarios/split-v1/inner/building_20369/fairbanks_3/config.gin": "3b8927c5ed55822ed639db50b7f3e8058678f48493f026fb88747b5f2ffa8981",
+      "scenarios/split-v1/inner/building_20369/fairbanks_3/config.yaml": "083a1a4582612ede8fbf90cd741b4f282b2fab7840c56de8bba02ebadb352535",
+      "scenarios/split-v1/inner/building_20369/fairbanks_3/floor_plan.npy": "5dff69f04b150b8d38d2d4adadbb4fa3dba4ec65f0c5d47e3ed2122d66c4099e",
+      "scenarios/split-v1/inner/building_20369/fairbanks_3/zone_map.npy": "ebb7d8f7f28d3cd7687be60a9552a08f30716576ee8e190efaceb129bb22fe4c",
+      "scenarios/split-v1/inner/building_20369/fairbanks_5/config.gin": "7804f9ef203542c900a27f6487ec5c76c56ddb56c7c68cede01db58f00d04c53",
+      "scenarios/split-v1/inner/building_20369/fairbanks_5/config.yaml": "6f979ebcc85c7449388984dfb91f356fed238bb530d93042aa79cd3fa2f3da03",
+      "scenarios/split-v1/inner/building_20369/fairbanks_5/floor_plan.npy": "5dff69f04b150b8d38d2d4adadbb4fa3dba4ec65f0c5d47e3ed2122d66c4099e",
+      "scenarios/split-v1/inner/building_20369/fairbanks_5/zone_map.npy": "ebb7d8f7f28d3cd7687be60a9552a08f30716576ee8e190efaceb129bb22fe4c",
+      "scenarios/split-v1/inner/building_20369/singapore_1/config.gin": "b489caf61fde07e99a27cacd1241547594339d4a3429bd7555427f827b600bb7",
+      "scenarios/split-v1/inner/building_20369/singapore_1/config.yaml": "a8ee726d7b98b6e5ee57d210d4a8154046600efce0a40754604ac3fa8bfd407a",
+      "scenarios/split-v1/inner/building_20369/singapore_1/floor_plan.npy": "5dff69f04b150b8d38d2d4adadbb4fa3dba4ec65f0c5d47e3ed2122d66c4099e",
+      "scenarios/split-v1/inner/building_20369/singapore_1/zone_map.npy": "ebb7d8f7f28d3cd7687be60a9552a08f30716576ee8e190efaceb129bb22fe4c",
+      "scenarios/split-v1/inner/building_20509/atlanta_3/config.gin": "515ad250d06134412f635af8f0f25d66027d0faf017676335ffa713a4aadaabf",
+      "scenarios/split-v1/inner/building_20509/atlanta_3/config.yaml": "9ee77de60ca9889a8d8fcd8ecf912f2e45b2d3ed8971ec5455593abb3a045003",
+      "scenarios/split-v1/inner/building_20509/atlanta_3/floor_plan.npy": "90bb588f7ab48f43c4b56498301fc55ea16e73abf64259225399a607d2f9fc5a",
+      "scenarios/split-v1/inner/building_20509/atlanta_3/zone_map.npy": "9540f73cffa3ceadac9bdae57b8b311663547f833bb4885b362d085cf49bdd54",
+      "scenarios/split-v1/inner/building_20509/atlanta_7/config.gin": "de8564d97dcea654e51d00b0f88aeccb9cab35784665115dbf0f68ab06d9b76e",
+      "scenarios/split-v1/inner/building_20509/atlanta_7/config.yaml": "1c749efda4a888ae43fcb6c80fa3aecef15b85bdfd3de4fe408d73c750b380f0",
+      "scenarios/split-v1/inner/building_20509/atlanta_7/floor_plan.npy": "90bb588f7ab48f43c4b56498301fc55ea16e73abf64259225399a607d2f9fc5a",
+      "scenarios/split-v1/inner/building_20509/atlanta_7/zone_map.npy": "9540f73cffa3ceadac9bdae57b8b311663547f833bb4885b362d085cf49bdd54",
+      "scenarios/split-v1/inner/building_20509/denver_5/config.gin": "5e45d7ed8eb57a4b009d6a2df89aca0443c108f4b4dedc6747abe97f436d058c",
+      "scenarios/split-v1/inner/building_20509/denver_5/config.yaml": "63e582041f3cfd374250af650d3d7a8be92d68941b469a331b57a9536db71ba1",
+      "scenarios/split-v1/inner/building_20509/denver_5/floor_plan.npy": "90bb588f7ab48f43c4b56498301fc55ea16e73abf64259225399a607d2f9fc5a",
+      "scenarios/split-v1/inner/building_20509/denver_5/zone_map.npy": "9540f73cffa3ceadac9bdae57b8b311663547f833bb4885b362d085cf49bdd54",
+      "scenarios/split-v1/inner/building_22103/phoenix_3/config.gin": "d9d517ebc3d3a7e9db52854ffa9ac8e73fb93c2a6e7bdabb550a78de441d6afc",
+      "scenarios/split-v1/inner/building_22103/phoenix_3/config.yaml": "b96e8a505a7a53f0b5aa4d7be0b97fa39563084a83aba119a4aa70ebcdd78465",
+      "scenarios/split-v1/inner/building_22103/phoenix_3/floor_plan.npy": "06bfa99d651209d857fa863ed852aaa6ad5a2f52c17047b923c4905dd220ea74",
+      "scenarios/split-v1/inner/building_22103/phoenix_3/zone_map.npy": "de2e9fad14f01ef9a7448fc97f48420ce9b7004ed82ee29623a1d21589bfbfe2",
+      "scenarios/split-v1/inner/building_22103/singapore_1/config.gin": "0b2d9bbd05e943f8648e6086a44c2602f8120c00f8ee1e07e08950ed85d975a8",
+      "scenarios/split-v1/inner/building_22103/singapore_1/config.yaml": "355a8ee0e16c4fae84f8b420c743013eeba51a55e27d1aa370769e06c6cefe7d",
+      "scenarios/split-v1/inner/building_22103/singapore_1/floor_plan.npy": "06bfa99d651209d857fa863ed852aaa6ad5a2f52c17047b923c4905dd220ea74",
+      "scenarios/split-v1/inner/building_22103/singapore_1/zone_map.npy": "de2e9fad14f01ef9a7448fc97f48420ce9b7004ed82ee29623a1d21589bfbfe2",
+      "scenarios/split-v1/inner/building_23159/denver_7/config.gin": "57237289fe057a260c2f735b487738f02d68effeb2e55020724cc9b976552b5f",
+      "scenarios/split-v1/inner/building_23159/denver_7/config.yaml": "3efe42c0ece78c74a988b2391cddfc75f01a42984d42f21a99e7c7f67dcdecf2",
+      "scenarios/split-v1/inner/building_23159/denver_7/floor_plan.npy": "d647e76dd2cce879f4b5cd4c36b001320a3c59ab964c627a9ed78489a4fb1e20",
+      "scenarios/split-v1/inner/building_23159/denver_7/zone_map.npy": "dc5f43a7a78fff5e2dacfc8c61b4162cdd0347db9c282d8fffb7b3c06d039c9a",
+      "scenarios/split-v1/inner/building_23159/phoenix_1/config.gin": "3648a4b4a16ed5d6a1db52b8ce9ca229045089af67a748878344ff75edda5662",
+      "scenarios/split-v1/inner/building_23159/phoenix_1/config.yaml": "e690bbc3578a21286116d2098f413677b4c6fa0da0e6cbda0c4a9bb4e5ed1d03",
+      "scenarios/split-v1/inner/building_23159/phoenix_1/floor_plan.npy": "d647e76dd2cce879f4b5cd4c36b001320a3c59ab964c627a9ed78489a4fb1e20",
+      "scenarios/split-v1/inner/building_23159/phoenix_1/zone_map.npy": "dc5f43a7a78fff5e2dacfc8c61b4162cdd0347db9c282d8fffb7b3c06d039c9a",
+      "scenarios/split-v1/inner/building_23159/singapore_3/config.gin": "6959dc0d75a5b60c91c1ebabb983b86223c14df7e4b252c9788d4f842a83799d",
+      "scenarios/split-v1/inner/building_23159/singapore_3/config.yaml": "c543d0985f334b3f4fa8dabdf88451bc078f594a37b74f63c1549b9a0da8923e",
+      "scenarios/split-v1/inner/building_23159/singapore_3/floor_plan.npy": "d647e76dd2cce879f4b5cd4c36b001320a3c59ab964c627a9ed78489a4fb1e20",
+      "scenarios/split-v1/inner/building_23159/singapore_3/zone_map.npy": "dc5f43a7a78fff5e2dacfc8c61b4162cdd0347db9c282d8fffb7b3c06d039c9a",
+      "scenarios/split-v1/inner/building_24692/atlanta_1/config.gin": "3bc06e4829b8e073e4093f706838203e8e5fd931cb60be785db7803d6b3a12cf",
+      "scenarios/split-v1/inner/building_24692/atlanta_1/config.yaml": "91ec0aa7b4f20680a5b07d7a5e992f585b07e893894c60377ccb6e6e4834bad6",
+      "scenarios/split-v1/inner/building_24692/atlanta_1/floor_plan.npy": "e8b5edd84cf5a249d5604b39323fa2cd3a7aca8eb9c60400d81db0533f129273",
+      "scenarios/split-v1/inner/building_24692/atlanta_1/zone_map.npy": "24a6ee3b5cd97acbb16974246e778d61d2e9375b2118d4c1b65c3cd6e1539a94",
+      "scenarios/split-v1/inner/building_24692/denver_1/config.gin": "11ec0b68869024cd4410b3d27ee5c3ac2f5026e792a5ee3b0dcad298c5bfe3fa",
+      "scenarios/split-v1/inner/building_24692/denver_1/config.yaml": "fb25e1479c7c393493b661389e0eed3e96ba5930bdafd54ecc04ef793517e610",
+      "scenarios/split-v1/inner/building_24692/denver_1/floor_plan.npy": "e8b5edd84cf5a249d5604b39323fa2cd3a7aca8eb9c60400d81db0533f129273",
+      "scenarios/split-v1/inner/building_24692/denver_1/zone_map.npy": "24a6ee3b5cd97acbb16974246e778d61d2e9375b2118d4c1b65c3cd6e1539a94",
+      "scenarios/split-v1/inner/building_24692/fairbanks_7/config.gin": "153b45007582f78b060b1db7d6d74d43d04628bca5854a1b728aeabb8b229f65",
+      "scenarios/split-v1/inner/building_24692/fairbanks_7/config.yaml": "dc446c6a924a74a83db668ade0173fea55245f06a4ad918bfd04c159aef25308",
+      "scenarios/split-v1/inner/building_24692/fairbanks_7/floor_plan.npy": "e8b5edd84cf5a249d5604b39323fa2cd3a7aca8eb9c60400d81db0533f129273",
+      "scenarios/split-v1/inner/building_24692/fairbanks_7/zone_map.npy": "24a6ee3b5cd97acbb16974246e778d61d2e9375b2118d4c1b65c3cd6e1539a94",
+      "scenarios/split-v1/inner/building_24692/phoenix_5/config.gin": "b93e6182734d8354d21b015f3e98a11a53280ee1eacf2bd34d4041bdb776a8e3",
+      "scenarios/split-v1/inner/building_24692/phoenix_5/config.yaml": "b0544a407a26187a7701d2861c2d6f7d10e46141e2d826f4e0f7266f44339e56",
+      "scenarios/split-v1/inner/building_24692/phoenix_5/floor_plan.npy": "e8b5edd84cf5a249d5604b39323fa2cd3a7aca8eb9c60400d81db0533f129273",
+      "scenarios/split-v1/inner/building_24692/phoenix_5/zone_map.npy": "24a6ee3b5cd97acbb16974246e778d61d2e9375b2118d4c1b65c3cd6e1539a94",
+      "scenarios/split-v1/inner/building_26806/atlanta_5/config.gin": "7ca52e2a5e28aa7b8a53fc698ff542bd7cd72e34356fa20c4e41e64d9b138628",
+      "scenarios/split-v1/inner/building_26806/atlanta_5/config.yaml": "70e214aec87f11860b03e718b24944f6e67a47b0266c2f0b39c2357edba8c0e3",
+      "scenarios/split-v1/inner/building_26806/atlanta_5/floor_plan.npy": "e782eac7ff8f5434d005addd1778002209e2804db7b2cd0ff7fe6d9cb79f4cc9",
+      "scenarios/split-v1/inner/building_26806/atlanta_5/zone_map.npy": "f85ea44bf5521890862cf1fc2d3db387a0cdee249d3889bc598c819cf57e8e8c",
+      "scenarios/split-v1/inner/building_26806/phoenix_7/config.gin": "79c098b583585801b3cd4ede03207125861ae3e728dc5604ca2759d958006178",
+      "scenarios/split-v1/inner/building_26806/phoenix_7/config.yaml": "e61928543c9944a932d9f3c7483ba19f40b0a05e557234c4bfd92768312a440c",
+      "scenarios/split-v1/inner/building_26806/phoenix_7/floor_plan.npy": "e782eac7ff8f5434d005addd1778002209e2804db7b2cd0ff7fe6d9cb79f4cc9",
+      "scenarios/split-v1/inner/building_26806/phoenix_7/zone_map.npy": "f85ea44bf5521890862cf1fc2d3db387a0cdee249d3889bc598c819cf57e8e8c",
+      "scenarios/split-v1/inner/building_27668/denver_3/config.gin": "e8cc056a72cba86cb3c2b0d264e90039fde53331cdf84edc6c5f15841821dcea",
+      "scenarios/split-v1/inner/building_27668/denver_3/config.yaml": "266e89aceb4618779500bac85f587fe37cee685413a22319b49937b9541746db",
+      "scenarios/split-v1/inner/building_27668/denver_3/floor_plan.npy": "222ee6de05233e360ade5f28823bde4edaf702ac95b23e548e84e661ded05052",
+      "scenarios/split-v1/inner/building_27668/denver_3/zone_map.npy": "ec8b1a550a6861d9f9301e65c1bd8d29ab5363a84a271283e2d6ebf919c997a7",
+      "scenarios/split-v1/inner/building_27668/phoenix_3/config.gin": "1d3044ee1c937a71140144be4b70e0a84864773ffdae2c26615e01761c50370e",
+      "scenarios/split-v1/inner/building_27668/phoenix_3/config.yaml": "24aad5d561a2a9f260c5e2a409e925b062efeabd3a5ef8c855e459e841d5f6d1",
+      "scenarios/split-v1/inner/building_27668/phoenix_3/floor_plan.npy": "222ee6de05233e360ade5f28823bde4edaf702ac95b23e548e84e661ded05052",
+      "scenarios/split-v1/inner/building_27668/phoenix_3/zone_map.npy": "ec8b1a550a6861d9f9301e65c1bd8d29ab5363a84a271283e2d6ebf919c997a7",
+      "scenarios/split-v1/inner/building_27884/denver_7/config.gin": "31fe8c095e26747937b33c46554705978f3a584e43fc5bbbbbb37ccf1fe054be",
+      "scenarios/split-v1/inner/building_27884/denver_7/config.yaml": "aff928d3ea5744843c75843486110094c3a30cb1603b02954fff7b46be0e2249",
+      "scenarios/split-v1/inner/building_27884/denver_7/floor_plan.npy": "81e98621afb734a695b4d8f7d7ba9c8574ef8e09bb794f19417455a05e2aa673",
+      "scenarios/split-v1/inner/building_27884/denver_7/zone_map.npy": "6d0e02ee65c45bc201ffea262edcf461d1e5cf11c0fa49c8a54060b174e2c35e",
+      "scenarios/split-v1/inner/building_27884/fairbanks_5/config.gin": "49705fdf36fe09f3d6f9ca030a5433615faacc17120a8a52ca452d4df2f6eb9d",
+      "scenarios/split-v1/inner/building_27884/fairbanks_5/config.yaml": "03d87f3b6a31f1860a967aef6352ff1cdcefc2e234af550ffe2221df6371e132",
+      "scenarios/split-v1/inner/building_27884/fairbanks_5/floor_plan.npy": "81e98621afb734a695b4d8f7d7ba9c8574ef8e09bb794f19417455a05e2aa673",
+      "scenarios/split-v1/inner/building_27884/fairbanks_5/zone_map.npy": "6d0e02ee65c45bc201ffea262edcf461d1e5cf11c0fa49c8a54060b174e2c35e",
+      "scenarios/split-v1/inner/building_27884/singapore_5/config.gin": "226769c2e4bfed3c00bae57a898a76779dc5995434632adcefb9f69ef551c281",
+      "scenarios/split-v1/inner/building_27884/singapore_5/config.yaml": "2329f414918b3127b023af62d0453dd5fa92990c86019374f592c2afc8695f47",
+      "scenarios/split-v1/inner/building_27884/singapore_5/floor_plan.npy": "81e98621afb734a695b4d8f7d7ba9c8574ef8e09bb794f19417455a05e2aa673",
+      "scenarios/split-v1/inner/building_27884/singapore_5/zone_map.npy": "6d0e02ee65c45bc201ffea262edcf461d1e5cf11c0fa49c8a54060b174e2c35e",
+      "scenarios/split-v1/inner/building_29410/atlanta_1/config.gin": "3d0e25865b94854770440393365aa4af816b98cdfec035b9f5a54ca1467020bb",
+      "scenarios/split-v1/inner/building_29410/atlanta_1/config.yaml": "a2d4b0d45d6983c779f0c39a4ba12f4cc618e79137e44e75d23e7835301eb0c3",
+      "scenarios/split-v1/inner/building_29410/atlanta_1/floor_plan.npy": "74f3a895e70ff4f00adb88c1ff1844b386eadc2e1ea1a4ffa3ec25a7f663e381",
+      "scenarios/split-v1/inner/building_29410/atlanta_1/zone_map.npy": "f6ec1fcfcbf15e81190de927f30abd921a9c2775b105eeae2968d06f4bd002dc",
+      "scenarios/split-v1/inner/building_29410/denver_5/config.gin": "9e3faa5a9ef6dc6ed816b3cf730556c62045775c284d9899b41d65fd6f828bb9",
+      "scenarios/split-v1/inner/building_29410/denver_5/config.yaml": "a76d4a2ad996b21423e17acf0e5132b5897ac770a7bfb4a470304a749c9c5f70",
+      "scenarios/split-v1/inner/building_29410/denver_5/floor_plan.npy": "74f3a895e70ff4f00adb88c1ff1844b386eadc2e1ea1a4ffa3ec25a7f663e381",
+      "scenarios/split-v1/inner/building_29410/denver_5/zone_map.npy": "f6ec1fcfcbf15e81190de927f30abd921a9c2775b105eeae2968d06f4bd002dc",
+      "scenarios/split-v1/inner/building_29410/fairbanks_7/config.gin": "d12c9f5225032007362aabe0f6579ff6f32d74a6020268f9061c84684d49f535",
+      "scenarios/split-v1/inner/building_29410/fairbanks_7/config.yaml": "152c0b2e811f3ab6d683c83ec61d61c28f6777817e163cf46f3011b79df76265",
+      "scenarios/split-v1/inner/building_29410/fairbanks_7/floor_plan.npy": "74f3a895e70ff4f00adb88c1ff1844b386eadc2e1ea1a4ffa3ec25a7f663e381",
+      "scenarios/split-v1/inner/building_29410/fairbanks_7/zone_map.npy": "f6ec1fcfcbf15e81190de927f30abd921a9c2775b105eeae2968d06f4bd002dc",
+      "scenarios/split-v1/inner/building_29457/denver_7/config.gin": "dfd28ca57b7285eb7dca00d7a4afd7d5a5264aac4a3836d1d1237e99716aa6c7",
+      "scenarios/split-v1/inner/building_29457/denver_7/config.yaml": "b3b24eba2eed418acc0965387cba82bb1c8be80db17e2552f4740417632e76d5",
+      "scenarios/split-v1/inner/building_29457/denver_7/floor_plan.npy": "83e6d7a17d9f4a2d407d40826ab61d0f218a5a7c98ea41b5277d083a35b6658a",
+      "scenarios/split-v1/inner/building_29457/denver_7/zone_map.npy": "b3f863ef0ea415e644036a491790b29879ec6739712e096ce1175236ab89be10",
+      "scenarios/split-v1/inner/building_29457/phoenix_3/config.gin": "20acdfd9d1ccff643396f8327d4c7cf11d506458d88e7633c9b8e116e403e6e1",
+      "scenarios/split-v1/inner/building_29457/phoenix_3/config.yaml": "936cf495764da99a3a2ff3e88806242cec719a52c65330edfa323174aa2dbab2",
+      "scenarios/split-v1/inner/building_29457/phoenix_3/floor_plan.npy": "83e6d7a17d9f4a2d407d40826ab61d0f218a5a7c98ea41b5277d083a35b6658a",
+      "scenarios/split-v1/inner/building_29457/phoenix_3/zone_map.npy": "b3f863ef0ea415e644036a491790b29879ec6739712e096ce1175236ab89be10"
+    }
+  }
+}

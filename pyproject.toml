@@ -1,0 +1,55 @@
+[project]
+name = "smart-buildings-workspace"
+version = "0.1.0"
+description = "NeurIPS 2026 Smart Buildings competition workspace"
+# Mirror the Kaggle notebook image: Python 3.13.15 (official example notebook
+# metadata) and the package versions of its base, Colab runtime
+# release-colab-external-images_20260917-060051 (Kaggle/docker-python e096cbc5b6;
+# googlecolab/backend-info e9534f11baca), plus Kaggle's own overrides
+# (protobuf==5.29.5, opencv-python<5). See docs/環境與執行.md.
+# pandas, gymnasium and holidays follow the versions measured in the Kaggle image itself
+# (remote J0, 2026-10-16: environment.json of every CPU and GPU kernel).
+requires-python = "==3.13.*"
+dependencies = [
+    "numpy==2.1.3",
+    "numba==0.61.2",
+    "pandas==2.3.3",
+    "matplotlib==3.10.0",
+    "gymnasium==1.2.0",
+    "gin-config==0.5.0",
+    "opencv-python==4.14.0.94",
+    "protobuf==5.29.5",
+    "pillow==11.3.0",
+    "pytz==2025.2",
+    "holidays==0.103",
+    "plotly==5.24.1",
+    "seaborn==0.13.2",
+    "scipy==1.16.3",
+    "scikit-learn==1.6.1",
+    "pyyaml==6.0.3",
+    "google-genai==2.12.1",
+    "google-auth==2.49.0",
+    "absl-py==1.4.0",
+    "imageio==2.37.4",
+    "tqdm==4.67.3",
+    # kaggle_evaluation (inference server and local gateway) imports these.
+    # grpcio-tools: Kaggle installs "grpcio-tools>=1.60.0" next to protobuf==5.29.5;
+    # 1.71.2 is the newest release that accepts protobuf<6.
+    "polars==1.35.2",
+    "grpcio==1.84.0",
+    "grpcio-tools==1.71.2",
+    "setuptools>=70.0,<82",
+    "pydantic==2.13.5",
+    "pyarrow==23.0.1",
+    "opentelemetry-api==1.42.1",
+    "opentelemetry-sdk==1.42.1",
+    # CMA-ES for the rule-controller tuning (build plan D-P03, pycma r4.5.0).
+    "cma==4.5.0",
+    # Kaggle image version (build plan WP4 4.1; J0 kernels report torch 2.11.0).
+    "torch==2.11.0",
+]
+
+[tool.uv]
+package = false
+link-mode = "copy"
+cache-dir = ".tmp/uv-cache"

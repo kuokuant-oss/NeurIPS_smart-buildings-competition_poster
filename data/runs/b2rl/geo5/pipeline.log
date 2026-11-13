@@ -1,0 +1,694 @@
+2026-11-04 16:44:54 EVENT pipeline5: pipeline 5 starts: tracks ['competition', 'paper'], 21 levels, 30 scenarios, workers <= 10, submit dry
+2026-11-04 16:44:55 EVENT pipeline5: options: 21 levels built on gt_u1b (3 competition-only); whole-month records reused for 5; exclusive pairs 6
+2026-11-04 16:44:55 EVENT pipeline5: stage options done in 0.0 min (attempt 1)
+2026-11-04 16:44:55 EVENT pipeline5: screen starts: 21 levels x 30 scenarios in 1 batches
+2026-11-04 16:44:57 EVENT pipeline5: screen batch 1/1: 660 episodes needed, 180 already on disk or reused, 480 to record
+2026-11-04 16:44:57 EVENT pipeline5: screen batch 1/1: recording 480 episodes with 10 workers; estimate after the first episodes
+2026-11-04 16:45:12 PROGRESS pipeline5: screen batch 1/1: 0/480 episodes in 0.3 min; memory: our tree 7.2 GB, host used 8.3 GB
+2026-11-04 16:47:39 EVENT pipeline5: screen batch 1/1: estimate fixed from measured progress: 129.3 min for 480 episodes (10 done in 2.7 min)
+2026-11-04 16:49:26 PROGRESS pipeline5: screen batch 1/1: 14/480 episodes in 4.5 min, ETA 149 min (measured), estimate 129 min; memory: our tree 9.7 GB, host used 10.5 GB
+2026-11-04 16:53:28 PROGRESS pipeline5: screen batch 1/1: 31/480 episodes in 8.5 min, ETA 123 min (measured), estimate 129 min; memory: our tree 9.3 GB, host used 9.4 GB; last o512_1 train/building_19950/denver_1 cost 0.01303892520030775
+2026-11-04 16:57:40 PROGRESS pipeline5: screen batch 1/1: 40/480 episodes in 12.7 min, ETA 140 min (measured), estimate 129 min; memory: our tree 11.5 GB, host used 11.5 GB
+2026-11-04 17:01:48 PROGRESS pipeline5: screen batch 1/1: 44/480 episodes in 16.8 min, ETA 167 min (measured), estimate 129 min; memory: our tree 10.1 GB, host used 13.2 GB
+2026-11-04 17:05:59 PROGRESS pipeline5: screen batch 1/1: 50/480 episodes in 21.0 min, ETA 181 min (measured), estimate 129 min; memory: our tree 8.6 GB, host used 11.4 GB
+2026-11-04 17:10:05 PROGRESS pipeline5: screen batch 1/1: 60/480 episodes in 25.1 min, ETA 176 min (measured), estimate 129 min; memory: our tree 9.3 GB, host used 11.8 GB; last o523_1 train/building_12567/fairbanks_3 cost 0.01821988413103912
+2026-11-04 17:14:14 PROGRESS pipeline5: screen batch 1/1: 69/480 episodes in 29.3 min, ETA 174 min (measured), estimate 129 min; memory: our tree 12.6 GB, host used 13.7 GB; last o523_1 train/building_11534/denver_1 cost 0.012998125542591304
+2026-11-04 17:18:16 PROGRESS pipeline5: screen batch 1/1: 80/480 episodes in 33.3 min, ETA 167 min (measured), estimate 129 min; memory: our tree 8.7 GB, host used 10.1 GB
+2026-11-04 17:22:24 PROGRESS pipeline5: screen batch 1/1: 93/480 episodes in 37.4 min, ETA 156 min (measured), estimate 129 min; memory: our tree 10.7 GB, host used 11.7 GB
+2026-11-04 17:26:29 PROGRESS pipeline5: screen batch 1/1: 104/480 episodes in 41.5 min, ETA 150 min (measured), estimate 129 min; memory: our tree 10.8 GB, host used 11.9 GB; last o523_2 train/building_18764/denver_7 cost 0.008765479258706231
+2026-11-04 17:30:43 PROGRESS pipeline5: screen batch 1/1: 121/480 episodes in 45.8 min, ETA 136 min (measured), estimate 129 min; memory: our tree 9.1 GB, host used 10.3 GB
+2026-11-04 17:34:47 PROGRESS pipeline5: screen batch 1/1: 131/480 episodes in 49.8 min, ETA 133 min (measured), estimate 129 min; memory: our tree 11.2 GB, host used 13.2 GB; last o524_1 train/building_19768/fairbanks_3 cost 0.017933224147491603
+2026-11-04 17:38:56 PROGRESS pipeline5: screen batch 1/1: 143/480 episodes in 54.0 min, ETA 127 min (measured), estimate 129 min; memory: our tree 8.6 GB, host used 10.2 GB
+2026-11-04 17:43:08 PROGRESS pipeline5: screen batch 1/1: 155/480 episodes in 58.2 min, ETA 122 min (measured), estimate 129 min; memory: our tree 10.8 GB, host used 11.2 GB
+2026-11-04 17:47:19 PROGRESS pipeline5: screen batch 1/1: 166/480 episodes in 62.4 min, ETA 118 min (measured), estimate 129 min; memory: our tree 10.0 GB, host used 10.6 GB
+2026-11-04 17:51:30 PROGRESS pipeline5: screen batch 1/1: 182/480 episodes in 66.5 min, ETA 109 min (measured), estimate 129 min; memory: our tree 9.7 GB, host used 10.9 GB; last o527_2 train/building_19655/denver_1 cost 0.007706245095205991
+2026-11-04 17:55:35 PROGRESS pipeline5: screen batch 1/1: 191/480 episodes in 70.6 min, ETA 107 min (measured), estimate 129 min; memory: our tree 10.6 GB, host used 12.7 GB
+2026-11-04 17:59:38 PROGRESS pipeline5: screen batch 1/1: 204/480 episodes in 74.7 min, ETA 101 min (measured), estimate 129 min; memory: our tree 8.5 GB, host used 11.9 GB
+2026-11-04 18:03:38 PROGRESS pipeline5: screen batch 1/1: 214/480 episodes in 78.7 min, ETA 98 min (measured), estimate 129 min; memory: our tree 10.4 GB, host used 15.4 GB
+2026-11-04 18:07:51 PROGRESS pipeline5: screen batch 1/1: 223/480 episodes in 82.9 min, ETA 96 min (measured), estimate 129 min; memory: our tree 10.7 GB, host used 14.9 GB
+2026-11-04 18:11:53 PROGRESS pipeline5: screen batch 1/1: 235/480 episodes in 86.9 min, ETA 91 min (measured), estimate 129 min; memory: our tree 9.1 GB, host used 12.4 GB; last o528_1 train/building_11010/singapore_1 cost 0.008466767388894923
+2026-11-04 18:15:59 PROGRESS pipeline5: screen batch 1/1: 246/480 episodes in 91.0 min, ETA 87 min (measured), estimate 129 min; memory: our tree 10.8 GB, host used 13.7 GB; last o528_2 train/building_14979/fairbanks_1 cost 0.02374310477001088
+2026-11-04 18:20:13 PROGRESS pipeline5: screen batch 1/1: 256/480 episodes in 95.3 min, ETA 83 min (measured), estimate 129 min; memory: our tree 9.6 GB, host used 11.7 GB
+2026-11-04 18:24:18 PROGRESS pipeline5: screen batch 1/1: 268/480 episodes in 99.3 min, ETA 79 min (measured), estimate 129 min; memory: our tree 9.8 GB, host used 10.7 GB
+2026-11-04 18:28:25 PROGRESS pipeline5: screen batch 1/1: 280/480 episodes in 103.5 min, ETA 74 min (measured), estimate 129 min; memory: our tree 11.7 GB, host used 11.1 GB; last o531_1 train/building_15361/denver_1 cost 0.008196898242439283
+2026-11-04 18:32:31 PROGRESS pipeline5: screen batch 1/1: 295/480 episodes in 107.6 min, ETA 67 min (measured), estimate 129 min; memory: our tree 8.8 GB, host used 8.1 GB; last o531_1 train/building_12567/atlanta_5 cost 0.006296490939166498
+2026-11-04 18:36:42 PROGRESS pipeline5: screen batch 1/1: 308/480 episodes in 111.7 min, ETA 62 min (measured), estimate 129 min; memory: our tree 11.7 GB, host used 11.2 GB
+2026-11-04 18:40:55 PROGRESS pipeline5: screen batch 1/1: 322/480 episodes in 116.0 min, ETA 57 min (measured), estimate 129 min; memory: our tree 9.3 GB, host used 8.7 GB; last o531_2 train/building_17224/singapore_7 cost 0.006678148679270963
+2026-11-04 18:45:08 PROGRESS pipeline5: screen batch 1/1: 337/480 episodes in 120.2 min, ETA 51 min (measured), estimate 129 min; memory: our tree 11.6 GB, host used 11.1 GB; last o531_3 train/building_12739/fairbanks_1 cost 0.03941696874784448
+2026-11-04 18:49:11 PROGRESS pipeline5: screen batch 1/1: 350/480 episodes in 124.2 min, ETA 46 min (measured), estimate 129 min; memory: our tree 8.5 GB, host used 7.8 GB; last o531_3 train/building_17821/denver_3 cost 0.005328354957689572
+2026-11-04 18:53:11 PROGRESS pipeline5: screen batch 1/1: 364/480 episodes in 128.2 min, ETA 41 min (measured), estimate 129 min; memory: our tree 10.2 GB, host used 9.6 GB
+2026-11-04 18:57:19 PROGRESS pipeline5: screen batch 1/1: 376/480 episodes in 132.4 min, ETA 37 min (measured), estimate 129 min; memory: our tree 10.8 GB, host used 10.1 GB; last o532_1 train/building_14073/atlanta_3 cost 0.006224355290355945
+2026-11-04 19:01:29 PROGRESS pipeline5: screen batch 1/1: 393/480 episodes in 136.5 min, ETA 30 min (measured), estimate 129 min; memory: our tree 10.2 GB, host used 9.6 GB
+2026-11-04 19:05:38 PROGRESS pipeline5: screen batch 1/1: 403/480 episodes in 140.7 min, ETA 27 min (measured), estimate 129 min; memory: our tree 10.6 GB, host used 9.9 GB
+2026-11-04 19:09:45 PROGRESS pipeline5: screen batch 1/1: 421/480 episodes in 144.8 min, ETA 20 min (measured), estimate 129 min; memory: our tree 9.3 GB, host used 8.6 GB
+2026-11-04 19:13:58 PROGRESS pipeline5: screen batch 1/1: 433/480 episodes in 149.0 min, ETA 16 min (measured), estimate 129 min; memory: our tree 10.0 GB, host used 9.4 GB
+2026-11-04 19:17:58 PROGRESS pipeline5: screen batch 1/1: 448/480 episodes in 153.0 min, ETA 11 min (measured), estimate 129 min; memory: our tree 9.9 GB, host used 9.3 GB; last o550_1 train/building_14213/singapore_3 cost 0.008170663006455268
+2026-11-04 19:22:09 PROGRESS pipeline5: screen batch 1/1: 459/480 episodes in 157.2 min, ETA 7 min (measured), estimate 129 min; memory: our tree 11.5 GB, host used 11.6 GB
+2026-11-04 19:26:18 PROGRESS pipeline5: screen batch 1/1: 475/480 episodes in 161.3 min, ETA 2 min (measured), estimate 129 min; memory: our tree 6.2 GB, host used 6.0 GB; last o551_1 train/building_12567/atlanta_5 cost 0.005760604715707938
+2026-11-04 19:29:49 PROGRESS pipeline5: screen batch 1/1: 480/480 episodes in 164.9 min, estimate 129 min; memory: our tree 0.1 GB, host used 0.9 GB
+2026-11-04 19:29:58 RESULT pipeline5: screen o502_1: cost-weighted -0.168% (billing-corrected -0.262%), upper bound -0.270%; paper keep, competition conditional
+2026-11-04 19:29:58 RESULT pipeline5: screen o516_2: cost-weighted -0.159% (billing-corrected -0.169%), upper bound -0.272%; paper keep, competition drop
+2026-11-04 19:29:58 RESULT pipeline5: screen o521_1: cost-weighted -0.183% (billing-corrected -0.189%), upper bound -0.224%; paper keep, competition keep
+2026-11-04 19:29:58 RESULT pipeline5: screen o541_1: cost-weighted -0.857% (billing-corrected -0.682%), upper bound -0.857%; paper keep, competition keep
+2026-11-04 19:29:58 RESULT pipeline5: screen o501_1: cost-weighted -0.016% (billing-corrected -0.029%), upper bound -0.078%; paper keep, competition keep
+2026-11-04 19:29:58 RESULT pipeline5: screen o512_1: cost-weighted -0.004% (billing-corrected -0.004%), upper bound -0.004%; paper keep, competition keep
+2026-11-04 19:29:58 RESULT pipeline5: screen o523_1: cost-weighted -0.291% (billing-corrected -0.258%), upper bound -0.346%; paper keep, competition keep
+2026-11-04 19:29:58 RESULT pipeline5: screen o523_2: cost-weighted -0.403% (billing-corrected -0.124%), upper bound -0.626%; paper keep, competition keep
+2026-11-04 19:29:58 RESULT pipeline5: screen o524_1: cost-weighted +1.993% (billing-corrected +2.041%), upper bound -0.161%; paper drop, competition drop
+2026-11-04 19:29:58 RESULT pipeline5: screen o527_1: cost-weighted +0.934% (billing-corrected +0.863%), upper bound -0.226%; paper conditional, competition conditional
+2026-11-04 19:29:58 RESULT pipeline5: screen o527_2: cost-weighted +2.543% (billing-corrected +2.386%), upper bound -0.145%; paper conditional, competition conditional
+2026-11-04 19:29:58 RESULT pipeline5: screen o528_1: cost-weighted +0.253% (billing-corrected +0.073%), upper bound -0.155%; paper keep, competition keep
+2026-11-04 19:29:58 RESULT pipeline5: screen o528_2: cost-weighted +0.656% (billing-corrected +0.421%), upper bound -0.118%; paper keep, competition conditional
+2026-11-04 19:29:58 RESULT pipeline5: screen o531_1: cost-weighted +2.540% (billing-corrected +2.748%), upper bound -0.230%; paper drop, competition drop
+2026-11-04 19:29:58 RESULT pipeline5: screen o531_2: cost-weighted +15.940% (billing-corrected +15.518%), upper bound +0.000%; paper drop, competition drop
+2026-11-04 19:29:58 RESULT pipeline5: screen o531_3: cost-weighted +2.150% (billing-corrected +1.657%), upper bound -0.116%; paper drop, competition drop
+2026-11-04 19:29:58 RESULT pipeline5: screen o532_1: cost-weighted -0.066% (billing-corrected -0.041%), upper bound -0.068%; paper keep, competition keep
+2026-11-04 19:29:58 RESULT pipeline5: screen o542_1: cost-weighted +1.374% (billing-corrected +1.089%), upper bound -0.093%; paper drop, competition drop
+2026-11-04 19:29:58 RESULT pipeline5: screen o517_2: cost-weighted +0.163% (billing-corrected +0.121%), upper bound -0.061%; paper not on the paper track, competition drop
+2026-11-04 19:29:58 RESULT pipeline5: screen o550_1: cost-weighted -1.704% (billing-corrected -1.338%), upper bound -1.926%; paper not on the paper track, competition keep
+2026-11-04 19:29:58 RESULT pipeline5: screen o551_1: cost-weighted -2.671% (billing-corrected -2.513%), upper bound -3.617%; paper not on the paper track, competition keep
+2026-11-04 19:29:58 RESULT pipeline5: direction competition after batch 1/1: 9 levels help, 4 conditional; estimated saving -5.90% (nominal, additive), ceiling -7.40%
+2026-11-04 19:29:58 RESULT pipeline5: direction paper after batch 1/1: 9 levels help, 2 conditional; estimated saving -1.63% (billing-corrected, additive), ceiling -1.90%
+2026-11-04 19:29:58 WAKE pipeline5: stage screen: paper_direction_ready (information, not a failure): screen batch 1/1 done: direction summaries per track (data/runs/b2rl/geo5/direction_competition_batch1.json, data/runs/b2rl/geo5/direction_competition_batch1.md, data/runs/b2rl/geo5/direction_paper_batch1.json, data/runs/b2rl/geo5/direction_paper_batch1.md); not a failure, --resume continues -> data/runs/b2rl/geo5/wake.json; continue with --resume
+2026-11-04 19:31:44 EVENT pipeline5: resume after the information wake paper_direction_ready of stage screen (attempt 1 kept)
+2026-11-04 19:31:44 EVENT pipeline5: pipeline 5 resumes: tracks ['competition', 'paper'], 21 levels, 30 scenarios, workers <= 10, submit dry
+2026-11-04 19:31:44 EVENT pipeline5: screen starts: 21 levels x 30 scenarios in 1 batches
+2026-11-04 19:31:54 EVENT pipeline5: screen batch 1/1: 660 episodes needed, 660 already on disk or reused, 0 to record
+2026-11-04 19:32:18 EVENT pipeline5: --redo options: ['options'] and the later stages of the same track run again
+2026-11-04 19:32:18 EVENT pipeline5: pipeline 5 resumes: tracks ['competition', 'paper'], 73 levels, 30 scenarios, workers <= 10, submit dry
+2026-11-04 19:32:19 EVENT pipeline5: options: 73 levels built on gt_u1b (12 competition-only); whole-month records reused for 5; exclusive pairs 44
+2026-11-04 19:32:19 EVENT pipeline5: stage options done in 0.0 min (attempt 1)
+2026-11-04 19:32:19 EVENT pipeline5: screen starts: 73 levels x 30 scenarios in 4 batches
+2026-11-04 19:32:26 EVENT pipeline5: screen batch 1/4: 660 episodes needed, 660 already on disk or reused, 0 to record
+2026-11-04 19:32:34 EVENT pipeline5: screen batch 2/4: 630 episodes needed, 30 already on disk or reused, 600 to record
+2026-11-04 19:32:34 EVENT pipeline5: screen batch 2/4: recording 600 episodes with 10 workers; estimate 206 min (measured 3.43 min per episode per worker)
+2026-11-04 19:32:49 PROGRESS pipeline5: screen batch 2/4: 0/600 episodes in 0.3 min, estimate 206 min; memory: our tree 7.2 GB, host used 6.9 GB
+2026-11-04 19:36:50 PROGRESS pipeline5: screen batch 2/4: 23/600 episodes in 4.3 min, ETA 107 min (measured), estimate 206 min; memory: our tree 9.9 GB, host used 9.5 GB; last o526_1 train/building_13597/phoenix_7 cost 0.0032077465519915194
+2026-11-04 19:40:51 PROGRESS pipeline5: screen batch 2/4: 48/600 episodes in 8.3 min, ETA 95 min (measured), estimate 206 min; memory: our tree 9.0 GB, host used 8.4 GB
+2026-11-04 19:44:56 PROGRESS pipeline5: screen batch 2/4: 74/600 episodes in 12.4 min, ETA 88 min (measured), estimate 206 min; memory: our tree 10.7 GB, host used 10.1 GB; last o546_1 train/building_14042/fairbanks_1 cost 0.04456806971017922
+2026-11-04 19:49:06 PROGRESS pipeline5: screen batch 2/4: 101/600 episodes in 16.5 min, ETA 82 min (measured), estimate 206 min; memory: our tree 10.6 GB, host used 10.1 GB; last o546_2 train/building_15361/denver_1 cost 0.006787792729590929
+2026-11-04 19:53:06 PROGRESS pipeline5: screen batch 2/4: 126/600 episodes in 20.5 min, ETA 77 min (measured), estimate 206 min; memory: our tree 10.4 GB, host used 11.0 GB; last o546_3 train/building_19655/fairbanks_1 cost 0.028991245106494812
+2026-11-04 19:57:16 PROGRESS pipeline5: screen batch 2/4: 151/600 episodes in 24.7 min, ETA 73 min (measured), estimate 206 min; memory: our tree 9.7 GB, host used 9.7 GB
+2026-11-04 20:01:25 PROGRESS pipeline5: screen batch 2/4: 176/600 episodes in 28.9 min, ETA 70 min (measured), estimate 206 min; memory: our tree 9.5 GB, host used 9.0 GB; last o538_1 train/building_11010/singapore_1 cost 0.008468079092556056
+2026-11-04 20:05:30 PROGRESS pipeline5: screen batch 2/4: 201/600 episodes in 32.9 min, ETA 65 min (measured), estimate 206 min; memory: our tree 8.9 GB, host used 9.5 GB; last o538_2 train/building_13597/phoenix_7 cost 0.0032360843902423018
+2026-11-04 20:09:39 PROGRESS pipeline5: screen batch 2/4: 224/600 episodes in 37.1 min, ETA 62 min (measured), estimate 206 min; memory: our tree 10.0 GB, host used 10.6 GB
+2026-11-04 20:13:48 PROGRESS pipeline5: screen batch 2/4: 250/600 episodes in 41.2 min, ETA 58 min (measured), estimate 206 min; memory: our tree 10.2 GB, host used 10.9 GB
+2026-11-04 20:17:50 PROGRESS pipeline5: screen batch 2/4: 275/600 episodes in 45.3 min, ETA 54 min (measured), estimate 206 min; memory: our tree 11.1 GB, host used 10.7 GB; last o508_2 train/building_19655/fairbanks_1 cost 0.026822816351164912
+2026-11-04 20:21:51 PROGRESS pipeline5: screen batch 2/4: 301/600 episodes in 49.3 min, ETA 49 min (measured), estimate 206 min; memory: our tree 10.2 GB, host used 9.6 GB
+2026-11-04 20:26:03 PROGRESS pipeline5: screen batch 2/4: 330/600 episodes in 53.5 min, ETA 44 min (measured), estimate 206 min; memory: our tree 9.0 GB, host used 8.6 GB; last o540_2 train/building_12567/fairbanks_3 cost 0.018086632401321273
+2026-11-04 20:30:11 PROGRESS pipeline5: screen batch 2/4: 355/600 episodes in 57.6 min, ETA 40 min (measured), estimate 206 min; memory: our tree 8.6 GB, host used 8.1 GB; last o540_2 train/building_12567/atlanta_5 cost 0.005847012731977092
+2026-11-04 20:34:20 PROGRESS pipeline5: screen batch 2/4: 381/600 episodes in 61.8 min, ETA 36 min (measured), estimate 206 min; memory: our tree 8.9 GB, host used 8.3 GB; last o510_1 train/building_13597/phoenix_7 cost 0.0032084562823071648
+2026-11-04 20:38:21 PROGRESS pipeline5: screen batch 2/4: 406/600 episodes in 65.8 min, ETA 31 min (measured), estimate 206 min; memory: our tree 9.6 GB, host used 9.1 GB; last o541_2 train/building_18764/denver_7 cost 0.00877213560738239
+2026-11-04 20:42:23 PROGRESS pipeline5: screen batch 2/4: 432/600 episodes in 69.8 min, ETA 27 min (measured), estimate 206 min; memory: our tree 10.0 GB, host used 9.5 GB; last o516_1 train/building_19768/fairbanks_3 cost 0.018059100353308096
+2026-11-04 20:46:26 PROGRESS pipeline5: screen batch 2/4: 456/600 episodes in 73.9 min, ETA 23 min (measured), estimate 206 min; memory: our tree 11.1 GB, host used 10.6 GB
+2026-11-04 20:50:37 PROGRESS pipeline5: screen batch 2/4: 484/600 episodes in 78.0 min, ETA 19 min (measured), estimate 206 min; memory: our tree 10.9 GB, host used 10.4 GB; last o515_1 train/building_15790/fairbanks_1 cost 0.03931902218978031
+2026-11-04 20:54:51 PROGRESS pipeline5: screen batch 2/4: 512/600 episodes in 82.3 min, ETA 14 min (measured), estimate 206 min; memory: our tree 10.2 GB, host used 9.7 GB; last o515_2 train/building_19655/denver_1 cost 0.007733794438939189
+2026-11-04 20:59:03 PROGRESS pipeline5: screen batch 2/4: 541/600 episodes in 86.5 min, ETA 9 min (measured), estimate 206 min; memory: our tree 9.3 GB, host used 8.9 GB; last o515_3 train/building_19950/denver_1 cost 0.01306297429656099
+2026-11-04 21:03:09 PROGRESS pipeline5: screen batch 2/4: 565/600 episodes in 90.6 min, ETA 6 min (measured), estimate 206 min; memory: our tree 9.0 GB, host used 8.4 GB
+2026-11-04 21:07:15 PROGRESS pipeline5: screen batch 2/4: 592/600 episodes in 94.7 min, ETA 1 min (measured), estimate 206 min; memory: our tree 8.1 GB, host used 7.7 GB; last o514_1 train/building_17224/singapore_7 cost 0.0045461912672972
+2026-11-04 21:09:08 PROGRESS pipeline5: screen batch 2/4: 600/600 episodes in 96.6 min, estimate 206 min; memory: our tree 0.1 GB, host used 0.9 GB
+2026-11-04 21:09:25 RESULT pipeline5: screen o526_1: cost-weighted +1.918% (billing-corrected +2.131%), upper bound -0.563%; paper conditional, competition conditional
+2026-11-04 21:09:25 RESULT pipeline5: screen o526_2: cost-weighted +8.383% (billing-corrected +7.706%), upper bound -0.238%; paper drop, competition drop
+2026-11-04 21:09:25 RESULT pipeline5: screen o546_1: cost-weighted -18.482% (billing-corrected +0.185%), upper bound -18.641%; paper not on the paper track, competition keep
+2026-11-04 21:09:25 RESULT pipeline5: screen o546_2: cost-weighted -17.165% (billing-corrected +1.045%), upper bound -17.324%; paper not on the paper track, competition keep
+2026-11-04 21:09:25 RESULT pipeline5: screen o546_3: cost-weighted +11.795% (billing-corrected +36.947%), upper bound -0.799%; paper not on the paper track, competition drop
+2026-11-04 21:09:25 RESULT pipeline5: screen o538_1: cost-weighted +0.682% (billing-corrected +0.257%), upper bound -0.009%; paper drop, competition drop
+2026-11-04 21:09:25 RESULT pipeline5: screen o538_2: cost-weighted +1.049% (billing-corrected -0.011%), upper bound -0.014%; paper conditional, competition drop
+2026-11-04 21:09:25 RESULT pipeline5: screen o519_1: cost-weighted +6.084% (billing-corrected +5.623%), upper bound -0.389%; paper conditional, competition conditional
+2026-11-04 21:09:25 RESULT pipeline5: screen o508_1: cost-weighted +0.088% (billing-corrected +0.079%), upper bound -0.133%; paper keep, competition keep
+2026-11-04 21:09:25 RESULT pipeline5: screen o508_2: cost-weighted +0.317% (billing-corrected +0.197%), upper bound -0.229%; paper keep, competition keep
+2026-11-04 21:09:25 RESULT pipeline5: screen o540_1: cost-weighted +2.189% (billing-corrected +1.986%), upper bound -0.125%; paper drop, competition drop
+2026-11-04 21:09:25 RESULT pipeline5: screen o540_2: cost-weighted -0.771% (billing-corrected -0.717%), upper bound -0.773%; paper keep, competition keep
+2026-11-04 21:09:25 RESULT pipeline5: screen o510_1: cost-weighted +0.096% (billing-corrected +0.071%), upper bound -0.051%; paper drop, competition drop
+2026-11-04 21:09:25 RESULT pipeline5: screen o541_2: cost-weighted -1.187% (billing-corrected -0.947%), upper bound -1.187%; paper keep, competition keep
+2026-11-04 21:09:25 RESULT pipeline5: screen o516_1: cost-weighted -0.221% (billing-corrected -0.194%), upper bound -0.235%; paper keep, competition keep
+2026-11-04 21:09:25 RESULT pipeline5: screen o543_1: cost-weighted +1.220% (billing-corrected +1.282%), upper bound -0.080%; paper drop, competition drop
+2026-11-04 21:09:25 RESULT pipeline5: screen o515_1: cost-weighted +0.433% (billing-corrected +0.408%), upper bound -0.078%; paper drop, competition drop
+2026-11-04 21:09:25 RESULT pipeline5: screen o515_2: cost-weighted +0.323% (billing-corrected +0.302%), upper bound -0.044%; paper drop, competition drop
+2026-11-04 21:09:25 RESULT pipeline5: screen o515_3: cost-weighted +0.225% (billing-corrected +0.211%), upper bound -0.048%; paper drop, competition drop
+2026-11-04 21:09:25 RESULT pipeline5: screen o514_1: cost-weighted -0.251% (billing-corrected -0.235%), upper bound -0.341%; paper keep, competition keep
+2026-11-04 21:09:25 RESULT pipeline5: direction competition after batch 2/4: 15 levels help, 6 conditional; estimated saving -25.96% (nominal, additive), ceiling -27.72%
+2026-11-04 21:09:25 RESULT pipeline5: direction paper after batch 2/4: 13 levels help, 5 conditional; estimated saving -2.88% (billing-corrected, additive), ceiling -3.15%
+2026-11-04 21:09:25 WAKE pipeline5: stage screen: paper_direction_ready (information, not a failure): screen batch 2/4 done: direction summaries per track (data/runs/b2rl/geo5/direction_competition_batch2.json, data/runs/b2rl/geo5/direction_competition_batch2.md, data/runs/b2rl/geo5/direction_paper_batch2.json, data/runs/b2rl/geo5/direction_paper_batch2.md); not a failure, --resume continues -> data/runs/b2rl/geo5/wake.json; continue with --resume
+2026-11-04 21:10:50 EVENT pipeline5: resume after the information wake paper_direction_ready of stage screen (attempt 1 kept)
+2026-11-04 21:10:50 EVENT pipeline5: --redo options: ['options'] and the later stages of the same track run again
+2026-11-04 21:10:50 EVENT pipeline5: pipeline 5 resumes: tracks ['competition', 'paper'], 88 levels, 30 scenarios, workers <= 10, submit auto
+2026-11-04 21:10:50 EVENT pipeline5: options: 88 levels built on gt_u1b (12 competition-only); whole-month records reused for 5; exclusive pairs 75
+2026-11-04 21:10:50 EVENT pipeline5: stage options done in 0.0 min (attempt 1)
+2026-11-04 21:10:50 EVENT pipeline5: screen starts: 88 levels x 30 scenarios in 5 batches
+2026-11-04 21:10:59 EVENT pipeline5: screen batch 1/5: 660 episodes needed, 660 already on disk or reused, 0 to record
+2026-11-04 21:11:14 EVENT pipeline5: screen batch 2/5: 630 episodes needed, 630 already on disk or reused, 0 to record
+2026-11-04 21:11:28 EVENT pipeline5: screen batch 3/5: 390 episodes needed, 30 already on disk or reused, 360 to record
+2026-11-04 21:11:28 EVENT pipeline5: screen batch 3/5: recording 360 episodes with 10 workers; estimate 58 min (measured 1.61 min per episode per worker)
+2026-11-04 21:11:43 PROGRESS pipeline5: screen batch 3/5: 0/360 episodes in 0.3 min, estimate 58 min; memory: our tree 7.2 GB, host used 7.0 GB
+2026-11-04 21:15:44 PROGRESS pipeline5: screen batch 3/5: 23/360 episodes in 4.3 min, ETA 63 min (measured), estimate 58 min; memory: our tree 9.2 GB, host used 8.8 GB; last o522_1 train/building_13597/phoenix_7 cost 0.0032723325859676457
+2026-11-04 21:19:49 PROGRESS pipeline5: screen batch 3/5: 49/360 episodes in 8.4 min, ETA 53 min (measured), estimate 58 min; memory: our tree 9.4 GB, host used 8.8 GB; last o522_2 train/building_18764/fairbanks_5 cost 0.010858320407564794
+2026-11-04 21:23:50 PROGRESS pipeline5: screen batch 3/5: 73/360 episodes in 12.4 min, ETA 49 min (measured), estimate 58 min; memory: our tree 10.5 GB, host used 9.9 GB
+2026-11-04 21:27:56 PROGRESS pipeline5: screen batch 3/5: 100/360 episodes in 16.5 min, ETA 43 min (measured), estimate 58 min; memory: our tree 10.3 GB, host used 9.7 GB
+2026-11-04 21:32:08 PROGRESS pipeline5: screen batch 3/5: 126/360 episodes in 20.7 min, ETA 38 min (measured), estimate 58 min; memory: our tree 11.2 GB, host used 10.7 GB
+2026-11-04 21:36:16 PROGRESS pipeline5: screen batch 3/5: 153/360 episodes in 24.8 min, ETA 34 min (measured), estimate 58 min; memory: our tree 10.9 GB, host used 10.5 GB
+2026-11-04 21:40:20 PROGRESS pipeline5: screen batch 3/5: 181/360 episodes in 28.9 min, ETA 29 min (measured), estimate 58 min; memory: our tree 9.8 GB, host used 9.2 GB
+2026-11-04 21:44:20 PROGRESS pipeline5: screen batch 3/5: 207/360 episodes in 32.9 min, ETA 24 min (measured), estimate 58 min; memory: our tree 9.5 GB, host used 9.0 GB; last o547_2 train/building_14213/singapore_3 cost 0.008199446286935178
+2026-11-04 21:48:25 PROGRESS pipeline5: screen batch 3/5: 233/360 episodes in 37.0 min, ETA 20 min (measured), estimate 58 min; memory: our tree 9.3 GB, host used 8.8 GB; last o548_1 train/building_19664/phoenix_1 cost 0.002407146418538123
+2026-11-04 21:52:25 PROGRESS pipeline5: screen batch 3/5: 258/360 episodes in 41.0 min, ETA 16 min (measured), estimate 58 min; memory: our tree 9.0 GB, host used 8.4 GB
+2026-11-04 21:56:27 PROGRESS pipeline5: screen batch 3/5: 284/360 episodes in 45.0 min, ETA 12 min (measured), estimate 58 min; memory: our tree 10.4 GB, host used 9.9 GB; last o549_2 train/building_14042/fairbanks_1 cost 0.045228629608822866
+2026-11-04 22:00:36 PROGRESS pipeline5: screen batch 3/5: 310/360 episodes in 49.1 min, ETA 8 min (measured), estimate 58 min; memory: our tree 10.3 GB, host used 9.7 GB
+2026-11-04 22:04:50 PROGRESS pipeline5: screen batch 3/5: 336/360 episodes in 53.4 min, ETA 4 min (measured), estimate 58 min; memory: our tree 11.1 GB, host used 10.6 GB
+2026-11-04 22:08:53 PROGRESS pipeline5: screen batch 3/5: 360/360 episodes in 57.4 min, estimate 58 min; memory: our tree 2.5 GB, host used 3.1 GB; last o530_2 train/building_19629/atlanta_5 cost 0.00788469122041922
+2026-11-04 22:08:54 PROGRESS pipeline5: screen batch 3/5: 360/360 episodes in 57.4 min, estimate 58 min; memory: our tree 0.1 GB, host used 0.9 GB
+2026-11-04 22:09:13 RESULT pipeline5: screen o522_1: cost-weighted +0.125% (billing-corrected +0.114%), upper bound -0.306%; paper keep, competition keep
+2026-11-04 22:09:13 RESULT pipeline5: screen o522_2: cost-weighted +8.027% (billing-corrected +7.563%), upper bound +0.000%; paper drop, competition drop
+2026-11-04 22:09:13 RESULT pipeline5: screen o507_1: cost-weighted +6.288% (billing-corrected +6.792%), upper bound -0.012%; paper drop, competition drop
+2026-11-04 22:09:13 RESULT pipeline5: screen o507_2: cost-weighted +14.122% (billing-corrected +14.302%), upper bound +0.000%; paper drop, competition drop
+2026-11-04 22:09:13 RESULT pipeline5: screen o507_3: cost-weighted -12.765% (billing-corrected +11.365%), upper bound -13.156%; paper not on the paper track, competition keep
+2026-11-04 22:09:13 RESULT pipeline5: screen o547_1: cost-weighted -17.968% (billing-corrected +1.216%), upper bound -18.127%; paper not on the paper track, competition keep
+2026-11-04 22:09:13 RESULT pipeline5: screen o547_2: cost-weighted -18.438% (billing-corrected +1.399%), upper bound -18.596%; paper not on the paper track, competition keep
+2026-11-04 22:09:13 RESULT pipeline5: screen o548_1: cost-weighted -14.819% (billing-corrected +5.250%), upper bound -17.230%; paper not on the paper track, competition keep
+2026-11-04 22:09:13 RESULT pipeline5: screen o549_1: cost-weighted -17.945% (billing-corrected +1.449%), upper bound -18.566%; paper not on the paper track, competition keep
+2026-11-04 22:09:13 RESULT pipeline5: screen o549_2: cost-weighted -11.283% (billing-corrected +9.658%), upper bound -15.753%; paper not on the paper track, competition keep
+2026-11-04 22:09:13 RESULT pipeline5: screen o530_1: cost-weighted +10.457% (billing-corrected +9.657%), upper bound +0.000%; paper drop, competition drop
+2026-11-04 22:09:13 RESULT pipeline5: screen o530_2: cost-weighted +11.220% (billing-corrected +10.389%), upper bound +0.000%; paper drop, competition drop
+2026-11-04 22:09:13 RESULT pipeline5: direction competition after batch 3/5: 21 levels help, 6 conditional; estimated saving -89.93% (nominal, additive), ceiling -95.27%
+2026-11-04 22:09:13 RESULT pipeline5: direction paper after batch 3/5: 13 levels help, 5 conditional; estimated saving -2.88% (billing-corrected, additive), ceiling -3.15%
+2026-11-04 22:09:13 EVENT pipeline5: screen batch 4/5: 630 episodes needed, 30 already on disk or reused, 600 to record
+2026-11-04 22:09:13 EVENT pipeline5: screen batch 4/5: recording 600 episodes with 10 workers; estimate 96 min (measured 1.60 min per episode per worker)
+2026-11-04 22:09:28 PROGRESS pipeline5: screen batch 4/5: 0/600 episodes in 0.3 min, estimate 96 min; memory: our tree 7.3 GB, host used 6.9 GB
+2026-11-04 22:13:34 PROGRESS pipeline5: screen batch 4/5: 24/600 episodes in 4.4 min, ETA 105 min (measured), estimate 96 min; memory: our tree 9.3 GB, host used 8.8 GB; last o509_1 train/building_11818/phoenix_3 cost 0.01678991122766832
+2026-11-04 22:17:46 PROGRESS pipeline5: screen batch 4/5: 50/600 episodes in 8.6 min, ETA 94 min (measured), estimate 96 min; memory: our tree 9.1 GB, host used 8.5 GB
+2026-11-04 22:21:47 PROGRESS pipeline5: screen batch 4/5: 78/600 episodes in 12.6 min, ETA 84 min (measured), estimate 96 min; memory: our tree 8.2 GB, host used 7.8 GB; last o511_1 train/building_19664/fairbanks_7 cost 0.005157711537135941
+2026-11-04 22:25:53 PROGRESS pipeline5: screen batch 4/5: 103/600 episodes in 16.7 min, ETA 80 min (measured), estimate 96 min; memory: our tree 9.8 GB, host used 9.4 GB; last o511_2 train/building_12336/atlanta_7 cost 0.004677195011145229
+2026-11-04 22:29:54 PROGRESS pipeline5: screen batch 4/5: 129/600 episodes in 20.7 min, ETA 76 min (measured), estimate 96 min; memory: our tree 11.4 GB, host used 11.0 GB; last o513_1 train/building_11164/denver_1 cost 0.0127886103013598
+2026-11-04 22:34:03 PROGRESS pipeline5: screen batch 4/5: 155/600 episodes in 24.8 min, ETA 71 min (measured), estimate 96 min; memory: our tree 11.0 GB, host used 10.5 GB; last o513_1 train/building_19629/atlanta_5 cost 0.007654251454312621
+2026-11-04 22:38:06 PROGRESS pipeline5: screen batch 4/5: 182/600 episodes in 28.9 min, ETA 66 min (measured), estimate 96 min; memory: our tree 10.3 GB, host used 9.7 GB; last o518_1 train/building_19655/denver_1 cost 0.00770636157801462
+2026-11-04 22:42:18 PROGRESS pipeline5: screen batch 4/5: 211/600 episodes in 33.1 min, ETA 61 min (measured), estimate 96 min; memory: our tree 9.3 GB, host used 8.8 GB; last o520_1 train/building_19950/denver_1 cost 0.013038925020329472
+2026-11-04 22:46:28 PROGRESS pipeline5: screen batch 4/5: 235/600 episodes in 37.3 min, ETA 58 min (measured), estimate 96 min; memory: our tree 9.2 GB, host used 8.5 GB
+2026-11-04 22:50:31 PROGRESS pipeline5: screen batch 4/5: 262/600 episodes in 41.3 min, ETA 53 min (measured), estimate 96 min; memory: our tree 8.9 GB, host used 8.4 GB; last o524_2 train/building_17224/singapore_7 cost 0.005010121569038737
+2026-11-04 22:54:42 PROGRESS pipeline5: screen batch 4/5: 288/600 episodes in 45.5 min, ETA 49 min (measured), estimate 96 min; memory: our tree 9.1 GB, host used 8.5 GB
+2026-11-04 22:58:49 PROGRESS pipeline5: screen batch 4/5: 314/600 episodes in 49.6 min, ETA 45 min (measured), estimate 96 min; memory: our tree 10.3 GB, host used 9.9 GB; last o525_1 train/building_14042/fairbanks_1 cost 0.06293309209491353
+2026-11-04 23:02:57 PROGRESS pipeline5: screen batch 4/5: 340/600 episodes in 53.7 min, ETA 41 min (measured), estimate 96 min; memory: our tree 10.2 GB, host used 9.6 GB
+2026-11-04 23:06:59 PROGRESS pipeline5: screen batch 4/5: 364/600 episodes in 57.8 min, ETA 37 min (measured), estimate 96 min; memory: our tree 11.3 GB, host used 10.8 GB
+2026-11-04 23:11:00 PROGRESS pipeline5: screen batch 4/5: 392/600 episodes in 61.8 min, ETA 33 min (measured), estimate 96 min; memory: our tree 10.1 GB, host used 9.6 GB; last o536_1 train/building_19655/denver_1 cost 0.00770636157801462
+2026-11-04 23:15:01 PROGRESS pipeline5: screen batch 4/5: 419/600 episodes in 65.8 min, ETA 28 min (measured), estimate 96 min; memory: our tree 8.8 GB, host used 8.3 GB; last o536_1 train/building_19655/singapore_5 cost 0.0072056205592222694
+2026-11-04 23:19:08 PROGRESS pipeline5: screen batch 4/5: 443/600 episodes in 69.9 min, ETA 25 min (measured), estimate 96 min; memory: our tree 9.4 GB, host used 9.0 GB; last o537_1 train/building_11818/phoenix_3 cost 0.016790301688611887
+2026-11-04 23:23:12 PROGRESS pipeline5: screen batch 4/5: 468/600 episodes in 74.0 min, ETA 21 min (measured), estimate 96 min; memory: our tree 9.0 GB, host used 8.4 GB
+2026-11-04 23:27:18 PROGRESS pipeline5: screen batch 4/5: 494/600 episodes in 78.1 min, ETA 17 min (measured), estimate 96 min; memory: our tree 10.5 GB, host used 9.9 GB; last o539_2 train/building_14042/fairbanks_1 cost 0.06293309209491353
+2026-11-04 23:31:30 PROGRESS pipeline5: screen batch 4/5: 520/600 episodes in 82.3 min, ETA 13 min (measured), estimate 96 min; memory: our tree 10.3 GB, host used 9.7 GB
+2026-11-04 23:35:30 PROGRESS pipeline5: screen batch 4/5: 545/600 episodes in 86.3 min, ETA 9 min (measured), estimate 96 min; memory: our tree 11.0 GB, host used 10.6 GB; last o529_1 train/building_19629/atlanta_5 cost 0.007417791919037818
+2026-11-04 23:39:37 PROGRESS pipeline5: screen batch 4/5: 572/600 episodes in 90.4 min, ETA 4 min (measured), estimate 96 min; memory: our tree 10.2 GB, host used 9.7 GB; last o503_1 train/building_19655/denver_1 cost 0.00770636157801462
+2026-11-04 23:43:45 PROGRESS pipeline5: screen batch 4/5: 599/600 episodes in 94.5 min, ETA 0 min (measured), estimate 96 min; memory: our tree 2.1 GB, host used 2.7 GB
+2026-11-04 23:44:50 PROGRESS pipeline5: screen batch 4/5: 600/600 episodes in 95.6 min, estimate 96 min; memory: our tree 0.1 GB, host used 1.0 GB
+2026-11-04 23:45:23 RESULT pipeline5: screen o509_1: cost-weighted +0.762% (billing-corrected +0.523%), upper bound +0.000%; paper drop, competition drop
+2026-11-04 23:45:23 RESULT pipeline5: screen o509_2: cost-weighted +2.075% (billing-corrected +1.616%), upper bound +0.000%; paper drop, competition drop
+2026-11-04 23:45:23 RESULT pipeline5: screen o511_1: cost-weighted +0.666% (billing-corrected +0.549%), upper bound -0.001%; paper drop, competition drop
+2026-11-04 23:45:23 RESULT pipeline5: screen o511_2: cost-weighted +1.930% (billing-corrected +1.666%), upper bound +0.000%; paper drop, competition drop
+2026-11-04 23:45:23 RESULT pipeline5: screen o513_1: cost-weighted +1.254% (billing-corrected +1.178%), upper bound -0.009%; paper drop, competition drop
+2026-11-04 23:45:23 RESULT pipeline5: screen o517_1: cost-weighted +0.006% (billing-corrected -0.029%), upper bound -0.049%; paper keep, competition keep
+2026-11-04 23:45:23 RESULT pipeline5: screen o518_1: cost-weighted -0.434% (billing-corrected -0.412%), upper bound -0.445%; paper keep, competition keep
+2026-11-04 23:45:23 RESULT pipeline5: screen o520_1: cost-weighted -0.021% (billing-corrected -0.021%), upper bound -0.037%; paper keep, competition keep
+2026-11-04 23:45:23 RESULT pipeline5: screen o524_2: cost-weighted -0.240% (billing-corrected -0.173%), upper bound -0.833%; paper keep, competition keep
+2026-11-04 23:45:23 RESULT pipeline5: screen o524_3: cost-weighted -0.190% (billing-corrected -0.164%), upper bound -0.252%; paper keep, competition keep
+2026-11-04 23:45:23 RESULT pipeline5: screen o525_1: cost-weighted -0.708% (billing-corrected -0.684%), upper bound -0.848%; paper keep, competition keep
+2026-11-04 23:45:23 RESULT pipeline5: screen o533_1: cost-weighted +0.163% (billing-corrected +0.637%), upper bound -0.346%; paper drop, competition keep
+2026-11-04 23:45:23 RESULT pipeline5: screen o535_1: cost-weighted +1.117% (billing-corrected +1.017%), upper bound -0.106%; paper drop, competition drop
+2026-11-04 23:45:23 RESULT pipeline5: screen o536_1: cost-weighted -0.073% (billing-corrected -0.054%), upper bound -0.198%; paper drop, competition drop
+2026-11-04 23:45:23 RESULT pipeline5: screen o537_1: cost-weighted -0.136% (billing-corrected -0.121%), upper bound -0.190%; paper keep, competition keep
+2026-11-04 23:45:23 RESULT pipeline5: screen o539_1: cost-weighted +0.128% (billing-corrected +0.130%), upper bound +0.000%; paper keep, competition keep
+2026-11-04 23:45:23 RESULT pipeline5: screen o539_2: cost-weighted +0.000% (billing-corrected +0.000%), upper bound +0.000%; paper keep, competition keep
+2026-11-04 23:45:23 RESULT pipeline5: screen o529_1: cost-weighted -0.199% (billing-corrected -0.246%), upper bound -0.400%; paper keep, competition keep
+2026-11-04 23:45:23 RESULT pipeline5: screen o504_1: cost-weighted +0.108% (billing-corrected +0.096%), upper bound -0.039%; paper drop, competition drop
+2026-11-04 23:45:23 RESULT pipeline5: screen o503_1: cost-weighted +0.000% (billing-corrected +0.000%), upper bound +0.000%; paper keep, competition keep
+2026-11-04 23:45:23 RESULT pipeline5: direction competition after batch 4/5: 28 levels help, 6 conditional; estimated saving -91.66% (nominal, additive), ceiling -98.02%
+2026-11-04 23:45:23 RESULT pipeline5: direction paper after batch 4/5: 21 levels help, 5 conditional; estimated saving -4.56% (billing-corrected, additive), ceiling -5.75%
+2026-11-04 23:45:23 EVENT pipeline5: screen batch 5/5: 480 episodes needed, 30 already on disk or reused, 450 to record
+2026-11-04 23:45:23 EVENT pipeline5: screen batch 5/5: recording 450 episodes with 10 workers; estimate 72 min (measured 1.59 min per episode per worker)
+2026-11-04 23:45:42 EVENT pipeline5: --redo options: ['options'] and the later stages of the same track run again
+2026-11-04 23:45:42 EVENT pipeline5: pipeline 5 resumes: tracks ['competition', 'paper'], 97 levels, 30 scenarios, workers <= 10, submit auto
+2026-11-04 23:45:42 EVENT pipeline5: options: 97 levels built on gt_u1b (14 competition-only); whole-month records reused for 5; exclusive pairs 110
+2026-11-04 23:45:42 EVENT pipeline5: stage options done in 0.0 min (attempt 1)
+2026-11-04 23:45:42 EVENT pipeline5: screen starts: 97 levels x 30 scenarios in 6 batches
+2026-11-04 23:45:50 EVENT pipeline5: screen batch 1/6: 660 episodes needed, 660 already on disk or reused, 0 to record
+2026-11-04 23:46:05 EVENT pipeline5: screen batch 2/6: 630 episodes needed, 630 already on disk or reused, 0 to record
+2026-11-04 23:46:24 EVENT pipeline5: screen batch 3/6: 390 episodes needed, 390 already on disk or reused, 0 to record
+2026-11-04 23:46:49 EVENT pipeline5: screen batch 4/6: 630 episodes needed, 630 already on disk or reused, 0 to record
+2026-11-04 23:47:15 EVENT pipeline5: screen batch 5/6: 480 episodes needed, 30 already on disk or reused, 450 to record
+2026-11-04 23:47:15 EVENT pipeline5: screen batch 5/6: recording 450 episodes with 10 workers; estimate 72 min (measured 1.59 min per episode per worker)
+2026-11-04 23:47:30 PROGRESS pipeline5: screen batch 5/6: 0/450 episodes in 0.3 min, estimate 72 min; memory: our tree 7.3 GB, host used 6.9 GB
+2026-11-04 23:51:36 PROGRESS pipeline5: screen batch 5/6: 24/450 episodes in 4.3 min, ETA 77 min (measured), estimate 72 min; memory: our tree 9.1 GB, host used 8.7 GB; last o503_2 train/building_11818/phoenix_3 cost 0.016881537637150234
+2026-11-04 23:55:43 PROGRESS pipeline5: screen batch 5/6: 49/450 episodes in 8.5 min, ETA 69 min (measured), estimate 72 min; memory: our tree 9.4 GB, host used 8.9 GB; last o506_1 train/building_18764/fairbanks_5 cost 0.010629204943834743
+2026-11-04 23:59:46 PROGRESS pipeline5: screen batch 5/6: 74/450 episodes in 12.5 min, ETA 64 min (measured), estimate 72 min; memory: our tree 10.5 GB, host used 9.9 GB; last o506_2 train/building_14042/fairbanks_1 cost 0.06328568976187648
+2026-11-05 00:03:57 PROGRESS pipeline5: screen batch 5/6: 100/450 episodes in 16.7 min, ETA 58 min (measured), estimate 72 min; memory: our tree 10.3 GB, host used 9.7 GB
+2026-11-05 00:07:59 PROGRESS pipeline5: screen batch 5/6: 125/450 episodes in 20.7 min, ETA 54 min (measured), estimate 72 min; memory: our tree 10.9 GB, host used 10.5 GB; last o506_3 train/building_19629/atlanta_5 cost 0.007886561989223545
+2026-11-05 00:12:05 PROGRESS pipeline5: screen batch 5/6: 151/450 episodes in 24.8 min, ETA 49 min (measured), estimate 72 min; memory: our tree 9.9 GB, host used 9.3 GB
+2026-11-05 00:16:06 PROGRESS pipeline5: screen batch 5/6: 177/450 episodes in 28.9 min, ETA 45 min (measured), estimate 72 min; memory: our tree 9.0 GB, host used 8.5 GB; last o505_ubm1 train/building_14213/singapore_3 cost 0.008219992849883987
+2026-11-05 00:20:08 PROGRESS pipeline5: screen batch 5/6: 201/450 episodes in 32.9 min, ETA 41 min (measured), estimate 72 min; memory: our tree 8.6 GB, host used 8.0 GB; last o505_ubp1 train/building_13597/phoenix_7 cost 0.003276826489805353
+2026-11-05 00:24:10 PROGRESS pipeline5: screen batch 5/6: 226/450 episodes in 36.9 min, ETA 37 min (measured), estimate 72 min; memory: our tree 9.6 GB, host used 9.1 GB; last o505_ubp2 train/building_14078/atlanta_1 cost 0.0077321893384361675
+2026-11-05 00:28:12 PROGRESS pipeline5: screen batch 5/6: 251/450 episodes in 40.9 min, ETA 32 min (measured), estimate 72 min; memory: our tree 10.6 GB, host used 10.2 GB; last o505_ubm1f train/building_15361/denver_1 cost 0.0096969942969601
+2026-11-05 00:32:25 PROGRESS pipeline5: screen batch 5/6: 276/450 episodes in 45.2 min, ETA 28 min (measured), estimate 72 min; memory: our tree 11.2 GB, host used 10.6 GB
+2026-11-05 00:36:27 PROGRESS pipeline5: screen batch 5/6: 303/450 episodes in 49.2 min, ETA 24 min (measured), estimate 72 min; memory: our tree 11.1 GB, host used 10.6 GB; last o505_ubp2f train/building_18842/fairbanks_3 cost 0.01375185218997466
+2026-11-05 00:40:36 PROGRESS pipeline5: screen batch 5/6: 331/450 episodes in 53.4 min, ETA 19 min (measured), estimate 72 min; memory: our tree 9.4 GB, host used 8.9 GB; last o544_1 train/building_19950/denver_1 cost 0.013061124534924057
+2026-11-05 00:44:39 PROGRESS pipeline5: screen batch 5/6: 355/450 episodes in 57.4 min, ETA 15 min (measured), estimate 72 min; memory: our tree 8.6 GB, host used 8.1 GB; last o544_1 train/building_12567/atlanta_5 cost 0.005828399066945017
+2026-11-05 00:48:43 PROGRESS pipeline5: screen batch 5/6: 378/450 episodes in 61.5 min, ETA 12 min (measured), estimate 72 min; memory: our tree 9.1 GB, host used 8.5 GB
+2026-11-05 00:52:43 PROGRESS pipeline5: screen batch 5/6: 402/450 episodes in 65.5 min, ETA 8 min (measured), estimate 72 min; memory: our tree 9.9 GB, host used 9.4 GB; last o545_2 train/building_15361/denver_1 cost 0.013392214294030421
+2026-11-05 00:56:56 PROGRESS pipeline5: screen batch 5/6: 426/450 episodes in 69.7 min, ETA 4 min (measured), estimate 72 min; memory: our tree 11.4 GB, host used 10.9 GB
+2026-11-05 01:01:02 PROGRESS pipeline5: screen batch 5/6: 450/450 episodes in 73.8 min, estimate 72 min; memory: our tree 2.5 GB, host used 3.1 GB; last o545_3 train/building_19629/atlanta_5 cost 0.013592873588315225
+2026-11-05 01:01:03 PROGRESS pipeline5: screen batch 5/6: 450/450 episodes in 73.8 min, estimate 72 min; memory: our tree 0.1 GB, host used 0.9 GB
+2026-11-05 01:01:41 RESULT pipeline5: screen o503_2: cost-weighted +0.567% (billing-corrected +0.543%), upper bound -0.100%; paper drop, competition drop
+2026-11-05 01:01:41 RESULT pipeline5: screen o506_1: cost-weighted +0.653% (billing-corrected +0.487%), upper bound -0.189%; paper conditional, competition conditional
+2026-11-05 01:01:41 RESULT pipeline5: screen o506_2: cost-weighted +2.045% (billing-corrected +1.628%), upper bound -0.032%; paper drop, competition drop
+2026-11-05 01:01:41 RESULT pipeline5: screen o506_3: cost-weighted +4.841% (billing-corrected +4.160%), upper bound -0.002%; paper drop, competition drop
+2026-11-05 01:01:41 RESULT pipeline5: screen o505_1: cost-weighted +0.775% (billing-corrected +0.516%), upper bound -0.210%; paper conditional, competition conditional
+2026-11-05 01:01:41 RESULT pipeline5: screen o505_ubm1: cost-weighted +7.034% (billing-corrected +6.410%), upper bound -0.031%; paper drop, competition drop
+2026-11-05 01:01:41 RESULT pipeline5: screen o505_ubp1: cost-weighted +2.296% (billing-corrected +2.931%), upper bound -0.108%; paper drop, competition drop
+2026-11-05 01:01:41 RESULT pipeline5: screen o505_ubp2: cost-weighted +4.047% (billing-corrected +5.401%), upper bound -0.135%; paper drop, competition drop
+2026-11-05 01:01:41 RESULT pipeline5: screen o505_ubm1f: cost-weighted +7.034% (billing-corrected +6.410%), upper bound -0.031%; paper drop, competition drop
+2026-11-05 01:01:41 RESULT pipeline5: screen o505_ubp1f: cost-weighted +6.278% (billing-corrected +5.710%), upper bound -0.045%; paper drop, competition drop
+2026-11-05 01:01:41 RESULT pipeline5: screen o505_ubp2f: cost-weighted +9.898% (billing-corrected +9.312%), upper bound -0.102%; paper drop, competition drop
+2026-11-05 01:01:41 RESULT pipeline5: screen o544_1: cost-weighted +1.727% (billing-corrected +1.323%), upper bound -0.387%; paper conditional, competition conditional
+2026-11-05 01:01:41 RESULT pipeline5: screen o545_1: cost-weighted +39.813% (billing-corrected +37.394%), upper bound +0.000%; paper drop, competition drop
+2026-11-05 01:01:41 RESULT pipeline5: screen o545_2: cost-weighted +39.555% (billing-corrected +37.133%), upper bound +0.000%; paper drop, competition drop
+2026-11-05 01:01:41 RESULT pipeline5: screen o545_3: cost-weighted +41.111% (billing-corrected +38.604%), upper bound +0.000%; paper drop, competition drop
+2026-11-05 01:01:41 RESULT pipeline5: direction competition after batch 5/6: 28 levels help, 9 conditional; estimated saving -91.66% (nominal, additive), ceiling -98.02%
+2026-11-05 01:01:41 RESULT pipeline5: direction paper after batch 5/6: 21 levels help, 8 conditional; estimated saving -4.56% (billing-corrected, additive), ceiling -5.75%
+2026-11-05 01:01:41 EVENT pipeline5: screen batch 6/6: 300 episodes needed, 30 already on disk or reused, 270 to record
+2026-11-05 01:01:41 EVENT pipeline5: screen batch 6/6: recording 270 episodes with 10 workers; estimate 44 min (measured 1.64 min per episode per worker)
+2026-11-05 01:01:56 PROGRESS pipeline5: screen batch 6/6: 0/270 episodes in 0.3 min, estimate 44 min; memory: our tree 7.3 GB, host used 6.9 GB
+2026-11-05 01:06:00 PROGRESS pipeline5: screen batch 6/6: 24/270 episodes in 4.3 min, ETA 44 min (measured), estimate 44 min; memory: our tree 9.1 GB, host used 8.7 GB; last o526_3 train/building_11818/phoenix_3 cost 0.01678991122766832
+2026-11-05 01:10:04 PROGRESS pipeline5: screen batch 6/6: 50/270 episodes in 8.4 min, ETA 37 min (measured), estimate 44 min; memory: our tree 9.0 GB, host used 8.6 GB; last p601_1 train/building_18764/fairbanks_5 cost 0.010623020842960842
+2026-11-05 01:14:14 PROGRESS pipeline5: screen batch 6/6: 75/270 episodes in 12.6 min, ETA 33 min (measured), estimate 44 min; memory: our tree 10.1 GB, host used 9.7 GB; last p601_2 train/building_18764/denver_7 cost 0.00883517577724638
+2026-11-05 01:18:29 PROGRESS pipeline5: screen batch 6/6: 102/270 episodes in 16.8 min, ETA 28 min (measured), estimate 44 min; memory: our tree 9.8 GB, host used 9.2 GB
+2026-11-05 01:22:34 PROGRESS pipeline5: screen batch 6/6: 130/270 episodes in 20.9 min, ETA 22 min (measured), estimate 44 min; memory: our tree 11.2 GB, host used 10.8 GB; last p602_1 train/building_11534/denver_1 cost 0.013360856297601592
+2026-11-05 01:26:42 PROGRESS pipeline5: screen batch 6/6: 155/270 episodes in 25.0 min, ETA 19 min (measured), estimate 44 min; memory: our tree 11.0 GB, host used 10.6 GB; last p602_1 train/building_19629/atlanta_5 cost 0.007531699487320854
+2026-11-05 01:30:43 PROGRESS pipeline5: screen batch 6/6: 182/270 episodes in 29.0 min, ETA 14 min (measured), estimate 44 min; memory: our tree 10.1 GB, host used 9.6 GB; last p603_1 train/building_19655/denver_1 cost 0.009862562728285389
+2026-11-05 01:34:53 PROGRESS pipeline5: screen batch 6/6: 210/270 episodes in 33.2 min, ETA 9 min (measured), estimate 44 min; memory: our tree 9.1 GB, host used 8.6 GB; last p611_1 train/building_12567/fairbanks_3 cost 0.014180821710237787
+2026-11-05 01:39:00 PROGRESS pipeline5: screen batch 6/6: 235/270 episodes in 37.3 min, ETA 6 min (measured), estimate 44 min; memory: our tree 8.7 GB, host used 8.2 GB; last p611_1 train/building_12567/atlanta_5 cost 0.005914929634690138
+2026-11-05 01:43:09 PROGRESS pipeline5: screen batch 6/6: 261/270 episodes in 41.5 min, ETA 1 min (measured), estimate 44 min; memory: our tree 9.0 GB, host used 8.5 GB; last p611_2 train/building_13597/phoenix_7 cost 0.002999492251598838
+2026-11-05 01:45:08 PROGRESS pipeline5: screen batch 6/6: 270/270 episodes in 43.4 min, estimate 44 min; memory: our tree 0.1 GB, host used 1.0 GB
+2026-11-05 01:45:43 RESULT pipeline5: screen o526_3: cost-weighted -0.220% (billing-corrected -0.326%), upper bound -1.073%; paper keep, competition keep
+2026-11-05 01:45:43 RESULT pipeline5: screen p601_1: cost-weighted +5.971% (billing-corrected +6.044%), upper bound -0.217%; paper conditional, competition drop
+2026-11-05 01:45:43 RESULT pipeline5: screen p601_2: cost-weighted +6.748% (billing-corrected +7.006%), upper bound -0.029%; paper conditional, competition drop
+2026-11-05 01:45:43 RESULT pipeline5: screen p601_3: cost-weighted -0.236% (billing-corrected -0.528%), upper bound -1.519%; paper keep, competition keep
+2026-11-05 01:45:43 RESULT pipeline5: screen p602_1: cost-weighted +7.233% (billing-corrected +6.591%), upper bound -0.403%; paper drop, competition drop
+2026-11-05 01:45:43 RESULT pipeline5: screen p602_2: cost-weighted +6.994% (billing-corrected +6.466%), upper bound -0.311%; paper drop, competition drop
+2026-11-05 01:45:43 RESULT pipeline5: screen p603_1: cost-weighted +14.816% (billing-corrected +13.856%), upper bound -0.350%; paper drop, competition drop
+2026-11-05 01:45:43 RESULT pipeline5: screen p611_1: cost-weighted -11.071% (billing-corrected +11.740%), upper bound -11.804%; paper not on the paper track, competition keep
+2026-11-05 01:45:43 RESULT pipeline5: screen p611_2: cost-weighted -12.417% (billing-corrected +9.323%), upper bound -13.273%; paper not on the paper track, competition keep
+2026-11-05 01:45:43 RESULT pipeline5: direction competition after batch 6/6: 32 levels help, 9 conditional; estimated saving -104.54% (nominal, additive), ceiling -113.89%
+2026-11-05 01:45:43 RESULT pipeline5: direction paper after batch 6/6: 23 levels help, 10 conditional; estimated saving -5.41% (billing-corrected, additive), ceiling -8.51%
+2026-11-05 01:45:43 EVENT pipeline5: screen survivors: competition ['o521_1', 'o541_1', 'o501_1', 'o512_1', 'o523_1', 'o523_2', 'o528_1', 'o532_1', 'o550_1', 'o551_1', 'o546_1', 'o546_2', 'o508_1', 'o508_2', 'o540_2', 'o541_2', 'o516_1', 'o514_1', 'o522_1', 'o507_3', 'o547_1', 'o547_2', 'o548_1', 'o549_1', 'o549_2', 'o517_1', 'o518_1', 'o520_1', 'o524_2', 'o524_3', 'o525_1', 'o533_1', 'o537_1', 'o539_1', 'o539_2', 'o529_1', 'o503_1', 'o526_3', 'p601_3', 'p611_1', 'p611_2']; paper ['o502_1', 'o516_2', 'o521_1', 'o541_1', 'o501_1', 'o512_1', 'o523_1', 'o523_2', 'o528_1', 'o528_2', 'o532_1', 'o542_1', 'o508_1', 'o508_2', 'o540_2', 'o541_2', 'o516_1', 'o514_1', 'o522_1', 'o517_1', 'o518_1', 'o520_1', 'o524_2', 'o524_3', 'o525_1', 'o537_1', 'o539_1', 'o539_2', 'o529_1', 'o503_1', 'o526_3', 'p601_3']
+2026-11-05 01:45:43 EVENT pipeline5: stage screen done in 120.0 min (attempt 1)
+2026-11-05 01:45:43 EVENT pipeline5: competition design: 25 whole-plot + 7 sub-plot factors -> 64 runs (64 base), main effects clear False, 31 of 496 pairwise interactions estimable; 0 runs reuse earlier records
+2026-11-05 01:45:43 EVENT pipeline5: competition design: 1920 episodes needed, 0 already on disk or reused, 1920 to record
+2026-11-05 01:45:43 EVENT pipeline5: competition design: recording 1920 episodes with 10 workers; estimate 309 min (measured 1.61 min per episode per worker)
+2026-11-05 01:45:58 PROGRESS pipeline5: competition design: 0/1920 episodes in 0.3 min, estimate 309 min; memory: our tree 7.3 GB, host used 6.9 GB
+2026-11-05 01:50:02 PROGRESS pipeline5: competition design: 24/1920 episodes in 4.3 min, ETA 341 min (measured), estimate 309 min; memory: our tree 9.0 GB, host used 8.7 GB; last g5cda00 train/building_11818/phoenix_3 cost 0.016813199360998277
+2026-11-05 01:54:08 PROGRESS pipeline5: competition design: 49/1920 episodes in 8.4 min, ETA 322 min (measured), estimate 309 min; memory: our tree 9.5 GB, host used 8.9 GB; last g5cda01 train/building_18764/fairbanks_5 cost 0.010202532583408603
+2026-11-05 01:58:21 PROGRESS pipeline5: competition design: 74/1920 episodes in 12.6 min, ETA 315 min (measured), estimate 309 min; memory: our tree 10.0 GB, host used 9.5 GB
+2026-11-05 02:02:21 PROGRESS pipeline5: competition design: 101/1920 episodes in 16.6 min, ETA 300 min (measured), estimate 309 min; memory: our tree 10.4 GB, host used 10.0 GB; last g5cda03 train/building_15361/denver_1 cost 0.010619626999474474
+2026-11-05 02:06:36 PROGRESS pipeline5: competition design: 126/1920 episodes in 20.9 min, ETA 297 min (measured), estimate 309 min; memory: our tree 11.5 GB, host used 10.9 GB
+2026-11-05 02:10:47 PROGRESS pipeline5: competition design: 154/1920 episodes in 25.1 min, ETA 288 min (measured), estimate 309 min; memory: our tree 10.9 GB, host used 10.4 GB; last g5cda05 train/building_15790/fairbanks_1 cost 0.03048827202190695
+2026-11-05 02:14:56 PROGRESS pipeline5: competition design: 181/1920 episodes in 29.2 min, ETA 281 min (measured), estimate 309 min; memory: our tree 9.8 GB, host used 9.2 GB
+2026-11-05 02:19:01 PROGRESS pipeline5: competition design: 207/1920 episodes in 33.3 min, ETA 276 min (measured), estimate 309 min; memory: our tree 9.9 GB, host used 9.4 GB; last g5cda06 train/building_14213/singapore_3 cost 0.009115087485325881
+2026-11-05 02:23:05 PROGRESS pipeline5: competition design: 233/1920 episodes in 37.4 min, ETA 271 min (measured), estimate 309 min; memory: our tree 9.1 GB, host used 8.7 GB; last g5cda07 train/building_11818/phoenix_3 cost 0.017671612197659576
+2026-11-05 02:27:11 PROGRESS pipeline5: competition design: 258/1920 episodes in 41.5 min, ETA 267 min (measured), estimate 309 min; memory: our tree 9.0 GB, host used 8.4 GB
+2026-11-05 02:31:12 PROGRESS pipeline5: competition design: 283/1920 episodes in 45.5 min, ETA 263 min (measured), estimate 309 min; memory: our tree 9.9 GB, host used 9.4 GB; last g5cda09 train/building_12336/atlanta_7 cost 0.003926427997443194
+2026-11-05 02:35:14 PROGRESS pipeline5: competition design: 308/1920 episodes in 49.5 min, ETA 259 min (measured), estimate 309 min; memory: our tree 11.6 GB, host used 11.3 GB; last g5cda10 train/building_12739/fairbanks_1 cost 0.028805845219595762
+2026-11-05 02:39:19 PROGRESS pipeline5: competition design: 334/1920 episodes in 53.6 min, ETA 254 min (measured), estimate 309 min; memory: our tree 11.4 GB, host used 10.9 GB; last g5cda11 train/building_15790/fairbanks_1 cost 0.03227025664605738
+2026-11-05 02:43:26 PROGRESS pipeline5: competition design: 361/1920 episodes in 57.7 min, ETA 249 min (measured), estimate 309 min; memory: our tree 9.9 GB, host used 9.4 GB
+2026-11-05 02:47:26 PROGRESS pipeline5: competition design: 388/1920 episodes in 61.7 min, ETA 244 min (measured), estimate 309 min; memory: our tree 9.3 GB, host used 8.9 GB; last g5cda12 train/building_14213/singapore_3 cost 0.00900653029727978
+2026-11-05 02:51:31 PROGRESS pipeline5: competition design: 412/1920 episodes in 65.8 min, ETA 241 min (measured), estimate 309 min; memory: our tree 9.3 GB, host used 8.9 GB; last g5cda13 train/building_17224/singapore_7 cost 0.004577308525178877
+2026-11-05 02:55:42 PROGRESS pipeline5: competition design: 438/1920 episodes in 70.0 min, ETA 237 min (measured), estimate 309 min; memory: our tree 9.1 GB, host used 8.5 GB
+2026-11-05 02:59:43 PROGRESS pipeline5: competition design: 463/1920 episodes in 74.0 min, ETA 233 min (measured), estimate 309 min; memory: our tree 10.1 GB, host used 9.6 GB; last g5cda15 train/building_12336/atlanta_7 cost 0.004080021240563175
+2026-11-05 03:03:44 PROGRESS pipeline5: competition design: 490/1920 episodes in 78.0 min, ETA 228 min (measured), estimate 309 min; memory: our tree 10.8 GB, host used 10.4 GB; last g5cda16 train/building_11534/denver_1 cost 0.011681849342758364
+2026-11-05 03:07:47 PROGRESS pipeline5: competition design: 514/1920 episodes in 82.1 min, ETA 224 min (measured), estimate 309 min; memory: our tree 11.3 GB, host used 10.8 GB; last g5cda16 train/building_19629/atlanta_5 cost 0.007048859876625709
+2026-11-05 03:11:51 PROGRESS pipeline5: competition design: 541/1920 episodes in 86.1 min, ETA 220 min (measured), estimate 309 min; memory: our tree 9.8 GB, host used 9.3 GB
+2026-11-05 03:15:53 PROGRESS pipeline5: competition design: 567/1920 episodes in 90.2 min, ETA 215 min (measured), estimate 309 min; memory: our tree 9.3 GB, host used 8.8 GB; last g5cda18 train/building_11902/phoenix_5 cost 0.012603054954652417
+2026-11-05 03:19:58 PROGRESS pipeline5: competition design: 592/1920 episodes in 94.2 min, ETA 211 min (measured), estimate 309 min; memory: our tree 9.0 GB, host used 8.5 GB; last g5cda19 train/building_17224/singapore_7 cost 0.00434127002605328
+2026-11-05 03:24:11 PROGRESS pipeline5: competition design: 618/1920 episodes in 98.5 min, ETA 207 min (measured), estimate 309 min; memory: our tree 9.0 GB, host used 8.4 GB
+2026-11-05 07:16:39 EVENT pipeline5: --redo competition.design: ['competition.design'] and the later stages of the same track run again
+2026-11-05 07:16:39 EVENT pipeline5: pipeline 5 resumes: tracks ['competition', 'paper'], 104 levels, 30 scenarios, workers <= 12, submit auto
+2026-11-05 07:16:39 EVENT pipeline5: competition base: 30 episodes needed, 0 already on disk or reused, 30 to record
+2026-11-05 07:16:39 EVENT pipeline5: competition base: recording 30 episodes with 12 workers; estimate 5 min (measured 1.61 min per episode per worker)
+2026-11-05 07:16:54 PROGRESS pipeline5: competition base: 0/30 episodes in 0.3 min, estimate 5 min; memory: our tree 9.3 GB, host used 8.8 GB
+2026-11-05 07:21:09 PROGRESS pipeline5: competition base: 26/30 episodes in 4.5 min, ETA 1 min (measured), estimate 5 min; memory: our tree 4.9 GB, host used 5.0 GB
+2026-11-05 07:22:48 PROGRESS pipeline5: competition base: 30/30 episodes in 6.1 min, estimate 5 min; memory: our tree 0.1 GB, host used 0.9 GB
+2026-11-05 07:22:48 EVENT pipeline5: competition design: 12 whole-plot + 2 sub-plot factors -> 64 runs (64 base), main effects clear True, 40 of 91 pairwise interactions estimable; 0 runs reuse earlier records
+2026-11-05 07:22:49 EVENT pipeline5: competition design: 1920 episodes needed, 0 already on disk or reused, 1920 to record
+2026-11-05 07:22:49 EVENT pipeline5: competition design: recording 1920 episodes with 12 workers; estimate 394 min (measured 2.46 min per episode per worker)
+2026-11-05 07:23:04 PROGRESS pipeline5: competition design: 0/1920 episodes in 0.3 min, estimate 394 min; memory: our tree 9.1 GB, host used 8.5 GB
+2026-11-05 07:27:06 PROGRESS pipeline5: competition design: 26/1920 episodes in 4.3 min, ETA 313 min (measured), estimate 394 min; memory: our tree 10.3 GB, host used 9.5 GB; last g5cda00 train/building_11010/singapore_1 cost 0.008507750208583149
+2026-11-05 07:31:10 PROGRESS pipeline5: competition design: 54/1920 episodes in 8.4 min, ETA 289 min (measured), estimate 394 min; memory: our tree 10.6 GB, host used 10.0 GB; last g5cda01 train/building_11818/phoenix_3 cost 0.01705936326336978
+2026-11-05 07:35:13 PROGRESS pipeline5: competition design: 79/1920 episodes in 12.4 min, ETA 289 min (measured), estimate 394 min; memory: our tree 10.9 GB, host used 10.0 GB; last g5cda02 train/building_18764/fairbanks_5 cost 0.01000140047206722
+2026-11-05 07:39:16 PROGRESS pipeline5: competition design: 108/1920 episodes in 16.5 min, ETA 276 min (measured), estimate 394 min; memory: our tree 10.4 GB, host used 9.4 GB; last g5cda03 train/building_19664/fairbanks_7 cost 0.003212472748279154
+2026-11-05 07:43:16 PROGRESS pipeline5: competition design: 137/1920 episodes in 20.5 min, ETA 266 min (measured), estimate 394 min; memory: our tree 9.2 GB, host used 8.5 GB; last g5cda04 train/building_14078/atlanta_1 cost 0.004601029357981996
+2026-11-05 07:47:17 PROGRESS pipeline5: competition design: 162/1920 episodes in 24.5 min, ETA 266 min (measured), estimate 394 min; memory: our tree 12.5 GB, host used 11.7 GB; last g5cda05 train/building_14042/fairbanks_1 cost 0.04358614920594775
+2026-11-05 07:51:22 PROGRESS pipeline5: competition design: 188/1920 episodes in 28.6 min, ETA 263 min (measured), estimate 394 min; memory: our tree 14.5 GB, host used 13.7 GB; last g5cda05 train/building_19629/atlanta_5 cost 0.006965084187766563
+2026-11-05 07:55:22 PROGRESS pipeline5: competition design: 216/1920 episodes in 32.6 min, ETA 257 min (measured), estimate 394 min; memory: our tree 13.6 GB, host used 12.9 GB
+2026-11-05 07:59:27 PROGRESS pipeline5: competition design: 245/1920 episodes in 36.6 min, ETA 251 min (measured), estimate 394 min; memory: our tree 13.2 GB, host used 12.4 GB; last g5cda08 train/building_19655/fairbanks_1 cost 0.016158871003119694
+2026-11-05 08:03:36 PROGRESS pipeline5: competition design: 273/1920 episodes in 40.8 min, ETA 246 min (measured), estimate 394 min; memory: our tree 12.1 GB, host used 11.4 GB
+2026-11-05 08:07:43 PROGRESS pipeline5: competition design: 302/1920 episodes in 44.9 min, ETA 241 min (measured), estimate 394 min; memory: our tree 12.1 GB, host used 11.3 GB; last g5cda10 train/building_18842/fairbanks_3 cost 0.008496070720300291
+2026-11-05 08:11:44 PROGRESS pipeline5: competition design: 331/1920 episodes in 48.9 min, ETA 235 min (measured), estimate 394 min; memory: our tree 11.3 GB, host used 10.6 GB; last g5cda11 train/building_19950/denver_1 cost 0.007478111961472315
+2026-11-05 08:15:47 PROGRESS pipeline5: competition design: 359/1920 episodes in 53.0 min, ETA 230 min (measured), estimate 394 min; memory: our tree 10.5 GB, host used 9.7 GB; last g5cda11 train/building_14213/singapore_3 cost 0.008090898892602524
+2026-11-05 08:19:50 PROGRESS pipeline5: competition design: 386/1920 episodes in 57.0 min, ETA 227 min (measured), estimate 394 min; memory: our tree 10.1 GB, host used 9.3 GB; last g5cda12 train/building_12567/atlanta_5 cost 0.005721589956613677
+2026-11-05 08:23:56 PROGRESS pipeline5: competition design: 413/1920 episodes in 61.1 min, ETA 223 min (measured), estimate 394 min; memory: our tree 10.4 GB, host used 9.6 GB; last g5cda13 train/building_13597/phoenix_7 cost 0.002994647990646785
+2026-11-05 08:27:59 PROGRESS pipeline5: competition design: 439/1920 episodes in 65.2 min, ETA 220 min (measured), estimate 394 min; memory: our tree 10.9 GB, host used 10.0 GB; last g5cda14 train/building_18764/fairbanks_5 cost 0.010651023391536861
+2026-11-05 08:32:07 PROGRESS pipeline5: competition design: 467/1920 episodes in 69.3 min, ETA 216 min (measured), estimate 394 min; memory: our tree 10.3 GB, host used 9.3 GB
+2026-11-05 08:36:07 PROGRESS pipeline5: competition design: 496/1920 episodes in 73.3 min, ETA 210 min (measured), estimate 394 min; memory: our tree 10.5 GB, host used 9.6 GB; last g5cda16 train/building_18764/denver_7 cost 0.0074748928849865046
+2026-11-05 08:40:13 PROGRESS pipeline5: competition design: 525/1920 episodes in 77.4 min, ETA 206 min (measured), estimate 394 min; memory: our tree 10.5 GB, host used 9.8 GB; last g5cda17 train/building_14073/atlanta_3 cost 0.005790574518990464
+2026-11-05 08:44:17 PROGRESS pipeline5: competition design: 553/1920 episodes in 81.5 min, ETA 201 min (measured), estimate 394 min; memory: our tree 11.8 GB, host used 11.1 GB; last g5cda18 train/building_14042/fairbanks_1 cost 0.04542173144473757
+2026-11-05 08:48:22 PROGRESS pipeline5: competition design: 580/1920 episodes in 85.6 min, ETA 198 min (measured), estimate 394 min; memory: our tree 13.2 GB, host used 12.4 GB; last g5cda19 train/building_11534/denver_1 cost 0.008222330597766184
+2026-11-05 08:52:22 PROGRESS pipeline5: competition design: 608/1920 episodes in 89.6 min, ETA 193 min (measured), estimate 394 min; memory: our tree 14.3 GB, host used 13.6 GB; last g5cda19 train/building_19629/atlanta_5 cost 0.00738077541251666
+2026-11-05 08:56:23 PROGRESS pipeline5: competition design: 636/1920 episodes in 93.6 min, ETA 189 min (measured), estimate 394 min; memory: our tree 13.8 GB, host used 13.1 GB
+2026-11-05 09:00:31 PROGRESS pipeline5: competition design: 666/1920 episodes in 97.7 min, ETA 184 min (measured), estimate 394 min; memory: our tree 13.7 GB, host used 13.0 GB
+2026-11-05 09:04:37 PROGRESS pipeline5: competition design: 696/1920 episodes in 101.8 min, ETA 179 min (measured), estimate 394 min; memory: our tree 12.8 GB, host used 12.1 GB; last g5cda23 train/building_19655/fairbanks_1 cost 0.013498154506018746
+2026-11-05 09:08:37 PROGRESS pipeline5: competition design: 723/1920 episodes in 105.8 min, ETA 175 min (measured), estimate 394 min; memory: our tree 12.2 GB, host used 11.4 GB
+2026-11-05 09:12:52 PROGRESS pipeline5: competition design: 753/1920 episodes in 110.0 min, ETA 171 min (measured), estimate 394 min; memory: our tree 12.1 GB, host used 11.3 GB
+2026-11-05 09:16:57 PROGRESS pipeline5: competition design: 781/1920 episodes in 114.1 min, ETA 166 min (measured), estimate 394 min; memory: our tree 12.3 GB, host used 11.5 GB
+2026-11-05 09:20:59 PROGRESS pipeline5: competition design: 811/1920 episodes in 118.2 min, ETA 162 min (measured), estimate 394 min; memory: our tree 11.4 GB, host used 10.6 GB; last g5cda27 train/building_19950/denver_1 cost 0.007474762949661022
+2026-11-05 09:22:49 EVENT pipeline5: pipeline 5 resumes: tracks ['paper'], 104 levels, 30 scenarios, workers <= 12, submit auto
+2026-11-05 09:22:49 EVENT pipeline5: paper base: 30 episodes needed, 0 already on disk or reused, 30 to record
+2026-11-05 09:22:49 EVENT pipeline5: paper base: recording 30 episodes with 12 workers; estimate 7 min (measured 2.46 min per episode per worker)
+2026-11-05 09:23:04 PROGRESS pipeline5: paper base: 0/30 episodes in 0.3 min, estimate 7 min; memory: our tree 9.2 GB, host used 8.6 GB
+2026-11-05 09:27:06 PROGRESS pipeline5: paper base: 25/30 episodes in 4.3 min, ETA 1 min (measured), estimate 7 min; memory: our tree 5.4 GB, host used 5.4 GB
+2026-11-05 09:29:01 PROGRESS pipeline5: paper base: 30/30 episodes in 6.2 min, estimate 7 min; memory: our tree 0.1 GB, host used 0.9 GB
+2026-11-05 09:29:01 EVENT pipeline5: paper design: 10 whole-plot + 2 sub-plot factors -> 64 runs (64 base), main effects clear True, 36 of 66 pairwise interactions estimable; 0 runs reuse earlier records
+2026-11-05 09:29:01 EVENT pipeline5: paper design: 1920 episodes needed, 0 already on disk or reused, 1920 to record
+2026-11-05 09:29:01 EVENT pipeline5: paper design: recording 1920 episodes with 12 workers; estimate 397 min (measured 2.48 min per episode per worker)
+2026-11-05 09:29:16 PROGRESS pipeline5: paper design: 0/1920 episodes in 0.3 min, estimate 397 min; memory: our tree 9.1 GB, host used 8.5 GB
+2026-11-05 09:33:16 PROGRESS pipeline5: paper design: 26/1920 episodes in 4.3 min, ETA 310 min (measured), estimate 397 min; memory: our tree 10.3 GB, host used 9.5 GB; last g5pda00 train/building_11010/singapore_1 cost 0.008544859111675178
+2026-11-05 09:37:21 PROGRESS pipeline5: paper design: 53/1920 episodes in 8.3 min, ETA 293 min (measured), estimate 397 min; memory: our tree 10.4 GB, host used 9.7 GB; last g5pda01 train/building_13597/phoenix_7 cost 0.0031254207545967807
+2026-11-05 09:41:24 PROGRESS pipeline5: paper design: 81/1920 episodes in 12.4 min, ETA 281 min (measured), estimate 397 min; memory: our tree 11.2 GB, host used 10.4 GB; last g5pda02 train/building_18764/fairbanks_5 cost 0.01019637993508402
+2026-11-05 09:45:29 PROGRESS pipeline5: paper design: 108/1920 episodes in 16.5 min, ETA 276 min (measured), estimate 397 min; memory: our tree 10.5 GB, host used 9.7 GB; last g5pda03 train/building_19664/fairbanks_7 cost 0.005077979705207902
+2026-11-05 09:49:30 PROGRESS pipeline5: paper design: 136/1920 episodes in 20.5 min, ETA 269 min (measured), estimate 397 min; memory: our tree 10.6 GB, host used 9.7 GB; last g5pda04 train/building_18764/denver_7 cost 0.00841408515668014
+2026-11-05 09:53:32 PROGRESS pipeline5: paper design: 164/1920 episodes in 24.5 min, ETA 262 min (measured), estimate 397 min; memory: our tree 11.1 GB, host used 10.5 GB; last g5pda05 train/building_15361/denver_1 cost 0.007958842318013167
+2026-11-05 09:57:41 PROGRESS pipeline5: paper design: 190/1920 episodes in 28.7 min, ETA 261 min (measured), estimate 397 min; memory: our tree 13.7 GB, host used 13.0 GB; last g5pda06 train/building_19768/fairbanks_3 cost 0.017604819480963766
+2026-11-05 10:01:52 PROGRESS pipeline5: paper design: 217/1920 episodes in 32.9 min, ETA 258 min (measured), estimate 397 min; memory: our tree 14.8 GB, host used 14.0 GB
+2026-11-05 10:05:57 PROGRESS pipeline5: paper design: 247/1920 episodes in 36.9 min, ETA 250 min (measured), estimate 397 min; memory: our tree 14.3 GB, host used 13.6 GB; last g5pda08 train/building_12739/fairbanks_1 cost 0.03206746934894453
+2026-11-05 10:10:01 PROGRESS pipeline5: paper design: 276/1920 episodes in 41.0 min, ETA 244 min (measured), estimate 397 min; memory: our tree 13.2 GB, host used 12.5 GB; last g5pda09 train/building_19655/fairbanks_1 cost 0.025591590472529395
+2026-11-05 10:14:01 PROGRESS pipeline5: paper design: 303/1920 episodes in 45.0 min, ETA 240 min (measured), estimate 397 min; memory: our tree 12.1 GB, host used 11.3 GB
+2026-11-05 10:18:02 PROGRESS pipeline5: paper design: 332/1920 episodes in 49.0 min, ETA 234 min (measured), estimate 397 min; memory: our tree 11.9 GB, host used 11.2 GB; last g5pda11 train/building_18842/fairbanks_3 cost 0.01424755962379817
+2026-11-05 10:22:03 PROGRESS pipeline5: paper design: 361/1920 episodes in 53.0 min, ETA 229 min (measured), estimate 397 min; memory: our tree 11.0 GB, host used 10.3 GB; last g5pda12 train/building_19950/denver_1 cost 0.012177315419253721
+2026-11-05 10:26:06 PROGRESS pipeline5: paper design: 387/1920 episodes in 57.1 min, ETA 226 min (measured), estimate 397 min; memory: our tree 11.4 GB, host used 10.5 GB; last g5pda12 train/building_11902/phoenix_5 cost 0.0125564607859017
+2026-11-05 10:30:09 PROGRESS pipeline5: paper design: 415/1920 episodes in 61.1 min, ETA 222 min (measured), estimate 397 min; memory: our tree 10.2 GB, host used 9.3 GB; last g5pda13 train/building_11010/singapore_1 cost 0.008372605589541561
+2026-11-05 10:34:13 PROGRESS pipeline5: paper design: 443/1920 episodes in 65.2 min, ETA 217 min (measured), estimate 397 min; memory: our tree 10.7 GB, host used 9.9 GB; last g5pda14 train/building_13597/phoenix_7 cost 0.0032058500428969673
+2026-11-05 10:38:17 PROGRESS pipeline5: paper design: 469/1920 episodes in 69.3 min, ETA 214 min (measured), estimate 397 min; memory: our tree 10.8 GB, host used 9.9 GB; last g5pda15 train/building_18764/fairbanks_5 cost 0.010416698099387646
+2026-11-05 10:42:23 PROGRESS pipeline5: paper design: 497/1920 episodes in 73.4 min, ETA 210 min (measured), estimate 397 min; memory: our tree 10.4 GB, host used 9.5 GB
+2026-11-05 10:46:26 PROGRESS pipeline5: paper design: 526/1920 episodes in 77.4 min, ETA 205 min (measured), estimate 397 min; memory: our tree 10.4 GB, host used 9.6 GB; last g5pda17 train/building_14078/atlanta_1 cost 0.0070418286721269175
+2026-11-05 10:50:40 PROGRESS pipeline5: paper design: 554/1920 episodes in 81.7 min, ETA 201 min (measured), estimate 397 min; memory: our tree 10.6 GB, host used 9.8 GB
+2026-11-05 10:54:44 PROGRESS pipeline5: paper design: 582/1920 episodes in 85.7 min, ETA 197 min (measured), estimate 397 min; memory: our tree 11.6 GB, host used 10.9 GB; last g5pda19 train/building_11534/denver_1 cost 0.01292185688861441
+2026-11-05 10:58:56 PROGRESS pipeline5: paper design: 608/1920 episodes in 89.9 min, ETA 194 min (measured), estimate 397 min; memory: our tree 13.1 GB, host used 12.3 GB
+2026-11-05 11:03:08 PROGRESS pipeline5: paper design: 637/1920 episodes in 94.1 min, ETA 190 min (measured), estimate 397 min; memory: our tree 14.6 GB, host used 13.8 GB
+2026-11-05 11:07:14 PROGRESS pipeline5: paper design: 666/1920 episodes in 98.2 min, ETA 185 min (measured), estimate 397 min; memory: our tree 13.7 GB, host used 13.0 GB
+2026-11-05 11:11:17 PROGRESS pipeline5: paper design: 694/1920 episodes in 102.3 min, ETA 181 min (measured), estimate 397 min; memory: our tree 12.8 GB, host used 12.0 GB; last g5pda23 train/building_14979/fairbanks_1 cost 0.024588577969879843
+2026-11-05 11:15:25 PROGRESS pipeline5: paper design: 723/1920 episodes in 106.4 min, ETA 176 min (measured), estimate 397 min; memory: our tree 12.2 GB, host used 11.4 GB
+2026-11-05 11:19:34 PROGRESS pipeline5: paper design: 753/1920 episodes in 110.5 min, ETA 171 min (measured), estimate 397 min; memory: our tree 11.9 GB, host used 11.1 GB; last g5pda25 train/building_19655/denver_1 cost 0.007527146924088393
+2026-11-05 11:23:43 PROGRESS pipeline5: paper design: 781/1920 episodes in 114.7 min, ETA 167 min (measured), estimate 397 min; memory: our tree 11.8 GB, host used 10.9 GB
+2026-11-05 11:27:51 PROGRESS pipeline5: paper design: 811/1920 episodes in 118.8 min, ETA 162 min (measured), estimate 397 min; memory: our tree 11.0 GB, host used 10.2 GB; last g5pda27 train/building_19950/denver_1 cost 0.012036734050378792
+2026-11-05 11:31:51 PROGRESS pipeline5: paper design: 838/1920 episodes in 122.8 min, ETA 159 min (measured), estimate 397 min; memory: our tree 10.6 GB, host used 9.9 GB; last g5pda27 train/building_11902/phoenix_5 cost 0.012562755915180832
+2026-11-05 11:36:05 PROGRESS pipeline5: paper design: 866/1920 episodes in 127.1 min, ETA 155 min (measured), estimate 397 min; memory: our tree 10.8 GB, host used 10.0 GB
+2026-11-05 11:40:15 PROGRESS pipeline5: paper design: 895/1920 episodes in 131.2 min, ETA 150 min (measured), estimate 397 min; memory: our tree 10.2 GB, host used 9.4 GB; last g5pda29 train/building_11010/singapore_1 cost 0.0084777896626166
+2026-11-05 11:44:18 PROGRESS pipeline5: paper design: 923/1920 episodes in 135.3 min, ETA 146 min (measured), estimate 397 min; memory: our tree 10.6 GB, host used 9.9 GB; last g5pda30 train/building_13597/phoenix_7 cost 0.0032698596574801467
+2026-11-05 11:48:30 PROGRESS pipeline5: paper design: 948/1920 episodes in 139.5 min, ETA 143 min (measured), estimate 397 min; memory: our tree 10.7 GB, host used 9.7 GB
+2026-11-05 11:52:36 PROGRESS pipeline5: paper design: 977/1920 episodes in 143.6 min, ETA 139 min (measured), estimate 397 min; memory: our tree 10.2 GB, host used 9.3 GB
+2026-11-05 11:56:39 PROGRESS pipeline5: paper design: 1004/1920 episodes in 147.6 min, ETA 135 min (measured), estimate 397 min; memory: our tree 10.7 GB, host used 9.8 GB
+2026-11-05 12:00:40 PROGRESS pipeline5: paper design: 1028/1920 episodes in 151.7 min, ETA 132 min (measured), estimate 397 min; memory: our tree 13.7 GB, host used 12.9 GB
+2026-11-05 12:04:43 PROGRESS pipeline5: paper design: 1058/1920 episodes in 155.7 min, ETA 127 min (measured), estimate 397 min; memory: our tree 14.0 GB, host used 13.4 GB; last g5pda34 train/building_19629/atlanta_5 cost 0.007287657966375154
+2026-11-05 12:08:54 PROGRESS pipeline5: paper design: 1086/1920 episodes in 159.9 min, ETA 123 min (measured), estimate 397 min; memory: our tree 13.6 GB, host used 13.0 GB
+2026-11-05 12:12:56 PROGRESS pipeline5: paper design: 1114/1920 episodes in 163.9 min, ETA 119 min (measured), estimate 397 min; memory: our tree 12.7 GB, host used 11.9 GB; last g5pda37 train/building_15790/fairbanks_1 cost 0.0372740724241494
+2026-11-05 12:17:09 PROGRESS pipeline5: paper design: 1143/1920 episodes in 168.1 min, ETA 114 min (measured), estimate 397 min; memory: our tree 12.2 GB, host used 11.4 GB
+2026-11-05 12:21:10 PROGRESS pipeline5: paper design: 1172/1920 episodes in 172.1 min, ETA 110 min (measured), estimate 397 min; memory: our tree 12.2 GB, host used 11.4 GB; last g5pda39 train/building_19655/denver_1 cost 0.007690817668191627
+2026-11-05 12:25:19 PROGRESS pipeline5: paper design: 1201/1920 episodes in 176.3 min, ETA 106 min (measured), estimate 397 min; memory: our tree 11.6 GB, host used 10.8 GB
+2026-11-05 12:29:25 PROGRESS pipeline5: paper design: 1231/1920 episodes in 180.4 min, ETA 101 min (measured), estimate 397 min; memory: our tree 11.1 GB, host used 10.4 GB; last g5pda41 train/building_19950/denver_1 cost 0.012132430343766962
+2026-11-05 12:33:28 PROGRESS pipeline5: paper design: 1257/1920 episodes in 184.4 min, ETA 97 min (measured), estimate 397 min; memory: our tree 11.5 GB, host used 10.7 GB; last g5pda41 train/building_14213/singapore_3 cost 0.00829472664939546
+2026-11-05 12:37:30 PROGRESS pipeline5: paper design: 1285/1920 episodes in 188.5 min, ETA 93 min (measured), estimate 397 min; memory: our tree 10.1 GB, host used 9.3 GB; last g5pda42 train/building_11010/singapore_1 cost 0.008514643797843105
+2026-11-05 12:41:43 PROGRESS pipeline5: paper design: 1312/1920 episodes in 192.7 min, ETA 89 min (measured), estimate 397 min; memory: our tree 10.7 GB, host used 9.8 GB
+2026-11-05 12:45:43 PROGRESS pipeline5: paper design: 1340/1920 episodes in 196.7 min, ETA 85 min (measured), estimate 397 min; memory: our tree 11.5 GB, host used 10.7 GB; last g5pda44 train/building_18764/fairbanks_5 cost 0.01039344438334207
+2026-11-05 12:49:44 PROGRESS pipeline5: paper design: 1368/1920 episodes in 200.7 min, ETA 81 min (measured), estimate 397 min; memory: our tree 10.4 GB, host used 9.5 GB; last g5pda45 train/building_19664/fairbanks_7 cost 0.0050080272258971464
+2026-11-05 12:53:45 PROGRESS pipeline5: paper design: 1397/1920 episodes in 204.7 min, ETA 77 min (measured), estimate 397 min; memory: our tree 10.2 GB, host used 9.5 GB; last g5pda46 train/building_18764/denver_7 cost 0.008320716777797655
+2026-11-05 12:57:57 PROGRESS pipeline5: paper design: 1424/1920 episodes in 208.9 min, ETA 73 min (measured), estimate 397 min; memory: our tree 10.6 GB, host used 9.8 GB
+2026-11-05 13:02:00 PROGRESS pipeline5: paper design: 1452/1920 episodes in 213.0 min, ETA 69 min (measured), estimate 397 min; memory: our tree 12.5 GB, host used 12.0 GB; last g5pda48 train/building_15361/denver_1 cost 0.008051410855315976
+2026-11-05 13:06:04 PROGRESS pipeline5: paper design: 1478/1920 episodes in 217.0 min, ETA 65 min (measured), estimate 397 min; memory: our tree 14.4 GB, host used 13.7 GB; last g5pda48 train/building_19629/atlanta_5 cost 0.007337511469504317
+2026-11-05 13:10:06 PROGRESS pipeline5: paper design: 1506/1920 episodes in 221.1 min, ETA 61 min (measured), estimate 397 min; memory: our tree 13.7 GB, host used 13.0 GB
+2026-11-05 13:14:08 PROGRESS pipeline5: paper design: 1534/1920 episodes in 225.1 min, ETA 57 min (measured), estimate 397 min; memory: our tree 13.0 GB, host used 12.1 GB; last g5pda51 train/building_14979/fairbanks_1 cost 0.024755633488886302
+2026-11-05 13:18:15 PROGRESS pipeline5: paper design: 1563/1920 episodes in 229.2 min, ETA 52 min (measured), estimate 397 min; memory: our tree 12.1 GB, host used 11.4 GB
+2026-11-05 13:22:25 PROGRESS pipeline5: paper design: 1592/1920 episodes in 233.4 min, ETA 48 min (measured), estimate 397 min; memory: our tree 12.1 GB, host used 11.3 GB; last g5pda53 train/building_19655/denver_1 cost 0.007544168900327975
+2026-11-05 13:26:27 PROGRESS pipeline5: paper design: 1620/1920 episodes in 237.4 min, ETA 44 min (measured), estimate 397 min; memory: our tree 11.5 GB, host used 10.7 GB
+2026-11-05 13:30:30 PROGRESS pipeline5: paper design: 1647/1920 episodes in 241.5 min, ETA 40 min (measured), estimate 397 min; memory: our tree 11.4 GB, host used 10.6 GB; last g5pda54 train/building_11902/phoenix_5 cost 0.012642736077784983
+2026-11-05 13:34:43 PROGRESS pipeline5: paper design: 1676/1920 episodes in 245.7 min, ETA 36 min (measured), estimate 397 min; memory: our tree 10.8 GB, host used 10.0 GB
+2026-11-05 13:38:54 PROGRESS pipeline5: paper design: 1705/1920 episodes in 249.9 min, ETA 32 min (measured), estimate 397 min; memory: our tree 10.2 GB, host used 9.5 GB; last g5pda56 train/building_12567/atlanta_5 cost 0.005879470373810644
+2026-11-05 13:42:57 PROGRESS pipeline5: paper design: 1733/1920 episodes in 253.9 min, ETA 27 min (measured), estimate 397 min; memory: our tree 10.6 GB, host used 10.0 GB; last g5pda57 train/building_13597/phoenix_7 cost 0.0031436241927886048
+2026-11-05 13:47:05 PROGRESS pipeline5: paper design: 1758/1920 episodes in 258.1 min, ETA 24 min (measured), estimate 397 min; memory: our tree 10.9 GB, host used 10.0 GB
+2026-11-05 13:51:14 PROGRESS pipeline5: paper design: 1788/1920 episodes in 262.2 min, ETA 19 min (measured), estimate 397 min; memory: our tree 10.5 GB, host used 9.6 GB; last g5pda59 train/building_19664/fairbanks_7 cost 0.004986039614488496
+2026-11-05 13:55:28 PROGRESS pipeline5: paper design: 1817/1920 episodes in 266.4 min, ETA 15 min (measured), estimate 397 min; memory: our tree 10.2 GB, host used 9.3 GB
+2026-11-05 13:59:28 PROGRESS pipeline5: paper design: 1845/1920 episodes in 270.5 min, ETA 11 min (measured), estimate 397 min; memory: our tree 10.8 GB, host used 10.1 GB; last g5pda61 train/building_18764/denver_7 cost 0.008062830687693031
+2026-11-05 14:03:29 PROGRESS pipeline5: paper design: 1870/1920 episodes in 274.5 min, ETA 7 min (measured), estimate 397 min; memory: our tree 13.5 GB, host used 12.7 GB; last g5pda62 train/building_11534/denver_1 cost 0.012950310001220178
+2026-11-05 14:07:36 PROGRESS pipeline5: paper design: 1898/1920 episodes in 278.6 min, ETA 3 min (measured), estimate 397 min; memory: our tree 14.6 GB, host used 13.9 GB; last g5pda63 train/building_11164/denver_1 cost 0.011876999151878911
+2026-11-05 14:11:30 PROGRESS pipeline5: paper design: 1920/1920 episodes in 282.5 min, estimate 397 min; memory: our tree 0.1 GB, host used 0.9 GB
+2026-11-05 14:11:57 RESULT pipeline5: paper design fit (30 scenarios, billing-corrected cost): chosen ['o525_1', 'o514_1', 'o516_1', 'o521_1', 'o502_1', 'o519_1', 'o544_1g', 'o529_1'], predicted cost-weighted -0.935% vs the track base g5pbase (-1.121% vs gt_u1b; together about -2.046%); by city atlanta -2.59%, denver -0.97%, fairbanks -0.18%, phoenix -0.83%, singapore -1.20%
+2026-11-05 14:11:57 EVENT pipeline5: stage paper.design done in 289.1 min (attempt 1)
+2026-11-05 14:11:57 EVENT pipeline5: paper verify gt_r5pa (base ['o542_1', 'o541_2', 'o540_2', 'o518_1', 'o524_3', 'o537_1', 'o532_1'] + ['o525_1', 'o514_1', 'o516_1', 'o521_1', 'o502_1', 'o519_1', 'o544_1g', 'o529_1']) on the 30 design scenarios
+2026-11-05 14:11:57 EVENT pipeline5: paper verify: 30 episodes needed, 0 already on disk or reused, 30 to record
+2026-11-05 14:11:57 EVENT pipeline5: paper verify: recording 30 episodes with 12 workers; estimate 5 min (measured 1.77 min per episode per worker)
+2026-11-05 14:12:12 PROGRESS pipeline5: paper verify: 0/30 episodes in 0.3 min, estimate 5 min; memory: our tree 9.1 GB, host used 8.5 GB
+2026-11-05 14:16:12 PROGRESS pipeline5: paper verify: 26/30 episodes in 4.3 min, ETA 1 min (measured), estimate 5 min; memory: our tree 5.3 GB, host used 5.5 GB; last gt_r5pa train/building_11010/singapore_1 cost 0.008369734998926164
+2026-11-05 14:18:08 PROGRESS pipeline5: paper verify: 30/30 episodes in 6.2 min, estimate 5 min; memory: our tree 0.1 GB, host used 0.9 GB
+2026-11-05 14:18:09 RESULT pipeline5: paper verify gt_r5pa: realised -1.187% vs predicted -0.935% against the track base g5pbase (billing-corrected, cost-weighted; -2.295% vs gt_u1b, nominal -2.161% vs gt_u1b; 24 better / 6 worse)
+2026-11-05 14:18:09 EVENT pipeline5: stage paper.verify done in 6.2 min (attempt 1)
+2026-11-05 14:18:09 EVENT pipeline5: closed loop gt_r5pa train_ceiling_rest60 starts (estimate 5 min; output data/runs/b2rl/geo5/jobs/closed_loop_gt_r5pa_train_ceiling_rest60.log)
+2026-11-05 14:18:09 PROGRESS pipeline5: closed loop gt_r5pa train_ceiling_rest60: 0/1 jobs in 0.0 min, estimate 5 min; memory: our tree 0.1 GB, host used 0.9 GB
+2026-11-05 14:22:09 PROGRESS pipeline5: closed loop gt_r5pa train_ceiling_rest60: 0/1 jobs in 4.0 min, estimate 5 min; memory: our tree 9.3 GB, host used 8.4 GB; last output: train/building_16071/denver_1 cost 0.00704 (138 s)
+2026-11-05 14:26:09 PROGRESS pipeline5: closed loop gt_r5pa train_ceiling_rest60: 0/1 jobs in 8.0 min, estimate 5 min; memory: our tree 2.1 GB, host used 2.4 GB; last output: train/building_14480/singapore_3 cost 0.00769 (92 s)
+2026-11-05 14:26:54 EVENT pipeline5: closed loop gt_r5pa train_ceiling_rest60 done in 8.8 min
+2026-11-05 14:26:55 EVENT pipeline5: closed loop gt_r5pa inner starts (estimate 9 min; output data/runs/b2rl/geo5/jobs/closed_loop_gt_r5pa_inner.log)
+2026-11-05 14:26:55 PROGRESS pipeline5: closed loop gt_r5pa inner: 0/1 jobs in 0.0 min, estimate 9 min; memory: our tree 0.1 GB, host used 0.9 GB
+2026-11-05 14:30:55 PROGRESS pipeline5: closed loop gt_r5pa inner: 0/1 jobs in 4.0 min, estimate 9 min; memory: our tree 1.5 GB, host used 2.0 GB; last output: inner/building_29410/fairbanks_7 cost 0.00390 (66 s)
+2026-11-05 14:31:25 EVENT pipeline5: closed loop gt_r5pa inner done in 4.5 min
+2026-11-05 14:31:25 EVENT pipeline5: closed loop gt_r5pa s4_first starts (estimate 5 min; output data/runs/b2rl/geo5/jobs/closed_loop_gt_r5pa_s4_first.log)
+2026-11-05 14:31:25 PROGRESS pipeline5: closed loop gt_r5pa s4_first: 0/1 jobs in 0.0 min, estimate 5 min; memory: our tree 0.1 GB, host used 0.9 GB
+2026-11-05 14:35:25 PROGRESS pipeline5: closed loop gt_r5pa s4_first: 0/1 jobs in 4.0 min, estimate 5 min; memory: our tree 6.6 GB, host used 6.2 GB; last output: val/building_30314/singapore_5 cost 0.01058 (68 s)
+2026-11-05 14:35:55 EVENT pipeline5: closed loop gt_r5pa s4_first done in 4.5 min
+2026-11-05 14:35:55 RESULT pipeline5: paper closed loop gt_r5pa against gt_u1b (nominal cost): held-out 60 +0.15, INNER 29 -0.71, S4 first 30 -0.19 points; below the pass rule
+2026-11-05 14:35:55 WAKE pipeline5: stage paper.closed_loop attempt 1: gate: paper closed loop gt_r5pa below the pass rule (held-out and INNER <= -0.5, S4 <= 0.5 points) -> data/runs/b2rl/geo5/wake.json
+2026-11-05 15:53:26 EVENT pipeline5: resume: stage paper.closed_loop attempt 2 (woken by gate)
+2026-11-05 15:53:26 EVENT pipeline5: --redo paper.verify: ['paper.verify'] and the later stages of the same track run again
+2026-11-05 15:53:26 EVENT pipeline5: pipeline 5 resumes: tracks ['paper'], 104 levels, 30 scenarios, workers <= 12, submit auto
+2026-11-05 15:53:26 EVENT pipeline5: paper verify: the reviewed base changed after the design: ['o542_1', 'o541_2', 'o540_2', 'o518_1', 'o524_3', 'o537_1', 'o532_1'] -> ['o542_1', 'o541_2', 'o540_2', 'o524_3', 'o537_1', 'o532_1']
+2026-11-05 15:53:26 EVENT pipeline5: paper base2: 30 episodes needed, 0 already on disk or reused, 30 to record
+2026-11-05 15:53:26 EVENT pipeline5: paper base2: recording 30 episodes with 12 workers; estimate 7 min (measured 2.47 min per episode per worker)
+2026-11-05 15:53:41 PROGRESS pipeline5: paper base2: 0/30 episodes in 0.3 min, estimate 7 min; memory: our tree 9.3 GB, host used 8.8 GB
+2026-11-05 15:57:41 PROGRESS pipeline5: paper base2: 26/30 episodes in 4.3 min, ETA 1 min (measured), estimate 7 min; memory: our tree 5.3 GB, host used 5.4 GB; last g5pbase2 train/building_11010/singapore_1 cost 0.008468469101182785
+2026-11-05 15:59:37 PROGRESS pipeline5: paper base2: 30/30 episodes in 6.2 min, estimate 7 min; memory: our tree 0.1 GB, host used 0.8 GB
+2026-11-05 15:59:37 EVENT pipeline5: paper verify gt_r5pa2 (base ['o542_1', 'o541_2', 'o540_2', 'o524_3', 'o537_1', 'o532_1'] + ['o525_1', 'o514_1', 'o516_1', 'o521_1', 'o502_1', 'o519_1', 'o544_1g', 'o529_1']) on the 30 design scenarios
+2026-11-05 15:59:37 EVENT pipeline5: paper verify: 30 episodes needed, 0 already on disk or reused, 30 to record
+2026-11-05 15:59:37 EVENT pipeline5: paper verify: recording 30 episodes with 12 workers; estimate 7 min (measured 2.47 min per episode per worker)
+2026-11-05 15:59:52 PROGRESS pipeline5: paper verify: 0/30 episodes in 0.3 min, estimate 7 min; memory: our tree 9.0 GB, host used 8.5 GB
+2026-11-05 16:03:54 PROGRESS pipeline5: paper verify: 25/30 episodes in 4.3 min, ETA 1 min (measured), estimate 7 min; memory: our tree 5.4 GB, host used 5.4 GB
+2026-11-05 16:05:51 PROGRESS pipeline5: paper verify: 30/30 episodes in 6.2 min, estimate 7 min; memory: our tree 0.1 GB, host used 0.8 GB
+2026-11-05 16:05:53 RESULT pipeline5: paper verify gt_r5pa2: realised -1.526% vs predicted -0.935% against the track base g5pbase2 (billing-corrected, cost-weighted; -2.290% vs gt_u1b, nominal -2.157% vs gt_u1b; 24 better / 6 worse)
+2026-11-05 16:05:53 WAKE pipeline5: stage paper.verify attempt 1: mismatch: paper verify: realised -1.526% differs from the predicted -0.935% by more than half (0.591 > 0.468 points) -> data/runs/b2rl/geo5/wake.json
+2026-11-05 16:07:46 EVENT pipeline5: resume: stage paper.verify attempt 2 (woken by mismatch)
+2026-11-05 16:07:46 EVENT pipeline5: pipeline 5 resumes: tracks ['paper'], 104 levels, 30 scenarios, workers <= 12, submit auto
+2026-11-05 16:07:46 EVENT pipeline5: paper verify: the reviewed base changed after the design: ['o542_1', 'o541_2', 'o540_2', 'o518_1', 'o524_3', 'o537_1', 'o532_1'] -> ['o542_1', 'o541_2', 'o540_2', 'o524_3', 'o537_1', 'o532_1']
+2026-11-05 16:07:47 EVENT pipeline5: paper base2: 30 episodes needed, 30 already on disk or reused, 0 to record
+2026-11-05 16:07:47 EVENT pipeline5: paper verify gt_r5pa2 (base ['o542_1', 'o541_2', 'o540_2', 'o524_3', 'o537_1', 'o532_1'] + ['o525_1', 'o514_1', 'o516_1', 'o521_1', 'o502_1', 'o519_1', 'o544_1g', 'o529_1']) on the 30 design scenarios
+2026-11-05 16:07:47 EVENT pipeline5: paper verify: 30 episodes needed, 30 already on disk or reused, 0 to record
+2026-11-05 16:07:49 RESULT pipeline5: paper verify gt_r5pa2: realised -1.526% vs predicted -0.935% against the track base g5pbase2 (billing-corrected, cost-weighted; -2.290% vs gt_u1b, nominal -2.157% vs gt_u1b; 24 better / 6 worse)
+2026-11-05 16:07:49 EVENT pipeline5: paper verify gt_r5pa2: base changed after the design, so the check is against gt_u1b: realised -2.290% vs predicted -2.046%
+2026-11-05 16:07:49 EVENT pipeline5: stage paper.verify done in 0.0 min (attempt 2)
+2026-11-05 16:07:49 EVENT pipeline5: closed loop gt_r5pa2 train_ceiling_rest60 starts (estimate 4 min; output data/runs/b2rl/geo5/jobs/closed_loop_gt_r5pa2_train_ceiling_rest60.log)
+2026-11-05 16:07:49 PROGRESS pipeline5: closed loop gt_r5pa2 train_ceiling_rest60: 0/1 jobs in 0.0 min, estimate 4 min; memory: our tree 0.1 GB, host used 1.0 GB
+2026-11-05 16:11:49 PROGRESS pipeline5: closed loop gt_r5pa2 train_ceiling_rest60: 0/1 jobs in 4.0 min, estimate 4 min; memory: our tree 9.9 GB, host used 9.0 GB; last output: train/building_19195/atlanta_3 cost 0.00450 (218 s)
+2026-11-05 16:15:49 PROGRESS pipeline5: closed loop gt_r5pa2 train_ceiling_rest60: 0/1 jobs in 8.0 min, estimate 4 min; memory: our tree 2.7 GB, host used 2.9 GB; last output: train/building_16613/singapore_1 cost 0.02042 (65 s)
+2026-11-05 16:16:34 EVENT pipeline5: closed loop gt_r5pa2 train_ceiling_rest60 done in 8.8 min
+2026-11-05 16:16:34 EVENT pipeline5: closed loop g5ploopref train_ceiling_rest60 starts (estimate 9 min; output data/runs/b2rl/geo5/jobs/closed_loop_g5ploopref_train_ceiling_rest60.log)
+2026-11-05 16:16:34 PROGRESS pipeline5: closed loop g5ploopref train_ceiling_rest60: 0/1 jobs in 0.0 min, estimate 9 min; memory: our tree 0.1 GB, host used 0.8 GB
+2026-11-05 16:20:34 PROGRESS pipeline5: closed loop g5ploopref train_ceiling_rest60: 0/1 jobs in 4.0 min, estimate 9 min; memory: our tree 8.4 GB, host used 7.6 GB; last output: train/building_16909/denver_5 cost 0.00382 (140 s)
+2026-11-05 16:24:34 PROGRESS pipeline5: closed loop g5ploopref train_ceiling_rest60: 0/1 jobs in 8.0 min, estimate 9 min; memory: our tree 2.0 GB, host used 2.4 GB; last output: train/building_19950/singapore_5 cost 0.00564 (51 s)
+2026-11-05 16:25:19 EVENT pipeline5: closed loop g5ploopref train_ceiling_rest60 done in 8.8 min
+2026-11-05 16:25:19 EVENT pipeline5: closed loop gt_r5pa2 inner starts (estimate 9 min; output data/runs/b2rl/geo5/jobs/closed_loop_gt_r5pa2_inner.log)
+2026-11-05 16:25:19 PROGRESS pipeline5: closed loop gt_r5pa2 inner: 0/1 jobs in 0.0 min, estimate 9 min; memory: our tree 0.1 GB, host used 0.8 GB
+2026-11-05 16:29:19 PROGRESS pipeline5: closed loop gt_r5pa2 inner: 0/1 jobs in 4.0 min, estimate 9 min; memory: our tree 1.5 GB, host used 1.9 GB; last output: inner/building_29410/fairbanks_7 cost 0.00390 (66 s)
+2026-11-05 16:29:49 EVENT pipeline5: closed loop gt_r5pa2 inner done in 4.5 min
+2026-11-05 16:29:49 EVENT pipeline5: closed loop g5ploopref inner starts (estimate 4 min; output data/runs/b2rl/geo5/jobs/closed_loop_g5ploopref_inner.log)
+2026-11-05 16:29:49 PROGRESS pipeline5: closed loop g5ploopref inner: 0/1 jobs in 0.0 min, estimate 4 min; memory: our tree 0.1 GB, host used 0.8 GB
+2026-11-05 16:33:49 PROGRESS pipeline5: closed loop g5ploopref inner: 0/1 jobs in 4.0 min, estimate 4 min; memory: our tree 1.5 GB, host used 1.9 GB; last output: inner/building_29410/fairbanks_7 cost 0.00405 (65 s)
+2026-11-05 16:34:19 EVENT pipeline5: closed loop g5ploopref inner done in 4.5 min
+2026-11-05 16:34:20 EVENT pipeline5: closed loop gt_r5pa2 s4_first starts (estimate 4 min; output data/runs/b2rl/geo5/jobs/closed_loop_gt_r5pa2_s4_first.log)
+2026-11-05 16:34:20 PROGRESS pipeline5: closed loop gt_r5pa2 s4_first: 0/1 jobs in 0.0 min, estimate 4 min; memory: our tree 0.1 GB, host used 0.8 GB
+2026-11-05 16:38:20 PROGRESS pipeline5: closed loop gt_r5pa2 s4_first: 0/1 jobs in 4.0 min, estimate 4 min; memory: our tree 8.2 GB, host used 7.4 GB; last output: val/building_30638/fairbanks_3 cost 0.01234 (100 s)
+2026-11-05 16:39:05 EVENT pipeline5: closed loop gt_r5pa2 s4_first done in 4.8 min
+2026-11-05 16:39:05 EVENT pipeline5: closed loop g5ploopref s4_first starts (estimate 5 min; output data/runs/b2rl/geo5/jobs/closed_loop_g5ploopref_s4_first.log)
+2026-11-05 16:39:05 PROGRESS pipeline5: closed loop g5ploopref s4_first: 0/1 jobs in 0.0 min, estimate 5 min; memory: our tree 0.1 GB, host used 0.8 GB
+2026-11-05 16:43:05 PROGRESS pipeline5: closed loop g5ploopref s4_first: 0/1 jobs in 4.0 min, estimate 5 min; memory: our tree 4.8 GB, host used 4.9 GB; last output: val/building_32725/singapore_3 cost 0.01584 (63 s)
+2026-11-05 16:43:35 EVENT pipeline5: closed loop g5ploopref s4_first done in 4.5 min
+2026-11-05 16:43:35 RESULT pipeline5: paper closed loop gt_r5pa2 against gt_u1b (reported only): held-out 60 -0.34, INNER 29 -1.14, S4 first 30 -0.38 points
+2026-11-05 16:43:35 RESULT pipeline5: paper closed loop gt_r5pa2 against g5ploopref (gt_u1b + ['o542_1']) (nominal cost): held-out 60 -2.28, INNER 29 -2.77, S4 first 30 -3.13 points; PASSED
+2026-11-05 16:43:35 EVENT pipeline5: stage paper.closed_loop done in 35.8 min (attempt 2)
+2026-11-05 16:43:35 EVENT pipeline5: --until paper.closed_loop: stopping here
+2026-11-05 16:44:51 EVENT pipeline5: pipeline 5 resumes: tracks ['paper'], 104 levels, 30 scenarios, workers <= 12, submit auto
+2026-11-05 16:44:51 EVENT pipeline5: paper gate gt_r5pa2 starts (estimate 187 min; output data/runs/b2rl/geo5/jobs/paper_gate_gt_r5pa2.log)
+2026-11-05 16:44:51 PROGRESS pipeline5: paper gate gt_r5pa2: 0/1 jobs in 0.0 min, estimate 187 min; memory: our tree 0.1 GB, host used 0.9 GB
+2026-11-05 16:48:51 PROGRESS pipeline5: paper gate gt_r5pa2: 0/1 jobs in 4.0 min, estimate 187 min; memory: our tree 0.1 GB, host used 0.8 GB; last output: 2026-11-05 16:45:14 EVENT gate gt_r5pa2: Kaggle gate job jg-b2rl-gt-r5pa2 pushed (5 kernels)
+2026-11-05 16:52:51 PROGRESS pipeline5: paper gate gt_r5pa2: 0/1 jobs in 8.0 min, estimate 187 min; memory: our tree 0.1 GB, host used 0.8 GB; last output: 2026-11-05 16:45:14 EVENT gate gt_r5pa2: Kaggle gate job jg-b2rl-gt-r5pa2 pushed (5 kernels)
+2026-11-05 16:56:51 PROGRESS pipeline5: paper gate gt_r5pa2: 0/1 jobs in 12.0 min, estimate 187 min; memory: our tree 0.1 GB, host used 0.8 GB; last output: 2026-11-05 16:45:14 EVENT gate gt_r5pa2: Kaggle gate job jg-b2rl-gt-r5pa2 pushed (5 kernels)
+2026-11-05 17:00:51 PROGRESS pipeline5: paper gate gt_r5pa2: 0/1 jobs in 16.0 min, estimate 187 min; memory: our tree 0.1 GB, host used 0.8 GB; last output: 2026-11-05 16:45:14 EVENT gate gt_r5pa2: Kaggle gate job jg-b2rl-gt-r5pa2 pushed (5 kernels)
+2026-11-05 17:04:51 PROGRESS pipeline5: paper gate gt_r5pa2: 0/1 jobs in 20.0 min, estimate 187 min; memory: our tree 0.1 GB, host used 0.8 GB; last output: 2026-11-05 16:45:14 EVENT gate gt_r5pa2: Kaggle gate job jg-b2rl-gt-r5pa2 pushed (5 kernels)
+2026-11-05 17:08:51 PROGRESS pipeline5: paper gate gt_r5pa2: 0/1 jobs in 24.0 min, estimate 187 min; memory: our tree 0.1 GB, host used 0.8 GB; last output: 2026-11-05 16:45:14 EVENT gate gt_r5pa2: Kaggle gate job jg-b2rl-gt-r5pa2 pushed (5 kernels)
+2026-11-05 17:12:51 PROGRESS pipeline5: paper gate gt_r5pa2: 0/1 jobs in 28.0 min, estimate 187 min; memory: our tree 0.1 GB, host used 0.8 GB; last output: 2026-11-05 16:45:14 EVENT gate gt_r5pa2: Kaggle gate job jg-b2rl-gt-r5pa2 pushed (5 kernels)
+2026-11-05 17:16:52 PROGRESS pipeline5: paper gate gt_r5pa2: 0/1 jobs in 32.0 min, estimate 187 min; memory: our tree 0.1 GB, host used 0.8 GB; last output: 2026-11-05 16:45:14 EVENT gate gt_r5pa2: Kaggle gate job jg-b2rl-gt-r5pa2 pushed (5 kernels)
+2026-11-05 17:20:52 PROGRESS pipeline5: paper gate gt_r5pa2: 0/1 jobs in 36.0 min, estimate 187 min; memory: our tree 0.1 GB, host used 0.8 GB; last output: 2026-11-05 16:45:14 EVENT gate gt_r5pa2: Kaggle gate job jg-b2rl-gt-r5pa2 pushed (5 kernels)
+2026-11-05 17:24:52 PROGRESS pipeline5: paper gate gt_r5pa2: 0/1 jobs in 40.0 min, estimate 187 min; memory: our tree 0.1 GB, host used 0.8 GB; last output: 2026-11-05 16:45:14 EVENT gate gt_r5pa2: Kaggle gate job jg-b2rl-gt-r5pa2 pushed (5 kernels)
+2026-11-05 17:28:52 PROGRESS pipeline5: paper gate gt_r5pa2: 0/1 jobs in 44.0 min, estimate 187 min; memory: our tree 0.1 GB, host used 0.8 GB; last output: 2026-11-05 16:45:14 EVENT gate gt_r5pa2: Kaggle gate job jg-b2rl-gt-r5pa2 pushed (5 kernels)
+2026-11-05 17:32:52 PROGRESS pipeline5: paper gate gt_r5pa2: 0/1 jobs in 48.0 min, estimate 187 min; memory: our tree 0.1 GB, host used 0.8 GB; last output: 2026-11-05 16:45:14 EVENT gate gt_r5pa2: Kaggle gate job jg-b2rl-gt-r5pa2 pushed (5 kernels)
+2026-11-05 17:36:52 PROGRESS pipeline5: paper gate gt_r5pa2: 0/1 jobs in 52.0 min, estimate 187 min; memory: our tree 0.1 GB, host used 0.8 GB; last output: 2026-11-05 16:45:14 EVENT gate gt_r5pa2: Kaggle gate job jg-b2rl-gt-r5pa2 pushed (5 kernels)
+2026-11-05 17:40:52 PROGRESS pipeline5: paper gate gt_r5pa2: 0/1 jobs in 56.0 min, estimate 187 min; memory: our tree 0.1 GB, host used 0.8 GB; last output: 2026-11-05 16:45:14 EVENT gate gt_r5pa2: Kaggle gate job jg-b2rl-gt-r5pa2 pushed (5 kernels)
+2026-11-05 17:44:52 PROGRESS pipeline5: paper gate gt_r5pa2: 0/1 jobs in 60.0 min, estimate 187 min; memory: our tree 0.1 GB, host used 0.8 GB; last output: 2026-11-05 16:45:14 EVENT gate gt_r5pa2: Kaggle gate job jg-b2rl-gt-r5pa2 pushed (5 kernels)
+2026-11-05 17:48:52 PROGRESS pipeline5: paper gate gt_r5pa2: 0/1 jobs in 64.0 min, estimate 187 min; memory: our tree 0.1 GB, host used 0.8 GB; last output: 2026-11-05 16:45:14 EVENT gate gt_r5pa2: Kaggle gate job jg-b2rl-gt-r5pa2 pushed (5 kernels)
+2026-11-05 17:52:52 PROGRESS pipeline5: paper gate gt_r5pa2: 0/1 jobs in 68.0 min, estimate 187 min; memory: our tree 0.1 GB, host used 0.8 GB; last output: 2026-11-05 16:45:14 EVENT gate gt_r5pa2: Kaggle gate job jg-b2rl-gt-r5pa2 pushed (5 kernels)
+2026-11-05 17:56:52 PROGRESS pipeline5: paper gate gt_r5pa2: 0/1 jobs in 72.0 min, estimate 187 min; memory: our tree 0.1 GB, host used 0.8 GB; last output: 2026-11-05 16:45:14 EVENT gate gt_r5pa2: Kaggle gate job jg-b2rl-gt-r5pa2 pushed (5 kernels)
+2026-11-05 18:00:52 PROGRESS pipeline5: paper gate gt_r5pa2: 0/1 jobs in 76.0 min, estimate 187 min; memory: our tree 0.1 GB, host used 0.8 GB; last output: 2026-11-05 16:45:14 EVENT gate gt_r5pa2: Kaggle gate job jg-b2rl-gt-r5pa2 pushed (5 kernels)
+2026-11-05 18:04:52 PROGRESS pipeline5: paper gate gt_r5pa2: 0/1 jobs in 80.0 min, estimate 187 min; memory: our tree 0.1 GB, host used 0.8 GB; last output: 2026-11-05 16:45:14 EVENT gate gt_r5pa2: Kaggle gate job jg-b2rl-gt-r5pa2 pushed (5 kernels)
+2026-11-05 18:08:52 PROGRESS pipeline5: paper gate gt_r5pa2: 0/1 jobs in 84.0 min, estimate 187 min; memory: our tree 0.1 GB, host used 0.8 GB; last output: 2026-11-05 16:45:14 EVENT gate gt_r5pa2: Kaggle gate job jg-b2rl-gt-r5pa2 pushed (5 kernels)
+2026-11-05 18:12:52 PROGRESS pipeline5: paper gate gt_r5pa2: 0/1 jobs in 88.0 min, estimate 187 min; memory: our tree 0.1 GB, host used 0.8 GB; last output: 2026-11-05 16:45:14 EVENT gate gt_r5pa2: Kaggle gate job jg-b2rl-gt-r5pa2 pushed (5 kernels)
+2026-11-05 18:16:52 PROGRESS pipeline5: paper gate gt_r5pa2: 0/1 jobs in 92.0 min, estimate 187 min; memory: our tree 0.1 GB, host used 0.8 GB; last output: 2026-11-05 16:45:14 EVENT gate gt_r5pa2: Kaggle gate job jg-b2rl-gt-r5pa2 pushed (5 kernels)
+2026-11-05 18:20:52 PROGRESS pipeline5: paper gate gt_r5pa2: 0/1 jobs in 96.0 min, estimate 187 min; memory: our tree 0.1 GB, host used 0.8 GB; last output: 2026-11-05 16:45:14 EVENT gate gt_r5pa2: Kaggle gate job jg-b2rl-gt-r5pa2 pushed (5 kernels)
+2026-11-05 18:24:53 PROGRESS pipeline5: paper gate gt_r5pa2: 0/1 jobs in 100.0 min, estimate 187 min; memory: our tree 0.1 GB, host used 16.1 GB; last output: 2026-11-05 16:45:14 EVENT gate gt_r5pa2: Kaggle gate job jg-b2rl-gt-r5pa2 pushed (5 kernels)
+2026-11-05 18:28:53 PROGRESS pipeline5: paper gate gt_r5pa2: 0/1 jobs in 104.0 min, estimate 187 min; memory: our tree 0.1 GB, host used 7.5 GB; last output: 2026-11-05 16:45:14 EVENT gate gt_r5pa2: Kaggle gate job jg-b2rl-gt-r5pa2 pushed (5 kernels)
+2026-11-05 18:32:53 PROGRESS pipeline5: paper gate gt_r5pa2: 0/1 jobs in 108.0 min, estimate 187 min; memory: our tree 0.1 GB, host used 8.9 GB; last output: 2026-11-05 16:45:14 EVENT gate gt_r5pa2: Kaggle gate job jg-b2rl-gt-r5pa2 pushed (5 kernels)
+2026-11-05 18:36:53 PROGRESS pipeline5: paper gate gt_r5pa2: 0/1 jobs in 112.0 min, estimate 187 min; memory: our tree 0.1 GB, host used 7.8 GB; last output: 2026-11-05 16:45:14 EVENT gate gt_r5pa2: Kaggle gate job jg-b2rl-gt-r5pa2 pushed (5 kernels)
+2026-11-05 18:40:53 PROGRESS pipeline5: paper gate gt_r5pa2: 0/1 jobs in 116.0 min, estimate 187 min; memory: our tree 0.1 GB, host used 6.9 GB; last output: 2026-11-05 16:45:14 EVENT gate gt_r5pa2: Kaggle gate job jg-b2rl-gt-r5pa2 pushed (5 kernels)
+2026-11-05 18:44:53 PROGRESS pipeline5: paper gate gt_r5pa2: 0/1 jobs in 120.0 min, estimate 187 min; memory: our tree 0.1 GB, host used 7.1 GB; last output: 2026-11-05 16:45:14 EVENT gate gt_r5pa2: Kaggle gate job jg-b2rl-gt-r5pa2 pushed (5 kernels)
+2026-11-05 18:48:53 PROGRESS pipeline5: paper gate gt_r5pa2: 0/1 jobs in 124.0 min, estimate 187 min; memory: our tree 0.1 GB, host used 7.1 GB; last output: 2026-11-05 16:45:14 EVENT gate gt_r5pa2: Kaggle gate job jg-b2rl-gt-r5pa2 pushed (5 kernels)
+2026-11-05 18:52:53 PROGRESS pipeline5: paper gate gt_r5pa2: 0/1 jobs in 128.0 min, estimate 187 min; memory: our tree 0.1 GB, host used 7.0 GB; last output: 2026-11-05 16:45:14 EVENT gate gt_r5pa2: Kaggle gate job jg-b2rl-gt-r5pa2 pushed (5 kernels)
+2026-11-05 18:56:53 PROGRESS pipeline5: paper gate gt_r5pa2: 0/1 jobs in 132.0 min, estimate 187 min; memory: our tree 0.1 GB, host used 9.6 GB; last output: 2026-11-05 16:45:14 EVENT gate gt_r5pa2: Kaggle gate job jg-b2rl-gt-r5pa2 pushed (5 kernels)
+2026-11-05 19:00:53 PROGRESS pipeline5: paper gate gt_r5pa2: 0/1 jobs in 136.0 min, estimate 187 min; memory: our tree 0.1 GB, host used 8.2 GB; last output: 2026-11-05 16:45:14 EVENT gate gt_r5pa2: Kaggle gate job jg-b2rl-gt-r5pa2 pushed (5 kernels)
+2026-11-05 19:04:54 PROGRESS pipeline5: paper gate gt_r5pa2: 0/1 jobs in 140.0 min, estimate 187 min; memory: our tree 0.1 GB, host used 7.2 GB; last output: 2026-11-05 16:45:14 EVENT gate gt_r5pa2: Kaggle gate job jg-b2rl-gt-r5pa2 pushed (5 kernels)
+2026-11-05 19:08:54 PROGRESS pipeline5: paper gate gt_r5pa2: 0/1 jobs in 144.0 min, estimate 187 min; memory: our tree 0.1 GB, host used 9.6 GB; last output: 2026-11-05 16:45:14 EVENT gate gt_r5pa2: Kaggle gate job jg-b2rl-gt-r5pa2 pushed (5 kernels)
+2026-11-05 19:12:54 PROGRESS pipeline5: paper gate gt_r5pa2: 0/1 jobs in 148.0 min, estimate 187 min; memory: our tree 0.1 GB, host used 9.3 GB; last output: 2026-11-05 16:45:14 EVENT gate gt_r5pa2: Kaggle gate job jg-b2rl-gt-r5pa2 pushed (5 kernels)
+2026-11-05 19:16:54 PROGRESS pipeline5: paper gate gt_r5pa2: 0/1 jobs in 152.0 min, estimate 187 min; memory: our tree 0.1 GB, host used 8.8 GB; last output: 2026-11-05 16:45:14 EVENT gate gt_r5pa2: Kaggle gate job jg-b2rl-gt-r5pa2 pushed (5 kernels)
+2026-11-05 19:20:54 PROGRESS pipeline5: paper gate gt_r5pa2: 0/1 jobs in 156.0 min, estimate 187 min; memory: our tree 0.1 GB, host used 8.7 GB; last output: 2026-11-05 16:45:14 EVENT gate gt_r5pa2: Kaggle gate job jg-b2rl-gt-r5pa2 pushed (5 kernels)
+2026-11-05 19:24:54 PROGRESS pipeline5: paper gate gt_r5pa2: 0/1 jobs in 160.0 min, estimate 187 min; memory: our tree 0.1 GB, host used 5.6 GB; last output: 2026-11-05 16:45:14 EVENT gate gt_r5pa2: Kaggle gate job jg-b2rl-gt-r5pa2 pushed (5 kernels)
+2026-11-05 19:28:54 PROGRESS pipeline5: paper gate gt_r5pa2: 0/1 jobs in 164.0 min, estimate 187 min; memory: our tree 0.1 GB, host used 10.1 GB; last output: 2026-11-05 16:45:14 EVENT gate gt_r5pa2: Kaggle gate job jg-b2rl-gt-r5pa2 pushed (5 kernels)
+2026-11-05 19:32:54 PROGRESS pipeline5: paper gate gt_r5pa2: 0/1 jobs in 168.1 min, estimate 187 min; memory: our tree 0.1 GB, host used 6.2 GB; last output: 2026-11-05 16:45:14 EVENT gate gt_r5pa2: Kaggle gate job jg-b2rl-gt-r5pa2 pushed (5 kernels)
+2026-11-05 19:36:24 EVENT pipeline5: paper gate gt_r5pa2 done in 171.6 min
+2026-11-05 19:36:24 EVENT pipeline5: stage paper.gate done in 171.6 min (attempt 1)
+2026-11-05 19:36:26 RESULT pipeline5: paper submission rule for gt_r5pa2: estimated public 0.01103 (INNER-based 0.01094), competition reference 0.01108 (anchor gt-u1b 0.01108), threshold 0.01098 (reported only: a whole optimisation run is submitted without it); today's submissions 0 (UTC day 2026-11-05); SUBMIT
+2026-11-05 19:36:26 EVENT pipeline5: paper submit gt_r5pa2 starts (estimate 24 min; output data/runs/b2rl/geo5/jobs/paper_submit_gt_r5pa2.log)
+2026-11-05 19:36:26 PROGRESS pipeline5: paper submit gt_r5pa2: 0/1 jobs in 0.0 min, estimate 24 min; memory: our tree 0.0 GB, host used 5.6 GB
+2026-11-05 19:40:26 PROGRESS pipeline5: paper submit gt_r5pa2: 0/1 jobs in 4.0 min, estimate 24 min; memory: our tree 0.8 GB, host used 6.2 GB
+2026-11-05 19:44:26 PROGRESS pipeline5: paper submit gt_r5pa2: 0/1 jobs in 8.0 min, estimate 24 min; memory: our tree 0.1 GB, host used 7.1 GB; last output: INFO pushed antonktt/sb-gt-r5pa2 version 1 (private)
+2026-11-05 19:48:27 PROGRESS pipeline5: paper submit gt_r5pa2: 0/1 jobs in 12.0 min, estimate 24 min; memory: our tree 0.1 GB, host used 6.4 GB; last output: INFO pushed antonktt/sb-gt-r5pa2 version 1 (private)
+2026-11-05 19:52:27 PROGRESS pipeline5: paper submit gt_r5pa2: 0/1 jobs in 16.0 min, estimate 24 min; memory: our tree 0.1 GB, host used 6.4 GB; last output: INFO pushed antonktt/sb-gt-r5pa2 version 1 (private)
+2026-11-05 19:56:27 PROGRESS pipeline5: paper submit gt_r5pa2: 0/1 jobs in 20.0 min, estimate 24 min; memory: our tree 0.1 GB, host used 7.1 GB; last output: INFO pushed antonktt/sb-gt-r5pa2 version 1 (private)
+2026-11-05 19:57:42 EVENT pipeline5: paper submit gt_r5pa2 done in 21.3 min
+2026-11-05 19:57:42 RESULT pipeline5: paper submitted gt_r5pa2: ref 58021954; score in about 8 hours (stage score)
+2026-11-05 19:57:42 EVENT pipeline5: stage paper.submit done in 21.3 min (attempt 1)
+2026-11-05 19:57:42 EVENT pipeline5: score 58021954 starts (estimate 480 min; output data/runs/b2rl/geo5/jobs/score_58021954.log)
+2026-11-05 19:57:42 PROGRESS pipeline5: score 58021954: 0/1 jobs in 0.0 min, estimate 480 min; memory: our tree 0.0 GB, host used 6.6 GB
+2026-11-05 20:01:42 PROGRESS pipeline5: score 58021954: 0/1 jobs in 4.0 min, estimate 480 min; memory: our tree 0.1 GB, host used 5.5 GB
+2026-11-05 20:05:42 PROGRESS pipeline5: score 58021954: 0/1 jobs in 8.0 min, estimate 480 min; memory: our tree 0.1 GB, host used 6.6 GB
+2026-11-05 20:09:42 PROGRESS pipeline5: score 58021954: 0/1 jobs in 12.0 min, estimate 480 min; memory: our tree 0.1 GB, host used 5.7 GB
+2026-11-05 20:13:42 PROGRESS pipeline5: score 58021954: 0/1 jobs in 16.0 min, estimate 480 min; memory: our tree 0.1 GB, host used 6.9 GB
+2026-11-05 20:17:42 PROGRESS pipeline5: score 58021954: 0/1 jobs in 20.0 min, estimate 480 min; memory: our tree 0.1 GB, host used 7.2 GB
+2026-11-05 20:21:42 PROGRESS pipeline5: score 58021954: 0/1 jobs in 24.0 min, estimate 480 min; memory: our tree 0.1 GB, host used 7.2 GB
+2026-11-05 20:25:42 PROGRESS pipeline5: score 58021954: 0/1 jobs in 28.0 min, estimate 480 min; memory: our tree 0.1 GB, host used 7.4 GB
+2026-11-05 20:29:43 PROGRESS pipeline5: score 58021954: 0/1 jobs in 32.0 min, estimate 480 min; memory: our tree 0.1 GB, host used 6.5 GB
+2026-11-05 20:33:43 PROGRESS pipeline5: score 58021954: 0/1 jobs in 36.0 min, estimate 480 min; memory: our tree 0.1 GB, host used 7.1 GB
+2026-11-05 20:37:43 PROGRESS pipeline5: score 58021954: 0/1 jobs in 40.0 min, estimate 480 min; memory: our tree 0.1 GB, host used 7.5 GB
+2026-11-05 20:41:43 PROGRESS pipeline5: score 58021954: 0/1 jobs in 44.0 min, estimate 480 min; memory: our tree 0.1 GB, host used 7.3 GB
+2026-11-05 20:45:43 PROGRESS pipeline5: score 58021954: 0/1 jobs in 48.0 min, estimate 480 min; memory: our tree 0.1 GB, host used 8.0 GB
+2026-11-05 20:49:43 PROGRESS pipeline5: score 58021954: 0/1 jobs in 52.0 min, estimate 480 min; memory: our tree 0.1 GB, host used 8.3 GB
+2026-11-05 20:53:43 PROGRESS pipeline5: score 58021954: 0/1 jobs in 56.0 min, estimate 480 min; memory: our tree 0.1 GB, host used 7.8 GB
+2026-11-05 20:57:43 PROGRESS pipeline5: score 58021954: 0/1 jobs in 60.0 min, estimate 480 min; memory: our tree 0.1 GB, host used 7.2 GB
+2026-11-05 21:01:43 PROGRESS pipeline5: score 58021954: 0/1 jobs in 64.0 min, estimate 480 min; memory: our tree 0.1 GB, host used 7.0 GB
+2026-11-05 21:05:43 PROGRESS pipeline5: score 58021954: 0/1 jobs in 68.0 min, estimate 480 min; memory: our tree 0.1 GB, host used 6.4 GB
+2026-11-05 21:09:44 PROGRESS pipeline5: score 58021954: 0/1 jobs in 72.0 min, estimate 480 min; memory: our tree 0.1 GB, host used 6.4 GB
+2026-11-05 21:13:44 PROGRESS pipeline5: score 58021954: 0/1 jobs in 76.0 min, estimate 480 min; memory: our tree 0.1 GB, host used 7.8 GB
+2026-11-05 21:17:44 PROGRESS pipeline5: score 58021954: 0/1 jobs in 80.0 min, estimate 480 min; memory: our tree 0.1 GB, host used 6.9 GB
+2026-11-05 21:21:44 PROGRESS pipeline5: score 58021954: 0/1 jobs in 84.0 min, estimate 480 min; memory: our tree 0.1 GB, host used 6.0 GB
+2026-11-05 21:25:44 PROGRESS pipeline5: score 58021954: 0/1 jobs in 88.0 min, estimate 480 min; memory: our tree 0.1 GB, host used 7.6 GB
+2026-11-05 21:29:44 PROGRESS pipeline5: score 58021954: 0/1 jobs in 92.0 min, estimate 480 min; memory: our tree 0.1 GB, host used 7.3 GB
+2026-11-05 21:33:44 PROGRESS pipeline5: score 58021954: 0/1 jobs in 96.0 min, estimate 480 min; memory: our tree 0.1 GB, host used 7.4 GB
+2026-11-05 21:37:44 PROGRESS pipeline5: score 58021954: 0/1 jobs in 100.0 min, estimate 480 min; memory: our tree 0.1 GB, host used 7.0 GB
+2026-11-05 21:41:44 PROGRESS pipeline5: score 58021954: 0/1 jobs in 104.0 min, estimate 480 min; memory: our tree 0.1 GB, host used 7.2 GB
+2026-11-05 21:45:44 PROGRESS pipeline5: score 58021954: 0/1 jobs in 108.0 min, estimate 480 min; memory: our tree 0.1 GB, host used 6.2 GB
+2026-11-05 21:49:44 PROGRESS pipeline5: score 58021954: 0/1 jobs in 112.0 min, estimate 480 min; memory: our tree 0.1 GB, host used 6.8 GB
+2026-11-05 21:53:44 PROGRESS pipeline5: score 58021954: 0/1 jobs in 116.0 min, estimate 480 min; memory: our tree 0.1 GB, host used 6.2 GB
+2026-11-05 21:57:44 PROGRESS pipeline5: score 58021954: 0/1 jobs in 120.0 min, estimate 480 min; memory: our tree 0.1 GB, host used 8.6 GB
+2026-11-05 22:01:44 PROGRESS pipeline5: score 58021954: 0/1 jobs in 124.0 min, estimate 480 min; memory: our tree 0.1 GB, host used 6.1 GB
+2026-11-05 22:05:45 PROGRESS pipeline5: score 58021954: 0/1 jobs in 128.0 min, estimate 480 min; memory: our tree 0.1 GB, host used 6.7 GB
+2026-11-05 22:09:45 PROGRESS pipeline5: score 58021954: 0/1 jobs in 132.0 min, estimate 480 min; memory: our tree 0.1 GB, host used 6.8 GB
+2026-11-05 22:13:45 PROGRESS pipeline5: score 58021954: 0/1 jobs in 136.0 min, estimate 480 min; memory: our tree 0.1 GB, host used 7.5 GB
+2026-11-05 22:17:45 PROGRESS pipeline5: score 58021954: 0/1 jobs in 140.0 min, estimate 480 min; memory: our tree 0.1 GB, host used 7.2 GB
+2026-11-05 22:21:45 PROGRESS pipeline5: score 58021954: 0/1 jobs in 144.1 min, estimate 480 min; memory: our tree 0.1 GB, host used 7.4 GB
+2026-11-05 22:25:45 PROGRESS pipeline5: score 58021954: 0/1 jobs in 148.1 min, estimate 480 min; memory: our tree 0.1 GB, host used 8.9 GB
+2026-11-05 22:29:45 PROGRESS pipeline5: score 58021954: 0/1 jobs in 152.1 min, estimate 480 min; memory: our tree 0.1 GB, host used 8.7 GB
+2026-11-05 22:33:45 PROGRESS pipeline5: score 58021954: 0/1 jobs in 156.1 min, estimate 480 min; memory: our tree 0.1 GB, host used 8.7 GB
+2026-11-05 22:37:45 PROGRESS pipeline5: score 58021954: 0/1 jobs in 160.1 min, estimate 480 min; memory: our tree 0.1 GB, host used 8.4 GB
+2026-11-05 22:41:45 PROGRESS pipeline5: score 58021954: 0/1 jobs in 164.1 min, estimate 480 min; memory: our tree 0.1 GB, host used 8.6 GB
+2026-11-05 22:45:45 PROGRESS pipeline5: score 58021954: 0/1 jobs in 168.1 min, estimate 480 min; memory: our tree 0.1 GB, host used 8.6 GB
+2026-11-05 22:49:45 PROGRESS pipeline5: score 58021954: 0/1 jobs in 172.1 min, estimate 480 min; memory: our tree 0.1 GB, host used 9.3 GB
+2026-11-05 22:53:45 PROGRESS pipeline5: score 58021954: 0/1 jobs in 176.1 min, estimate 480 min; memory: our tree 0.1 GB, host used 9.1 GB
+2026-11-05 22:57:45 PROGRESS pipeline5: score 58021954: 0/1 jobs in 180.1 min, estimate 480 min; memory: our tree 0.1 GB, host used 2.6 GB
+2026-11-05 23:01:45 PROGRESS pipeline5: score 58021954: 0/1 jobs in 184.1 min, estimate 480 min; memory: our tree 0.1 GB, host used 7.8 GB
+2026-11-05 23:05:45 PROGRESS pipeline5: score 58021954: 0/1 jobs in 188.1 min, estimate 480 min; memory: our tree 0.1 GB, host used 7.6 GB
+2026-11-05 23:09:46 PROGRESS pipeline5: score 58021954: 0/1 jobs in 192.1 min, estimate 480 min; memory: our tree 0.1 GB, host used 1.9 GB
+2026-11-05 23:13:46 PROGRESS pipeline5: score 58021954: 0/1 jobs in 196.1 min, estimate 480 min; memory: our tree 0.1 GB, host used 4.7 GB
+2026-11-05 23:17:46 PROGRESS pipeline5: score 58021954: 0/1 jobs in 200.1 min, estimate 480 min; memory: our tree 0.1 GB, host used 8.5 GB
+2026-11-05 23:21:46 PROGRESS pipeline5: score 58021954: 0/1 jobs in 204.1 min, estimate 480 min; memory: our tree 0.1 GB, host used 7.2 GB
+2026-11-05 23:25:46 PROGRESS pipeline5: score 58021954: 0/1 jobs in 208.1 min, estimate 480 min; memory: our tree 0.1 GB, host used 6.7 GB
+2026-11-05 23:29:46 PROGRESS pipeline5: score 58021954: 0/1 jobs in 212.1 min, estimate 480 min; memory: our tree 0.1 GB, host used 6.8 GB
+2026-11-05 23:33:46 PROGRESS pipeline5: score 58021954: 0/1 jobs in 216.1 min, estimate 480 min; memory: our tree 0.1 GB, host used 2.5 GB
+2026-11-05 23:37:46 PROGRESS pipeline5: score 58021954: 0/1 jobs in 220.1 min, estimate 480 min; memory: our tree 0.1 GB, host used 7.3 GB
+2026-11-05 23:41:46 PROGRESS pipeline5: score 58021954: 0/1 jobs in 224.1 min, estimate 480 min; memory: our tree 0.1 GB, host used 0.8 GB
+2026-11-05 23:45:46 PROGRESS pipeline5: score 58021954: 0/1 jobs in 228.1 min, estimate 480 min; memory: our tree 0.1 GB, host used 0.8 GB
+2026-11-05 23:49:46 PROGRESS pipeline5: score 58021954: 0/1 jobs in 232.1 min, estimate 480 min; memory: our tree 0.1 GB, host used 0.8 GB
+2026-11-05 23:53:46 PROGRESS pipeline5: score 58021954: 0/1 jobs in 236.1 min, estimate 480 min; memory: our tree 0.1 GB, host used 0.8 GB
+2026-11-05 23:57:46 PROGRESS pipeline5: score 58021954: 0/1 jobs in 240.1 min, estimate 480 min; memory: our tree 0.1 GB, host used 0.9 GB
+2026-11-06 00:01:46 PROGRESS pipeline5: score 58021954: 0/1 jobs in 244.1 min, estimate 480 min; memory: our tree 0.1 GB, host used 0.8 GB
+2026-11-06 00:05:47 PROGRESS pipeline5: score 58021954: 0/1 jobs in 248.1 min, estimate 480 min; memory: our tree 0.1 GB, host used 0.8 GB
+2026-11-06 00:09:47 PROGRESS pipeline5: score 58021954: 0/1 jobs in 252.1 min, estimate 480 min; memory: our tree 0.1 GB, host used 0.8 GB
+2026-11-06 00:13:47 PROGRESS pipeline5: score 58021954: 0/1 jobs in 256.1 min, estimate 480 min; memory: our tree 0.1 GB, host used 0.8 GB
+2026-11-06 00:17:47 PROGRESS pipeline5: score 58021954: 0/1 jobs in 260.1 min, estimate 480 min; memory: our tree 0.1 GB, host used 0.8 GB
+2026-11-06 00:21:47 PROGRESS pipeline5: score 58021954: 0/1 jobs in 264.1 min, estimate 480 min; memory: our tree 0.1 GB, host used 0.8 GB
+2026-11-06 00:25:47 PROGRESS pipeline5: score 58021954: 0/1 jobs in 268.1 min, estimate 480 min; memory: our tree 0.1 GB, host used 0.8 GB
+2026-11-06 00:29:47 PROGRESS pipeline5: score 58021954: 0/1 jobs in 272.1 min, estimate 480 min; memory: our tree 0.1 GB, host used 0.8 GB
+2026-11-06 00:33:47 PROGRESS pipeline5: score 58021954: 0/1 jobs in 276.1 min, estimate 480 min; memory: our tree 0.1 GB, host used 9.0 GB
+2026-11-06 00:37:47 PROGRESS pipeline5: score 58021954: 0/1 jobs in 280.1 min, estimate 480 min; memory: our tree 0.1 GB, host used 11.9 GB
+2026-11-06 00:41:47 PROGRESS pipeline5: score 58021954: 0/1 jobs in 284.1 min, estimate 480 min; memory: our tree 0.1 GB, host used 9.5 GB
+2026-11-06 00:45:47 PROGRESS pipeline5: score 58021954: 0/1 jobs in 288.1 min, estimate 480 min; memory: our tree 0.1 GB, host used 9.5 GB
+2026-11-06 00:49:47 PROGRESS pipeline5: score 58021954: 0/1 jobs in 292.1 min, estimate 480 min; memory: our tree 0.1 GB, host used 9.1 GB
+2026-11-06 00:53:47 PROGRESS pipeline5: score 58021954: 0/1 jobs in 296.1 min, estimate 480 min; memory: our tree 0.1 GB, host used 10.2 GB
+2026-11-06 00:57:47 PROGRESS pipeline5: score 58021954: 0/1 jobs in 300.1 min, estimate 480 min; memory: our tree 0.1 GB, host used 8.4 GB
+2026-11-06 01:01:48 PROGRESS pipeline5: score 58021954: 0/1 jobs in 304.1 min, estimate 480 min; memory: our tree 0.1 GB, host used 8.6 GB
+2026-11-06 01:05:48 PROGRESS pipeline5: score 58021954: 0/1 jobs in 308.1 min, estimate 480 min; memory: our tree 0.1 GB, host used 8.7 GB
+2026-11-06 01:09:48 PROGRESS pipeline5: score 58021954: 0/1 jobs in 312.1 min, estimate 480 min; memory: our tree 0.1 GB, host used 9.0 GB
+2026-11-06 01:13:48 PROGRESS pipeline5: score 58021954: 0/1 jobs in 316.1 min, estimate 480 min; memory: our tree 0.1 GB, host used 8.2 GB
+2026-11-06 01:17:48 PROGRESS pipeline5: score 58021954: 0/1 jobs in 320.1 min, estimate 480 min; memory: our tree 0.1 GB, host used 12.2 GB
+2026-11-06 01:21:48 PROGRESS pipeline5: score 58021954: 0/1 jobs in 324.1 min, estimate 480 min; memory: our tree 0.1 GB, host used 10.8 GB
+2026-11-06 01:25:48 PROGRESS pipeline5: score 58021954: 0/1 jobs in 328.1 min, estimate 480 min; memory: our tree 0.1 GB, host used 9.1 GB
+2026-11-06 01:29:48 PROGRESS pipeline5: score 58021954: 0/1 jobs in 332.1 min, estimate 480 min; memory: our tree 0.1 GB, host used 10.5 GB
+2026-11-06 01:33:48 PROGRESS pipeline5: score 58021954: 0/1 jobs in 336.1 min, estimate 480 min; memory: our tree 0.1 GB, host used 9.9 GB
+2026-11-06 01:37:48 PROGRESS pipeline5: score 58021954: 0/1 jobs in 340.1 min, estimate 480 min; memory: our tree 0.1 GB, host used 8.2 GB
+2026-11-06 01:41:48 PROGRESS pipeline5: score 58021954: 0/1 jobs in 344.1 min, estimate 480 min; memory: our tree 0.1 GB, host used 8.1 GB
+2026-11-06 01:45:48 PROGRESS pipeline5: score 58021954: 0/1 jobs in 348.1 min, estimate 480 min; memory: our tree 0.1 GB, host used 8.1 GB
+2026-11-06 01:49:48 PROGRESS pipeline5: score 58021954: 0/1 jobs in 352.1 min, estimate 480 min; memory: our tree 0.1 GB, host used 8.8 GB
+2026-11-06 01:53:48 PROGRESS pipeline5: score 58021954: 0/1 jobs in 356.1 min, estimate 480 min; memory: our tree 0.1 GB, host used 9.5 GB
+2026-11-06 01:57:49 PROGRESS pipeline5: score 58021954: 0/1 jobs in 360.1 min, estimate 480 min; memory: our tree 0.1 GB, host used 7.5 GB
+2026-11-06 02:01:49 PROGRESS pipeline5: score 58021954: 0/1 jobs in 364.1 min, estimate 480 min; memory: our tree 0.1 GB, host used 7.2 GB
+2026-11-06 02:05:49 PROGRESS pipeline5: score 58021954: 0/1 jobs in 368.1 min, estimate 480 min; memory: our tree 0.1 GB, host used 7.5 GB
+2026-11-06 02:09:49 PROGRESS pipeline5: score 58021954: 0/1 jobs in 372.1 min, estimate 480 min; memory: our tree 0.1 GB, host used 8.2 GB
+2026-11-06 02:13:49 PROGRESS pipeline5: score 58021954: 0/1 jobs in 376.1 min, estimate 480 min; memory: our tree 0.1 GB, host used 7.6 GB
+2026-11-06 02:17:49 PROGRESS pipeline5: score 58021954: 0/1 jobs in 380.1 min, estimate 480 min; memory: our tree 0.1 GB, host used 9.1 GB
+2026-11-06 02:21:49 PROGRESS pipeline5: score 58021954: 0/1 jobs in 384.1 min, estimate 480 min; memory: our tree 0.1 GB, host used 9.5 GB
+2026-11-06 02:25:49 PROGRESS pipeline5: score 58021954: 0/1 jobs in 388.1 min, estimate 480 min; memory: our tree 0.1 GB, host used 7.8 GB
+2026-11-06 02:29:49 PROGRESS pipeline5: score 58021954: 0/1 jobs in 392.1 min, estimate 480 min; memory: our tree 0.1 GB, host used 8.8 GB
+2026-11-06 02:33:49 PROGRESS pipeline5: score 58021954: 0/1 jobs in 396.1 min, estimate 480 min; memory: our tree 0.1 GB, host used 8.7 GB
+2026-11-06 02:37:49 PROGRESS pipeline5: score 58021954: 0/1 jobs in 400.1 min, estimate 480 min; memory: our tree 0.1 GB, host used 8.6 GB
+2026-11-06 02:41:49 PROGRESS pipeline5: score 58021954: 0/1 jobs in 404.1 min, estimate 480 min; memory: our tree 0.1 GB, host used 7.6 GB
+2026-11-06 02:45:49 PROGRESS pipeline5: score 58021954: 0/1 jobs in 408.1 min, estimate 480 min; memory: our tree 0.1 GB, host used 8.0 GB
+2026-11-06 02:49:49 PROGRESS pipeline5: score 58021954: 0/1 jobs in 412.1 min, estimate 480 min; memory: our tree 0.1 GB, host used 8.8 GB
+2026-11-06 02:53:49 PROGRESS pipeline5: score 58021954: 0/1 jobs in 416.1 min, estimate 480 min; memory: our tree 0.1 GB, host used 10.8 GB
+2026-11-06 02:57:50 EVENT pipeline5: score 58021954 done in 420.1 min
+2026-11-06 02:57:50 RESULT pipeline5: score paper 58021954: public 0.01064 (estimated 0.01103)
+2026-11-06 02:57:50 EVENT pipeline5: stage score done in 420.1 min (attempt 1)
+2026-11-06 02:57:50 EVENT pipeline5: pipeline 5 done; summary data/runs/b2rl/geo5/summary.json

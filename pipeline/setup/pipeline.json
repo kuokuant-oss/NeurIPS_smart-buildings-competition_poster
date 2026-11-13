@@ -1,0 +1,29 @@
+{
+ "fast": {
+  "mode": "rom",
+  "worker_memory_mb": 1900,
+  "worst_cost_rel_err": 0.004549,
+  "summary": "\u5feb\u901f\u6a21\u64ec\u5668\u9a57\u8b49\u901a\u904e\uff1a29 \u500b\u5167\u90e8\u9a57\u8b49\u5834\u666f\u30013 \u7a2e\u898f\u5247\u5171 87 \u96c6\uff0c\u6bcf\u96c6\u6210\u672c\u8207\u5b98\u65b9\u5dee\u6700\u591a 0.46%\uff08\u4e2d\u4f4d\u6578 0.003%\uff09\uff0c\u898f\u5247\u4e4b\u9593\u7684\u597d\u58de\u5224\u65b7\u8207\u5b98\u65b9\u5b8c\u5168\u4e00\u81f4\uff1b\u6bcf\u96c6\u7d04\u5feb 11 \u500d\uff1b\u8a13\u7df4\u7528\u7684 367 \u500b\u60c5\u5883\u6a21\u578b\u5df2\u9810\u5148\u5efa\u597d\u3002"
+ },
+ "done_wait": "2026-10-28 04:07:40",
+ "done_free": "2026-10-28 04:08:10",
+ "envs": 9,
+ "done_train": "2026-10-28 08:56:14",
+ "gates": {
+  "inner": {
+   "n": 29,
+   "mean_diff": -4.254928067945282e-06,
+   "se": 0.00011470161126397407,
+   "better": 13,
+   "worse": 16,
+   "rel": -0.00030830223523204217,
+   "gate": false,
+   "policy_mean": 0.01379690374579905,
+   "baseline_mean": 0.013801158673866996
+  }
+ },
+ "passed": false,
+ "gate_source": "Kaggle j14b-b2rl-full15m",
+ "done_resume": "2026-10-28 11:53:55 (replaced: agent)",
+ "done_gate": "2026-10-28 11:53:55 (Kaggle)"
+}

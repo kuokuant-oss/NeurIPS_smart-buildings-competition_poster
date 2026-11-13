@@ -1,0 +1,223 @@
+{
+ "_note": "round 11 f0_hot120 -4.83% vs rule (l180_freeze0\n-5.08%; worse in 56 TRAIN scenarios, Singapore +0.63% on average), so the 180 min lead stays in every band (the three\nhot INNER scenarios that prefer 120 min are validation scenarios, not tuned on). Re-screen the whitelisted rule\nswitches of the baseline v2 \u00a72.1 audit, which were screened on 8 INNER scenarios against A1 only\n(docs/plan/baseline-v2.md \u00a72.1.1b), on l180_freeze0 over TRAIN 100: A12 cost-based SAT (-5.8%, SE 4.2%, mixed by\nclimate), A8 SAT by requests only (+7.7%, 6/8 better, hot days lost), light cycling, SAT maximum 20 C, A6 optimal\nstop, A11 night flush, A9 evening charge.",
+ "f0_a12_satcost": {
+  "breaks_c": [
+   0,
+   5,
+   20,
+   25
+  ],
+  "cold": {
+   "heating_max_ratio": 0.4529957279624725,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180
+  },
+  "mild": {
+   "heating_max_ratio": 0.36,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180
+  },
+  "hot": {
+   "heating_max_ratio": 0.4529957279624725,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180
+  },
+  "rule_config": {
+   "freeze_on_k": 273.15,
+   "freeze_off_k": 276.15,
+   "sat_cost_optimal": true
+  }
+ },
+ "f0_a8_satreq": {
+  "breaks_c": [
+   0,
+   5,
+   20,
+   25
+  ],
+  "cold": {
+   "heating_max_ratio": 0.4529957279624725,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180
+  },
+  "mild": {
+   "heating_max_ratio": 0.36,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180
+  },
+  "hot": {
+   "heating_max_ratio": 0.4529957279624725,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180
+  },
+  "rule_config": {
+   "freeze_on_k": 273.15,
+   "freeze_off_k": 276.15,
+   "sat_oat_low_k": 373.15,
+   "sat_oat_high_k": 373.15
+  }
+ },
+ "f0_cycle_light": {
+  "breaks_c": [
+   0,
+   5,
+   20,
+   25
+  ],
+  "cold": {
+   "heating_max_ratio": 0.4529957279624725,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180
+  },
+  "mild": {
+   "heating_max_ratio": 0.36,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180
+  },
+  "hot": {
+   "heating_max_ratio": 0.4529957279624725,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180
+  },
+  "rule_config": {
+   "freeze_on_k": 273.15,
+   "freeze_off_k": 276.15,
+   "occupied_cycling": true,
+   "cycle_charge_k": 0.0
+  }
+ },
+ "f0_satmax20": {
+  "breaks_c": [
+   0,
+   5,
+   20,
+   25
+  ],
+  "cold": {
+   "heating_max_ratio": 0.4529957279624725,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180
+  },
+  "mild": {
+   "heating_max_ratio": 0.36,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180
+  },
+  "hot": {
+   "heating_max_ratio": 0.4529957279624725,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180
+  },
+  "rule_config": {
+   "freeze_on_k": 273.15,
+   "freeze_off_k": 276.15,
+   "sat_max_k": 293.15
+  }
+ },
+ "f0_a6_stop": {
+  "breaks_c": [
+   0,
+   5,
+   20,
+   25
+  ],
+  "cold": {
+   "heating_max_ratio": 0.4529957279624725,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180
+  },
+  "mild": {
+   "heating_max_ratio": 0.36,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180
+  },
+  "hot": {
+   "heating_max_ratio": 0.4529957279624725,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180
+  },
+  "rule_config": {
+   "freeze_on_k": 273.15,
+   "freeze_off_k": 276.15,
+   "occupied_cycling": true,
+   "cycle_window_min": 90
+  }
+ },
+ "f0_a11_flush": {
+  "breaks_c": [
+   0,
+   5,
+   20,
+   25
+  ],
+  "cold": {
+   "heating_max_ratio": 0.4529957279624725,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180
+  },
+  "mild": {
+   "heating_max_ratio": 0.36,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180
+  },
+  "hot": {
+   "heating_max_ratio": 0.4529957279624725,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180
+  },
+  "rule_config": {
+   "freeze_on_k": 273.15,
+   "freeze_off_k": 276.15,
+   "night_flush": true
+  }
+ },
+ "f0_a9_charge": {
+  "breaks_c": [
+   0,
+   5,
+   20,
+   25
+  ],
+  "cold": {
+   "heating_max_ratio": 0.4529957279624725,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180
+  },
+  "mild": {
+   "heating_max_ratio": 0.36,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180
+  },
+  "hot": {
+   "heating_max_ratio": 0.4529957279624725,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180
+  },
+  "rule_config": {
+   "freeze_on_k": 273.15,
+   "freeze_off_k": 276.15,
+   "evening_charge_min": 120
+  }
+ }
+}

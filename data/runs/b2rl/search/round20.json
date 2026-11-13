@@ -1,0 +1,46 @@
+{
+ "_note": "the\nrule raised every non-zero airflow limit to DAMPER_FLOOR = 0.1 as a FLOW fraction, but the simulator's floor is a 0.1\ndamper POSITION (vav.py:490-495), i.e. 0.1 * sqrt(SP / 2000) of the design flow (about 0.05 at 510 Pa) \u2014 so min_flow\n0.05 was bit-identical to 0.1 and the real floor was never reached. min_flow 0.0 keeps the occupied minimum at 0\n(\"damper_floor\" zero entries), which the simulator holds at its position floor; A12 now prices the floor flow (bit-\nidentical at 0.1, checked on regress4). An upper bound: ventilation is not scored, so a lower minimum is a\nsimulator-only relaxation unless tied to occupancy. On at_short1_013 (TRAIN 100 -21.07% vs the original rule).\nHost python3.",
+ "short1_minflow0": {
+  "breaks_c": [
+   0,
+   5,
+   20,
+   25
+  ],
+  "cold": {
+   "heating_max_ratio": 0.4529957279624725,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180,
+   "discharge_offset_k": 14.0,
+   "sat_cost_guard_k": 30.0
+  },
+  "mild": {
+   "heating_max_ratio": 0.36,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180,
+   "discharge_offset_k": 14.0,
+   "sat_cost_guard_k": 0.25
+  },
+  "hot": {
+   "heating_max_ratio": 0.4529957279624725,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180,
+   "discharge_offset_k": 14.0,
+   "sat_cost_guard_k": 0.5
+  },
+  "rule_config": {
+   "freeze_on_k": 275.15,
+   "freeze_off_k": 278.15,
+   "sat_cost_optimal": true,
+   "sat_cost_guard_k": 0.5,
+   "zone_gain_per_k": 0.05,
+   "zone_ti_s": 450.0,
+   "empty_day_delay_min": 60,
+   "min_flow": 0.0
+  },
+  "layout": "v3"
+ }
+}

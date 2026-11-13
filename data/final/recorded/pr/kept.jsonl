@@ -1,0 +1,6 @@
+{"label": "options", "move": "drop no_reheat", "search": -0.0072827292765213145, "search_t": -2.201365119108649, "holdout": -0.0076258347040884765, "holdout_t": -2.637218153762889}
+{"label": "user", "move": "add setback_3k", "note": "user decision 2026-11-12; search -0.19% (t -1.0), not tested on holdout"}
+{"label": "schedule", "move": "occupied_margin_k hot +0.05", "search": -0.004110952966534675, "search_t": -4.210893189937733, "holdout": -0.0035702038714953976, "holdout_t": -6.23064742638334}
+{"label": "schedule", "move": "unoccupied_lead_min hot +60", "search": -0.0011143390791614697, "search_t": -1.9887218967179636, "holdout": -0.0008352950857547257, "holdout_t": -2.126330479201377}
+{"label": "schedule", "move": "occupied_margin_k hot +0.05", "search": -0.002751043069574269, "search_t": -4.32299543407562, "holdout": -0.0019095169067747024, "holdout_t": -5.05148284751126}
+{"label": "schedule", "move": "occupied_margin_k hot +0.05", "search": -0.0013986215189084339, "search_t": -3.087995418398057, "holdout": -0.0004328273727902451, "holdout_t": -0.9837010562061855}

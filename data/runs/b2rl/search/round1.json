@@ -1,0 +1,39 @@
+{
+ "_note": "round 1 (2026-10-28 20:2x): b1 = the fixed rule with the two single changes that helped in the breakdown (heating airflow ratio doubled to 0.406, optimal start cap back to 3 h); then one parameter at a time around b1",
+ "b1": {
+  "heating_max_ratio": 0.406,
+  "t_opt_max_s": 10800.0
+ },
+ "b1_heat036": {
+  "heating_max_ratio": 0.36,
+  "t_opt_max_s": 10800.0
+ },
+ "b1_heat031": {
+  "heating_max_ratio": 0.31,
+  "t_opt_max_s": 10800.0
+ },
+ "b1_topt9000": {
+  "heating_max_ratio": 0.406,
+  "t_opt_max_s": 9000.0
+ },
+ "b1_margin005": {
+  "heating_max_ratio": 0.406,
+  "t_opt_max_s": 10800.0,
+  "occupied_margin_k": 0.05
+ },
+ "b1_margin010": {
+  "heating_max_ratio": 0.406,
+  "t_opt_max_s": 10800.0,
+  "occupied_margin_k": 0.1
+ },
+ "b1_dis113": {
+  "heating_max_ratio": 0.406,
+  "t_opt_max_s": 10800.0,
+  "discharge_offset_k": 11.3
+ },
+ "b1_dis118": {
+  "heating_max_ratio": 0.406,
+  "t_opt_max_s": 10800.0,
+  "discharge_offset_k": 11.8
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "old_seeds_stopped": {
+  "s42": {
+   "update": 6,
+   "decisions": 2016
+  },
+  "s1337": {
+   "update": 5,
+   "decisions": 1680
+  },
+  "s2026": {
+   "update": 5,
+   "decisions": 1680
+  }
+ },
+ "started": "2026-10-27 21:59:03",
+ "night_chain_off": true,
+ "restarted": 1
+}
