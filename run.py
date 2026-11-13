@@ -28,7 +28,7 @@ STARTER_KIT_COMMIT = "23a4560df0e2fe61054dd21066fa0c4b5da2c79c"
 NOAA = "https://noaa-global-hourly-pds.s3.amazonaws.com/2023/{}.csv"
 NOAA_STATIONS = {"riyadh": "40437099999", "dubai": "41194099999", "seattle": "72793024233",
                  "london": "03772099999", "beijing": "54511099999"}
-FINAL = "data/final"
+FINAL = str(ROOT / "data/final")   # absolute: the scripts change their working directory to the simulator's
 
 
 def sh(cmd, env=None, check=True):
@@ -165,6 +165,7 @@ def cmd_retrain(args):
         raise SystemExit(f"unknown stage {args.stage}; see python3 run.py chain")
     for c in stage["commands"]:
         c = [x.replace("{workers}", str(args.workers)) for x in c]
+        c = [str(ROOT / x) if x.startswith("data/final") else x for x in c]
         if c[0] == "launch":
             launch(*c[1:], extra_env=stage.get("env"))
         else:

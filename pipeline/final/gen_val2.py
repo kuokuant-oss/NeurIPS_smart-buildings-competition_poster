@@ -45,7 +45,7 @@ def main():
         return factory.floor_plan_cells_problem(config, SCR / "plans" / f"{seed}-{stratum}")
     t0 = time.time()
     if len(sys.argv) > 3:  # release: the recorded draw (seeds, strata, rejected) of the paper's validation set
-        rec = json.loads(Path(sys.argv[3]).read_text(encoding="utf-8"))
+        rec = json.loads((ROOT / sys.argv[3]).read_text(encoding="utf-8"))
         assert rec["strata"] == strata, "recorded strata differ"
         seeds, rejected = rec["seeds"], rec["rejected"]
     else:
