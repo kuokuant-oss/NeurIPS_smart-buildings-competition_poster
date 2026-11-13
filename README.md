@@ -3,22 +3,26 @@
 Code and records of the paper submitted to the paper track of the NeurIPS 2026 Smart Buildings Challenge
 (Kuan-Ting Kuo, Chun Fu; National Taiwan University; Kaggle team Anton).
 
-The repository reproduces
+Reproduction comes in two stages.
 
-| Paper | What | Command |
-|---|---|---|
-| Tables 2, 5, 6, 13; Figures 4, 5 | validation cost of the reference controllers, the default and the tuned guideline rule, the rule with the learned layer and the per-room selection alone, on 270 scenarios of 18 buildings | `run.py validate`, `run.py tables` |
-| Table 7 | the two learning targets (`gm_tree_m1`, `gt_t2b`) on the same scenarios | `run.py validate` |
-| Table 8, rows 14 and 15 | the two final Kaggle notebooks, rebuilt and compared byte for byte with the submitted ones | `run.py submissions` |
-| Tables 3, 4, 9, 11 | the final models, rebuilt from their recorded predecessors | `run.py models` |
-| Tables 3, 10, 11, 14 | the full training chain, stage by stage, from the PPO run to both final models | `run.py chain`, `run.py retrain <stage>` |
+| Stage | Paper | What | Command | Status |
+|---|---|---|---|---|
+| 1 | Table 8, rows 14 and 15 | the two submitted Kaggle notebooks (public 0.01056 and 0.01071), rebuilt and compared byte for byte | `run.py submissions` | verified |
+| 1 | Tables 3, 4, 9 | the final models, rebuilt from their recorded predecessors | `run.py models` | verified |
+| 2 | Tables 2, 5, 6, 13; Figures 4, 5 | validation cost of the reference controllers, the default and the tuned guideline rule, the rule with the learned layer and the per-room selection alone, on 270 scenarios of 18 buildings | `run.py setup`, `run.py validate`, `run.py tables` | in progress |
+| 2 | Table 7 | the two learning targets (`gm_tree_m1`, `gt_t2b`) on the same scenarios | `run.py validate` | in progress |
+| 2 | Tables 3, 10, 11, 14 | the full training chain, stage by stage, from the PPO run to both final models | `run.py chain`, `run.py retrain <stage>` | in progress |
+
+Stage 1 needs only `python3` and has been run on a fresh clone of this repository. Stage 2 runs the simulator; its
+code and the recorded results behind the paper are here (`data/final/recorded`, `data/runs/b2rl`), and rerunning it
+from this repository is in progress.
 
 Names in the code: tuned rule = `pr_opt2` (public score 0.01071), rule with the learned layer = `gt_x8`
 (0.01056), tuned rule with the per-room selection only = `pr_room`, guideline rule with default settings =
 `g36_default` (`G36PolicyB2R2`, 0.01441), learned from the cost of individual rooms = `gm_tree_m1`, from the cost of the
 whole building = `gt_t2b`.
 
-## The two submissions (public scores 0.01056 and 0.01071)
+## Stage 1: the two submissions (public scores 0.01056 and 0.01071) — verified
 
 Needs only `python3` (standard library):
 
@@ -41,7 +45,11 @@ written as `/home/user/`. With that path restored, both rebuilt notebooks have t
 
 To run a notebook, upload it to the competition as a notebook (internet off, competition data attached).
 
-## Simulation: requirements
+## Stage 2: simulation experiments — in progress
+
+Rerunning the commands below from this repository is in progress; until it is complete, the recorded results behind
+the paper are in `data/final/recorded` (validation, tuned-rule search) and `data/runs/b2rl` (stages of the training
+chain).
 
 Linux (tested on Ubuntu under WSL 2), `git`, `python3` and [uv](https://docs.astral.sh/uv/). The environment is
 locked to Python 3.13 and the package versions of the Kaggle notebook image (`pyproject.toml`, `uv.lock`; PyTorch with
@@ -57,13 +65,7 @@ python3 run.py tables                 # paper numbers + comparison with the reco
 A few scenarios only: `python3 run.py validate --models gt_x8 pr_opt2 --scenes "building_train_1/(atlanta|riyadh)" --limit 2`,
 then `python3 -B pipeline/final/compare_results.py`.
 
-## What has been checked
-
-* `run.py submissions` and `run.py models`: run on a fresh copy of this repository; all outputs identical as
-  described above.
-* The public starter kit at commit `23a4560` passes the fast simulator's check of the official sources it mirrors.
-* Not yet rerun from this repository: `run.py setup`, `validate`, `tables` and the stages of the training chain.
-  Their recorded results are in `data/final/recorded` and `data/runs/b2rl`.
+The public starter kit at commit `23a4560` passes the fast simulator's check of the official sources it mirrors.
 
 ## Data
 
