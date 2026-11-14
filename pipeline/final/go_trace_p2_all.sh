@@ -12,5 +12,5 @@ for d in data/raw/kaggle/smart_buildings/training_scenarios/*/* data/processed/n
   done
 done
 echo "todo $(wc -l < $LIST)"
-cat "$LIST" | xargs -P 20 -L 1 bash -c 'nice -n 10 python3 -B pipeline/launch/launch.py "'"$S"'/trace_p2.py" "'"$S"'" "$0" "$1" 2>&1 | tail -n 1 | cut -c1-110'
+cat "$LIST" | xargs -P 20 -L 1 bash -c 'nice -n 10 python3 -B pipeline/launch/launch.py "'"$P"'/trace_p2.py" "'"$S"'" "$0" "$1" 2>&1 | tail -n 1 | cut -c1-110'
 echo ALLDONE

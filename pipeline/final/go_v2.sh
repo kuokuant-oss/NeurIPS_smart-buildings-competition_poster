@@ -1,7 +1,7 @@
 #!/bin/bash
 # usage: go_v2.sh run <workers> <limit> <names...>   |   go_v2.sh trace <parallel>
 R="$(cd "$(dirname "$0")/../.." && pwd)"; S="$R/data/final"; P="$R/pipeline/final"; mkdir -p "$S"
-export SB_TANK=balance SB_RETURN_AIR=flow SB_FASTSIM_CACHE="$S/rom-cache"
+export SB_TANK=balance SB_RETURN_AIR=flow SB_FASTSIM_CACHE="${SB_FASTSIM_CACHE:-$S/rom-cache}"
 cd "$R"
 if [ "$1" = "run" ]; then
   shift; W="$1"; L="$2"; shift; shift
@@ -18,7 +18,7 @@ for r in json.load(open(S + "/val2/manifest.json"))["scenarios"]:
         if not os.path.isfile(f"{S}/trace_p2/{m}__{r['building']}__{r['weather']}.npz"): print(m, r["dir"])
 E
   echo "todo $(wc -l < $LIST)"
-  cat "$LIST" | xargs -P "$2" -L 1 bash -c 'nice -n 10 python3 -B pipeline/launch/launch.py "'"$S"'/trace_p2.py" "'"$S"'" "$0" "$1" 2>&1 | tail -n 1 | cut -c1-110' > "$S/v2_trace.out" 2>&1
+  cat "$LIST" | xargs -P "$2" -L 1 bash -c 'nice -n 10 python3 -B pipeline/launch/launch.py "'"$P"'/trace_p2.py" "'"$S"'" "$0" "$1" 2>&1 | tail -n 1 | cut -c1-110' > "$S/v2_trace.out" 2>&1
   grep -c DONE "$S/v2_trace.out"; grep -v DONE "$S/v2_trace.out" | head -5
   echo ALLDONE
 fi
