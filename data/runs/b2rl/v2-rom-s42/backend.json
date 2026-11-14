@@ -1,0 +1,7 @@
+{
+ "simulator": "fastsim-rom",
+ "batch": false,
+ "controllers": null,
+ "sim_device": null,
+ "device": "cpu"
+}

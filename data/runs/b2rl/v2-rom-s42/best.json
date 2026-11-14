@@ -1,0 +1,8 @@
+{
+ "update": 300,
+ "cost": 0.01565733811887369,
+ "rule_cost": 0.016105848984079785,
+ "rel": -0.027847700897322265,
+ "model": "data/runs/b2rl/v2-rom-s42/validation/model-best.json",
+ "checkpoint": "ckpt-00300.pt"
+}

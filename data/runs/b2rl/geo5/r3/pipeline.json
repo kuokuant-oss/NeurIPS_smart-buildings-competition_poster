@@ -1,0 +1,315 @@
+{
+ "base": "gt_wub + gt_r5pa2 room map",
+ "whole": [
+  "o13s",
+  "o509_2",
+  "o508_2"
+ ],
+ "rows": [
+  [
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   1
+  ],
+  [
+   0,
+   1,
+   0
+  ],
+  [
+   0,
+   1,
+   1
+  ],
+  [
+   1,
+   0,
+   0
+  ],
+  [
+   1,
+   0,
+   1
+  ],
+  [
+   1,
+   1,
+   0
+  ],
+  [
+   1,
+   1,
+   1
+  ]
+ ],
+ "deltas": [
+  {
+   "name": "reserve",
+   "set": {
+    "room_margin_reserve": 1.0
+   },
+   "cells": null
+  },
+  {
+   "name": "stagger",
+   "set": {
+    "room_stagger": 1.0
+   },
+   "cells": null
+  },
+  {
+   "name": "ratio03_SMe",
+   "set": {
+    "room_heat_max_ratio": 0.3
+   },
+   "cells": [
+    [
+     "s",
+     "perim"
+    ],
+    [
+     "s",
+     "long"
+    ],
+    [
+     "m",
+     "perim"
+    ],
+    [
+     "m",
+     "long"
+    ]
+   ]
+  },
+  {
+   "name": "ratio06_LXe",
+   "set": {
+    "room_heat_max_ratio": 0.6
+   },
+   "cells": [
+    [
+     "l",
+     "perim"
+    ],
+    [
+     "l",
+     "long"
+    ],
+    [
+     "x",
+     "perim"
+    ],
+    [
+     "x",
+     "long"
+    ]
+   ]
+  },
+  {
+   "name": "cool04_LXn",
+   "set": {
+    "room_cool_margin_k": 0.4
+   },
+   "cells": [
+    [
+     "l",
+     "core"
+    ],
+    [
+     "l",
+     "perim"
+    ],
+    [
+     "x",
+     "core"
+    ],
+    [
+     "x",
+     "perim"
+    ]
+   ]
+  }
+ ],
+ "reps": 2,
+ "specs": [
+  "train/building_11534/denver_1",
+  "train/building_19655/denver_1",
+  "train/building_19950/denver_1",
+  "train/building_12567/fairbanks_3",
+  "train/building_15790/fairbanks_1",
+  "train/building_18842/fairbanks_3",
+  "train/building_19655/fairbanks_1",
+  "train/building_19768/fairbanks_3",
+  "train/building_11164/denver_1",
+  "train/building_15361/denver_1",
+  "train/building_12739/fairbanks_1",
+  "train/building_14042/fairbanks_1",
+  "train/building_14979/fairbanks_1",
+  "train/building_12336/atlanta_7",
+  "train/building_14073/atlanta_3",
+  "train/building_19629/atlanta_5",
+  "train/building_14078/atlanta_1",
+  "train/building_18764/denver_7",
+  "train/building_17821/denver_3",
+  "train/building_19664/fairbanks_7",
+  "train/building_18764/fairbanks_5",
+  "train/building_13597/phoenix_7",
+  "train/building_11818/phoenix_3",
+  "train/building_11902/phoenix_5",
+  "train/building_19664/phoenix_1",
+  "train/building_17224/singapore_7",
+  "train/building_14213/singapore_3",
+  "train/building_19655/singapore_5",
+  "train/building_11010/singapore_1",
+  "train/building_12567/atlanta_5",
+  "train/building_10298/atlanta_5",
+  "train/building_11104/atlanta_7",
+  "train/building_11400/atlanta_1",
+  "train/building_12098/atlanta_1",
+  "train/building_12302/atlanta_3",
+  "train/building_12739/atlanta_3",
+  "train/building_13640/atlanta_5",
+  "train/building_14042/atlanta_3",
+  "train/building_14213/atlanta_1",
+  "train/building_14277/atlanta_3",
+  "train/building_14540/atlanta_5",
+  "train/building_14679/atlanta_5",
+  "train/building_16671/atlanta_3",
+  "train/building_17001/atlanta_5",
+  "train/building_17978/atlanta_1",
+  "train/building_10298/denver_3",
+  "train/building_11104/denver_3",
+  "train/building_11754/denver_5",
+  "train/building_12098/denver_7",
+  "train/building_12120/denver_3",
+  "train/building_12618/denver_3",
+  "train/building_12739/denver_5",
+  "train/building_13640/denver_7",
+  "train/building_14042/denver_7",
+  "train/building_14078/denver_3",
+  "train/building_14540/denver_1",
+  "train/building_15570/denver_1",
+  "train/building_16671/denver_7",
+  "train/building_16710/denver_1",
+  "train/building_10298/fairbanks_5",
+  "train/building_11164/fairbanks_1",
+  "train/building_11400/fairbanks_5",
+  "train/building_11754/fairbanks_3",
+  "train/building_12098/fairbanks_3",
+  "train/building_12120/fairbanks_7",
+  "train/building_12302/fairbanks_3",
+  "train/building_12618/fairbanks_5",
+  "train/building_13640/fairbanks_3",
+  "train/building_14213/fairbanks_7",
+  "train/building_14277/fairbanks_1",
+  "train/building_14679/fairbanks_5",
+  "train/building_15570/fairbanks_3",
+  "train/building_11104/phoenix_5",
+  "train/building_11164/phoenix_3",
+  "train/building_11754/phoenix_1",
+  "train/building_12120/phoenix_3",
+  "train/building_12302/phoenix_3",
+  "train/building_12618/phoenix_3",
+  "train/building_12739/phoenix_1",
+  "train/building_14042/phoenix_1",
+  "train/building_14078/phoenix_7",
+  "train/building_14213/phoenix_1",
+  "train/building_14277/phoenix_3",
+  "train/building_14540/phoenix_5",
+  "train/building_14979/phoenix_7",
+  "train/building_16671/phoenix_7",
+  "train/building_16710/phoenix_3",
+  "train/building_17214/phoenix_1",
+  "train/building_10298/singapore_3",
+  "train/building_11104/singapore_3",
+  "train/building_11400/singapore_3",
+  "train/building_12098/singapore_1",
+  "train/building_14042/singapore_7",
+  "train/building_14078/singapore_3",
+  "train/building_14277/singapore_1",
+  "train/building_14679/singapore_1",
+  "train/building_15361/singapore_1",
+  "train/building_15570/singapore_3",
+  "train/building_16671/singapore_3",
+  "train/building_16710/singapore_5",
+  "train/building_17001/singapore_1",
+  "train/building_17084/singapore_3",
+  "train/building_17214/singapore_5",
+  "train/building_10419/atlanta_3",
+  "train/building_11852/atlanta_5",
+  "train/building_16821/atlanta_7",
+  "train/building_19299/atlanta_7",
+  "train/building_14219/denver_3",
+  "train/building_16761/denver_3",
+  "train/building_19195/denver_3",
+  "train/building_16092/fairbanks_7",
+  "train/building_10740/phoenix_3",
+  "train/building_11852/phoenix_1",
+  "train/building_14219/phoenix_1",
+  "train/building_18842/phoenix_7",
+  "train/building_11534/singapore_5",
+  "train/building_16092/singapore_5",
+  "train/building_17524/singapore_7",
+  "train/building_18662/singapore_5",
+  "train/building_19664/singapore_1",
+  "train/building_17856/fairbanks_5",
+  "train/building_18061/denver_3",
+  "train/building_18495/phoenix_1",
+  "train/building_19087/denver_5",
+  "train/building_19208/singapore_5",
+  "train/building_19631/denver_7",
+  "train/building_19850/phoenix_7",
+  "train/building_19965/phoenix_5",
+  "train/building_19965/denver_1",
+  "train/building_17524/denver_1",
+  "train/building_13745/denver_1",
+  "train/building_18662/denver_1",
+  "train/building_16909/denver_1",
+  "train/building_14480/fairbanks_1",
+  "train/building_18662/fairbanks_1",
+  "train/building_16761/fairbanks_1",
+  "train/building_18061/fairbanks_3",
+  "train/building_17001/fairbanks_3",
+  "train/building_16071/fairbanks_3",
+  "train/building_17524/fairbanks_3",
+  "train/building_14480/fairbanks_3",
+  "train/building_11852/fairbanks_3",
+  "train/building_10740/fairbanks_3",
+  "gen6/building_12917/fairbanks_1",
+  "gen6/building_16370/fairbanks_3",
+  "gen6/building_16690/denver_1",
+  "gen6/building_19031/fairbanks_1",
+  "gen6/building_18622/fairbanks_3",
+  "gen6/building_10945/denver_1",
+  "gen6/building_18136/fairbanks_1",
+  "gen6/building_13707/fairbanks_3",
+  "gen6/building_19904/denver_1",
+  "gen6/building_18812/fairbanks_1",
+  "gen6/building_17294/fairbanks_3",
+  "gen6/building_16649/denver_1",
+  "gen6/building_14806/fairbanks_1",
+  "gen6/building_11320/fairbanks_3",
+  "gen6/building_13502/denver_1",
+  "gen6/building_10016/fairbanks_1",
+  "gen6/building_11020/fairbanks_3",
+  "gen6/building_10118/denver_1",
+  "gen6/building_19966/fairbanks_3",
+  "gen6/building_12985/denver_1",
+  "gen6/building_10427/fairbanks_1",
+  "gen6/building_10745/fairbanks_3",
+  "gen6/building_17734/denver_1",
+  "gen6/building_10647/fairbanks_1",
+  "gen6/building_18656/fairbanks_3",
+  "gen6/building_11466/denver_1",
+  "gen6/building_10011/fairbanks_1",
+  "gen6/building_12340/fairbanks_3",
+  "gen6/building_19833/denver_1"
+ ],
+ "started": "2026-11-09 12:06:55",
+ "done": "2026-11-09 19:44:42"
+}

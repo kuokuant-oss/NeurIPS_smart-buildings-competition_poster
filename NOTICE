@@ -1,0 +1,12 @@
+Code and records of "A learned configuration layer for guideline-based HVAC control of unseen buildings"
+(NeurIPS 2026 Smart Buildings Challenge, paper track).
+
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+The simulator is not included. `python3 run.py setup` clones the public starter kit of the challenge
+(https://github.com/smart-buildings-2026/starter-kit, Apache License 2.0, commit 23a4560), which builds on the
+Smart Buildings Simulator (smart_control / sbsim) open-sourced by Google under the Apache License 2.0.
+packages/smart_building/fastsim mirrors parts of that simulator's thermal step.
+
+Weather of the five unseen stations is derived from the NOAA Integrated Surface Database (global-hourly 2023,
+public domain), downloaded by `python3 run.py setup`.

@@ -1,0 +1,126 @@
+{
+ "_note": "combine the three independent gains found on\nf2d_a12_g05 (TRAIN 100 -15.14% against the original rule G36PolicyB2R2, mean cost): round 16's guard width by outside\nair g_off_025_05 -16.07%; round 17's zone loop with half the gain at the same integral gain (zone_gain_per_k 0.05,\nzone_ti_s 450) -17.48% (every city better); round 18's empty weekday detection at 60 min -15.94% (60 better / 2\nworse; the 38 scenarios without a weekday holiday unchanged). On g_off_025_05: + zone loop, + empty weekday, + both.\nHost python3.",
+ "band_pi_empty": {
+  "breaks_c": [
+   0,
+   5,
+   20,
+   25
+  ],
+  "cold": {
+   "heating_max_ratio": 0.4529957279624725,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180,
+   "discharge_offset_k": 11.8,
+   "sat_cost_guard_k": 30.0
+  },
+  "mild": {
+   "heating_max_ratio": 0.36,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180,
+   "discharge_offset_k": 11.8,
+   "sat_cost_guard_k": 0.25
+  },
+  "hot": {
+   "heating_max_ratio": 0.4529957279624725,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180,
+   "discharge_offset_k": 11.8,
+   "sat_cost_guard_k": 0.5
+  },
+  "rule_config": {
+   "freeze_on_k": 275.15,
+   "freeze_off_k": 278.15,
+   "sat_cost_optimal": true,
+   "sat_cost_guard_k": 0.5,
+   "zone_gain_per_k": 0.05,
+   "zone_ti_s": 450.0,
+   "empty_day_delay_min": 60
+  },
+  "layout": "v3"
+ },
+ "band_pi": {
+  "breaks_c": [
+   0,
+   5,
+   20,
+   25
+  ],
+  "cold": {
+   "heating_max_ratio": 0.4529957279624725,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180,
+   "discharge_offset_k": 11.8,
+   "sat_cost_guard_k": 30.0
+  },
+  "mild": {
+   "heating_max_ratio": 0.36,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180,
+   "discharge_offset_k": 11.8,
+   "sat_cost_guard_k": 0.25
+  },
+  "hot": {
+   "heating_max_ratio": 0.4529957279624725,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180,
+   "discharge_offset_k": 11.8,
+   "sat_cost_guard_k": 0.5
+  },
+  "rule_config": {
+   "freeze_on_k": 275.15,
+   "freeze_off_k": 278.15,
+   "sat_cost_optimal": true,
+   "sat_cost_guard_k": 0.5,
+   "zone_gain_per_k": 0.05,
+   "zone_ti_s": 450.0
+  },
+  "layout": "v3"
+ },
+ "band_empty": {
+  "breaks_c": [
+   0,
+   5,
+   20,
+   25
+  ],
+  "cold": {
+   "heating_max_ratio": 0.4529957279624725,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180,
+   "discharge_offset_k": 11.8,
+   "sat_cost_guard_k": 30.0
+  },
+  "mild": {
+   "heating_max_ratio": 0.36,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180,
+   "discharge_offset_k": 11.8,
+   "sat_cost_guard_k": 0.25
+  },
+  "hot": {
+   "heating_max_ratio": 0.4529957279624725,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180,
+   "discharge_offset_k": 11.8,
+   "sat_cost_guard_k": 0.5
+  },
+  "rule_config": {
+   "freeze_on_k": 275.15,
+   "freeze_off_k": 278.15,
+   "sat_cost_optimal": true,
+   "sat_cost_guard_k": 0.5,
+   "empty_day_delay_min": 60
+  },
+  "layout": "v3"
+ }
+}

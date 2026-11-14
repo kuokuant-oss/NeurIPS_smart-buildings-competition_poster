@@ -1,0 +1,392 @@
+{
+ "made": "2026-11-09 11:35:44",
+ "script": ".tmp/setup/geo5_gen6.py",
+ "split_base": "configs/splits/v1-train-r1.json",
+ "pool": "gen6",
+ "draw_label": "split-v1/gen6-r3",
+ "seeds": [
+  12917,
+  16370,
+  16690,
+  19031,
+  18622,
+  10945,
+  18136,
+  13707,
+  19904,
+  18812,
+  17294,
+  16649,
+  14806,
+  11320,
+  13502,
+  10016,
+  11020,
+  10118,
+  17746,
+  19966,
+  12985,
+  10427,
+  10745,
+  17734,
+  10647,
+  18656,
+  11466,
+  10011,
+  12340,
+  19833
+ ],
+ "rejected": [
+  {
+   "seed": 16189,
+   "stratum": "shipped",
+   "reason": "seed 16189 produces 1 zone(s) below the 20.0 m2 minimum floor area (smallest 3.24 m2)"
+  },
+  {
+   "seed": 13810,
+   "stratum": "shipped",
+   "reason": "seed 13810 produces 1 zone(s) below the 20.0 m2 minimum floor area (smallest 16.24 m2)"
+  },
+  {
+   "seed": 10893,
+   "stratum": "default",
+   "reason": "seed 10893 produces 1 zone(s) below the 20.0 m2 minimum floor area (smallest 16.24 m2)"
+  },
+  {
+   "seed": 16043,
+   "stratum": "default",
+   "reason": "seed 16043 produces 3 zone(s) below the 20.0 m2 minimum floor area (smallest 1.20 m2)"
+  },
+  {
+   "seed": 10530,
+   "stratum": "default",
+   "reason": "seed 10530 produces 8 zone(s) below the 20.0 m2 minimum floor area (smallest 2.00 m2)"
+  },
+  {
+   "seed": 12285,
+   "stratum": "default",
+   "reason": "seed 12285 produces 3 zone(s) below the 20.0 m2 minimum floor area (smallest 0.72 m2)"
+  },
+  {
+   "seed": 15942,
+   "stratum": "default",
+   "reason": "seed 15942 produces 1 zone(s) below the 20.0 m2 minimum floor area (smallest 5.76 m2)"
+  },
+  {
+   "seed": 16740,
+   "stratum": "shipped",
+   "reason": "seed 16740 produces 3 zone(s) below the 20.0 m2 minimum floor area (smallest 4.08 m2)"
+  },
+  {
+   "seed": 16444,
+   "stratum": "shipped",
+   "reason": "seed 16444 produces 1 zone(s) below the 20.0 m2 minimum floor area (smallest 4.00 m2)"
+  },
+  {
+   "seed": 16367,
+   "stratum": "shipped",
+   "reason": "seed 16367 produces 1 zone(s) below the 20.0 m2 minimum floor area (smallest 12.32 m2)"
+  },
+  {
+   "seed": 10864,
+   "stratum": "default",
+   "reason": "seed 10864 produces 1 zone(s) below the 20.0 m2 minimum floor area (smallest 0.60 m2)"
+  },
+  {
+   "seed": 10507,
+   "stratum": "shipped",
+   "reason": "seed 10507 produces 2 zone(s) below the 20.0 m2 minimum floor area (smallest 0.48 m2)"
+  },
+  {
+   "seed": 10754,
+   "stratum": "default",
+   "reason": "seed used by an existing TRAIN draw"
+  },
+  {
+   "seed": 16017,
+   "stratum": "default",
+   "reason": "seed 16017 produces 2 zone(s) below the 20.0 m2 minimum floor area (smallest 9.44 m2)"
+  },
+  {
+   "seed": 16182,
+   "stratum": "default",
+   "reason": "seed 16182 produces 1 zone(s) below the 20.0 m2 minimum floor area (smallest 18.48 m2)"
+  }
+ ],
+ "scenarios": [
+  [
+   "building_12917",
+   "fairbanks_1"
+  ],
+  [
+   "building_16370",
+   "fairbanks_3"
+  ],
+  [
+   "building_16690",
+   "denver_1"
+  ],
+  [
+   "building_19031",
+   "fairbanks_1"
+  ],
+  [
+   "building_18622",
+   "fairbanks_3"
+  ],
+  [
+   "building_10945",
+   "denver_1"
+  ],
+  [
+   "building_18136",
+   "fairbanks_1"
+  ],
+  [
+   "building_13707",
+   "fairbanks_3"
+  ],
+  [
+   "building_19904",
+   "denver_1"
+  ],
+  [
+   "building_18812",
+   "fairbanks_1"
+  ],
+  [
+   "building_17294",
+   "fairbanks_3"
+  ],
+  [
+   "building_16649",
+   "denver_1"
+  ],
+  [
+   "building_14806",
+   "fairbanks_1"
+  ],
+  [
+   "building_11320",
+   "fairbanks_3"
+  ],
+  [
+   "building_13502",
+   "denver_1"
+  ],
+  [
+   "building_10016",
+   "fairbanks_1"
+  ],
+  [
+   "building_11020",
+   "fairbanks_3"
+  ],
+  [
+   "building_10118",
+   "denver_1"
+  ],
+  [
+   "building_17746",
+   "fairbanks_1"
+  ],
+  [
+   "building_19966",
+   "fairbanks_3"
+  ],
+  [
+   "building_12985",
+   "denver_1"
+  ],
+  [
+   "building_10427",
+   "fairbanks_1"
+  ],
+  [
+   "building_10745",
+   "fairbanks_3"
+  ],
+  [
+   "building_17734",
+   "denver_1"
+  ],
+  [
+   "building_10647",
+   "fairbanks_1"
+  ],
+  [
+   "building_18656",
+   "fairbanks_3"
+  ],
+  [
+   "building_11466",
+   "denver_1"
+  ],
+  [
+   "building_10011",
+   "fairbanks_1"
+  ],
+  [
+   "building_12340",
+   "fairbanks_3"
+  ],
+  [
+   "building_19833",
+   "denver_1"
+  ]
+ ],
+ "constructor_failed": [],
+ "files": {
+  "buildings/split-v1/gen6/building_10011.yaml": "0e5bb23ffad809236684628f50891c4e040494ad55e40dcd6e0f6fef85c3dece",
+  "buildings/split-v1/gen6/building_10016.yaml": "76ae44918897100790042d4f3c2747423b524374d88250146efc9f5a8ba545fc",
+  "buildings/split-v1/gen6/building_10118.yaml": "9d9a0a5dd61eda68fe908967d284ac3147a0c95fbf620f1ba490cd1ef8b602a8",
+  "buildings/split-v1/gen6/building_10427.yaml": "2fd9e1513ec1406466c6ff9f3aed144341214fe8c7605e1af3245790f7cac129",
+  "buildings/split-v1/gen6/building_10647.yaml": "60d8376052a266d41b23c95b1c5c695a6d6e795f45bcca57975594a01a1c107f",
+  "buildings/split-v1/gen6/building_10745.yaml": "2936fe872ab83fc4528b4aa68896568e5d879ddb9ddc9d0fbdc761e464dfaee8",
+  "buildings/split-v1/gen6/building_10945.yaml": "377cf1f7f2e7f96de8bfe2c715e1cf68d4651c2afe10d60d410edb2da4596805",
+  "buildings/split-v1/gen6/building_11020.yaml": "8184a4c5ee70cea8ab93f224b39c1491b9b225afba3c19a004b73c1889f6e02b",
+  "buildings/split-v1/gen6/building_11320.yaml": "7a818592b6e1f5c5464a5cb4411a3b8f319a4f20d9f064662c02a82ec91b4e42",
+  "buildings/split-v1/gen6/building_11466.yaml": "58b7c7194479c97bf9278e58511eaeadb58378cd99a2be32b8ef5592dd142729",
+  "buildings/split-v1/gen6/building_12340.yaml": "8f19894cd9d6a002702a03965dc9682f3a6dde6853bfc07394f3ea196a29389c",
+  "buildings/split-v1/gen6/building_12917.yaml": "6844334ebed5b96a3ccc9ddec6a6a896e93dcd133d82a69fcdbc0dac72a55310",
+  "buildings/split-v1/gen6/building_12985.yaml": "daa31cfc90d9fef1edc4e4e2cdc674b1a069d2ac92b84a1cdd1f0795e7bfb5f9",
+  "buildings/split-v1/gen6/building_13502.yaml": "e1309c5b963afbf508a870e183e999ec9c5ce14fa5845e89eac15f6a6a49da59",
+  "buildings/split-v1/gen6/building_13707.yaml": "b91eab7f80c66d1b8b97de7a2971a2fdfde99ffb49d119a92e2f66572cc857c0",
+  "buildings/split-v1/gen6/building_14806.yaml": "3cb41a2e4b8f3db266dd783e771d65286985e2b71e9d1611673a08b0f742b9eb",
+  "buildings/split-v1/gen6/building_16370.yaml": "55ca9e15e677fd491c6b553b885c0d06c3bed6d54ec80d83ad4872a05d08aad6",
+  "buildings/split-v1/gen6/building_16649.yaml": "96a01cf8b63de2057a52a63dbbdb01efff7ff5db058d09740a4e83781a3b738b",
+  "buildings/split-v1/gen6/building_16690.yaml": "edc4d970d15342ee3d67a9a784bba2f8479ac8758297c88f0e03cf15e753a084",
+  "buildings/split-v1/gen6/building_17294.yaml": "59a6bd01a1d400ec2f620c9ebd29bd8f8ffbbd2b02c050ec300c9ce18f13092f",
+  "buildings/split-v1/gen6/building_17734.yaml": "78c843acf9b4a14b1d74b197935b09e4f27f794a5e5cf094704d5205cb68bb4c",
+  "buildings/split-v1/gen6/building_17746.yaml": "0d0aa6846e5e983d45cdafa55234f45351f4404ab09352118925a5cd50711f19",
+  "buildings/split-v1/gen6/building_18136.yaml": "d509bee5106827f7ff7f93526f72ed614e747c33b9c1211257891822a95248b0",
+  "buildings/split-v1/gen6/building_18622.yaml": "e07b661ead2703b8b32b76930a8dd6e984e0fac7b19219159643ed5676fa155e",
+  "buildings/split-v1/gen6/building_18656.yaml": "ce81de1deacb8904b34d24e433a7596af267b59caf337f828086a7b07b2653e5",
+  "buildings/split-v1/gen6/building_18812.yaml": "eb124bba91f66ba3a94cd3b9541de754c2cb37701450b46f8de53123c2d93b52",
+  "buildings/split-v1/gen6/building_19031.yaml": "d6346aecdbb3508cfc8162cdd92b5903658ca5d021f5f212edea161d90974f05",
+  "buildings/split-v1/gen6/building_19833.yaml": "0d80eb01e1e17b84a12218eb8059c92995fc4e59a0e8a03ea6d70d3b786b5df0",
+  "buildings/split-v1/gen6/building_19904.yaml": "6ca72b57b94ae7aa95679f72270da589a18071f937f3c40d7a535e4d94863ef6",
+  "buildings/split-v1/gen6/building_19966.yaml": "259cd7c183a1bfdc0048cc0120307c2f964253fa3cf49a3997207dad74269d17",
+  "scenarios/split-v1/gen6/building_10011/fairbanks_1/config.gin": "50bd6bcb1794489d0b1276af6068bffd8791e90ddd38ee5f3e6f394096ee6985",
+  "scenarios/split-v1/gen6/building_10011/fairbanks_1/config.yaml": "291eedf02642f8a159b506fb5dacfc64e7621e62f230906dcf940a045a2acffe",
+  "scenarios/split-v1/gen6/building_10011/fairbanks_1/floor_plan.npy": "ef2b2ddb69cecd9be48a39953e3948e4aa200f85861fcc5de40ecc225819fd1c",
+  "scenarios/split-v1/gen6/building_10011/fairbanks_1/zone_map.npy": "78d1248de4becfdc5107912b3b9582e480e4015649833379b0103bf1b4773573",
+  "scenarios/split-v1/gen6/building_10016/fairbanks_1/config.gin": "3938b0ed71c25e526ecb6e9876cedec270786ac5231022bb7b6366d055cc2d52",
+  "scenarios/split-v1/gen6/building_10016/fairbanks_1/config.yaml": "c9adc69c98d14a2d3898c489d05949125ef2bdb331ddd47e9b1b932e8c7ce330",
+  "scenarios/split-v1/gen6/building_10016/fairbanks_1/floor_plan.npy": "d312df56ed13282dfbb41ead18fc684876ecd27d5c5e7ed110a4b9208f1d718a",
+  "scenarios/split-v1/gen6/building_10016/fairbanks_1/zone_map.npy": "619ac3105f94fd64066fb33dfae0220efbf257677088a53514f7eb9fbd5bd7a5",
+  "scenarios/split-v1/gen6/building_10118/denver_1/config.gin": "d8553705b4c133476ac57474b8897047ff1d5990c4a2af456228f22da7d5fa5a",
+  "scenarios/split-v1/gen6/building_10118/denver_1/config.yaml": "8829d689029389655a1ca33ee3277778cd5909943c7c5a20c1b34ce19e26d0cc",
+  "scenarios/split-v1/gen6/building_10118/denver_1/floor_plan.npy": "56eb52c25f111a0b06048b30e2a98aad13c3748ced072c193dbac257762cc19c",
+  "scenarios/split-v1/gen6/building_10118/denver_1/zone_map.npy": "f012fe9bf4a78e1aa4f5a916e1cf3ac095b80821fb973a006e2845fdceeae398",
+  "scenarios/split-v1/gen6/building_10427/fairbanks_1/config.gin": "18fca8bd69dd0850fa25a050ef1df63c9833c4360f6edd30256d246980e128f9",
+  "scenarios/split-v1/gen6/building_10427/fairbanks_1/config.yaml": "c71916812dbbb23f0c6bfc68afc50e135780eabef14e9ca3c8f63999c06f5e00",
+  "scenarios/split-v1/gen6/building_10427/fairbanks_1/floor_plan.npy": "e841d229f2dab5e96989184c6497669342a0fd52a01a1ff0146660aae97a9c97",
+  "scenarios/split-v1/gen6/building_10427/fairbanks_1/zone_map.npy": "f8ddfb0809b791444a667f1e9b86cbac5102998236d6200b9a98d20a09893b97",
+  "scenarios/split-v1/gen6/building_10647/fairbanks_1/config.gin": "5ee0cb52e2283d5c3b958c84881e07f1b7a049169a420b94b367ad8ab369642b",
+  "scenarios/split-v1/gen6/building_10647/fairbanks_1/config.yaml": "3470c294f40a34a40e8228002c5ea0fb96a20801cb011f5712a5c4cedb6b9a57",
+  "scenarios/split-v1/gen6/building_10647/fairbanks_1/floor_plan.npy": "23dda88985cc48b17b14e532a56ae79cb153aff456fe8fb5b13f76fe5295b600",
+  "scenarios/split-v1/gen6/building_10647/fairbanks_1/zone_map.npy": "110a80bd7b5d396aa02ee3a44cc7daa2970dea76dfeca9526eb7cf7a80264477",
+  "scenarios/split-v1/gen6/building_10745/fairbanks_3/config.gin": "19eff84988d6fa0c6d243a51527f8908f5678397f7cf0603b2589985d42db276",
+  "scenarios/split-v1/gen6/building_10745/fairbanks_3/config.yaml": "8c53673775e45ff3cf9a8f18e7789ffb71eb014d400d2681a2aa270892d724bd",
+  "scenarios/split-v1/gen6/building_10745/fairbanks_3/floor_plan.npy": "dc6808e4c40731a418f2757f4b85502453b7af5b36e46490b2dc3dd46a95019c",
+  "scenarios/split-v1/gen6/building_10745/fairbanks_3/zone_map.npy": "362031de66ffb8f2a54689608b1512340930c2ece3d36b770e0772b43a63c313",
+  "scenarios/split-v1/gen6/building_10945/denver_1/config.gin": "8309b3fb38a476764e4a0cbade371d501055a3bcb7d512c0290d4afb1faf19d7",
+  "scenarios/split-v1/gen6/building_10945/denver_1/config.yaml": "451b6d79a544bc8635789b1f7486403443c045d1dddfe5350cb21fcf243929b5",
+  "scenarios/split-v1/gen6/building_10945/denver_1/floor_plan.npy": "b176307c5777c30138b4ed2715a70e0558c593222f6368b14e23eacf7dfe4aa4",
+  "scenarios/split-v1/gen6/building_10945/denver_1/zone_map.npy": "831e5f775bea05a928894ad8fc56c68f1f1e0cb0915f19cf499a9b77742e384a",
+  "scenarios/split-v1/gen6/building_11020/fairbanks_3/config.gin": "caf5b80a0f98ebd0336916df1a846fc7076ebf4cc6326f13bbdfbe7a7fbeeef8",
+  "scenarios/split-v1/gen6/building_11020/fairbanks_3/config.yaml": "5988bcd2bc0456dd0a3ef3fd12f0333379c8e382888bf7ab893b89f081215a51",
+  "scenarios/split-v1/gen6/building_11020/fairbanks_3/floor_plan.npy": "b806f3519828cd9202185d43d2693743fc4a6f86f7b2f6e55070c26c4e2d5d1a",
+  "scenarios/split-v1/gen6/building_11020/fairbanks_3/zone_map.npy": "82a8ff52fcbd7ad09f2ca4788bdb3f29d7b04b57d4d7bf80ada6a8059ddf43fa",
+  "scenarios/split-v1/gen6/building_11320/fairbanks_3/config.gin": "e01a2df073d1f2da86866183368b9140d8d29feccbe75402c318e9ad3221f820",
+  "scenarios/split-v1/gen6/building_11320/fairbanks_3/config.yaml": "557cd9624f05d405fbbb1e11b7e5340f2707b93f621688464a00928f88828377",
+  "scenarios/split-v1/gen6/building_11320/fairbanks_3/floor_plan.npy": "732bccd9f42be9837a7530b6ea303db98086580ac4eebcd87708ce509a2b41d2",
+  "scenarios/split-v1/gen6/building_11320/fairbanks_3/zone_map.npy": "2b0c4e76e5bcfcfbf467ce4e318b0dd7795be3094ec4d82165576e0fbbf9c8a1",
+  "scenarios/split-v1/gen6/building_11466/denver_1/config.gin": "a0e6fdef755c81e28db0ed9216032b4a6f28fda14ad5e8018b592384c277e05a",
+  "scenarios/split-v1/gen6/building_11466/denver_1/config.yaml": "20cd39c86640369416c22b6ba5b6f456b206eaf9f9c060a2f709fe568e901eeb",
+  "scenarios/split-v1/gen6/building_11466/denver_1/floor_plan.npy": "bf9276f9b86761a459397afc5b885da838dd76c1cb6b34d92ba5ed8db4ce0f04",
+  "scenarios/split-v1/gen6/building_11466/denver_1/zone_map.npy": "dd5de7982c6bdbbd7fbd0e32695e885ac308c073e0ff6fe2fba2b561046a1b27",
+  "scenarios/split-v1/gen6/building_12340/fairbanks_3/config.gin": "0df747a3ceaec413af3a77d56afc0698d7b81ee6ebc544f50fee0749bdec0aed",
+  "scenarios/split-v1/gen6/building_12340/fairbanks_3/config.yaml": "2230b445e5907b605410f5b9526e76bcc1def83fb99fb8beb1d64ebab236a139",
+  "scenarios/split-v1/gen6/building_12340/fairbanks_3/floor_plan.npy": "291e0ee55ac9aa4df2ca8210a78fa4bd27690c0f9aa869f83014d818e8e36335",
+  "scenarios/split-v1/gen6/building_12340/fairbanks_3/zone_map.npy": "cdf74c38c0f67ba257435ae2a832058d736e0d8b74d1e43d809c26ea2ec3a034",
+  "scenarios/split-v1/gen6/building_12917/fairbanks_1/config.gin": "091e579df28c8d14dcac4ded8939b0c79a36645d493ff019e97cfe563426740d",
+  "scenarios/split-v1/gen6/building_12917/fairbanks_1/config.yaml": "1aae420c4db6f7681be69e397b86ec0e70a8bbc28cefb1ac46dbe3381a820875",
+  "scenarios/split-v1/gen6/building_12917/fairbanks_1/floor_plan.npy": "6815d066abc92348e3044db43b95dfb90f390cbf8addfa8bf3280900e11894ad",
+  "scenarios/split-v1/gen6/building_12917/fairbanks_1/zone_map.npy": "b2c161d59cec8741940e79071664911d5bd6f0e3391e61d10f3c2eeae6173923",
+  "scenarios/split-v1/gen6/building_12985/denver_1/config.gin": "07468ac8c7553303b6c356563e1a8bffb49ebb9bb1429978b5b5c6a68c820acd",
+  "scenarios/split-v1/gen6/building_12985/denver_1/config.yaml": "4e7d40f3e16e4863a95c0a110a6545e17a922f2f54a5ddcb24305bf292f83a06",
+  "scenarios/split-v1/gen6/building_12985/denver_1/floor_plan.npy": "1f1719d838890f6a98a189c8163b3567deab5a6915768b542155f76d5879100f",
+  "scenarios/split-v1/gen6/building_12985/denver_1/zone_map.npy": "f9f5313a33237c4326343417bc9af6e1ffc879a450fd6abe14ba622c97ec1a77",
+  "scenarios/split-v1/gen6/building_13502/denver_1/config.gin": "c6e9fa19e80bfb0dd1983b3d525bc5edb66679e5fd4744866f5d924bb1e8fdf1",
+  "scenarios/split-v1/gen6/building_13502/denver_1/config.yaml": "e9fc7d0aa0a83b6f6ef007151b35ccedc913f2c55c7461ba9da74a06ea02988e",
+  "scenarios/split-v1/gen6/building_13502/denver_1/floor_plan.npy": "48c06815b6acef6ec7f7768562ad10690dcbd76c5bf0532bffdb2b558636ddc4",
+  "scenarios/split-v1/gen6/building_13502/denver_1/zone_map.npy": "acf4dbe13bde2a68984690d8f867e9f7e7b154eee480227d96dc858ff7d13e8f",
+  "scenarios/split-v1/gen6/building_13707/fairbanks_3/config.gin": "35ebd09a6100ef5a9240e653cb3d7f4693dd300118756788f9d35a40fa2aa2af",
+  "scenarios/split-v1/gen6/building_13707/fairbanks_3/config.yaml": "2e76f677f0566d9c2e5e4ade6e2543c4179e3ad6b5f4c0435e80a09eebca1edd",
+  "scenarios/split-v1/gen6/building_13707/fairbanks_3/floor_plan.npy": "d5af3c32e9c38ad34900e2e3c952a8bd56c36c24cb7d31b33ce72507938e5e7a",
+  "scenarios/split-v1/gen6/building_13707/fairbanks_3/zone_map.npy": "4500fb8539066ced3f67329173a3518f6d2312c3fb0d757ec9e165db6984f225",
+  "scenarios/split-v1/gen6/building_14806/fairbanks_1/config.gin": "03c5d997ed5c53cc839c8ce78c894d38cd48f80f55b1c4f5053eec553487f5ee",
+  "scenarios/split-v1/gen6/building_14806/fairbanks_1/config.yaml": "f0d8f253e9e15ed5ad90a2ec6e6746b827643d07b62f95c8a9ede53126c2d80f",
+  "scenarios/split-v1/gen6/building_14806/fairbanks_1/floor_plan.npy": "835a4348747bd3419983f2c9098d3de396d6e8606acd6ffc4c497cbf1e3d032e",
+  "scenarios/split-v1/gen6/building_14806/fairbanks_1/zone_map.npy": "c934b6bd93516cda77d2777e8ab6d9b350ff745f96b13bba76c4b2d9275dedd8",
+  "scenarios/split-v1/gen6/building_16370/fairbanks_3/config.gin": "16d716f39742a1283b70114ee5617dad988e27a94d6d437ad0b501c4a0b54af1",
+  "scenarios/split-v1/gen6/building_16370/fairbanks_3/config.yaml": "6475b43400092ccba5023028d830ee811b6aaf4baf55d63a738d4e8a9f289b83",
+  "scenarios/split-v1/gen6/building_16370/fairbanks_3/floor_plan.npy": "a01734497bfe8b97505ef091c57186e7a065754bd7cf7151a65a245e8910a4cd",
+  "scenarios/split-v1/gen6/building_16370/fairbanks_3/zone_map.npy": "4cf2d5774828829806ef3aeb1f8ac87ec952b8b0e51c1db25aa58217fa776ed7",
+  "scenarios/split-v1/gen6/building_16649/denver_1/config.gin": "381c1e7ea511ce4d4c0d49e229a56d9f29f509bd44e51d675c2b17f8d385b8df",
+  "scenarios/split-v1/gen6/building_16649/denver_1/config.yaml": "bfcda8d9d3d514e268a3f259bf8fb841b6cfb8582069f33b49275ef7c226bb5a",
+  "scenarios/split-v1/gen6/building_16649/denver_1/floor_plan.npy": "05a1ea44da382d89580279eb8be295f3aebce0809779fabdca9cc08030514052",
+  "scenarios/split-v1/gen6/building_16649/denver_1/zone_map.npy": "a48a9f3fb5368a884c02357a5ff1a844f2ebf64c4aa0d29413b557319cd1ebfd",
+  "scenarios/split-v1/gen6/building_16690/denver_1/config.gin": "b73ed70d2b5e2aab727523782f42297de804f7df4e958883761b20faf8ea0475",
+  "scenarios/split-v1/gen6/building_16690/denver_1/config.yaml": "f4888cdd770f8e957694b39caea1fc18b5b4fa41e45e3a7032f87eabd011c532",
+  "scenarios/split-v1/gen6/building_16690/denver_1/floor_plan.npy": "4aa87dbdec6c47e7ade2534c35ed79c2ebe70699cc263ba0cd635c41339578d4",
+  "scenarios/split-v1/gen6/building_16690/denver_1/zone_map.npy": "c0baed031ed5a14b14a700948f1139ff3083b68b7ead7daccc1a9813fb6af647",
+  "scenarios/split-v1/gen6/building_17294/fairbanks_3/config.gin": "c6556f73405af1b3a0fdfe1e81d37c5c3ca3877f6d03c0fa4272bdcb74009c2e",
+  "scenarios/split-v1/gen6/building_17294/fairbanks_3/config.yaml": "a1e3e2d416daac3088abb72c7bb3515fef236d5455c750a2f5daba1c5d08c3eb",
+  "scenarios/split-v1/gen6/building_17294/fairbanks_3/floor_plan.npy": "4098df2d5f2e200a7819dc96ea9d7a272be24f9e7d422d845a7e819bef8e4d22",
+  "scenarios/split-v1/gen6/building_17294/fairbanks_3/zone_map.npy": "0f81380899507f3cbe70f097e44caa25e6af5697982a67add8fb5ca1cae2321c",
+  "scenarios/split-v1/gen6/building_17734/denver_1/config.gin": "3d2986581e8b1eb702b23bab333ec2b3fe73e81896eed1b84afc21384c272f65",
+  "scenarios/split-v1/gen6/building_17734/denver_1/config.yaml": "a7558e562fbf7055e14cf3d810a9c2aa50df4272e9f51d206a7426a811e8246e",
+  "scenarios/split-v1/gen6/building_17734/denver_1/floor_plan.npy": "b04832fcdd57aa2c8d1cb3550e127a218dccb842a6a80d0a3bf1aa13ccdee7c1",
+  "scenarios/split-v1/gen6/building_17734/denver_1/zone_map.npy": "68b13bca342a70ff2d94a83e135f1251ed175e6ba7d24ed9cd70f7d16bdda6ab",
+  "scenarios/split-v1/gen6/building_17746/fairbanks_1/config.gin": "914b6294eee6589b9e648260d00659e925e0cdd2787bf0c01f31939db35406b0",
+  "scenarios/split-v1/gen6/building_17746/fairbanks_1/config.yaml": "e3e67e9c8328c58c1028ea40dfc3f8f056b53fdd149aecf5dbfde848e37503a2",
+  "scenarios/split-v1/gen6/building_17746/fairbanks_1/floor_plan.npy": "15dbbcb434ebef39e07483d350f849032dde2429cb203d1f0e0d995c6ee03f08",
+  "scenarios/split-v1/gen6/building_17746/fairbanks_1/zone_map.npy": "e83123580fe8ee731264c0e072214c6fb3b171ebd436e28dd976b7b5503b3cc4",
+  "scenarios/split-v1/gen6/building_18136/fairbanks_1/config.gin": "06a551f1b5e43ea021ac9512604ca0aef5f36ac9e877b237d913c955d8d28b75",
+  "scenarios/split-v1/gen6/building_18136/fairbanks_1/config.yaml": "9d3da6aee623eb0cf0fd4f495da3136f62ece1f5ba7526698db60b3b74d79a30",
+  "scenarios/split-v1/gen6/building_18136/fairbanks_1/floor_plan.npy": "de10f1c4f2813c8af82b0aaf32ac8a3815dcf4bc642fa14868be75a1eb343622",
+  "scenarios/split-v1/gen6/building_18136/fairbanks_1/zone_map.npy": "0be3d5a070c337a9735d9570cf8b196e9c0286af347ad3bef9448107a20aefc9",
+  "scenarios/split-v1/gen6/building_18622/fairbanks_3/config.gin": "3c640d993728e8c12afb6048296d9c5b137ae8653c94a9652f5f22ff1c4d8bac",
+  "scenarios/split-v1/gen6/building_18622/fairbanks_3/config.yaml": "40e7494bf5b2f13b4a8fd343d141cb86430ffe87764f1cba5bad1753e0fd52ec",
+  "scenarios/split-v1/gen6/building_18622/fairbanks_3/floor_plan.npy": "5f8178073dbe111033c92d0e3c8cf90c94406ac4c84228723244382cdda3f5e2",
+  "scenarios/split-v1/gen6/building_18622/fairbanks_3/zone_map.npy": "672069a4c7f08042f8800ddc06992f449aa72fd09aeef36e534da23dcb300599",
+  "scenarios/split-v1/gen6/building_18656/fairbanks_3/config.gin": "4b7be8d1f08f0b8e71fcc67353dac7e4b072e836c89409cfeaa14c01c49fd829",
+  "scenarios/split-v1/gen6/building_18656/fairbanks_3/config.yaml": "e6be37a1fa49a4f3980e17f17fc452eac8858e209f73efce9a8b700e32e840d0",
+  "scenarios/split-v1/gen6/building_18656/fairbanks_3/floor_plan.npy": "0f28be8f1c457c4bc1c35eca179f3375d4c7faed3e701f2ff8bb1022cf7ce979",
+  "scenarios/split-v1/gen6/building_18656/fairbanks_3/zone_map.npy": "8cc7aac222a12cc81831a88ef40fca8087367c2583a5948dce134223c5d55b3f",
+  "scenarios/split-v1/gen6/building_18812/fairbanks_1/config.gin": "e368005d836c64de4bd532d89fc7c9fdd8b6b7507d1d5ff9b5168abec5f616cb",
+  "scenarios/split-v1/gen6/building_18812/fairbanks_1/config.yaml": "83d265e7daf620285be337a5784912cb5efb2b63c127e76e44e98fdb58210063",
+  "scenarios/split-v1/gen6/building_18812/fairbanks_1/floor_plan.npy": "cafc168e7933c42821b4bf0538212da81c2bacae27ee7b5f9539953590b4f1c2",
+  "scenarios/split-v1/gen6/building_18812/fairbanks_1/zone_map.npy": "27d012c15cf84b85abd7bcf7f314405d185ff040d7920a05184ff31bdf7f5781",
+  "scenarios/split-v1/gen6/building_19031/fairbanks_1/config.gin": "f8a9306d8f2b1acaa9958b647d5cbdb9c81807ad5190fb1d7bbed7f0e0b84024",
+  "scenarios/split-v1/gen6/building_19031/fairbanks_1/config.yaml": "cdf2153469d3cf5346d49fe237b67c3e336b393c37655c5cc7f49ae19d99fa0c",
+  "scenarios/split-v1/gen6/building_19031/fairbanks_1/floor_plan.npy": "630a6afd714481cbb6e1d67e42b9ea578508b4b213c8d45ecad011c30c6d641f",
+  "scenarios/split-v1/gen6/building_19031/fairbanks_1/zone_map.npy": "43fbfe133c6a4f10a73cdcaf08fe13b85707510af3909b76d48416b5db14c70e",
+  "scenarios/split-v1/gen6/building_19833/denver_1/config.gin": "e049bd4c052125abe5080bee5601cc0f90ac3e3e001d130653c569754c5576f0",
+  "scenarios/split-v1/gen6/building_19833/denver_1/config.yaml": "08765d3da6c00b21ff46d9fb4dd36f1f7b4466426c41ec9ea337e02d8265271b",
+  "scenarios/split-v1/gen6/building_19833/denver_1/floor_plan.npy": "4664e4539ad47c78ecb897adb95826bba820c25fae20099fc3b49f437e0843c1",
+  "scenarios/split-v1/gen6/building_19833/denver_1/zone_map.npy": "a31004a6d0a2cb1143136c3e96a8563ad9fe3bd3c378cdaadb0358696806d6b1",
+  "scenarios/split-v1/gen6/building_19904/denver_1/config.gin": "49346f35e258b5b4f7110d308e4fb27db567221a36e00640ca4fa51c46ebbf16",
+  "scenarios/split-v1/gen6/building_19904/denver_1/config.yaml": "b9886ef510e5c02846803f839b40e313620d2b23e34f56a6f88c629d455cfadb",
+  "scenarios/split-v1/gen6/building_19904/denver_1/floor_plan.npy": "3994f2ab57503862c6694dc36cfcb719e971616c00953fa52717af95c8610cfb",
+  "scenarios/split-v1/gen6/building_19904/denver_1/zone_map.npy": "604c3f8b02f6c19229fbce988e8477ca74c1518d3c40ea3452b43129cda3c97c",
+  "scenarios/split-v1/gen6/building_19966/fairbanks_3/config.gin": "ff8138c475a0b0a6064c9860b36e61b5953331a70cf8aee1708574991bf7bc3c",
+  "scenarios/split-v1/gen6/building_19966/fairbanks_3/config.yaml": "faa0dfd7110a3c5627dc3ece288350b5cd275e505fb9158864f396721d92383a",
+  "scenarios/split-v1/gen6/building_19966/fairbanks_3/floor_plan.npy": "476cd09e00aa2f8404b4fb21c6defd445541feb164a4785d29ba09d1a94849db",
+  "scenarios/split-v1/gen6/building_19966/fairbanks_3/zone_map.npy": "33ea433ccf6079d9f5266e2e838417e723b3b0401c6be3e8b56eda6d8e5b9e7a"
+ },
+ "seconds": 228
+}

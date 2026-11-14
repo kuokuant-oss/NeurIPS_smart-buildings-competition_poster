@@ -1,0 +1,8247 @@
+{
+ "started": "2026-11-04 16:44:54",
+ "options_file": "data/runs/b2rl/geo5/options_b1.json",
+ "stages": {
+  "options": {
+   "attempt": 1,
+   "status": "done",
+   "started": "2026-11-04 23:45:42",
+   "conflicts": [
+    [
+     "o516_2",
+     "o516_1",
+     "same option"
+    ],
+    [
+     "o541_1",
+     "o541_2",
+     "same option"
+    ],
+    [
+     "o523_1",
+     "o523_2",
+     "same option"
+    ],
+    [
+     "o523_2",
+     "p602_1",
+     "same switch ['precool_k']"
+    ],
+    [
+     "o523_2",
+     "p603_1",
+     "same switch ['precool_k']"
+    ],
+    [
+     "o524_1",
+     "o524_2",
+     "same option"
+    ],
+    [
+     "o524_1",
+     "o524_3",
+     "same option"
+    ],
+    [
+     "o527_1",
+     "o527_2",
+     "same option"
+    ],
+    [
+     "o528_1",
+     "o528_2",
+     "same option"
+    ],
+    [
+     "o531_1",
+     "o531_2",
+     "same option"
+    ],
+    [
+     "o531_1",
+     "o531_3",
+     "same option"
+    ],
+    [
+     "o531_2",
+     "o531_3",
+     "same option"
+    ],
+    [
+     "o517_2",
+     "o517_1",
+     "same option"
+    ],
+    [
+     "o526_1",
+     "o526_2",
+     "same option"
+    ],
+    [
+     "o526_1",
+     "o526_3",
+     "same option"
+    ],
+    [
+     "o526_2",
+     "o526_3",
+     "same option"
+    ],
+    [
+     "o546_1",
+     "o546_2",
+     "same option"
+    ],
+    [
+     "o546_1",
+     "o546_3",
+     "same option"
+    ],
+    [
+     "o546_2",
+     "o546_3",
+     "same option"
+    ],
+    [
+     "o546_2",
+     "o507_3",
+     "same switch ['hw_sawtooth']"
+    ],
+    [
+     "o546_2",
+     "o547_1",
+     "same switch ['hw_sawtooth']"
+    ],
+    [
+     "o546_2",
+     "o547_2",
+     "same switch ['hw_sawtooth']"
+    ],
+    [
+     "o546_2",
+     "o548_1",
+     "same switch ['hw_sawtooth']"
+    ],
+    [
+     "o546_2",
+     "o549_1",
+     "same switch ['hw_sawtooth']"
+    ],
+    [
+     "o546_2",
+     "o549_2",
+     "same switch ['hw_sawtooth']"
+    ],
+    [
+     "o546_2",
+     "p611_1",
+     "same switch ['hw_sawtooth']"
+    ],
+    [
+     "o546_2",
+     "p611_2",
+     "same switch ['hw_sawtooth']"
+    ],
+    [
+     "o546_3",
+     "o507_3",
+     "same switch ['hw_sawtooth']"
+    ],
+    [
+     "o546_3",
+     "o547_1",
+     "same switch ['hw_sawtooth']"
+    ],
+    [
+     "o546_3",
+     "o547_2",
+     "same switch ['hw_sawtooth']"
+    ],
+    [
+     "o546_3",
+     "o548_1",
+     "same switch ['hw_sawtooth']"
+    ],
+    [
+     "o546_3",
+     "o549_1",
+     "same switch ['hw_sawtooth']"
+    ],
+    [
+     "o546_3",
+     "o549_2",
+     "same switch ['hw_sawtooth']"
+    ],
+    [
+     "o546_3",
+     "p611_1",
+     "same switch ['hw_sawtooth']"
+    ],
+    [
+     "o546_3",
+     "p611_2",
+     "same switch ['hw_sawtooth']"
+    ],
+    [
+     "o538_1",
+     "o538_2",
+     "same option"
+    ],
+    [
+     "o508_1",
+     "o508_2",
+     "same option"
+    ],
+    [
+     "o540_1",
+     "o540_2",
+     "same option"
+    ],
+    [
+     "o540_1",
+     "p603_1",
+     "same switch ['pump_dp_reset']"
+    ],
+    [
+     "o515_1",
+     "o515_2",
+     "same option"
+    ],
+    [
+     "o515_1",
+     "o515_3",
+     "same option"
+    ],
+    [
+     "o515_2",
+     "o515_3",
+     "same option"
+    ],
+    [
+     "o522_1",
+     "o522_2",
+     "same option"
+    ],
+    [
+     "o522_2",
+     "p602_1",
+     "same switch ['night_cool_mode']"
+    ],
+    [
+     "o522_2",
+     "p602_2",
+     "same switch ['night_cool_mode']"
+    ],
+    [
+     "o522_2",
+     "p603_1",
+     "same switch ['night_cool_mode']"
+    ],
+    [
+     "o507_1",
+     "o507_2",
+     "same option"
+    ],
+    [
+     "o507_1",
+     "o507_3",
+     "same option"
+    ],
+    [
+     "o507_1",
+     "p611_1",
+     "same switch ['night_heat_mode']"
+    ],
+    [
+     "o507_1",
+     "p611_2",
+     "same switch ['night_heat_mode']"
+    ],
+    [
+     "o507_2",
+     "o507_3",
+     "same option"
+    ],
+    [
+     "o507_2",
+     "p601_1",
+     "same switch ['night_heat_mode']"
+    ],
+    [
+     "o507_2",
+     "p601_2",
+     "same switch ['night_heat_mode']"
+    ],
+    [
+     "o507_2",
+     "p603_1",
+     "same switch ['night_heat_mode']"
+    ],
+    [
+     "o507_2",
+     "p611_1",
+     "same switch ['night_heat_mode']"
+    ],
+    [
+     "o507_2",
+     "p611_2",
+     "same switch ['night_heat_mode']"
+    ],
+    [
+     "o507_3",
+     "p601_1",
+     "same switch ['night_heat_mode']"
+    ],
+    [
+     "o507_3",
+     "p601_2",
+     "same switch ['night_heat_mode']"
+    ],
+    [
+     "o507_3",
+     "p603_1",
+     "same switch ['night_heat_mode']"
+    ],
+    [
+     "o547_1",
+     "o547_2",
+     "same option"
+    ],
+    [
+     "o549_1",
+     "o549_2",
+     "same option"
+    ],
+    [
+     "o530_1",
+     "o530_2",
+     "same option"
+    ],
+    [
+     "o509_1",
+     "o509_2",
+     "same option"
+    ],
+    [
+     "o509_1",
+     "o505_ubm1f",
+     "same switch ['warmup_heat_max_ratio']"
+    ],
+    [
+     "o509_1",
+     "o505_ubp1f",
+     "same switch ['warmup_heat_max_ratio']"
+    ],
+    [
+     "o509_1",
+     "o505_ubp2f",
+     "same switch ['warmup_heat_max_ratio']"
+    ],
+    [
+     "o511_1",
+     "o511_2",
+     "same option"
+    ],
+    [
+     "o524_2",
+     "o524_3",
+     "same option"
+    ],
+    [
+     "o539_1",
+     "o539_2",
+     "same option"
+    ],
+    [
+     "o503_1",
+     "o503_2",
+     "same option"
+    ],
+    [
+     "o506_1",
+     "o506_2",
+     "same option"
+    ],
+    [
+     "o506_1",
+     "o506_3",
+     "same option"
+    ],
+    [
+     "o506_2",
+     "o506_3",
+     "same option"
+    ],
+    [
+     "o505_1",
+     "o505_ubm1",
+     "same option"
+    ],
+    [
+     "o505_1",
+     "o505_ubp1",
+     "same option"
+    ],
+    [
+     "o505_1",
+     "o505_ubp2",
+     "same option"
+    ],
+    [
+     "o505_1",
+     "o505_ubm1f",
+     "same option"
+    ],
+    [
+     "o505_1",
+     "o505_ubp1f",
+     "same option"
+    ],
+    [
+     "o505_1",
+     "o505_ubp2f",
+     "same option"
+    ],
+    [
+     "o505_ubm1",
+     "o505_ubp1",
+     "same option"
+    ],
+    [
+     "o505_ubm1",
+     "o505_ubp2",
+     "same option"
+    ],
+    [
+     "o505_ubm1",
+     "o505_ubm1f",
+     "same option"
+    ],
+    [
+     "o505_ubm1",
+     "o505_ubp1f",
+     "same option"
+    ],
+    [
+     "o505_ubm1",
+     "o505_ubp2f",
+     "same option"
+    ],
+    [
+     "o505_ubp1",
+     "o505_ubp2",
+     "same option"
+    ],
+    [
+     "o505_ubp1",
+     "o505_ubm1f",
+     "same option"
+    ],
+    [
+     "o505_ubp1",
+     "o505_ubp1f",
+     "same option"
+    ],
+    [
+     "o505_ubp1",
+     "o505_ubp2f",
+     "same option"
+    ],
+    [
+     "o505_ubp2",
+     "o505_ubm1f",
+     "same option"
+    ],
+    [
+     "o505_ubp2",
+     "o505_ubp1f",
+     "same option"
+    ],
+    [
+     "o505_ubp2",
+     "o505_ubp2f",
+     "same option"
+    ],
+    [
+     "o505_ubm1f",
+     "o505_ubp1f",
+     "same option"
+    ],
+    [
+     "o505_ubm1f",
+     "o505_ubp2f",
+     "same option"
+    ],
+    [
+     "o505_ubp1f",
+     "o505_ubp2f",
+     "same option"
+    ],
+    [
+     "o545_1",
+     "o545_2",
+     "same option"
+    ],
+    [
+     "o545_1",
+     "o545_3",
+     "same option"
+    ],
+    [
+     "o545_2",
+     "o545_3",
+     "same option"
+    ],
+    [
+     "o526_3",
+     "p601_2",
+     "same switch ['cold_low_flow_sp_pa']"
+    ],
+    [
+     "p601_1",
+     "p601_2",
+     "same option"
+    ],
+    [
+     "p601_1",
+     "p601_3",
+     "same option"
+    ],
+    [
+     "p601_1",
+     "p611_1",
+     "same switch ['night_heat_mode']"
+    ],
+    [
+     "p601_1",
+     "p611_2",
+     "same switch ['night_heat_mode']"
+    ],
+    [
+     "p601_2",
+     "p601_3",
+     "same option"
+    ],
+    [
+     "p601_2",
+     "p603_1",
+     "same switch ['cold_low_flow_sp_pa']"
+    ],
+    [
+     "p601_2",
+     "p611_1",
+     "same switch ['cold_low_flow_sp_pa', 'night_heat_mode']"
+    ],
+    [
+     "p601_2",
+     "p611_2",
+     "same switch ['cold_low_flow_sp_pa', 'night_heat_mode']"
+    ],
+    [
+     "p602_1",
+     "p602_2",
+     "same option"
+    ],
+    [
+     "p603_1",
+     "p611_1",
+     "same switch ['night_heat_mode']"
+    ],
+    [
+     "p603_1",
+     "p611_2",
+     "same switch ['night_heat_mode']"
+    ],
+    [
+     "p611_1",
+     "p611_2",
+     "same option"
+    ]
+   ],
+   "ended": "2026-11-04 23:45:42",
+   "minutes": 0.01
+  },
+  "screen": {
+   "attempt": 1,
+   "status": "done",
+   "started": "2026-11-04 23:45:42",
+   "directions": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "info_wakes": [
+    1,
+    2
+   ],
+   "report": "data/runs/b2rl/geo5/screen/report.json",
+   "best_single": {
+    "competition": [
+     "o546_1",
+     -18.482270813777472
+    ],
+    "paper": [
+     "o541_2",
+     -0.9465548221700704
+    ]
+   },
+   "table": {
+    "o502_1": {
+     "cw_pct": -0.1680477853125105,
+     "billing_cw_pct": -0.26231985520563095,
+     "oracle_pct": -0.27006883151412003,
+     "paper": "keep",
+     "competition": "conditional"
+    },
+    "o516_2": {
+     "cw_pct": -0.15888260676060517,
+     "billing_cw_pct": -0.1685207255545041,
+     "oracle_pct": -0.2717867291150624,
+     "paper": "keep",
+     "competition": "drop"
+    },
+    "o521_1": {
+     "cw_pct": -0.1825817096135552,
+     "billing_cw_pct": -0.18886211803833822,
+     "oracle_pct": -0.22382105679856507,
+     "paper": "keep",
+     "competition": "keep"
+    },
+    "o541_1": {
+     "cw_pct": -0.8572018523850052,
+     "billing_cw_pct": -0.6815162856969458,
+     "oracle_pct": -0.8572018523850052,
+     "paper": "keep",
+     "competition": "keep"
+    },
+    "o501_1": {
+     "cw_pct": -0.015994088615407735,
+     "billing_cw_pct": -0.028888249294374172,
+     "oracle_pct": -0.07754032551729066,
+     "paper": "keep",
+     "competition": "keep"
+    },
+    "o512_1": {
+     "cw_pct": -0.004344632185639982,
+     "billing_cw_pct": -0.003861869680735619,
+     "oracle_pct": -0.004472769459103121,
+     "paper": "keep",
+     "competition": "keep"
+    },
+    "o523_1": {
+     "cw_pct": -0.29080616465415676,
+     "billing_cw_pct": -0.2583019536627899,
+     "oracle_pct": -0.34584841360713636,
+     "paper": "keep",
+     "competition": "keep"
+    },
+    "o523_2": {
+     "cw_pct": -0.4027088599376115,
+     "billing_cw_pct": -0.12431601919153071,
+     "oracle_pct": -0.6264809739827983,
+     "paper": "keep",
+     "competition": "keep"
+    },
+    "o524_1": {
+     "cw_pct": 1.9929280592699727,
+     "billing_cw_pct": 2.041379758477422,
+     "oracle_pct": -0.16135246908680928,
+     "paper": "drop",
+     "competition": "drop"
+    },
+    "o527_1": {
+     "cw_pct": 0.9341592082547425,
+     "billing_cw_pct": 0.8632917476441812,
+     "oracle_pct": -0.22626184742464978,
+     "paper": "conditional",
+     "competition": "conditional"
+    },
+    "o527_2": {
+     "cw_pct": 2.542593067910542,
+     "billing_cw_pct": 2.3855045935939843,
+     "oracle_pct": -0.1449847951575864,
+     "paper": "conditional",
+     "competition": "conditional"
+    },
+    "o528_1": {
+     "cw_pct": 0.2528276715795309,
+     "billing_cw_pct": 0.07318329585694652,
+     "oracle_pct": -0.1545973734426035,
+     "paper": "keep",
+     "competition": "keep"
+    },
+    "o528_2": {
+     "cw_pct": 0.6563719748128352,
+     "billing_cw_pct": 0.4208514721382638,
+     "oracle_pct": -0.11834462496173549,
+     "paper": "keep",
+     "competition": "conditional"
+    },
+    "o531_1": {
+     "cw_pct": 2.5402046575070956,
+     "billing_cw_pct": 2.7476830492136317,
+     "oracle_pct": -0.2297023858683469,
+     "paper": "drop",
+     "competition": "drop"
+    },
+    "o531_2": {
+     "cw_pct": 15.939695623053257,
+     "billing_cw_pct": 15.518269995438239,
+     "oracle_pct": 0.0,
+     "paper": "drop",
+     "competition": "drop"
+    },
+    "o531_3": {
+     "cw_pct": 2.1498412357710732,
+     "billing_cw_pct": 1.6568736868266598,
+     "oracle_pct": -0.11595973032961476,
+     "paper": "drop",
+     "competition": "drop"
+    },
+    "o532_1": {
+     "cw_pct": -0.06574018480035515,
+     "billing_cw_pct": -0.04138427303564065,
+     "oracle_pct": -0.06796987302010174,
+     "paper": "keep",
+     "competition": "keep"
+    },
+    "o542_1": {
+     "cw_pct": 1.3743232419772113,
+     "billing_cw_pct": 1.0885250324144782,
+     "oracle_pct": -0.09257525715436252,
+     "paper": "keep (paper required)",
+     "competition": "drop"
+    },
+    "o517_2": {
+     "cw_pct": 0.16330571430351537,
+     "billing_cw_pct": 0.12078752741693001,
+     "oracle_pct": -0.061434399672829335,
+     "paper": "not on the paper track",
+     "competition": "drop"
+    },
+    "o550_1": {
+     "cw_pct": -1.7042392661708812,
+     "billing_cw_pct": -1.3378502028886605,
+     "oracle_pct": -1.9264621146517127,
+     "paper": "not on the paper track",
+     "competition": "keep"
+    },
+    "o551_1": {
+     "cw_pct": -2.670500499279366,
+     "billing_cw_pct": -2.51344909584674,
+     "oracle_pct": -3.617428891727547,
+     "paper": "not on the paper track",
+     "competition": "keep"
+    },
+    "o526_1": {
+     "cw_pct": 1.9175210881278109,
+     "billing_cw_pct": 2.1306304784129475,
+     "oracle_pct": -0.5629223184951726,
+     "paper": "conditional",
+     "competition": "conditional"
+    },
+    "o526_2": {
+     "cw_pct": 8.382817212670883,
+     "billing_cw_pct": 7.7063606806549725,
+     "oracle_pct": -0.23780480286700853,
+     "paper": "drop",
+     "competition": "drop"
+    },
+    "o546_1": {
+     "cw_pct": -18.482270813777472,
+     "billing_cw_pct": 0.18495977055187884,
+     "oracle_pct": -18.641047358326738,
+     "paper": "not on the paper track",
+     "competition": "keep"
+    },
+    "o546_2": {
+     "cw_pct": -17.165025489533182,
+     "billing_cw_pct": 1.0454056359240622,
+     "oracle_pct": -17.323611114614653,
+     "paper": "not on the paper track",
+     "competition": "keep"
+    },
+    "o546_3": {
+     "cw_pct": 11.794777267097043,
+     "billing_cw_pct": 36.946887655967735,
+     "oracle_pct": -0.7991962454514627,
+     "paper": "not on the paper track",
+     "competition": "drop"
+    },
+    "o538_1": {
+     "cw_pct": 0.6821654176681552,
+     "billing_cw_pct": 0.2574264460778941,
+     "oracle_pct": -0.009305695362013009,
+     "paper": "drop",
+     "competition": "drop"
+    },
+    "o538_2": {
+     "cw_pct": 1.04857038837357,
+     "billing_cw_pct": -0.011490518846926822,
+     "oracle_pct": -0.013936331978235008,
+     "paper": "conditional",
+     "competition": "drop"
+    },
+    "o519_1": {
+     "cw_pct": 6.083692467131531,
+     "billing_cw_pct": 5.623376657184586,
+     "oracle_pct": -0.389491556958256,
+     "paper": "conditional",
+     "competition": "conditional"
+    },
+    "o508_1": {
+     "cw_pct": 0.08766639438642815,
+     "billing_cw_pct": 0.07865871883131037,
+     "oracle_pct": -0.13323534267523507,
+     "paper": "keep",
+     "competition": "keep"
+    },
+    "o508_2": {
+     "cw_pct": 0.3168974221819371,
+     "billing_cw_pct": 0.1967588455112504,
+     "oracle_pct": -0.2293697492533784,
+     "paper": "keep",
+     "competition": "keep"
+    },
+    "o540_1": {
+     "cw_pct": 2.1891733008640437,
+     "billing_cw_pct": 1.9864334955500194,
+     "oracle_pct": -0.1254140755612928,
+     "paper": "drop",
+     "competition": "drop"
+    },
+    "o540_2": {
+     "cw_pct": -0.7705433376280633,
+     "billing_cw_pct": -0.7167469500648336,
+     "oracle_pct": -0.7725949955394398,
+     "paper": "keep",
+     "competition": "keep"
+    },
+    "o510_1": {
+     "cw_pct": 0.0964586960488905,
+     "billing_cw_pct": 0.07087086560389605,
+     "oracle_pct": -0.050786694505261465,
+     "paper": "drop",
+     "competition": "drop"
+    },
+    "o541_2": {
+     "cw_pct": -1.1869117242900142,
+     "billing_cw_pct": -0.9465548221700704,
+     "oracle_pct": -1.1871222440610056,
+     "paper": "keep",
+     "competition": "keep"
+    },
+    "o516_1": {
+     "cw_pct": -0.22123235642591146,
+     "billing_cw_pct": -0.19358035182022545,
+     "oracle_pct": -0.23462394856947322,
+     "paper": "keep",
+     "competition": "keep"
+    },
+    "o543_1": {
+     "cw_pct": 1.2202450406156073,
+     "billing_cw_pct": 1.2821729950726442,
+     "oracle_pct": -0.08049946916601187,
+     "paper": "drop",
+     "competition": "drop"
+    },
+    "o515_1": {
+     "cw_pct": 0.4334623746958562,
+     "billing_cw_pct": 0.40768336467787947,
+     "oracle_pct": -0.0776580504722878,
+     "paper": "drop",
+     "competition": "drop"
+    },
+    "o515_2": {
+     "cw_pct": 0.3229411900373197,
+     "billing_cw_pct": 0.30188376443873616,
+     "oracle_pct": -0.04431458780359457,
+     "paper": "drop",
+     "competition": "drop"
+    },
+    "o515_3": {
+     "cw_pct": 0.22495884878016215,
+     "billing_cw_pct": 0.21075656249450966,
+     "oracle_pct": -0.04826032685151554,
+     "paper": "drop",
+     "competition": "drop"
+    },
+    "o514_1": {
+     "cw_pct": -0.25117387912044636,
+     "billing_cw_pct": -0.23468391853755802,
+     "oracle_pct": -0.34124971027350315,
+     "paper": "keep",
+     "competition": "keep"
+    },
+    "o522_1": {
+     "cw_pct": 0.12493401171285931,
+     "billing_cw_pct": 0.11374625756110483,
+     "oracle_pct": -0.3055377548951611,
+     "paper": "keep",
+     "competition": "keep"
+    },
+    "o522_2": {
+     "cw_pct": 8.027214071536,
+     "billing_cw_pct": 7.562690813758549,
+     "oracle_pct": 0.0,
+     "paper": "drop",
+     "competition": "drop"
+    },
+    "o507_1": {
+     "cw_pct": 6.287805111109961,
+     "billing_cw_pct": 6.791544590374126,
+     "oracle_pct": -0.011605340726822438,
+     "paper": "drop",
+     "competition": "drop"
+    },
+    "o507_2": {
+     "cw_pct": 14.121729404929473,
+     "billing_cw_pct": 14.302321514367925,
+     "oracle_pct": 0.0,
+     "paper": "drop",
+     "competition": "drop"
+    },
+    "o507_3": {
+     "cw_pct": -12.765339492367591,
+     "billing_cw_pct": 11.365272043352327,
+     "oracle_pct": -13.156450113925585,
+     "paper": "not on the paper track",
+     "competition": "keep"
+    },
+    "o547_1": {
+     "cw_pct": -17.96773785824723,
+     "billing_cw_pct": 1.215645198684046,
+     "oracle_pct": -18.126514402796495,
+     "paper": "not on the paper track",
+     "competition": "keep"
+    },
+    "o547_2": {
+     "cw_pct": -18.437524388618264,
+     "billing_cw_pct": 1.398686819764841,
+     "oracle_pct": -18.59630093316753,
+     "paper": "not on the paper track",
+     "competition": "keep"
+    },
+    "o548_1": {
+     "cw_pct": -14.819457757679563,
+     "billing_cw_pct": 5.250307376166686,
+     "oracle_pct": -17.230352355093384,
+     "paper": "not on the paper track",
+     "competition": "keep"
+    },
+    "o549_1": {
+     "cw_pct": -17.94495244041811,
+     "billing_cw_pct": 1.448615595492538,
+     "oracle_pct": -18.566168966981618,
+     "paper": "not on the paper track",
+     "competition": "keep"
+    },
+    "o549_2": {
+     "cw_pct": -11.28336420939244,
+     "billing_cw_pct": 9.657717038504149,
+     "oracle_pct": -15.752510065246828,
+     "paper": "not on the paper track",
+     "competition": "keep"
+    },
+    "o530_1": {
+     "cw_pct": 10.457417426618438,
+     "billing_cw_pct": 9.656912488886375,
+     "oracle_pct": 0.0,
+     "paper": "drop",
+     "competition": "drop"
+    },
+    "o530_2": {
+     "cw_pct": 11.220452979038901,
+     "billing_cw_pct": 10.389307603186335,
+     "oracle_pct": 0.0,
+     "paper": "drop",
+     "competition": "drop"
+    },
+    "o509_1": {
+     "cw_pct": 0.7615098855647259,
+     "billing_cw_pct": 0.5228240493953562,
+     "oracle_pct": 0.0,
+     "paper": "drop",
+     "competition": "drop"
+    },
+    "o509_2": {
+     "cw_pct": 2.0752760722579553,
+     "billing_cw_pct": 1.6159222656931513,
+     "oracle_pct": 0.0,
+     "paper": "drop",
+     "competition": "drop"
+    },
+    "o511_1": {
+     "cw_pct": 0.6663913189563064,
+     "billing_cw_pct": 0.5489491166016145,
+     "oracle_pct": -0.0014984505504028244,
+     "paper": "drop",
+     "competition": "drop"
+    },
+    "o511_2": {
+     "cw_pct": 1.9299354895793868,
+     "billing_cw_pct": 1.6655948119459048,
+     "oracle_pct": 0.0,
+     "paper": "drop",
+     "competition": "drop"
+    },
+    "o513_1": {
+     "cw_pct": 1.2537743272568627,
+     "billing_cw_pct": 1.1781902166227982,
+     "oracle_pct": -0.008795616029809626,
+     "paper": "drop",
+     "competition": "drop"
+    },
+    "o517_1": {
+     "cw_pct": 0.0062281690918991215,
+     "billing_cw_pct": -0.02874102692645763,
+     "oracle_pct": -0.04914700770055943,
+     "paper": "keep",
+     "competition": "keep"
+    },
+    "o518_1": {
+     "cw_pct": -0.434494640858759,
+     "billing_cw_pct": -0.4115128300769854,
+     "oracle_pct": -0.44536584217131825,
+     "paper": "keep",
+     "competition": "keep"
+    },
+    "o520_1": {
+     "cw_pct": -0.02058680325348357,
+     "billing_cw_pct": -0.020943731543695245,
+     "oracle_pct": -0.0371372589884533,
+     "paper": "keep",
+     "competition": "keep"
+    },
+    "o524_2": {
+     "cw_pct": -0.23968870687774926,
+     "billing_cw_pct": -0.17269625126547897,
+     "oracle_pct": -0.8327926996383289,
+     "paper": "keep",
+     "competition": "keep"
+    },
+    "o524_3": {
+     "cw_pct": -0.18980939821482548,
+     "billing_cw_pct": -0.1637079790565381,
+     "oracle_pct": -0.251994111992331,
+     "paper": "keep",
+     "competition": "keep"
+    },
+    "o525_1": {
+     "cw_pct": -0.708020958036594,
+     "billing_cw_pct": -0.6840949180093849,
+     "oracle_pct": -0.8478750752681878,
+     "paper": "keep",
+     "competition": "keep"
+    },
+    "o533_1": {
+     "cw_pct": 0.16258659957636099,
+     "billing_cw_pct": 0.6367826184070595,
+     "oracle_pct": -0.3457365463365591,
+     "paper": "drop",
+     "competition": "keep"
+    },
+    "o535_1": {
+     "cw_pct": 1.1171087787088931,
+     "billing_cw_pct": 1.0166366724847604,
+     "oracle_pct": -0.10649365330392066,
+     "paper": "drop",
+     "competition": "drop"
+    },
+    "o536_1": {
+     "cw_pct": -0.07252448059569405,
+     "billing_cw_pct": -0.05373902297078545,
+     "oracle_pct": -0.1975260521688594,
+     "paper": "drop",
+     "competition": "drop"
+    },
+    "o537_1": {
+     "cw_pct": -0.13603720971206953,
+     "billing_cw_pct": -0.12051740134325717,
+     "oracle_pct": -0.19014062815195998,
+     "paper": "keep",
+     "competition": "keep"
+    },
+    "o539_1": {
+     "cw_pct": 0.1276249955965333,
+     "billing_cw_pct": 0.12997411144948262,
+     "oracle_pct": 0.0,
+     "paper": "keep",
+     "competition": "keep"
+    },
+    "o539_2": {
+     "cw_pct": 0.0,
+     "billing_cw_pct": 0.0,
+     "oracle_pct": 0.0,
+     "paper": "keep",
+     "competition": "keep"
+    },
+    "o529_1": {
+     "cw_pct": -0.19913059697135804,
+     "billing_cw_pct": -0.24639456748661806,
+     "oracle_pct": -0.4003722938810834,
+     "paper": "keep",
+     "competition": "keep"
+    },
+    "o504_1": {
+     "cw_pct": 0.10816587704234337,
+     "billing_cw_pct": 0.09644539471817162,
+     "oracle_pct": -0.03943996605928278,
+     "paper": "drop",
+     "competition": "drop"
+    },
+    "o503_1": {
+     "cw_pct": 0.0,
+     "billing_cw_pct": 0.0,
+     "oracle_pct": 0.0,
+     "paper": "keep",
+     "competition": "keep"
+    },
+    "o503_2": {
+     "cw_pct": 0.5666785757685278,
+     "billing_cw_pct": 0.5434558227111355,
+     "oracle_pct": -0.09956973245359227,
+     "paper": "drop",
+     "competition": "drop"
+    },
+    "o506_1": {
+     "cw_pct": 0.652815857243502,
+     "billing_cw_pct": 0.48681364613462175,
+     "oracle_pct": -0.18880668366025136,
+     "paper": "conditional",
+     "competition": "conditional"
+    },
+    "o506_2": {
+     "cw_pct": 2.0449864871024976,
+     "billing_cw_pct": 1.627539698128359,
+     "oracle_pct": -0.03196952702876865,
+     "paper": "drop",
+     "competition": "drop"
+    },
+    "o506_3": {
+     "cw_pct": 4.8407948077216485,
+     "billing_cw_pct": 4.159615815671869,
+     "oracle_pct": -0.0021325141340945686,
+     "paper": "drop",
+     "competition": "drop"
+    },
+    "o505_1": {
+     "cw_pct": 0.7746396845111522,
+     "billing_cw_pct": 0.5161787426815173,
+     "oracle_pct": -0.20961287613436946,
+     "paper": "conditional",
+     "competition": "conditional"
+    },
+    "o505_ubm1": {
+     "cw_pct": 7.03351973132007,
+     "billing_cw_pct": 6.409768763396978,
+     "oracle_pct": -0.031140716805025198,
+     "paper": "drop",
+     "competition": "drop"
+    },
+    "o505_ubp1": {
+     "cw_pct": 2.2961514954553355,
+     "billing_cw_pct": 2.93149492243466,
+     "oracle_pct": -0.10810636221606676,
+     "paper": "drop",
+     "competition": "drop"
+    },
+    "o505_ubp2": {
+     "cw_pct": 4.046736168902389,
+     "billing_cw_pct": 5.401077472097131,
+     "oracle_pct": -0.1350764602707318,
+     "paper": "drop",
+     "competition": "drop"
+    },
+    "o505_ubm1f": {
+     "cw_pct": 7.03351973132007,
+     "billing_cw_pct": 6.409768763396978,
+     "oracle_pct": -0.031140716805025198,
+     "paper": "drop",
+     "competition": "drop"
+    },
+    "o505_ubp1f": {
+     "cw_pct": 6.278060844498672,
+     "billing_cw_pct": 5.710092600793363,
+     "oracle_pct": -0.044509393013770424,
+     "paper": "drop",
+     "competition": "drop"
+    },
+    "o505_ubp2f": {
+     "cw_pct": 9.898158733231375,
+     "billing_cw_pct": 9.311897945739995,
+     "oracle_pct": -0.10154094785299614,
+     "paper": "drop",
+     "competition": "drop"
+    },
+    "o544_1": {
+     "cw_pct": 1.7274449483390983,
+     "billing_cw_pct": 1.322576148158008,
+     "oracle_pct": -0.38737507234593727,
+     "paper": "conditional",
+     "competition": "conditional"
+    },
+    "o545_1": {
+     "cw_pct": 39.812996469852045,
+     "billing_cw_pct": 37.394158744722276,
+     "oracle_pct": 0.0,
+     "paper": "drop",
+     "competition": "drop"
+    },
+    "o545_2": {
+     "cw_pct": 39.55523555498947,
+     "billing_cw_pct": 37.13316691048812,
+     "oracle_pct": 0.0,
+     "paper": "drop",
+     "competition": "drop"
+    },
+    "o545_3": {
+     "cw_pct": 41.11145901351768,
+     "billing_cw_pct": 38.603975073048694,
+     "oracle_pct": 0.0,
+     "paper": "drop",
+     "competition": "drop"
+    },
+    "o526_3": {
+     "cw_pct": -0.21983026283662893,
+     "billing_cw_pct": -0.32617893155651667,
+     "oracle_pct": -1.0726082886320147,
+     "paper": "keep",
+     "competition": "keep"
+    },
+    "p601_1": {
+     "cw_pct": 5.9709499731768725,
+     "billing_cw_pct": 6.043580269184033,
+     "oracle_pct": -0.21740813417697072,
+     "paper": "conditional",
+     "competition": "drop"
+    },
+    "p601_2": {
+     "cw_pct": 6.7479701778100045,
+     "billing_cw_pct": 7.0061780775804605,
+     "oracle_pct": -0.029011500423534408,
+     "paper": "conditional",
+     "competition": "drop"
+    },
+    "p601_3": {
+     "cw_pct": -0.2364579840810218,
+     "billing_cw_pct": -0.527718098702339,
+     "oracle_pct": -1.5191865263117283,
+     "paper": "keep",
+     "competition": "keep"
+    },
+    "p602_1": {
+     "cw_pct": 7.232612435532827,
+     "billing_cw_pct": 6.590691780354234,
+     "oracle_pct": -0.40258877410883365,
+     "paper": "drop",
+     "competition": "drop"
+    },
+    "p602_2": {
+     "cw_pct": 6.994148594038671,
+     "billing_cw_pct": 6.46562678632499,
+     "oracle_pct": -0.3109856320348989,
+     "paper": "drop",
+     "competition": "drop"
+    },
+    "p603_1": {
+     "cw_pct": 14.816185042495356,
+     "billing_cw_pct": 13.855618789140697,
+     "oracle_pct": -0.3496716329337676,
+     "paper": "drop",
+     "competition": "drop"
+    },
+    "p611_1": {
+     "cw_pct": -11.070645532979139,
+     "billing_cw_pct": 11.740000640524554,
+     "oracle_pct": -11.804152321673518,
+     "paper": "not on the paper track",
+     "competition": "keep"
+    },
+    "p611_2": {
+     "cw_pct": -12.416590684034281,
+     "billing_cw_pct": 9.323406953890228,
+     "oracle_pct": -13.272664184651727,
+     "paper": "not on the paper track",
+     "competition": "keep"
+    }
+   },
+   "logged": [
+    "o502_1",
+    "o516_2",
+    "o521_1",
+    "o541_1",
+    "o501_1",
+    "o512_1",
+    "o523_1",
+    "o523_2",
+    "o524_1",
+    "o527_1",
+    "o527_2",
+    "o528_1",
+    "o528_2",
+    "o531_1",
+    "o531_2",
+    "o531_3",
+    "o532_1",
+    "o542_1",
+    "o517_2",
+    "o550_1",
+    "o551_1",
+    "o526_1",
+    "o526_2",
+    "o546_1",
+    "o546_2",
+    "o546_3",
+    "o538_1",
+    "o538_2",
+    "o519_1",
+    "o508_1",
+    "o508_2",
+    "o540_1",
+    "o540_2",
+    "o510_1",
+    "o541_2",
+    "o516_1",
+    "o543_1",
+    "o515_1",
+    "o515_2",
+    "o515_3",
+    "o514_1",
+    "o522_1",
+    "o522_2",
+    "o507_1",
+    "o507_2",
+    "o507_3",
+    "o547_1",
+    "o547_2",
+    "o548_1",
+    "o549_1",
+    "o549_2",
+    "o530_1",
+    "o530_2",
+    "o509_1",
+    "o509_2",
+    "o511_1",
+    "o511_2",
+    "o513_1",
+    "o517_1",
+    "o518_1",
+    "o520_1",
+    "o524_2",
+    "o524_3",
+    "o525_1",
+    "o533_1",
+    "o535_1",
+    "o536_1",
+    "o537_1",
+    "o539_1",
+    "o539_2",
+    "o529_1",
+    "o504_1",
+    "o503_1",
+    "o503_2",
+    "o506_1",
+    "o506_2",
+    "o506_3",
+    "o505_1",
+    "o505_ubm1",
+    "o505_ubp1",
+    "o505_ubp2",
+    "o505_ubm1f",
+    "o505_ubp1f",
+    "o505_ubp2f",
+    "o544_1",
+    "o545_1",
+    "o545_2",
+    "o545_3",
+    "o526_3",
+    "p601_1",
+    "p601_2",
+    "p601_3",
+    "p602_1",
+    "p602_2",
+    "p603_1",
+    "p611_1",
+    "p611_2"
+   ],
+   "survivors": {
+    "competition": [
+     "o521_1",
+     "o541_1",
+     "o501_1",
+     "o512_1",
+     "o523_1",
+     "o523_2",
+     "o528_1",
+     "o532_1",
+     "o550_1",
+     "o551_1",
+     "o546_1",
+     "o546_2",
+     "o508_1",
+     "o508_2",
+     "o540_2",
+     "o541_2",
+     "o516_1",
+     "o514_1",
+     "o522_1",
+     "o507_3",
+     "o547_1",
+     "o547_2",
+     "o548_1",
+     "o549_1",
+     "o549_2",
+     "o517_1",
+     "o518_1",
+     "o520_1",
+     "o524_2",
+     "o524_3",
+     "o525_1",
+     "o533_1",
+     "o537_1",
+     "o539_1",
+     "o539_2",
+     "o529_1",
+     "o503_1",
+     "o526_3",
+     "p601_3",
+     "p611_1",
+     "p611_2"
+    ],
+    "paper": [
+     "o502_1",
+     "o516_2",
+     "o521_1",
+     "o541_1",
+     "o501_1",
+     "o512_1",
+     "o523_1",
+     "o523_2",
+     "o528_1",
+     "o528_2",
+     "o532_1",
+     "o542_1",
+     "o508_1",
+     "o508_2",
+     "o540_2",
+     "o541_2",
+     "o516_1",
+     "o514_1",
+     "o522_1",
+     "o517_1",
+     "o518_1",
+     "o520_1",
+     "o524_2",
+     "o524_3",
+     "o525_1",
+     "o537_1",
+     "o539_1",
+     "o539_2",
+     "o529_1",
+     "o503_1",
+     "o526_3",
+     "p601_3"
+    ]
+   },
+   "direction_files": {
+    "1": [
+     "data/runs/b2rl/geo5/direction_competition_batch1.json",
+     "data/runs/b2rl/geo5/direction_competition_batch1.md",
+     "data/runs/b2rl/geo5/direction_paper_batch1.json",
+     "data/runs/b2rl/geo5/direction_paper_batch1.md"
+    ],
+    "2": [
+     "data/runs/b2rl/geo5/direction_competition_batch2.json",
+     "data/runs/b2rl/geo5/direction_competition_batch2.md",
+     "data/runs/b2rl/geo5/direction_paper_batch2.json",
+     "data/runs/b2rl/geo5/direction_paper_batch2.md"
+    ],
+    "3": [
+     "data/runs/b2rl/geo5/direction_competition_batch3.json",
+     "data/runs/b2rl/geo5/direction_competition_batch3.md",
+     "data/runs/b2rl/geo5/direction_paper_batch3.json",
+     "data/runs/b2rl/geo5/direction_paper_batch3.md"
+    ],
+    "4": [
+     "data/runs/b2rl/geo5/direction_competition_batch4.json",
+     "data/runs/b2rl/geo5/direction_competition_batch4.md",
+     "data/runs/b2rl/geo5/direction_paper_batch4.json",
+     "data/runs/b2rl/geo5/direction_paper_batch4.md"
+    ],
+    "5": [
+     "data/runs/b2rl/geo5/direction_competition_batch5.json",
+     "data/runs/b2rl/geo5/direction_competition_batch5.md",
+     "data/runs/b2rl/geo5/direction_paper_batch5.json",
+     "data/runs/b2rl/geo5/direction_paper_batch5.md"
+    ],
+    "6": [
+     "data/runs/b2rl/geo5/direction_competition_batch6.json",
+     "data/runs/b2rl/geo5/direction_competition_batch6.md",
+     "data/runs/b2rl/geo5/direction_paper_batch6.json",
+     "data/runs/b2rl/geo5/direction_paper_batch6.md"
+    ]
+   },
+   "paused": "2026-11-04 21:09:25",
+   "ended": "2026-11-05 01:45:43",
+   "minutes": 120.01
+  },
+  "competition.design": {
+   "attempt": 1,
+   "status": "interrupted",
+   "started": "2026-11-05 07:16:39",
+   "factors": [
+    "o551_1",
+    "o550_1",
+    "o525_1",
+    "o523_2",
+    "o514_1",
+    "o516_1",
+    "o526_3",
+    "o521_1",
+    "o502_1",
+    "o519_1",
+    "o544_1g",
+    "o515_3",
+    "o529_1",
+    "o527_1"
+   ],
+   "whole": [
+    "o551_1",
+    "o550_1",
+    "o525_1",
+    "o523_2",
+    "o514_1",
+    "o516_1",
+    "o526_3",
+    "o521_1",
+    "o502_1",
+    "o519_1",
+    "o544_1g",
+    "o515_3"
+   ],
+   "sub": [
+    "o529_1",
+    "o527_1"
+   ],
+   "conflicts_dropped": [],
+   "design": {
+    "names": [
+     "o551_1",
+     "o550_1",
+     "o525_1",
+     "o523_2",
+     "o514_1",
+     "o516_1",
+     "o526_3",
+     "o521_1",
+     "o502_1",
+     "o519_1",
+     "o544_1g",
+     "o515_3",
+     "o529_1",
+     "o527_1"
+    ],
+    "whole": [
+     "o551_1",
+     "o550_1",
+     "o525_1",
+     "o523_2",
+     "o514_1",
+     "o516_1",
+     "o526_3",
+     "o521_1",
+     "o502_1",
+     "o519_1",
+     "o544_1g",
+     "o515_3"
+    ],
+    "sub": [
+     "o529_1",
+     "o527_1"
+    ],
+    "whole_idx": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11
+    ],
+    "runs": 64,
+    "base_runs": 64,
+    "foldover": false,
+    "masks": [
+     1,
+     2,
+     4,
+     8,
+     16,
+     31,
+     7,
+     11,
+     13,
+     14,
+     19,
+     21,
+     32,
+     54
+    ],
+    "whole_bits": 5,
+    "basic": 6,
+    "me_clear": true,
+    "pairs": [
+     [
+      "o551_1",
+      "o550_1"
+     ],
+     [
+      "o551_1",
+      "o525_1"
+     ],
+     [
+      "o551_1",
+      "o523_2"
+     ],
+     [
+      "o551_1",
+      "o514_1"
+     ],
+     [
+      "o551_1",
+      "o516_1"
+     ],
+     [
+      "o551_1",
+      "o526_3"
+     ],
+     [
+      "o551_1",
+      "o521_1"
+     ],
+     [
+      "o551_1",
+      "o502_1"
+     ],
+     [
+      "o551_1",
+      "o519_1"
+     ],
+     [
+      "o551_1",
+      "o544_1g"
+     ],
+     [
+      "o551_1",
+      "o515_3"
+     ],
+     [
+      "o550_1",
+      "o516_1"
+     ],
+     [
+      "o550_1",
+      "o515_3"
+     ],
+     [
+      "o525_1",
+      "o516_1"
+     ],
+     [
+      "o523_2",
+      "o514_1"
+     ],
+     [
+      "o551_1",
+      "o529_1"
+     ],
+     [
+      "o551_1",
+      "o527_1"
+     ],
+     [
+      "o550_1",
+      "o529_1"
+     ],
+     [
+      "o550_1",
+      "o527_1"
+     ],
+     [
+      "o525_1",
+      "o529_1"
+     ],
+     [
+      "o525_1",
+      "o527_1"
+     ],
+     [
+      "o523_2",
+      "o529_1"
+     ],
+     [
+      "o523_2",
+      "o527_1"
+     ],
+     [
+      "o514_1",
+      "o529_1"
+     ],
+     [
+      "o514_1",
+      "o527_1"
+     ],
+     [
+      "o516_1",
+      "o529_1"
+     ],
+     [
+      "o516_1",
+      "o527_1"
+     ],
+     [
+      "o526_3",
+      "o529_1"
+     ],
+     [
+      "o526_3",
+      "o527_1"
+     ],
+     [
+      "o521_1",
+      "o529_1"
+     ],
+     [
+      "o521_1",
+      "o527_1"
+     ],
+     [
+      "o502_1",
+      "o529_1"
+     ],
+     [
+      "o502_1",
+      "o527_1"
+     ],
+     [
+      "o519_1",
+      "o529_1"
+     ],
+     [
+      "o519_1",
+      "o527_1"
+     ],
+     [
+      "o544_1g",
+      "o529_1"
+     ],
+     [
+      "o544_1g",
+      "o527_1"
+     ],
+     [
+      "o515_3",
+      "o529_1"
+     ],
+     [
+      "o515_3",
+      "o527_1"
+     ],
+     [
+      "o529_1",
+      "o527_1"
+     ]
+    ],
+    "pairs_idx": [
+     [
+      0,
+      1
+     ],
+     [
+      0,
+      2
+     ],
+     [
+      0,
+      3
+     ],
+     [
+      0,
+      4
+     ],
+     [
+      0,
+      5
+     ],
+     [
+      0,
+      6
+     ],
+     [
+      0,
+      7
+     ],
+     [
+      0,
+      8
+     ],
+     [
+      0,
+      9
+     ],
+     [
+      0,
+      10
+     ],
+     [
+      0,
+      11
+     ],
+     [
+      1,
+      5
+     ],
+     [
+      1,
+      11
+     ],
+     [
+      2,
+      5
+     ],
+     [
+      3,
+      4
+     ],
+     [
+      0,
+      12
+     ],
+     [
+      0,
+      13
+     ],
+     [
+      1,
+      12
+     ],
+     [
+      1,
+      13
+     ],
+     [
+      2,
+      12
+     ],
+     [
+      2,
+      13
+     ],
+     [
+      3,
+      12
+     ],
+     [
+      3,
+      13
+     ],
+     [
+      4,
+      12
+     ],
+     [
+      4,
+      13
+     ],
+     [
+      5,
+      12
+     ],
+     [
+      5,
+      13
+     ],
+     [
+      6,
+      12
+     ],
+     [
+      6,
+      13
+     ],
+     [
+      7,
+      12
+     ],
+     [
+      7,
+      13
+     ],
+     [
+      8,
+      12
+     ],
+     [
+      8,
+      13
+     ],
+     [
+      9,
+      12
+     ],
+     [
+      9,
+      13
+     ],
+     [
+      10,
+      12
+     ],
+     [
+      10,
+      13
+     ],
+     [
+      11,
+      12
+     ],
+     [
+      11,
+      13
+     ],
+     [
+      12,
+      13
+     ]
+    ],
+    "alias": {
+     "o551_1 x o526_3": [
+      [
+       "o550_1",
+       "o525_1"
+      ],
+      [
+       "o523_2",
+       "o519_1"
+      ],
+      [
+       "o521_1",
+       "o502_1"
+      ],
+      [
+       "o544_1g",
+       "o515_3"
+      ]
+     ],
+     "o551_1 x o521_1": [
+      [
+       "o550_1",
+       "o523_2"
+      ],
+      [
+       "o525_1",
+       "o519_1"
+      ],
+      [
+       "o516_1",
+       "o515_3"
+      ],
+      [
+       "o526_3",
+       "o502_1"
+      ]
+     ],
+     "o551_1 x o544_1g": [
+      [
+       "o550_1",
+       "o514_1"
+      ],
+      [
+       "o516_1",
+       "o502_1"
+      ],
+      [
+       "o526_3",
+       "o515_3"
+      ]
+     ],
+     "o551_1 x o525_1": [
+      [
+       "o550_1",
+       "o526_3"
+      ],
+      [
+       "o523_2",
+       "o502_1"
+      ],
+      [
+       "o514_1",
+       "o515_3"
+      ],
+      [
+       "o521_1",
+       "o519_1"
+      ]
+     ],
+     "o551_1 x o523_2": [
+      [
+       "o550_1",
+       "o521_1"
+      ],
+      [
+       "o525_1",
+       "o502_1"
+      ],
+      [
+       "o526_3",
+       "o519_1"
+      ]
+     ],
+     "o551_1 x o519_1": [
+      [
+       "o550_1",
+       "o502_1"
+      ],
+      [
+       "o525_1",
+       "o521_1"
+      ],
+      [
+       "o523_2",
+       "o526_3"
+      ],
+      [
+       "o514_1",
+       "o516_1"
+      ]
+     ],
+     "o551_1 x o502_1": [
+      [
+       "o550_1",
+       "o519_1"
+      ],
+      [
+       "o525_1",
+       "o523_2"
+      ],
+      [
+       "o516_1",
+       "o544_1g"
+      ],
+      [
+       "o526_3",
+       "o521_1"
+      ]
+     ],
+     "o551_1 x o514_1": [
+      [
+       "o550_1",
+       "o544_1g"
+      ],
+      [
+       "o525_1",
+       "o515_3"
+      ],
+      [
+       "o516_1",
+       "o519_1"
+      ]
+     ],
+     "o551_1 x o515_3": [
+      [
+       "o525_1",
+       "o514_1"
+      ],
+      [
+       "o516_1",
+       "o521_1"
+      ],
+      [
+       "o526_3",
+       "o544_1g"
+      ]
+     ],
+     "o551_1 x o550_1": [
+      [
+       "o525_1",
+       "o526_3"
+      ],
+      [
+       "o523_2",
+       "o521_1"
+      ],
+      [
+       "o514_1",
+       "o544_1g"
+      ],
+      [
+       "o502_1",
+       "o519_1"
+      ]
+     ],
+     "o550_1 x o515_3": [
+      [
+       "o525_1",
+       "o544_1g"
+      ],
+      [
+       "o523_2",
+       "o516_1"
+      ],
+      [
+       "o514_1",
+       "o526_3"
+      ]
+     ],
+     "o525_1 x o516_1": [
+      [
+       "o523_2",
+       "o544_1g"
+      ],
+      [
+       "o514_1",
+       "o521_1"
+      ],
+      [
+       "o519_1",
+       "o515_3"
+      ]
+     ],
+     "o550_1 x o516_1": [
+      [
+       "o523_2",
+       "o515_3"
+      ],
+      [
+       "o514_1",
+       "o502_1"
+      ],
+      [
+       "o519_1",
+       "o544_1g"
+      ]
+     ],
+     "o551_1 x o516_1": [
+      [
+       "o514_1",
+       "o519_1"
+      ],
+      [
+       "o521_1",
+       "o515_3"
+      ],
+      [
+       "o502_1",
+       "o544_1g"
+      ]
+     ],
+     "o523_2 x o514_1": [
+      [
+       "o516_1",
+       "o526_3"
+      ],
+      [
+       "o521_1",
+       "o544_1g"
+      ],
+      [
+       "o502_1",
+       "o515_3"
+      ]
+     ]
+    },
+    "full": false
+   },
+   "runs": [
+    {
+     "name": "g5cda00",
+     "row": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      1
+     ],
+     "on": [
+      "o527_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5cda01",
+     "row": [
+      1,
+      -1,
+      -1,
+      -1,
+      -1,
+      1,
+      1,
+      1,
+      1,
+      -1,
+      1,
+      1,
+      -1,
+      1
+     ],
+     "on": [
+      "o551_1",
+      "o516_1",
+      "o526_3",
+      "o521_1",
+      "o502_1",
+      "o544_1g",
+      "o515_3",
+      "o527_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5cda02",
+     "row": [
+      -1,
+      1,
+      -1,
+      -1,
+      -1,
+      1,
+      1,
+      1,
+      -1,
+      1,
+      1,
+      -1,
+      -1,
+      -1
+     ],
+     "on": [
+      "o550_1",
+      "o516_1",
+      "o526_3",
+      "o521_1",
+      "o519_1",
+      "o544_1g"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5cda03",
+     "row": [
+      1,
+      1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      1,
+      -1,
+      -1
+     ],
+     "on": [
+      "o551_1",
+      "o550_1",
+      "o502_1",
+      "o519_1",
+      "o515_3"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5cda04",
+     "row": [
+      -1,
+      -1,
+      1,
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      1,
+      1,
+      -1,
+      1,
+      -1,
+      -1
+     ],
+     "on": [
+      "o525_1",
+      "o516_1",
+      "o526_3",
+      "o502_1",
+      "o519_1",
+      "o515_3"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5cda05",
+     "row": [
+      1,
+      -1,
+      1,
+      -1,
+      -1,
+      -1,
+      -1,
+      1,
+      -1,
+      1,
+      1,
+      -1,
+      -1,
+      -1
+     ],
+     "on": [
+      "o551_1",
+      "o525_1",
+      "o521_1",
+      "o519_1",
+      "o544_1g"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5cda06",
+     "row": [
+      -1,
+      1,
+      1,
+      -1,
+      -1,
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      1,
+      1,
+      -1,
+      1
+     ],
+     "on": [
+      "o550_1",
+      "o525_1",
+      "o521_1",
+      "o502_1",
+      "o544_1g",
+      "o515_3",
+      "o527_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5cda07",
+     "row": [
+      1,
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      1
+     ],
+     "on": [
+      "o551_1",
+      "o550_1",
+      "o525_1",
+      "o516_1",
+      "o526_3",
+      "o527_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5cda08",
+     "row": [
+      -1,
+      -1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      1,
+      1,
+      -1,
+      -1,
+      -1,
+      1
+     ],
+     "on": [
+      "o523_2",
+      "o516_1",
+      "o521_1",
+      "o502_1",
+      "o519_1",
+      "o527_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5cda09",
+     "row": [
+      1,
+      -1,
+      -1,
+      1,
+      -1,
+      -1,
+      1,
+      -1,
+      -1,
+      1,
+      1,
+      1,
+      -1,
+      1
+     ],
+     "on": [
+      "o551_1",
+      "o523_2",
+      "o526_3",
+      "o519_1",
+      "o544_1g",
+      "o515_3",
+      "o527_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5cda10",
+     "row": [
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      -1,
+      -1
+     ],
+     "on": [
+      "o550_1",
+      "o523_2",
+      "o526_3",
+      "o502_1",
+      "o544_1g"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5cda11",
+     "row": [
+      1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      -1,
+      -1,
+      1,
+      -1,
+      -1
+     ],
+     "on": [
+      "o551_1",
+      "o550_1",
+      "o523_2",
+      "o516_1",
+      "o521_1",
+      "o515_3"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5cda12",
+     "row": [
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      -1,
+      -1,
+      1,
+      -1,
+      -1
+     ],
+     "on": [
+      "o525_1",
+      "o523_2",
+      "o526_3",
+      "o521_1",
+      "o515_3"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5cda13",
+     "row": [
+      1,
+      -1,
+      1,
+      1,
+      -1,
+      1,
+      -1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      -1,
+      -1
+     ],
+     "on": [
+      "o551_1",
+      "o525_1",
+      "o523_2",
+      "o516_1",
+      "o502_1",
+      "o544_1g"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5cda14",
+     "row": [
+      -1,
+      1,
+      1,
+      1,
+      -1,
+      1,
+      -1,
+      -1,
+      -1,
+      1,
+      1,
+      1,
+      -1,
+      1
+     ],
+     "on": [
+      "o550_1",
+      "o525_1",
+      "o523_2",
+      "o516_1",
+      "o519_1",
+      "o544_1g",
+      "o515_3",
+      "o527_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5cda15",
+     "row": [
+      1,
+      1,
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      1,
+      1,
+      1,
+      -1,
+      -1,
+      -1,
+      1
+     ],
+     "on": [
+      "o551_1",
+      "o550_1",
+      "o525_1",
+      "o523_2",
+      "o526_3",
+      "o521_1",
+      "o502_1",
+      "o519_1",
+      "o527_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5cda16",
+     "row": [
+      -1,
+      -1,
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      -1,
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      -1
+     ],
+     "on": [
+      "o514_1",
+      "o516_1",
+      "o544_1g",
+      "o515_3"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5cda17",
+     "row": [
+      1,
+      -1,
+      -1,
+      -1,
+      1,
+      -1,
+      1,
+      1,
+      1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+     ],
+     "on": [
+      "o551_1",
+      "o514_1",
+      "o526_3",
+      "o521_1",
+      "o502_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5cda18",
+     "row": [
+      -1,
+      1,
+      -1,
+      -1,
+      1,
+      -1,
+      1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1
+     ],
+     "on": [
+      "o550_1",
+      "o514_1",
+      "o526_3",
+      "o521_1",
+      "o519_1",
+      "o515_3",
+      "o527_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5cda19",
+     "row": [
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      1,
+      1,
+      -1,
+      -1,
+      1
+     ],
+     "on": [
+      "o551_1",
+      "o550_1",
+      "o514_1",
+      "o516_1",
+      "o502_1",
+      "o519_1",
+      "o544_1g",
+      "o527_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5cda20",
+     "row": [
+      -1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      1,
+      1,
+      -1,
+      -1,
+      1
+     ],
+     "on": [
+      "o525_1",
+      "o514_1",
+      "o526_3",
+      "o502_1",
+      "o519_1",
+      "o544_1g",
+      "o527_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5cda21",
+     "row": [
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1
+     ],
+     "on": [
+      "o551_1",
+      "o525_1",
+      "o514_1",
+      "o516_1",
+      "o521_1",
+      "o519_1",
+      "o515_3",
+      "o527_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5cda22",
+     "row": [
+      -1,
+      1,
+      1,
+      -1,
+      1,
+      1,
+      -1,
+      1,
+      1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+     ],
+     "on": [
+      "o550_1",
+      "o525_1",
+      "o514_1",
+      "o516_1",
+      "o521_1",
+      "o502_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5cda23",
+     "row": [
+      1,
+      1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      -1
+     ],
+     "on": [
+      "o551_1",
+      "o550_1",
+      "o525_1",
+      "o514_1",
+      "o526_3",
+      "o544_1g",
+      "o515_3"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5cda24",
+     "row": [
+      -1,
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      -1,
+      -1
+     ],
+     "on": [
+      "o523_2",
+      "o514_1",
+      "o521_1",
+      "o502_1",
+      "o519_1",
+      "o544_1g",
+      "o515_3"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5cda25",
+     "row": [
+      1,
+      -1,
+      -1,
+      1,
+      1,
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      -1,
+      -1,
+      -1,
+      -1
+     ],
+     "on": [
+      "o551_1",
+      "o523_2",
+      "o514_1",
+      "o516_1",
+      "o526_3",
+      "o519_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5cda26",
+     "row": [
+      -1,
+      1,
+      -1,
+      1,
+      1,
+      1,
+      1,
+      -1,
+      1,
+      -1,
+      -1,
+      1,
+      -1,
+      1
+     ],
+     "on": [
+      "o550_1",
+      "o523_2",
+      "o514_1",
+      "o516_1",
+      "o526_3",
+      "o502_1",
+      "o515_3",
+      "o527_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5cda27",
+     "row": [
+      1,
+      1,
+      -1,
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      -1,
+      -1,
+      1,
+      -1,
+      -1,
+      1
+     ],
+     "on": [
+      "o551_1",
+      "o550_1",
+      "o523_2",
+      "o514_1",
+      "o521_1",
+      "o544_1g",
+      "o527_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5cda28",
+     "row": [
+      -1,
+      -1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      -1,
+      -1,
+      1
+     ],
+     "on": [
+      "o525_1",
+      "o523_2",
+      "o514_1",
+      "o516_1",
+      "o526_3",
+      "o521_1",
+      "o544_1g",
+      "o527_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5cda29",
+     "row": [
+      1,
+      -1,
+      1,
+      1,
+      1,
+      -1,
+      -1,
+      -1,
+      1,
+      -1,
+      -1,
+      1,
+      -1,
+      1
+     ],
+     "on": [
+      "o551_1",
+      "o525_1",
+      "o523_2",
+      "o514_1",
+      "o502_1",
+      "o515_3",
+      "o527_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5cda30",
+     "row": [
+      -1,
+      1,
+      1,
+      1,
+      1,
+      -1,
+      -1,
+      -1,
+      -1,
+      1,
+      -1,
+      -1,
+      -1,
+      -1
+     ],
+     "on": [
+      "o550_1",
+      "o525_1",
+      "o523_2",
+      "o514_1",
+      "o519_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5cda31",
+     "row": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      -1,
+      -1
+     ],
+     "on": [
+      "o551_1",
+      "o550_1",
+      "o525_1",
+      "o523_2",
+      "o514_1",
+      "o516_1",
+      "o526_3",
+      "o521_1",
+      "o502_1",
+      "o519_1",
+      "o544_1g",
+      "o515_3"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5cda32",
+     "row": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      1,
+      -1
+     ],
+     "on": [
+      "o529_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5cda33",
+     "row": [
+      1,
+      -1,
+      -1,
+      -1,
+      -1,
+      1,
+      1,
+      1,
+      1,
+      -1,
+      1,
+      1,
+      1,
+      -1
+     ],
+     "on": [
+      "o551_1",
+      "o516_1",
+      "o526_3",
+      "o521_1",
+      "o502_1",
+      "o544_1g",
+      "o515_3",
+      "o529_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5cda34",
+     "row": [
+      -1,
+      1,
+      -1,
+      -1,
+      -1,
+      1,
+      1,
+      1,
+      -1,
+      1,
+      1,
+      -1,
+      1,
+      1
+     ],
+     "on": [
+      "o550_1",
+      "o516_1",
+      "o526_3",
+      "o521_1",
+      "o519_1",
+      "o544_1g",
+      "o529_1",
+      "o527_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5cda35",
+     "row": [
+      1,
+      1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      1,
+      1,
+      1
+     ],
+     "on": [
+      "o551_1",
+      "o550_1",
+      "o502_1",
+      "o519_1",
+      "o515_3",
+      "o529_1",
+      "o527_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5cda36",
+     "row": [
+      -1,
+      -1,
+      1,
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      1,
+      1,
+      -1,
+      1,
+      1,
+      1
+     ],
+     "on": [
+      "o525_1",
+      "o516_1",
+      "o526_3",
+      "o502_1",
+      "o519_1",
+      "o515_3",
+      "o529_1",
+      "o527_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5cda37",
+     "row": [
+      1,
+      -1,
+      1,
+      -1,
+      -1,
+      -1,
+      -1,
+      1,
+      -1,
+      1,
+      1,
+      -1,
+      1,
+      1
+     ],
+     "on": [
+      "o551_1",
+      "o525_1",
+      "o521_1",
+      "o519_1",
+      "o544_1g",
+      "o529_1",
+      "o527_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5cda38",
+     "row": [
+      -1,
+      1,
+      1,
+      -1,
+      -1,
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      1,
+      1,
+      1,
+      -1
+     ],
+     "on": [
+      "o550_1",
+      "o525_1",
+      "o521_1",
+      "o502_1",
+      "o544_1g",
+      "o515_3",
+      "o529_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5cda39",
+     "row": [
+      1,
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      1,
+      -1
+     ],
+     "on": [
+      "o551_1",
+      "o550_1",
+      "o525_1",
+      "o516_1",
+      "o526_3",
+      "o529_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5cda40",
+     "row": [
+      -1,
+      -1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      -1
+     ],
+     "on": [
+      "o523_2",
+      "o516_1",
+      "o521_1",
+      "o502_1",
+      "o519_1",
+      "o529_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5cda41",
+     "row": [
+      1,
+      -1,
+      -1,
+      1,
+      -1,
+      -1,
+      1,
+      -1,
+      -1,
+      1,
+      1,
+      1,
+      1,
+      -1
+     ],
+     "on": [
+      "o551_1",
+      "o523_2",
+      "o526_3",
+      "o519_1",
+      "o544_1g",
+      "o515_3",
+      "o529_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5cda42",
+     "row": [
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      1
+     ],
+     "on": [
+      "o550_1",
+      "o523_2",
+      "o526_3",
+      "o502_1",
+      "o544_1g",
+      "o529_1",
+      "o527_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5cda43",
+     "row": [
+      1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      -1,
+      -1,
+      1,
+      1,
+      1
+     ],
+     "on": [
+      "o551_1",
+      "o550_1",
+      "o523_2",
+      "o516_1",
+      "o521_1",
+      "o515_3",
+      "o529_1",
+      "o527_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5cda44",
+     "row": [
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      -1,
+      -1,
+      1,
+      1,
+      1
+     ],
+     "on": [
+      "o525_1",
+      "o523_2",
+      "o526_3",
+      "o521_1",
+      "o515_3",
+      "o529_1",
+      "o527_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5cda45",
+     "row": [
+      1,
+      -1,
+      1,
+      1,
+      -1,
+      1,
+      -1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      1
+     ],
+     "on": [
+      "o551_1",
+      "o525_1",
+      "o523_2",
+      "o516_1",
+      "o502_1",
+      "o544_1g",
+      "o529_1",
+      "o527_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5cda46",
+     "row": [
+      -1,
+      1,
+      1,
+      1,
+      -1,
+      1,
+      -1,
+      -1,
+      -1,
+      1,
+      1,
+      1,
+      1,
+      -1
+     ],
+     "on": [
+      "o550_1",
+      "o525_1",
+      "o523_2",
+      "o516_1",
+      "o519_1",
+      "o544_1g",
+      "o515_3",
+      "o529_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5cda47",
+     "row": [
+      1,
+      1,
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      1,
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      -1
+     ],
+     "on": [
+      "o551_1",
+      "o550_1",
+      "o525_1",
+      "o523_2",
+      "o526_3",
+      "o521_1",
+      "o502_1",
+      "o519_1",
+      "o529_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5cda48",
+     "row": [
+      -1,
+      -1,
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      -1,
+      -1,
+      -1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "on": [
+      "o514_1",
+      "o516_1",
+      "o544_1g",
+      "o515_3",
+      "o529_1",
+      "o527_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5cda49",
+     "row": [
+      1,
+      -1,
+      -1,
+      -1,
+      1,
+      -1,
+      1,
+      1,
+      1,
+      -1,
+      -1,
+      -1,
+      1,
+      1
+     ],
+     "on": [
+      "o551_1",
+      "o514_1",
+      "o526_3",
+      "o521_1",
+      "o502_1",
+      "o529_1",
+      "o527_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5cda50",
+     "row": [
+      -1,
+      1,
+      -1,
+      -1,
+      1,
+      -1,
+      1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      1,
+      -1
+     ],
+     "on": [
+      "o550_1",
+      "o514_1",
+      "o526_3",
+      "o521_1",
+      "o519_1",
+      "o515_3",
+      "o529_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5cda51",
+     "row": [
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      1,
+      1,
+      -1,
+      1,
+      -1
+     ],
+     "on": [
+      "o551_1",
+      "o550_1",
+      "o514_1",
+      "o516_1",
+      "o502_1",
+      "o519_1",
+      "o544_1g",
+      "o529_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5cda52",
+     "row": [
+      -1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      1,
+      1,
+      -1,
+      1,
+      -1
+     ],
+     "on": [
+      "o525_1",
+      "o514_1",
+      "o526_3",
+      "o502_1",
+      "o519_1",
+      "o544_1g",
+      "o529_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5cda53",
+     "row": [
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      1,
+      -1
+     ],
+     "on": [
+      "o551_1",
+      "o525_1",
+      "o514_1",
+      "o516_1",
+      "o521_1",
+      "o519_1",
+      "o515_3",
+      "o529_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5cda54",
+     "row": [
+      -1,
+      1,
+      1,
+      -1,
+      1,
+      1,
+      -1,
+      1,
+      1,
+      -1,
+      -1,
+      -1,
+      1,
+      1
+     ],
+     "on": [
+      "o550_1",
+      "o525_1",
+      "o514_1",
+      "o516_1",
+      "o521_1",
+      "o502_1",
+      "o529_1",
+      "o527_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5cda55",
+     "row": [
+      1,
+      1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      -1,
+      -1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "on": [
+      "o551_1",
+      "o550_1",
+      "o525_1",
+      "o514_1",
+      "o526_3",
+      "o544_1g",
+      "o515_3",
+      "o529_1",
+      "o527_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5cda56",
+     "row": [
+      -1,
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "on": [
+      "o523_2",
+      "o514_1",
+      "o521_1",
+      "o502_1",
+      "o519_1",
+      "o544_1g",
+      "o515_3",
+      "o529_1",
+      "o527_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5cda57",
+     "row": [
+      1,
+      -1,
+      -1,
+      1,
+      1,
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      -1,
+      -1,
+      1,
+      1
+     ],
+     "on": [
+      "o551_1",
+      "o523_2",
+      "o514_1",
+      "o516_1",
+      "o526_3",
+      "o519_1",
+      "o529_1",
+      "o527_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5cda58",
+     "row": [
+      -1,
+      1,
+      -1,
+      1,
+      1,
+      1,
+      1,
+      -1,
+      1,
+      -1,
+      -1,
+      1,
+      1,
+      -1
+     ],
+     "on": [
+      "o550_1",
+      "o523_2",
+      "o514_1",
+      "o516_1",
+      "o526_3",
+      "o502_1",
+      "o515_3",
+      "o529_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5cda59",
+     "row": [
+      1,
+      1,
+      -1,
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      -1,
+      -1,
+      1,
+      -1,
+      1,
+      -1
+     ],
+     "on": [
+      "o551_1",
+      "o550_1",
+      "o523_2",
+      "o514_1",
+      "o521_1",
+      "o544_1g",
+      "o529_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5cda60",
+     "row": [
+      -1,
+      -1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      -1,
+      1,
+      -1
+     ],
+     "on": [
+      "o525_1",
+      "o523_2",
+      "o514_1",
+      "o516_1",
+      "o526_3",
+      "o521_1",
+      "o544_1g",
+      "o529_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5cda61",
+     "row": [
+      1,
+      -1,
+      1,
+      1,
+      1,
+      -1,
+      -1,
+      -1,
+      1,
+      -1,
+      -1,
+      1,
+      1,
+      -1
+     ],
+     "on": [
+      "o551_1",
+      "o525_1",
+      "o523_2",
+      "o514_1",
+      "o502_1",
+      "o515_3",
+      "o529_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5cda62",
+     "row": [
+      -1,
+      1,
+      1,
+      1,
+      1,
+      -1,
+      -1,
+      -1,
+      -1,
+      1,
+      -1,
+      -1,
+      1,
+      1
+     ],
+     "on": [
+      "o550_1",
+      "o525_1",
+      "o523_2",
+      "o514_1",
+      "o519_1",
+      "o529_1",
+      "o527_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5cda63",
+     "row": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "on": [
+      "o551_1",
+      "o550_1",
+      "o525_1",
+      "o523_2",
+      "o514_1",
+      "o516_1",
+      "o526_3",
+      "o521_1",
+      "o502_1",
+      "o519_1",
+      "o544_1g",
+      "o515_3",
+      "o529_1",
+      "o527_1"
+     ],
+     "same_as": null
+    }
+   ],
+   "track_base": "g5cbase",
+   "base_levels": [
+    "o546_1",
+    "o541_2",
+    "o540_2",
+    "o518_1",
+    "o524_3",
+    "o537_1",
+    "o532_1"
+   ]
+  },
+  "paper.design": {
+   "attempt": 1,
+   "status": "done",
+   "started": "2026-11-05 09:22:49",
+   "factors": [
+    "o525_1",
+    "o523_1",
+    "o514_1",
+    "o516_1",
+    "o526_3",
+    "o521_1",
+    "o502_1",
+    "o519_1",
+    "o544_1g",
+    "o515_3",
+    "o529_1",
+    "o527_1"
+   ],
+   "whole": [
+    "o525_1",
+    "o523_1",
+    "o514_1",
+    "o516_1",
+    "o526_3",
+    "o521_1",
+    "o502_1",
+    "o519_1",
+    "o544_1g",
+    "o515_3"
+   ],
+   "sub": [
+    "o529_1",
+    "o527_1"
+   ],
+   "conflicts_dropped": [],
+   "track_base": "g5pbase",
+   "base_levels": [
+    "o542_1",
+    "o541_2",
+    "o540_2",
+    "o518_1",
+    "o524_3",
+    "o537_1",
+    "o532_1"
+   ],
+   "design": {
+    "names": [
+     "o525_1",
+     "o523_1",
+     "o514_1",
+     "o516_1",
+     "o526_3",
+     "o521_1",
+     "o502_1",
+     "o519_1",
+     "o544_1g",
+     "o515_3",
+     "o529_1",
+     "o527_1"
+    ],
+    "whole": [
+     "o525_1",
+     "o523_1",
+     "o514_1",
+     "o516_1",
+     "o526_3",
+     "o521_1",
+     "o502_1",
+     "o519_1",
+     "o544_1g",
+     "o515_3"
+    ],
+    "sub": [
+     "o529_1",
+     "o527_1"
+    ],
+    "whole_idx": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ],
+    "runs": 64,
+    "base_runs": 64,
+    "foldover": false,
+    "masks": [
+     1,
+     2,
+     4,
+     8,
+     16,
+     31,
+     7,
+     11,
+     13,
+     14,
+     32,
+     51
+    ],
+    "whole_bits": 5,
+    "basic": 6,
+    "me_clear": true,
+    "pairs": [
+     [
+      "o525_1",
+      "o523_1"
+     ],
+     [
+      "o525_1",
+      "o514_1"
+     ],
+     [
+      "o525_1",
+      "o516_1"
+     ],
+     [
+      "o525_1",
+      "o526_3"
+     ],
+     [
+      "o525_1",
+      "o521_1"
+     ],
+     [
+      "o525_1",
+      "o502_1"
+     ],
+     [
+      "o525_1",
+      "o519_1"
+     ],
+     [
+      "o525_1",
+      "o544_1g"
+     ],
+     [
+      "o525_1",
+      "o515_3"
+     ],
+     [
+      "o523_1",
+      "o526_3"
+     ],
+     [
+      "o523_1",
+      "o521_1"
+     ],
+     [
+      "o514_1",
+      "o526_3"
+     ],
+     [
+      "o514_1",
+      "o521_1"
+     ],
+     [
+      "o516_1",
+      "o526_3"
+     ],
+     [
+      "o516_1",
+      "o521_1"
+     ],
+     [
+      "o525_1",
+      "o529_1"
+     ],
+     [
+      "o525_1",
+      "o527_1"
+     ],
+     [
+      "o523_1",
+      "o529_1"
+     ],
+     [
+      "o523_1",
+      "o527_1"
+     ],
+     [
+      "o514_1",
+      "o529_1"
+     ],
+     [
+      "o514_1",
+      "o527_1"
+     ],
+     [
+      "o516_1",
+      "o529_1"
+     ],
+     [
+      "o516_1",
+      "o527_1"
+     ],
+     [
+      "o526_3",
+      "o529_1"
+     ],
+     [
+      "o526_3",
+      "o527_1"
+     ],
+     [
+      "o521_1",
+      "o529_1"
+     ],
+     [
+      "o521_1",
+      "o527_1"
+     ],
+     [
+      "o502_1",
+      "o529_1"
+     ],
+     [
+      "o502_1",
+      "o527_1"
+     ],
+     [
+      "o519_1",
+      "o529_1"
+     ],
+     [
+      "o519_1",
+      "o527_1"
+     ],
+     [
+      "o544_1g",
+      "o529_1"
+     ],
+     [
+      "o544_1g",
+      "o527_1"
+     ],
+     [
+      "o515_3",
+      "o529_1"
+     ],
+     [
+      "o515_3",
+      "o527_1"
+     ],
+     [
+      "o529_1",
+      "o527_1"
+     ]
+    ],
+    "pairs_idx": [
+     [
+      0,
+      1
+     ],
+     [
+      0,
+      2
+     ],
+     [
+      0,
+      3
+     ],
+     [
+      0,
+      4
+     ],
+     [
+      0,
+      5
+     ],
+     [
+      0,
+      6
+     ],
+     [
+      0,
+      7
+     ],
+     [
+      0,
+      8
+     ],
+     [
+      0,
+      9
+     ],
+     [
+      1,
+      4
+     ],
+     [
+      1,
+      5
+     ],
+     [
+      2,
+      4
+     ],
+     [
+      2,
+      5
+     ],
+     [
+      3,
+      4
+     ],
+     [
+      3,
+      5
+     ],
+     [
+      0,
+      10
+     ],
+     [
+      0,
+      11
+     ],
+     [
+      1,
+      10
+     ],
+     [
+      1,
+      11
+     ],
+     [
+      2,
+      10
+     ],
+     [
+      2,
+      11
+     ],
+     [
+      3,
+      10
+     ],
+     [
+      3,
+      11
+     ],
+     [
+      4,
+      10
+     ],
+     [
+      4,
+      11
+     ],
+     [
+      5,
+      10
+     ],
+     [
+      5,
+      11
+     ],
+     [
+      6,
+      10
+     ],
+     [
+      6,
+      11
+     ],
+     [
+      7,
+      10
+     ],
+     [
+      7,
+      11
+     ],
+     [
+      8,
+      10
+     ],
+     [
+      8,
+      11
+     ],
+     [
+      9,
+      10
+     ],
+     [
+      9,
+      11
+     ],
+     [
+      10,
+      11
+     ]
+    ],
+    "alias": {
+     "o525_1 x o502_1": [
+      [
+       "o523_1",
+       "o514_1"
+      ],
+      [
+       "o516_1",
+       "o515_3"
+      ],
+      [
+       "o519_1",
+       "o544_1g"
+      ]
+     ],
+     "o525_1 x o519_1": [
+      [
+       "o523_1",
+       "o516_1"
+      ],
+      [
+       "o514_1",
+       "o515_3"
+      ],
+      [
+       "o502_1",
+       "o544_1g"
+      ]
+     ],
+     "o525_1 x o514_1": [
+      [
+       "o523_1",
+       "o502_1"
+      ],
+      [
+       "o516_1",
+       "o544_1g"
+      ],
+      [
+       "o519_1",
+       "o515_3"
+      ]
+     ],
+     "o525_1 x o516_1": [
+      [
+       "o523_1",
+       "o519_1"
+      ],
+      [
+       "o514_1",
+       "o544_1g"
+      ],
+      [
+       "o502_1",
+       "o515_3"
+      ]
+     ],
+     "o525_1 x o515_3": [
+      [
+       "o523_1",
+       "o544_1g"
+      ],
+      [
+       "o514_1",
+       "o519_1"
+      ],
+      [
+       "o516_1",
+       "o502_1"
+      ],
+      [
+       "o526_3",
+       "o521_1"
+      ]
+     ],
+     "o525_1 x o544_1g": [
+      [
+       "o523_1",
+       "o515_3"
+      ],
+      [
+       "o514_1",
+       "o516_1"
+      ],
+      [
+       "o502_1",
+       "o519_1"
+      ]
+     ],
+     "o525_1 x o523_1": [
+      [
+       "o514_1",
+       "o502_1"
+      ],
+      [
+       "o516_1",
+       "o519_1"
+      ],
+      [
+       "o544_1g",
+       "o515_3"
+      ]
+     ],
+     "o516_1 x o521_1": [
+      [
+       "o526_3",
+       "o502_1"
+      ]
+     ],
+     "o514_1 x o521_1": [
+      [
+       "o526_3",
+       "o519_1"
+      ]
+     ],
+     "o523_1 x o521_1": [
+      [
+       "o526_3",
+       "o544_1g"
+      ]
+     ],
+     "o525_1 x o521_1": [
+      [
+       "o526_3",
+       "o515_3"
+      ]
+     ],
+     "o516_1 x o526_3": [
+      [
+       "o521_1",
+       "o502_1"
+      ]
+     ],
+     "o514_1 x o526_3": [
+      [
+       "o521_1",
+       "o519_1"
+      ]
+     ],
+     "o523_1 x o526_3": [
+      [
+       "o521_1",
+       "o544_1g"
+      ]
+     ],
+     "o525_1 x o526_3": [
+      [
+       "o521_1",
+       "o515_3"
+      ]
+     ]
+    },
+    "full": false
+   },
+   "runs": [
+    {
+     "name": "g5pda00",
+     "row": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      1
+     ],
+     "on": [
+      "o527_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5pda01",
+     "row": [
+      1,
+      -1,
+      -1,
+      -1,
+      -1,
+      1,
+      1,
+      1,
+      1,
+      -1,
+      -1,
+      -1
+     ],
+     "on": [
+      "o525_1",
+      "o521_1",
+      "o502_1",
+      "o519_1",
+      "o544_1g"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5pda02",
+     "row": [
+      -1,
+      1,
+      -1,
+      -1,
+      -1,
+      1,
+      1,
+      1,
+      -1,
+      1,
+      -1,
+      -1
+     ],
+     "on": [
+      "o523_1",
+      "o521_1",
+      "o502_1",
+      "o519_1",
+      "o515_3"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5pda03",
+     "row": [
+      1,
+      1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      1
+     ],
+     "on": [
+      "o525_1",
+      "o523_1",
+      "o544_1g",
+      "o515_3",
+      "o527_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5pda04",
+     "row": [
+      -1,
+      -1,
+      1,
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      1,
+      1,
+      -1,
+      1
+     ],
+     "on": [
+      "o514_1",
+      "o521_1",
+      "o502_1",
+      "o544_1g",
+      "o515_3",
+      "o527_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5pda05",
+     "row": [
+      1,
+      -1,
+      1,
+      -1,
+      -1,
+      -1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      -1
+     ],
+     "on": [
+      "o525_1",
+      "o514_1",
+      "o519_1",
+      "o515_3"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5pda06",
+     "row": [
+      -1,
+      1,
+      1,
+      -1,
+      -1,
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      -1,
+      -1
+     ],
+     "on": [
+      "o523_1",
+      "o514_1",
+      "o519_1",
+      "o544_1g"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5pda07",
+     "row": [
+      1,
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      -1,
+      -1,
+      -1,
+      1
+     ],
+     "on": [
+      "o525_1",
+      "o523_1",
+      "o514_1",
+      "o521_1",
+      "o502_1",
+      "o527_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5pda08",
+     "row": [
+      -1,
+      -1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      1,
+      1,
+      -1,
+      1
+     ],
+     "on": [
+      "o516_1",
+      "o521_1",
+      "o519_1",
+      "o544_1g",
+      "o515_3",
+      "o527_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5pda09",
+     "row": [
+      1,
+      -1,
+      -1,
+      1,
+      -1,
+      -1,
+      1,
+      -1,
+      -1,
+      1,
+      -1,
+      -1
+     ],
+     "on": [
+      "o525_1",
+      "o516_1",
+      "o502_1",
+      "o515_3"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5pda10",
+     "row": [
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      -1,
+      -1
+     ],
+     "on": [
+      "o523_1",
+      "o516_1",
+      "o502_1",
+      "o544_1g"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5pda11",
+     "row": [
+      1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      -1,
+      -1,
+      1
+     ],
+     "on": [
+      "o525_1",
+      "o523_1",
+      "o516_1",
+      "o521_1",
+      "o519_1",
+      "o527_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5pda12",
+     "row": [
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      -1,
+      -1,
+      1
+     ],
+     "on": [
+      "o514_1",
+      "o516_1",
+      "o502_1",
+      "o519_1",
+      "o527_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5pda13",
+     "row": [
+      1,
+      -1,
+      1,
+      1,
+      -1,
+      1,
+      -1,
+      -1,
+      1,
+      -1,
+      -1,
+      -1
+     ],
+     "on": [
+      "o525_1",
+      "o514_1",
+      "o516_1",
+      "o521_1",
+      "o544_1g"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5pda14",
+     "row": [
+      -1,
+      1,
+      1,
+      1,
+      -1,
+      1,
+      -1,
+      -1,
+      -1,
+      1,
+      -1,
+      -1
+     ],
+     "on": [
+      "o523_1",
+      "o514_1",
+      "o516_1",
+      "o521_1",
+      "o515_3"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5pda15",
+     "row": [
+      1,
+      1,
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      1,
+      1,
+      1,
+      -1,
+      1
+     ],
+     "on": [
+      "o525_1",
+      "o523_1",
+      "o514_1",
+      "o516_1",
+      "o502_1",
+      "o519_1",
+      "o544_1g",
+      "o515_3",
+      "o527_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5pda16",
+     "row": [
+      -1,
+      -1,
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+     ],
+     "on": [
+      "o526_3",
+      "o521_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5pda17",
+     "row": [
+      1,
+      -1,
+      -1,
+      -1,
+      1,
+      -1,
+      1,
+      1,
+      1,
+      -1,
+      -1,
+      1
+     ],
+     "on": [
+      "o525_1",
+      "o526_3",
+      "o502_1",
+      "o519_1",
+      "o544_1g",
+      "o527_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5pda18",
+     "row": [
+      -1,
+      1,
+      -1,
+      -1,
+      1,
+      -1,
+      1,
+      1,
+      -1,
+      1,
+      -1,
+      1
+     ],
+     "on": [
+      "o523_1",
+      "o526_3",
+      "o502_1",
+      "o519_1",
+      "o515_3",
+      "o527_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5pda19",
+     "row": [
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      -1
+     ],
+     "on": [
+      "o525_1",
+      "o523_1",
+      "o526_3",
+      "o521_1",
+      "o544_1g",
+      "o515_3"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5pda20",
+     "row": [
+      -1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      1,
+      -1,
+      -1
+     ],
+     "on": [
+      "o514_1",
+      "o526_3",
+      "o502_1",
+      "o544_1g",
+      "o515_3"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5pda21",
+     "row": [
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1
+     ],
+     "on": [
+      "o525_1",
+      "o514_1",
+      "o526_3",
+      "o521_1",
+      "o519_1",
+      "o515_3",
+      "o527_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5pda22",
+     "row": [
+      -1,
+      1,
+      1,
+      -1,
+      1,
+      1,
+      -1,
+      1,
+      1,
+      -1,
+      -1,
+      1
+     ],
+     "on": [
+      "o523_1",
+      "o514_1",
+      "o526_3",
+      "o521_1",
+      "o519_1",
+      "o544_1g",
+      "o527_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5pda23",
+     "row": [
+      1,
+      1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+     ],
+     "on": [
+      "o525_1",
+      "o523_1",
+      "o514_1",
+      "o526_3",
+      "o502_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5pda24",
+     "row": [
+      -1,
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      1,
+      1,
+      -1,
+      -1
+     ],
+     "on": [
+      "o516_1",
+      "o526_3",
+      "o519_1",
+      "o544_1g",
+      "o515_3"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5pda25",
+     "row": [
+      1,
+      -1,
+      -1,
+      1,
+      1,
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      -1,
+      1
+     ],
+     "on": [
+      "o525_1",
+      "o516_1",
+      "o526_3",
+      "o521_1",
+      "o502_1",
+      "o515_3",
+      "o527_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5pda26",
+     "row": [
+      -1,
+      1,
+      -1,
+      1,
+      1,
+      1,
+      1,
+      -1,
+      1,
+      -1,
+      -1,
+      1
+     ],
+     "on": [
+      "o523_1",
+      "o516_1",
+      "o526_3",
+      "o521_1",
+      "o502_1",
+      "o544_1g",
+      "o527_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5pda27",
+     "row": [
+      1,
+      1,
+      -1,
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      -1,
+      -1,
+      -1,
+      -1
+     ],
+     "on": [
+      "o525_1",
+      "o523_1",
+      "o516_1",
+      "o526_3",
+      "o519_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5pda28",
+     "row": [
+      -1,
+      -1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      -1,
+      -1,
+      -1,
+      -1
+     ],
+     "on": [
+      "o514_1",
+      "o516_1",
+      "o526_3",
+      "o521_1",
+      "o502_1",
+      "o519_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5pda29",
+     "row": [
+      1,
+      -1,
+      1,
+      1,
+      1,
+      -1,
+      -1,
+      -1,
+      1,
+      -1,
+      -1,
+      1
+     ],
+     "on": [
+      "o525_1",
+      "o514_1",
+      "o516_1",
+      "o526_3",
+      "o544_1g",
+      "o527_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5pda30",
+     "row": [
+      -1,
+      1,
+      1,
+      1,
+      1,
+      -1,
+      -1,
+      -1,
+      -1,
+      1,
+      -1,
+      1
+     ],
+     "on": [
+      "o523_1",
+      "o514_1",
+      "o516_1",
+      "o526_3",
+      "o515_3",
+      "o527_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5pda31",
+     "row": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      -1,
+      -1
+     ],
+     "on": [
+      "o525_1",
+      "o523_1",
+      "o514_1",
+      "o516_1",
+      "o526_3",
+      "o521_1",
+      "o502_1",
+      "o519_1",
+      "o544_1g",
+      "o515_3"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5pda32",
+     "row": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      1,
+      -1
+     ],
+     "on": [
+      "o529_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5pda33",
+     "row": [
+      1,
+      -1,
+      -1,
+      -1,
+      -1,
+      1,
+      1,
+      1,
+      1,
+      -1,
+      1,
+      1
+     ],
+     "on": [
+      "o525_1",
+      "o521_1",
+      "o502_1",
+      "o519_1",
+      "o544_1g",
+      "o529_1",
+      "o527_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5pda34",
+     "row": [
+      -1,
+      1,
+      -1,
+      -1,
+      -1,
+      1,
+      1,
+      1,
+      -1,
+      1,
+      1,
+      1
+     ],
+     "on": [
+      "o523_1",
+      "o521_1",
+      "o502_1",
+      "o519_1",
+      "o515_3",
+      "o529_1",
+      "o527_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5pda35",
+     "row": [
+      1,
+      1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      1,
+      1,
+      1,
+      -1
+     ],
+     "on": [
+      "o525_1",
+      "o523_1",
+      "o544_1g",
+      "o515_3",
+      "o529_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5pda36",
+     "row": [
+      -1,
+      -1,
+      1,
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      1,
+      1,
+      1,
+      -1
+     ],
+     "on": [
+      "o514_1",
+      "o521_1",
+      "o502_1",
+      "o544_1g",
+      "o515_3",
+      "o529_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5pda37",
+     "row": [
+      1,
+      -1,
+      1,
+      -1,
+      -1,
+      -1,
+      -1,
+      1,
+      -1,
+      1,
+      1,
+      1
+     ],
+     "on": [
+      "o525_1",
+      "o514_1",
+      "o519_1",
+      "o515_3",
+      "o529_1",
+      "o527_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5pda38",
+     "row": [
+      -1,
+      1,
+      1,
+      -1,
+      -1,
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      1,
+      1
+     ],
+     "on": [
+      "o523_1",
+      "o514_1",
+      "o519_1",
+      "o544_1g",
+      "o529_1",
+      "o527_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5pda39",
+     "row": [
+      1,
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      -1,
+      -1,
+      1,
+      -1
+     ],
+     "on": [
+      "o525_1",
+      "o523_1",
+      "o514_1",
+      "o521_1",
+      "o502_1",
+      "o529_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5pda40",
+     "row": [
+      -1,
+      -1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      1,
+      1,
+      1,
+      -1
+     ],
+     "on": [
+      "o516_1",
+      "o521_1",
+      "o519_1",
+      "o544_1g",
+      "o515_3",
+      "o529_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5pda41",
+     "row": [
+      1,
+      -1,
+      -1,
+      1,
+      -1,
+      -1,
+      1,
+      -1,
+      -1,
+      1,
+      1,
+      1
+     ],
+     "on": [
+      "o525_1",
+      "o516_1",
+      "o502_1",
+      "o515_3",
+      "o529_1",
+      "o527_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5pda42",
+     "row": [
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      1
+     ],
+     "on": [
+      "o523_1",
+      "o516_1",
+      "o502_1",
+      "o544_1g",
+      "o529_1",
+      "o527_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5pda43",
+     "row": [
+      1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      -1,
+      1,
+      -1
+     ],
+     "on": [
+      "o525_1",
+      "o523_1",
+      "o516_1",
+      "o521_1",
+      "o519_1",
+      "o529_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5pda44",
+     "row": [
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      -1
+     ],
+     "on": [
+      "o514_1",
+      "o516_1",
+      "o502_1",
+      "o519_1",
+      "o529_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5pda45",
+     "row": [
+      1,
+      -1,
+      1,
+      1,
+      -1,
+      1,
+      -1,
+      -1,
+      1,
+      -1,
+      1,
+      1
+     ],
+     "on": [
+      "o525_1",
+      "o514_1",
+      "o516_1",
+      "o521_1",
+      "o544_1g",
+      "o529_1",
+      "o527_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5pda46",
+     "row": [
+      -1,
+      1,
+      1,
+      1,
+      -1,
+      1,
+      -1,
+      -1,
+      -1,
+      1,
+      1,
+      1
+     ],
+     "on": [
+      "o523_1",
+      "o514_1",
+      "o516_1",
+      "o521_1",
+      "o515_3",
+      "o529_1",
+      "o527_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5pda47",
+     "row": [
+      1,
+      1,
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      -1
+     ],
+     "on": [
+      "o525_1",
+      "o523_1",
+      "o514_1",
+      "o516_1",
+      "o502_1",
+      "o519_1",
+      "o544_1g",
+      "o515_3",
+      "o529_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5pda48",
+     "row": [
+      -1,
+      -1,
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      -1,
+      -1,
+      -1,
+      1,
+      1
+     ],
+     "on": [
+      "o526_3",
+      "o521_1",
+      "o529_1",
+      "o527_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5pda49",
+     "row": [
+      1,
+      -1,
+      -1,
+      -1,
+      1,
+      -1,
+      1,
+      1,
+      1,
+      -1,
+      1,
+      -1
+     ],
+     "on": [
+      "o525_1",
+      "o526_3",
+      "o502_1",
+      "o519_1",
+      "o544_1g",
+      "o529_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5pda50",
+     "row": [
+      -1,
+      1,
+      -1,
+      -1,
+      1,
+      -1,
+      1,
+      1,
+      -1,
+      1,
+      1,
+      -1
+     ],
+     "on": [
+      "o523_1",
+      "o526_3",
+      "o502_1",
+      "o519_1",
+      "o515_3",
+      "o529_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5pda51",
+     "row": [
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "on": [
+      "o525_1",
+      "o523_1",
+      "o526_3",
+      "o521_1",
+      "o544_1g",
+      "o515_3",
+      "o529_1",
+      "o527_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5pda52",
+     "row": [
+      -1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "on": [
+      "o514_1",
+      "o526_3",
+      "o502_1",
+      "o544_1g",
+      "o515_3",
+      "o529_1",
+      "o527_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5pda53",
+     "row": [
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      1,
+      -1
+     ],
+     "on": [
+      "o525_1",
+      "o514_1",
+      "o526_3",
+      "o521_1",
+      "o519_1",
+      "o515_3",
+      "o529_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5pda54",
+     "row": [
+      -1,
+      1,
+      1,
+      -1,
+      1,
+      1,
+      -1,
+      1,
+      1,
+      -1,
+      1,
+      -1
+     ],
+     "on": [
+      "o523_1",
+      "o514_1",
+      "o526_3",
+      "o521_1",
+      "o519_1",
+      "o544_1g",
+      "o529_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5pda55",
+     "row": [
+      1,
+      1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      -1,
+      -1,
+      1,
+      1
+     ],
+     "on": [
+      "o525_1",
+      "o523_1",
+      "o514_1",
+      "o526_3",
+      "o502_1",
+      "o529_1",
+      "o527_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5pda56",
+     "row": [
+      -1,
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "on": [
+      "o516_1",
+      "o526_3",
+      "o519_1",
+      "o544_1g",
+      "o515_3",
+      "o529_1",
+      "o527_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5pda57",
+     "row": [
+      1,
+      -1,
+      -1,
+      1,
+      1,
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      1,
+      -1
+     ],
+     "on": [
+      "o525_1",
+      "o516_1",
+      "o526_3",
+      "o521_1",
+      "o502_1",
+      "o515_3",
+      "o529_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5pda58",
+     "row": [
+      -1,
+      1,
+      -1,
+      1,
+      1,
+      1,
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      -1
+     ],
+     "on": [
+      "o523_1",
+      "o516_1",
+      "o526_3",
+      "o521_1",
+      "o502_1",
+      "o544_1g",
+      "o529_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5pda59",
+     "row": [
+      1,
+      1,
+      -1,
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      -1,
+      -1,
+      1,
+      1
+     ],
+     "on": [
+      "o525_1",
+      "o523_1",
+      "o516_1",
+      "o526_3",
+      "o519_1",
+      "o529_1",
+      "o527_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5pda60",
+     "row": [
+      -1,
+      -1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      1
+     ],
+     "on": [
+      "o514_1",
+      "o516_1",
+      "o526_3",
+      "o521_1",
+      "o502_1",
+      "o519_1",
+      "o529_1",
+      "o527_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5pda61",
+     "row": [
+      1,
+      -1,
+      1,
+      1,
+      1,
+      -1,
+      -1,
+      -1,
+      1,
+      -1,
+      1,
+      -1
+     ],
+     "on": [
+      "o525_1",
+      "o514_1",
+      "o516_1",
+      "o526_3",
+      "o544_1g",
+      "o529_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5pda62",
+     "row": [
+      -1,
+      1,
+      1,
+      1,
+      1,
+      -1,
+      -1,
+      -1,
+      -1,
+      1,
+      1,
+      -1
+     ],
+     "on": [
+      "o523_1",
+      "o514_1",
+      "o516_1",
+      "o526_3",
+      "o515_3",
+      "o529_1"
+     ],
+     "same_as": null
+    },
+    {
+     "name": "g5pda63",
+     "row": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "on": [
+      "o525_1",
+      "o523_1",
+      "o514_1",
+      "o516_1",
+      "o526_3",
+      "o521_1",
+      "o502_1",
+      "o519_1",
+      "o544_1g",
+      "o515_3",
+      "o529_1",
+      "o527_1"
+     ],
+     "same_as": null
+    }
+   ],
+   "fit": {
+    "terms": [
+     [
+      "o525_1"
+     ],
+     [
+      "o523_1"
+     ],
+     [
+      "o514_1"
+     ],
+     [
+      "o516_1"
+     ],
+     [
+      "o526_3"
+     ],
+     [
+      "o521_1"
+     ],
+     [
+      "o502_1"
+     ],
+     [
+      "o519_1"
+     ],
+     [
+      "o544_1g"
+     ],
+     [
+      "o515_3"
+     ],
+     [
+      "o529_1"
+     ],
+     [
+      "o527_1"
+     ],
+     [
+      "o525_1",
+      "o523_1"
+     ],
+     [
+      "o525_1",
+      "o514_1"
+     ],
+     [
+      "o525_1",
+      "o516_1"
+     ],
+     [
+      "o525_1",
+      "o526_3"
+     ],
+     [
+      "o525_1",
+      "o521_1"
+     ],
+     [
+      "o525_1",
+      "o502_1"
+     ],
+     [
+      "o525_1",
+      "o519_1"
+     ],
+     [
+      "o525_1",
+      "o544_1g"
+     ],
+     [
+      "o525_1",
+      "o515_3"
+     ],
+     [
+      "o523_1",
+      "o526_3"
+     ],
+     [
+      "o523_1",
+      "o521_1"
+     ],
+     [
+      "o514_1",
+      "o526_3"
+     ],
+     [
+      "o514_1",
+      "o521_1"
+     ],
+     [
+      "o516_1",
+      "o526_3"
+     ],
+     [
+      "o516_1",
+      "o521_1"
+     ],
+     [
+      "o525_1",
+      "o529_1"
+     ],
+     [
+      "o525_1",
+      "o527_1"
+     ],
+     [
+      "o523_1",
+      "o529_1"
+     ],
+     [
+      "o523_1",
+      "o527_1"
+     ],
+     [
+      "o514_1",
+      "o529_1"
+     ],
+     [
+      "o514_1",
+      "o527_1"
+     ],
+     [
+      "o516_1",
+      "o529_1"
+     ],
+     [
+      "o516_1",
+      "o527_1"
+     ],
+     [
+      "o526_3",
+      "o529_1"
+     ],
+     [
+      "o526_3",
+      "o527_1"
+     ],
+     [
+      "o521_1",
+      "o529_1"
+     ],
+     [
+      "o521_1",
+      "o527_1"
+     ],
+     [
+      "o502_1",
+      "o529_1"
+     ],
+     [
+      "o502_1",
+      "o527_1"
+     ],
+     [
+      "o519_1",
+      "o529_1"
+     ],
+     [
+      "o519_1",
+      "o527_1"
+     ],
+     [
+      "o544_1g",
+      "o529_1"
+     ],
+     [
+      "o544_1g",
+      "o527_1"
+     ],
+     [
+      "o515_3",
+      "o529_1"
+     ],
+     [
+      "o515_3",
+      "o527_1"
+     ],
+     [
+      "o529_1",
+      "o527_1"
+     ]
+    ],
+    "mean": [
+     -0.0018854330471552092,
+     -0.001900118337504084,
+     0.00013073191301450098,
+     -0.0003837460960713396,
+     -0.0004572817385077162,
+     0.0021723188966362907,
+     -0.0009160698705127621,
+     -2.1843811013081532e-05,
+     -0.00014567601233003667,
+     -0.00016639609908848167,
+     0.0002568056613039483,
+     -0.0003317237743310416,
+     0.001781701858250484,
+     -2.8526542739865912e-06,
+     0.0002910296378699276,
+     5.772370579626826e-05,
+     5.977984018850458e-05,
+     -0.0001721580494396179,
+     8.320598453721164e-05,
+     0.0001419264668419497,
+     4.9342081655747454e-05,
+     4.364079407072139e-06,
+     -8.05564602989878e-05,
+     1.0458483139595097e-05,
+     4.864900336273237e-05,
+     -2.5853620639641535e-05,
+     7.375994496469656e-07,
+     0.00013753139526132566,
+     4.625886672354281e-05,
+     0.00029221968262698123,
+     -3.462002602095285e-05,
+     0.00022585076511135618,
+     -9.947188532955561e-05,
+     -0.00032600864778152506,
+     5.316438942890613e-05,
+     0.00018373990463262712,
+     0.00038523517996112147,
+     -6.495559830410186e-05,
+     -5.4997114034842904e-05,
+     -2.4205117340837245e-05,
+     -4.4162915517881175e-07,
+     -3.564882570972756e-05,
+     -1.960453656025632e-05,
+     0.00012005816040897183,
+     4.2099217410757364e-05,
+     1.6821990625470526e-05,
+     -4.5171585834285866e-05,
+     -7.314531555120544e-05,
+     0.0003538858458873813
+    ],
+    "se": [
+     0.0035938835033976447,
+     0.0010694284340661826,
+     0.0002862529437402166,
+     0.00035412260739343336,
+     0.00040604191251882916,
+     0.002847045121044236,
+     0.0008294385202165901,
+     0.0001377457369124175,
+     0.000500244867038479,
+     0.00019240795835215644,
+     0.00025089759972108137,
+     0.0005644651964612575,
+     0.0009898387221428315,
+     6.034237640202117e-05,
+     0.00016062762195245188,
+     4.58905001124381e-05,
+     0.00025458150924424273,
+     0.00011899971932726452,
+     5.6499211969222816e-05,
+     9.44082033949076e-05,
+     6.242614213440678e-05,
+     7.97441944202622e-05,
+     5.182081139990595e-05,
+     6.527300945722437e-05,
+     8.52649778114605e-05,
+     5.806975526664127e-05,
+     4.003272856255342e-05,
+     7.178272733783121e-05,
+     4.414329399495102e-05,
+     0.00017672845336519195,
+     5.646430014994251e-05,
+     0.00018535938204651857,
+     5.9856576909523135e-05,
+     0.00025023741325981515,
+     3.883773312430083e-05,
+     0.0001531348397793155,
+     0.00026593764858089667,
+     3.926908035362955e-05,
+     4.619485390510738e-05,
+     0.00012040308469960413,
+     6.397341808341634e-05,
+     6.489006651128178e-05,
+     6.0923574923696344e-05,
+     6.837855761982678e-05,
+     5.587798751019804e-05,
+     6.34442263105738e-05,
+     4.578140241725182e-05,
+     0.00014757606112982897,
+     0.00016400791384553646
+    ],
+    "use": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     true
+    ],
+    "n": 30,
+    "n_eff": 22.661555432576886
+   },
+   "chosen": [
+    "o525_1",
+    "o514_1",
+    "o516_1",
+    "o521_1",
+    "o502_1",
+    "o519_1",
+    "o544_1g",
+    "o529_1"
+   ],
+   "chosen_x": [
+    1,
+    -1,
+    1,
+    1,
+    -1,
+    1,
+    1,
+    1,
+    1,
+    -1,
+    1,
+    -1
+   ],
+   "predicted_pct": -0.9353483170491849,
+   "metric": "billing-corrected",
+   "predicted_city_pct": {
+    "singapore": -1.1954576840231228,
+    "denver": -0.9728630940297428,
+    "phoenix": -0.8349759935169042,
+    "atlanta": -2.5924447506016066,
+    "fairbanks": -0.17701065445032654
+   },
+   "base_vs_gt_u1b_pct": -1.1212769574153996,
+   "predicted_vs_gt_u1b_pct": -2.0461374293139434,
+   "ended": "2026-11-05 14:11:57",
+   "minutes": 289.13
+  },
+  "paper.verify": {
+   "attempt": 2,
+   "status": "done",
+   "started": "2026-11-05 16:07:46",
+   "name": "gt_r5pa2",
+   "model": "data/runs/b2rl/geo5/models/model-gt_r5pa2.json",
+   "realised_pct": -1.5264514763484334,
+   "predicted_pct": -0.9353483170491849,
+   "nominal_pct": -2.1566747223740004,
+   "realised_vs_gt_u1b_pct": -2.2902514025512835,
+   "track_base": "g5pbase2",
+   "metric": "billing-corrected",
+   "same_as": null,
+   "wins": 24,
+   "losses": 6,
+   "behaviour_sha": "187adc979b0c808b9b52a2e12f7b517e96d4f0cb586e88ebb4cb2e4689f78d3e",
+   "ended": "2026-11-05 16:07:49",
+   "minutes": 0.04,
+   "woken": "2026-11-05 16:05:53",
+   "wakes": [
+    {
+     "time": "2026-11-05 16:05:53",
+     "attempt": 1,
+     "reason": "mismatch",
+     "text": "paper verify: realised -1.526% differs from the predicted -0.935% by more than half (0.591 > 0.468 points)"
+    }
+   ],
+   "check": "against gt_u1b (base changed after the design)",
+   "check_realised_pct": -2.2902514025512835,
+   "check_predicted_pct": -2.0461374293139434
+  },
+  "paper.closed_loop": {
+   "attempt": 2,
+   "status": "done",
+   "started": "2026-11-05 16:07:49",
+   "result": {
+    "train_ceiling_rest60": {
+     "mean": -4.308965265723764,
+     "per_scenario": -8.819641017352588,
+     "se": 1.5835356347594698,
+     "better": 45,
+     "worse": 15,
+     "n": 60
+    },
+    "inner": {
+     "mean": -6.08800675166461,
+     "per_scenario": -10.453844519791119,
+     "se": 1.853035098809795,
+     "better": 22,
+     "worse": 7,
+     "n": 29
+    },
+    "s4_first": {
+     "mean": -1.8629552444314967,
+     "per_scenario": -4.260441851144027,
+     "se": 1.69876231343287,
+     "better": 21,
+     "worse": 9,
+     "n": 30
+    }
+   },
+   "against_base": {
+    "train_ceiling_rest60": -2.2802156215374296,
+    "inner": -2.7687337544357815,
+    "s4_first": -3.1312744427140826
+   },
+   "passed": true,
+   "model": "data/runs/b2rl/search/models/model-gt_r5pa2.json",
+   "woken": "2026-11-05 14:35:55",
+   "wakes": [
+    {
+     "time": "2026-11-05 14:35:55",
+     "attempt": 1,
+     "reason": "gate",
+     "text": "paper closed loop gt_r5pa below the pass rule (held-out and INNER <= -0.5, S4 <= 0.5 points)"
+    }
+   ],
+   "reference": "g5ploopref",
+   "reference_levels": [
+    "o542_1"
+   ],
+   "against_gt_u1b": {
+    "train_ceiling_rest60": -0.34404936262082453,
+    "inner": -1.1404241649849762,
+    "s4_first": -0.3780912671498826
+   },
+   "ended": "2026-11-05 16:43:35",
+   "minutes": 35.76
+  },
+  "paper.gate": {
+   "attempt": 1,
+   "status": "done",
+   "started": "2026-11-05 16:44:51",
+   "verdict": {
+    "name": "gt_r5pa2",
+    "job": "jg-b2rl-gt-r5pa2",
+    "passed": true,
+    "reason": "checks passed",
+    "time": "2026-11-05 19:36:19",
+    "gate": {
+     "utc": "2026-11-05T11:32:55Z",
+     "job": "jg-b2rl-gt-r5pa2",
+     "policy": "b2rl_geo_gt_r5pa2",
+     "inner": {
+      "n": 29,
+      "mean_diff": -0.004222587186971096,
+      "se": 0.0007258902553092174,
+      "better": 27,
+      "worse": 2,
+      "rel": -0.3059588898841313,
+      "gate": true,
+      "policy_mean": 0.009578571486895901,
+      "baseline_mean": 0.013801158673866996
+     },
+     "s4_first": {
+      "n": 30,
+      "mean_diff": -0.0030339387799901314,
+      "se": 0.0005146573818615086,
+      "better": 27,
+      "worse": 3,
+      "rel": -0.21728866158460985,
+      "gate": true,
+      "policy_mean": 0.01092877219565251,
+      "baseline_mean": 0.013962710975642641
+     },
+     "passed": true
+    },
+    "gates_file": ".tmp/setup/gates-gt-r5pa2.json",
+    "unbilled": 0.056990748885983544,
+    "unbilled_base": 0.05648784283914354,
+    "local_inner_rel_pct": -30.52103155414182
+   },
+   "ended": "2026-11-05 19:36:24",
+   "minutes": 171.55
+  },
+  "paper.submit": {
+   "attempt": 1,
+   "status": "done",
+   "started": "2026-11-05 19:36:24",
+   "decision": {
+    "submit": true,
+    "reasons": [],
+    "count_today": 0,
+    "auto_per_day": 4,
+    "quota_wait": false,
+    "paper_threshold": null,
+    "final": true,
+    "estimate": 0.011034048995405204,
+    "estimate_inner": 0.010937075511896375,
+    "anchor": {
+     "ref": "57915712",
+     "slug": "gt-u1b",
+     "public": 0.01108,
+     "s4_rel": -0.2140290809607699,
+     "inner_rel": -0.2968892377382458
+    },
+    "pending": [],
+    "reference": 0.01108,
+    "threshold": 0.01098,
+    "backtest": [
+     {
+      "from": "B2-R",
+      "to": "fixed-u100",
+      "estimate": 0.014694,
+      "public": 0.01404,
+      "error": 0.000654
+     },
+     {
+      "from": "fixed-u100",
+      "to": "sched-s1",
+      "estimate": 0.013883,
+      "public": 0.01395,
+      "error": -6.7e-05
+     },
+     {
+      "from": "sched-s1",
+      "to": "sched-s5",
+      "estimate": 0.013663,
+      "public": 0.0137,
+      "error": -3.7e-05
+     },
+     {
+      "from": "sched-s5",
+      "to": "sched-f2d",
+      "estimate": 0.01357,
+      "public": 0.01356,
+      "error": 1e-05
+     },
+     {
+      "from": "sched-f2d",
+      "to": "sat-g05",
+      "estimate": 0.0131,
+      "public": 0.0133,
+      "error": -0.0002
+     },
+     {
+      "from": "sat-g05",
+      "to": "sat-band",
+      "estimate": 0.013183,
+      "public": 0.01321,
+      "error": -2.7e-05
+     },
+     {
+      "from": "sat-band",
+      "to": "band-pi-empty",
+      "estimate": 0.012552,
+      "public": 0.01281,
+      "error": -0.000258
+     },
+     {
+      "from": "band-pi-empty",
+      "to": "autotune-dcv07",
+      "estimate": 0.011914,
+      "public": 0.01152,
+      "error": 0.000394
+     },
+     {
+      "from": "autotune-dcv07",
+      "to": "gm-tree-m1",
+      "estimate": 0.011508,
+      "public": 0.01124,
+      "error": 0.000268
+     },
+     {
+      "from": "gm-tree-m1",
+      "to": "gt-t2b",
+      "estimate": 0.011142,
+      "public": 0.01113,
+      "error": 1.2e-05
+     },
+     {
+      "from": "gt-t2b",
+      "to": "gt-u1b",
+      "estimate": 0.01107,
+      "public": 0.01108,
+      "error": -1e-05
+     }
+    ],
+    "commands": {
+     "submit": [
+      "python3",
+      "-B",
+      ".tmp/setup/submit_candidate.py",
+      "gt-r5pa2",
+      "G36PolicyB2RL",
+      "data/runs/b2rl/search/models/model-gt_r5pa2.json",
+      ".tmp/setup/gates-gt-r5pa2.json",
+      "gt_u1b + pipeline-5 rule options ['o525_1', 'o514_1', 'o516_1', 'o521_1', 'o502_1', 'o519_1', 'o544_1g', 'o529_1'], paper version (physics options only)"
+     ],
+     "state": ".tmp/setup/submit-gt-r5pa2.json",
+     "score_wait": [
+      "python3",
+      "-B",
+      ".tmp/setup/score_wait.py",
+      "<submission ref from the state file>"
+     ]
+    },
+    "mode": "auto",
+    "day": "2026-11-05",
+    "name": "gt_r5pa2",
+    "track": "paper"
+   },
+   "submitted_ref": "58021954",
+   "ended": "2026-11-05 19:57:42",
+   "minutes": 21.29
+  },
+  "competition.verify": {
+   "attempt": 1,
+   "status": "pending"
+  },
+  "score": {
+   "attempt": 1,
+   "status": "done",
+   "started": "2026-11-05 19:57:42",
+   "ended": "2026-11-06 02:57:50",
+   "minutes": 420.13
+  }
+ },
+ "wakes": [
+  {
+   "stage": "screen",
+   "attempt": 1,
+   "reason": "paper_direction_ready",
+   "time": "2026-11-04 19:29:58",
+   "info": true
+  },
+  {
+   "stage": "screen",
+   "attempt": 1,
+   "reason": "paper_direction_ready",
+   "time": "2026-11-04 21:09:25",
+   "info": true
+  },
+  {
+   "stage": "paper.closed_loop",
+   "attempt": 1,
+   "reason": "gate",
+   "time": "2026-11-05 14:35:55"
+  },
+  {
+   "stage": "paper.verify",
+   "attempt": 1,
+   "reason": "mismatch",
+   "time": "2026-11-05 16:05:53"
+  }
+ ],
+ "args": {
+  "state": "data/runs/b2rl/geo5",
+  "options": "data/runs/b2rl/geo5/options_b1.json",
+  "screen_set": "data/runs/b2rl/geo5/screen30.json",
+  "tracks": "competition,paper",
+  "workers": 10,
+  "max_runs": 64,
+  "batches": 1,
+  "mismatch": 0.5,
+  "loop_need": -0.5,
+  "loop_s4_max": 0.5,
+  "submit": "dry",
+  "resume": false,
+  "attempt": null,
+  "redo": "",
+  "combo": "",
+  "combo_factors": "",
+  "specs": "",
+  "only": "",
+  "max_steps": 0,
+  "keep_all": false,
+  "fake_closed_loop": null,
+  "fake_gate": null,
+  "fake_gate_s4": -0.23,
+  "fake_count": null,
+  "stop_after_episodes": null,
+  "until": null,
+  "tree_smoke": false,
+  "tree_track": "competition"
+ },
+ "specs": [
+  "train/building_11534/denver_1",
+  "train/building_19655/denver_1",
+  "train/building_19950/denver_1",
+  "train/building_12567/fairbanks_3",
+  "train/building_15790/fairbanks_1",
+  "train/building_18842/fairbanks_3",
+  "train/building_19655/fairbanks_1",
+  "train/building_19768/fairbanks_3",
+  "train/building_11164/denver_1",
+  "train/building_15361/denver_1",
+  "train/building_12739/fairbanks_1",
+  "train/building_14042/fairbanks_1",
+  "train/building_14979/fairbanks_1",
+  "train/building_12336/atlanta_7",
+  "train/building_14073/atlanta_3",
+  "train/building_19629/atlanta_5",
+  "train/building_14078/atlanta_1",
+  "train/building_18764/denver_7",
+  "train/building_17821/denver_3",
+  "train/building_19664/fairbanks_7",
+  "train/building_18764/fairbanks_5",
+  "train/building_13597/phoenix_7",
+  "train/building_11818/phoenix_3",
+  "train/building_11902/phoenix_5",
+  "train/building_19664/phoenix_1",
+  "train/building_17224/singapore_7",
+  "train/building_14213/singapore_3",
+  "train/building_19655/singapore_5",
+  "train/building_11010/singapore_1",
+  "train/building_12567/atlanta_5"
+ ],
+ "weights": {
+  "train/building_14073/atlanta_3": 4.0,
+  "train/building_12567/atlanta_5": 4.0,
+  "train/building_19629/atlanta_5": 4.0,
+  "train/building_12336/atlanta_7": 3.0,
+  "train/building_11534/denver_1": 1.0,
+  "train/building_19655/denver_1": 1.0,
+  "train/building_19950/denver_1": 1.0,
+  "train/building_12567/fairbanks_3": 1.0,
+  "train/building_15790/fairbanks_1": 1.0,
+  "train/building_18842/fairbanks_3": 1.0,
+  "train/building_19655/fairbanks_1": 1.0,
+  "train/building_19768/fairbanks_3": 1.0,
+  "train/building_11164/denver_1": 1.0,
+  "train/building_15361/denver_1": 1.0,
+  "train/building_12739/fairbanks_1": 1.0,
+  "train/building_14042/fairbanks_1": 1.0,
+  "train/building_14979/fairbanks_1": 1.0,
+  "train/building_17821/denver_3": 6.0,
+  "train/building_18764/denver_7": 3.0,
+  "train/building_19664/fairbanks_7": 2.0,
+  "train/building_18764/fairbanks_5": 1.0,
+  "train/building_11818/phoenix_3": 3.0,
+  "train/building_19664/phoenix_1": 5.0,
+  "train/building_11902/phoenix_5": 2.0,
+  "train/building_13597/phoenix_7": 2.0,
+  "train/building_11010/singapore_1": 2.0,
+  "train/building_19655/singapore_5": 4.0,
+  "train/building_17224/singapore_7": 2.0,
+  "train/building_14078/atlanta_1": 3.0,
+  "train/building_14213/singapore_3": 3.0
+ },
+ "meta": {
+  "train/building_11534/denver_1": {
+   "city": "denver",
+   "season": "winter",
+   "month": 1,
+   "oat_c": -0.89
+  },
+  "train/building_19655/denver_1": {
+   "city": "denver",
+   "season": "winter",
+   "month": 1,
+   "oat_c": -0.89
+  },
+  "train/building_19950/denver_1": {
+   "city": "denver",
+   "season": "winter",
+   "month": 1,
+   "oat_c": -0.89
+  },
+  "train/building_12567/fairbanks_3": {
+   "city": "fairbanks",
+   "season": "spring",
+   "month": 3,
+   "oat_c": -1.67
+  },
+  "train/building_15790/fairbanks_1": {
+   "city": "fairbanks",
+   "season": "winter",
+   "month": 1,
+   "oat_c": -21.43
+  },
+  "train/building_18842/fairbanks_3": {
+   "city": "fairbanks",
+   "season": "spring",
+   "month": 3,
+   "oat_c": -1.67
+  },
+  "train/building_19655/fairbanks_1": {
+   "city": "fairbanks",
+   "season": "winter",
+   "month": 1,
+   "oat_c": -21.43
+  },
+  "train/building_19768/fairbanks_3": {
+   "city": "fairbanks",
+   "season": "spring",
+   "month": 3,
+   "oat_c": -1.67
+  },
+  "train/building_11164/denver_1": {
+   "city": "denver",
+   "season": "winter",
+   "month": 1,
+   "oat_c": -0.89
+  },
+  "train/building_15361/denver_1": {
+   "city": "denver",
+   "season": "winter",
+   "month": 1,
+   "oat_c": -0.89
+  },
+  "train/building_12739/fairbanks_1": {
+   "city": "fairbanks",
+   "season": "winter",
+   "month": 1,
+   "oat_c": -21.43
+  },
+  "train/building_14042/fairbanks_1": {
+   "city": "fairbanks",
+   "season": "winter",
+   "month": 1,
+   "oat_c": -21.43
+  },
+  "train/building_14979/fairbanks_1": {
+   "city": "fairbanks",
+   "season": "winter",
+   "month": 1,
+   "oat_c": -21.43
+  },
+  "train/building_12336/atlanta_7": {
+   "city": "atlanta",
+   "season": "autumn",
+   "month": 10,
+   "oat_c": 18.16
+  },
+  "train/building_14073/atlanta_3": {
+   "city": "atlanta",
+   "season": "spring",
+   "month": 4,
+   "oat_c": 20.82
+  },
+  "train/building_19629/atlanta_5": {
+   "city": "atlanta",
+   "season": "summer",
+   "month": 7,
+   "oat_c": 26.98
+  },
+  "train/building_14078/atlanta_1": {
+   "city": "atlanta",
+   "season": "winter",
+   "month": 1,
+   "oat_c": 9.59
+  },
+  "train/building_18764/denver_7": {
+   "city": "denver",
+   "season": "autumn",
+   "month": 9,
+   "oat_c": 12.94
+  },
+  "train/building_17821/denver_3": {
+   "city": "denver",
+   "season": "spring",
+   "month": 4,
+   "oat_c": 11.51
+  },
+  "train/building_19664/fairbanks_7": {
+   "city": "fairbanks",
+   "season": "autumn",
+   "month": 9,
+   "oat_c": 6.39
+  },
+  "train/building_18764/fairbanks_5": {
+   "city": "fairbanks",
+   "season": "summer",
+   "month": 6,
+   "oat_c": 18.91
+  },
+  "train/building_13597/phoenix_7": {
+   "city": "phoenix",
+   "season": "autumn",
+   "month": 10,
+   "oat_c": 23.3
+  },
+  "train/building_11818/phoenix_3": {
+   "city": "phoenix",
+   "season": "spring",
+   "month": 4,
+   "oat_c": 26.98
+  },
+  "train/building_11902/phoenix_5": {
+   "city": "phoenix",
+   "season": "summer",
+   "month": 7,
+   "oat_c": 36.82
+  },
+  "train/building_19664/phoenix_1": {
+   "city": "phoenix",
+   "season": "winter",
+   "month": 1,
+   "oat_c": 13.92
+  },
+  "train/building_17224/singapore_7": {
+   "city": "singapore",
+   "season": "autumn",
+   "month": 10,
+   "oat_c": 27.51
+  },
+  "train/building_14213/singapore_3": {
+   "city": "singapore",
+   "season": "spring",
+   "month": 4,
+   "oat_c": 28.59
+  },
+  "train/building_19655/singapore_5": {
+   "city": "singapore",
+   "season": "summer",
+   "month": 7,
+   "oat_c": 28.38
+  },
+  "train/building_11010/singapore_1": {
+   "city": "singapore",
+   "season": "winter",
+   "month": 2,
+   "oat_c": 27.33
+  },
+  "train/building_12567/atlanta_5": {
+   "city": "atlanta",
+   "season": "summer",
+   "month": 7,
+   "oat_c": 26.98
+  }
+ },
+ "shas": {
+  "o502_1": "c84739664771dfbcef7af713e3bd2315fd06ff6275bc108b740dd094a62144bb",
+  "o516_2": "d013aa95f10704e235af563b09397c1a05672e846a1d83c3c60223b0fdfaefa7",
+  "o521_1": "14f78291c1916de67cec40845d34318deb96896fdb1bc084545138d15efbd95a",
+  "o541_1": "7c0a810ac020d27056b4597fc237f1044e88ac728db2b22eb1446416a00949ab",
+  "o501_1": "4a57cf4794911cdc00a391a096229fc1ddef7c348b63a9a92e85c3d60613337d",
+  "o512_1": "47de7820b2962b40ad109140ac2d1247e6301c38f6d40f747ad29c030c900350",
+  "o523_1": "5e7b5f61e72f5971330726edfd7fe23e3068bc50dce69c5f65a53dd43b1c87cb",
+  "o523_2": "b5837d921f86aa9088db58f827e9e93b623776bebffee5aaf39d8598fa53be4b",
+  "o524_1": "6e68a30a923fc533fdb98cbd5c1db3cf4aba2f7b430568a624a06ddf23ead3d0",
+  "o527_1": "b4e745224b0145a474376d8891ed653582ae1dd3e5130bfee49875d386919407",
+  "o527_2": "9e28aa2fc094566a0b872d386d62c93bbb15733abd66bd895943813e7befabe9",
+  "o528_1": "b736983ce34519c525385709a648fd3de236e0cca8b7f0f685f2f21e1c5ca262",
+  "o528_2": "74edcdffd5c4552f4aff0de0f9ba0168b6c84f9d9892d58e2d338dd752f2218a",
+  "o531_1": "2c29a788f7cf6d7055d986c166213d2974a9f4cb8c0a6d552e1af2030e744fc3",
+  "o531_2": "17418b3effaf4396bc07f25ed6e11ccbac36ebc9008ed16c89f7923359355493",
+  "o531_3": "7766dca4f327474aa238b654154ba29a01f8de8160b291ebd209ea55ce2d831c",
+  "o532_1": "06425abf9fe9f952b21a7f8830e8b5e3ada4a7525b669f599aade92bd4d9e6fc",
+  "o542_1": "1d1e3df9f0e94628bce8d81ed80b82a7e1acb8a464278867d937a6bbad8c5b1f",
+  "o517_2": "4d36576ffc761a9645127ba52bc6c8281c20fc697464da50d3f03d6ea4b0da2f",
+  "o550_1": "bb0cbc85d7dea30ca39f1fc6a7b0f6ab11159d7967f3a95e925810c4786a529d",
+  "o551_1": "61889821ae27b37fc32e40ea7d36d15168a3f7df9f43ee12203248dfc7931d30",
+  "o526_1": "3de2e670f99586f5ed2c89431dd8efda8bc3beb16d6b46bad8d02087c34657ad",
+  "o526_2": "22758f14aa6d8fefef80526ab877a547b2c22ac7ba058a769632bad212b4eef3",
+  "o546_1": "127781320ba89041401667ea07b249eff979abd48e924752dbc5bdc1b35751a5",
+  "o546_2": "99031abbe545faaac2040916c5c88d613b6b16a06f9ae7709719024032a1bb0f",
+  "o546_3": "ce948fdf784fd425c5abdf88618d25ec310944e443a17d020aff42ba787e73b0",
+  "o538_1": "a68d3dc4cd2ada493ef3079b0bbc80d179eb4a9e39c6b18ae330a84cf47c42c9",
+  "o538_2": "b5dad7cfdc739d65a063478f3d235cfc57e9a675647f99a60ecebee59b43fca1",
+  "o519_1": "314002e3f83d995019b05f9823c301dbc32055d590c883c3149ab25182b0cc87",
+  "o508_1": "f6d3b005b83b1ef65a75fc5cb480cdc0c2e15305599fdd832c785277820b9e9f",
+  "o508_2": "8aaba72877b4a2a9c70e0395d77fedd18d6868abf9b05d20453abd0ed4e4c9e4",
+  "o540_1": "ab5952bb238c5a94e330ee33b1ee2ddfdb55eb77baee38cf388ec975d7dc5001",
+  "o540_2": "df72f9be4e9fad93ad47f43fe000821ff29cb44a581517e3bdc3b6d1031c1265",
+  "o510_1": "e2794b5c80c885865805cac31f50f4a99cddeb38bd96fa2e1fd423cfa722c895",
+  "o541_2": "2c09140be2d1aace12a2d985b022e062434f6eb9da1922d727e59c77bfe8d0a2",
+  "o516_1": "ecb898e94c4dfb3e058d8fa2f1654f1ccd21fa70f601e627164d8f838bfc3628",
+  "o543_1": "19cc7f0aa5d61ff96b035d2d963022ad02d9210016b69dc052f79b98e219f183",
+  "o515_1": "099bf70e52c347de41ce73dce5f143b5141f2cf86c000b437c925958e0f3ba5f",
+  "o515_2": "63212d1882ab7cda5b4fcd7d3b39406557b62f106f8710ec553498eb6d4c007f",
+  "o515_3": "1e9df7814b5022bc4dda4056704b86293ce310fb5fbd8d9202ecaa70fd7f86d8",
+  "o514_1": "008efd18d270afcf041c40f572e649f3d50c038f35fd94c282df4464d923d245",
+  "o522_1": "4b7f4c4d54cb2762b814400dce88ffcbfcc8960825739abc51663eb0b3cc1418",
+  "o522_2": "a5b9e01e27cf5ef535d20f33f526321812c9d1e4cda1f2487d9c77badcf2d28a",
+  "o507_1": "53480b7dcaeb5a954cd6ba427a4e1932b8887ba6cde9dab83195be6f0be907a2",
+  "o507_2": "674fa449553d89b4da8c2195cae19a0ebf98bc28a47362a35169a5d78aae3ac7",
+  "o507_3": "428d3413f3b3934683ab6c584e551b18f5b93bf56161e6db940bf0eaa1eeca96",
+  "o547_1": "adf3e1c7533fa2342010b385a8cd2a79f3091692b37c5b6a505b56b56038d5f6",
+  "o547_2": "72ae665715622cbbc2f0b2b2827074b0aafbf5285d263f644a87edbc918ff7b2",
+  "o548_1": "493ec360f575621637f3cd4310cef5c7376e9664471bc7c010538e6d2bf30d40",
+  "o549_1": "94e958802ae43f3523869c62476053f6978ec93b50eb3952f56aa09d632e4c45",
+  "o549_2": "d0fe63508c8c2520d761a1f2580aaa319f149a60fc8ed997406ccb119641916e",
+  "o530_1": "477e1cfba919033876be1b68bdfab75aaf167b2fcc2a6b8d6776b6ed12a34860",
+  "o530_2": "f1f4b8cfdb27b5f9b4b00bff46c571cd018c255b29baa469b20fbb7c16707870",
+  "o509_1": "b44e007a6e730aad6e5db7cc8a9861adb62b048da7921663fce8ce185dc1f36d",
+  "o509_2": "9e1e57ab3cedfc62e2d2ff97d48c31de1e3bfce0752c959444de6bb8d4ef7778",
+  "o511_1": "a77be62c7bf0aaeb790638af74dfe49d6736a554ab6dd05d8672264f84c74858",
+  "o511_2": "7407571fe541c9cb1abf444b8d2d3d4f8f011efe7ebe20ddb6b95eb7b14064a2",
+  "o513_1": "a6963efacfe3ff8cf4b0447cdbb8fe28ba146ca4a61a1f7accca1ea75e48fc3c",
+  "o517_1": "69f064d55e744b615c124fe08301d65b1621bbd7e62faaaf9ab3bf9408687d3c",
+  "o518_1": "d873984025a60c5162de0a9a8db2ae4296cff519c437ead69e2767d4d41f7f59",
+  "o520_1": "65554dabbcca62c9dc45d2540e852f8e63ccd7ae67ad10691816ef8d4f9cecc2",
+  "o524_2": "4c4f72847e922c19cf5cd006fc3c3355ee69639f5289df972d97a5fad824b2df",
+  "o524_3": "3fd35024e67b98968484e279572dda89d4fcfd21d2d523bcf2b101188d0eaea9",
+  "o525_1": "e66e681406908707cf5481b41768284de6bf846c9372d025d1216bd985930a30",
+  "o533_1": "53df6c8e7c64a22fd7d93710474351cd3951f6ba15b560f3620eb3c45433bae7",
+  "o535_1": "eb24a1bc4bdc611fed57be0119f8b070561187a822c2d89043689ec98ee87020",
+  "o536_1": "d78fac4a8d95585867f752436948d101b97387126484d4205063e4e4e4deb163",
+  "o537_1": "cc4b895b717dc2c6a0d45e7d1de77947c090a7a123a22beaa75bef9b6892becf",
+  "o539_1": "50b254d91e30863c1347c8388d3971589f6f4d9195fb76af6a4a0b2f7bb0b445",
+  "o539_2": "89d54f1f03aaaaa3e26b97b17b1095b5f56d543ff566ff1bda6cb985ed09a1de",
+  "o529_1": "6e1d8523704ed4e15fd1354579e0f8b8c3fd6181bb3b28114c1363d42635f379",
+  "o504_1": "7195b3679bb050705660bc275c40829162885f65bb364b821e46b782246656b2",
+  "o503_1": "1d7b9358109916939371dd8d3a6d0726e4a84dffb5c2a72d3b54e6b5b25aa392",
+  "o503_2": "ac7a82b6a149e3e745520e72adfefefd73069a73c6500b98d1bdf2d2181a288c",
+  "o506_1": "aae9490046a0b67c66733670ba2e48fc0637516f311a8801ee66610c431956e3",
+  "o506_2": "6cb15ccb346331ee6571f7ec218a317e1fcf5d5b28f3e314e11a3e83e5b5daae",
+  "o506_3": "cee678cd34ec5b3bc3716cda06339c855824b3675160aa860e4c8edb3f5a62f7",
+  "o505_1": "a4bb489d35dd7fd000f9bb6e2dc6452f98a6d9a4ad739b0e4be87efc62634d85",
+  "o505_ubm1": "7c89260029964bc6706efb959da2df418fa639e2a29c393000d78c84ceddd912",
+  "o505_ubp1": "8f14572b1702dc0c598ab947fb175b19ba36c26b6fd673eedd814afcce8158dd",
+  "o505_ubp2": "0b2775b870f07a1de2d00b90fdaa6512e1b8723f3324026a54ff6860cdf2fc60",
+  "o505_ubm1f": "309eb7c4c0f818e1618743af84bfb73de002ff4ef7c58ce5fb7d0447d58a80c3",
+  "o505_ubp1f": "397e041715b32f35f4919e461d1a0f945f0ea9b719f125cead44602ee09ad7c7",
+  "o505_ubp2f": "a00d9b524fbb922becf3775237eed5461c8906213c4f42e59fa6f2d45211feed",
+  "o544_1": "6f3cfbab024720cfbd07043df1e50bb25769a6070b2a69c0ee8acb0705d51583",
+  "o545_1": "0bacd338644040eb1552bbed051add33f34f6d7dcc2995222ec84ad45d3d9d6e",
+  "o545_2": "418d3d672fb8a162c907ba2d0304e560a58262b7a054fc9fc5cc7603b691e112",
+  "o545_3": "046550f31e594e916e086cc14929a17368543dec1fd82bf15fd95fb57cd5c66e",
+  "o526_3": "499ae784bd63030403709c07a4c428a1b41a6c6f3c2754aca54ba60862630fed",
+  "p601_1": "48b80871615b24cd91b91d48bc78219ac9d45c74a33ed19bcabaab34fc43ec3b",
+  "p601_2": "a023eb7770fee9170bacecd76c92be4c01d3a2cbfd7b0dc6226f23d87f798be3",
+  "p601_3": "7e59ec099eed38a51b859c2367408ba2a3c02797d87cc5e3c61c39c8350c4caa",
+  "p602_1": "42e418a29eacca2c2ae5ddf2e175a6cc987b61224e49b5466f6983202b997a3a",
+  "p602_2": "9f05ee6c4b42758710edf5a1d22dab8495bbf428fffa36a20e63c6bc37a25aa0",
+  "p603_1": "b5dfbee9ea1b265e2e8f204cf754b1cb51233225c9a58cf0c1577b7b918d2315",
+  "p611_1": "d615fc331b77341a8c440541b8d4d3726178a2678915df542499af735c251383",
+  "p611_2": "e85cbf9a0491567b70126a84c3beddc325eb50a4833683a788d1f868b8796a83",
+  "g5cbase": "fb0f5867dd1dd0bcf8c3c4d3e9cecf69698d85487a60e8ed3da840ff8b9aa1a2",
+  "g5cda00": "865f041d24fa8d8bef8b3b8e37a51fb7b4ac1eb6d1cd791f00ecd184a237f838",
+  "g5cda01": "754c6eb85f077bd579adc69c33d66fdb8408c3f1027d21aad20604d2fecc2d5c",
+  "g5cda02": "7e04372a89bd7180495cd8362e3783e70bea8cfce08543ba70eb19d18c4604b1",
+  "g5cda03": "c777f27bf2fadb158483c066abd20226b59b719a456cae83a3e08df99f5b41df",
+  "g5cda04": "609eab0303904d3b7999a71f21cfe875130341270a9fc940a4828310d0ccae13",
+  "g5cda05": "21f5c3786709bc7198120f85fcfdec1adcc8878a5acc73e81f1cef529302040c",
+  "g5cda06": "09392c089b5a5c671dcd2f812d7262c6c6a6175a7844fae380a82d2c5f75a28d",
+  "g5cda07": "60d3be4f0517396a61d13cf9a74974850f602843bcb76f619f5dff65b7725460",
+  "g5cda08": "87ba55fe97f3c26b0d658b14d03c34c3a19dadc8a86c4718af124872c45b59f6",
+  "g5cda09": "714943aa8d5332457d02bee60bd3bee5aa2dde37b6dd74ebae011f67a9ea5253",
+  "g5cda10": "561aaf7f8d7c9be7751af5d0f211f0d6ec0f072d12cd6e7d2c14c41ab724444f",
+  "g5cda11": "ed22b5a232bcaafe1413c7fa41e1c8a5976966875bb7cafb66ca2396d39b0bc5",
+  "g5cda12": "8dc4465b4735fca43690ad222149965f125602b54d1aac289bf3bb79dcb93366",
+  "g5cda13": "764d176daaa815137c5e487d0502b298a4761f07bc483d2b6faa075d368bfe6f",
+  "g5cda14": "66de0ba016550232f4e94eb46cbf3582dd2cfccd4e577e9851d3fcfc1c4016c5",
+  "g5cda15": "dc068ead85f9474ad2b021b9a915e7c247e6393efa49bdfec5e14d074140a3fa",
+  "g5cda16": "4e84ac9bffe77b5c2b3cf211266fe4031096ab0cd36f2c9b941d1a59d96e3ee8",
+  "g5cda17": "ba086f8a8382f9a1b065e777c7bbf9d2011bbc0e574c1a338fc252e6c9831d73",
+  "g5cda18": "46a9c17c881178ffaff8c246db7f9ec4d209af36795d730a8c999fffc0a1f1c8",
+  "g5cda19": "1724074f33edd5c9acea5a8722654c9e22cc2c2b0b77e4602651fe9a00a4f2ff",
+  "g5cda20": "8fbc21630267b639909b5c7df6b39d8a4b42910b0b3a62d7cfd06b941b32068a",
+  "g5cda21": "8b02cfecf62d818292909ffdcf11241c7aa2fe076f48dbee1ceca5f8540e7f61",
+  "g5cda22": "f00af4fb4047bdb41f5e7d988513c8d81c215326a6650cfaccafe00538344eed",
+  "g5cda23": "15765c36e0436b1759c687377781692d7886927ffe23e50f2dd3604c2008e002",
+  "g5cda24": "403c47adbe99e743242ba78ab521a069f8f43f903272769f3e103a152e33d7e7",
+  "g5cda25": "49c51c83e1e61f1868b942d6dce2af52c2766a2703f359577c202d308f6e392e",
+  "g5cda26": "b19893cf2d3a5379b825d9ecb3a5ef2972d0205047174045e4ecfe962cb26bce",
+  "g5cda27": "c2cfe29d4cd7632b4287752b72f0bb3d028710ac317032bc8c1564ef2fc24bfe",
+  "g5cda28": "4305e15b43cf9866e09e2e8ac062bea9db0a9bcc25bc20d73c3baccfc550dbd5",
+  "g5cda29": "fd950e22231142f697a02802501f6d0d8582284ec6407d098d23e12bba80644b",
+  "g5cda30": "008e448af5a339a7cc71dc716355c68bc85f8bfb21e716544bd5500e12a23444",
+  "g5cda31": "69c29702fff8084de237fc9e64a41b4209d492730df277e9542e1581cdfe5568",
+  "g5cda32": "da9b27058fd542731c6d7e6b2d36c4bae3f3f711fd0ae2d76e026796c3fbcc96",
+  "g5cda33": "e96ecd3d54984685ecd6b9c944e99a402e6e7dc6373c9b4fa3501fa86964ea62",
+  "g5cda34": "1d1e670ece10db056132048f2a7d50a5ce322c44c75371cdaeb500527ddcf2fa",
+  "g5cda35": "e7af300f7fc721f19f6e776aa4305c881dd6490174d18f5d029aa3b47bc50e62",
+  "g5cda36": "80f008dcbeeeff310995be20da9e8c882f518502f70b8183c8d5083214062bb8",
+  "g5cda37": "6d6d831970e41865e92f37b4b2e7e454014bc7d12634474435082ea8d32f6427",
+  "g5cda38": "da9889d4999e11aab92f931e7c3462d31d081bd633138cba01ca23bbd25cf500",
+  "g5cda39": "2a1984dc364d2abc037cf225d6f456334ea336a0a30324f2ea13ea2c898793c1",
+  "g5cda40": "0314405e8cf5281cfe466825cc79513a9c582b319d8e390ee9cb8d4e59d4150d",
+  "g5cda41": "96e0c5edc6a15ce238f10d70188ccfe067b98de190127d929ee518d2269cb8ed",
+  "g5cda42": "b15ecd54d620a2734cb986ad16a027a003f7c8eb0d4a3c29eafe59a47b8193cd",
+  "g5cda43": "6374c83f9f1c3a7e098ff8cd53a650b206d4e29342efc6f008c29ca948cc644e",
+  "g5cda44": "22b22c2ce1099f8c9d653a61f46c6cbeddba8e61ec6c0ab8187d444322ebc64a",
+  "g5cda45": "854269f375520c9e1fe9dff2ec4aed9462b6d7ab8ce64f283081983dfde4d300",
+  "g5cda46": "55daa4f47003a42524bba573da82b39432572f52ad36905dcadcc6491c06098a",
+  "g5cda47": "80d6e04ace427221b2b7ff5409811ddc681efd1b7942cfc8c521bab7164b5b09",
+  "g5cda48": "3e0389f49acde45b45a96705bac50e12f35ab0e8d53e681beb6837542ddf7d73",
+  "g5cda49": "50fa51baaeadc5125837137b9bfbf617d09794a6ac89b84e8d7ae4edbbbde127",
+  "g5cda50": "488d3a317374a4c79e11a47f6f78591b3fdca9ecc2481120167dc33e8543a3fa",
+  "g5cda51": "f95c742e12ba920d63e164ce802f46e863defb4cfc5f9700cec0aa291ce61c97",
+  "g5cda52": "d94bd721482f8395aa981a0a69992ad4f3647f29266a196ceb6e485f93fcadce",
+  "g5cda53": "583c5980ef8cabde112a51c37221ab3675ce3ff45423cb1feea65c23c24e83d7",
+  "g5cda54": "f24a4bdcae94e35cf254a064f1756fc619e07ee33e04e739180cc04f509e0df3",
+  "g5cda55": "d43b80d6a6c7b92375bcbf404ed7785d9a43665230e7b70dc44a97bf29d12f4c",
+  "g5cda56": "89d5ac716739503d48d18bc8661b660c7aaf9eb79717da2fce97c325734f3826",
+  "g5cda57": "1296ce5d8b00eaab08236434416bdcebdd6916c9a5e31a8f25caa7c84f4120ed",
+  "g5cda58": "e1012a7306c5a38209ef382958720df17e6f3bbb6bda2a3a1e044015a2aa4964",
+  "g5cda59": "809593cefaab120b63e61eda2bb4159d246e15b40e447d6e7f2e36dbbbce8c21",
+  "g5cda60": "9054f84e94c0ae4862d80015eef728034f91aebdb906f2168296b58d0dde87aa",
+  "g5cda61": "a01dc53f18b4a4bb3060257f44735cfd49c9735b8585a992f4b881a0ec318c48",
+  "g5cda62": "c831ea440c61e49b2e33154f795c0f3be62c06803e530c7d7337d204e67e9870",
+  "g5cda63": "60979f09bf91ef2cd5a1b140473eba70ed0014a3f113707ec09f61d909689eee",
+  "g5pbase": "058ef1302a266d044ac6c4a97d7e32d31a8833bd20aaca65a3c1294894fc0294",
+  "g5pda00": "9a221d2aa767bb9d9d5355bb0d891e6e8bdca2159fe4f16dfe236f5357a4cdcf",
+  "g5pda01": "0ea7b094add708ec2bb2e5d191bc8b689aab65ca53747e0cb6785c9ae1b45eb1",
+  "g5pda02": "13552d7cab84aff669927403c65c8fb1b9d37daa9cef6df841738a7a49a5dc72",
+  "g5pda03": "81dd28ecc95b4fc15e740fa45c56c53e537350e11553a6551a5530f1b30f4d93",
+  "g5pda04": "f759c08a34e9110c5e8e6463c23fe702a4eaa0b1f3367aa5bd4fa306cdf09924",
+  "g5pda05": "9e8d40f190a593d957fe61d69f130df3173727e58f274cb749c2c72681c7c4be",
+  "g5pda06": "33b32c8bbee7eaa3a2b07215c3d3159b239d84dc5a3112abdc84a320ae88ea4b",
+  "g5pda07": "b1f471076049c101e5024f81cabc38338ca27f605a74b4f70f2dbc1b2322e191",
+  "g5pda08": "c91b8982b3bbe03f2f6f374c38739bc51c98529a7be9302d585ab7686bc3e274",
+  "g5pda09": "452709d682559d4e4fc8031350c7e67a305abdca0c648a1eff28bb6dd145963f",
+  "g5pda10": "b22ed4acc525bbcb446ca8d2c7b45bbe973e2b426e575a02594bda1c58b754be",
+  "g5pda11": "f02ceee8a64b015c769de29a7a0991a2ec95361624ea473ede4b9737b4207c05",
+  "g5pda12": "166e3f61a4f6ce661b21fc31c117175670fbee422c0f2f1619cf7239c4a30678",
+  "g5pda13": "c3a8103d0a0ad2d0c41abef3260d74a6e0f9019511b07291aba328d13f29bdf1",
+  "g5pda14": "b7e9fa56af9526e8c8bef8bb856346c0c848ac2c431f3a5b2ab4ac244ff871f5",
+  "g5pda15": "dc001efa20672331dc5b313a8f61055aafa9ec6a44a07763af65e9e8fe3ebf91",
+  "g5pda16": "4b320c5862e7db7fbbcb9c00f9e5ebdc7aa9e80ea4dca806da96190839f65c0f",
+  "g5pda17": "582dd584ad2f6d5d12aa6790f5cef1030589a8e5e0a0fcc262787310ef2bf244",
+  "g5pda18": "3b8bd2a5fc843e21225ff71f686fb060c780314c82cbd6843de4de1081421043",
+  "g5pda19": "340ae71b6cff403e2e04d15d825c9b4123dd9f1c588351c1b68fa3797fb4b663",
+  "g5pda20": "0fea2b618b75a5fe7dab51b3fd890ce6a7dbd5701c59591aaf4bc9c5c47dce3c",
+  "g5pda21": "cf1e65134fdc54d8d849b68c671e68b44548c97e1d19c6b654c4141ae84a8937",
+  "g5pda22": "d4fa97367b6dc2bb665ca72a6309cdd0e6d07dd01f2e7888ce1d562d764d4053",
+  "g5pda23": "0ad9bde7f2316ff91a49a0b500dbacb3290ea3d47bd5e7898ac6b06f5c1ef8f6",
+  "g5pda24": "812756aaad466c4aeb6cd0b64ce257265f81f47b4d084b8fa083a5c1dd054bd7",
+  "g5pda25": "0cb07b995ecf613e1c10ab5ef16750b16c5be1bd3bf2d436fd002eb2f4b491a3",
+  "g5pda26": "9b85a6223539bfc554ff14afd9fb6f2b06e7da2af1ff88600855380aaeb0f3ae",
+  "g5pda27": "d2f9506bff7dbe4891a472dfa82c32132f154af771a95c7ac802eaffed4da1e6",
+  "g5pda28": "2a86da3e534be242f7cbdfe2e78dcb45e20a75b5baed04d4f4a2456ae0e85c01",
+  "g5pda29": "09d10d846d8c25359a0bab109c2b8b2425f691021fd455c2dec65ab341c14012",
+  "g5pda30": "440ff5e51d75f95271c54334c27ad1fa312320c85edce00ca949564549735577",
+  "g5pda31": "cab627ad113057a40376a15ebcb094c199f5c04a9e78da6ff4f9ce5e61810901",
+  "g5pda32": "de11a9e3fa1403d1b36b0050c81faad48e007d098c2de362cfee16adfb469a6b",
+  "g5pda33": "7d052425b17fc025687cdea3f18e2f78b63d35313eaf70ab71d0daeff9f7f199",
+  "g5pda34": "96a6332c9c78d96ecb61c12aa2d4b0c52fa08105ea00c3d5a6e02a0ab887a61b",
+  "g5pda35": "1fef0dc123040e8e0e90a290d0783a8d5ce3b1af7653802ff2e6a0cd3a660d09",
+  "g5pda36": "e3890478d9600ca40191736325907925b5b25bd3132352dae3e8e5ad84ff448b",
+  "g5pda37": "8abd492b625143c5ab808fc0e7d7b805080e8b3559b7986c5eaf00e307255637",
+  "g5pda38": "1d0470c98bfd1c5368d8abda8bd9c5c4e15c39ec9e732931e8d32f53f6c065bc",
+  "g5pda39": "612ed4a881309df6c41b494c66302891332aec7ceffc0976c0317d09495c797d",
+  "g5pda40": "253131d9c92fcdf52dbb67d54041132bdf1ae975d4ddbd2fcb37762e3fe5f55b",
+  "g5pda41": "483d899daffb13cc50b9e85a7dbe3db4d817c5a5ac591cbfe73caddb962750da",
+  "g5pda42": "788e152dbe35ad9dc7b07bc79040a6dda6773485d33c31d6b0d2d890de6341cf",
+  "g5pda43": "41b768f04e3dace5eed19cf4d7f8da326e0342d85fab920582421fc79dee66d8",
+  "g5pda44": "4e1454982d4cbf49ec927c16d3d8638e2e9421e1a6404183af9b36be44b5644b",
+  "g5pda45": "9514b69908a5855f79af303f9dcc5f3873b92156eeab928cda5c0b37c0c92994",
+  "g5pda46": "d13cd2aeec28ea8a82fb93ccc36e88265e3e354a609ad12b3dd7182cafe6ab42",
+  "g5pda47": "5b32a99b4879d01ed13292a0f60323a8b8553c103b277695fb273c5b2bed7bc5",
+  "g5pda48": "b5781395d75f38fc3782684425a9b256446497013090f95c5d09d8d89c3ce700",
+  "g5pda49": "13f161ee856c51f845ea282bed03fe6204997b6e9a413ad5334779be58380539",
+  "g5pda50": "ed64e95293839bdde6dc15ea6dc8eb8668bc640810804cf47b6ded710a960f81",
+  "g5pda51": "e383b9b545bc0d2515248ec33936b3688347258794439928aa93a6293fe8e2ab",
+  "g5pda52": "1da166be1786fdd9028ad0f38409802f7743ed12909fc22cab65f3336b29cefe",
+  "g5pda53": "2d61b14c4c4e41bdad4279fa0e4cd07999db92173893094a2bc5f50e4ad7f1c3",
+  "g5pda54": "9a812c84b11d920802d373ad89c3f9e1a2861b62c1eb1aab2831adbf1221b295",
+  "g5pda55": "d353ae1f2610f193a1a10bbfcb37ebe2e011574b68ab7647d67b824fce6c29d9",
+  "g5pda56": "d0eb74e125677c5786fdc9c327f5f72d667f96d18c753ee9fc1ab63b208a9cbb",
+  "g5pda57": "05cba1595295d5f9cfeb413cb777928a1e5a9b75d2a9966f028a407445217ae5",
+  "g5pda58": "daef7668289e3165255f45b82dc55709fa533370f6d6953603bb33614a5eac43",
+  "g5pda59": "db9a98710f6c575124cbcebc91475dad24379ed121ed76204fcc80f9a2d83a77",
+  "g5pda60": "71fbcfcadf82ed344f8f0e1037fb20ab620d1c1b26a15fe7e3c75775e0225744",
+  "g5pda61": "d602464a6f69d907aa920150db4e3d46b7223720dca6bf145ced762b1f1a2d0a",
+  "g5pda62": "98325fc25c049046009a81bf6e07643514732aff49c782be83c9d5781d6b2300",
+  "g5pda63": "22e78f97a78361005df60f77a8b87a83aeeae0d23be8b534247d74901f0c3093",
+  "gt_r5pa": "5b42bedfb514296f95436f796caee1e48da596d6d1b3e55d8d3d598dfb13c44e",
+  "g5pbase2": "52052ca96ce308d46cd560bf84114c5352ae1db9f9710b9e92d0e815c6501c58",
+  "gt_r5pa2": "187adc979b0c808b9b52a2e12f7b517e96d4f0cb586e88ebb4cb2e4689f78d3e",
+  "g5ploopref": "1d1e3df9f0e94628bce8d81ed80b82a7e1acb8a464278867d937a6bbad8c5b1f"
+ },
+ "options": {
+  "o502_1": {
+   "model": "data/runs/b2rl/geo5/models/model-o502_1.json",
+   "behaviour_sha": "c84739664771dfbcef7af713e3bd2315fd06ff6275bc108b740dd094a62144bb",
+   "reuse": [
+    "opt_cont_on"
+   ],
+   "layer": "ahu",
+   "category": "physics",
+   "option": "O502"
+  },
+  "o516_2": {
+   "model": "data/runs/b2rl/geo5/models/model-o516_2.json",
+   "behaviour_sha": "d013aa95f10704e235af563b09397c1a05672e846a1d83c3c60223b0fdfaefa7",
+   "reuse": [
+    "opt_satmix_warm"
+   ],
+   "layer": "ahu",
+   "category": "physics",
+   "option": "O516"
+  },
+  "o521_1": {
+   "model": "data/runs/b2rl/geo5/models/model-o521_1.json",
+   "behaviour_sha": "14f78291c1916de67cec40845d34318deb96896fdb1bc084545138d15efbd95a",
+   "reuse": [
+    "opt_c1_flush"
+   ],
+   "layer": "building",
+   "category": "physics",
+   "option": "O521"
+  },
+  "o541_1": {
+   "model": "data/runs/b2rl/geo5/models/model-o541_1.json",
+   "behaviour_sha": "7c0a810ac020d27056b4597fc237f1044e88ac728db2b22eb1446416a00949ab",
+   "reuse": [
+    "opt_c3_freeze"
+   ],
+   "layer": "ahu",
+   "category": "physics",
+   "option": "O541"
+  },
+  "o501_1": {
+   "model": "data/runs/b2rl/geo5/models/model-o501_1.json",
+   "behaviour_sha": "4a57cf4794911cdc00a391a096229fc1ddef7c348b63a9a92e85c3d60613337d",
+   "reuse": [],
+   "layer": "building",
+   "category": "physics",
+   "option": "O501"
+  },
+  "o512_1": {
+   "model": "data/runs/b2rl/geo5/models/model-o512_1.json",
+   "behaviour_sha": "47de7820b2962b40ad109140ac2d1247e6301c38f6d40f747ad29c030c900350",
+   "reuse": [],
+   "layer": "ahu",
+   "category": "physics",
+   "option": "O512"
+  },
+  "o523_1": {
+   "model": "data/runs/b2rl/geo5/models/model-o523_1.json",
+   "behaviour_sha": "5e7b5f61e72f5971330726edfd7fe23e3068bc50dce69c5f65a53dd43b1c87cb",
+   "reuse": [],
+   "layer": "building",
+   "category": "physics",
+   "option": "O523"
+  },
+  "o523_2": {
+   "model": "data/runs/b2rl/geo5/models/model-o523_2.json",
+   "behaviour_sha": "b5837d921f86aa9088db58f827e9e93b623776bebffee5aaf39d8598fa53be4b",
+   "reuse": [],
+   "layer": "building",
+   "category": "physics",
+   "option": "O523"
+  },
+  "o524_1": {
+   "model": "data/runs/b2rl/geo5/models/model-o524_1.json",
+   "behaviour_sha": "6e68a30a923fc533fdb98cbd5c1db3cf4aba2f7b430568a624a06ddf23ead3d0",
+   "reuse": [],
+   "layer": "ahu",
+   "category": "physics",
+   "option": "O524"
+  },
+  "o527_1": {
+   "model": "data/runs/b2rl/geo5/models/model-o527_1.json",
+   "behaviour_sha": "b4e745224b0145a474376d8891ed653582ae1dd3e5130bfee49875d386919407",
+   "reuse": [],
+   "layer": "room",
+   "category": "physics",
+   "option": "O527"
+  },
+  "o527_2": {
+   "model": "data/runs/b2rl/geo5/models/model-o527_2.json",
+   "behaviour_sha": "9e28aa2fc094566a0b872d386d62c93bbb15733abd66bd895943813e7befabe9",
+   "reuse": [],
+   "layer": "room",
+   "category": "physics",
+   "option": "O527"
+  },
+  "o528_1": {
+   "model": "data/runs/b2rl/geo5/models/model-o528_1.json",
+   "behaviour_sha": "b736983ce34519c525385709a648fd3de236e0cca8b7f0f685f2f21e1c5ca262",
+   "reuse": [],
+   "layer": "room",
+   "category": "physics",
+   "option": "O528"
+  },
+  "o528_2": {
+   "model": "data/runs/b2rl/geo5/models/model-o528_2.json",
+   "behaviour_sha": "74edcdffd5c4552f4aff0de0f9ba0168b6c84f9d9892d58e2d338dd752f2218a",
+   "reuse": [],
+   "layer": "room",
+   "category": "physics",
+   "option": "O528"
+  },
+  "o531_1": {
+   "model": "data/runs/b2rl/geo5/models/model-o531_1.json",
+   "behaviour_sha": "2c29a788f7cf6d7055d986c166213d2974a9f4cb8c0a6d552e1af2030e744fc3",
+   "reuse": [],
+   "layer": "building",
+   "category": "physics",
+   "option": "O531"
+  },
+  "o531_2": {
+   "model": "data/runs/b2rl/geo5/models/model-o531_2.json",
+   "behaviour_sha": "17418b3effaf4396bc07f25ed6e11ccbac36ebc9008ed16c89f7923359355493",
+   "reuse": [],
+   "layer": "building",
+   "category": "physics",
+   "option": "O531"
+  },
+  "o531_3": {
+   "model": "data/runs/b2rl/geo5/models/model-o531_3.json",
+   "behaviour_sha": "7766dca4f327474aa238b654154ba29a01f8de8160b291ebd209ea55ce2d831c",
+   "reuse": [],
+   "layer": "building",
+   "category": "physics",
+   "option": "O531"
+  },
+  "o532_1": {
+   "model": "data/runs/b2rl/geo5/models/model-o532_1.json",
+   "behaviour_sha": "06425abf9fe9f952b21a7f8830e8b5e3ada4a7525b669f599aade92bd4d9e6fc",
+   "reuse": [],
+   "layer": "building",
+   "category": "physics",
+   "option": "O532"
+  },
+  "o542_1": {
+   "model": "data/runs/b2rl/geo5/models/model-o542_1.json",
+   "behaviour_sha": "1d1e3df9f0e94628bce8d81ed80b82a7e1acb8a464278867d937a6bbad8c5b1f",
+   "reuse": [
+    "opt_n4_vot"
+   ],
+   "layer": "ahu",
+   "category": "physics",
+   "option": "O542"
+  },
+  "o517_2": {
+   "model": "data/runs/b2rl/geo5/models/model-o517_2.json",
+   "behaviour_sha": "4d36576ffc761a9645127ba52bc6c8281c20fc697464da50d3f03d6ea4b0da2f",
+   "reuse": [],
+   "layer": "building",
+   "category": "competition",
+   "option": "O517"
+  },
+  "o550_1": {
+   "model": "data/runs/b2rl/geo5/models/model-o550_1.json",
+   "behaviour_sha": "bb0cbc85d7dea30ca39f1fc6a7b0f6ab11159d7967f3a95e925810c4786a529d",
+   "reuse": [],
+   "layer": "building",
+   "category": "competition",
+   "option": "O550"
+  },
+  "o551_1": {
+   "model": "data/runs/b2rl/geo5/models/model-o551_1.json",
+   "behaviour_sha": "61889821ae27b37fc32e40ea7d36d15168a3f7df9f43ee12203248dfc7931d30",
+   "reuse": [],
+   "layer": "building",
+   "category": "competition",
+   "option": "O551"
+  },
+  "o526_1": {
+   "model": "data/runs/b2rl/geo5/models/model-o526_1.json",
+   "behaviour_sha": "3de2e670f99586f5ed2c89431dd8efda8bc3beb16d6b46bad8d02087c34657ad",
+   "reuse": [],
+   "layer": "building",
+   "category": "physics",
+   "option": "O526"
+  },
+  "o526_2": {
+   "model": "data/runs/b2rl/geo5/models/model-o526_2.json",
+   "behaviour_sha": "22758f14aa6d8fefef80526ab877a547b2c22ac7ba058a769632bad212b4eef3",
+   "reuse": [],
+   "layer": "building",
+   "category": "physics",
+   "option": "O526"
+  },
+  "o546_1": {
+   "model": "data/runs/b2rl/geo5/models/model-o546_1.json",
+   "behaviour_sha": "127781320ba89041401667ea07b249eff979abd48e924752dbc5bdc1b35751a5",
+   "reuse": [],
+   "layer": "building",
+   "category": "competition",
+   "option": "O546"
+  },
+  "o546_2": {
+   "model": "data/runs/b2rl/geo5/models/model-o546_2.json",
+   "behaviour_sha": "99031abbe545faaac2040916c5c88d613b6b16a06f9ae7709719024032a1bb0f",
+   "reuse": [],
+   "layer": "building",
+   "category": "competition",
+   "option": "O546"
+  },
+  "o546_3": {
+   "model": "data/runs/b2rl/geo5/models/model-o546_3.json",
+   "behaviour_sha": "ce948fdf784fd425c5abdf88618d25ec310944e443a17d020aff42ba787e73b0",
+   "reuse": [],
+   "layer": "building",
+   "category": "competition",
+   "option": "O546"
+  },
+  "o538_1": {
+   "model": "data/runs/b2rl/geo5/models/model-o538_1.json",
+   "behaviour_sha": "a68d3dc4cd2ada493ef3079b0bbc80d179eb4a9e39c6b18ae330a84cf47c42c9",
+   "reuse": [],
+   "layer": "building",
+   "category": "physics",
+   "option": "O538"
+  },
+  "o538_2": {
+   "model": "data/runs/b2rl/geo5/models/model-o538_2.json",
+   "behaviour_sha": "b5dad7cfdc739d65a063478f3d235cfc57e9a675647f99a60ecebee59b43fca1",
+   "reuse": [],
+   "layer": "building",
+   "category": "physics",
+   "option": "O538"
+  },
+  "o519_1": {
+   "model": "data/runs/b2rl/geo5/models/model-o519_1.json",
+   "behaviour_sha": "314002e3f83d995019b05f9823c301dbc32055d590c883c3149ab25182b0cc87",
+   "reuse": [],
+   "layer": "building",
+   "category": "physics",
+   "option": "O519"
+  },
+  "o508_1": {
+   "model": "data/runs/b2rl/geo5/models/model-o508_1.json",
+   "behaviour_sha": "f6d3b005b83b1ef65a75fc5cb480cdc0c2e15305599fdd832c785277820b9e9f",
+   "reuse": [],
+   "layer": "building",
+   "category": "physics",
+   "option": "O508"
+  },
+  "o508_2": {
+   "model": "data/runs/b2rl/geo5/models/model-o508_2.json",
+   "behaviour_sha": "8aaba72877b4a2a9c70e0395d77fedd18d6868abf9b05d20453abd0ed4e4c9e4",
+   "reuse": [],
+   "layer": "building",
+   "category": "physics",
+   "option": "O508"
+  },
+  "o540_1": {
+   "model": "data/runs/b2rl/geo5/models/model-o540_1.json",
+   "behaviour_sha": "ab5952bb238c5a94e330ee33b1ee2ddfdb55eb77baee38cf388ec975d7dc5001",
+   "reuse": [],
+   "layer": "building",
+   "category": "physics",
+   "option": "O540"
+  },
+  "o540_2": {
+   "model": "data/runs/b2rl/geo5/models/model-o540_2.json",
+   "behaviour_sha": "df72f9be4e9fad93ad47f43fe000821ff29cb44a581517e3bdc3b6d1031c1265",
+   "reuse": [],
+   "layer": "building",
+   "category": "physics",
+   "option": "O540"
+  },
+  "o510_1": {
+   "model": "data/runs/b2rl/geo5/models/model-o510_1.json",
+   "behaviour_sha": "e2794b5c80c885865805cac31f50f4a99cddeb38bd96fa2e1fd423cfa722c895",
+   "reuse": [],
+   "layer": "ahu",
+   "category": "physics",
+   "option": "O510"
+  },
+  "o541_2": {
+   "model": "data/runs/b2rl/geo5/models/model-o541_2.json",
+   "behaviour_sha": "2c09140be2d1aace12a2d985b022e062434f6eb9da1922d727e59c77bfe8d0a2",
+   "reuse": [],
+   "layer": "ahu",
+   "category": "physics",
+   "option": "O541"
+  },
+  "o516_1": {
+   "model": "data/runs/b2rl/geo5/models/model-o516_1.json",
+   "behaviour_sha": "ecb898e94c4dfb3e058d8fa2f1654f1ccd21fa70f601e627164d8f838bfc3628",
+   "reuse": [],
+   "layer": "ahu",
+   "category": "physics",
+   "option": "O516"
+  },
+  "o543_1": {
+   "model": "data/runs/b2rl/geo5/models/model-o543_1.json",
+   "behaviour_sha": "19cc7f0aa5d61ff96b035d2d963022ad02d9210016b69dc052f79b98e219f183",
+   "reuse": [],
+   "layer": "building",
+   "category": "physics",
+   "option": "O543"
+  },
+  "o515_1": {
+   "model": "data/runs/b2rl/geo5/models/model-o515_1.json",
+   "behaviour_sha": "099bf70e52c347de41ce73dce5f143b5141f2cf86c000b437c925958e0f3ba5f",
+   "reuse": [],
+   "layer": "ahu",
+   "category": "physics",
+   "option": "O515"
+  },
+  "o515_2": {
+   "model": "data/runs/b2rl/geo5/models/model-o515_2.json",
+   "behaviour_sha": "63212d1882ab7cda5b4fcd7d3b39406557b62f106f8710ec553498eb6d4c007f",
+   "reuse": [],
+   "layer": "ahu",
+   "category": "physics",
+   "option": "O515"
+  },
+  "o515_3": {
+   "model": "data/runs/b2rl/geo5/models/model-o515_3.json",
+   "behaviour_sha": "1e9df7814b5022bc4dda4056704b86293ce310fb5fbd8d9202ecaa70fd7f86d8",
+   "reuse": [],
+   "layer": "ahu",
+   "category": "physics",
+   "option": "O515"
+  },
+  "o514_1": {
+   "model": "data/runs/b2rl/geo5/models/model-o514_1.json",
+   "behaviour_sha": "008efd18d270afcf041c40f572e649f3d50c038f35fd94c282df4464d923d245",
+   "reuse": [],
+   "layer": "ahu",
+   "category": "physics",
+   "option": "O514"
+  },
+  "o522_1": {
+   "model": "data/runs/b2rl/geo5/models/model-o522_1.json",
+   "behaviour_sha": "4b7f4c4d54cb2762b814400dce88ffcbfcc8960825739abc51663eb0b3cc1418",
+   "reuse": [],
+   "layer": "room",
+   "category": "physics",
+   "option": "O522"
+  },
+  "o522_2": {
+   "model": "data/runs/b2rl/geo5/models/model-o522_2.json",
+   "behaviour_sha": "a5b9e01e27cf5ef535d20f33f526321812c9d1e4cda1f2487d9c77badcf2d28a",
+   "reuse": [],
+   "layer": "room",
+   "category": "physics",
+   "option": "O522"
+  },
+  "o507_1": {
+   "model": "data/runs/b2rl/geo5/models/model-o507_1.json",
+   "behaviour_sha": "53480b7dcaeb5a954cd6ba427a4e1932b8887ba6cde9dab83195be6f0be907a2",
+   "reuse": [],
+   "layer": "room",
+   "category": "physics",
+   "option": "O507"
+  },
+  "o507_2": {
+   "model": "data/runs/b2rl/geo5/models/model-o507_2.json",
+   "behaviour_sha": "674fa449553d89b4da8c2195cae19a0ebf98bc28a47362a35169a5d78aae3ac7",
+   "reuse": [],
+   "layer": "room",
+   "category": "physics",
+   "option": "O507"
+  },
+  "o507_3": {
+   "model": "data/runs/b2rl/geo5/models/model-o507_3.json",
+   "behaviour_sha": "428d3413f3b3934683ab6c584e551b18f5b93bf56161e6db940bf0eaa1eeca96",
+   "reuse": [],
+   "layer": "room",
+   "category": "competition",
+   "option": "O507"
+  },
+  "o547_1": {
+   "model": "data/runs/b2rl/geo5/models/model-o547_1.json",
+   "behaviour_sha": "adf3e1c7533fa2342010b385a8cd2a79f3091692b37c5b6a505b56b56038d5f6",
+   "reuse": [],
+   "layer": "building",
+   "category": "competition",
+   "option": "O547"
+  },
+  "o547_2": {
+   "model": "data/runs/b2rl/geo5/models/model-o547_2.json",
+   "behaviour_sha": "72ae665715622cbbc2f0b2b2827074b0aafbf5285d263f644a87edbc918ff7b2",
+   "reuse": [],
+   "layer": "building",
+   "category": "competition",
+   "option": "O547"
+  },
+  "o548_1": {
+   "model": "data/runs/b2rl/geo5/models/model-o548_1.json",
+   "behaviour_sha": "493ec360f575621637f3cd4310cef5c7376e9664471bc7c010538e6d2bf30d40",
+   "reuse": [],
+   "layer": "building",
+   "category": "competition",
+   "option": "O548"
+  },
+  "o549_1": {
+   "model": "data/runs/b2rl/geo5/models/model-o549_1.json",
+   "behaviour_sha": "94e958802ae43f3523869c62476053f6978ec93b50eb3952f56aa09d632e4c45",
+   "reuse": [],
+   "layer": "room",
+   "category": "competition",
+   "option": "O549"
+  },
+  "o549_2": {
+   "model": "data/runs/b2rl/geo5/models/model-o549_2.json",
+   "behaviour_sha": "d0fe63508c8c2520d761a1f2580aaa319f149a60fc8ed997406ccb119641916e",
+   "reuse": [],
+   "layer": "room",
+   "category": "competition",
+   "option": "O549"
+  },
+  "o530_1": {
+   "model": "data/runs/b2rl/geo5/models/model-o530_1.json",
+   "behaviour_sha": "477e1cfba919033876be1b68bdfab75aaf167b2fcc2a6b8d6776b6ed12a34860",
+   "reuse": [],
+   "layer": "room",
+   "category": "physics",
+   "option": "O530"
+  },
+  "o530_2": {
+   "model": "data/runs/b2rl/geo5/models/model-o530_2.json",
+   "behaviour_sha": "f1f4b8cfdb27b5f9b4b00bff46c571cd018c255b29baa469b20fbb7c16707870",
+   "reuse": [],
+   "layer": "room",
+   "category": "physics",
+   "option": "O530"
+  },
+  "o509_1": {
+   "model": "data/runs/b2rl/geo5/models/model-o509_1.json",
+   "behaviour_sha": "b44e007a6e730aad6e5db7cc8a9861adb62b048da7921663fce8ce185dc1f36d",
+   "reuse": [],
+   "layer": "ahu",
+   "category": "physics",
+   "option": "O509"
+  },
+  "o509_2": {
+   "model": "data/runs/b2rl/geo5/models/model-o509_2.json",
+   "behaviour_sha": "9e1e57ab3cedfc62e2d2ff97d48c31de1e3bfce0752c959444de6bb8d4ef7778",
+   "reuse": [],
+   "layer": "ahu",
+   "category": "physics",
+   "option": "O509"
+  },
+  "o511_1": {
+   "model": "data/runs/b2rl/geo5/models/model-o511_1.json",
+   "behaviour_sha": "a77be62c7bf0aaeb790638af74dfe49d6736a554ab6dd05d8672264f84c74858",
+   "reuse": [],
+   "layer": "ahu",
+   "category": "physics",
+   "option": "O511"
+  },
+  "o511_2": {
+   "model": "data/runs/b2rl/geo5/models/model-o511_2.json",
+   "behaviour_sha": "7407571fe541c9cb1abf444b8d2d3d4f8f011efe7ebe20ddb6b95eb7b14064a2",
+   "reuse": [],
+   "layer": "ahu",
+   "category": "physics",
+   "option": "O511"
+  },
+  "o513_1": {
+   "model": "data/runs/b2rl/geo5/models/model-o513_1.json",
+   "behaviour_sha": "a6963efacfe3ff8cf4b0447cdbb8fe28ba146ca4a61a1f7accca1ea75e48fc3c",
+   "reuse": [],
+   "layer": "ahu",
+   "category": "physics",
+   "option": "O513"
+  },
+  "o517_1": {
+   "model": "data/runs/b2rl/geo5/models/model-o517_1.json",
+   "behaviour_sha": "69f064d55e744b615c124fe08301d65b1621bbd7e62faaaf9ab3bf9408687d3c",
+   "reuse": [],
+   "layer": "building",
+   "category": "physics",
+   "option": "O517"
+  },
+  "o518_1": {
+   "model": "data/runs/b2rl/geo5/models/model-o518_1.json",
+   "behaviour_sha": "d873984025a60c5162de0a9a8db2ae4296cff519c437ead69e2767d4d41f7f59",
+   "reuse": [],
+   "layer": "building",
+   "category": "physics",
+   "option": "O518"
+  },
+  "o520_1": {
+   "model": "data/runs/b2rl/geo5/models/model-o520_1.json",
+   "behaviour_sha": "65554dabbcca62c9dc45d2540e852f8e63ccd7ae67ad10691816ef8d4f9cecc2",
+   "reuse": [],
+   "layer": "ahu",
+   "category": "physics",
+   "option": "O520"
+  },
+  "o524_2": {
+   "model": "data/runs/b2rl/geo5/models/model-o524_2.json",
+   "behaviour_sha": "4c4f72847e922c19cf5cd006fc3c3355ee69639f5289df972d97a5fad824b2df",
+   "reuse": [],
+   "layer": "ahu",
+   "category": "physics",
+   "option": "O524"
+  },
+  "o524_3": {
+   "model": "data/runs/b2rl/geo5/models/model-o524_3.json",
+   "behaviour_sha": "3fd35024e67b98968484e279572dda89d4fcfd21d2d523bcf2b101188d0eaea9",
+   "reuse": [],
+   "layer": "ahu",
+   "category": "physics",
+   "option": "O524"
+  },
+  "o525_1": {
+   "model": "data/runs/b2rl/geo5/models/model-o525_1.json",
+   "behaviour_sha": "e66e681406908707cf5481b41768284de6bf846c9372d025d1216bd985930a30",
+   "reuse": [],
+   "layer": "ahu",
+   "category": "physics",
+   "option": "O525"
+  },
+  "o533_1": {
+   "model": "data/runs/b2rl/geo5/models/model-o533_1.json",
+   "behaviour_sha": "53df6c8e7c64a22fd7d93710474351cd3951f6ba15b560f3620eb3c45433bae7",
+   "reuse": [],
+   "layer": "room",
+   "category": "physics",
+   "option": "O533"
+  },
+  "o535_1": {
+   "model": "data/runs/b2rl/geo5/models/model-o535_1.json",
+   "behaviour_sha": "eb24a1bc4bdc611fed57be0119f8b070561187a822c2d89043689ec98ee87020",
+   "reuse": [],
+   "layer": "building",
+   "category": "physics",
+   "option": "O535"
+  },
+  "o536_1": {
+   "model": "data/runs/b2rl/geo5/models/model-o536_1.json",
+   "behaviour_sha": "d78fac4a8d95585867f752436948d101b97387126484d4205063e4e4e4deb163",
+   "reuse": [],
+   "layer": "room",
+   "category": "physics",
+   "option": "O536"
+  },
+  "o537_1": {
+   "model": "data/runs/b2rl/geo5/models/model-o537_1.json",
+   "behaviour_sha": "cc4b895b717dc2c6a0d45e7d1de77947c090a7a123a22beaa75bef9b6892becf",
+   "reuse": [],
+   "layer": "ahu",
+   "category": "physics",
+   "option": "O537"
+  },
+  "o539_1": {
+   "model": "data/runs/b2rl/geo5/models/model-o539_1.json",
+   "behaviour_sha": "50b254d91e30863c1347c8388d3971589f6f4d9195fb76af6a4a0b2f7bb0b445",
+   "reuse": [],
+   "layer": "room",
+   "category": "physics",
+   "option": "O539"
+  },
+  "o539_2": {
+   "model": "data/runs/b2rl/geo5/models/model-o539_2.json",
+   "behaviour_sha": "89d54f1f03aaaaa3e26b97b17b1095b5f56d543ff566ff1bda6cb985ed09a1de",
+   "reuse": [],
+   "layer": "room",
+   "category": "physics",
+   "option": "O539"
+  },
+  "o529_1": {
+   "model": "data/runs/b2rl/geo5/models/model-o529_1.json",
+   "behaviour_sha": "6e1d8523704ed4e15fd1354579e0f8b8c3fd6181bb3b28114c1363d42635f379",
+   "reuse": [],
+   "layer": "room",
+   "category": "physics",
+   "option": "O529"
+  },
+  "o504_1": {
+   "model": "data/runs/b2rl/geo5/models/model-o504_1.json",
+   "behaviour_sha": "7195b3679bb050705660bc275c40829162885f65bb364b821e46b782246656b2",
+   "reuse": [],
+   "layer": "ahu",
+   "category": "physics",
+   "option": "O504"
+  },
+  "o503_1": {
+   "model": "data/runs/b2rl/geo5/models/model-o503_1.json",
+   "behaviour_sha": "1d7b9358109916939371dd8d3a6d0726e4a84dffb5c2a72d3b54e6b5b25aa392",
+   "reuse": [],
+   "layer": "building",
+   "category": "physics",
+   "option": "O503"
+  },
+  "o503_2": {
+   "model": "data/runs/b2rl/geo5/models/model-o503_2.json",
+   "behaviour_sha": "ac7a82b6a149e3e745520e72adfefefd73069a73c6500b98d1bdf2d2181a288c",
+   "reuse": [],
+   "layer": "building",
+   "category": "physics",
+   "option": "O503"
+  },
+  "o506_1": {
+   "model": "data/runs/b2rl/geo5/models/model-o506_1.json",
+   "behaviour_sha": "aae9490046a0b67c66733670ba2e48fc0637516f311a8801ee66610c431956e3",
+   "reuse": [],
+   "layer": "ahu",
+   "category": "physics",
+   "option": "O506"
+  },
+  "o506_2": {
+   "model": "data/runs/b2rl/geo5/models/model-o506_2.json",
+   "behaviour_sha": "6cb15ccb346331ee6571f7ec218a317e1fcf5d5b28f3e314e11a3e83e5b5daae",
+   "reuse": [],
+   "layer": "ahu",
+   "category": "physics",
+   "option": "O506"
+  },
+  "o506_3": {
+   "model": "data/runs/b2rl/geo5/models/model-o506_3.json",
+   "behaviour_sha": "cee678cd34ec5b3bc3716cda06339c855824b3675160aa860e4c8edb3f5a62f7",
+   "reuse": [],
+   "layer": "ahu",
+   "category": "physics",
+   "option": "O506"
+  },
+  "o505_1": {
+   "model": "data/runs/b2rl/geo5/models/model-o505_1.json",
+   "behaviour_sha": "a4bb489d35dd7fd000f9bb6e2dc6452f98a6d9a4ad739b0e4be87efc62634d85",
+   "reuse": [],
+   "layer": "ahu",
+   "category": "physics",
+   "option": "O505"
+  },
+  "o505_ubm1": {
+   "model": "data/runs/b2rl/geo5/models/model-o505_ubm1.json",
+   "behaviour_sha": "7c89260029964bc6706efb959da2df418fa639e2a29c393000d78c84ceddd912",
+   "reuse": [],
+   "layer": "ahu",
+   "category": "physics",
+   "option": "O505"
+  },
+  "o505_ubp1": {
+   "model": "data/runs/b2rl/geo5/models/model-o505_ubp1.json",
+   "behaviour_sha": "8f14572b1702dc0c598ab947fb175b19ba36c26b6fd673eedd814afcce8158dd",
+   "reuse": [],
+   "layer": "ahu",
+   "category": "physics",
+   "option": "O505"
+  },
+  "o505_ubp2": {
+   "model": "data/runs/b2rl/geo5/models/model-o505_ubp2.json",
+   "behaviour_sha": "0b2775b870f07a1de2d00b90fdaa6512e1b8723f3324026a54ff6860cdf2fc60",
+   "reuse": [],
+   "layer": "ahu",
+   "category": "physics",
+   "option": "O505"
+  },
+  "o505_ubm1f": {
+   "model": "data/runs/b2rl/geo5/models/model-o505_ubm1f.json",
+   "behaviour_sha": "309eb7c4c0f818e1618743af84bfb73de002ff4ef7c58ce5fb7d0447d58a80c3",
+   "reuse": [],
+   "layer": "ahu",
+   "category": "physics",
+   "option": "O505"
+  },
+  "o505_ubp1f": {
+   "model": "data/runs/b2rl/geo5/models/model-o505_ubp1f.json",
+   "behaviour_sha": "397e041715b32f35f4919e461d1a0f945f0ea9b719f125cead44602ee09ad7c7",
+   "reuse": [],
+   "layer": "ahu",
+   "category": "physics",
+   "option": "O505"
+  },
+  "o505_ubp2f": {
+   "model": "data/runs/b2rl/geo5/models/model-o505_ubp2f.json",
+   "behaviour_sha": "a00d9b524fbb922becf3775237eed5461c8906213c4f42e59fa6f2d45211feed",
+   "reuse": [],
+   "layer": "ahu",
+   "category": "physics",
+   "option": "O505"
+  },
+  "o544_1": {
+   "model": "data/runs/b2rl/geo5/models/model-o544_1.json",
+   "behaviour_sha": "6f3cfbab024720cfbd07043df1e50bb25769a6070b2a69c0ee8acb0705d51583",
+   "reuse": [],
+   "layer": "ahu",
+   "category": "physics",
+   "option": "O544"
+  },
+  "o545_1": {
+   "model": "data/runs/b2rl/geo5/models/model-o545_1.json",
+   "behaviour_sha": "0bacd338644040eb1552bbed051add33f34f6d7dcc2995222ec84ad45d3d9d6e",
+   "reuse": [],
+   "layer": "building",
+   "category": "physics",
+   "option": "O545"
+  },
+  "o545_2": {
+   "model": "data/runs/b2rl/geo5/models/model-o545_2.json",
+   "behaviour_sha": "418d3d672fb8a162c907ba2d0304e560a58262b7a054fc9fc5cc7603b691e112",
+   "reuse": [],
+   "layer": "building",
+   "category": "physics",
+   "option": "O545"
+  },
+  "o545_3": {
+   "model": "data/runs/b2rl/geo5/models/model-o545_3.json",
+   "behaviour_sha": "046550f31e594e916e086cc14929a17368543dec1fd82bf15fd95fb57cd5c66e",
+   "reuse": [],
+   "layer": "building",
+   "category": "physics",
+   "option": "O545"
+  },
+  "o526_3": {
+   "model": "data/runs/b2rl/geo5/models/model-o526_3.json",
+   "behaviour_sha": "499ae784bd63030403709c07a4c428a1b41a6c6f3c2754aca54ba60862630fed",
+   "reuse": [],
+   "layer": "building",
+   "category": "physics",
+   "option": "O526"
+  },
+  "p601_1": {
+   "model": "data/runs/b2rl/geo5/models/model-p601_1.json",
+   "behaviour_sha": "48b80871615b24cd91b91d48bc78219ac9d45c74a33ed19bcabaab34fc43ec3b",
+   "reuse": [],
+   "layer": "building",
+   "category": "physics",
+   "option": "P601"
+  },
+  "p601_2": {
+   "model": "data/runs/b2rl/geo5/models/model-p601_2.json",
+   "behaviour_sha": "a023eb7770fee9170bacecd76c92be4c01d3a2cbfd7b0dc6226f23d87f798be3",
+   "reuse": [],
+   "layer": "building",
+   "category": "physics",
+   "option": "P601"
+  },
+  "p601_3": {
+   "model": "data/runs/b2rl/geo5/models/model-p601_3.json",
+   "behaviour_sha": "7e59ec099eed38a51b859c2367408ba2a3c02797d87cc5e3c61c39c8350c4caa",
+   "reuse": [],
+   "layer": "building",
+   "category": "physics",
+   "option": "P601"
+  },
+  "p602_1": {
+   "model": "data/runs/b2rl/geo5/models/model-p602_1.json",
+   "behaviour_sha": "42e418a29eacca2c2ae5ddf2e175a6cc987b61224e49b5466f6983202b997a3a",
+   "reuse": [],
+   "layer": "building",
+   "category": "physics",
+   "option": "P602"
+  },
+  "p602_2": {
+   "model": "data/runs/b2rl/geo5/models/model-p602_2.json",
+   "behaviour_sha": "9f05ee6c4b42758710edf5a1d22dab8495bbf428fffa36a20e63c6bc37a25aa0",
+   "reuse": [],
+   "layer": "building",
+   "category": "physics",
+   "option": "P602"
+  },
+  "p603_1": {
+   "model": "data/runs/b2rl/geo5/models/model-p603_1.json",
+   "behaviour_sha": "b5dfbee9ea1b265e2e8f204cf754b1cb51233225c9a58cf0c1577b7b918d2315",
+   "reuse": [],
+   "layer": "building",
+   "category": "physics",
+   "option": "P603"
+  },
+  "p611_1": {
+   "model": "data/runs/b2rl/geo5/models/model-p611_1.json",
+   "behaviour_sha": "d615fc331b77341a8c440541b8d4d3726178a2678915df542499af735c251383",
+   "reuse": [],
+   "layer": "building",
+   "category": "competition",
+   "option": "P611"
+  },
+  "p611_2": {
+   "model": "data/runs/b2rl/geo5/models/model-p611_2.json",
+   "behaviour_sha": "e85cbf9a0491567b70126a84c3beddc325eb50a4833683a788d1f868b8796a83",
+   "reuse": [],
+   "layer": "building",
+   "category": "competition",
+   "option": "P611"
+  }
+ },
+ "notes": [
+  "2026-11-05 07:15 option review: the 03:24 competition design (built on the unreviewed survivors) is superseded; its 637 records and 64 models moved to superseded/design-20261105-0324/, its run names removed from shas"
+ ],
+ "submissions": [
+  {
+   "track": "paper",
+   "name": "gt_r5pa2",
+   "ref": "58021954",
+   "estimate": 0.011034048995405204,
+   "time": "2026-11-05 19:57:42",
+   "public": 0.01064
+  }
+ ],
+ "done": "2026-11-06 02:57:50"
+}

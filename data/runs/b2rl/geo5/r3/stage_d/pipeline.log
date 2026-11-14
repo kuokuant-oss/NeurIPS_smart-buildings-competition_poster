@@ -1,0 +1,150 @@
+2026-11-10 01:45:08 RESULT r3-stage: learn gt_r3d1: 172 scenarios, 2752 episodes; building-wide kinds (leave-buildings-out / leave-one-climate-out, %): ; chosen rf; decisions o13s 16.8..45.0 C, o509_2 off, o508_2 -11.2..45.0 C
+2026-11-10 01:45:39 RESULT r3-stage: room kind lin|graph: on-shares {'reserve': '23%', 'stagger': '51%', 'ratio03_SMe': '42%', 'ratio06_LXe': '45%', 'cool04_LXn': '55%'}; in-sample model value -2.46%; honest referee leave-buildings-out -0.43%, leave-one-climate-out -0.17%
+2026-11-10 01:46:15 RESULT r3-stage: deploy gt_r3d1: new gates [('o13s', 16.625, None), ('o508_2', -11.375, None)]; 210715 room x climate checks exact; predicted on the design scenarios -0.58% (real -0.70%) against gt_r5pa2 (rooms: honest held-out value -0.30%)
+2026-11-10 01:46:15 EVENT r3-stage: verify gt_r3d1: recording 172 episodes with 11 workers; estimate after the first episodes
+2026-11-10 01:46:30 PROGRESS r3-stage: verify gt_r3d1: 0/172 episodes in 0.3 min; memory: our tree 8.1 GB, host used 11.8 GB
+2026-11-10 01:48:57 EVENT r3-stage: verify gt_r3d1: estimate fixed from measured progress: 42.4 min for 172 episodes (11 done in 2.7 min)
+2026-11-10 01:50:31 PROGRESS r3-stage: verify gt_r3d1: 20/172 episodes in 4.3 min, ETA 32 min (measured), estimate 42 min; memory: our tree 10.1 GB, host used 13.0 GB
+2026-11-10 01:54:35 PROGRESS r3-stage: verify gt_r3d1: 46/172 episodes in 8.3 min, ETA 23 min (measured), estimate 42 min; memory: our tree 10.5 GB, host used 13.4 GB
+2026-11-10 01:58:37 PROGRESS r3-stage: verify gt_r3d1: 70/172 episodes in 12.4 min, ETA 18 min (measured), estimate 42 min; memory: our tree 10.8 GB, host used 10.6 GB
+2026-11-10 02:02:49 PROGRESS r3-stage: verify gt_r3d1: 98/172 episodes in 16.6 min, ETA 13 min (measured), estimate 42 min; memory: our tree 10.5 GB, host used 11.1 GB
+2026-11-10 02:06:52 PROGRESS r3-stage: verify gt_r3d1: 122/172 episodes in 20.6 min, ETA 8 min (measured), estimate 42 min; memory: our tree 11.5 GB, host used 10.8 GB
+2026-11-10 02:11:01 PROGRESS r3-stage: verify gt_r3d1: 148/172 episodes in 24.8 min, ETA 4 min (measured), estimate 42 min; memory: our tree 11.5 GB, host used 11.0 GB; last gt_r3d1 gen6/building_19904/denver_1 cost 0.018553433907523665
+2026-11-10 02:15:03 PROGRESS r3-stage: verify gt_r3d1: 171/172 episodes in 28.8 min, ETA 0 min (measured), estimate 42 min; memory: our tree 4.4 GB, host used 4.9 GB; last gt_r3d1 gen6/building_19833/denver_1 cost 0.010846139070911654
+2026-11-10 02:15:05 PROGRESS r3-stage: verify gt_r3d1: 172/172 episodes in 28.8 min, estimate 42 min; memory: our tree 0.4 GB, host used 1.3 GB
+2026-11-10 02:15:09 RESULT r3-stage: verify gt_r3d1: realised -1.09% vs predicted -0.58% against gt_r5pa2 on the design scenarios; OK
+2026-11-10 02:15:09 EVENT r3-stage: selection gt_r3d1: recording 60 episodes with 11 workers; estimate 11 min (measured 1.84 min per episode per worker)
+2026-11-10 02:15:24 PROGRESS r3-stage: selection gt_r3d1: 0/60 episodes in 0.3 min, estimate 11 min; memory: our tree 9.3 GB, host used 8.9 GB
+2026-11-10 02:19:26 PROGRESS r3-stage: selection gt_r3d1: 20/60 episodes in 4.3 min, ETA 9 min (measured), estimate 11 min; memory: our tree 10.5 GB, host used 9.6 GB
+2026-11-10 02:23:34 PROGRESS r3-stage: selection gt_r3d1: 45/60 episodes in 8.4 min, ETA 3 min (measured), estimate 11 min; memory: our tree 12.0 GB, host used 13.9 GB
+2026-11-10 02:27:36 PROGRESS r3-stage: selection gt_r3d1: 53/60 episodes in 12.4 min, ETA 2 min (measured), estimate 11 min; memory: our tree 9.0 GB, host used 12.5 GB
+2026-11-10 02:29:22 PROGRESS r3-stage: selection gt_r3d1: 60/60 episodes in 14.2 min, estimate 11 min; memory: our tree 0.2 GB, host used 5.2 GB
+2026-11-10 02:29:27 RESULT r3-stage: selection set (60 unused official scenarios), change % against gt_wub (SE) / against gt_r5pa2: gt_r3d1 -0.44 (0.22) / -0.49, gt_r3b -0.23 (0.28) / -0.27, gt_wub +0.00 (0.00) / -0.05
+2026-11-10 02:29:27 EVENT r3-stage: dagger skipped (--no-dagger)
+2026-11-10 02:29:31 RESULT r3-stage: choose: gt_r3a1 -0.41% against gt_wub on the selection set (the bar)
+2026-11-10 02:29:31 RESULT r3-stage: choose: gt_r3d1 (-0.44% against gt_wub on the selection set, SE 0.22)
+2026-11-10 02:29:31 EVENT r3-stage: closed loop gt_r3d1 train_ceiling_rest60 starts (estimate 18 min; output data/runs/b2rl/geo5/r3/stage_d/jobs/closed_loop_gt_r3d1_train_ceiling_rest60.log)
+2026-11-10 02:29:31 PROGRESS r3-stage: closed loop gt_r3d1 train_ceiling_rest60: 0/1 jobs in 0.0 min, estimate 18 min; memory: our tree 0.2 GB, host used 5.2 GB
+2026-11-10 02:33:31 PROGRESS r3-stage: closed loop gt_r3d1 train_ceiling_rest60: 0/1 jobs in 4.0 min, estimate 18 min; memory: our tree 9.4 GB, host used 8.6 GB; last output: train/building_13830/denver_3 cost 0.00230 (92 s)
+2026-11-10 02:37:31 PROGRESS r3-stage: closed loop gt_r3d1 train_ceiling_rest60: 0/1 jobs in 8.0 min, estimate 18 min; memory: our tree 8.9 GB, host used 11.3 GB; last output: train/building_12503/fairbanks_1 cost 0.04080 (174 s)
+2026-11-10 02:41:32 PROGRESS r3-stage: closed loop gt_r3d1 train_ceiling_rest60: 0/1 jobs in 12.0 min, estimate 18 min; memory: our tree 8.5 GB, host used 10.6 GB; last output: train/building_10740/singapore_7 cost 0.00420 (106 s)
+2026-11-10 02:43:02 EVENT r3-stage: closed loop gt_r3d1 train_ceiling_rest60 done in 13.5 min
+2026-11-10 02:43:02 EVENT r3-stage: closed loop gt_r3d1 inner starts (estimate 14 min; output data/runs/b2rl/geo5/r3/stage_d/jobs/closed_loop_gt_r3d1_inner.log)
+2026-11-10 02:43:02 PROGRESS r3-stage: closed loop gt_r3d1 inner: 0/1 jobs in 0.0 min, estimate 14 min; memory: our tree 0.2 GB, host used 0.9 GB
+2026-11-10 02:47:02 PROGRESS r3-stage: closed loop gt_r3d1 inner: 0/1 jobs in 4.0 min, estimate 14 min; memory: our tree 1.6 GB, host used 2.0 GB; last output: inner/building_29410/fairbanks_7 cost 0.00388 (65 s)
+2026-11-10 02:47:47 EVENT r3-stage: closed loop gt_r3d1 inner done in 4.8 min
+2026-11-10 02:47:47 EVENT r3-stage: closed loop gt_r3d1 s4_first starts (estimate 5 min; output data/runs/b2rl/geo5/r3/stage_d/jobs/closed_loop_gt_r3d1_s4_first.log)
+2026-11-10 02:47:47 PROGRESS r3-stage: closed loop gt_r3d1 s4_first: 0/1 jobs in 0.0 min, estimate 5 min; memory: our tree 0.2 GB, host used 0.9 GB
+2026-11-10 02:51:47 PROGRESS r3-stage: closed loop gt_r3d1 s4_first: 0/1 jobs in 4.0 min, estimate 5 min; memory: our tree 8.2 GB, host used 7.6 GB; last output: val/building_30314/singapore_3 cost 0.01054 (70 s)
+2026-11-10 02:52:32 EVENT r3-stage: closed loop gt_r3d1 s4_first done in 4.8 min
+2026-11-10 02:52:32 RESULT r3-stage: closed loop gt_r3d1 vs gt_r5pa2: held-out 60 -0.74, INNER 29 -1.20, S4 first 30 -1.06 points; PASSED
+2026-11-10 02:52:32 RESULT r3-stage: closed loop mean of the three sets -1.00 vs gt_r3a1 -0.85 points
+2026-11-10 02:52:32 EVENT r3-stage: gate gt_r3d1 starts (estimate 190 min; output data/runs/b2rl/geo5/r3/stage_d/jobs/gate_gt_r3d1.log)
+2026-11-10 02:52:32 PROGRESS r3-stage: gate gt_r3d1: 0/1 jobs in 0.0 min, estimate 190 min; memory: our tree 0.2 GB, host used 0.9 GB
+2026-11-10 02:56:32 PROGRESS r3-stage: gate gt_r3d1: 0/1 jobs in 4.0 min, estimate 190 min; memory: our tree 0.2 GB, host used 12.6 GB; last output: 2026-11-10 02:52:53 EVENT gate gt_r3d1: Kaggle gate job jg-b2rl-gt-r3d1 pushed (5 kernels)
+2026-11-10 03:00:32 PROGRESS r3-stage: gate gt_r3d1: 0/1 jobs in 8.0 min, estimate 190 min; memory: our tree 0.2 GB, host used 10.2 GB; last output: 2026-11-10 02:52:53 EVENT gate gt_r3d1: Kaggle gate job jg-b2rl-gt-r3d1 pushed (5 kernels)
+2026-11-10 03:04:32 PROGRESS r3-stage: gate gt_r3d1: 0/1 jobs in 12.0 min, estimate 190 min; memory: our tree 0.2 GB, host used 9.9 GB; last output: 2026-11-10 02:52:53 EVENT gate gt_r3d1: Kaggle gate job jg-b2rl-gt-r3d1 pushed (5 kernels)
+2026-11-10 03:08:32 PROGRESS r3-stage: gate gt_r3d1: 0/1 jobs in 16.0 min, estimate 190 min; memory: our tree 0.2 GB, host used 10.1 GB; last output: 2026-11-10 02:52:53 EVENT gate gt_r3d1: Kaggle gate job jg-b2rl-gt-r3d1 pushed (5 kernels)
+2026-11-10 03:12:32 PROGRESS r3-stage: gate gt_r3d1: 0/1 jobs in 20.0 min, estimate 190 min; memory: our tree 0.2 GB, host used 11.1 GB; last output: 2026-11-10 02:52:53 EVENT gate gt_r3d1: Kaggle gate job jg-b2rl-gt-r3d1 pushed (5 kernels)
+2026-11-10 03:16:32 PROGRESS r3-stage: gate gt_r3d1: 0/1 jobs in 24.0 min, estimate 190 min; memory: our tree 0.2 GB, host used 11.2 GB; last output: 2026-11-10 02:52:53 EVENT gate gt_r3d1: Kaggle gate job jg-b2rl-gt-r3d1 pushed (5 kernels)
+2026-11-10 03:20:33 PROGRESS r3-stage: gate gt_r3d1: 0/1 jobs in 28.0 min, estimate 190 min; memory: our tree 0.1 GB, host used 16.9 GB; last output: 2026-11-10 02:52:53 EVENT gate gt_r3d1: Kaggle gate job jg-b2rl-gt-r3d1 pushed (5 kernels)
+2026-11-10 03:23:18 EVENT r3-stage: gate gt_r3d1 done in 30.8 min
+2026-11-10 03:23:18 RESULT r3-stage: Kaggle gate gt_r3d1: NOT passed (no gate result)
+2026-11-10 03:23:18 WAKE r3-stage: gt_r3d1 gate: Kaggle gate gt_r3d1: no gate result
+2026-11-10 07:50:56 EVENT r3-stage: gate gt_r3d1 starts (estimate 31 min; output data/runs/b2rl/geo5/r3/stage_d/jobs/gate_gt_r3d1.log)
+2026-11-10 07:50:56 PROGRESS r3-stage: gate gt_r3d1: 0/1 jobs in 0.0 min, estimate 31 min; memory: our tree 0.1 GB, host used 15.5 GB; last output: 2026-11-10 03:23:05 ERROR gate gt_r3d1: no gate result; nothing submitted
+2026-11-10 07:51:11 EVENT r3-stage: gate gt_r3d1 done in 0.3 min
+2026-11-10 07:51:11 RESULT r3-stage: Kaggle gate gt_r3d1: NOT passed (no gate result)
+2026-11-10 07:51:11 WAKE r3-stage: gt_r3d1 gate: Kaggle gate gt_r3d1: no gate result
+2026-11-10 07:52:21 EVENT r3-stage: gate gt_r3d1 starts (estimate 0 min; output data/runs/b2rl/geo5/r3/stage_d/jobs/gate_gt_r3d1.log)
+2026-11-10 07:52:21 PROGRESS r3-stage: gate gt_r3d1: 0/1 jobs in 0.0 min, estimate 0 min; memory: our tree 0.1 GB, host used 15.3 GB; last output: 2026-11-10 07:50:56 ERROR gate gt_r3d1: no gate result; nothing submitted
+2026-11-10 07:52:52 WAKE r3-stage: gt_r3d1 gate: memory: gate gt_r3d1: host memory used 22.1 GB > 18 GB (our tree 6.8 GB)
+2026-11-10 08:10:43 EVENT r3-stage: gate gt_r3d1 starts (estimate 0 min; output data/runs/b2rl/geo5/r3/stage_d/jobs/gate_gt_r3d1.log)
+2026-11-10 08:10:43 PROGRESS r3-stage: gate gt_r3d1: 0/1 jobs in 0.0 min, estimate 0 min; memory: our tree 0.1 GB, host used 6.1 GB; last output:  semaphore objects to clean up at shutdown: {'/mp-pc21jxfx', '/mp-vifij9sk', '/mp-9mf4yicc', '/mp-3to8wgq1', '/mp-htl92uhf', '/mp-xslfylyu'}\n  warnings.warn(")
+2026-11-10 08:11:13 WAKE r3-stage: gt_r3d1 gate: overtime: gate gt_r3d1: 0.5 min, over 2x its estimate 0.2 min (0/1 jobs)
+2026-11-10 08:11:55 EVENT r3-stage: gate gt_r3d1 starts (estimate 60 min; output data/runs/b2rl/geo5/r3/stage_d/jobs/gate_gt_r3d1.log)
+2026-11-10 08:11:55 PROGRESS r3-stage: gate gt_r3d1: 0/1 jobs in 0.0 min, estimate 60 min; memory: our tree 0.1 GB, host used 5.9 GB; last output:   warnings.warn(
+2026-11-10 08:15:41 EVENT r3-stage: gate gt_r3d1 done in 3.8 min
+2026-11-10 08:15:41 RESULT r3-stage: Kaggle gate gt_r3d1: PASSED (checks passed)
+2026-11-10 08:15:43 RESULT r3-stage: submission rule gt_r3d1: estimate 0.01063; today's submissions 0; SUBMIT
+2026-11-10 08:15:43 EVENT r3-stage: submit gt_r3d1 starts (estimate 30 min; output data/runs/b2rl/geo5/r3/stage_d/jobs/submit_gt_r3d1.log)
+2026-11-10 08:15:43 PROGRESS r3-stage: submit gt_r3d1: 0/1 jobs in 0.0 min, estimate 30 min; memory: our tree 0.1 GB, host used 6.0 GB
+2026-11-10 08:19:43 PROGRESS r3-stage: submit gt_r3d1: 0/1 jobs in 4.0 min, estimate 30 min; memory: our tree 0.8 GB, host used 8.9 GB
+2026-11-10 08:23:43 PROGRESS r3-stage: submit gt_r3d1: 0/1 jobs in 8.0 min, estimate 30 min; memory: our tree 0.8 GB, host used 9.5 GB
+2026-11-10 08:25:43 WAKE r3-stage: gt_r3d1 submit: crash: submit gt_r3d1 exited with code 1: kaggle kernels push failed: 400 Client Error: Bad Request for url: https://api.kaggle.com/v1/kernels.KernelsApiService/SaveKernel
+2026-11-10 08:30:36 RESULT r3-stage: submission rule gt_r3d1: estimate 0.01063; today's submissions 0; SUBMIT
+2026-11-10 08:30:36 EVENT r3-stage: submit gt_r3d1 starts (estimate 30 min; output data/runs/b2rl/geo5/r3/stage_d/jobs/submit_gt_r3d1.log)
+2026-11-10 08:30:36 PROGRESS r3-stage: submit gt_r3d1: 0/1 jobs in 0.0 min, estimate 30 min; memory: our tree 0.1 GB, host used 6.0 GB; last output: kaggle kernels push failed: 400 Client Error: Bad Request for url: https://api.kaggle.com/v1/kernels.KernelsApiService/SaveKernel
+2026-11-10 08:34:36 PROGRESS r3-stage: submit gt_r3d1: 0/1 jobs in 4.0 min, estimate 30 min; memory: our tree 0.8 GB, host used 6.7 GB; last output: kaggle kernels push failed: 400 Client Error: Bad Request for url: https://api.kaggle.com/v1/kernels.KernelsApiService/SaveKernel
+2026-11-10 08:38:36 PROGRESS r3-stage: submit gt_r3d1: 0/1 jobs in 8.0 min, estimate 30 min; memory: our tree 0.8 GB, host used 5.1 GB; last output: kaggle kernels push failed: 400 Client Error: Bad Request for url: https://api.kaggle.com/v1/kernels.KernelsApiService/SaveKernel
+2026-11-10 08:42:36 PROGRESS r3-stage: submit gt_r3d1: 0/1 jobs in 12.0 min, estimate 30 min; memory: our tree 0.1 GB, host used 7.5 GB; last output: INFO pushed antonktt/sb-gt-r3d1 version 1 (private)
+2026-11-10 08:46:36 PROGRESS r3-stage: submit gt_r3d1: 0/1 jobs in 16.0 min, estimate 30 min; memory: our tree 0.1 GB, host used 6.3 GB; last output: INFO pushed antonktt/sb-gt-r3d1 version 1 (private)
+2026-11-10 08:49:36 EVENT r3-stage: submit gt_r3d1 done in 19.0 min
+2026-11-10 08:49:36 RESULT r3-stage: submitted gt_r3d1: ref 58180500
+2026-11-10 08:49:36 EVENT r3-stage: score 58180500 starts (estimate 540 min; output data/runs/b2rl/geo5/r3/stage_d/jobs/score_58180500.log)
+2026-11-10 08:49:36 PROGRESS r3-stage: score 58180500: 0/1 jobs in 0.0 min, estimate 540 min; memory: our tree 0.1 GB, host used 6.3 GB
+2026-11-10 08:53:36 PROGRESS r3-stage: score 58180500: 0/1 jobs in 4.0 min, estimate 540 min; memory: our tree 0.1 GB, host used 15.2 GB
+2026-11-10 08:57:36 PROGRESS r3-stage: score 58180500: 0/1 jobs in 8.0 min, estimate 540 min; memory: our tree 0.1 GB, host used 13.5 GB
+2026-11-10 09:01:36 PROGRESS r3-stage: score 58180500: 0/1 jobs in 12.0 min, estimate 540 min; memory: our tree 0.1 GB, host used 13.5 GB
+2026-11-10 09:20:13 EVENT r3-stage: score 58180500 starts (estimate 540 min; output data/runs/b2rl/geo5/r3/stage_d/jobs/score_58180500.log)
+2026-11-10 09:20:13 PROGRESS r3-stage: score 58180500: 0/1 jobs in 0.0 min, estimate 540 min; memory: our tree 0.1 GB, host used 1.0 GB
+2026-11-10 09:24:13 PROGRESS r3-stage: score 58180500: 0/1 jobs in 4.0 min, estimate 540 min; memory: our tree 0.1 GB, host used 13.4 GB
+2026-11-10 09:28:13 PROGRESS r3-stage: score 58180500: 0/1 jobs in 8.0 min, estimate 540 min; memory: our tree 0.1 GB, host used 11.5 GB
+2026-11-10 09:32:13 PROGRESS r3-stage: score 58180500: 0/1 jobs in 12.0 min, estimate 540 min; memory: our tree 0.1 GB, host used 10.8 GB
+2026-11-10 09:36:13 PROGRESS r3-stage: score 58180500: 0/1 jobs in 16.0 min, estimate 540 min; memory: our tree 0.1 GB, host used 13.3 GB
+2026-11-10 09:40:13 PROGRESS r3-stage: score 58180500: 0/1 jobs in 20.0 min, estimate 540 min; memory: our tree 0.1 GB, host used 12.8 GB
+2026-11-10 09:44:14 PROGRESS r3-stage: score 58180500: 0/1 jobs in 24.0 min, estimate 540 min; memory: our tree 0.1 GB, host used 14.3 GB
+2026-11-10 09:48:14 PROGRESS r3-stage: score 58180500: 0/1 jobs in 28.0 min, estimate 540 min; memory: our tree 0.1 GB, host used 6.2 GB
+2026-11-10 09:52:14 PROGRESS r3-stage: score 58180500: 0/1 jobs in 32.0 min, estimate 540 min; memory: our tree 0.1 GB, host used 5.2 GB
+2026-11-10 09:56:14 PROGRESS r3-stage: score 58180500: 0/1 jobs in 36.0 min, estimate 540 min; memory: our tree 0.1 GB, host used 6.2 GB
+2026-11-10 10:00:14 PROGRESS r3-stage: score 58180500: 0/1 jobs in 40.0 min, estimate 540 min; memory: our tree 0.1 GB, host used 2.7 GB
+2026-11-10 10:04:14 PROGRESS r3-stage: score 58180500: 0/1 jobs in 44.0 min, estimate 540 min; memory: our tree 0.1 GB, host used 2.8 GB
+2026-11-10 10:08:14 PROGRESS r3-stage: score 58180500: 0/1 jobs in 48.0 min, estimate 540 min; memory: our tree 0.1 GB, host used 3.7 GB
+2026-11-10 10:12:14 PROGRESS r3-stage: score 58180500: 0/1 jobs in 52.0 min, estimate 540 min; memory: our tree 0.1 GB, host used 3.6 GB
+2026-11-10 10:16:14 PROGRESS r3-stage: score 58180500: 0/1 jobs in 56.0 min, estimate 540 min; memory: our tree 0.1 GB, host used 3.6 GB
+2026-11-10 10:20:14 PROGRESS r3-stage: score 58180500: 0/1 jobs in 60.0 min, estimate 540 min; memory: our tree 0.1 GB, host used 3.6 GB
+2026-11-10 10:24:14 PROGRESS r3-stage: score 58180500: 0/1 jobs in 64.0 min, estimate 540 min; memory: our tree 0.1 GB, host used 3.6 GB
+2026-11-10 10:28:15 PROGRESS r3-stage: score 58180500: 0/1 jobs in 68.0 min, estimate 540 min; memory: our tree 0.1 GB, host used 2.7 GB
+2026-11-10 10:32:15 PROGRESS r3-stage: score 58180500: 0/1 jobs in 72.0 min, estimate 540 min; memory: our tree 0.1 GB, host used 3.5 GB
+2026-11-10 10:36:15 PROGRESS r3-stage: score 58180500: 0/1 jobs in 76.0 min, estimate 540 min; memory: our tree 0.1 GB, host used 3.6 GB
+2026-11-10 10:40:15 PROGRESS r3-stage: score 58180500: 0/1 jobs in 80.0 min, estimate 540 min; memory: our tree 0.1 GB, host used 3.5 GB
+2026-11-10 10:44:15 PROGRESS r3-stage: score 58180500: 0/1 jobs in 84.0 min, estimate 540 min; memory: our tree 0.1 GB, host used 3.5 GB
+2026-11-10 10:48:15 PROGRESS r3-stage: score 58180500: 0/1 jobs in 88.0 min, estimate 540 min; memory: our tree 0.1 GB, host used 3.5 GB
+2026-11-10 10:52:15 PROGRESS r3-stage: score 58180500: 0/1 jobs in 92.0 min, estimate 540 min; memory: our tree 0.1 GB, host used 2.5 GB
+2026-11-10 10:56:15 PROGRESS r3-stage: score 58180500: 0/1 jobs in 96.0 min, estimate 540 min; memory: our tree 0.1 GB, host used 2.7 GB
+2026-11-10 11:00:15 PROGRESS r3-stage: score 58180500: 0/1 jobs in 100.0 min, estimate 540 min; memory: our tree 0.1 GB, host used 3.6 GB
+2026-11-10 11:04:16 PROGRESS r3-stage: score 58180500: 0/1 jobs in 104.0 min, estimate 540 min; memory: our tree 0.1 GB, host used 3.6 GB
+2026-11-10 11:08:16 PROGRESS r3-stage: score 58180500: 0/1 jobs in 108.0 min, estimate 540 min; memory: our tree 0.1 GB, host used 3.6 GB
+2026-11-10 11:12:16 PROGRESS r3-stage: score 58180500: 0/1 jobs in 112.0 min, estimate 540 min; memory: our tree 0.1 GB, host used 0.8 GB
+2026-11-10 11:16:16 PROGRESS r3-stage: score 58180500: 0/1 jobs in 116.0 min, estimate 540 min; memory: our tree 0.1 GB, host used 0.8 GB
+2026-11-10 11:20:16 PROGRESS r3-stage: score 58180500: 0/1 jobs in 120.1 min, estimate 540 min; memory: our tree 0.1 GB, host used 1.9 GB
+2026-11-10 11:24:16 PROGRESS r3-stage: score 58180500: 0/1 jobs in 124.1 min, estimate 540 min; memory: our tree 0.1 GB, host used 6.0 GB
+2026-11-10 11:28:16 PROGRESS r3-stage: score 58180500: 0/1 jobs in 128.1 min, estimate 540 min; memory: our tree 0.1 GB, host used 7.1 GB
+2026-11-10 11:32:16 PROGRESS r3-stage: score 58180500: 0/1 jobs in 132.1 min, estimate 540 min; memory: our tree 0.1 GB, host used 7.1 GB
+2026-11-10 11:36:16 PROGRESS r3-stage: score 58180500: 0/1 jobs in 136.1 min, estimate 540 min; memory: our tree 0.1 GB, host used 8.4 GB
+2026-11-10 11:40:16 PROGRESS r3-stage: score 58180500: 0/1 jobs in 140.1 min, estimate 540 min; memory: our tree 0.1 GB, host used 8.7 GB
+2026-11-10 11:44:16 PROGRESS r3-stage: score 58180500: 0/1 jobs in 144.1 min, estimate 540 min; memory: our tree 0.1 GB, host used 8.3 GB
+2026-11-10 11:48:16 PROGRESS r3-stage: score 58180500: 0/1 jobs in 148.1 min, estimate 540 min; memory: our tree 0.1 GB, host used 8.9 GB
+2026-11-10 11:52:17 PROGRESS r3-stage: score 58180500: 0/1 jobs in 152.1 min, estimate 540 min; memory: our tree 0.1 GB, host used 9.6 GB
+2026-11-10 11:56:17 PROGRESS r3-stage: score 58180500: 0/1 jobs in 156.1 min, estimate 540 min; memory: our tree 0.1 GB, host used 7.7 GB
+2026-11-10 12:00:17 PROGRESS r3-stage: score 58180500: 0/1 jobs in 160.1 min, estimate 540 min; memory: our tree 0.1 GB, host used 9.4 GB
+2026-11-10 12:04:17 PROGRESS r3-stage: score 58180500: 0/1 jobs in 164.1 min, estimate 540 min; memory: our tree 0.1 GB, host used 9.5 GB
+2026-11-10 12:08:17 PROGRESS r3-stage: score 58180500: 0/1 jobs in 168.1 min, estimate 540 min; memory: our tree 0.1 GB, host used 10.5 GB
+2026-11-10 12:12:17 PROGRESS r3-stage: score 58180500: 0/1 jobs in 172.1 min, estimate 540 min; memory: our tree 0.1 GB, host used 8.7 GB
+2026-11-10 12:16:17 PROGRESS r3-stage: score 58180500: 0/1 jobs in 176.1 min, estimate 540 min; memory: our tree 0.1 GB, host used 15.6 GB
+2026-11-10 12:20:17 PROGRESS r3-stage: score 58180500: 0/1 jobs in 180.1 min, estimate 540 min; memory: our tree 0.1 GB, host used 12.6 GB
+2026-11-10 12:24:17 PROGRESS r3-stage: score 58180500: 0/1 jobs in 184.1 min, estimate 540 min; memory: our tree 0.1 GB, host used 15.8 GB
+2026-11-10 12:28:17 PROGRESS r3-stage: score 58180500: 0/1 jobs in 188.1 min, estimate 540 min; memory: our tree 0.1 GB, host used 12.1 GB
+2026-11-10 12:32:17 PROGRESS r3-stage: score 58180500: 0/1 jobs in 192.1 min, estimate 540 min; memory: our tree 0.1 GB, host used 4.4 GB
+2026-11-10 12:36:17 PROGRESS r3-stage: score 58180500: 0/1 jobs in 196.1 min, estimate 540 min; memory: our tree 0.1 GB, host used 11.2 GB
+2026-11-10 12:40:17 PROGRESS r3-stage: score 58180500: 0/1 jobs in 200.1 min, estimate 540 min; memory: our tree 0.1 GB, host used 10.0 GB
+2026-11-10 12:44:18 PROGRESS r3-stage: score 58180500: 0/1 jobs in 204.1 min, estimate 540 min; memory: our tree 0.1 GB, host used 4.4 GB
+2026-11-10 12:48:18 PROGRESS r3-stage: score 58180500: 0/1 jobs in 208.1 min, estimate 540 min; memory: our tree 0.1 GB, host used 6.0 GB
+2026-11-10 12:52:18 PROGRESS r3-stage: score 58180500: 0/1 jobs in 212.1 min, estimate 540 min; memory: our tree 0.1 GB, host used 8.1 GB
+2026-11-10 12:56:18 PROGRESS r3-stage: score 58180500: 0/1 jobs in 216.1 min, estimate 540 min; memory: our tree 0.1 GB, host used 14.7 GB
+2026-11-10 13:00:18 PROGRESS r3-stage: score 58180500: 0/1 jobs in 220.1 min, estimate 540 min; memory: our tree 0.1 GB, host used 15.5 GB
+2026-11-10 13:04:18 PROGRESS r3-stage: score 58180500: 0/1 jobs in 224.1 min, estimate 540 min; memory: our tree 0.1 GB, host used 12.9 GB
+2026-11-10 13:08:18 PROGRESS r3-stage: score 58180500: 0/1 jobs in 228.1 min, estimate 540 min; memory: our tree 0.1 GB, host used 13.6 GB
+2026-11-10 13:12:18 PROGRESS r3-stage: score 58180500: 0/1 jobs in 232.1 min, estimate 540 min; memory: our tree 0.1 GB, host used 16.7 GB
+2026-11-10 13:16:18 PROGRESS r3-stage: score 58180500: 0/1 jobs in 236.1 min, estimate 540 min; memory: our tree 0.1 GB, host used 17.6 GB
+2026-11-10 13:17:03 WAKE r3-stage: gt_r3d1 score: memory: score 58180500: host memory used 19.1 GB > 18 GB (our tree 0.1 GB)

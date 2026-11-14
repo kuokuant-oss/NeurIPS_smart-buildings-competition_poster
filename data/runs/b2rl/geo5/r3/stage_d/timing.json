@@ -1,0 +1,14 @@
+{
+ "episode_worker_min_full": {
+  "minutes": 2.61,
+  "measured": "2026-11-10 02:29:22"
+ },
+ "closed_loop": {
+  "minutes": 4.75,
+  "measured": "2026-11-10 02:52:32"
+ },
+ "gate": {
+  "minutes": 3.75,
+  "measured": "2026-11-10 08:15:41"
+ }
+}

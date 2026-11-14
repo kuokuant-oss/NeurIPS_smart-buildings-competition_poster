@@ -1,0 +1,484 @@
+{
+ "rows": {
+  "building_train_1/beijing_jan": {
+   "cost": 0.05706138453997735,
+   "steps": 8640,
+   "comfort_part": -263.8787153671219,
+   "energy_part": -82.515069864993,
+   "carbon_part": -146.61657700000796,
+   "elapsed_seconds": 62.19188387899885
+  },
+  "building_train_1/dubai_jan": {
+   "cost": 0.0198967477916624,
+   "steps": 8640,
+   "comfort_part": -132.63825182200816,
+   "energy_part": -31.349613345569743,
+   "carbon_part": -7.920035871301661,
+   "elapsed_seconds": 61.55081903899918
+  },
+  "building_train_1/dubai_jul": {
+   "cost": 0.16514585661629028,
+   "steps": 8640,
+   "comfort_part": -795.1308634506265,
+   "energy_part": -450.0545183674433,
+   "carbon_part": -181.67481962838212,
+   "elapsed_seconds": 61.004443411000466
+  },
+  "building_train_1/london_jan": {
+   "cost": 0.0429980227281678,
+   "steps": 8640,
+   "comfort_part": -280.2779676535443,
+   "energy_part": -35.27273447795306,
+   "carbon_part": -55.95221433331608,
+   "elapsed_seconds": 60.869223040999714
+  },
+  "building_train_1/beijing_jul": {
+   "cost": 0.05744947657947587,
+   "steps": 8640,
+   "comfort_part": -294.6195232521224,
+   "energy_part": -146.20645096122755,
+   "carbon_part": -55.53750265145791,
+   "elapsed_seconds": 64.28016290499909
+  },
+  "building_train_1/london_jul": {
+   "cost": 0.019570899253990234,
+   "steps": 8640,
+   "comfort_part": -146.92814067003928,
+   "energy_part": -17.888725296102713,
+   "carbon_part": -4.275703631674697,
+   "elapsed_seconds": 62.950234582998746
+  },
+  "building_train_1/riyadh_jan": {
+   "cost": 0.024131132779478582,
+   "steps": 8640,
+   "comfort_part": -201.50649588923696,
+   "energy_part": -5.219329113694039,
+   "carbon_part": -1.7671621926900116,
+   "elapsed_seconds": 63.270148882000285
+  },
+  "building_train_1/seattle_jan": {
+   "cost": 0.04194915425718751,
+   "steps": 8640,
+   "comfort_part": -292.5323264982049,
+   "energy_part": -26.962716625025497,
+   "carbon_part": -42.94564930017805,
+   "elapsed_seconds": 62.01370044000032
+  },
+  "building_train_1/riyadh_jul": {
+   "cost": 0.16223263489065967,
+   "steps": 8640,
+   "comfort_part": -776.4279682221603,
+   "energy_part": -453.5128961429,
+   "carbon_part": -171.74910047086888,
+   "elapsed_seconds": 63.63448755199897
+  },
+  "building_train_1/seattle_jul": {
+   "cost": 0.020441219275906836,
+   "steps": 8640,
+   "comfort_part": -141.35631753627675,
+   "energy_part": -28.533028102799292,
+   "carbon_part": -6.72278892686154,
+   "elapsed_seconds": 62.6593914719997
+  },
+  "building_train_4/dubai_jan": {
+   "cost": 0.020588264028092464,
+   "steps": 8640,
+   "comfort_part": -137.51083638124547,
+   "energy_part": -32.25173099278127,
+   "carbon_part": -8.12003396256223,
+   "elapsed_seconds": 71.07856181200077
+  },
+  "building_train_4/beijing_jan": {
+   "cost": 0.05878567958064162,
+   "steps": 8640,
+   "comfort_part": -373.1118542619981,
+   "energy_part": -48.99449248989113,
+   "carbon_part": -85.80192484785803,
+   "elapsed_seconds": 72.84839429100066
+  },
+  "building_train_4/dubai_jul": {
+   "cost": 0.13532172379643345,
+   "steps": 8640,
+   "comfort_part": -680.3525633925843,
+   "energy_part": -350.29919452306353,
+   "carbon_part": -138.5279359281936,
+   "elapsed_seconds": 71.55150467199928
+  },
+  "building_train_4/beijing_jul": {
+   "cost": 0.034339354893957834,
+   "steps": 8640,
+   "comfort_part": -182.42803671406054,
+   "energy_part": -90.39398559981493,
+   "carbon_part": -23.870004123510444,
+   "elapsed_seconds": 73.47771781600022
+  },
+  "building_train_4/london_jan": {
+   "cost": 0.05959967289206037,
+   "steps": 8640,
+   "comfort_part": -476.5277011444428,
+   "energy_part": -15.04660187313566,
+   "carbon_part": -23.366871398130026,
+   "elapsed_seconds": 72.29566793400045
+  },
+  "building_train_2/london_jan": {
+   "cost": 0.07307901844972599,
+   "steps": 8640,
+   "comfort_part": -461.9359428173382,
+   "energy_part": -79.04050370794721,
+   "carbon_part": -90.42627316846338,
+   "elapsed_seconds": 123.00747152199983
+  },
+  "building_train_2/dubai_jan": {
+   "cost": 0.018158969706125454,
+   "steps": 8640,
+   "comfort_part": -122.68368406114095,
+   "energy_part": -27.34596010178102,
+   "carbon_part": -6.8638539899227915,
+   "elapsed_seconds": 124.34079468799973
+  },
+  "building_train_2/beijing_jul": {
+   "cost": 0.05543955102300389,
+   "steps": 8640,
+   "comfort_part": -300.5666703337847,
+   "energy_part": -124.96887711399468,
+   "carbon_part": -53.46217314172973,
+   "elapsed_seconds": 125.48884265099878
+  },
+  "building_train_2/beijing_jan": {
+   "cost": 0.08855809700497771,
+   "steps": 8640,
+   "comfort_part": -571.2276345705847,
+   "energy_part": -80.33917648090284,
+   "carbon_part": -113.57514697690786,
+   "elapsed_seconds": 126.35273945500012
+  },
+  "building_train_2/riyadh_jan": {
+   "cost": 0.03717948832316817,
+   "steps": 8640,
+   "comfort_part": -245.86474941205233,
+   "energy_part": -42.433179166686024,
+   "carbon_part": -32.932850365294875,
+   "elapsed_seconds": 124.30080466799882
+  },
+  "building_train_2/london_jul": {
+   "cost": 0.01871547362302082,
+   "steps": 8640,
+   "comfort_part": -136.01945666397515,
+   "energy_part": -20.77526246362031,
+   "carbon_part": -4.906972901426343,
+   "elapsed_seconds": 124.7612476409995
+  },
+  "building_train_2/dubai_jul": {
+   "cost": 0.14586241178133402,
+   "steps": 8640,
+   "comfort_part": -751.5222091146453,
+   "energy_part": -354.60863698029425,
+   "carbon_part": -154.12039189377685,
+   "elapsed_seconds": 127.48209472499911
+  },
+  "building_train_2/seattle_jan": {
+   "cost": 0.0734139936757075,
+   "steps": 8640,
+   "comfort_part": -467.5520565344508,
+   "energy_part": -78.77978731729964,
+   "carbon_part": -87.96506099816834,
+   "elapsed_seconds": 123.99027394199948
+  },
+  "building_train_2/riyadh_jul": {
+   "cost": 0.12727344814885766,
+   "steps": 8640,
+   "comfort_part": -649.9520626482787,
+   "energy_part": -322.3617871355266,
+   "carbon_part": -127.32874230024754,
+   "elapsed_seconds": 126.66231110800072
+  },
+  "building_train_2/seattle_jul": {
+   "cost": 0.019694647360345253,
+   "steps": 8640,
+   "comfort_part": -135.0494076365503,
+   "energy_part": -28.450258410261632,
+   "carbon_part": -6.662087119789795,
+   "elapsed_seconds": 125.07542357099919
+  },
+  "building_train_4/london_jul": {
+   "cost": 0.021512037587543237,
+   "steps": 8640,
+   "comfort_part": -158.31700360016984,
+   "energy_part": -22.270817567399355,
+   "carbon_part": -5.276183643399418,
+   "elapsed_seconds": 72.62583188200006
+  },
+  "building_train_4/riyadh_jan": {
+   "cost": 0.028819164642604384,
+   "steps": 8640,
+   "comfort_part": -236.14032354438677,
+   "energy_part": -10.01090102850576,
+   "carbon_part": -2.846358085064276,
+   "elapsed_seconds": 73.15951813900028
+  },
+  "building_train_4/seattle_jul": {
+   "cost": 0.022487565578578714,
+   "steps": 8640,
+   "comfort_part": -154.6131423679166,
+   "energy_part": -32.13246309887236,
+   "carbon_part": -7.546961162932712,
+   "elapsed_seconds": 72.65943415499896
+  },
+  "building_train_4/riyadh_jul": {
+   "cost": 0.100503378464991,
+   "steps": 8640,
+   "comfort_part": -489.5086246067716,
+   "energy_part": -283.0529848018894,
+   "carbon_part": -95.7875807020173,
+   "elapsed_seconds": 73.71503883900004
+  },
+  "building_train_4/seattle_jan": {
+   "cost": 0.06453717325839892,
+   "steps": 8640,
+   "comfort_part": -529.1711116069971,
+   "energy_part": -11.474990882997373,
+   "carbon_part": -16.955074313371735,
+   "elapsed_seconds": 74.50312632699934
+  },
+  "building_train_7/beijing_jan": {
+   "cost": 0.10221642406203736,
+   "steps": 8640,
+   "comfort_part": -475.866601603548,
+   "energy_part": -150.1636673662346,
+   "carbon_part": -257.11963425392753,
+   "elapsed_seconds": 49.8671392640008
+  },
+  "building_train_7/beijing_jul": {
+   "cost": 0.05865835819541408,
+   "steps": 8640,
+   "comfort_part": -319.2450407067328,
+   "energy_part": -135.55239167360125,
+   "carbon_part": -52.01078224842204,
+   "elapsed_seconds": 49.337403552999604
+  },
+  "building_train_7/dubai_jan": {
+   "cost": 0.018341265268633444,
+   "steps": 8640,
+   "comfort_part": -137.10167579931002,
+   "energy_part": -16.989438035551213,
+   "carbon_part": -4.377418130359729,
+   "elapsed_seconds": 48.947000157999355
+  },
+  "building_train_7/dubai_jul": {
+   "cost": 0.15057849413959182,
+   "steps": 8640,
+   "comfort_part": -763.3057938772487,
+   "energy_part": -387.563303247327,
+   "carbon_part": -150.12909137263196,
+   "elapsed_seconds": 50.05627131999972
+  },
+  "building_train_7/london_jul": {
+   "cost": 0.024615289000814125,
+   "steps": 8640,
+   "comfort_part": -202.51785666707147,
+   "energy_part": -7.771957999241568,
+   "carbon_part": -2.386282149674662,
+   "elapsed_seconds": 48.223926487000426
+  },
+  "building_train_7/london_jan": {
+   "cost": 0.09814472187959937,
+   "steps": 8640,
+   "comfort_part": -546.7262356193532,
+   "energy_part": -129.13598293461837,
+   "carbon_part": -172.10817778594793,
+   "elapsed_seconds": 49.31879960900005
+  },
+  "building_train_7/riyadh_jan": {
+   "cost": 0.06806152568526024,
+   "steps": 8640,
+   "comfort_part": -470.40181145123205,
+   "energy_part": -60.27647823013831,
+   "carbon_part": -57.37329185335548,
+   "elapsed_seconds": 49.03505492500153
+  },
+  "building_train_7/seattle_jan": {
+   "cost": 0.09652121625443517,
+   "steps": 8640,
+   "comfort_part": -553.5576616030536,
+   "energy_part": -121.78859451261815,
+   "carbon_part": -158.59705244311482,
+   "elapsed_seconds": 48.11663003799913
+  },
+  "building_train_7/riyadh_jul": {
+   "cost": 0.1449916937226118,
+   "steps": 8640,
+   "comfort_part": -737.5899201305903,
+   "energy_part": -380.18211500938054,
+   "carbon_part": -134.956198062317,
+   "elapsed_seconds": 49.29822205799974
+  },
+  "building_train_7/seattle_jul": {
+   "cost": 0.021768693524321467,
+   "steps": 8640,
+   "comfort_part": -166.16535507711959,
+   "energy_part": -17.45319938880639,
+   "carbon_part": -4.4629575964980175,
+   "elapsed_seconds": 48.25545366500046
+  },
+  "building_train_8/beijing_jan": {
+   "cost": 0.08724691772626506,
+   "steps": 8640,
+   "comfort_part": -394.5841401083831,
+   "energy_part": -140.8870703145163,
+   "carbon_part": -218.34215950111394,
+   "elapsed_seconds": 48.64511617199969
+  },
+  "building_train_8/dubai_jan": {
+   "cost": 0.017289625601277746,
+   "steps": 8640,
+   "comfort_part": -121.00409287013589,
+   "energy_part": -22.608495949435383,
+   "carbon_part": -5.769776411730709,
+   "elapsed_seconds": 47.743969597000614
+  },
+  "building_train_8/beijing_jul": {
+   "cost": 0.07878604725621606,
+   "steps": 8640,
+   "comfort_part": -409.6834742999119,
+   "energy_part": -182.59229712942616,
+   "carbon_part": -88.43567738079001,
+   "elapsed_seconds": 48.516905010999835
+  },
+  "building_train_8/dubai_jul": {
+   "cost": 0.22885237133669525,
+   "steps": 8640,
+   "comfort_part": -1155.6325607961626,
+   "energy_part": -566.1701543260366,
+   "carbon_part": -255.48177402862348,
+   "elapsed_seconds": 48.59456088799925
+  },
+  "building_train_8/london_jan": {
+   "cost": 0.1023953617046918,
+   "steps": 8640,
+   "comfort_part": -521.4314122879703,
+   "energy_part": -164.28229549514364,
+   "carbon_part": -198.98221741439485,
+   "elapsed_seconds": 48.5120745589993
+  },
+  "building_train_8/london_jul": {
+   "cost": 0.01798584397021683,
+   "steps": 8640,
+   "comfort_part": -140.35558130716709,
+   "energy_part": -12.047226480865902,
+   "carbon_part": -2.9948841629004166,
+   "elapsed_seconds": 48.70010721200015
+  },
+  "building_train_5/dubai_jan": {
+   "cost": 0.01643900610852669,
+   "steps": 8640,
+   "comfort_part": -118.81988893780398,
+   "energy_part": -18.53332129588089,
+   "carbon_part": -4.6798023823233965,
+   "elapsed_seconds": 114.28495815300084
+  },
+  "building_train_8/riyadh_jul": {
+   "cost": 0.22390508370678947,
+   "steps": 8640,
+   "comfort_part": -1127.247830585396,
+   "energy_part": -568.2074600132182,
+   "carbon_part": -239.0846322294325,
+   "elapsed_seconds": 48.81766711599994
+  },
+  "building_train_5/beijing_jan": {
+   "cost": 0.10267513589995159,
+   "steps": 8640,
+   "comfort_part": -464.3599846669938,
+   "energy_part": -169.2054059060756,
+   "carbon_part": -253.5477835209138,
+   "elapsed_seconds": 116.295105444
+  },
+  "building_train_8/riyadh_jan": {
+   "cost": 0.04162009920735525,
+   "steps": 8640,
+   "comfort_part": -276.0116868145647,
+   "energy_part": -44.08302335193148,
+   "carbon_part": -39.50294684933906,
+   "elapsed_seconds": 49.283816113000285
+  },
+  "building_train_8/seattle_jan": {
+   "cost": 0.11052727465467392,
+   "steps": 8640,
+   "comfort_part": -558.3972518274968,
+   "energy_part": -182.30982330378612,
+   "carbon_part": -214.24857675530367,
+   "elapsed_seconds": 48.50664301500001
+  },
+  "building_train_8/seattle_jul": {
+   "cost": 0.01894709660785378,
+   "steps": 8640,
+   "comfort_part": -136.83564535187907,
+   "energy_part": -21.66571092145587,
+   "carbon_part": -5.201558392915468,
+   "elapsed_seconds": 48.60379796199959
+  },
+  "building_train_5/dubai_jul": {
+   "cost": 0.258919068851459,
+   "steps": 8640,
+   "comfort_part": -1350.8057356443023,
+   "energy_part": -605.7006219923031,
+   "carbon_part": -280.55439758413706,
+   "elapsed_seconds": 115.46816407799997
+  },
+  "building_train_5/beijing_jul": {
+   "cost": 0.11080664361144146,
+   "steps": 8640,
+   "comfort_part": -593.703623833913,
+   "energy_part": -236.57093296768144,
+   "carbon_part": -127.09484452064498,
+   "elapsed_seconds": 117.27693537900086
+  },
+  "building_train_5/london_jan": {
+   "cost": 0.10084024351186363,
+   "steps": 8640,
+   "comfort_part": -524.1202817961573,
+   "energy_part": -155.2591461411852,
+   "carbon_part": -191.88027689920128,
+   "elapsed_seconds": 116.77814973999921
+  },
+  "building_train_5/riyadh_jan": {
+   "cost": 0.04394085939358492,
+   "steps": 8640,
+   "comfort_part": -333.4259882422542,
+   "energy_part": -24.335679772055666,
+   "carbon_part": -21.887357725277255,
+   "elapsed_seconds": 115.23302084400166
+  },
+  "building_train_5/seattle_jan": {
+   "cost": 0.10465593941336954,
+   "steps": 8640,
+   "comfort_part": -551.980709855142,
+   "energy_part": -159.585001543595,
+   "carbon_part": -192.66160462620758,
+   "elapsed_seconds": 117.05202448199998
+  },
+  "building_train_5/london_jul": {
+   "cost": 0.02069551480282233,
+   "steps": 8640,
+   "comfort_part": -167.55428681286313,
+   "energy_part": -9.079380768455122,
+   "carbon_part": -2.1755804346226797,
+   "elapsed_seconds": 118.9091524760006
+  },
+  "building_train_5/riyadh_jul": {
+   "cost": 0.25394858316075847,
+   "steps": 8640,
+   "comfort_part": -1318.1625018718187,
+   "energy_part": -611.9413341918029,
+   "carbon_part": -264.01192261509135,
+   "elapsed_seconds": 118.34774721800022
+  },
+  "building_train_5/seattle_jul": {
+   "cost": 0.01949121267995161,
+   "steps": 8640,
+   "comfort_part": -146.81577269749323,
+   "energy_part": -17.477689434075454,
+   "carbon_part": -4.110615418876114,
+   "elapsed_seconds": 119.36580987600064
+  }
+ }
+}

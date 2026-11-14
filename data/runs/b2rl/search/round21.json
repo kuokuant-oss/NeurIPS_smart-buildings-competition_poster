@@ -1,0 +1,132 @@
+{
+ "_note": "occupancy-based zone minimum airflow (G36Config.dcv_area_share) on the\ncurrent best at_short1_013 (TRAIN 100 -21.07% vs the original rule): the minimum stays min_flow 0.1 at the largest head\ncount seen and falls to dcv_area_share x 0.1 with nobody in (ASHRAE 62.1 style area + people parts; 0.7 is about a\ntypical office at design density), with the simulator's real damper floor. Round 20's min_flow 0 is only the upper\nbound (ventilation is not scored).",
+ "short1_dcv07": {
+  "breaks_c": [
+   0,
+   5,
+   20,
+   25
+  ],
+  "cold": {
+   "heating_max_ratio": 0.4529957279624725,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180,
+   "discharge_offset_k": 14.0,
+   "sat_cost_guard_k": 30.0
+  },
+  "mild": {
+   "heating_max_ratio": 0.36,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180,
+   "discharge_offset_k": 14.0,
+   "sat_cost_guard_k": 0.25
+  },
+  "hot": {
+   "heating_max_ratio": 0.4529957279624725,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180,
+   "discharge_offset_k": 14.0,
+   "sat_cost_guard_k": 0.5
+  },
+  "rule_config": {
+   "freeze_on_k": 275.15,
+   "freeze_off_k": 278.15,
+   "sat_cost_optimal": true,
+   "sat_cost_guard_k": 0.5,
+   "zone_gain_per_k": 0.05,
+   "zone_ti_s": 450.0,
+   "empty_day_delay_min": 60,
+   "dcv_area_share": 0.7
+  },
+  "layout": "v3"
+ },
+ "short1_dcv05": {
+  "breaks_c": [
+   0,
+   5,
+   20,
+   25
+  ],
+  "cold": {
+   "heating_max_ratio": 0.4529957279624725,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180,
+   "discharge_offset_k": 14.0,
+   "sat_cost_guard_k": 30.0
+  },
+  "mild": {
+   "heating_max_ratio": 0.36,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180,
+   "discharge_offset_k": 14.0,
+   "sat_cost_guard_k": 0.25
+  },
+  "hot": {
+   "heating_max_ratio": 0.4529957279624725,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180,
+   "discharge_offset_k": 14.0,
+   "sat_cost_guard_k": 0.5
+  },
+  "rule_config": {
+   "freeze_on_k": 275.15,
+   "freeze_off_k": 278.15,
+   "sat_cost_optimal": true,
+   "sat_cost_guard_k": 0.5,
+   "zone_gain_per_k": 0.05,
+   "zone_ti_s": 450.0,
+   "empty_day_delay_min": 60,
+   "dcv_area_share": 0.5
+  },
+  "layout": "v3"
+ },
+ "short1_dcv03": {
+  "breaks_c": [
+   0,
+   5,
+   20,
+   25
+  ],
+  "cold": {
+   "heating_max_ratio": 0.4529957279624725,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180,
+   "discharge_offset_k": 14.0,
+   "sat_cost_guard_k": 30.0
+  },
+  "mild": {
+   "heating_max_ratio": 0.36,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180,
+   "discharge_offset_k": 14.0,
+   "sat_cost_guard_k": 0.25
+  },
+  "hot": {
+   "heating_max_ratio": 0.4529957279624725,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180,
+   "discharge_offset_k": 14.0,
+   "sat_cost_guard_k": 0.5
+  },
+  "rule_config": {
+   "freeze_on_k": 275.15,
+   "freeze_off_k": 278.15,
+   "sat_cost_optimal": true,
+   "sat_cost_guard_k": 0.5,
+   "zone_gain_per_k": 0.05,
+   "zone_ti_s": 450.0,
+   "empty_day_delay_min": 60,
+   "dcv_area_share": 0.3
+  },
+  "layout": "v3"
+ }
+}

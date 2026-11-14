@@ -1,0 +1,6824 @@
+{
+ "base": "gt_t2b",
+ "stages": {
+  "T1": {
+   "attempts": [
+    {
+     "label": "a",
+     "name": "gt_t1a",
+     "why": "main rule: factors below zero by more than one standard error",
+     "map": {
+      "s|core|0": {
+       "zone_min_ra_lps_m2": 0.3,
+       "zone_min_rp_lps_m2": 0.125,
+       "zone_min_oa_divide": true
+      },
+      "s|perim|0": {
+       "zone_min_ra_lps_m2": 0.3,
+       "zone_min_rp_lps_m2": 0.125,
+       "zone_min_oa_divide": true
+      },
+      "s|long|0": {
+       "zone_min_ra_lps_m2": 0.3,
+       "zone_min_rp_lps_m2": 0.125,
+       "zone_min_oa_divide": true
+      },
+      "m|core|0": {
+       "zone_min_ra_lps_m2": 0.3,
+       "zone_min_rp_lps_m2": 0.125,
+       "zone_min_oa_divide": true
+      },
+      "m|perim|0": {
+       "zone_min_ra_lps_m2": 0.3,
+       "zone_min_rp_lps_m2": 0.125,
+       "zone_min_oa_divide": true
+      },
+      "m|long|0": {
+       "zone_min_ra_lps_m2": 0.3,
+       "zone_min_rp_lps_m2": 0.125,
+       "zone_min_oa_divide": true
+      },
+      "l|core|0": {},
+      "l|perim|0": {},
+      "l|long|0": {},
+      "x|core|0": {},
+      "x|perim|0": {},
+      "x|long|0": {}
+     },
+     "predicted": -0.03363175887902088,
+     "closed_loop": {
+      "train_ceiling_rest60": {
+       "mean": -2.6393649351025283,
+       "per_scenario": -5.032513135432412,
+       "se": 1.0452850449756708,
+       "better": 45,
+       "worse": 5,
+       "n": 60
+      },
+      "inner": {
+       "mean": -2.884406047821031,
+       "per_scenario": -4.590716682514075,
+       "se": 0.9833669192465652,
+       "better": 25,
+       "worse": 2,
+       "n": 29
+      },
+      "s4_first": {
+       "mean": 0.1439149088644731,
+       "per_scenario": -0.6703546296852488,
+       "se": 0.7372705657615211,
+       "better": 13,
+       "worse": 11,
+       "n": 30
+      }
+     },
+     "against_base": {
+      "train_ceiling_rest60": -0.2366295602313162,
+      "inner": 0.29978046607446185,
+      "s4_first": 0.22470474351264924
+     },
+     "passed": false,
+     "levels": [
+      1,
+      1,
+      1,
+      1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+     ]
+    },
+    {
+     "label": "b",
+     "name": "gt_t1b",
+     "why": "diagnosis 1: totals model calibrated (realised -4.03 vs predicted -3.36, slope 1.08) and gt_t1a = gm_tree_m1 (-0.02), so the global choice is exhausted; building-trait rules overfit (lobo -1.59) but f",
+     "map": {
+      "oat_cuts": [
+       -0.89,
+       19.82
+      ],
+      "maps": [
+       {
+        "s|core|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "s|perim|0": {},
+        "s|long|0": {},
+        "m|core|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|perim|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|long|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "l|core|0": {},
+        "l|perim|0": {},
+        "l|long|0": {},
+        "x|core|0": {},
+        "x|perim|0": {},
+        "x|long|0": {}
+       },
+       {
+        "s|core|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "s|perim|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "s|long|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|core|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|perim|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|long|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "l|core|0": {},
+        "l|perim|0": {},
+        "l|long|0": {},
+        "x|core|0": {},
+        "x|perim|0": {},
+        "x|long|0": {}
+       },
+       {
+        "s|core|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "s|perim|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "s|long|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|core|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|perim|0": {},
+        "m|long|0": {},
+        "l|core|0": {},
+        "l|perim|0": {},
+        "l|long|0": {
+         "zone_heat_wall_ref_m": 20.0,
+         "zone_heat_wall_power": 1.0
+        },
+        "x|core|0": {},
+        "x|perim|0": {},
+        "x|long|0": {
+         "zone_heat_wall_ref_m": 20.0,
+         "zone_heat_wall_power": 1.0
+        }
+       }
+      ]
+     },
+     "predicted": -0.04236827402714765,
+     "closed_loop": {
+      "train_ceiling_rest60": {
+       "mean": -2.892444408291006,
+       "per_scenario": -4.941618669569034,
+       "se": 1.0342357895949756,
+       "better": 45,
+       "worse": 6,
+       "n": 60
+      },
+      "inner": {
+       "mean": -2.80251424081559,
+       "per_scenario": -4.237280213009162,
+       "se": 0.8938232458668197,
+       "better": 25,
+       "worse": 1,
+       "n": 29
+      },
+      "s4_first": {
+       "mean": -0.5394835127313091,
+       "per_scenario": -1.026541918835259,
+       "se": 0.6163812636324636,
+       "better": 14,
+       "worse": 11,
+       "n": 30
+      }
+     },
+     "against_base": {
+      "train_ceiling_rest60": -0.489709033419794,
+      "inner": 0.3816722730799027,
+      "s4_first": -0.458693678083133
+     },
+     "passed": false,
+     "levels": null,
+     "levels_by_spec": {
+      "train/building_10298/atlanta_5": [
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_10298/denver_3": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_10298/fairbanks_5": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_10298/singapore_3": [
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_10419/atlanta_3": [
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_10740/phoenix_3": [
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_11010/singapore_1": [
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_11104/phoenix_5": [
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_11164/denver_1": [
+       1,
+       -1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_11400/atlanta_1": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_11400/fairbanks_5": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_11400/singapore_3": [
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_11534/denver_1": [
+       1,
+       -1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_11534/singapore_5": [
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_11754/phoenix_1": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_11818/phoenix_3": [
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_11852/atlanta_5": [
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_11852/phoenix_1": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_11902/phoenix_5": [
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_12098/denver_7": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_12098/fairbanks_3": [
+       1,
+       -1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_12302/atlanta_3": [
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_12302/fairbanks_3": [
+       1,
+       -1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_12302/phoenix_3": [
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_12336/atlanta_7": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_12567/atlanta_5": [
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_12567/fairbanks_3": [
+       1,
+       -1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_12618/denver_3": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_12739/fairbanks_1": [
+       1,
+       -1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_12739/phoenix_1": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_13597/phoenix_7": [
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_13640/atlanta_5": [
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_13640/denver_7": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_14042/fairbanks_1": [
+       1,
+       -1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_14042/singapore_7": [
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_14073/atlanta_3": [
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_14078/atlanta_1": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_14078/denver_3": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_14078/phoenix_7": [
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_14213/singapore_3": [
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_14219/denver_3": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_14219/phoenix_1": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_14277/atlanta_3": [
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_14277/fairbanks_1": [
+       1,
+       -1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_14277/phoenix_3": [
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_14679/atlanta_5": [
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_14679/singapore_1": [
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_14979/fairbanks_1": [
+       1,
+       -1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_14979/phoenix_7": [
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_15361/denver_1": [
+       1,
+       -1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_15570/singapore_3": [
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_15790/fairbanks_1": [
+       1,
+       -1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_16092/fairbanks_7": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_16092/singapore_5": [
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_16671/denver_7": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_16710/phoenix_3": [
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_16710/singapore_5": [
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_16761/denver_3": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_16821/atlanta_7": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_17001/atlanta_5": [
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_17084/singapore_3": [
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_17224/singapore_7": [
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_17524/singapore_7": [
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_17821/denver_3": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_18662/singapore_5": [
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_18764/denver_7": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_18764/fairbanks_5": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_18842/fairbanks_3": [
+       1,
+       -1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_18842/phoenix_7": [
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_19195/denver_3": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_19299/atlanta_7": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_19629/atlanta_5": [
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_19655/denver_1": [
+       1,
+       -1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_19655/fairbanks_1": [
+       1,
+       -1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_19655/singapore_5": [
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_19664/fairbanks_7": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_19664/phoenix_1": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_19664/singapore_1": [
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_19768/fairbanks_3": [
+       1,
+       -1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_19950/denver_1": [
+       1,
+       -1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ]
+     }
+    },
+    {
+     "label": "c",
+     "name": "gt_t1c",
+     "why": "diagnosis 2: model calibrated (pred -4.24, real -4.38, slope 1.00); vs gm_tree_m1 -0.33 on design = Fairbanks -2.59 (cold rule works) but Atlanta +1.20; loss sits in medium exterior rooms (+0.14) beca",
+     "map": {
+      "oat_cuts": [
+       -0.8943689320388348,
+       26.982496532593615,
+       27.327919556171985
+      ],
+      "maps": [
+       {
+        "s|core|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "s|perim|0": {},
+        "s|long|0": {},
+        "m|core|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|perim|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|long|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "l|core|0": {},
+        "l|perim|0": {},
+        "l|long|0": {},
+        "x|core|0": {},
+        "x|perim|0": {},
+        "x|long|0": {}
+       },
+       {
+        "s|core|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "s|perim|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "s|long|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|core|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|perim|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|long|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "l|core|0": {},
+        "l|perim|0": {},
+        "l|long|0": {},
+        "x|core|0": {},
+        "x|perim|0": {},
+        "x|long|0": {}
+       },
+       {
+        "s|core|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "s|perim|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "s|long|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|core|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|perim|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|long|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "l|core|0": {},
+        "l|perim|0": {},
+        "l|long|0": {
+         "zone_heat_wall_ref_m": 20.0,
+         "zone_heat_wall_power": 1.0
+        },
+        "x|core|0": {},
+        "x|perim|0": {},
+        "x|long|0": {
+         "zone_heat_wall_ref_m": 20.0,
+         "zone_heat_wall_power": 1.0
+        }
+       },
+       {
+        "s|core|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "s|perim|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "s|long|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "zone_heat_wall_ref_m": 20.0,
+         "zone_heat_wall_power": 1.0
+        },
+        "m|core|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|perim|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|long|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "zone_heat_wall_ref_m": 20.0,
+         "zone_heat_wall_power": 1.0
+        },
+        "l|core|0": {},
+        "l|perim|0": {},
+        "l|long|0": {
+         "zone_heat_wall_ref_m": 20.0,
+         "zone_heat_wall_power": 1.0
+        },
+        "x|core|0": {},
+        "x|perim|0": {},
+        "x|long|0": {
+         "zone_heat_wall_ref_m": 20.0,
+         "zone_heat_wall_power": 1.0
+        }
+       }
+      ]
+     },
+     "predicted": -0.0454912866008496,
+     "closed_loop": {
+      "train_ceiling_rest60": {
+       "mean": -3.0494330081929144,
+       "per_scenario": -5.188913114423859,
+       "se": 1.0317045490148296,
+       "better": 45,
+       "worse": 5,
+       "n": 60
+      },
+      "inner": {
+       "mean": -3.1375165395287397,
+       "per_scenario": -4.731452572773695,
+       "se": 0.9787297842981223,
+       "better": 25,
+       "worse": 2,
+       "n": 29
+      },
+      "s4_first": {
+       "mean": -0.6165606044919447,
+       "per_scenario": -1.0729923463015605,
+       "se": 0.6572554901659379,
+       "better": 14,
+       "worse": 10,
+       "n": 30
+      }
+     },
+     "against_base": {
+      "train_ceiling_rest60": -0.6466976333217023,
+      "inner": 0.04666997436675313,
+      "s4_first": -0.5357707698437686
+     },
+     "passed": false,
+     "levels": null,
+     "levels_by_spec": {
+      "train/building_10419/atlanta_3": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_11852/atlanta_5": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_12336/atlanta_7": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_12567/atlanta_5": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_14073/atlanta_3": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_16821/atlanta_7": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_19299/atlanta_7": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_19629/atlanta_5": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_11534/denver_1": [
+       1,
+       -1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_14219/denver_3": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_16761/denver_3": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_17821/denver_3": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_18764/denver_7": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_19195/denver_3": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_19655/denver_1": [
+       1,
+       -1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_19950/denver_1": [
+       1,
+       -1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_12567/fairbanks_3": [
+       1,
+       -1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_15790/fairbanks_1": [
+       1,
+       -1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_16092/fairbanks_7": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_18764/fairbanks_5": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_18842/fairbanks_3": [
+       1,
+       -1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_19655/fairbanks_1": [
+       1,
+       -1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_19664/fairbanks_7": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_19768/fairbanks_3": [
+       1,
+       -1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_10740/phoenix_3": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_11818/phoenix_3": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_11852/phoenix_1": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_11902/phoenix_5": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       1,
+       1
+      ],
+      "train/building_13597/phoenix_7": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_14219/phoenix_1": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_18842/phoenix_7": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_19664/phoenix_1": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_11010/singapore_1": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_11534/singapore_5": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       1,
+       1
+      ],
+      "train/building_16092/singapore_5": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       1,
+       1
+      ],
+      "train/building_17224/singapore_7": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       1,
+       1
+      ],
+      "train/building_17524/singapore_7": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       1,
+       1
+      ],
+      "train/building_18662/singapore_5": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       1,
+       1
+      ],
+      "train/building_19655/singapore_5": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       1,
+       1
+      ],
+      "train/building_19664/singapore_1": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_10298/atlanta_5": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_11400/atlanta_1": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_12302/atlanta_3": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_13640/atlanta_5": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_14078/atlanta_1": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_14277/atlanta_3": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_14679/atlanta_5": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_17001/atlanta_5": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_10298/denver_3": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_11164/denver_1": [
+       1,
+       -1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_12098/denver_7": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_12618/denver_3": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_13640/denver_7": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_14078/denver_3": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_15361/denver_1": [
+       1,
+       -1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_16671/denver_7": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_10298/fairbanks_5": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_11400/fairbanks_5": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_12098/fairbanks_3": [
+       1,
+       -1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_12302/fairbanks_3": [
+       1,
+       -1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_12739/fairbanks_1": [
+       1,
+       -1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_14042/fairbanks_1": [
+       1,
+       -1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_14277/fairbanks_1": [
+       1,
+       -1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_14979/fairbanks_1": [
+       1,
+       -1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_11104/phoenix_5": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       1,
+       1
+      ],
+      "train/building_11754/phoenix_1": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_12302/phoenix_3": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_12739/phoenix_1": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_14078/phoenix_7": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_14277/phoenix_3": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_14979/phoenix_7": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_16710/phoenix_3": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_10298/singapore_3": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       1,
+       1
+      ],
+      "train/building_11400/singapore_3": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       1,
+       1
+      ],
+      "train/building_14042/singapore_7": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       1,
+       1
+      ],
+      "train/building_14213/singapore_3": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       1,
+       1
+      ],
+      "train/building_14679/singapore_1": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_15570/singapore_3": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       1,
+       1
+      ],
+      "train/building_16710/singapore_5": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       1,
+       1
+      ],
+      "train/building_17084/singapore_3": [
+       1,
+       1,
+       1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1,
+       1,
+       1
+      ]
+     }
+    }
+   ],
+   "diagnoses": [
+    "data/runs/b2rl/geo3/diagnosis-T1-1.json",
+    "data/runs/b2rl/geo3/diagnosis-T1-2.json"
+   ],
+   "base_map": {},
+   "design": {
+    "summary": {
+     "min_s_core": {
+      "mean": -0.03024443569099269,
+      "se": 0.006577800686009087,
+      "n": 36
+     },
+     "min_s_ext": {
+      "mean": -0.016928308933360742,
+      "se": 0.007140288264031855,
+      "n": 67
+     },
+     "min_m_core": {
+      "mean": -0.00304979552769267,
+      "se": 0.0018758245460442217,
+      "n": 48
+     },
+     "min_m_ext": {
+      "mean": -0.004793345396739046,
+      "se": 0.002213862068707056,
+      "n": 67
+     },
+     "min_l_core": {
+      "mean": 0.007259176154807608,
+      "se": 0.0015232042400647428,
+      "n": 71
+     },
+     "min_l_ext": {
+      "mean": 0.012239485489688437,
+      "se": 0.0029308429264786207,
+      "n": 80
+     },
+     "min_x_core": {
+      "mean": 0.021896046161622496,
+      "se": 0.0025518489063323735,
+      "n": 47
+     },
+     "min_x_ext": {
+      "mean": 0.04961372860146558,
+      "se": 0.006975195939042575,
+      "n": 64
+     },
+     "wallheat_sm": {
+      "mean": 0.008593329077957552,
+      "se": 0.003087644568892595,
+      "n": 70
+     },
+     "wallheat_lx": {
+      "mean": 0.01679499133622866,
+      "se": 0.00910750434027329,
+      "n": 78
+     }
+    },
+    "lobo": {
+     "lobo_predicted": -0.03363175887902088,
+     "per_scenario_oracle": -0.05946984933078179
+    },
+    "parts": {
+     "comfort_cost": {
+      "min_s_core": {
+       "mean": -0.0025803089056063966,
+       "se": 0.0036265255221890626,
+       "n": 36
+      },
+      "min_s_ext": {
+       "mean": 0.012843034926302021,
+       "se": 0.005702349027433652,
+       "n": 67
+      },
+      "min_m_core": {
+       "mean": 0.003446337679062482,
+       "se": 0.0013629996371927857,
+       "n": 48
+      },
+      "min_m_ext": {
+       "mean": 0.0008658917460192227,
+       "se": 0.0018584494114978706,
+       "n": 67
+      },
+      "min_l_core": {
+       "mean": 0.0011796040231568492,
+       "se": 0.0009090643778438655,
+       "n": 71
+      },
+      "min_l_ext": {
+       "mean": 0.002299151329011332,
+       "se": 0.0022781065879373895,
+       "n": 80
+      },
+      "min_x_core": {
+       "mean": 0.0064293499150583425,
+       "se": 0.001286933603158498,
+       "n": 47
+      },
+      "min_x_ext": {
+       "mean": 0.009932501825759742,
+       "se": 0.0025279419664853493,
+       "n": 64
+      },
+      "wallheat_sm": {
+       "mean": 0.007016986483162872,
+       "se": 0.0026335749495956175,
+       "n": 70
+      },
+      "wallheat_lx": {
+       "mean": 0.0006309442211298649,
+       "se": 0.004873970615331649,
+       "n": 78
+      }
+     },
+     "fan_cost": {
+      "min_s_core": {
+       "mean": -0.003051959269263883,
+       "se": 0.000511300931519196,
+       "n": 36
+      },
+      "min_s_ext": {
+       "mean": -0.005484939549470638,
+       "se": 0.0007991156537039075,
+       "n": 67
+      },
+      "min_m_core": {
+       "mean": -0.0008445230764888354,
+       "se": 9.625330635394266e-05,
+       "n": 48
+      },
+      "min_m_ext": {
+       "mean": -0.002011407150557145,
+       "se": 0.0003127979388016068,
+       "n": 67
+      },
+      "min_l_core": {
+       "mean": 0.0009080975962076471,
+       "se": 0.00013779159457673578,
+       "n": 71
+      },
+      "min_l_ext": {
+       "mean": 0.000741093801142559,
+       "se": 0.00028614788869220424,
+       "n": 80
+      },
+      "min_x_core": {
+       "mean": 0.004766789320644011,
+       "se": 0.0009701025956589032,
+       "n": 47
+      },
+      "min_x_ext": {
+       "mean": 0.014756191501978464,
+       "se": 0.0027062478132361414,
+       "n": 64
+      },
+      "wallheat_sm": {
+       "mean": 0.00020946021470881883,
+       "se": 0.00017001798799353373,
+       "n": 70
+      },
+      "wallheat_lx": {
+       "mean": 0.004775220414270692,
+       "se": 0.0018290787357901981,
+       "n": 78
+      }
+     },
+     "coil_cost": {
+      "min_s_core": {
+       "mean": -0.00938780620988335,
+       "se": 0.002416969745036034,
+       "n": 36
+      },
+      "min_s_ext": {
+       "mean": -0.012271366453798671,
+       "se": 0.002457403427913689,
+       "n": 67
+      },
+      "min_m_core": {
+       "mean": -0.002337121336374848,
+       "se": 0.0005699384528679512,
+       "n": 48
+      },
+      "min_m_ext": {
+       "mean": -0.002541802939356975,
+       "se": 0.00043709594211356715,
+       "n": 67
+      },
+      "min_l_core": {
+       "mean": 0.0029544959511123192,
+       "se": 0.0006239377398656063,
+       "n": 71
+      },
+      "min_l_ext": {
+       "mean": 0.0029328094395581817,
+       "se": 0.0006272662809160058,
+       "n": 80
+      },
+      "min_x_core": {
+       "mean": 0.00520429847107391,
+       "se": 0.0013331841226840954,
+       "n": 47
+      },
+      "min_x_ext": {
+       "mean": 0.007425249964957878,
+       "se": 0.002035327282326667,
+       "n": 64
+      },
+      "wallheat_sm": {
+       "mean": 0.0001696706092162261,
+       "se": 0.00028282976253176203,
+       "n": 70
+      },
+      "wallheat_lx": {
+       "mean": 0.0006003209586904699,
+       "se": 0.00030332701561070293,
+       "n": 78
+      }
+     },
+     "gas_cost": {
+      "min_s_core": {
+       "mean": -0.013329821379882346,
+       "se": 0.0023187688608739903,
+       "n": 36
+      },
+      "min_s_ext": {
+       "mean": -0.009463207043435028,
+       "se": 0.0016192452659797778,
+       "n": 67
+      },
+      "min_m_core": {
+       "mean": -0.003046929554523956,
+       "se": 0.0005771709877873417,
+       "n": 48
+      },
+      "min_m_ext": {
+       "mean": -0.001281562550289093,
+       "se": 0.000553646857590149,
+       "n": 67
+      },
+      "min_l_core": {
+       "mean": 0.0018676319905245715,
+       "se": 0.0004981930829154745,
+       "n": 71
+      },
+      "min_l_ext": {
+       "mean": 0.006224055723750994,
+       "se": 0.001612885670284133,
+       "n": 80
+      },
+      "min_x_core": {
+       "mean": 0.005271405255027515,
+       "se": 0.0016528628716175845,
+       "n": 47
+      },
+      "min_x_ext": {
+       "mean": 0.017435117688495094,
+       "se": 0.005231032040615121,
+       "n": 64
+      },
+      "wallheat_sm": {
+       "mean": 0.0015240856111595092,
+       "se": 0.0005140891493997078,
+       "n": 70
+      },
+      "wallheat_lx": {
+       "mean": 0.011430184556492046,
+       "se": 0.003664389266495826,
+       "n": 78
+      }
+     },
+     "pump_cost": {
+      "min_s_core": {
+       "mean": -0.0006857787562412547,
+       "se": 0.00016235705416116136,
+       "n": 36
+      },
+      "min_s_ext": {
+       "mean": -0.0005701868861162454,
+       "se": 9.089909081948075e-05,
+       "n": 67
+      },
+      "min_m_core": {
+       "mean": -8.756380478969839e-05,
+       "se": 4.408886312308642e-05,
+       "n": 48
+      },
+      "min_m_ext": {
+       "mean": -8.802689968045765e-07,
+       "se": 4.334821585732162e-05,
+       "n": 67
+      },
+      "min_l_core": {
+       "mean": -1.2319729974290001e-05,
+       "se": 2.3501474232196092e-05,
+       "n": 71
+      },
+      "min_l_ext": {
+       "mean": 0.00014171174970317924,
+       "se": 6.819331819551906e-05,
+       "n": 80
+      },
+      "min_x_core": {
+       "mean": 8.491203188209849e-05,
+       "se": 2.3624501846707666e-05,
+       "n": 47
+      },
+      "min_x_ext": {
+       "mean": 0.0004400903014405496,
+       "se": 0.0001566499180120855,
+       "n": 64
+      },
+      "wallheat_sm": {
+       "mean": 7.52784989739911e-05,
+       "se": 4.9773352891008515e-05,
+       "n": 70
+      },
+      "wallheat_lx": {
+       "mean": -0.0001053717502807598,
+       "se": 6.256788705581315e-05,
+       "n": 78
+      }
+     }
+    }
+   },
+   "done": true,
+   "passed": null
+  },
+  "T2": {
+   "attempts": [
+    {
+     "label": "a",
+     "name": "gt_t2a",
+     "why": "main rule: factors below zero by more than one standard error",
+     "map": {
+      "oat_cuts": [
+       -0.8943689320388348,
+       26.982496532593615,
+       27.327919556171985
+      ],
+      "maps": [
+       {
+        "s|core|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "s|perim|0": {},
+        "s|long|0": {
+         "room_cool_margin_k": 0.4
+        },
+        "m|core|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|perim|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|long|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "room_cool_margin_k": 0.4
+        },
+        "l|core|0": {},
+        "l|perim|0": {},
+        "l|long|0": {},
+        "x|core|0": {},
+        "x|perim|0": {},
+        "x|long|0": {}
+       },
+       {
+        "s|core|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "s|perim|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "s|long|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "room_cool_margin_k": 0.4
+        },
+        "m|core|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|perim|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|long|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "room_cool_margin_k": 0.4
+        },
+        "l|core|0": {},
+        "l|perim|0": {},
+        "l|long|0": {},
+        "x|core|0": {},
+        "x|perim|0": {},
+        "x|long|0": {}
+       },
+       {
+        "s|core|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "s|perim|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "s|long|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "room_cool_margin_k": 0.4
+        },
+        "m|core|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|perim|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|long|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "room_cool_margin_k": 0.4
+        },
+        "l|core|0": {},
+        "l|perim|0": {},
+        "l|long|0": {
+         "zone_heat_wall_ref_m": 20.0,
+         "zone_heat_wall_power": 1.0
+        },
+        "x|core|0": {},
+        "x|perim|0": {},
+        "x|long|0": {
+         "zone_heat_wall_ref_m": 20.0,
+         "zone_heat_wall_power": 1.0
+        }
+       },
+       {
+        "s|core|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "s|perim|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "s|long|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "zone_heat_wall_ref_m": 20.0,
+         "zone_heat_wall_power": 1.0,
+         "room_cool_margin_k": 0.4
+        },
+        "m|core|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|perim|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|long|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "zone_heat_wall_ref_m": 20.0,
+         "zone_heat_wall_power": 1.0,
+         "room_cool_margin_k": 0.4
+        },
+        "l|core|0": {},
+        "l|perim|0": {},
+        "l|long|0": {
+         "zone_heat_wall_ref_m": 20.0,
+         "zone_heat_wall_power": 1.0
+        },
+        "x|core|0": {},
+        "x|perim|0": {},
+        "x|long|0": {
+         "zone_heat_wall_ref_m": 20.0,
+         "zone_heat_wall_power": 1.0
+        }
+       }
+      ]
+     },
+     "predicted": -0.0074753615251064885,
+     "closed_loop": {
+      "train_ceiling_rest60": {
+       "mean": -3.242603380463105,
+       "per_scenario": -5.546037611722795,
+       "se": 1.0911817877356023,
+       "better": 46,
+       "worse": 4,
+       "n": 60
+      },
+      "inner": {
+       "mean": -3.555114951597671,
+       "per_scenario": -5.374943195170043,
+       "se": 1.0671843580326343,
+       "better": 26,
+       "worse": 1,
+       "n": 29
+      },
+      "s4_first": {
+       "mean": -0.8317359182994477,
+       "per_scenario": -1.4745894476913441,
+       "se": 0.7101507297978732,
+       "better": 15,
+       "worse": 9,
+       "n": 30
+      }
+     },
+     "against_base": {
+      "train_ceiling_rest60": -0.8398680055918928,
+      "inner": -0.3709284377021782,
+      "s4_first": -0.7509460836512716
+     },
+     "passed": false,
+     "levels": [
+      -1,
+      -1,
+      -1,
+      1,
+      -1,
+      -1,
+      -1,
+      -1
+     ]
+    },
+    {
+     "label": "b",
+     "name": "gt_t2b",
+     "why": "diagnosis T2-1: calibrated (pred -0.75, real -0.62, slope 0.91); gt_t2a beats gm_tree_m1 at every station but its gain is all warm-climate (Atlanta -1.16, Phoenix -1.07, Singapore -0.96; Denver +0.07,",
+     "map": {
+      "oat_cuts": [
+       -0.8943689320388348,
+       13.916185852981968,
+       23.302538141470183,
+       26.982496532593615,
+       27.327919556171985
+      ],
+      "maps": [
+       {
+        "s|core|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "s|perim|0": {
+         "room_heat_margin_k": 0.4
+        },
+        "s|long|0": {
+         "room_heat_margin_k": 0.4,
+         "room_cool_margin_k": 0.4
+        },
+        "m|core|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|perim|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "room_heat_margin_k": 0.4
+        },
+        "m|long|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "room_heat_margin_k": 0.4,
+         "room_cool_margin_k": 0.4
+        },
+        "l|core|0": {},
+        "l|perim|0": {},
+        "l|long|0": {
+         "room_cool_margin_k": 0.4
+        },
+        "x|core|0": {},
+        "x|perim|0": {},
+        "x|long|0": {
+         "room_cool_margin_k": 0.4
+        }
+       },
+       {
+        "s|core|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "s|perim|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "room_heat_margin_k": 0.4
+        },
+        "s|long|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "room_heat_margin_k": 0.4,
+         "room_cool_margin_k": 0.4
+        },
+        "m|core|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|perim|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "room_heat_margin_k": 0.4
+        },
+        "m|long|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "room_heat_margin_k": 0.4,
+         "room_cool_margin_k": 0.4
+        },
+        "l|core|0": {},
+        "l|perim|0": {},
+        "l|long|0": {
+         "room_cool_margin_k": 0.4
+        },
+        "x|core|0": {},
+        "x|perim|0": {},
+        "x|long|0": {
+         "room_cool_margin_k": 0.4
+        }
+       },
+       {
+        "s|core|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "s|perim|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "s|long|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "room_cool_margin_k": 0.4
+        },
+        "m|core|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|perim|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|long|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "room_cool_margin_k": 0.4
+        },
+        "l|core|0": {},
+        "l|perim|0": {},
+        "l|long|0": {
+         "room_cool_margin_k": 0.4
+        },
+        "x|core|0": {},
+        "x|perim|0": {},
+        "x|long|0": {
+         "room_cool_margin_k": 0.4
+        }
+       },
+       {
+        "s|core|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "s|perim|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "s|long|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "room_cool_margin_k": 0.4
+        },
+        "m|core|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|perim|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|long|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "room_cool_margin_k": 0.4
+        },
+        "l|core|0": {},
+        "l|perim|0": {},
+        "l|long|0": {},
+        "x|core|0": {},
+        "x|perim|0": {},
+        "x|long|0": {}
+       },
+       {
+        "s|core|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "s|perim|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "s|long|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "room_cool_margin_k": 0.4
+        },
+        "m|core|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|perim|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|long|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "room_cool_margin_k": 0.4
+        },
+        "l|core|0": {},
+        "l|perim|0": {},
+        "l|long|0": {
+         "zone_heat_wall_ref_m": 20.0,
+         "zone_heat_wall_power": 1.0
+        },
+        "x|core|0": {},
+        "x|perim|0": {},
+        "x|long|0": {
+         "zone_heat_wall_ref_m": 20.0,
+         "zone_heat_wall_power": 1.0
+        }
+       },
+       {
+        "s|core|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "s|perim|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "s|long|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "zone_heat_wall_ref_m": 20.0,
+         "zone_heat_wall_power": 1.0,
+         "room_cool_margin_k": 0.4
+        },
+        "m|core|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|perim|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|long|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "zone_heat_wall_ref_m": 20.0,
+         "zone_heat_wall_power": 1.0,
+         "room_cool_margin_k": 0.4
+        },
+        "l|core|0": {},
+        "l|perim|0": {},
+        "l|long|0": {
+         "zone_heat_wall_ref_m": 20.0,
+         "zone_heat_wall_power": 1.0
+        },
+        "x|core|0": {},
+        "x|perim|0": {},
+        "x|long|0": {
+         "zone_heat_wall_ref_m": 20.0,
+         "zone_heat_wall_power": 1.0
+        }
+       }
+      ]
+     },
+     "predicted": -0.013092133103781125,
+     "closed_loop": {
+      "train_ceiling_rest60": {
+       "mean": -3.4017182919112265,
+       "per_scenario": -5.831136623151784,
+       "se": 1.1091574391815917,
+       "better": 49,
+       "worse": 7,
+       "n": 60
+      },
+      "inner": {
+       "mean": -3.727515221378097,
+       "per_scenario": -5.543888636976278,
+       "se": 1.0749604434098357,
+       "better": 24,
+       "worse": 4,
+       "n": 29
+      },
+      "s4_first": {
+       "mean": -0.9532333595806186,
+       "per_scenario": -1.628748865711022,
+       "se": 0.7118573383605233,
+       "better": 19,
+       "worse": 8,
+       "n": 30
+      }
+     },
+     "against_base": {
+      "train_ceiling_rest60": -0.9989829170400144,
+      "inner": -0.5433287074826043,
+      "s4_first": -0.8724435249324425
+     },
+     "passed": true,
+     "levels": null,
+     "levels_by_spec": {
+      "train/building_10419/atlanta_3": [
+       -1,
+       -1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_11852/atlanta_5": [
+       -1,
+       -1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_12336/atlanta_7": [
+       -1,
+       -1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_12567/atlanta_5": [
+       -1,
+       -1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_14073/atlanta_3": [
+       -1,
+       -1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_16821/atlanta_7": [
+       -1,
+       -1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_19299/atlanta_7": [
+       -1,
+       -1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_19629/atlanta_5": [
+       -1,
+       -1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_11534/denver_1": [
+       -1,
+       1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_14219/denver_3": [
+       -1,
+       1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_16761/denver_3": [
+       -1,
+       1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_17821/denver_3": [
+       -1,
+       1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_18764/denver_7": [
+       -1,
+       1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_19195/denver_3": [
+       -1,
+       1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_19655/denver_1": [
+       -1,
+       1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_19950/denver_1": [
+       -1,
+       1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_12567/fairbanks_3": [
+       -1,
+       1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_15790/fairbanks_1": [
+       -1,
+       1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_16092/fairbanks_7": [
+       -1,
+       1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_18764/fairbanks_5": [
+       -1,
+       -1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_18842/fairbanks_3": [
+       -1,
+       1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_19655/fairbanks_1": [
+       -1,
+       1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_19664/fairbanks_7": [
+       -1,
+       1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_19768/fairbanks_3": [
+       -1,
+       1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_10740/phoenix_3": [
+       -1,
+       -1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_11818/phoenix_3": [
+       -1,
+       -1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_11852/phoenix_1": [
+       -1,
+       1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_11902/phoenix_5": [
+       -1,
+       -1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_13597/phoenix_7": [
+       -1,
+       -1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_14219/phoenix_1": [
+       -1,
+       1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_18842/phoenix_7": [
+       -1,
+       -1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_19664/phoenix_1": [
+       -1,
+       1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_11010/singapore_1": [
+       -1,
+       -1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_11534/singapore_5": [
+       -1,
+       -1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_16092/singapore_5": [
+       -1,
+       -1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_17224/singapore_7": [
+       -1,
+       -1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_17524/singapore_7": [
+       -1,
+       -1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_18662/singapore_5": [
+       -1,
+       -1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_19655/singapore_5": [
+       -1,
+       -1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_19664/singapore_1": [
+       -1,
+       -1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_10298/atlanta_5": [
+       -1,
+       -1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_11400/atlanta_1": [
+       -1,
+       1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_12302/atlanta_3": [
+       -1,
+       -1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_13640/atlanta_5": [
+       -1,
+       -1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_14078/atlanta_1": [
+       -1,
+       1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_14277/atlanta_3": [
+       -1,
+       -1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_14679/atlanta_5": [
+       -1,
+       -1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_17001/atlanta_5": [
+       -1,
+       -1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_10298/denver_3": [
+       -1,
+       1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_11164/denver_1": [
+       -1,
+       1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_12098/denver_7": [
+       -1,
+       1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_12618/denver_3": [
+       -1,
+       1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_13640/denver_7": [
+       -1,
+       1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_14078/denver_3": [
+       -1,
+       1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_15361/denver_1": [
+       -1,
+       1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_16671/denver_7": [
+       -1,
+       1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_10298/fairbanks_5": [
+       -1,
+       -1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_11400/fairbanks_5": [
+       -1,
+       -1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_12098/fairbanks_3": [
+       -1,
+       1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_12302/fairbanks_3": [
+       -1,
+       1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_12739/fairbanks_1": [
+       -1,
+       1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_14042/fairbanks_1": [
+       -1,
+       1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_14277/fairbanks_1": [
+       -1,
+       1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_14979/fairbanks_1": [
+       -1,
+       1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_11104/phoenix_5": [
+       -1,
+       -1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_11754/phoenix_1": [
+       -1,
+       1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_12302/phoenix_3": [
+       -1,
+       -1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_12739/phoenix_1": [
+       -1,
+       1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_14078/phoenix_7": [
+       -1,
+       -1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_14277/phoenix_3": [
+       -1,
+       -1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_14979/phoenix_7": [
+       -1,
+       -1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       1
+      ],
+      "train/building_16710/phoenix_3": [
+       -1,
+       -1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_10298/singapore_3": [
+       -1,
+       -1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_11400/singapore_3": [
+       -1,
+       -1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_14042/singapore_7": [
+       -1,
+       -1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_14213/singapore_3": [
+       -1,
+       -1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_14679/singapore_1": [
+       -1,
+       -1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_15570/singapore_3": [
+       -1,
+       -1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_16710/singapore_5": [
+       -1,
+       -1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1
+      ],
+      "train/building_17084/singapore_3": [
+       -1,
+       -1,
+       -1,
+       1,
+       -1,
+       -1,
+       -1,
+       -1
+      ]
+     }
+    }
+   ],
+   "diagnoses": [
+    "data/runs/b2rl/geo3/diagnosis-T2-1.json"
+   ],
+   "base_map": {
+    "oat_cuts": [
+     -0.8943689320388348,
+     26.982496532593615,
+     27.327919556171985
+    ],
+    "maps": [
+     {
+      "s|core|0": {
+       "zone_min_ra_lps_m2": 0.3,
+       "zone_min_rp_lps_m2": 0.125,
+       "zone_min_oa_divide": true
+      },
+      "s|perim|0": {},
+      "s|long|0": {},
+      "m|core|0": {
+       "zone_min_ra_lps_m2": 0.3,
+       "zone_min_rp_lps_m2": 0.125,
+       "zone_min_oa_divide": true
+      },
+      "m|perim|0": {
+       "zone_min_ra_lps_m2": 0.3,
+       "zone_min_rp_lps_m2": 0.125,
+       "zone_min_oa_divide": true
+      },
+      "m|long|0": {
+       "zone_min_ra_lps_m2": 0.3,
+       "zone_min_rp_lps_m2": 0.125,
+       "zone_min_oa_divide": true
+      },
+      "l|core|0": {},
+      "l|perim|0": {},
+      "l|long|0": {},
+      "x|core|0": {},
+      "x|perim|0": {},
+      "x|long|0": {}
+     },
+     {
+      "s|core|0": {
+       "zone_min_ra_lps_m2": 0.3,
+       "zone_min_rp_lps_m2": 0.125,
+       "zone_min_oa_divide": true
+      },
+      "s|perim|0": {
+       "zone_min_ra_lps_m2": 0.3,
+       "zone_min_rp_lps_m2": 0.125,
+       "zone_min_oa_divide": true
+      },
+      "s|long|0": {
+       "zone_min_ra_lps_m2": 0.3,
+       "zone_min_rp_lps_m2": 0.125,
+       "zone_min_oa_divide": true
+      },
+      "m|core|0": {
+       "zone_min_ra_lps_m2": 0.3,
+       "zone_min_rp_lps_m2": 0.125,
+       "zone_min_oa_divide": true
+      },
+      "m|perim|0": {
+       "zone_min_ra_lps_m2": 0.3,
+       "zone_min_rp_lps_m2": 0.125,
+       "zone_min_oa_divide": true
+      },
+      "m|long|0": {
+       "zone_min_ra_lps_m2": 0.3,
+       "zone_min_rp_lps_m2": 0.125,
+       "zone_min_oa_divide": true
+      },
+      "l|core|0": {},
+      "l|perim|0": {},
+      "l|long|0": {},
+      "x|core|0": {},
+      "x|perim|0": {},
+      "x|long|0": {}
+     },
+     {
+      "s|core|0": {
+       "zone_min_ra_lps_m2": 0.3,
+       "zone_min_rp_lps_m2": 0.125,
+       "zone_min_oa_divide": true
+      },
+      "s|perim|0": {
+       "zone_min_ra_lps_m2": 0.3,
+       "zone_min_rp_lps_m2": 0.125,
+       "zone_min_oa_divide": true
+      },
+      "s|long|0": {
+       "zone_min_ra_lps_m2": 0.3,
+       "zone_min_rp_lps_m2": 0.125,
+       "zone_min_oa_divide": true
+      },
+      "m|core|0": {
+       "zone_min_ra_lps_m2": 0.3,
+       "zone_min_rp_lps_m2": 0.125,
+       "zone_min_oa_divide": true
+      },
+      "m|perim|0": {
+       "zone_min_ra_lps_m2": 0.3,
+       "zone_min_rp_lps_m2": 0.125,
+       "zone_min_oa_divide": true
+      },
+      "m|long|0": {
+       "zone_min_ra_lps_m2": 0.3,
+       "zone_min_rp_lps_m2": 0.125,
+       "zone_min_oa_divide": true
+      },
+      "l|core|0": {},
+      "l|perim|0": {},
+      "l|long|0": {
+       "zone_heat_wall_ref_m": 20.0,
+       "zone_heat_wall_power": 1.0
+      },
+      "x|core|0": {},
+      "x|perim|0": {},
+      "x|long|0": {
+       "zone_heat_wall_ref_m": 20.0,
+       "zone_heat_wall_power": 1.0
+      }
+     },
+     {
+      "s|core|0": {
+       "zone_min_ra_lps_m2": 0.3,
+       "zone_min_rp_lps_m2": 0.125,
+       "zone_min_oa_divide": true
+      },
+      "s|perim|0": {
+       "zone_min_ra_lps_m2": 0.3,
+       "zone_min_rp_lps_m2": 0.125,
+       "zone_min_oa_divide": true
+      },
+      "s|long|0": {
+       "zone_min_ra_lps_m2": 0.3,
+       "zone_min_rp_lps_m2": 0.125,
+       "zone_min_oa_divide": true,
+       "zone_heat_wall_ref_m": 20.0,
+       "zone_heat_wall_power": 1.0
+      },
+      "m|core|0": {
+       "zone_min_ra_lps_m2": 0.3,
+       "zone_min_rp_lps_m2": 0.125,
+       "zone_min_oa_divide": true
+      },
+      "m|perim|0": {
+       "zone_min_ra_lps_m2": 0.3,
+       "zone_min_rp_lps_m2": 0.125,
+       "zone_min_oa_divide": true
+      },
+      "m|long|0": {
+       "zone_min_ra_lps_m2": 0.3,
+       "zone_min_rp_lps_m2": 0.125,
+       "zone_min_oa_divide": true,
+       "zone_heat_wall_ref_m": 20.0,
+       "zone_heat_wall_power": 1.0
+      },
+      "l|core|0": {},
+      "l|perim|0": {},
+      "l|long|0": {
+       "zone_heat_wall_ref_m": 20.0,
+       "zone_heat_wall_power": 1.0
+      },
+      "x|core|0": {},
+      "x|perim|0": {},
+      "x|long|0": {
+       "zone_heat_wall_ref_m": 20.0,
+       "zone_heat_wall_power": 1.0
+      }
+     }
+    ]
+   },
+   "design": {
+    "summary": {
+     "heat_edge_core_sm": {
+      "mean": 0.0001243040932214577,
+      "se": 0.0003006780569306713,
+      "n": 48
+     },
+     "heat_warm_ext_sm": {
+      "mean": -0.0023255240922594707,
+      "se": 0.002606737136800644,
+      "n": 70
+     },
+     "cool_edge_sm": {
+      "mean": 0.020344906904335897,
+      "se": 0.0034315365170881785,
+      "n": 68
+     },
+     "cool_inner_long_sm": {
+      "mean": -0.008543270314407415,
+      "se": 0.0025992349021154403,
+      "n": 70
+     },
+     "heat_edge_core_lx": {
+      "mean": 0.00037862659649383405,
+      "se": 0.0002513145711120509,
+      "n": 77
+     },
+     "heat_warm_ext_lx": {
+      "mean": 0.0067726703565780646,
+      "se": 0.001590428809405756,
+      "n": 80
+     },
+     "cool_edge_lx": {
+      "mean": 0.02693976049285013,
+      "se": 0.0041527303519874525,
+      "n": 80
+     },
+     "cool_inner_long_lx": {
+      "mean": 0.0005723219498047875,
+      "se": 0.0013339395450927976,
+      "n": 78
+     }
+    },
+    "lobo": {
+     "lobo_predicted": -0.005965328955075183,
+     "per_scenario_oracle": -0.019293678996319768
+    },
+    "parts": {
+     "comfort_cost": {
+      "heat_edge_core_sm": {
+       "mean": 0.0004229862795362183,
+       "se": 0.00025956886896901703,
+       "n": 48
+      },
+      "heat_warm_ext_sm": {
+       "mean": -0.012231434966732603,
+       "se": 0.0034412290312390483,
+       "n": 70
+      },
+      "cool_edge_sm": {
+       "mean": 0.021751067939554655,
+       "se": 0.003602217609237454,
+       "n": 68
+      },
+      "cool_inner_long_sm": {
+       "mean": -0.010511846298693242,
+       "se": 0.0027631142385013707,
+       "n": 70
+      },
+      "heat_edge_core_lx": {
+       "mean": 0.0004276451107346716,
+       "se": 0.0002318227509793158,
+       "n": 77
+      },
+      "heat_warm_ext_lx": {
+       "mean": -0.0025976279256474263,
+       "se": 0.0009345370763327633,
+       "n": 80
+      },
+      "cool_edge_lx": {
+       "mean": 0.030547994661101772,
+       "se": 0.004533894665538575,
+       "n": 80
+      },
+      "cool_inner_long_lx": {
+       "mean": -0.009252550813381362,
+       "se": 0.0013508102156450906,
+       "n": 78
+      }
+     },
+     "fan_cost": {
+      "heat_edge_core_sm": {
+       "mean": 8.424387163664746e-06,
+       "se": 1.0910787509259256e-05,
+       "n": 48
+      },
+      "heat_warm_ext_sm": {
+       "mean": 0.0005675248280941189,
+       "se": 9.025294739549177e-05,
+       "n": 70
+      },
+      "cool_edge_sm": {
+       "mean": -0.00021457977986998918,
+       "se": 4.534835415497725e-05,
+       "n": 68
+      },
+      "cool_inner_long_sm": {
+       "mean": 2.6912404741673498e-05,
+       "se": 2.4936996430350618e-05,
+       "n": 70
+      },
+      "heat_edge_core_lx": {
+       "mean": -6.769646595191002e-06,
+       "se": 1.3024828913359504e-05,
+       "n": 77
+      },
+      "heat_warm_ext_lx": {
+       "mean": 0.001056569011978745,
+       "se": 0.00023220328900568811,
+       "n": 80
+      },
+      "cool_edge_lx": {
+       "mean": -0.0011102877635138328,
+       "se": 0.00026931102031692224,
+       "n": 80
+      },
+      "cool_inner_long_lx": {
+       "mean": 0.0016465070459204896,
+       "se": 0.00034075656513124443,
+       "n": 78
+      }
+     },
+     "coil_cost": {
+      "heat_edge_core_sm": {
+       "mean": 4.065025888953124e-05,
+       "se": 1.9210374985191587e-05,
+       "n": 48
+      },
+      "heat_warm_ext_sm": {
+       "mean": 0.00016375461659948887,
+       "se": 5.613704560620845e-05,
+       "n": 70
+      },
+      "cool_edge_sm": {
+       "mean": -0.0008229466159244814,
+       "se": 0.0001378161644642654,
+       "n": 68
+      },
+      "cool_inner_long_sm": {
+       "mean": 0.0017118002799810898,
+       "se": 0.00031431687703706643,
+       "n": 70
+      },
+      "heat_edge_core_lx": {
+       "mean": 4.187441842945139e-05,
+       "se": 1.4224520815254662e-05,
+       "n": 77
+      },
+      "heat_warm_ext_lx": {
+       "mean": 0.0003287186757281269,
+       "se": 6.231316698056876e-05,
+       "n": 80
+      },
+      "cool_edge_lx": {
+       "mean": -0.0018235124037423594,
+       "se": 0.00022949795393759182,
+       "n": 80
+      },
+      "cool_inner_long_lx": {
+       "mean": 0.007772334520951654,
+       "se": 0.0009321406138894122,
+       "n": 78
+      }
+     },
+     "gas_cost": {
+      "heat_edge_core_sm": {
+       "mean": -0.0002818944623803461,
+       "se": 0.00020245218818961156,
+       "n": 48
+      },
+      "heat_warm_ext_sm": {
+       "mean": 0.007937687758703398,
+       "se": 0.0013370132882386235,
+       "n": 70
+      },
+      "cool_edge_sm": {
+       "mean": -0.00034783322811990163,
+       "se": 9.309459152978742e-05,
+       "n": 68
+      },
+      "cool_inner_long_sm": {
+       "mean": 0.00015265367837223248,
+       "se": 6.320973820664036e-05,
+       "n": 70
+      },
+      "heat_edge_core_lx": {
+       "mean": -6.141979714311316e-05,
+       "se": 5.3566180956259995e-05,
+       "n": 77
+      },
+      "heat_warm_ext_lx": {
+       "mean": 0.007349645046021286,
+       "se": 0.0011735137796560218,
+       "n": 80
+      },
+      "cool_edge_lx": {
+       "mean": -0.0006362860911417022,
+       "se": 0.00012870901774166362,
+       "n": 80
+      },
+      "cool_inner_long_lx": {
+       "mean": 0.0003088044389678536,
+       "se": 9.842637417231283e-05,
+       "n": 78
+      }
+     },
+     "pump_cost": {
+      "heat_edge_core_sm": {
+       "mean": 1.8898479357462203e-05,
+       "se": 1.1294963769331955e-05,
+       "n": 48
+      },
+      "heat_warm_ext_sm": {
+       "mean": 0.0005286379949257112,
+       "se": 8.419094469346674e-05,
+       "n": 70
+      },
+      "cool_edge_sm": {
+       "mean": -1.8461025686224396e-05,
+       "se": 5.8812812524770965e-06,
+       "n": 68
+      },
+      "cool_inner_long_sm": {
+       "mean": -4.41045111145378e-06,
+       "se": 5.647780817330425e-06,
+       "n": 70
+      },
+      "heat_edge_core_lx": {
+       "mean": 6.371957301188376e-06,
+       "se": 4.178713286677471e-06,
+       "n": 77
+      },
+      "heat_warm_ext_lx": {
+       "mean": 0.0003206558747640469,
+       "se": 5.3718745756090666e-05,
+       "n": 80
+      },
+      "cool_edge_lx": {
+       "mean": -3.434240102603398e-05,
+       "se": 6.578061907598519e-06,
+       "n": 80
+      },
+      "cool_inner_long_lx": {
+       "mean": 1.5430014444522306e-05,
+       "se": 6.033334974807709e-06,
+       "n": 78
+      }
+     }
+    }
+   },
+   "done": true,
+   "passed": "gt_t2b"
+  },
+  "T3": {
+   "attempts": [
+    {
+     "label": "a",
+     "name": "gt_t3a",
+     "why": "main rule: factors below zero by more than one standard error",
+     "map": {
+      "oat_cuts": [
+       -0.8943689320388348,
+       13.916185852981968,
+       23.302538141470183,
+       26.982496532593615,
+       27.327919556171985
+      ],
+      "maps": [
+       {
+        "s|core|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "s|core|1": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "s|core|2": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "s|core|3": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "s|perim|0": {
+         "room_heat_margin_k": 0.4
+        },
+        "s|perim|1": {
+         "room_heat_margin_k": 0.4
+        },
+        "s|perim|2": {
+         "room_heat_margin_k": 0.4
+        },
+        "s|perim|3": {
+         "room_heat_margin_k": 0.4
+        },
+        "s|long|0": {
+         "room_heat_margin_k": 0.4,
+         "room_cool_margin_k": 0.4
+        },
+        "s|long|1": {
+         "room_heat_margin_k": 0.4,
+         "room_cool_margin_k": 0.4
+        },
+        "s|long|2": {
+         "room_heat_margin_k": 0.4,
+         "room_cool_margin_k": 0.4
+        },
+        "s|long|3": {
+         "room_heat_margin_k": 0.4,
+         "room_cool_margin_k": 0.4
+        },
+        "m|core|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|core|1": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|core|2": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|core|3": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|perim|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "room_heat_margin_k": 0.4
+        },
+        "m|perim|1": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "room_heat_margin_k": 0.4
+        },
+        "m|perim|2": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "room_heat_margin_k": 0.4
+        },
+        "m|perim|3": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "room_heat_margin_k": 0.4
+        },
+        "m|long|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "room_heat_margin_k": 0.4,
+         "room_cool_margin_k": 0.4
+        },
+        "m|long|1": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "room_heat_margin_k": 0.4,
+         "room_cool_margin_k": 0.4
+        },
+        "m|long|2": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "room_heat_margin_k": 0.4,
+         "room_cool_margin_k": 0.4
+        },
+        "m|long|3": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "room_heat_margin_k": 0.4,
+         "room_cool_margin_k": 0.4
+        },
+        "l|core|0": {},
+        "l|core|1": {},
+        "l|core|2": {},
+        "l|core|3": {},
+        "l|perim|0": {},
+        "l|perim|1": {},
+        "l|perim|2": {},
+        "l|perim|3": {},
+        "l|long|0": {
+         "room_cool_margin_k": 0.4
+        },
+        "l|long|1": {
+         "room_cool_margin_k": 0.4
+        },
+        "l|long|2": {
+         "room_cool_margin_k": 0.4
+        },
+        "l|long|3": {
+         "room_cool_margin_k": 0.4
+        },
+        "x|core|0": {},
+        "x|core|1": {},
+        "x|core|2": {},
+        "x|core|3": {},
+        "x|perim|0": {},
+        "x|perim|1": {},
+        "x|perim|2": {},
+        "x|perim|3": {},
+        "x|long|0": {
+         "room_cool_margin_k": 0.4
+        },
+        "x|long|1": {
+         "room_cool_margin_k": 0.4
+        },
+        "x|long|2": {
+         "room_cool_margin_k": 0.4
+        },
+        "x|long|3": {
+         "room_cool_margin_k": 0.4
+        }
+       },
+       {
+        "s|core|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "s|core|1": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "s|core|2": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "s|core|3": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "s|perim|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "room_heat_margin_k": 0.4
+        },
+        "s|perim|1": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "room_heat_margin_k": 0.4
+        },
+        "s|perim|2": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "room_heat_margin_k": 0.4
+        },
+        "s|perim|3": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "room_heat_margin_k": 0.4
+        },
+        "s|long|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "room_heat_margin_k": 0.4,
+         "room_cool_margin_k": 0.4
+        },
+        "s|long|1": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "room_heat_margin_k": 0.4,
+         "room_cool_margin_k": 0.4
+        },
+        "s|long|2": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "room_heat_margin_k": 0.4,
+         "room_cool_margin_k": 0.4
+        },
+        "s|long|3": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "room_heat_margin_k": 0.4,
+         "room_cool_margin_k": 0.4
+        },
+        "m|core|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|core|1": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|core|2": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|core|3": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|perim|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "room_heat_margin_k": 0.4
+        },
+        "m|perim|1": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "room_heat_margin_k": 0.4
+        },
+        "m|perim|2": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "room_heat_margin_k": 0.4
+        },
+        "m|perim|3": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "room_heat_margin_k": 0.4
+        },
+        "m|long|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "room_heat_margin_k": 0.4,
+         "room_cool_margin_k": 0.4
+        },
+        "m|long|1": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "room_heat_margin_k": 0.4,
+         "room_cool_margin_k": 0.4
+        },
+        "m|long|2": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "room_heat_margin_k": 0.4,
+         "room_cool_margin_k": 0.4
+        },
+        "m|long|3": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "room_heat_margin_k": 0.4,
+         "room_cool_margin_k": 0.4
+        },
+        "l|core|0": {},
+        "l|core|1": {},
+        "l|core|2": {},
+        "l|core|3": {},
+        "l|perim|0": {},
+        "l|perim|1": {},
+        "l|perim|2": {},
+        "l|perim|3": {},
+        "l|long|0": {
+         "room_cool_margin_k": 0.4
+        },
+        "l|long|1": {
+         "room_cool_margin_k": 0.4
+        },
+        "l|long|2": {
+         "room_cool_margin_k": 0.4
+        },
+        "l|long|3": {
+         "room_cool_margin_k": 0.4
+        },
+        "x|core|0": {},
+        "x|core|1": {},
+        "x|core|2": {},
+        "x|core|3": {},
+        "x|perim|0": {},
+        "x|perim|1": {},
+        "x|perim|2": {},
+        "x|perim|3": {},
+        "x|long|0": {
+         "room_cool_margin_k": 0.4
+        },
+        "x|long|1": {
+         "room_cool_margin_k": 0.4
+        },
+        "x|long|2": {
+         "room_cool_margin_k": 0.4
+        },
+        "x|long|3": {
+         "room_cool_margin_k": 0.4
+        }
+       },
+       {
+        "s|core|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "s|core|1": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "s|core|2": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "s|core|3": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "s|perim|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "s|perim|1": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "s|perim|2": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "s|perim|3": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "s|long|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "room_cool_margin_k": 0.4
+        },
+        "s|long|1": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "room_cool_margin_k": 0.4
+        },
+        "s|long|2": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "room_cool_margin_k": 0.4
+        },
+        "s|long|3": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "room_cool_margin_k": 0.4
+        },
+        "m|core|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|core|1": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|core|2": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|core|3": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|perim|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|perim|1": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|perim|2": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|perim|3": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|long|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "room_cool_margin_k": 0.4
+        },
+        "m|long|1": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "room_cool_margin_k": 0.4
+        },
+        "m|long|2": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "room_cool_margin_k": 0.4
+        },
+        "m|long|3": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "room_cool_margin_k": 0.4
+        },
+        "l|core|0": {},
+        "l|core|1": {},
+        "l|core|2": {},
+        "l|core|3": {},
+        "l|perim|0": {},
+        "l|perim|1": {},
+        "l|perim|2": {},
+        "l|perim|3": {},
+        "l|long|0": {
+         "room_cool_margin_k": 0.4
+        },
+        "l|long|1": {
+         "room_cool_margin_k": 0.4
+        },
+        "l|long|2": {
+         "room_cool_margin_k": 0.4
+        },
+        "l|long|3": {
+         "room_cool_margin_k": 0.4
+        },
+        "x|core|0": {},
+        "x|core|1": {},
+        "x|core|2": {},
+        "x|core|3": {},
+        "x|perim|0": {},
+        "x|perim|1": {},
+        "x|perim|2": {},
+        "x|perim|3": {},
+        "x|long|0": {
+         "room_cool_margin_k": 0.4
+        },
+        "x|long|1": {
+         "room_cool_margin_k": 0.4
+        },
+        "x|long|2": {
+         "room_cool_margin_k": 0.4
+        },
+        "x|long|3": {
+         "room_cool_margin_k": 0.4
+        }
+       },
+       {
+        "s|core|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "s|core|1": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "s|core|2": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "s|core|3": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "s|perim|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "s|perim|1": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "s|perim|2": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "s|perim|3": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "s|long|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "room_cool_margin_k": 0.4
+        },
+        "s|long|1": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "room_cool_margin_k": 0.4
+        },
+        "s|long|2": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "room_cool_margin_k": 0.4
+        },
+        "s|long|3": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "room_cool_margin_k": 0.4
+        },
+        "m|core|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|core|1": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|core|2": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|core|3": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|perim|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|perim|1": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|perim|2": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|perim|3": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|long|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "room_cool_margin_k": 0.4
+        },
+        "m|long|1": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "room_cool_margin_k": 0.4
+        },
+        "m|long|2": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "room_cool_margin_k": 0.4
+        },
+        "m|long|3": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "room_cool_margin_k": 0.4
+        },
+        "l|core|0": {},
+        "l|core|1": {},
+        "l|core|2": {},
+        "l|core|3": {},
+        "l|perim|0": {},
+        "l|perim|1": {},
+        "l|perim|2": {},
+        "l|perim|3": {},
+        "l|long|0": {},
+        "l|long|1": {},
+        "l|long|2": {},
+        "l|long|3": {},
+        "x|core|0": {},
+        "x|core|1": {},
+        "x|core|2": {},
+        "x|core|3": {},
+        "x|perim|0": {},
+        "x|perim|1": {},
+        "x|perim|2": {},
+        "x|perim|3": {},
+        "x|long|0": {},
+        "x|long|1": {},
+        "x|long|2": {},
+        "x|long|3": {}
+       },
+       {
+        "s|core|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "s|core|1": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "s|core|2": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "s|core|3": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "s|perim|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "s|perim|1": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "s|perim|2": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "s|perim|3": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "s|long|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "room_cool_margin_k": 0.4
+        },
+        "s|long|1": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "room_cool_margin_k": 0.4
+        },
+        "s|long|2": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "room_cool_margin_k": 0.4
+        },
+        "s|long|3": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "room_cool_margin_k": 0.4
+        },
+        "m|core|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|core|1": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|core|2": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|core|3": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|perim|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|perim|1": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|perim|2": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|perim|3": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|long|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "room_cool_margin_k": 0.4
+        },
+        "m|long|1": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "room_cool_margin_k": 0.4
+        },
+        "m|long|2": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "room_cool_margin_k": 0.4
+        },
+        "m|long|3": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "room_cool_margin_k": 0.4
+        },
+        "l|core|0": {},
+        "l|core|1": {},
+        "l|core|2": {},
+        "l|core|3": {},
+        "l|perim|0": {},
+        "l|perim|1": {},
+        "l|perim|2": {},
+        "l|perim|3": {},
+        "l|long|0": {
+         "zone_heat_wall_ref_m": 20.0,
+         "zone_heat_wall_power": 1.0
+        },
+        "l|long|1": {
+         "zone_heat_wall_ref_m": 20.0,
+         "zone_heat_wall_power": 1.0
+        },
+        "l|long|2": {
+         "zone_heat_wall_ref_m": 20.0,
+         "zone_heat_wall_power": 1.0
+        },
+        "l|long|3": {
+         "zone_heat_wall_ref_m": 20.0,
+         "zone_heat_wall_power": 1.0
+        },
+        "x|core|0": {},
+        "x|core|1": {},
+        "x|core|2": {},
+        "x|core|3": {},
+        "x|perim|0": {},
+        "x|perim|1": {},
+        "x|perim|2": {},
+        "x|perim|3": {},
+        "x|long|0": {
+         "zone_heat_wall_ref_m": 20.0,
+         "zone_heat_wall_power": 1.0
+        },
+        "x|long|1": {
+         "zone_heat_wall_ref_m": 20.0,
+         "zone_heat_wall_power": 1.0
+        },
+        "x|long|2": {
+         "zone_heat_wall_ref_m": 20.0,
+         "zone_heat_wall_power": 1.0
+        },
+        "x|long|3": {
+         "zone_heat_wall_ref_m": 20.0,
+         "zone_heat_wall_power": 1.0
+        }
+       },
+       {
+        "s|core|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "s|core|1": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "s|core|2": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "s|core|3": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "s|perim|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "s|perim|1": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "s|perim|2": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "s|perim|3": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "s|long|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "zone_heat_wall_ref_m": 20.0,
+         "zone_heat_wall_power": 1.0,
+         "room_cool_margin_k": 0.4
+        },
+        "s|long|1": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "zone_heat_wall_ref_m": 20.0,
+         "zone_heat_wall_power": 1.0,
+         "room_cool_margin_k": 0.4
+        },
+        "s|long|2": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "zone_heat_wall_ref_m": 20.0,
+         "zone_heat_wall_power": 1.0,
+         "room_cool_margin_k": 0.4
+        },
+        "s|long|3": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "zone_heat_wall_ref_m": 20.0,
+         "zone_heat_wall_power": 1.0,
+         "room_cool_margin_k": 0.4
+        },
+        "m|core|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|core|1": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|core|2": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|core|3": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|perim|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|perim|1": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|perim|2": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|perim|3": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true
+        },
+        "m|long|0": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "zone_heat_wall_ref_m": 20.0,
+         "zone_heat_wall_power": 1.0,
+         "room_cool_margin_k": 0.4
+        },
+        "m|long|1": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "zone_heat_wall_ref_m": 20.0,
+         "zone_heat_wall_power": 1.0,
+         "room_cool_margin_k": 0.4
+        },
+        "m|long|2": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "zone_heat_wall_ref_m": 20.0,
+         "zone_heat_wall_power": 1.0,
+         "room_cool_margin_k": 0.4
+        },
+        "m|long|3": {
+         "zone_min_ra_lps_m2": 0.3,
+         "zone_min_rp_lps_m2": 0.125,
+         "zone_min_oa_divide": true,
+         "zone_heat_wall_ref_m": 20.0,
+         "zone_heat_wall_power": 1.0,
+         "room_cool_margin_k": 0.4
+        },
+        "l|core|0": {},
+        "l|core|1": {},
+        "l|core|2": {},
+        "l|core|3": {},
+        "l|perim|0": {},
+        "l|perim|1": {},
+        "l|perim|2": {},
+        "l|perim|3": {},
+        "l|long|0": {
+         "zone_heat_wall_ref_m": 20.0,
+         "zone_heat_wall_power": 1.0
+        },
+        "l|long|1": {
+         "zone_heat_wall_ref_m": 20.0,
+         "zone_heat_wall_power": 1.0
+        },
+        "l|long|2": {
+         "zone_heat_wall_ref_m": 20.0,
+         "zone_heat_wall_power": 1.0
+        },
+        "l|long|3": {
+         "zone_heat_wall_ref_m": 20.0,
+         "zone_heat_wall_power": 1.0
+        },
+        "x|core|0": {},
+        "x|core|1": {},
+        "x|core|2": {},
+        "x|core|3": {},
+        "x|perim|0": {},
+        "x|perim|1": {},
+        "x|perim|2": {},
+        "x|perim|3": {},
+        "x|long|0": {
+         "zone_heat_wall_ref_m": 20.0,
+         "zone_heat_wall_power": 1.0
+        },
+        "x|long|1": {
+         "zone_heat_wall_ref_m": 20.0,
+         "zone_heat_wall_power": 1.0
+        },
+        "x|long|2": {
+         "zone_heat_wall_ref_m": 20.0,
+         "zone_heat_wall_power": 1.0
+        },
+        "x|long|3": {
+         "zone_heat_wall_ref_m": 20.0,
+         "zone_heat_wall_power": 1.0
+        }
+       }
+      ]
+     },
+     "predicted": 0.0,
+     "closed_loop": {
+      "train_ceiling_rest60": {
+       "mean": -3.4017182919112265,
+       "per_scenario": -5.831136623151784,
+       "se": 1.1091574391815917,
+       "better": 49,
+       "worse": 7,
+       "n": 60
+      },
+      "inner": {
+       "mean": -3.727515221378097,
+       "per_scenario": -5.543888636976278,
+       "se": 1.0749604434098357,
+       "better": 24,
+       "worse": 4,
+       "n": 29
+      },
+      "s4_first": {
+       "mean": -0.9532333595806186,
+       "per_scenario": -1.628748865711022,
+       "se": 0.7118573383605233,
+       "better": 19,
+       "worse": 8,
+       "n": 30
+      }
+     },
+     "against_base": {
+      "train_ceiling_rest60": 0.0,
+      "inner": 0.0,
+      "s4_first": 0.0
+     },
+     "passed": false,
+     "levels": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+     ]
+    }
+   ],
+   "diagnoses": [
+    "data/runs/b2rl/geo3/diagnosis-T3-1.json"
+   ],
+   "base_map": {
+    "oat_cuts": [
+     -0.8943689320388348,
+     13.916185852981968,
+     23.302538141470183,
+     26.982496532593615,
+     27.327919556171985
+    ],
+    "maps": [
+     {
+      "s|core|0": {
+       "zone_min_ra_lps_m2": 0.3,
+       "zone_min_rp_lps_m2": 0.125,
+       "zone_min_oa_divide": true
+      },
+      "s|perim|0": {
+       "room_heat_margin_k": 0.4
+      },
+      "s|long|0": {
+       "room_heat_margin_k": 0.4,
+       "room_cool_margin_k": 0.4
+      },
+      "m|core|0": {
+       "zone_min_ra_lps_m2": 0.3,
+       "zone_min_rp_lps_m2": 0.125,
+       "zone_min_oa_divide": true
+      },
+      "m|perim|0": {
+       "zone_min_ra_lps_m2": 0.3,
+       "zone_min_rp_lps_m2": 0.125,
+       "zone_min_oa_divide": true,
+       "room_heat_margin_k": 0.4
+      },
+      "m|long|0": {
+       "zone_min_ra_lps_m2": 0.3,
+       "zone_min_rp_lps_m2": 0.125,
+       "zone_min_oa_divide": true,
+       "room_heat_margin_k": 0.4,
+       "room_cool_margin_k": 0.4
+      },
+      "l|core|0": {},
+      "l|perim|0": {},
+      "l|long|0": {
+       "room_cool_margin_k": 0.4
+      },
+      "x|core|0": {},
+      "x|perim|0": {},
+      "x|long|0": {
+       "room_cool_margin_k": 0.4
+      }
+     },
+     {
+      "s|core|0": {
+       "zone_min_ra_lps_m2": 0.3,
+       "zone_min_rp_lps_m2": 0.125,
+       "zone_min_oa_divide": true
+      },
+      "s|perim|0": {
+       "zone_min_ra_lps_m2": 0.3,
+       "zone_min_rp_lps_m2": 0.125,
+       "zone_min_oa_divide": true,
+       "room_heat_margin_k": 0.4
+      },
+      "s|long|0": {
+       "zone_min_ra_lps_m2": 0.3,
+       "zone_min_rp_lps_m2": 0.125,
+       "zone_min_oa_divide": true,
+       "room_heat_margin_k": 0.4,
+       "room_cool_margin_k": 0.4
+      },
+      "m|core|0": {
+       "zone_min_ra_lps_m2": 0.3,
+       "zone_min_rp_lps_m2": 0.125,
+       "zone_min_oa_divide": true
+      },
+      "m|perim|0": {
+       "zone_min_ra_lps_m2": 0.3,
+       "zone_min_rp_lps_m2": 0.125,
+       "zone_min_oa_divide": true,
+       "room_heat_margin_k": 0.4
+      },
+      "m|long|0": {
+       "zone_min_ra_lps_m2": 0.3,
+       "zone_min_rp_lps_m2": 0.125,
+       "zone_min_oa_divide": true,
+       "room_heat_margin_k": 0.4,
+       "room_cool_margin_k": 0.4
+      },
+      "l|core|0": {},
+      "l|perim|0": {},
+      "l|long|0": {
+       "room_cool_margin_k": 0.4
+      },
+      "x|core|0": {},
+      "x|perim|0": {},
+      "x|long|0": {
+       "room_cool_margin_k": 0.4
+      }
+     },
+     {
+      "s|core|0": {
+       "zone_min_ra_lps_m2": 0.3,
+       "zone_min_rp_lps_m2": 0.125,
+       "zone_min_oa_divide": true
+      },
+      "s|perim|0": {
+       "zone_min_ra_lps_m2": 0.3,
+       "zone_min_rp_lps_m2": 0.125,
+       "zone_min_oa_divide": true
+      },
+      "s|long|0": {
+       "zone_min_ra_lps_m2": 0.3,
+       "zone_min_rp_lps_m2": 0.125,
+       "zone_min_oa_divide": true,
+       "room_cool_margin_k": 0.4
+      },
+      "m|core|0": {
+       "zone_min_ra_lps_m2": 0.3,
+       "zone_min_rp_lps_m2": 0.125,
+       "zone_min_oa_divide": true
+      },
+      "m|perim|0": {
+       "zone_min_ra_lps_m2": 0.3,
+       "zone_min_rp_lps_m2": 0.125,
+       "zone_min_oa_divide": true
+      },
+      "m|long|0": {
+       "zone_min_ra_lps_m2": 0.3,
+       "zone_min_rp_lps_m2": 0.125,
+       "zone_min_oa_divide": true,
+       "room_cool_margin_k": 0.4
+      },
+      "l|core|0": {},
+      "l|perim|0": {},
+      "l|long|0": {
+       "room_cool_margin_k": 0.4
+      },
+      "x|core|0": {},
+      "x|perim|0": {},
+      "x|long|0": {
+       "room_cool_margin_k": 0.4
+      }
+     },
+     {
+      "s|core|0": {
+       "zone_min_ra_lps_m2": 0.3,
+       "zone_min_rp_lps_m2": 0.125,
+       "zone_min_oa_divide": true
+      },
+      "s|perim|0": {
+       "zone_min_ra_lps_m2": 0.3,
+       "zone_min_rp_lps_m2": 0.125,
+       "zone_min_oa_divide": true
+      },
+      "s|long|0": {
+       "zone_min_ra_lps_m2": 0.3,
+       "zone_min_rp_lps_m2": 0.125,
+       "zone_min_oa_divide": true,
+       "room_cool_margin_k": 0.4
+      },
+      "m|core|0": {
+       "zone_min_ra_lps_m2": 0.3,
+       "zone_min_rp_lps_m2": 0.125,
+       "zone_min_oa_divide": true
+      },
+      "m|perim|0": {
+       "zone_min_ra_lps_m2": 0.3,
+       "zone_min_rp_lps_m2": 0.125,
+       "zone_min_oa_divide": true
+      },
+      "m|long|0": {
+       "zone_min_ra_lps_m2": 0.3,
+       "zone_min_rp_lps_m2": 0.125,
+       "zone_min_oa_divide": true,
+       "room_cool_margin_k": 0.4
+      },
+      "l|core|0": {},
+      "l|perim|0": {},
+      "l|long|0": {},
+      "x|core|0": {},
+      "x|perim|0": {},
+      "x|long|0": {}
+     },
+     {
+      "s|core|0": {
+       "zone_min_ra_lps_m2": 0.3,
+       "zone_min_rp_lps_m2": 0.125,
+       "zone_min_oa_divide": true
+      },
+      "s|perim|0": {
+       "zone_min_ra_lps_m2": 0.3,
+       "zone_min_rp_lps_m2": 0.125,
+       "zone_min_oa_divide": true
+      },
+      "s|long|0": {
+       "zone_min_ra_lps_m2": 0.3,
+       "zone_min_rp_lps_m2": 0.125,
+       "zone_min_oa_divide": true,
+       "room_cool_margin_k": 0.4
+      },
+      "m|core|0": {
+       "zone_min_ra_lps_m2": 0.3,
+       "zone_min_rp_lps_m2": 0.125,
+       "zone_min_oa_divide": true
+      },
+      "m|perim|0": {
+       "zone_min_ra_lps_m2": 0.3,
+       "zone_min_rp_lps_m2": 0.125,
+       "zone_min_oa_divide": true
+      },
+      "m|long|0": {
+       "zone_min_ra_lps_m2": 0.3,
+       "zone_min_rp_lps_m2": 0.125,
+       "zone_min_oa_divide": true,
+       "room_cool_margin_k": 0.4
+      },
+      "l|core|0": {},
+      "l|perim|0": {},
+      "l|long|0": {
+       "zone_heat_wall_ref_m": 20.0,
+       "zone_heat_wall_power": 1.0
+      },
+      "x|core|0": {},
+      "x|perim|0": {},
+      "x|long|0": {
+       "zone_heat_wall_ref_m": 20.0,
+       "zone_heat_wall_power": 1.0
+      }
+     },
+     {
+      "s|core|0": {
+       "zone_min_ra_lps_m2": 0.3,
+       "zone_min_rp_lps_m2": 0.125,
+       "zone_min_oa_divide": true
+      },
+      "s|perim|0": {
+       "zone_min_ra_lps_m2": 0.3,
+       "zone_min_rp_lps_m2": 0.125,
+       "zone_min_oa_divide": true
+      },
+      "s|long|0": {
+       "zone_min_ra_lps_m2": 0.3,
+       "zone_min_rp_lps_m2": 0.125,
+       "zone_min_oa_divide": true,
+       "zone_heat_wall_ref_m": 20.0,
+       "zone_heat_wall_power": 1.0,
+       "room_cool_margin_k": 0.4
+      },
+      "m|core|0": {
+       "zone_min_ra_lps_m2": 0.3,
+       "zone_min_rp_lps_m2": 0.125,
+       "zone_min_oa_divide": true
+      },
+      "m|perim|0": {
+       "zone_min_ra_lps_m2": 0.3,
+       "zone_min_rp_lps_m2": 0.125,
+       "zone_min_oa_divide": true
+      },
+      "m|long|0": {
+       "zone_min_ra_lps_m2": 0.3,
+       "zone_min_rp_lps_m2": 0.125,
+       "zone_min_oa_divide": true,
+       "zone_heat_wall_ref_m": 20.0,
+       "zone_heat_wall_power": 1.0,
+       "room_cool_margin_k": 0.4
+      },
+      "l|core|0": {},
+      "l|perim|0": {},
+      "l|long|0": {
+       "zone_heat_wall_ref_m": 20.0,
+       "zone_heat_wall_power": 1.0
+      },
+      "x|core|0": {},
+      "x|perim|0": {},
+      "x|long|0": {
+       "zone_heat_wall_ref_m": 20.0,
+       "zone_heat_wall_power": 1.0
+      }
+     }
+    ]
+   },
+   "design": {
+    "summary": {
+     "morning_off_sm": {
+      "mean": 0.021427897790727818,
+      "se": 0.004373859977609786,
+      "n": 70
+     },
+     "evening_off_sm": {
+      "mean": 0.008253655488406147,
+      "se": 0.0020781395502085225,
+      "n": 70
+     },
+     "morning_warm_sm": {
+      "mean": 0.00010951975405757018,
+      "se": 0.0011940678644014008,
+      "n": 70
+     },
+     "midday_edge_sm": {
+      "mean": 0.01743769333512047,
+      "se": 0.002986838922845798,
+      "n": 70
+     },
+     "morning_off_lx": {
+      "mean": -2.7348705761064302e-05,
+      "se": 0.000571990521071733,
+      "n": 80
+     },
+     "evening_off_lx": {
+      "mean": -0.0001203715366840054,
+      "se": 0.0005794306336714395,
+      "n": 80
+     },
+     "morning_warm_lx": {
+      "mean": 0.0034759053094943274,
+      "se": 0.0012913214095697325,
+      "n": 80
+     },
+     "midday_edge_lx": {
+      "mean": 0.018469727323669614,
+      "se": 0.0024904031340117197,
+      "n": 80
+     }
+    },
+    "lobo": {
+     "lobo_predicted": 0.0,
+     "per_scenario_oracle": -0.009300399415186414
+    },
+    "parts": {
+     "comfort_cost": {
+      "morning_off_sm": {
+       "mean": 0.007438313275589408,
+       "se": 0.0032938743680536965,
+       "n": 70
+      },
+      "evening_off_sm": {
+       "mean": -0.00019339847844831496,
+       "se": 0.0019630138516674536,
+       "n": 70
+      },
+      "morning_warm_sm": {
+       "mean": -0.003841593618784684,
+       "se": 0.0014879377463355389,
+       "n": 70
+      },
+      "midday_edge_sm": {
+       "mean": 0.022163227616004855,
+       "se": 0.0032166073062749176,
+       "n": 70
+      },
+      "morning_off_lx": {
+       "mean": 0.0010903373481502938,
+       "se": 0.0005925333425403253,
+       "n": 80
+      },
+      "evening_off_lx": {
+       "mean": 0.0024949204928212385,
+       "se": 0.0006985109888521943,
+       "n": 80
+      },
+      "morning_warm_lx": {
+       "mean": -0.002885864235063833,
+       "se": 0.0010471645451910678,
+       "n": 80
+      },
+      "midday_edge_lx": {
+       "mean": 0.024048674675388525,
+       "se": 0.0028944742943691057,
+       "n": 80
+      }
+     },
+     "fan_cost": {
+      "morning_off_sm": {
+       "mean": 0.0024420327123155687,
+       "se": 0.0003754292556864169,
+       "n": 70
+      },
+      "evening_off_sm": {
+       "mean": 0.0018299297647738542,
+       "se": 0.0002911555232302622,
+       "n": 70
+      },
+      "morning_warm_sm": {
+       "mean": 0.00017848976228781232,
+       "se": 3.5846333037920946e-05,
+       "n": 70
+      },
+      "midday_edge_sm": {
+       "mean": -0.0001454995418038271,
+       "se": 5.594283882174738e-05,
+       "n": 70
+      },
+      "morning_off_lx": {
+       "mean": -0.00035233128183916794,
+       "se": 0.00015548251368780768,
+       "n": 80
+      },
+      "evening_off_lx": {
+       "mean": -0.00039765189636467466,
+       "se": 0.00011304573714427326,
+       "n": 80
+      },
+      "morning_warm_lx": {
+       "mean": 0.000954973429613356,
+       "se": 0.00020057312391374575,
+       "n": 80
+      },
+      "midday_edge_lx": {
+       "mean": -0.00041273241839846157,
+       "se": 0.00015267057389786262,
+       "n": 80
+      }
+     },
+     "coil_cost": {
+      "morning_off_sm": {
+       "mean": 0.004822526955820227,
+       "se": 0.0010423130491239133,
+       "n": 70
+      },
+      "evening_off_sm": {
+       "mean": 0.004476909659907179,
+       "se": 0.0008339652769077195,
+       "n": 70
+      },
+      "morning_warm_sm": {
+       "mean": 0.00035988580455898655,
+       "se": 6.719965896284702e-05,
+       "n": 70
+      },
+      "midday_edge_sm": {
+       "mean": -0.0012620903634726279,
+       "se": 0.00021051515089785336,
+       "n": 70
+      },
+      "morning_off_lx": {
+       "mean": 0.00013745463082689372,
+       "se": 9.238106835682506e-05,
+       "n": 80
+      },
+      "evening_off_lx": {
+       "mean": -0.0013010250540127649,
+       "se": 0.00034910614739316453,
+       "n": 80
+      },
+      "morning_warm_lx": {
+       "mean": 0.000315948853072787,
+       "se": 5.759870927354713e-05,
+       "n": 80
+      },
+      "midday_edge_lx": {
+       "mean": -0.003526626946980979,
+       "se": 0.00052784406788178,
+       "n": 80
+      }
+     },
+     "gas_cost": {
+      "morning_off_sm": {
+       "mean": 0.005565311249690811,
+       "se": 0.0011136369837867026,
+       "n": 70
+      },
+      "evening_off_sm": {
+       "mean": 0.0020970788271280493,
+       "se": 0.0005338269811279549,
+       "n": 70
+      },
+      "morning_warm_sm": {
+       "mean": 0.0030585789541729075,
+       "se": 0.00043768960857466934,
+       "n": 70
+      },
+      "midday_edge_sm": {
+       "mean": -0.0028766454454114136,
+       "se": 0.0005490593415233022,
+       "n": 70
+      },
+      "morning_off_lx": {
+       "mean": -0.0008053693439772511,
+       "se": 0.00013675265825194999,
+       "n": 80
+      },
+      "evening_off_lx": {
+       "mean": -0.0008243834746778841,
+       "se": 0.00013524217296999764,
+       "n": 80
+      },
+      "morning_warm_lx": {
+       "mean": 0.004951172501144948,
+       "se": 0.000707238134868501,
+       "n": 80
+      },
+      "midday_edge_lx": {
+       "mean": -0.0015116024185557438,
+       "se": 0.00018576139687536842,
+       "n": 80
+      }
+     },
+     "pump_cost": {
+      "morning_off_sm": {
+       "mean": 0.00025271482064878473,
+       "se": 6.814879936441343e-05,
+       "n": 70
+      },
+      "evening_off_sm": {
+       "mean": 5.197669113569267e-05,
+       "se": 3.793394828366835e-05,
+       "n": 70
+      },
+      "morning_warm_sm": {
+       "mean": 0.00011230408939614577,
+       "se": 2.2817676207192066e-05,
+       "n": 70
+      },
+      "midday_edge_sm": {
+       "mean": -0.00029878933896847204,
+       "se": 6.12440337725422e-05,
+       "n": 70
+      },
+      "morning_off_lx": {
+       "mean": -4.728872810575121e-05,
+       "se": 1.007428479022287e-05,
+       "n": 80
+      },
+      "evening_off_lx": {
+       "mean": -2.083444157464646e-05,
+       "se": 8.83395100845855e-06,
+       "n": 80
+      },
+      "morning_warm_lx": {
+       "mean": 8.339707634216246e-05,
+       "se": 2.0003881441716364e-05,
+       "n": 80
+      },
+      "midday_edge_lx": {
+       "mean": -5.533977831568155e-05,
+       "se": 1.2149165132856713e-05,
+       "n": 80
+      }
+     }
+    }
+   },
+   "done": true,
+   "passed": null
+  }
+ },
+ "specs": [
+  "train/building_10419/atlanta_3",
+  "train/building_11852/atlanta_5",
+  "train/building_12336/atlanta_7",
+  "train/building_12567/atlanta_5",
+  "train/building_14073/atlanta_3",
+  "train/building_16821/atlanta_7",
+  "train/building_19299/atlanta_7",
+  "train/building_19629/atlanta_5",
+  "train/building_11534/denver_1",
+  "train/building_14219/denver_3",
+  "train/building_16761/denver_3",
+  "train/building_17821/denver_3",
+  "train/building_18764/denver_7",
+  "train/building_19195/denver_3",
+  "train/building_19655/denver_1",
+  "train/building_19950/denver_1",
+  "train/building_12567/fairbanks_3",
+  "train/building_15790/fairbanks_1",
+  "train/building_16092/fairbanks_7",
+  "train/building_18764/fairbanks_5",
+  "train/building_18842/fairbanks_3",
+  "train/building_19655/fairbanks_1",
+  "train/building_19664/fairbanks_7",
+  "train/building_19768/fairbanks_3",
+  "train/building_10740/phoenix_3",
+  "train/building_11818/phoenix_3",
+  "train/building_11852/phoenix_1",
+  "train/building_11902/phoenix_5",
+  "train/building_13597/phoenix_7",
+  "train/building_14219/phoenix_1",
+  "train/building_18842/phoenix_7",
+  "train/building_19664/phoenix_1",
+  "train/building_11010/singapore_1",
+  "train/building_11534/singapore_5",
+  "train/building_16092/singapore_5",
+  "train/building_17224/singapore_7",
+  "train/building_17524/singapore_7",
+  "train/building_18662/singapore_5",
+  "train/building_19655/singapore_5",
+  "train/building_19664/singapore_1",
+  "train/building_10298/atlanta_5",
+  "train/building_11400/atlanta_1",
+  "train/building_12302/atlanta_3",
+  "train/building_13640/atlanta_5",
+  "train/building_14078/atlanta_1",
+  "train/building_14277/atlanta_3",
+  "train/building_14679/atlanta_5",
+  "train/building_17001/atlanta_5",
+  "train/building_10298/denver_3",
+  "train/building_11164/denver_1",
+  "train/building_12098/denver_7",
+  "train/building_12618/denver_3",
+  "train/building_13640/denver_7",
+  "train/building_14078/denver_3",
+  "train/building_15361/denver_1",
+  "train/building_16671/denver_7",
+  "train/building_10298/fairbanks_5",
+  "train/building_11400/fairbanks_5",
+  "train/building_12098/fairbanks_3",
+  "train/building_12302/fairbanks_3",
+  "train/building_12739/fairbanks_1",
+  "train/building_14042/fairbanks_1",
+  "train/building_14277/fairbanks_1",
+  "train/building_14979/fairbanks_1",
+  "train/building_11104/phoenix_5",
+  "train/building_11754/phoenix_1",
+  "train/building_12302/phoenix_3",
+  "train/building_12739/phoenix_1",
+  "train/building_14078/phoenix_7",
+  "train/building_14277/phoenix_3",
+  "train/building_14979/phoenix_7",
+  "train/building_16710/phoenix_3",
+  "train/building_10298/singapore_3",
+  "train/building_11400/singapore_3",
+  "train/building_14042/singapore_7",
+  "train/building_14213/singapore_3",
+  "train/building_14679/singapore_1",
+  "train/building_15570/singapore_3",
+  "train/building_16710/singapore_5",
+  "train/building_17084/singapore_3"
+ ],
+ "best_attempt": {
+  "name": "gt_t2b",
+  "score": -3.5646167566446616,
+  "map": {
+   "oat_cuts": [
+    -0.8943689320388348,
+    13.916185852981968,
+    23.302538141470183,
+    26.982496532593615,
+    27.327919556171985
+   ],
+   "maps": [
+    {
+     "s|core|0": {
+      "zone_min_ra_lps_m2": 0.3,
+      "zone_min_rp_lps_m2": 0.125,
+      "zone_min_oa_divide": true
+     },
+     "s|perim|0": {
+      "room_heat_margin_k": 0.4
+     },
+     "s|long|0": {
+      "room_heat_margin_k": 0.4,
+      "room_cool_margin_k": 0.4
+     },
+     "m|core|0": {
+      "zone_min_ra_lps_m2": 0.3,
+      "zone_min_rp_lps_m2": 0.125,
+      "zone_min_oa_divide": true
+     },
+     "m|perim|0": {
+      "zone_min_ra_lps_m2": 0.3,
+      "zone_min_rp_lps_m2": 0.125,
+      "zone_min_oa_divide": true,
+      "room_heat_margin_k": 0.4
+     },
+     "m|long|0": {
+      "zone_min_ra_lps_m2": 0.3,
+      "zone_min_rp_lps_m2": 0.125,
+      "zone_min_oa_divide": true,
+      "room_heat_margin_k": 0.4,
+      "room_cool_margin_k": 0.4
+     },
+     "l|core|0": {},
+     "l|perim|0": {},
+     "l|long|0": {
+      "room_cool_margin_k": 0.4
+     },
+     "x|core|0": {},
+     "x|perim|0": {},
+     "x|long|0": {
+      "room_cool_margin_k": 0.4
+     }
+    },
+    {
+     "s|core|0": {
+      "zone_min_ra_lps_m2": 0.3,
+      "zone_min_rp_lps_m2": 0.125,
+      "zone_min_oa_divide": true
+     },
+     "s|perim|0": {
+      "zone_min_ra_lps_m2": 0.3,
+      "zone_min_rp_lps_m2": 0.125,
+      "zone_min_oa_divide": true,
+      "room_heat_margin_k": 0.4
+     },
+     "s|long|0": {
+      "zone_min_ra_lps_m2": 0.3,
+      "zone_min_rp_lps_m2": 0.125,
+      "zone_min_oa_divide": true,
+      "room_heat_margin_k": 0.4,
+      "room_cool_margin_k": 0.4
+     },
+     "m|core|0": {
+      "zone_min_ra_lps_m2": 0.3,
+      "zone_min_rp_lps_m2": 0.125,
+      "zone_min_oa_divide": true
+     },
+     "m|perim|0": {
+      "zone_min_ra_lps_m2": 0.3,
+      "zone_min_rp_lps_m2": 0.125,
+      "zone_min_oa_divide": true,
+      "room_heat_margin_k": 0.4
+     },
+     "m|long|0": {
+      "zone_min_ra_lps_m2": 0.3,
+      "zone_min_rp_lps_m2": 0.125,
+      "zone_min_oa_divide": true,
+      "room_heat_margin_k": 0.4,
+      "room_cool_margin_k": 0.4
+     },
+     "l|core|0": {},
+     "l|perim|0": {},
+     "l|long|0": {
+      "room_cool_margin_k": 0.4
+     },
+     "x|core|0": {},
+     "x|perim|0": {},
+     "x|long|0": {
+      "room_cool_margin_k": 0.4
+     }
+    },
+    {
+     "s|core|0": {
+      "zone_min_ra_lps_m2": 0.3,
+      "zone_min_rp_lps_m2": 0.125,
+      "zone_min_oa_divide": true
+     },
+     "s|perim|0": {
+      "zone_min_ra_lps_m2": 0.3,
+      "zone_min_rp_lps_m2": 0.125,
+      "zone_min_oa_divide": true
+     },
+     "s|long|0": {
+      "zone_min_ra_lps_m2": 0.3,
+      "zone_min_rp_lps_m2": 0.125,
+      "zone_min_oa_divide": true,
+      "room_cool_margin_k": 0.4
+     },
+     "m|core|0": {
+      "zone_min_ra_lps_m2": 0.3,
+      "zone_min_rp_lps_m2": 0.125,
+      "zone_min_oa_divide": true
+     },
+     "m|perim|0": {
+      "zone_min_ra_lps_m2": 0.3,
+      "zone_min_rp_lps_m2": 0.125,
+      "zone_min_oa_divide": true
+     },
+     "m|long|0": {
+      "zone_min_ra_lps_m2": 0.3,
+      "zone_min_rp_lps_m2": 0.125,
+      "zone_min_oa_divide": true,
+      "room_cool_margin_k": 0.4
+     },
+     "l|core|0": {},
+     "l|perim|0": {},
+     "l|long|0": {
+      "room_cool_margin_k": 0.4
+     },
+     "x|core|0": {},
+     "x|perim|0": {},
+     "x|long|0": {
+      "room_cool_margin_k": 0.4
+     }
+    },
+    {
+     "s|core|0": {
+      "zone_min_ra_lps_m2": 0.3,
+      "zone_min_rp_lps_m2": 0.125,
+      "zone_min_oa_divide": true
+     },
+     "s|perim|0": {
+      "zone_min_ra_lps_m2": 0.3,
+      "zone_min_rp_lps_m2": 0.125,
+      "zone_min_oa_divide": true
+     },
+     "s|long|0": {
+      "zone_min_ra_lps_m2": 0.3,
+      "zone_min_rp_lps_m2": 0.125,
+      "zone_min_oa_divide": true,
+      "room_cool_margin_k": 0.4
+     },
+     "m|core|0": {
+      "zone_min_ra_lps_m2": 0.3,
+      "zone_min_rp_lps_m2": 0.125,
+      "zone_min_oa_divide": true
+     },
+     "m|perim|0": {
+      "zone_min_ra_lps_m2": 0.3,
+      "zone_min_rp_lps_m2": 0.125,
+      "zone_min_oa_divide": true
+     },
+     "m|long|0": {
+      "zone_min_ra_lps_m2": 0.3,
+      "zone_min_rp_lps_m2": 0.125,
+      "zone_min_oa_divide": true,
+      "room_cool_margin_k": 0.4
+     },
+     "l|core|0": {},
+     "l|perim|0": {},
+     "l|long|0": {},
+     "x|core|0": {},
+     "x|perim|0": {},
+     "x|long|0": {}
+    },
+    {
+     "s|core|0": {
+      "zone_min_ra_lps_m2": 0.3,
+      "zone_min_rp_lps_m2": 0.125,
+      "zone_min_oa_divide": true
+     },
+     "s|perim|0": {
+      "zone_min_ra_lps_m2": 0.3,
+      "zone_min_rp_lps_m2": 0.125,
+      "zone_min_oa_divide": true
+     },
+     "s|long|0": {
+      "zone_min_ra_lps_m2": 0.3,
+      "zone_min_rp_lps_m2": 0.125,
+      "zone_min_oa_divide": true,
+      "room_cool_margin_k": 0.4
+     },
+     "m|core|0": {
+      "zone_min_ra_lps_m2": 0.3,
+      "zone_min_rp_lps_m2": 0.125,
+      "zone_min_oa_divide": true
+     },
+     "m|perim|0": {
+      "zone_min_ra_lps_m2": 0.3,
+      "zone_min_rp_lps_m2": 0.125,
+      "zone_min_oa_divide": true
+     },
+     "m|long|0": {
+      "zone_min_ra_lps_m2": 0.3,
+      "zone_min_rp_lps_m2": 0.125,
+      "zone_min_oa_divide": true,
+      "room_cool_margin_k": 0.4
+     },
+     "l|core|0": {},
+     "l|perim|0": {},
+     "l|long|0": {
+      "zone_heat_wall_ref_m": 20.0,
+      "zone_heat_wall_power": 1.0
+     },
+     "x|core|0": {},
+     "x|perim|0": {},
+     "x|long|0": {
+      "zone_heat_wall_ref_m": 20.0,
+      "zone_heat_wall_power": 1.0
+     }
+    },
+    {
+     "s|core|0": {
+      "zone_min_ra_lps_m2": 0.3,
+      "zone_min_rp_lps_m2": 0.125,
+      "zone_min_oa_divide": true
+     },
+     "s|perim|0": {
+      "zone_min_ra_lps_m2": 0.3,
+      "zone_min_rp_lps_m2": 0.125,
+      "zone_min_oa_divide": true
+     },
+     "s|long|0": {
+      "zone_min_ra_lps_m2": 0.3,
+      "zone_min_rp_lps_m2": 0.125,
+      "zone_min_oa_divide": true,
+      "zone_heat_wall_ref_m": 20.0,
+      "zone_heat_wall_power": 1.0,
+      "room_cool_margin_k": 0.4
+     },
+     "m|core|0": {
+      "zone_min_ra_lps_m2": 0.3,
+      "zone_min_rp_lps_m2": 0.125,
+      "zone_min_oa_divide": true
+     },
+     "m|perim|0": {
+      "zone_min_ra_lps_m2": 0.3,
+      "zone_min_rp_lps_m2": 0.125,
+      "zone_min_oa_divide": true
+     },
+     "m|long|0": {
+      "zone_min_ra_lps_m2": 0.3,
+      "zone_min_rp_lps_m2": 0.125,
+      "zone_min_oa_divide": true,
+      "zone_heat_wall_ref_m": 20.0,
+      "zone_heat_wall_power": 1.0,
+      "room_cool_margin_k": 0.4
+     },
+     "l|core|0": {},
+     "l|perim|0": {},
+     "l|long|0": {
+      "zone_heat_wall_ref_m": 20.0,
+      "zone_heat_wall_power": 1.0
+     },
+     "x|core|0": {},
+     "x|perim|0": {},
+     "x|long|0": {
+      "zone_heat_wall_ref_m": 20.0,
+      "zone_heat_wall_power": 1.0
+     }
+    }
+   ]
+  },
+  "blocks": null
+ },
+ "notes": {
+  "T1-1": "min_s_core on, min_s_ext > -0.9 C, min_m_core on, min_m_ext <= 19.8 C, min_l_core off, min_l_ext off, min_x_core off, min_x_ext off, wallheat_sm off, wallheat_lx > 19.8 C",
+  "T1-2": {
+   "rules": "min_s_core on; min_s_ext on except <= -0.9 C (mean +3.27%, t +3.3); min_m_core on; min_m_ext on; min_l_core off; min_l_ext off; min_x_core off; min_x_ext off; wallheat_sm off except > 27.3 C (mean -0.19%, t -1.2); wallheat_lx off except > 27.0 C (mean -0.61%, t -5.1)",
+   "variants": {
+    "A": {
+     "vs base %": -4.54912866008496,
+     "vs gm_tree_m1 %": -0.522291304761317,
+     "se vs m1": 0.2544838065899263,
+     "n": 80
+    },
+    "B": {
+     "vs base %": -4.480884822365394,
+     "vs gm_tree_m1 %": -0.4715463265752775,
+     "se vs m1": 0.1962177823824215,
+     "n": 80
+    },
+    "C": {
+     "vs base %": -4.480884822365394,
+     "vs gm_tree_m1 %": -0.4715463265752775,
+     "se vs m1": 0.1962177823824215,
+     "n": 80
+    }
+   },
+   "picked": "A"
+  },
+  "T2-1": "heat_edge_core_sm off; heat_warm_ext_sm off except <= 13.9 C (mean -0.89%, t -1.7); cool_edge_sm off; cool_inner_long_sm on; heat_edge_core_lx off; heat_warm_ext_lx off; cool_edge_lx off; cool_inner_long_lx off except <= 23.3 C (mean -0.31%, t -2.9)"
+ },
+ "build_on": {
+  "oat_cuts": [
+   -0.8943689320388348,
+   13.916185852981968,
+   23.302538141470183,
+   26.982496532593615,
+   27.327919556171985
+  ],
+  "maps": [
+   {
+    "s|core|0": {
+     "zone_min_ra_lps_m2": 0.3,
+     "zone_min_rp_lps_m2": 0.125,
+     "zone_min_oa_divide": true
+    },
+    "s|perim|0": {
+     "room_heat_margin_k": 0.4
+    },
+    "s|long|0": {
+     "room_heat_margin_k": 0.4,
+     "room_cool_margin_k": 0.4
+    },
+    "m|core|0": {
+     "zone_min_ra_lps_m2": 0.3,
+     "zone_min_rp_lps_m2": 0.125,
+     "zone_min_oa_divide": true
+    },
+    "m|perim|0": {
+     "zone_min_ra_lps_m2": 0.3,
+     "zone_min_rp_lps_m2": 0.125,
+     "zone_min_oa_divide": true,
+     "room_heat_margin_k": 0.4
+    },
+    "m|long|0": {
+     "zone_min_ra_lps_m2": 0.3,
+     "zone_min_rp_lps_m2": 0.125,
+     "zone_min_oa_divide": true,
+     "room_heat_margin_k": 0.4,
+     "room_cool_margin_k": 0.4
+    },
+    "l|core|0": {},
+    "l|perim|0": {},
+    "l|long|0": {
+     "room_cool_margin_k": 0.4
+    },
+    "x|core|0": {},
+    "x|perim|0": {},
+    "x|long|0": {
+     "room_cool_margin_k": 0.4
+    }
+   },
+   {
+    "s|core|0": {
+     "zone_min_ra_lps_m2": 0.3,
+     "zone_min_rp_lps_m2": 0.125,
+     "zone_min_oa_divide": true
+    },
+    "s|perim|0": {
+     "zone_min_ra_lps_m2": 0.3,
+     "zone_min_rp_lps_m2": 0.125,
+     "zone_min_oa_divide": true,
+     "room_heat_margin_k": 0.4
+    },
+    "s|long|0": {
+     "zone_min_ra_lps_m2": 0.3,
+     "zone_min_rp_lps_m2": 0.125,
+     "zone_min_oa_divide": true,
+     "room_heat_margin_k": 0.4,
+     "room_cool_margin_k": 0.4
+    },
+    "m|core|0": {
+     "zone_min_ra_lps_m2": 0.3,
+     "zone_min_rp_lps_m2": 0.125,
+     "zone_min_oa_divide": true
+    },
+    "m|perim|0": {
+     "zone_min_ra_lps_m2": 0.3,
+     "zone_min_rp_lps_m2": 0.125,
+     "zone_min_oa_divide": true,
+     "room_heat_margin_k": 0.4
+    },
+    "m|long|0": {
+     "zone_min_ra_lps_m2": 0.3,
+     "zone_min_rp_lps_m2": 0.125,
+     "zone_min_oa_divide": true,
+     "room_heat_margin_k": 0.4,
+     "room_cool_margin_k": 0.4
+    },
+    "l|core|0": {},
+    "l|perim|0": {},
+    "l|long|0": {
+     "room_cool_margin_k": 0.4
+    },
+    "x|core|0": {},
+    "x|perim|0": {},
+    "x|long|0": {
+     "room_cool_margin_k": 0.4
+    }
+   },
+   {
+    "s|core|0": {
+     "zone_min_ra_lps_m2": 0.3,
+     "zone_min_rp_lps_m2": 0.125,
+     "zone_min_oa_divide": true
+    },
+    "s|perim|0": {
+     "zone_min_ra_lps_m2": 0.3,
+     "zone_min_rp_lps_m2": 0.125,
+     "zone_min_oa_divide": true
+    },
+    "s|long|0": {
+     "zone_min_ra_lps_m2": 0.3,
+     "zone_min_rp_lps_m2": 0.125,
+     "zone_min_oa_divide": true,
+     "room_cool_margin_k": 0.4
+    },
+    "m|core|0": {
+     "zone_min_ra_lps_m2": 0.3,
+     "zone_min_rp_lps_m2": 0.125,
+     "zone_min_oa_divide": true
+    },
+    "m|perim|0": {
+     "zone_min_ra_lps_m2": 0.3,
+     "zone_min_rp_lps_m2": 0.125,
+     "zone_min_oa_divide": true
+    },
+    "m|long|0": {
+     "zone_min_ra_lps_m2": 0.3,
+     "zone_min_rp_lps_m2": 0.125,
+     "zone_min_oa_divide": true,
+     "room_cool_margin_k": 0.4
+    },
+    "l|core|0": {},
+    "l|perim|0": {},
+    "l|long|0": {
+     "room_cool_margin_k": 0.4
+    },
+    "x|core|0": {},
+    "x|perim|0": {},
+    "x|long|0": {
+     "room_cool_margin_k": 0.4
+    }
+   },
+   {
+    "s|core|0": {
+     "zone_min_ra_lps_m2": 0.3,
+     "zone_min_rp_lps_m2": 0.125,
+     "zone_min_oa_divide": true
+    },
+    "s|perim|0": {
+     "zone_min_ra_lps_m2": 0.3,
+     "zone_min_rp_lps_m2": 0.125,
+     "zone_min_oa_divide": true
+    },
+    "s|long|0": {
+     "zone_min_ra_lps_m2": 0.3,
+     "zone_min_rp_lps_m2": 0.125,
+     "zone_min_oa_divide": true,
+     "room_cool_margin_k": 0.4
+    },
+    "m|core|0": {
+     "zone_min_ra_lps_m2": 0.3,
+     "zone_min_rp_lps_m2": 0.125,
+     "zone_min_oa_divide": true
+    },
+    "m|perim|0": {
+     "zone_min_ra_lps_m2": 0.3,
+     "zone_min_rp_lps_m2": 0.125,
+     "zone_min_oa_divide": true
+    },
+    "m|long|0": {
+     "zone_min_ra_lps_m2": 0.3,
+     "zone_min_rp_lps_m2": 0.125,
+     "zone_min_oa_divide": true,
+     "room_cool_margin_k": 0.4
+    },
+    "l|core|0": {},
+    "l|perim|0": {},
+    "l|long|0": {},
+    "x|core|0": {},
+    "x|perim|0": {},
+    "x|long|0": {}
+   },
+   {
+    "s|core|0": {
+     "zone_min_ra_lps_m2": 0.3,
+     "zone_min_rp_lps_m2": 0.125,
+     "zone_min_oa_divide": true
+    },
+    "s|perim|0": {
+     "zone_min_ra_lps_m2": 0.3,
+     "zone_min_rp_lps_m2": 0.125,
+     "zone_min_oa_divide": true
+    },
+    "s|long|0": {
+     "zone_min_ra_lps_m2": 0.3,
+     "zone_min_rp_lps_m2": 0.125,
+     "zone_min_oa_divide": true,
+     "room_cool_margin_k": 0.4
+    },
+    "m|core|0": {
+     "zone_min_ra_lps_m2": 0.3,
+     "zone_min_rp_lps_m2": 0.125,
+     "zone_min_oa_divide": true
+    },
+    "m|perim|0": {
+     "zone_min_ra_lps_m2": 0.3,
+     "zone_min_rp_lps_m2": 0.125,
+     "zone_min_oa_divide": true
+    },
+    "m|long|0": {
+     "zone_min_ra_lps_m2": 0.3,
+     "zone_min_rp_lps_m2": 0.125,
+     "zone_min_oa_divide": true,
+     "room_cool_margin_k": 0.4
+    },
+    "l|core|0": {},
+    "l|perim|0": {},
+    "l|long|0": {
+     "zone_heat_wall_ref_m": 20.0,
+     "zone_heat_wall_power": 1.0
+    },
+    "x|core|0": {},
+    "x|perim|0": {},
+    "x|long|0": {
+     "zone_heat_wall_ref_m": 20.0,
+     "zone_heat_wall_power": 1.0
+    }
+   },
+   {
+    "s|core|0": {
+     "zone_min_ra_lps_m2": 0.3,
+     "zone_min_rp_lps_m2": 0.125,
+     "zone_min_oa_divide": true
+    },
+    "s|perim|0": {
+     "zone_min_ra_lps_m2": 0.3,
+     "zone_min_rp_lps_m2": 0.125,
+     "zone_min_oa_divide": true
+    },
+    "s|long|0": {
+     "zone_min_ra_lps_m2": 0.3,
+     "zone_min_rp_lps_m2": 0.125,
+     "zone_min_oa_divide": true,
+     "zone_heat_wall_ref_m": 20.0,
+     "zone_heat_wall_power": 1.0,
+     "room_cool_margin_k": 0.4
+    },
+    "m|core|0": {
+     "zone_min_ra_lps_m2": 0.3,
+     "zone_min_rp_lps_m2": 0.125,
+     "zone_min_oa_divide": true
+    },
+    "m|perim|0": {
+     "zone_min_ra_lps_m2": 0.3,
+     "zone_min_rp_lps_m2": 0.125,
+     "zone_min_oa_divide": true
+    },
+    "m|long|0": {
+     "zone_min_ra_lps_m2": 0.3,
+     "zone_min_rp_lps_m2": 0.125,
+     "zone_min_oa_divide": true,
+     "zone_heat_wall_ref_m": 20.0,
+     "zone_heat_wall_power": 1.0,
+     "room_cool_margin_k": 0.4
+    },
+    "l|core|0": {},
+    "l|perim|0": {},
+    "l|long|0": {
+     "zone_heat_wall_ref_m": 20.0,
+     "zone_heat_wall_power": 1.0
+    },
+    "x|core|0": {},
+    "x|perim|0": {},
+    "x|long|0": {
+     "zone_heat_wall_ref_m": 20.0,
+     "zone_heat_wall_power": 1.0
+    }
+   }
+  ]
+ },
+ "done": true
+}

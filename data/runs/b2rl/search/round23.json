@@ -1,0 +1,108 @@
+{
+ "_note": "stage 1 (2026-10-30 12:xx): night1_dcv07 as an eight-knot outside-air schedule (search.build_knots); identical parameters to the three-band form",
+ "night1_dcv07_fine": {
+  "rule_config": {
+   "freeze_on_k": 275.15,
+   "freeze_off_k": 278.15,
+   "sat_cost_optimal": true,
+   "sat_cost_guard_k": 0.5,
+   "zone_gain_per_k": 0.05,
+   "zone_ti_s": 450.0,
+   "empty_day_delay_min": 60,
+   "dcv_area_share": 0.7
+  },
+  "layout": "v3",
+  "knots_c": [
+   -15,
+   -5,
+   0,
+   5,
+   12,
+   20,
+   25,
+   30
+  ],
+  "levels": [
+   "frigid",
+   "very_cold",
+   "cold",
+   "cool",
+   "mild",
+   "warm",
+   "hot",
+   "very_hot"
+  ],
+  "frigid": {
+   "heating_max_ratio": 0.4529957279624725,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180,
+   "discharge_offset_k": 14.0,
+   "sat_cost_guard_k": 30.0,
+   "sp_max_pa": 1807.1323159420097
+  },
+  "very_cold": {
+   "heating_max_ratio": 0.4529957279624725,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180,
+   "discharge_offset_k": 14.0,
+   "sat_cost_guard_k": 30.0,
+   "sp_max_pa": 1807.1323159420097
+  },
+  "cold": {
+   "heating_max_ratio": 0.4529957279624725,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180,
+   "discharge_offset_k": 14.0,
+   "sat_cost_guard_k": 30.0,
+   "sp_max_pa": 1807.1323159420097
+  },
+  "cool": {
+   "heating_max_ratio": 0.36,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180,
+   "discharge_offset_k": 14.0,
+   "sat_cost_guard_k": 0.0,
+   "sp_max_pa": 1807.1323159420097
+  },
+  "mild": {
+   "heating_max_ratio": 0.36,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180,
+   "discharge_offset_k": 14.0,
+   "sat_cost_guard_k": 0.0,
+   "sp_max_pa": 1807.1323159420097
+  },
+  "warm": {
+   "heating_max_ratio": 0.36,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180,
+   "discharge_offset_k": 14.0,
+   "sat_cost_guard_k": 0.0,
+   "sp_max_pa": 1807.1323159420097
+  },
+  "hot": {
+   "heating_max_ratio": 0.4529957279624725,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180,
+   "discharge_offset_k": 14.0,
+   "sat_cost_guard_k": 0.25,
+   "sp_max_pa": 1807.1323159420097
+  },
+  "very_hot": {
+   "heating_max_ratio": 0.4529957279624725,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180,
+   "discharge_offset_k": 14.0,
+   "sat_cost_guard_k": 0.25,
+   "sp_max_pa": 1807.1323159420097
+  }
+ }
+}

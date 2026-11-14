@@ -1,0 +1,6 @@
+{
+ "time": "2026-11-10 08:11:13",
+ "label": "d",
+ "stage": "gate",
+ "reason": "overtime: gate gt_r3d1: 0.5 min, over 2x its estimate 0.2 min (0/1 jobs)"
+}

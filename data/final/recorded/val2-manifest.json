@@ -1,0 +1,1137 @@
+{
+ "made": "2026-11-13 15:32:45",
+ "label": "split-v1/val2-paper-20261113",
+ "seeds": [
+  19897,
+  17160,
+  14342,
+  16653,
+  12698,
+  16266,
+  19219,
+  12096,
+  11229,
+  17989,
+  10248,
+  19263
+ ],
+ "strata": [
+  "shipped",
+  "default",
+  "shipped",
+  "default",
+  "shipped",
+  "default",
+  "shipped",
+  "default",
+  "shipped",
+  "default",
+  "shipped",
+  "default"
+ ],
+ "rejected": [
+  {
+   "seed": 10861,
+   "stratum": "default",
+   "reason": "seed 10861 produces 1 zone(s) below the 20.0 m2 minimum floor area (smallest 17.64 m2)"
+  },
+  {
+   "seed": 11525,
+   "stratum": "default",
+   "reason": "seed 11525 produces 1 zone(s) below the 20.0 m2 minimum floor area (smallest 7.20 m2)"
+  },
+  {
+   "seed": 18724,
+   "stratum": "default",
+   "reason": "seed 18724 produces 1 zone(s) below the 20.0 m2 minimum floor area (smallest 10.08 m2)"
+  },
+  {
+   "seed": 10535,
+   "stratum": "shipped",
+   "reason": "seed 10535 produces 3 zone(s) below the 20.0 m2 minimum floor area (smallest 14.80 m2)"
+  }
+ ],
+ "scenarios": [
+  {
+   "tag": "seen",
+   "building": "building_19897",
+   "weather": "atlanta_1",
+   "dir": "data/final/val2/seen/building_19897/atlanta_1"
+  },
+  {
+   "tag": "seen",
+   "building": "building_19897",
+   "weather": "denver_3",
+   "dir": "data/final/val2/seen/building_19897/denver_3"
+  },
+  {
+   "tag": "seen",
+   "building": "building_19897",
+   "weather": "fairbanks_5",
+   "dir": "data/final/val2/seen/building_19897/fairbanks_5"
+  },
+  {
+   "tag": "seen",
+   "building": "building_19897",
+   "weather": "phoenix_7",
+   "dir": "data/final/val2/seen/building_19897/phoenix_7"
+  },
+  {
+   "tag": "seen",
+   "building": "building_19897",
+   "weather": "singapore_1",
+   "dir": "data/final/val2/seen/building_19897/singapore_1"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_19897",
+   "weather": "riyadh_jan",
+   "dir": "data/final/val2/unseen/building_19897/riyadh_jan"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_19897",
+   "weather": "riyadh_jul",
+   "dir": "data/final/val2/unseen/building_19897/riyadh_jul"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_19897",
+   "weather": "dubai_jan",
+   "dir": "data/final/val2/unseen/building_19897/dubai_jan"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_19897",
+   "weather": "dubai_jul",
+   "dir": "data/final/val2/unseen/building_19897/dubai_jul"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_19897",
+   "weather": "seattle_jan",
+   "dir": "data/final/val2/unseen/building_19897/seattle_jan"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_19897",
+   "weather": "seattle_jul",
+   "dir": "data/final/val2/unseen/building_19897/seattle_jul"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_19897",
+   "weather": "london_jan",
+   "dir": "data/final/val2/unseen/building_19897/london_jan"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_19897",
+   "weather": "london_jul",
+   "dir": "data/final/val2/unseen/building_19897/london_jul"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_19897",
+   "weather": "beijing_jan",
+   "dir": "data/final/val2/unseen/building_19897/beijing_jan"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_19897",
+   "weather": "beijing_jul",
+   "dir": "data/final/val2/unseen/building_19897/beijing_jul"
+  },
+  {
+   "tag": "seen",
+   "building": "building_17160",
+   "weather": "atlanta_3",
+   "dir": "data/final/val2/seen/building_17160/atlanta_3"
+  },
+  {
+   "tag": "seen",
+   "building": "building_17160",
+   "weather": "denver_5",
+   "dir": "data/final/val2/seen/building_17160/denver_5"
+  },
+  {
+   "tag": "seen",
+   "building": "building_17160",
+   "weather": "fairbanks_7",
+   "dir": "data/final/val2/seen/building_17160/fairbanks_7"
+  },
+  {
+   "tag": "seen",
+   "building": "building_17160",
+   "weather": "phoenix_1",
+   "dir": "data/final/val2/seen/building_17160/phoenix_1"
+  },
+  {
+   "tag": "seen",
+   "building": "building_17160",
+   "weather": "singapore_3",
+   "dir": "data/final/val2/seen/building_17160/singapore_3"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_17160",
+   "weather": "riyadh_jan",
+   "dir": "data/final/val2/unseen/building_17160/riyadh_jan"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_17160",
+   "weather": "riyadh_jul",
+   "dir": "data/final/val2/unseen/building_17160/riyadh_jul"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_17160",
+   "weather": "dubai_jan",
+   "dir": "data/final/val2/unseen/building_17160/dubai_jan"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_17160",
+   "weather": "dubai_jul",
+   "dir": "data/final/val2/unseen/building_17160/dubai_jul"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_17160",
+   "weather": "seattle_jan",
+   "dir": "data/final/val2/unseen/building_17160/seattle_jan"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_17160",
+   "weather": "seattle_jul",
+   "dir": "data/final/val2/unseen/building_17160/seattle_jul"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_17160",
+   "weather": "london_jan",
+   "dir": "data/final/val2/unseen/building_17160/london_jan"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_17160",
+   "weather": "london_jul",
+   "dir": "data/final/val2/unseen/building_17160/london_jul"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_17160",
+   "weather": "beijing_jan",
+   "dir": "data/final/val2/unseen/building_17160/beijing_jan"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_17160",
+   "weather": "beijing_jul",
+   "dir": "data/final/val2/unseen/building_17160/beijing_jul"
+  },
+  {
+   "tag": "seen",
+   "building": "building_14342",
+   "weather": "atlanta_5",
+   "dir": "data/final/val2/seen/building_14342/atlanta_5"
+  },
+  {
+   "tag": "seen",
+   "building": "building_14342",
+   "weather": "denver_7",
+   "dir": "data/final/val2/seen/building_14342/denver_7"
+  },
+  {
+   "tag": "seen",
+   "building": "building_14342",
+   "weather": "fairbanks_1",
+   "dir": "data/final/val2/seen/building_14342/fairbanks_1"
+  },
+  {
+   "tag": "seen",
+   "building": "building_14342",
+   "weather": "phoenix_3",
+   "dir": "data/final/val2/seen/building_14342/phoenix_3"
+  },
+  {
+   "tag": "seen",
+   "building": "building_14342",
+   "weather": "singapore_5",
+   "dir": "data/final/val2/seen/building_14342/singapore_5"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_14342",
+   "weather": "riyadh_jan",
+   "dir": "data/final/val2/unseen/building_14342/riyadh_jan"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_14342",
+   "weather": "riyadh_jul",
+   "dir": "data/final/val2/unseen/building_14342/riyadh_jul"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_14342",
+   "weather": "dubai_jan",
+   "dir": "data/final/val2/unseen/building_14342/dubai_jan"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_14342",
+   "weather": "dubai_jul",
+   "dir": "data/final/val2/unseen/building_14342/dubai_jul"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_14342",
+   "weather": "seattle_jan",
+   "dir": "data/final/val2/unseen/building_14342/seattle_jan"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_14342",
+   "weather": "seattle_jul",
+   "dir": "data/final/val2/unseen/building_14342/seattle_jul"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_14342",
+   "weather": "london_jan",
+   "dir": "data/final/val2/unseen/building_14342/london_jan"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_14342",
+   "weather": "london_jul",
+   "dir": "data/final/val2/unseen/building_14342/london_jul"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_14342",
+   "weather": "beijing_jan",
+   "dir": "data/final/val2/unseen/building_14342/beijing_jan"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_14342",
+   "weather": "beijing_jul",
+   "dir": "data/final/val2/unseen/building_14342/beijing_jul"
+  },
+  {
+   "tag": "seen",
+   "building": "building_16653",
+   "weather": "atlanta_7",
+   "dir": "data/final/val2/seen/building_16653/atlanta_7"
+  },
+  {
+   "tag": "seen",
+   "building": "building_16653",
+   "weather": "denver_1",
+   "dir": "data/final/val2/seen/building_16653/denver_1"
+  },
+  {
+   "tag": "seen",
+   "building": "building_16653",
+   "weather": "fairbanks_3",
+   "dir": "data/final/val2/seen/building_16653/fairbanks_3"
+  },
+  {
+   "tag": "seen",
+   "building": "building_16653",
+   "weather": "phoenix_5",
+   "dir": "data/final/val2/seen/building_16653/phoenix_5"
+  },
+  {
+   "tag": "seen",
+   "building": "building_16653",
+   "weather": "singapore_7",
+   "dir": "data/final/val2/seen/building_16653/singapore_7"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_16653",
+   "weather": "riyadh_jan",
+   "dir": "data/final/val2/unseen/building_16653/riyadh_jan"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_16653",
+   "weather": "riyadh_jul",
+   "dir": "data/final/val2/unseen/building_16653/riyadh_jul"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_16653",
+   "weather": "dubai_jan",
+   "dir": "data/final/val2/unseen/building_16653/dubai_jan"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_16653",
+   "weather": "dubai_jul",
+   "dir": "data/final/val2/unseen/building_16653/dubai_jul"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_16653",
+   "weather": "seattle_jan",
+   "dir": "data/final/val2/unseen/building_16653/seattle_jan"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_16653",
+   "weather": "seattle_jul",
+   "dir": "data/final/val2/unseen/building_16653/seattle_jul"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_16653",
+   "weather": "london_jan",
+   "dir": "data/final/val2/unseen/building_16653/london_jan"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_16653",
+   "weather": "london_jul",
+   "dir": "data/final/val2/unseen/building_16653/london_jul"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_16653",
+   "weather": "beijing_jan",
+   "dir": "data/final/val2/unseen/building_16653/beijing_jan"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_16653",
+   "weather": "beijing_jul",
+   "dir": "data/final/val2/unseen/building_16653/beijing_jul"
+  },
+  {
+   "tag": "seen",
+   "building": "building_12698",
+   "weather": "atlanta_1",
+   "dir": "data/final/val2/seen/building_12698/atlanta_1"
+  },
+  {
+   "tag": "seen",
+   "building": "building_12698",
+   "weather": "denver_3",
+   "dir": "data/final/val2/seen/building_12698/denver_3"
+  },
+  {
+   "tag": "seen",
+   "building": "building_12698",
+   "weather": "fairbanks_5",
+   "dir": "data/final/val2/seen/building_12698/fairbanks_5"
+  },
+  {
+   "tag": "seen",
+   "building": "building_12698",
+   "weather": "phoenix_7",
+   "dir": "data/final/val2/seen/building_12698/phoenix_7"
+  },
+  {
+   "tag": "seen",
+   "building": "building_12698",
+   "weather": "singapore_1",
+   "dir": "data/final/val2/seen/building_12698/singapore_1"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_12698",
+   "weather": "riyadh_jan",
+   "dir": "data/final/val2/unseen/building_12698/riyadh_jan"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_12698",
+   "weather": "riyadh_jul",
+   "dir": "data/final/val2/unseen/building_12698/riyadh_jul"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_12698",
+   "weather": "dubai_jan",
+   "dir": "data/final/val2/unseen/building_12698/dubai_jan"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_12698",
+   "weather": "dubai_jul",
+   "dir": "data/final/val2/unseen/building_12698/dubai_jul"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_12698",
+   "weather": "seattle_jan",
+   "dir": "data/final/val2/unseen/building_12698/seattle_jan"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_12698",
+   "weather": "seattle_jul",
+   "dir": "data/final/val2/unseen/building_12698/seattle_jul"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_12698",
+   "weather": "london_jan",
+   "dir": "data/final/val2/unseen/building_12698/london_jan"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_12698",
+   "weather": "london_jul",
+   "dir": "data/final/val2/unseen/building_12698/london_jul"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_12698",
+   "weather": "beijing_jan",
+   "dir": "data/final/val2/unseen/building_12698/beijing_jan"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_12698",
+   "weather": "beijing_jul",
+   "dir": "data/final/val2/unseen/building_12698/beijing_jul"
+  },
+  {
+   "tag": "seen",
+   "building": "building_16266",
+   "weather": "atlanta_3",
+   "dir": "data/final/val2/seen/building_16266/atlanta_3"
+  },
+  {
+   "tag": "seen",
+   "building": "building_16266",
+   "weather": "denver_5",
+   "dir": "data/final/val2/seen/building_16266/denver_5"
+  },
+  {
+   "tag": "seen",
+   "building": "building_16266",
+   "weather": "fairbanks_7",
+   "dir": "data/final/val2/seen/building_16266/fairbanks_7"
+  },
+  {
+   "tag": "seen",
+   "building": "building_16266",
+   "weather": "phoenix_1",
+   "dir": "data/final/val2/seen/building_16266/phoenix_1"
+  },
+  {
+   "tag": "seen",
+   "building": "building_16266",
+   "weather": "singapore_3",
+   "dir": "data/final/val2/seen/building_16266/singapore_3"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_16266",
+   "weather": "riyadh_jan",
+   "dir": "data/final/val2/unseen/building_16266/riyadh_jan"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_16266",
+   "weather": "riyadh_jul",
+   "dir": "data/final/val2/unseen/building_16266/riyadh_jul"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_16266",
+   "weather": "dubai_jan",
+   "dir": "data/final/val2/unseen/building_16266/dubai_jan"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_16266",
+   "weather": "dubai_jul",
+   "dir": "data/final/val2/unseen/building_16266/dubai_jul"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_16266",
+   "weather": "seattle_jan",
+   "dir": "data/final/val2/unseen/building_16266/seattle_jan"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_16266",
+   "weather": "seattle_jul",
+   "dir": "data/final/val2/unseen/building_16266/seattle_jul"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_16266",
+   "weather": "london_jan",
+   "dir": "data/final/val2/unseen/building_16266/london_jan"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_16266",
+   "weather": "london_jul",
+   "dir": "data/final/val2/unseen/building_16266/london_jul"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_16266",
+   "weather": "beijing_jan",
+   "dir": "data/final/val2/unseen/building_16266/beijing_jan"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_16266",
+   "weather": "beijing_jul",
+   "dir": "data/final/val2/unseen/building_16266/beijing_jul"
+  },
+  {
+   "tag": "seen",
+   "building": "building_19219",
+   "weather": "atlanta_5",
+   "dir": "data/final/val2/seen/building_19219/atlanta_5"
+  },
+  {
+   "tag": "seen",
+   "building": "building_19219",
+   "weather": "denver_7",
+   "dir": "data/final/val2/seen/building_19219/denver_7"
+  },
+  {
+   "tag": "seen",
+   "building": "building_19219",
+   "weather": "fairbanks_1",
+   "dir": "data/final/val2/seen/building_19219/fairbanks_1"
+  },
+  {
+   "tag": "seen",
+   "building": "building_19219",
+   "weather": "phoenix_3",
+   "dir": "data/final/val2/seen/building_19219/phoenix_3"
+  },
+  {
+   "tag": "seen",
+   "building": "building_19219",
+   "weather": "singapore_5",
+   "dir": "data/final/val2/seen/building_19219/singapore_5"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_19219",
+   "weather": "riyadh_jan",
+   "dir": "data/final/val2/unseen/building_19219/riyadh_jan"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_19219",
+   "weather": "riyadh_jul",
+   "dir": "data/final/val2/unseen/building_19219/riyadh_jul"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_19219",
+   "weather": "dubai_jan",
+   "dir": "data/final/val2/unseen/building_19219/dubai_jan"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_19219",
+   "weather": "dubai_jul",
+   "dir": "data/final/val2/unseen/building_19219/dubai_jul"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_19219",
+   "weather": "seattle_jan",
+   "dir": "data/final/val2/unseen/building_19219/seattle_jan"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_19219",
+   "weather": "seattle_jul",
+   "dir": "data/final/val2/unseen/building_19219/seattle_jul"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_19219",
+   "weather": "london_jan",
+   "dir": "data/final/val2/unseen/building_19219/london_jan"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_19219",
+   "weather": "london_jul",
+   "dir": "data/final/val2/unseen/building_19219/london_jul"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_19219",
+   "weather": "beijing_jan",
+   "dir": "data/final/val2/unseen/building_19219/beijing_jan"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_19219",
+   "weather": "beijing_jul",
+   "dir": "data/final/val2/unseen/building_19219/beijing_jul"
+  },
+  {
+   "tag": "seen",
+   "building": "building_12096",
+   "weather": "atlanta_7",
+   "dir": "data/final/val2/seen/building_12096/atlanta_7"
+  },
+  {
+   "tag": "seen",
+   "building": "building_12096",
+   "weather": "denver_1",
+   "dir": "data/final/val2/seen/building_12096/denver_1"
+  },
+  {
+   "tag": "seen",
+   "building": "building_12096",
+   "weather": "fairbanks_3",
+   "dir": "data/final/val2/seen/building_12096/fairbanks_3"
+  },
+  {
+   "tag": "seen",
+   "building": "building_12096",
+   "weather": "phoenix_5",
+   "dir": "data/final/val2/seen/building_12096/phoenix_5"
+  },
+  {
+   "tag": "seen",
+   "building": "building_12096",
+   "weather": "singapore_7",
+   "dir": "data/final/val2/seen/building_12096/singapore_7"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_12096",
+   "weather": "riyadh_jan",
+   "dir": "data/final/val2/unseen/building_12096/riyadh_jan"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_12096",
+   "weather": "riyadh_jul",
+   "dir": "data/final/val2/unseen/building_12096/riyadh_jul"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_12096",
+   "weather": "dubai_jan",
+   "dir": "data/final/val2/unseen/building_12096/dubai_jan"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_12096",
+   "weather": "dubai_jul",
+   "dir": "data/final/val2/unseen/building_12096/dubai_jul"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_12096",
+   "weather": "seattle_jan",
+   "dir": "data/final/val2/unseen/building_12096/seattle_jan"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_12096",
+   "weather": "seattle_jul",
+   "dir": "data/final/val2/unseen/building_12096/seattle_jul"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_12096",
+   "weather": "london_jan",
+   "dir": "data/final/val2/unseen/building_12096/london_jan"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_12096",
+   "weather": "london_jul",
+   "dir": "data/final/val2/unseen/building_12096/london_jul"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_12096",
+   "weather": "beijing_jan",
+   "dir": "data/final/val2/unseen/building_12096/beijing_jan"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_12096",
+   "weather": "beijing_jul",
+   "dir": "data/final/val2/unseen/building_12096/beijing_jul"
+  },
+  {
+   "tag": "seen",
+   "building": "building_11229",
+   "weather": "atlanta_1",
+   "dir": "data/final/val2/seen/building_11229/atlanta_1"
+  },
+  {
+   "tag": "seen",
+   "building": "building_11229",
+   "weather": "denver_3",
+   "dir": "data/final/val2/seen/building_11229/denver_3"
+  },
+  {
+   "tag": "seen",
+   "building": "building_11229",
+   "weather": "fairbanks_5",
+   "dir": "data/final/val2/seen/building_11229/fairbanks_5"
+  },
+  {
+   "tag": "seen",
+   "building": "building_11229",
+   "weather": "phoenix_7",
+   "dir": "data/final/val2/seen/building_11229/phoenix_7"
+  },
+  {
+   "tag": "seen",
+   "building": "building_11229",
+   "weather": "singapore_1",
+   "dir": "data/final/val2/seen/building_11229/singapore_1"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_11229",
+   "weather": "riyadh_jan",
+   "dir": "data/final/val2/unseen/building_11229/riyadh_jan"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_11229",
+   "weather": "riyadh_jul",
+   "dir": "data/final/val2/unseen/building_11229/riyadh_jul"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_11229",
+   "weather": "dubai_jan",
+   "dir": "data/final/val2/unseen/building_11229/dubai_jan"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_11229",
+   "weather": "dubai_jul",
+   "dir": "data/final/val2/unseen/building_11229/dubai_jul"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_11229",
+   "weather": "seattle_jan",
+   "dir": "data/final/val2/unseen/building_11229/seattle_jan"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_11229",
+   "weather": "seattle_jul",
+   "dir": "data/final/val2/unseen/building_11229/seattle_jul"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_11229",
+   "weather": "london_jan",
+   "dir": "data/final/val2/unseen/building_11229/london_jan"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_11229",
+   "weather": "london_jul",
+   "dir": "data/final/val2/unseen/building_11229/london_jul"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_11229",
+   "weather": "beijing_jan",
+   "dir": "data/final/val2/unseen/building_11229/beijing_jan"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_11229",
+   "weather": "beijing_jul",
+   "dir": "data/final/val2/unseen/building_11229/beijing_jul"
+  },
+  {
+   "tag": "seen",
+   "building": "building_17989",
+   "weather": "atlanta_3",
+   "dir": "data/final/val2/seen/building_17989/atlanta_3"
+  },
+  {
+   "tag": "seen",
+   "building": "building_17989",
+   "weather": "denver_5",
+   "dir": "data/final/val2/seen/building_17989/denver_5"
+  },
+  {
+   "tag": "seen",
+   "building": "building_17989",
+   "weather": "fairbanks_7",
+   "dir": "data/final/val2/seen/building_17989/fairbanks_7"
+  },
+  {
+   "tag": "seen",
+   "building": "building_17989",
+   "weather": "phoenix_1",
+   "dir": "data/final/val2/seen/building_17989/phoenix_1"
+  },
+  {
+   "tag": "seen",
+   "building": "building_17989",
+   "weather": "singapore_3",
+   "dir": "data/final/val2/seen/building_17989/singapore_3"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_17989",
+   "weather": "riyadh_jan",
+   "dir": "data/final/val2/unseen/building_17989/riyadh_jan"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_17989",
+   "weather": "riyadh_jul",
+   "dir": "data/final/val2/unseen/building_17989/riyadh_jul"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_17989",
+   "weather": "dubai_jan",
+   "dir": "data/final/val2/unseen/building_17989/dubai_jan"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_17989",
+   "weather": "dubai_jul",
+   "dir": "data/final/val2/unseen/building_17989/dubai_jul"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_17989",
+   "weather": "seattle_jan",
+   "dir": "data/final/val2/unseen/building_17989/seattle_jan"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_17989",
+   "weather": "seattle_jul",
+   "dir": "data/final/val2/unseen/building_17989/seattle_jul"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_17989",
+   "weather": "london_jan",
+   "dir": "data/final/val2/unseen/building_17989/london_jan"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_17989",
+   "weather": "london_jul",
+   "dir": "data/final/val2/unseen/building_17989/london_jul"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_17989",
+   "weather": "beijing_jan",
+   "dir": "data/final/val2/unseen/building_17989/beijing_jan"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_17989",
+   "weather": "beijing_jul",
+   "dir": "data/final/val2/unseen/building_17989/beijing_jul"
+  },
+  {
+   "tag": "seen",
+   "building": "building_10248",
+   "weather": "atlanta_5",
+   "dir": "data/final/val2/seen/building_10248/atlanta_5"
+  },
+  {
+   "tag": "seen",
+   "building": "building_10248",
+   "weather": "denver_7",
+   "dir": "data/final/val2/seen/building_10248/denver_7"
+  },
+  {
+   "tag": "seen",
+   "building": "building_10248",
+   "weather": "fairbanks_1",
+   "dir": "data/final/val2/seen/building_10248/fairbanks_1"
+  },
+  {
+   "tag": "seen",
+   "building": "building_10248",
+   "weather": "phoenix_3",
+   "dir": "data/final/val2/seen/building_10248/phoenix_3"
+  },
+  {
+   "tag": "seen",
+   "building": "building_10248",
+   "weather": "singapore_5",
+   "dir": "data/final/val2/seen/building_10248/singapore_5"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_10248",
+   "weather": "riyadh_jan",
+   "dir": "data/final/val2/unseen/building_10248/riyadh_jan"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_10248",
+   "weather": "riyadh_jul",
+   "dir": "data/final/val2/unseen/building_10248/riyadh_jul"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_10248",
+   "weather": "dubai_jan",
+   "dir": "data/final/val2/unseen/building_10248/dubai_jan"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_10248",
+   "weather": "dubai_jul",
+   "dir": "data/final/val2/unseen/building_10248/dubai_jul"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_10248",
+   "weather": "seattle_jan",
+   "dir": "data/final/val2/unseen/building_10248/seattle_jan"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_10248",
+   "weather": "seattle_jul",
+   "dir": "data/final/val2/unseen/building_10248/seattle_jul"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_10248",
+   "weather": "london_jan",
+   "dir": "data/final/val2/unseen/building_10248/london_jan"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_10248",
+   "weather": "london_jul",
+   "dir": "data/final/val2/unseen/building_10248/london_jul"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_10248",
+   "weather": "beijing_jan",
+   "dir": "data/final/val2/unseen/building_10248/beijing_jan"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_10248",
+   "weather": "beijing_jul",
+   "dir": "data/final/val2/unseen/building_10248/beijing_jul"
+  },
+  {
+   "tag": "seen",
+   "building": "building_19263",
+   "weather": "atlanta_7",
+   "dir": "data/final/val2/seen/building_19263/atlanta_7"
+  },
+  {
+   "tag": "seen",
+   "building": "building_19263",
+   "weather": "denver_1",
+   "dir": "data/final/val2/seen/building_19263/denver_1"
+  },
+  {
+   "tag": "seen",
+   "building": "building_19263",
+   "weather": "fairbanks_3",
+   "dir": "data/final/val2/seen/building_19263/fairbanks_3"
+  },
+  {
+   "tag": "seen",
+   "building": "building_19263",
+   "weather": "phoenix_5",
+   "dir": "data/final/val2/seen/building_19263/phoenix_5"
+  },
+  {
+   "tag": "seen",
+   "building": "building_19263",
+   "weather": "singapore_7",
+   "dir": "data/final/val2/seen/building_19263/singapore_7"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_19263",
+   "weather": "riyadh_jan",
+   "dir": "data/final/val2/unseen/building_19263/riyadh_jan"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_19263",
+   "weather": "riyadh_jul",
+   "dir": "data/final/val2/unseen/building_19263/riyadh_jul"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_19263",
+   "weather": "dubai_jan",
+   "dir": "data/final/val2/unseen/building_19263/dubai_jan"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_19263",
+   "weather": "dubai_jul",
+   "dir": "data/final/val2/unseen/building_19263/dubai_jul"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_19263",
+   "weather": "seattle_jan",
+   "dir": "data/final/val2/unseen/building_19263/seattle_jan"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_19263",
+   "weather": "seattle_jul",
+   "dir": "data/final/val2/unseen/building_19263/seattle_jul"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_19263",
+   "weather": "london_jan",
+   "dir": "data/final/val2/unseen/building_19263/london_jan"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_19263",
+   "weather": "london_jul",
+   "dir": "data/final/val2/unseen/building_19263/london_jul"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_19263",
+   "weather": "beijing_jan",
+   "dir": "data/final/val2/unseen/building_19263/beijing_jan"
+  },
+  {
+   "tag": "unseen",
+   "building": "building_19263",
+   "weather": "beijing_jul",
+   "dir": "data/final/val2/unseen/building_19263/beijing_jul"
+  }
+ ],
+ "failed": []
+}

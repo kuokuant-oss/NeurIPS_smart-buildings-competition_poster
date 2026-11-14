@@ -1,0 +1,29 @@
+{
+ "_note": "round 3 (2026-10-28 22:2x): d0 = round 2 best (c1_topt7200: heating ratio 0.36, optimal start cap 2 h, margin 0.10; -3.00% on train_breakdown40, -2.61% on train_ceiling_rest60 vs fixed -1.91%); one parameter at a time around it",
+ "d0_dis118": {
+  "heating_max_ratio": 0.36,
+  "t_opt_max_s": 7200.0,
+  "occupied_margin_k": 0.1,
+  "discharge_offset_k": 11.8
+ },
+ "d0_topt5400": {
+  "heating_max_ratio": 0.36,
+  "t_opt_max_s": 5400.0,
+  "occupied_margin_k": 0.1
+ },
+ "d0_topt3600": {
+  "heating_max_ratio": 0.36,
+  "t_opt_max_s": 3600.0,
+  "occupied_margin_k": 0.1
+ },
+ "d0_heat039": {
+  "heating_max_ratio": 0.39,
+  "t_opt_max_s": 7200.0,
+  "occupied_margin_k": 0.1
+ },
+ "d0_margin007": {
+  "heating_max_ratio": 0.36,
+  "t_opt_max_s": 7200.0,
+  "occupied_margin_k": 0.0726
+ }
+}

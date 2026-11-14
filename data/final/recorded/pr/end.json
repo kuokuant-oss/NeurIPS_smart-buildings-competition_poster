@@ -1,0 +1,75 @@
+{
+ "spec": {
+  "breaks_c": [
+   0,
+   5,
+   20,
+   25
+  ],
+  "cold": {
+   "heating_max_ratio": 0.4529957279624725,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180,
+   "discharge_offset_k": 14.0,
+   "sat_cost_guard_k": 30.0,
+   "sp_max_pa": 1807.1323159420097
+  },
+  "mild": {
+   "heating_max_ratio": 0.36,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.1,
+   "unoccupied_lead_min": 180,
+   "discharge_offset_k": 14.0,
+   "sat_cost_guard_k": 0.0,
+   "sp_max_pa": 1807.1323159420097
+  },
+  "hot": {
+   "heating_max_ratio": 0.4529957279624725,
+   "t_opt_max_s": 3600.0,
+   "occupied_margin_k": 0.25,
+   "unoccupied_lead_min": 240,
+   "discharge_offset_k": 14.0,
+   "sat_cost_guard_k": 0.25,
+   "sp_max_pa": 1807.1323159420097
+  },
+  "rule_config": {
+   "freeze_on_k": 275.15,
+   "freeze_off_k": 278.15,
+   "sat_cost_optimal": true,
+   "sat_cost_guard_k": 0.5,
+   "zone_gain_per_k": 0.05,
+   "zone_ti_s": 450.0,
+   "empty_day_delay_min": 60,
+   "dcv_area_share": 0.7,
+   "ahu_vot_check": true,
+   "freeze_min_airflow": true,
+   "freeze_coldest_only": true,
+   "pump_dp_reset": "valve_inverse",
+   "sp_smooth_alpha": 0.5,
+   "return_air_area_weighted": true,
+   "inversion_supply_air": "same_step",
+   "low_load_max_loop": 0.5,
+   "sat_rate_limit_k": 0.5,
+   "sat_guard_hysteresis_k": 0.25,
+   "sat_cost_fan_observed": true,
+   "night_flush": true,
+   "night_flush_min_range_k": 12.0,
+   "night_flush_min_max_k": 298.15,
+   "opt_start_continuous": true,
+   "daily_layer": true,
+   "daily_min_oat24_k": 291.15,
+   "economic_target_k": 0.6,
+   "cold_low_flow_oat_k": 278.15,
+   "cold_low_flow_sp_pa": 2000.0,
+   "cold_low_flow_deadband_only": true,
+   "big_room_heat_max_ratio": 0.6,
+   "big_room_need": true,
+   "empty_day_setup": "night",
+   "economic_keep_cold_k": 0.6,
+   "setback_heat_drop_k": 3.0
+  },
+  "layout": "v3"
+ },
+ "key": "s7a4719223eb3"
+}

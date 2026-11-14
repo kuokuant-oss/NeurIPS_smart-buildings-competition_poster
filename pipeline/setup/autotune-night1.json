@@ -1,0 +1,113 @@
+{
+ "tag": "night1",
+ "start": {
+  "round": "data/runs/b2rl/search/autotune-short1-end.json",
+  "name": "at_short1_013",
+  "set": {
+   "cold": {
+    "sp_max_pa": 1807.1323159420097
+   },
+   "mild": {
+    "sp_max_pa": 1807.1323159420097
+   },
+   "hot": {
+    "sp_max_pa": 1807.1323159420097
+   }
+  }
+ },
+ "start_rows": {
+  "search": "at_short1_012",
+  "holdout": "at_short1_013"
+ },
+ "moves": [
+  {
+   "parameter": "sat_cost_guard_k",
+   "bands": "mild",
+   "step": 0.25,
+   "low": 0.0,
+   "high": 1.0,
+   "reach": 1
+  },
+  {
+   "parameter": "sat_cost_guard_k",
+   "bands": "hot",
+   "step": 0.25,
+   "low": 0.0,
+   "high": 1.5,
+   "reach": 1
+  },
+  {
+   "parameter": "heating_max_ratio",
+   "bands": "cold",
+   "step": 0.04,
+   "low": 0.1,
+   "high": 0.5,
+   "reach": 1
+  },
+  {
+   "parameter": "heating_max_ratio",
+   "bands": "hot",
+   "step": 0.04,
+   "low": 0.1,
+   "high": 0.5,
+   "reach": 1
+  },
+  {
+   "parameter": "heating_max_ratio",
+   "bands": "mild",
+   "step": 0.04,
+   "low": 0.1,
+   "high": 0.5,
+   "reach": 1
+  },
+  {
+   "parameter": "unoccupied_lead_min",
+   "bands": "cold",
+   "step": 60,
+   "low": 0,
+   "high": 360,
+   "reach": 1
+  },
+  {
+   "parameter": "unoccupied_lead_min",
+   "bands": "mild",
+   "step": 60,
+   "low": 0,
+   "high": 360,
+   "reach": 1
+  },
+  {
+   "parameter": "unoccupied_lead_min",
+   "bands": "hot",
+   "step": 60,
+   "low": 0,
+   "high": 360,
+   "reach": 1
+  },
+  {
+   "parameter": "t_opt_max_s",
+   "bands": "cold",
+   "step": 1800,
+   "low": 3600,
+   "high": 21600,
+   "reach": 1
+  },
+  {
+   "parameter": "occupied_margin_k",
+   "bands": "hot",
+   "step": 0.05,
+   "low": 0.0,
+   "high": 1.0,
+   "reach": 1
+  },
+  {
+   "parameter": "sp_max_pa",
+   "bands": "all",
+   "step": 400.0,
+   "low": 200.0,
+   "high": 2000.0,
+   "reach": 1
+  }
+ ],
+ "sweeps": 1
+}

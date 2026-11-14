@@ -1,0 +1,47 @@
+{
+ "climate only": {
+  "lobo %": -3.86,
+  "rules on all 80": {
+   "min_s_core": "on",
+   "min_s_ext": "oat_mean>-0.89",
+   "min_m_core": "on",
+   "min_m_ext": "oat_mean<=19.82",
+   "min_l_core": "off",
+   "min_l_ext": "off",
+   "min_x_core": "off",
+   "min_x_ext": "off",
+   "wallheat_sm": "oat_mean>23.30",
+   "wallheat_lx": "oat_mean>19.82"
+  }
+ },
+ "building traits only": {
+  "lobo %": -1.59,
+  "rules on all 80": {
+   "min_s_core": "long_share<=0.31",
+   "min_s_ext": "core_share<=0.38",
+   "min_m_core": "small_share>0.08",
+   "min_m_ext": "long_share>0.13",
+   "min_l_core": "small_share>0.57",
+   "min_l_ext": "small_share>0.34",
+   "min_x_core": "off",
+   "min_x_ext": "small_share>0.34",
+   "wallheat_sm": "small_share<=0.00",
+   "wallheat_lx": "core_share>0.38"
+  }
+ },
+ "all": {
+  "lobo %": -3.28,
+  "rules on all 80": {
+   "min_s_core": "long_share<=0.31",
+   "min_s_ext": "oat_mean>-0.89",
+   "min_m_core": "small_share>0.08",
+   "min_m_ext": "long_share>0.13",
+   "min_l_core": "small_share>0.57",
+   "min_l_ext": "small_share>0.34",
+   "min_x_core": "off",
+   "min_x_ext": "small_share>0.34",
+   "wallheat_sm": "oat_mean>23.30",
+   "wallheat_lx": "oat_mean>19.82"
+  }
+ }
+}
