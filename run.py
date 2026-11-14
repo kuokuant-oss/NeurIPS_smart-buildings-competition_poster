@@ -110,7 +110,7 @@ def cmd_setup(args):
 
 
 # ------------------------------------------------------------------------------------------------ validation
-PAPER_MODELS = ["pr_opt2", "pr_room", "gt_x8", "gm_tree_m1", "gt_t2b"]
+PAPER_MODELS = ["pr_opt2", "pr_room", "gt_x8", "gm_tree_m1", "gt_t2b", "gt_m1", "gt_x1"]
 CORRECTED = {"SB_TANK": "balance", "SB_RETURN_AIR": "flow", "SB_FASTSIM_CACHE": str(ROOT / "data/runs/fastsim/rom-cache")}
 
 

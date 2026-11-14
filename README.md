@@ -9,13 +9,12 @@ Reproduction comes in two stages.
 |---|---|---|---|---|
 | 1 | Table 8, rows 14 and 15 | the two submitted Kaggle notebooks (public 0.01056 and 0.01071), rebuilt and compared byte for byte | `run.py submissions` | verified |
 | 1 | Tables 3, 4, 9 | the final models, rebuilt from their recorded predecessors | `run.py models` | verified |
-| 2 | Tables 2, 5, 6, 13; Figures 4, 5 | validation cost of the reference controllers, the default and the tuned guideline rule, the rule with the learned layer and the per-room selection alone, on 270 scenarios of 18 buildings | `run.py setup`, `run.py validate`, `run.py tables` | in progress |
-| 2 | Table 7 | the two learning targets (`gm_tree_m1`, `gt_t2b`) on the same scenarios | `run.py validate` | in progress |
+| 2 | — | scenarios: training pool, 12 new validation buildings, unseen-station weather and scenarios | `run.py setup` | verified |
+| 2 | Tables 2, 5, 7 (costs of 270 scenarios) | validation cost of the reference controllers, the default and the tuned guideline rule, the rule with the learned layer, the per-room selection alone and the two learning targets | `run.py validate` | verified with the paper's reduced thermal models (see below) |
+| 2 | Tables 6, 13; Figures 4, 5 | the breakdowns and per-step traces built from these runs | `run.py tables`, `run.py validate --traces` | in progress |
 | 2 | Tables 3, 10, 11, 14 | the full training chain, stage by stage, from the PPO run to both final models | `run.py chain`, `run.py retrain <stage>` | in progress |
 
-Stage 1 needs only `python3` and has been run on a fresh clone of this repository. Stage 2 runs the simulator; its
-code and the recorded results behind the paper are here (`data/final/recorded`, `data/runs/b2rl`), and rerunning it
-from this repository is in progress.
+Stage 1 needs only `python3`. Both stages were run from a fresh clone of this repository.
 
 Names in the code: tuned rule = `pr_opt2` (public score 0.01071), rule with the learned layer = `gt_x8`
 (0.01056), tuned rule with the per-room selection only = `pr_room`, guideline rule with default settings =
@@ -45,11 +44,27 @@ written as `/home/user/`. With that path restored, both rebuilt notebooks have t
 
 To run a notebook, upload it to the competition as a notebook (internet off, competition data attached).
 
-## Stage 2: simulation experiments — in progress
+## Stage 2: simulation experiments
 
-Rerunning the commands below from this repository is in progress; until it is complete, the recorded results behind
-the paper are in `data/final/recorded` (validation, tuned-rule search) and `data/runs/b2rl` (stages of the training
-chain).
+What has been rerun from a fresh clone:
+
+* `run.py setup`: the downloaded NOAA files, the five weather files and the 60 unseen-station scenarios, the training
+  pool (1,468 files) and the 180 scenarios of the 12 new validation buildings are identical to the ones used for the
+  paper (absolute paths inside `config.gin` aside).
+* `run.py validate`: all 2,880 recorded validation episodes (270 scenarios; four reference controllers, the default
+  and the tuned rule, the rule with the learned layer, the per-room selection alone, the two learning targets and the
+  two alternatives of Table 14) are reproduced to the last digit, giving the paper's mean costs (Tables 2, 5, 7) and
+  the comparison of the rule with the learned layer and the tuned rule (-1.07 %, cheaper in 177 of 270 scenarios),
+  when the fast simulator uses the reduced thermal models of the paper's runs.
+* The reduced thermal models themselves are not bit-reproducible: rebuilding them (`run.py setup`) gives the same
+  model inputs and cache keys but numerically different files, even with the same script and thread count. With
+  rebuilt models, controllers that switch equipment often (the starter kit's fixed-setpoint and PID controllers) give
+  different 30-day costs in some scenarios (up to 19.5 % in one episode); bang-bang and the guideline rule agree to
+  floating-point noise.
+
+Still in progress: the per-step traces and breakdowns (Tables 6, 13, Figures 4, 5) and the stages of the training
+chain. The recorded results behind the paper are in `data/final/recorded` (validation, tuned-rule search) and
+`data/runs/b2rl` (stages of the training chain).
 
 Linux (tested on Ubuntu under WSL 2), `git`, `python3` and [uv](https://docs.astral.sh/uv/). The environment is
 locked to Python 3.13 and the package versions of the Kaggle notebook image (`pyproject.toml`, `uv.lock`; PyTorch with
