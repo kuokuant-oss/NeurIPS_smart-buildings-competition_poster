@@ -33,7 +33,7 @@ def _episode(arg):
 
 
 if __name__ == "__main__":
-    workers = int(sys.argv[2]); out = run_x.SCR / "runs_p2"
+    workers = int(sys.argv[2]); out = run_x.SCR / "runs_p2"; out.mkdir(parents=True, exist_ok=True)
     f = lambda n, t: out / f"{t}-org_{n}.json"
     recs = {(n, t): (json.loads(f(n, t).read_text()) if f(n, t).is_file() else {"rows": {}}) for n in NAMES for t in ("off", "new")}
     todo = [(n, t, s) for n in NAMES for t, s in run_x.scenarios() if "/".join(Path(s).parts[-2:]) not in recs[(n, t)]["rows"]]

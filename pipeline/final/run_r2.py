@@ -32,7 +32,7 @@ def _episode(arg):
 
 
 if __name__ == "__main__":
-    workers = int(sys.argv[2]); out = run_x.SCR / "runs_p2"
+    workers = int(sys.argv[2]); out = run_x.SCR / "runs_p2"; out.mkdir(parents=True, exist_ok=True)
     recs = {t: (json.loads((out / f"{t}-{NAME}.json").read_text()) if (out / f"{t}-{NAME}.json").is_file() else {"rows": {}}) for t in ("off", "new")}
     todo = [s for s in run_x.scenarios() if "/".join(Path(s[1]).parts[-2:]) not in recs[s[0]]["rows"]]
     print(len(todo), "episodes", flush=True)
