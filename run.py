@@ -133,8 +133,16 @@ def cmd_validate(args):
 
 
 def cmd_tables(args):
-    launch("pipeline/final/an12.py", FINAL, "runs_p2,runs_v2", "an12.json")
     sh(["python3", "-B", "pipeline/final/compare_results.py"])
+    # paper numbers (needs the traces of `validate --traces`) -> data/final/an12.json, data/final/paper/numbers.tex
+    launch("pipeline/final/an12.py", FINAL, "runs_p2,runs_v2", "an12.json")
+    shutil.copyfile(ROOT / FINAL / "an12.json", ROOT / FINAL / "an6.json")
+    (ROOT / FINAL / "paper").mkdir(parents=True, exist_ok=True)
+    launch("pipeline/final/mknum.py", FINAL, f"{FINAL}/paper")
+    # Figures 2-5 -> data/final/paper
+    launch("pipeline/final/figs10.py", FINAL, f"{FINAL}/paper")
+    launch("pipeline/final/figs9.py", f"{FINAL}/paper")
+    launch("pipeline/final/figs7.py", f"{FINAL}/paper")
 
 
 # ------------------------------------------------------------------------------------------------ models

@@ -11,7 +11,7 @@ Reproduction comes in two stages.
 | 1 | Tables 3, 4, 9 | the final models, rebuilt from their recorded predecessors | `run.py models` | verified |
 | 2 | — | scenarios: training pool, 12 new validation buildings, unseen-station weather and scenarios | `run.py setup` | verified |
 | 2 | Tables 2, 5, 7 (costs of 270 scenarios) | validation cost of the reference controllers, the default and the tuned guideline rule, the rule with the learned layer, the per-room selection alone and the two learning targets | `run.py validate` | verified with the paper's reduced thermal models (see below) |
-| 2 | Tables 6, 13; Figures 4, 5 | the breakdowns and per-step traces built from these runs | `run.py tables`, `run.py validate --traces` | in progress |
+| 2 | Tables 6, 13; Figures 2-5 | the breakdowns, per-step traces and figures built from these runs | `run.py validate --traces`, `run.py tables` | verified with the paper's reduced thermal models |
 | 2 | Tables 3, 10, 11, 14 | the full training chain, stage by stage, from the PPO run to both final models | `run.py chain`, `run.py retrain <stage>` | in progress |
 
 Stage 1 needs only `python3`. Both stages were run from a fresh clone of this repository.
@@ -56,14 +56,17 @@ What has been rerun from a fresh clone:
   two alternatives of Table 14) are reproduced to the last digit, giving the paper's mean costs (Tables 2, 5, 7) and
   the comparison of the rule with the learned layer and the tuned rule (-1.07 %, cheaper in 177 of 270 scenarios),
   when the fast simulator uses the reduced thermal models of the paper's runs.
+* Per-step traces (`--traces`, 540 episodes): every array identical to the paper's. From them and the runs,
+  `pipeline/final/an12.py` and `mknum.py` rebuild all 43 number macros of the paper (`numbers.tex`) identically
+  (per-scenario means read from the float32 traces differ by at most 2e-7 relative, below any printed digit), and
+  `figs10.py`, `figs9.py`, `figs7.py` render Figures 2-5 pixel-identical to the paper's.
 * The reduced thermal models themselves are not bit-reproducible: rebuilding them (`run.py setup`) gives the same
   model inputs and cache keys but numerically different files, even with the same script and thread count. With
   rebuilt models, controllers that switch equipment often (the starter kit's fixed-setpoint and PID controllers) give
   different 30-day costs in some scenarios (up to 19.5 % in one episode); bang-bang and the guideline rule agree to
   floating-point noise.
 
-Still in progress: the per-step traces and breakdowns (Tables 6, 13, Figures 4, 5) and the stages of the training
-chain. The recorded results behind the paper are in `data/final/recorded` (validation, tuned-rule search) and
+Still in progress: the stages of the training chain. The recorded results behind the paper are in `data/final/recorded` (validation, tuned-rule search) and
 `data/runs/b2rl` (stages of the training chain).
 
 Linux (tested on Ubuntu under WSL 2), `git`, `python3` and [uv](https://docs.astral.sh/uv/). The environment is
