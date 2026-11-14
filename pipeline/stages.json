@@ -4,7 +4,7 @@
   "commands": [["python3", "-B", "pipeline/setup/v2_run.py"]]},
  {"id": "offset", "recorded": true,
   "what": "constant-action model from the actor's mean parameters -> data/runs/b2rl/offset-check/model-fixed-u100.json",
-  "commands": [["launch", "pipeline/setup/offset_check.py", "data/runs/b2rl/v2-rom-s42/model-u100.json", "{workers}"]]},
+  "commands": [["launch", "pipeline/setup/offset_check.py", "data/runs/b2rl/v2-rom-s42/validation/model-u100.json", "{workers}"]]},
  {"id": "ceiling", "recorded": false,
   "what": "rule, fixed, cold/warm sets on whole TRAIN episodes (rows reused by the search)",
   "commands": [["launch", "pipeline/setup/ceiling.py", "{workers}"]]},
