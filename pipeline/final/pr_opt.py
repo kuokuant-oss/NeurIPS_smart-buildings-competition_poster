@@ -157,7 +157,7 @@ class Opt:
                 hrel, ht = self.compare(hn, hb, HOLDOUT)
                 ok = hrel <= HOLDOUT_TOL
                 log(f"  [{label}] {n}: holdout {100 * hrel:+.3f}% (t {ht:+.1f}) -> {'KEPT' if ok else 'turned down'}")
-                if not ok:
+                if not ok or os.environ.get("PR_OPT_RETRY_KEPT") == "0":
                     dead.add(n)
                 if ok:
                     state, kept = s, True

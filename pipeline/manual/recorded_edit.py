@@ -1,7 +1,8 @@
 """Hand-made steps of the chain, replayed from a recorded edit.
 
-Three files of the chain were made by hand (no script wrote them): the autotune end state with dcv_area_share 0.7
-(night1_dcv07), and the merged models gt_m1 (gt_r3d1 + levers) and gt_b2 (gt_r5pa2 + levers). Each edit file in
+Four files of the chain were made by hand (no script wrote them): the autotune end state with dcv_area_share 0.7
+(night1_dcv07), gt_wub (gt_wua + the climate gate o526_3), and the merged models gt_m1 (gt_r3d1 + levers) and gt_b2
+(gt_r5pa2 + levers). Each edit file in
 pipeline/manual/edits/ records the difference between the input file and the file that was used, as a list of
 operations on JSON paths; `apply` turns the input into the recorded output, `make` records a new edit.
 

@@ -13,8 +13,7 @@ writes data/runs/b2rl/geo/stage_m/result.json; the pipeline waits for that scrip
 A passing candidate gets INNER 29 on the fast simulator (for the Kaggle consistency check) and then
 pipeline/setup/geo_gate.py (Kaggle official gates, billing check, submission under the standing rules) in the background.
 
-Log lines (data/runs/b2rl/geo/pipeline.log): RESULT per evaluation, EVENT per stage step (the hourly watcher wakes on
-EVENT and ERROR). State: data/runs/b2rl/geo/pipeline.json (resumable; finished evaluations are reused).
+Log lines (data/runs/b2rl/geo/pipeline.log): RESULT per evaluation, EVENT per stage step. State: data/runs/b2rl/geo/pipeline.json (resumable; finished evaluations are reused).
 
 python3 -B pipeline/launch/launch.py pipeline/setup/geo_pipeline.py [--workers 12]"""
 import argparse
@@ -73,6 +72,7 @@ def load_state():
 
 
 def save_state(state):
+    STATE.parent.mkdir(parents=True, exist_ok=True)
     tmp = STATE.with_suffix(".tmp")
     tmp.write_text(json.dumps(state, indent=1) + "\n", encoding="utf-8")
     os.replace(tmp, STATE)

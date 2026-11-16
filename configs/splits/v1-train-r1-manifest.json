@@ -100,19 +100,19 @@
     {
       "seed": 11395,
       "stratum": "default",
-      "scan": ": 336 control volumes in one-cell-thick strips (first (6, 5)); the simulator constructor raises in classify_cv",
+      "scan": "constructor_check: 336 control volumes in one-cell-thick strips (first (6, 5)); the simulator constructor raises in classify_cv",
       "constructor": "ValueError: Wasn't able to determine which corner the CV (6, 5) is."
     },
     {
       "seed": 16645,
       "stratum": "shipped",
-      "scan": ": 496 control volumes in one-cell-thick strips (first (5, 6)); the simulator constructor raises in classify_cv",
+      "scan": "constructor_check: 496 control volumes in one-cell-thick strips (first (5, 6)); the simulator constructor raises in classify_cv",
       "constructor": "ValueError: Wasn't able to determine which corner the CV (5, 6) is."
     },
     {
       "seed": 19168,
       "stratum": "default",
-      "scan": ": 322 control volumes in one-cell-thick strips (first (329, 6)); the simulator constructor raises in classify_cv",
+      "scan": "constructor_check: 322 control volumes in one-cell-thick strips (first (329, 6)); the simulator constructor raises in classify_cv",
       "constructor": "ValueError: Wasn't able to determine which corner the CV (329, 6) is."
     }
   ],
@@ -615,11 +615,6 @@
       "reason": "seed 19991 produces 1 zone(s) below the 20.0 m2 minimum floor area (smallest 12.80 m2)"
     },
     {
-      "seed": 16645,
-      "stratum": "shipped",
-      "reason": ""
-    },
-    {
       "seed": 13592,
       "stratum": "default",
       "reason": "seed 13592 produces 1 zone(s) below the 20.0 m2 minimum floor area (smallest 13.24 m2)"
@@ -648,11 +643,6 @@
       "seed": 17390,
       "stratum": "shipped",
       "reason": "seed 17390 produces 1 zone(s) below the 20.0 m2 minimum floor area (smallest 17.48 m2)"
-    },
-    {
-      "seed": 19168,
-      "stratum": "default",
-      "reason": ""
     },
     {
       "seed": 18467,
@@ -688,11 +678,6 @@
       "seed": 15049,
       "stratum": "default",
       "reason": "seed 15049 produces 4 zone(s) below the 20.0 m2 minimum floor area (smallest 9.96 m2)"
-    },
-    {
-      "seed": 11395,
-      "stratum": "default",
-      "reason": ""
     },
     {
       "seed": 18887,
@@ -840,6 +825,6 @@
       "reason": "seed 16499 produces 1 zone(s) below the 20.0 m2 minimum floor area (smallest 3.80 m2)"
     }
   ],
-  "seconds": 610,
-  "split_sha256": "7266a5c2f96cdf3883252f17b54accbc3d0ab1c37200071307c0e342b38ea3a0"
+  "seconds": 643,
+  "split_sha256": "eae6a415c38b6f82c4177ce0f56c787706d320c1bede672af910ca364f162289"
 }

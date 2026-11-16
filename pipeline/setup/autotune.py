@@ -16,16 +16,16 @@ cannot find a gain that needs two parameters to move together while neither help
 of the 2026-10-29 mock tests); the known-answer pilots check that the real landscape is not like that. Every evaluation and decision is a line of
 data/runs/b2rl/autotune/<tag>/log.jsonl, the state after each kept move is state.json, and the end writes summary.json
 (with the end state against the start on the holdout set) and a "ROUND autotune <tag> done" line in
-data/runs/b2rl/search/run.log (the hourly watcher wakes on it). Costs are mean cost over scenarios; "vs rule" is against
+data/runs/b2rl/search/run.log. Costs are mean cost over scenarios; "vs rule" is against
 the original rule G36PolicyB2R2 (data/runs/b2rl/ceiling/rule.json).
 
 python3 -B pipeline/launch/launch.py pipeline/setup/autotune.py <plan.json> [--workers 16]
 plan: {"tag": "...", "start": {"round": "data/runs/b2rl/search/round14.json", "name": "f2d_a12_g05",
-                                "set": {"<band>": {"<parameter>": value}, ...}},
-       "start_rows": "<search candidate whose train_ceiling100 rows are exactly the start's>" (optional),
-       "moves": [{"parameter": "t_opt_max_s", "bands": "all", "step": 3600, "low": 3600, "high": 21600,
-                  "reach": 2}, ...],
-       "sweeps": 2}"""
+ "set": {"<band>": {"<parameter>": value},...}},
+ "start_rows": "<search candidate whose train_ceiling100 rows are exactly the start's>" (optional),
+ "moves": [{"parameter": "t_opt_max_s", "bands": "all", "step": 3600, "low": 3600, "high": 21600,
+ "reach": 2},...],
+ "sweeps": 2}"""
 import argparse
 import json
 import math

@@ -1,0 +1,635 @@
+{
+ "base": "gm_tree_m1",
+ "stages": {
+  "n1": {
+   "attempts": [
+    {
+     "tag": "n1a",
+     "name": "gm_n1a",
+     "tree": {
+      "feature": "area",
+      "threshold": 132.84,
+      "left": {
+       "feature": "area",
+       "threshold": 110.92000000000002,
+       "left": {
+        "feature": "area",
+        "threshold": 104.98000000000002,
+        "left": {
+         "leaf": 1
+        },
+        "right": {
+         "leaf": 3
+        }
+       },
+       "right": {
+        "feature": "oat",
+        "threshold": 2.9515769230769235,
+        "left": {
+         "leaf": 2
+        },
+        "right": {
+         "leaf": 3
+        }
+       }
+      },
+      "right": {
+       "feature": "oat",
+       "threshold": 13.534525547445256,
+       "left": {
+        "feature": "wall",
+        "threshold": 10.600000000000001,
+        "left": {
+         "leaf": 4
+        },
+        "right": {
+         "leaf": 2
+        }
+       },
+       "right": {
+        "feature": "ahu_size",
+        "threshold": 8.0,
+        "left": {
+         "leaf": 4
+        },
+        "right": {
+         "leaf": 0
+        }
+       }
+      }
+     },
+     "lobo": {
+      "base option": 39.199994165626386,
+      "single best option": 39.02992095302776,
+      "policy tree": 36.81446036697008,
+      "forest argmin": 36.83219358962998
+     },
+     "closed_loop": {
+      "train_ceiling_rest60": {
+       "mean": -2.3353902032133944,
+       "per_scenario": -4.9464867793027185,
+       "se": 1.0570558607819505,
+       "better": 45,
+       "worse": 10,
+       "n": 60
+      },
+      "inner": {
+       "mean": -3.207953614936432,
+       "per_scenario": -4.816973320519793,
+       "se": 0.9702613577122604,
+       "better": 25,
+       "worse": 3,
+       "n": 29
+      },
+      "s4_first": {
+       "mean": 0.035082122673824045,
+       "per_scenario": -0.4543812410238879,
+       "se": 0.6915175489422881,
+       "better": 14,
+       "worse": 12,
+       "n": 30
+      }
+     },
+     "against_base": {
+      "train_ceiling_rest60": 0.06734517165781773,
+      "inner": -0.023767101040939043,
+      "s4_first": 0.11587195732200017
+     },
+     "passed": false,
+     "label": "a"
+    },
+    {
+     "tag": "n1b",
+     "name": "gm_n1b",
+     "tree": {
+      "feature": "area",
+      "threshold": 132.84,
+      "left": {
+       "feature": "area",
+       "threshold": 110.92000000000002,
+       "left": {
+        "leaf": 1
+       },
+       "right": {
+        "leaf": 3
+       }
+      },
+      "right": {
+       "feature": "oat",
+       "threshold": 13.534525547445256,
+       "left": {
+        "leaf": 2
+       },
+       "right": {
+        "leaf": 0
+       }
+      }
+     },
+     "lobo": {
+      "base option": 39.199994165626386,
+      "single best option": 39.02992095302776,
+      "policy tree": 36.74326754161845,
+      "forest argmin": 36.941324235863675
+     },
+     "closed_loop": {
+      "train_ceiling_rest60": {
+       "mean": -2.423155975983049,
+       "per_scenario": -5.010832179167894,
+       "se": 1.0544809355909892,
+       "better": 46,
+       "worse": 9,
+       "n": 60
+      },
+      "inner": {
+       "mean": -3.231489627836781,
+       "per_scenario": -4.8436881236176,
+       "se": 0.9676219457460975,
+       "better": 25,
+       "worse": 3,
+       "n": 29
+      },
+      "s4_first": {
+       "mean": -0.09460042108673239,
+       "per_scenario": -0.8298552493105823,
+       "se": 0.7180082826755888,
+       "better": 15,
+       "worse": 11,
+       "n": 30
+      }
+     },
+     "against_base": {
+      "train_ceiling_rest60": -0.020420601111836856,
+      "inner": -0.04730311394128828,
+      "s4_first": -0.01381058643855626
+     },
+     "passed": false,
+     "label": "b"
+    },
+    {
+     "tag": "n1c",
+     "name": "gm_n1c",
+     "tree": {
+      "feature": "area",
+      "threshold": 132.84,
+      "left": {
+       "feature": "area",
+       "threshold": 110.92000000000002,
+       "left": {
+        "feature": "area",
+        "threshold": 104.98000000000002,
+        "left": {
+         "leaf": 1
+        },
+        "right": {
+         "feature": "oat",
+         "threshold": 16.3160153256705,
+         "left": {
+          "leaf": 3
+         },
+         "right": {
+          "leaf": 1
+         }
+        }
+       },
+       "right": {
+        "feature": "oat",
+        "threshold": 2.9515769230769235,
+        "left": {
+         "leaf": 2
+        },
+        "right": {
+         "feature": "area",
+         "threshold": 115.60000000000001,
+         "left": {
+          "leaf": 1
+         },
+         "right": {
+          "leaf": 3
+         }
+        }
+       }
+      },
+      "right": {
+       "feature": "oat",
+       "threshold": 13.534525547445256,
+       "left": {
+        "feature": "wall",
+        "threshold": 10.600000000000001,
+        "left": {
+         "leaf": 4
+        },
+        "right": {
+         "leaf": 2
+        }
+       },
+       "right": {
+        "feature": "ahu_size",
+        "threshold": 8.0,
+        "left": {
+         "feature": "wall",
+         "threshold": 33.84000000000001,
+         "left": {
+          "leaf": 4
+         },
+         "right": {
+          "leaf": 0
+         }
+        },
+        "right": {
+         "feature": "area",
+         "threshold": 142.66800000000003,
+         "left": {
+          "leaf": 3
+         },
+         "right": {
+          "leaf": 0
+         }
+        }
+       }
+      }
+     },
+     "lobo": {
+      "base option": 39.199994165626386,
+      "single best option": 39.02992095302776,
+      "policy tree": 37.011697206672586,
+      "forest argmin": 36.78849175344677
+     },
+     "closed_loop": {
+      "train_ceiling_rest60": {
+       "mean": -2.332395533492615,
+       "per_scenario": -4.939018123242011,
+       "se": 1.056308910802145,
+       "better": 45,
+       "worse": 10,
+       "n": 60
+      },
+      "inner": {
+       "mean": -3.167020437257173,
+       "per_scenario": -4.744258055928332,
+       "se": 0.9137853873089368,
+       "better": 25,
+       "worse": 3,
+       "n": 29
+      },
+      "s4_first": {
+       "mean": -0.029663150598269183,
+       "per_scenario": -0.7634866460659795,
+       "se": 0.7055150125381314,
+       "better": 15,
+       "worse": 11,
+       "n": 30
+      }
+     },
+     "against_base": {
+      "train_ceiling_rest60": 0.07033984137859717,
+      "inner": 0.017166076638319705,
+      "s4_first": 0.051126684049906945
+     },
+     "passed": false,
+     "label": "c"
+    }
+   ],
+   "done": true,
+   "passed": null
+  },
+  "n2": {
+   "attempts": [
+    {
+     "tag": "n2a",
+     "name": "gm_n2a",
+     "tree": {
+      "feature": "area",
+      "threshold": 130.72,
+      "left": {
+       "feature": "oat",
+       "threshold": 1.1459854014598545,
+       "left": {
+        "feature": "wall_per_area",
+        "threshold": 0.14739103472714385,
+        "left": {
+         "leaf": 1
+        },
+        "right": {
+         "leaf": 2
+        }
+       },
+       "right": {
+        "feature": "wall_per_area",
+        "threshold": 0.19582687939451143,
+        "left": {
+         "leaf": 3
+        },
+        "right": {
+         "leaf": 1
+        }
+       }
+      },
+      "right": {
+       "feature": "ahu_size",
+       "threshold": 7.0,
+       "left": {
+        "feature": "ahu_size",
+        "threshold": 4.0,
+        "left": {
+         "leaf": 0
+        },
+        "right": {
+         "leaf": 2
+        }
+       },
+       "right": {
+        "leaf": 2
+       }
+      }
+     },
+     "lobo": {
+      "base option": 117.37824124093238,
+      "single best option": 116.89703272683191,
+      "policy tree": 109.74969948043102,
+      "forest argmin": 109.91015809978843
+     },
+     "closed_loop": {
+      "train_ceiling_rest60": {
+       "mean": -2.863285233515589,
+       "per_scenario": -5.099821313619462,
+       "se": 1.0260327446968471,
+       "better": 48,
+       "worse": 8,
+       "n": 60
+      },
+      "inner": {
+       "mean": -3.726142700226842,
+       "per_scenario": -5.124531209809748,
+       "se": 0.952365886327285,
+       "better": 25,
+       "worse": 3,
+       "n": 29
+      },
+      "s4_first": {
+       "mean": -0.9497411242092579,
+       "per_scenario": -1.2838726849939113,
+       "se": 0.6438039280318443,
+       "better": 16,
+       "worse": 10,
+       "n": 30
+      }
+     },
+     "against_base": {
+      "train_ceiling_rest60": -0.4605498586443768,
+      "inner": -0.5419561863313493,
+      "s4_first": -0.8689512895610818
+     },
+     "passed": false,
+     "label": "a"
+    },
+    {
+     "tag": "n2b",
+     "name": "gm_n2b",
+     "tree": {
+      "feature": "area",
+      "threshold": 130.72,
+      "left": {
+       "feature": "oat",
+       "threshold": 1.1459854014598545,
+       "left": {
+        "feature": "wall_per_area",
+        "threshold": 0.14739103472714385,
+        "left": {
+         "leaf": 3
+        },
+        "right": {
+         "leaf": 2
+        }
+       },
+       "right": {
+        "feature": "area",
+        "threshold": 113.88,
+        "left": {
+         "leaf": 1
+        },
+        "right": {
+         "leaf": 3
+        }
+       }
+      },
+      "right": {
+       "feature": "oat",
+       "threshold": 13.534525547445256,
+       "left": {
+        "feature": "ahu_size",
+        "threshold": 7.0,
+        "left": {
+         "leaf": 0
+        },
+        "right": {
+         "leaf": 2
+        }
+       },
+       "right": {
+        "feature": "ahu_size",
+        "threshold": 7.0,
+        "left": {
+         "leaf": 4
+        },
+        "right": {
+         "leaf": 0
+        }
+       }
+      }
+     },
+     "lobo": {
+      "base option": 117.56828433461304,
+      "single best option": 117.35593301525451,
+      "policy tree": 109.92863772968998,
+      "forest argmin": 110.11303061749241
+     },
+     "closed_loop": {
+      "train_ceiling_rest60": {
+       "mean": -2.9332656153237213,
+       "per_scenario": -5.135569086089767,
+       "se": 1.036325005063781,
+       "better": 49,
+       "worse": 6,
+       "n": 60
+      },
+      "inner": {
+       "mean": -3.6118550936589,
+       "per_scenario": -5.051049932868941,
+       "se": 0.9606695517709463,
+       "better": 25,
+       "worse": 3,
+       "n": 29
+      },
+      "s4_first": {
+       "mean": -0.7575738772065077,
+       "per_scenario": -0.9458662151903477,
+       "se": 0.6325301020920178,
+       "better": 14,
+       "worse": 12,
+       "n": 30
+      }
+     },
+     "against_base": {
+      "train_ceiling_rest60": -0.5305302404525092,
+      "inner": -0.4276685797634072,
+      "s4_first": -0.6767840425583316
+     },
+     "passed": false,
+     "label": "b"
+    },
+    {
+     "tag": "n2c",
+     "name": "gm_n2c",
+     "tree": {
+      "feature": "area",
+      "threshold": 130.72,
+      "left": {
+       "feature": "oat",
+       "threshold": 1.1459854014598545,
+       "left": {
+        "leaf": 2
+       },
+       "right": {
+        "leaf": 1
+       }
+      },
+      "right": {
+       "feature": "oat",
+       "threshold": 13.534525547445256,
+       "left": {
+        "leaf": 2
+       },
+       "right": {
+        "leaf": 0
+       }
+      }
+     },
+     "lobo": {
+      "base option": 117.56828433461304,
+      "single best option": 117.35593301525451,
+      "policy tree": 110.21655923177389,
+      "forest argmin": 110.498355721054
+     },
+     "closed_loop": {
+      "train_ceiling_rest60": {
+       "mean": -2.527035296629443,
+       "per_scenario": -4.991079620041077,
+       "se": 1.044547092269563,
+       "better": 45,
+       "worse": 9,
+       "n": 60
+      },
+      "inner": {
+       "mean": -3.219418107634753,
+       "per_scenario": -4.849719703736859,
+       "se": 0.9654106889499081,
+       "better": 25,
+       "worse": 3,
+       "n": 29
+      },
+      "s4_first": {
+       "mean": -0.8231147418591545,
+       "per_scenario": -1.2507708789266108,
+       "se": 0.6452499947959407,
+       "better": 16,
+       "worse": 10,
+       "n": 30
+      }
+     },
+     "against_base": {
+      "train_ceiling_rest60": -0.12429992175823079,
+      "inner": -0.03523159373925999,
+      "s4_first": -0.7423249072109783
+     },
+     "passed": false,
+     "label": "c"
+    }
+   ],
+   "done": true,
+   "passed": null
+  }
+ },
+ "fresh80": [
+  "train/building_10298/atlanta_5",
+  "train/building_11104/atlanta_7",
+  "train/building_11400/atlanta_1",
+  "train/building_12098/atlanta_1",
+  "train/building_12302/atlanta_3",
+  "train/building_12739/atlanta_3",
+  "train/building_13640/atlanta_5",
+  "train/building_14042/atlanta_3",
+  "train/building_14078/atlanta_1",
+  "train/building_14213/atlanta_1",
+  "train/building_14277/atlanta_3",
+  "train/building_14540/atlanta_5",
+  "train/building_14679/atlanta_5",
+  "train/building_16671/atlanta_3",
+  "train/building_17001/atlanta_5",
+  "train/building_17978/atlanta_1",
+  "train/building_10298/denver_3",
+  "train/building_11104/denver_3",
+  "train/building_11164/denver_1",
+  "train/building_11754/denver_5",
+  "train/building_12098/denver_7",
+  "train/building_12120/denver_3",
+  "train/building_12618/denver_3",
+  "train/building_12739/denver_5",
+  "train/building_13640/denver_7",
+  "train/building_14042/denver_7",
+  "train/building_14078/denver_3",
+  "train/building_14540/denver_1",
+  "train/building_15361/denver_1",
+  "train/building_15570/denver_1",
+  "train/building_16671/denver_7",
+  "train/building_16710/denver_1",
+  "train/building_10298/fairbanks_5",
+  "train/building_11164/fairbanks_1",
+  "train/building_11400/fairbanks_5",
+  "train/building_11754/fairbanks_3",
+  "train/building_12098/fairbanks_3",
+  "train/building_12120/fairbanks_7",
+  "train/building_12302/fairbanks_3",
+  "train/building_12618/fairbanks_5",
+  "train/building_12739/fairbanks_1",
+  "train/building_13640/fairbanks_3",
+  "train/building_14042/fairbanks_1",
+  "train/building_14213/fairbanks_7",
+  "train/building_14277/fairbanks_1",
+  "train/building_14679/fairbanks_5",
+  "train/building_14979/fairbanks_1",
+  "train/building_15570/fairbanks_3",
+  "train/building_11104/phoenix_5",
+  "train/building_11164/phoenix_3",
+  "train/building_11754/phoenix_1",
+  "train/building_12120/phoenix_3",
+  "train/building_12302/phoenix_3",
+  "train/building_12618/phoenix_3",
+  "train/building_12739/phoenix_1",
+  "train/building_14042/phoenix_1",
+  "train/building_14078/phoenix_7",
+  "train/building_14213/phoenix_1",
+  "train/building_14277/phoenix_3",
+  "train/building_14540/phoenix_5",
+  "train/building_14979/phoenix_7",
+  "train/building_16671/phoenix_7",
+  "train/building_16710/phoenix_3",
+  "train/building_17214/phoenix_1",
+  "train/building_10298/singapore_3",
+  "train/building_11104/singapore_3",
+  "train/building_11400/singapore_3",
+  "train/building_12098/singapore_1",
+  "train/building_14042/singapore_7",
+  "train/building_14078/singapore_3",
+  "train/building_14213/singapore_3",
+  "train/building_14277/singapore_1",
+  "train/building_14679/singapore_1",
+  "train/building_15361/singapore_1",
+  "train/building_15570/singapore_3",
+  "train/building_16671/singapore_3",
+  "train/building_16710/singapore_5",
+  "train/building_17001/singapore_1",
+  "train/building_17084/singapore_3",
+  "train/building_17214/singapore_5"
+ ],
+ "stopped": "2026-11-01 19:19 after stage n2, for the diagnosis; superseded by pipeline 3 (geo3)"
+}

@@ -187,7 +187,7 @@
 10-28 12:28:11 update 187: 125664 decisions, 173 episodes, 12-step reward -0.19134, sigma 0.452, kl 0.0137, 16.97 decisions/s
 10-28 12:28:48 update 188: 126336 decisions, 173 episodes, 12-step reward -0.19362, sigma 0.452, kl 0.0177, 18.21 decisions/s
 10-28 12:29:25 update 189: 127008 decisions, 173 episodes, 12-step reward -0.14979, sigma 0.453, kl 0.0176, 18.43 decisions/s
-10-28 13:08:16 continuing /home/user/sb/data/runs/b2rl/v2-rom-s42 from ckpt-00189.pt: update 189, 127008 decisions, 173 episodes
+10-28 13:08:16 continuing data/runs/b2rl/v2-rom-s42 from ckpt-00189.pt: update 189, 127008 decisions, 173 episodes
 10-28 13:09:15 update 190: 127680 decisions, 173 episodes, 12-step reward -0.18438, sigma 0.453, kl 0.0184, 18.71 decisions/s
 10-28 13:09:49 update 191: 128352 decisions, 173 episodes, 12-step reward -0.22691, sigma 0.453, kl 0.0165, 19.60 decisions/s
 10-28 13:10:25 update 192: 129024 decisions, 173 episodes, 12-step reward -0.16876, sigma 0.454, kl 0.0160, 18.93 decisions/s
@@ -299,7 +299,7 @@
 10-28 14:13:11 update 298: 200256 decisions, 272 episodes, 12-step reward -0.14844, sigma 0.477, kl 0.0137, 22.54 decisions/s
 10-28 14:13:47 update 299: 200928 decisions, 274 episodes, 12-step reward -0.12231, sigma 0.477, kl 0.0094, 18.78 decisions/s
 10-28 14:14:19 update 300: 201600 decisions, 274 episodes, 12-step reward -0.12037, sigma 0.477, kl 0.0066, 20.45 decisions/s
-10-28 15:00:23 continuing /home/user/sb/data/runs/b2rl/v2-rom-s42 from ckpt-00300.pt: update 300, 201600 decisions, 274 episodes
+10-28 15:00:23 continuing data/runs/b2rl/v2-rom-s42 from ckpt-00300.pt: update 300, 201600 decisions, 274 episodes
 10-28 15:01:00 update 301: 202272 decisions, 274 episodes, 12-step reward -0.11269, sigma 0.477, kl 0.0061, 27.74 decisions/s
 10-28 15:01:24 update 302: 202944 decisions, 274 episodes, 12-step reward -0.12748, sigma 0.477, kl 0.0072, 28.26 decisions/s
 10-28 15:01:47 update 303: 203616 decisions, 274 episodes, 12-step reward -0.13592, sigma 0.477, kl 0.0049, 29.31 decisions/s

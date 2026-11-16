@@ -439,6 +439,9 @@ class R3Stage(S.Stage):
         bar = 0.0
         if self.a.beat:
             sel = json.loads((C.OUT / "sets.json").read_text(encoding="utf-8"))["selection"]
+            if any(not R.record_path(C.OUT, self.a.beat, s).is_file() for s in sel):
+                R.record(self.ctx, f"selection {self.a.beat}", [(self.ctx.rel(S.MODELS / f"model-{self.a.beat}.json"), s)
+                                                                 for s in sel], C.OUT, self.a.workers)
             cost = lambda n, s: json.loads(R.record_path(C.OUT, n, s).read_text())["summary"]["cost"]
             bar = float(sum(cost(self.a.beat, s) - cost(WUB, s) for s in sel) / sum(cost("gt_r5pa2", s) for s in sel))
             self.log("RESULT", f"choose: {self.a.beat} {100 * bar:+.2f}% against gt_wub on the selection set (the bar)")

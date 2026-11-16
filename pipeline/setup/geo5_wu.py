@@ -251,6 +251,8 @@ def collect(a):
                 pairs.append((ctx.rel(models / f"model-{todo_runs[r]['name']}.json"), block[j]))
     if len(set(pairs)) != n * len(P["specs"]):
         raise SystemExit("the episode order lost or repeated a pair")
+    pairs += [(ctx.rel(TREE / "models" / f"model-{RULE}.json"), s) for s in P["specs"]
+              if not (OUT / "records" / R.key(RULE, s)).is_file()]
     ctx.log("EVENT", f"wu data: {len(FACTORS)} columns ({WHOLE} + {[f['name'] for f in ROOM]}), 24 runs (row 12 = "
                      f"{RULE}, reused) x {len(P['specs'])} scenarios = {len(pairs)} episodes, workers {a.workers}")
     try:

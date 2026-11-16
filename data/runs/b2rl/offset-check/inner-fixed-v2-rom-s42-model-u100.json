@@ -5,7 +5,7 @@
  "max_steps": null,
  "simulator": "fastsim-rom",
  "model_source": {
-  "checkpoint": "/home/user/sb/data/runs/b2rl/v2-rom-s42/ckpt-00100.pt",
+  "checkpoint": "data/runs/b2rl/v2-rom-s42/ckpt-00100.pt",
   "update": 100,
   "decisions": 67200,
   "seed": 42,

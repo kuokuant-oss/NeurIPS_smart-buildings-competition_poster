@@ -1,0 +1,54 @@
+{
+ "defaults": {
+  "occupied_margin_k": 0.0,
+  "discharge_offset_k": 11.0,
+  "heating_max_ratio": 0.5,
+  "unoccupied_lead_min": 120.0,
+  "t_opt_max_s": 10800.0,
+  "sp_max_pa": 2000.0
+ },
+ "values": {
+  "fixed": {
+   "occupied_margin_k": 0.07262655106825111,
+   "discharge_offset_k": 11.563461318727997,
+   "heating_max_ratio": 0.4529957279624725,
+   "unoccupied_lead_min": 132,
+   "t_opt_max_s": 12165.244914685723,
+   "sp_max_pa": 1807.1323159420097
+  },
+  "cold": {
+   "occupied_margin_k": 0.17081739580749059,
+   "discharge_offset_k": 11.32745573593624,
+   "heating_max_ratio": 0.4712571302143467,
+   "unoccupied_lead_min": 160.63084183285127,
+   "t_opt_max_s": 11649.58889450435,
+   "sp_max_pa": 1823.443151710407
+  },
+  "warm": {
+   "occupied_margin_k": 0.01632280987655558,
+   "discharge_offset_k": 11.69878958979635,
+   "heating_max_ratio": 0.44252443332275865,
+   "unoccupied_lead_min": 115.13233240223464,
+   "t_opt_max_s": 12460.927910196498,
+   "sp_max_pa": 1797.7794981903858
+  },
+  "fixed_sp2000": {
+   "occupied_margin_k": 0.07262655106825111,
+   "discharge_offset_k": 11.563461318727997,
+   "heating_max_ratio": 0.4529957279624725,
+   "unoccupied_lead_min": 132,
+   "t_opt_max_s": 12165.244914685723,
+   "sp_max_pa": 2000.0
+  }
+ },
+ "decisions_cold": 6569,
+ "decisions_warm": 11456,
+ "cold_below_c": 15.0,
+ "models": {
+  "rule": "rule",
+  "fixed": "data/runs/b2rl/offset-check/model-fixed-u100.json",
+  "cold": "data/runs/b2rl/ceiling/model-cold.json",
+  "warm": "data/runs/b2rl/ceiling/model-warm.json",
+  "fixed_sp2000": "data/runs/b2rl/ceiling/model-fixed_sp2000.json"
+ }
+}

@@ -420,7 +420,7 @@ def build_train_r1():
     split["revision"] = {"of": {"file": "configs/splits/v1-train.json",
                                 "sha256": hashlib.sha256(old_text.encode("utf-8")).hexdigest()},
                          "rule": TRAIN_R1_RULE, "manifest": TRAIN_R1_MANIFEST.relative_to(ROOT).as_posix()}
-    split["pools"]["train"]["draw"]["method"] += (";: also skipping seeds whose floor plan has control volumes "
+    split["pools"]["train"]["draw"]["method"] += ("; constructor_check: also skipping seeds whose floor plan has control volumes "
                                                   "the simulator constructor rejects (one-cell-thick strips)")
     scratch = ROOT / ".tmp/split-v1-train-r1"
     geometry = {}
@@ -493,7 +493,7 @@ def main():
     parser.add_argument("--check", action="store_true")
     parser.add_argument("--inner", action="store_true", help=": draw and register configs/splits/v1-inner.json")
     parser.add_argument("--train", action="store_true", help="WP4: draw and register configs/splits/v1-train.json")
-    parser.add_argument("--train-r1", action="store_true", help=": redraw TRAIN as configs/splits/v1-train-r1.json")
+    parser.add_argument("--train-r1", action="store_true", help="constructor_check: redraw TRAIN as configs/splits/v1-train-r1.json")
     args = parser.parse_args()
     prepare()
     if args.train_r1:

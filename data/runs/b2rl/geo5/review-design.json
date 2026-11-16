@@ -1,0 +1,73 @@
+{
+ "_note": "Reviewed option list (made by hand), the version the paper design was fitted with: as review.json, with o518_1 in the paper base (it was moved to the tree candidates after the first closed loop).",
+ "paper": {
+  "base": [
+   "o542_1",
+   "o541_2",
+   "o540_2",
+   "o518_1",
+   "o524_3",
+   "o537_1",
+   "o532_1"
+  ],
+  "factors": [
+   "o525_1",
+   "o523_1",
+   "o514_1",
+   "o516_1",
+   "o526_3",
+   "o529_1",
+   "o521_1",
+   "o502_1",
+   "o519_1",
+   "o527_1",
+   "o544_1g",
+   "o515_3"
+  ],
+  "tree": [
+   "o545_3",
+   "o545_1",
+   "o524_2",
+   "o538_2",
+   "o526_1",
+   "o522_1"
+  ],
+  "loop_reference": [
+   "o542_1"
+  ]
+ },
+ "competition": {
+  "base": [
+   "o546_1",
+   "o541_2",
+   "o540_2",
+   "o518_1",
+   "o524_3",
+   "o537_1",
+   "o532_1"
+  ],
+  "factors": [
+   "o551_1",
+   "o550_1",
+   "o525_1",
+   "o523_2",
+   "o514_1",
+   "o516_1",
+   "o526_3",
+   "o529_1",
+   "o521_1",
+   "o502_1",
+   "o519_1",
+   "o527_1",
+   "o544_1g",
+   "o515_3"
+  ],
+  "tree": [
+   "o545_3",
+   "o545_1",
+   "o524_2",
+   "o526_1",
+   "o522_1"
+  ]
+ }
+}

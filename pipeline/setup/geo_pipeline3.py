@@ -254,7 +254,7 @@ class Stage:
     def run_correction(self, k, spec):
         if spec.get("skip"):
             return None
-        mod_path = ROOT / spec["script"]
+        mod_path = ROOT / spec["script"].replace(".tmp/setup/", "pipeline/setup/")
         mspec = importlib.util.spec_from_file_location(f"corr_{self.tag}_{k}", mod_path)
         mod = importlib.util.module_from_spec(mspec)
         mspec.loader.exec_module(mod)

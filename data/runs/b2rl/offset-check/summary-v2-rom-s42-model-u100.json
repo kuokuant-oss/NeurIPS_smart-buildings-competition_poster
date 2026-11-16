@@ -1,0 +1,104 @@
+{
+ "model": "data/runs/b2rl/v2-rom-s42/validation/model-u100.json",
+ "decisions": 18025,
+ "parameters": {
+  "occupied_margin_k": {
+   "mean": 0.07262655106825111,
+   "std": 0.12374263915173028,
+   "min": 0.0,
+   "max": 0.8659006556501049,
+   "default": 0.0,
+   "share_at_default": 0.5883495145631068,
+   "corr_hour_cos": 0.04649701306717122,
+   "corr_hour_sin": -0.03219148700079819,
+   "corr_outside": -0.66603375584913,
+   "corr_occupants": 0.006492755998079578
+  },
+  "discharge_offset_k": {
+   "mean": 11.563461318727997,
+   "std": 0.5838155392020619,
+   "min": 9.982052236662131,
+   "max": 14.0,
+   "default": 11.0,
+   "share_at_default": 5.547850208044383e-05,
+   "corr_hour_cos": 0.2771437370642941,
+   "corr_hour_sin": -0.10531868327932516,
+   "corr_outside": 0.15486604181891883,
+   "corr_occupants": -0.2651004557444798
+  },
+  "heating_max_ratio": {
+   "mean": 0.4529957279624725,
+   "std": 0.059317753693053844,
+   "min": 0.24990258126794146,
+   "max": 0.5,
+   "default": 0.5,
+   "share_at_default": 0.450873786407767,
+   "corr_hour_cos": 0.40078224707991433,
+   "corr_hour_sin": 0.1250782322485488,
+   "corr_outside": -0.3095769910591882,
+   "corr_occupants": -0.4299730154147948
+  },
+  "unoccupied_lead_min": {
+   "mean": 131.7137309292649,
+   "std": 54.801014827860485,
+   "min": 28.0,
+   "max": 360.0,
+   "default": 120.0,
+   "share_at_default": 0.008876560332871012,
+   "corr_hour_cos": -0.14808346339876638,
+   "corr_hour_sin": 0.023548203110539952,
+   "corr_outside": -0.5023166677125788,
+   "corr_occupants": 0.10810499107598091
+  },
+  "t_opt_max_s": {
+   "mean": 12165.244914685723,
+   "std": 2161.87143110059,
+   "min": 5625.687646720701,
+   "max": 18902.302401541587,
+   "default": 10800.0,
+   "share_at_default": 0.0,
+   "corr_hour_cos": 0.20475051625020302,
+   "corr_hour_sin": -0.09431093461785617,
+   "corr_outside": 0.07293302787538951,
+   "corr_occupants": 0.08477652577405317
+  },
+  "sp_max_pa": {
+   "mean": 1807.1323159420097,
+   "std": 227.51781649807913,
+   "min": 466.4201399865792,
+   "max": 2000.0,
+   "default": 2000.0,
+   "share_at_default": 0.35234396671289875,
+   "corr_hour_cos": -0.25847624918108236,
+   "corr_hour_sin": 0.15777011505490782,
+   "corr_outside": -0.025802211050820166,
+   "corr_occupants": 0.14806536458886188
+  }
+ },
+ "constant_action": {
+  "occupied_margin_k": 0.07262655106825111,
+  "discharge_offset_k": 0.18782043957599903,
+  "heating_max_ratio": -0.11751068009381874,
+  "unoccupied_lead_min": 0.04880721220527041,
+  "t_opt_max_s": 0.12641156617460403,
+  "sp_max_pa": -0.1071487133655502
+ },
+ "fixed_inner": {
+  "n": 29,
+  "score": -0.022231840205712075,
+  "se_score": 0.0046083999277223425,
+  "mean_diff": -0.0002443926621534157,
+  "se": 4.873737753923387e-05,
+  "better": 24,
+  "worse": 5
+ },
+ "actor_inner": {
+  "n": 29,
+  "score": -0.005370178088883616,
+  "se_score": 0.0044057420769275666,
+  "mean_diff": -8.669725815382839e-05,
+  "se": 6.829173968505859e-05,
+  "better": 17,
+  "worse": 12
+ }
+}

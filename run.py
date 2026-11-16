@@ -153,6 +153,29 @@ def cmd_retrain(args):
     stage = {s["id"]: s for s in stages()}.get(args.stage)
     if not stage:
         raise SystemExit(f"unknown stage {args.stage}; see python3 run.py chain")
+    for rel in stage.get("fresh", []):
+        p = ROOT / rel
+        if not p.exists():
+            continue
+        kept = p.with_name(p.name + ".recorded")
+        if kept.exists():
+            shutil.rmtree(p) if p.is_dir() else p.unlink()
+        else:
+            p.rename(kept)
+            print(f"{rel}: recorded state kept as {kept.name}; the stage starts fresh")
+    for dst, src in (stage.get("inputs") or {}).items():
+        if (ROOT / src).is_file():
+            if not (ROOT / dst).exists():
+                (ROOT / dst).parent.mkdir(parents=True, exist_ok=True)
+                shutil.copy2(ROOT / src, ROOT / dst)
+                print(f"{dst}: not found, copied from {src}")
+            continue
+        for f in sorted((ROOT / src).rglob("*")):
+            target = ROOT / dst / f.relative_to(ROOT / src)
+            if f.is_file() and not target.exists() and str(target.relative_to(ROOT)) not in stage.get("outputs", []):
+                target.parent.mkdir(parents=True, exist_ok=True)
+                shutil.copy2(f, target)
+                print(f"{target.relative_to(ROOT)}: not found, copied from {f.relative_to(ROOT)}")
     for c in stage["commands"]:
         c = [x.replace("{workers}", str(args.workers)) for x in c]
         c = [str(ROOT / x) if x.startswith("data/final") else x for x in c]

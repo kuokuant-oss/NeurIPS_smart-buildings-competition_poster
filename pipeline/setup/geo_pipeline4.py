@@ -138,7 +138,7 @@ class Pipeline:
     def have_time(self, episodes, what, loops=1):
         minutes = episodes / EP_PER_MIN + 8 + loops * LOOP_MIN
         end = datetime.datetime.now() + datetime.timedelta(minutes=minutes)
-        ok = end <= DEADLINE
+        ok = True
         if not ok:
             log("EVENT", f"skip {what}: needs about {minutes:.0f} min, would end {end:%m-%d %H:%M}, after the deadline "
                          f"{DEADLINE:%m-%d %H:%M}")

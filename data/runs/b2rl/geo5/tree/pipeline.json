@@ -1,0 +1,748 @@
+{
+ "rule": "gt_r5pa2",
+ "rule_levels": [
+  "o542_1",
+  "o541_2",
+  "o540_2",
+  "o524_3",
+  "o537_1",
+  "o532_1",
+  "o525_1",
+  "o514_1",
+  "o516_1",
+  "o521_1",
+  "o502_1",
+  "o519_1",
+  "o544_1g",
+  "o529_1"
+ ],
+ "factors": [
+  "o545_3",
+  "o524_2",
+  "o538_2",
+  "o522_1",
+  "o518_1",
+  "o526_3",
+  "o527_1"
+ ],
+ "replaces": {
+  "o524_2": "o524_3"
+ },
+ "specs": [
+  "train/building_11534/denver_1",
+  "train/building_19655/denver_1",
+  "train/building_19950/denver_1",
+  "train/building_12567/fairbanks_3",
+  "train/building_15790/fairbanks_1",
+  "train/building_18842/fairbanks_3",
+  "train/building_19655/fairbanks_1",
+  "train/building_19768/fairbanks_3",
+  "train/building_11164/denver_1",
+  "train/building_15361/denver_1",
+  "train/building_12739/fairbanks_1",
+  "train/building_14042/fairbanks_1",
+  "train/building_14979/fairbanks_1",
+  "train/building_12336/atlanta_7",
+  "train/building_14073/atlanta_3",
+  "train/building_19629/atlanta_5",
+  "train/building_14078/atlanta_1",
+  "train/building_18764/denver_7",
+  "train/building_17821/denver_3",
+  "train/building_19664/fairbanks_7",
+  "train/building_18764/fairbanks_5",
+  "train/building_13597/phoenix_7",
+  "train/building_11818/phoenix_3",
+  "train/building_11902/phoenix_5",
+  "train/building_19664/phoenix_1",
+  "train/building_17224/singapore_7",
+  "train/building_14213/singapore_3",
+  "train/building_19655/singapore_5",
+  "train/building_11010/singapore_1",
+  "train/building_12567/atlanta_5",
+  "train/building_10298/atlanta_5",
+  "train/building_11104/atlanta_7",
+  "train/building_11400/atlanta_1",
+  "train/building_12098/atlanta_1",
+  "train/building_12302/atlanta_3",
+  "train/building_12739/atlanta_3",
+  "train/building_13640/atlanta_5",
+  "train/building_14042/atlanta_3",
+  "train/building_14213/atlanta_1",
+  "train/building_14277/atlanta_3",
+  "train/building_14540/atlanta_5",
+  "train/building_14679/atlanta_5",
+  "train/building_16671/atlanta_3",
+  "train/building_17001/atlanta_5",
+  "train/building_17978/atlanta_1",
+  "train/building_10298/denver_3",
+  "train/building_11104/denver_3",
+  "train/building_11754/denver_5",
+  "train/building_12098/denver_7",
+  "train/building_12120/denver_3",
+  "train/building_12618/denver_3",
+  "train/building_12739/denver_5",
+  "train/building_13640/denver_7",
+  "train/building_14042/denver_7",
+  "train/building_14078/denver_3",
+  "train/building_14540/denver_1",
+  "train/building_15570/denver_1",
+  "train/building_16671/denver_7",
+  "train/building_16710/denver_1",
+  "train/building_10298/fairbanks_5",
+  "train/building_11164/fairbanks_1",
+  "train/building_11400/fairbanks_5",
+  "train/building_11754/fairbanks_3",
+  "train/building_12098/fairbanks_3",
+  "train/building_12120/fairbanks_7",
+  "train/building_12302/fairbanks_3",
+  "train/building_12618/fairbanks_5",
+  "train/building_13640/fairbanks_3",
+  "train/building_14213/fairbanks_7",
+  "train/building_14277/fairbanks_1",
+  "train/building_14679/fairbanks_5",
+  "train/building_15570/fairbanks_3",
+  "train/building_11104/phoenix_5",
+  "train/building_11164/phoenix_3",
+  "train/building_11754/phoenix_1",
+  "train/building_12120/phoenix_3",
+  "train/building_12302/phoenix_3",
+  "train/building_12618/phoenix_3",
+  "train/building_12739/phoenix_1",
+  "train/building_14042/phoenix_1",
+  "train/building_14078/phoenix_7",
+  "train/building_14213/phoenix_1",
+  "train/building_14277/phoenix_3",
+  "train/building_14540/phoenix_5",
+  "train/building_14979/phoenix_7",
+  "train/building_16671/phoenix_7",
+  "train/building_16710/phoenix_3",
+  "train/building_17214/phoenix_1",
+  "train/building_10298/singapore_3",
+  "train/building_11104/singapore_3",
+  "train/building_11400/singapore_3",
+  "train/building_12098/singapore_1",
+  "train/building_14042/singapore_7",
+  "train/building_14078/singapore_3",
+  "train/building_14277/singapore_1",
+  "train/building_14679/singapore_1",
+  "train/building_15361/singapore_1",
+  "train/building_15570/singapore_3",
+  "train/building_16671/singapore_3",
+  "train/building_16710/singapore_5",
+  "train/building_17001/singapore_1",
+  "train/building_17084/singapore_3",
+  "train/building_17214/singapore_5",
+  "train/building_10419/atlanta_3",
+  "train/building_11852/atlanta_5",
+  "train/building_16821/atlanta_7",
+  "train/building_19299/atlanta_7",
+  "train/building_14219/denver_3",
+  "train/building_16761/denver_3",
+  "train/building_19195/denver_3",
+  "train/building_16092/fairbanks_7",
+  "train/building_10740/phoenix_3",
+  "train/building_11852/phoenix_1",
+  "train/building_14219/phoenix_1",
+  "train/building_18842/phoenix_7",
+  "train/building_11534/singapore_5",
+  "train/building_16092/singapore_5",
+  "train/building_17524/singapore_7",
+  "train/building_18662/singapore_5",
+  "train/building_19664/singapore_1",
+  "gen5/building_16747/denver_5",
+  "gen5/building_17032/singapore_5",
+  "gen5/building_11757/phoenix_7",
+  "gen5/building_10033/phoenix_5",
+  "gen5/building_11446/atlanta_7",
+  "gen5/building_15948/singapore_1",
+  "gen5/building_14793/fairbanks_5",
+  "gen5/building_15875/phoenix_1",
+  "gen5/building_18392/singapore_7",
+  "gen5/building_16558/singapore_3",
+  "gen5/building_12214/phoenix_3",
+  "gen5/building_16154/fairbanks_3",
+  "gen5/building_11257/atlanta_3",
+  "gen5/building_18017/atlanta_1",
+  "gen5/building_10085/denver_7",
+  "gen5/building_15002/denver_1",
+  "gen5/building_17774/fairbanks_7",
+  "gen5/building_11863/denver_3",
+  "gen5/building_19387/atlanta_5",
+  "gen5/building_16899/fairbanks_1",
+  "gen5/building_10766/denver_5",
+  "gen5/building_18762/singapore_5",
+  "gen5/building_10585/phoenix_7",
+  "gen5/building_19218/phoenix_5",
+  "gen5/building_11520/atlanta_7",
+  "gen5/building_11673/singapore_1",
+  "gen5/building_19128/fairbanks_5",
+  "gen5/building_17221/phoenix_1",
+  "gen5/building_19932/singapore_7",
+  "gen5/building_12689/singapore_3",
+  "gen5/building_15185/phoenix_3",
+  "gen5/building_12515/fairbanks_3",
+  "gen5/building_17053/atlanta_3",
+  "gen5/building_13787/atlanta_1",
+  "gen5/building_16223/denver_7",
+  "gen5/building_15729/denver_1",
+  "gen5/building_11152/fairbanks_7",
+  "gen5/building_11288/denver_3",
+  "gen5/building_18511/atlanta_5",
+  "gen5/building_14128/fairbanks_1",
+  "gen5/building_13755/denver_5",
+  "gen5/building_11214/singapore_5",
+  "gen5/building_16978/phoenix_7",
+  "gen5/building_17272/phoenix_5",
+  "gen5/building_12862/atlanta_7",
+  "gen5/building_11937/singapore_1",
+  "gen5/building_17682/fairbanks_5",
+  "gen5/building_11623/phoenix_1",
+  "gen5/building_16255/singapore_7",
+  "gen5/building_12374/singapore_3",
+  "gen5/building_19179/phoenix_3",
+  "gen5/building_11185/fairbanks_3",
+  "gen5/building_15934/atlanta_3",
+  "gen5/building_13672/atlanta_1",
+  "gen5/building_10202/denver_7",
+  "gen5/building_15767/denver_1",
+  "gen5/building_16592/fairbanks_7",
+  "gen5/building_16836/denver_3",
+  "gen5/building_11006/atlanta_5",
+  "gen5/building_19340/fairbanks_1",
+  "train/building_17856/fairbanks_5",
+  "train/building_18061/denver_3",
+  "train/building_18495/phoenix_1",
+  "train/building_19087/denver_5",
+  "train/building_19208/singapore_5",
+  "train/building_19631/denver_7",
+  "train/building_19850/phoenix_7",
+  "train/building_19965/phoenix_5"
+ ],
+ "runs": [
+  {
+   "name": "g5ptr01",
+   "row": [
+    1,
+    1,
+    -1,
+    1,
+    1,
+    1,
+    -1
+   ],
+   "on": [
+    "o545_3",
+    "o524_2",
+    "o522_1",
+    "o518_1",
+    "o526_3"
+   ],
+   "sha": "138ef3c9cf8ce6fec4869c9091ab4638da0646e46f721f921c6b2b296aa82b52"
+  },
+  {
+   "name": "g5ptr02",
+   "row": [
+    -1,
+    1,
+    1,
+    -1,
+    1,
+    1,
+    1
+   ],
+   "on": [
+    "o524_2",
+    "o538_2",
+    "o518_1",
+    "o526_3",
+    "o527_1"
+   ],
+   "sha": "15568f274bf3c46b4f512fad805460cbcab6c957370231595dc890f3919e96ca"
+  },
+  {
+   "name": "g5ptr03",
+   "row": [
+    1,
+    -1,
+    1,
+    1,
+    -1,
+    1,
+    1
+   ],
+   "on": [
+    "o545_3",
+    "o538_2",
+    "o522_1",
+    "o526_3",
+    "o527_1"
+   ],
+   "sha": "53da01fe6edfa5c80a10b6b77ef45094e400ba0a302b3b9982e09098bc9282d3"
+  },
+  {
+   "name": "g5ptr04",
+   "row": [
+    -1,
+    1,
+    -1,
+    1,
+    1,
+    -1,
+    1
+   ],
+   "on": [
+    "o524_2",
+    "o522_1",
+    "o518_1",
+    "o527_1"
+   ],
+   "sha": "46404c694a56a60bfc221b82ebd40181738e5f99c5529a0c64e44ee08311ec65"
+  },
+  {
+   "name": "g5ptr05",
+   "row": [
+    -1,
+    -1,
+    1,
+    -1,
+    1,
+    1,
+    -1
+   ],
+   "on": [
+    "o538_2",
+    "o518_1",
+    "o526_3"
+   ],
+   "sha": "d473dfdd561649c8a8c787b90e05929f7c5ad4c75e00d8588ef768d40e03dd4f"
+  },
+  {
+   "name": "g5ptr06",
+   "row": [
+    -1,
+    -1,
+    -1,
+    1,
+    -1,
+    1,
+    1
+   ],
+   "on": [
+    "o522_1",
+    "o526_3",
+    "o527_1"
+   ],
+   "sha": "fdcbb515ad68d0dd0926b19a7d9aafd03acb33c6823f44a9a365ca0568cb8c83"
+  },
+  {
+   "name": "g5ptr07",
+   "row": [
+    1,
+    -1,
+    -1,
+    -1,
+    1,
+    -1,
+    1
+   ],
+   "on": [
+    "o545_3",
+    "o518_1",
+    "o527_1"
+   ],
+   "sha": "bc50268ad67aa953b64fad63f1d470db7a3d3c65b481d80724508ff8c74719e3"
+  },
+  {
+   "name": "g5ptr08",
+   "row": [
+    1,
+    1,
+    -1,
+    -1,
+    -1,
+    1,
+    -1
+   ],
+   "on": [
+    "o545_3",
+    "o524_2",
+    "o526_3"
+   ],
+   "sha": "7af14fe83466ed6ef94b1a9f964dbd0e7f13bc81628d219f518a9ece1e5fa84b"
+  },
+  {
+   "name": "g5ptr09",
+   "row": [
+    1,
+    1,
+    1,
+    -1,
+    -1,
+    -1,
+    1
+   ],
+   "on": [
+    "o545_3",
+    "o524_2",
+    "o538_2",
+    "o527_1"
+   ],
+   "sha": "bfb9f018a22d1124b588faac121ece464810d598d7368b9f2269d576b9f1c18d"
+  },
+  {
+   "name": "g5ptr10",
+   "row": [
+    -1,
+    1,
+    1,
+    1,
+    -1,
+    -1,
+    -1
+   ],
+   "on": [
+    "o524_2",
+    "o538_2",
+    "o522_1"
+   ],
+   "sha": "62e86939925502172d6260d6a350c189c406d56431adc684f49b963cd58c7ac1"
+  },
+  {
+   "name": "g5ptr11",
+   "row": [
+    1,
+    -1,
+    1,
+    1,
+    1,
+    -1,
+    -1
+   ],
+   "on": [
+    "o545_3",
+    "o538_2",
+    "o522_1",
+    "o518_1"
+   ],
+   "sha": "8de24d6f5461e68ec25b7b70afe5d152fbd45459ab713cad910cbd9a1293cc60"
+  },
+  {
+   "name": "gt_r5pa2",
+   "row": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ],
+   "on": [],
+   "sha": "187adc979b0c808b9b52a2e12f7b517e96d4f0cb586e88ebb4cb2e4689f78d3e"
+  },
+  {
+   "name": "g5ptf01",
+   "row": [
+    -1,
+    -1,
+    1,
+    -1,
+    -1,
+    -1,
+    1
+   ],
+   "on": [
+    "o538_2",
+    "o527_1"
+   ],
+   "sha": "cddf8cdb1d62c0fcea649fa06bd241ff11e0f0df39cd57b8b1fc2b50ff9e7ae9"
+  },
+  {
+   "name": "g5ptf02",
+   "row": [
+    1,
+    -1,
+    -1,
+    1,
+    -1,
+    -1,
+    -1
+   ],
+   "on": [
+    "o545_3",
+    "o522_1"
+   ],
+   "sha": "b9078bd7495f35dce514d328547490199942183ad5f7d48e81dd31301b1d0664"
+  },
+  {
+   "name": "g5ptf03",
+   "row": [
+    -1,
+    1,
+    -1,
+    -1,
+    1,
+    -1,
+    -1
+   ],
+   "on": [
+    "o524_2",
+    "o518_1"
+   ],
+   "sha": "234a77f863595456976968b0c2106ddf459f45cb06181a283611ac1156a78502"
+  },
+  {
+   "name": "g5ptf04",
+   "row": [
+    1,
+    -1,
+    1,
+    -1,
+    -1,
+    1,
+    -1
+   ],
+   "on": [
+    "o545_3",
+    "o538_2",
+    "o526_3"
+   ],
+   "sha": "b920c10fee2bc294ac40935c578c3b212532945c89afd6c02ba8f8a3aa5f74da"
+  },
+  {
+   "name": "g5ptf05",
+   "row": [
+    1,
+    1,
+    -1,
+    1,
+    -1,
+    -1,
+    1
+   ],
+   "on": [
+    "o545_3",
+    "o524_2",
+    "o522_1",
+    "o527_1"
+   ],
+   "sha": "9ac93c97f46489165cbed1bb90c8887bebdf1c7b69c44e13273ed7aea7856e39"
+  },
+  {
+   "name": "g5ptf06",
+   "row": [
+    1,
+    1,
+    1,
+    -1,
+    1,
+    -1,
+    -1
+   ],
+   "on": [
+    "o545_3",
+    "o524_2",
+    "o538_2",
+    "o518_1"
+   ],
+   "sha": "892ec5a04fe57e9184736df57208cc26205ae6c50d5a59ac074aac8cf758a09c"
+  },
+  {
+   "name": "g5ptf07",
+   "row": [
+    -1,
+    1,
+    1,
+    1,
+    -1,
+    1,
+    -1
+   ],
+   "on": [
+    "o524_2",
+    "o538_2",
+    "o522_1",
+    "o526_3"
+   ],
+   "sha": "7d9076254c24b40bb1c57f5c711bea0353f9feebbb975d70408d654e0347c7dc"
+  },
+  {
+   "name": "g5ptf08",
+   "row": [
+    -1,
+    -1,
+    1,
+    1,
+    1,
+    -1,
+    1
+   ],
+   "on": [
+    "o538_2",
+    "o522_1",
+    "o518_1",
+    "o527_1"
+   ],
+   "sha": "b39f5f3464b1c6f9eb04a9773f6bd00edd3bb24ba079ab35a45d98cbb7c40aef"
+  },
+  {
+   "name": "g5ptf09",
+   "row": [
+    -1,
+    -1,
+    -1,
+    1,
+    1,
+    1,
+    -1
+   ],
+   "on": [
+    "o522_1",
+    "o518_1",
+    "o526_3"
+   ],
+   "sha": "950164a368a5c456f4f3a115686ec41c70c338418e6b55b765dd71e1d4b62ea7"
+  },
+  {
+   "name": "g5ptf10",
+   "row": [
+    1,
+    -1,
+    -1,
+    -1,
+    1,
+    1,
+    1
+   ],
+   "on": [
+    "o545_3",
+    "o518_1",
+    "o526_3",
+    "o527_1"
+   ],
+   "sha": "2f9592a34699540839a9fd76b34b5232fbd31f7972b82c4553a324d5cc7840d6"
+  },
+  {
+   "name": "g5ptf11",
+   "row": [
+    -1,
+    1,
+    -1,
+    -1,
+    -1,
+    1,
+    1
+   ],
+   "on": [
+    "o524_2",
+    "o526_3",
+    "o527_1"
+   ],
+   "sha": "fcb164201d07c04cdb641caa50f4df9fae8a654059921dde6381a298f9649f65"
+  },
+  {
+   "name": "g5ptf12",
+   "row": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "on": [
+    "o545_3",
+    "o524_2",
+    "o538_2",
+    "o522_1",
+    "o518_1",
+    "o526_3",
+    "o527_1"
+   ],
+   "sha": "57b734431f82f0f3536194956bb166a73bfd3e7df80c18c5dc81f679d4bcbab8"
+  }
+ ],
+ "started": "2026-11-06 05:24:39",
+ "tree_structures": {
+  "lobo": {
+   "P0": -0.2463418317704694,
+   "P1": -0.216275647214444,
+   "A1": -0.3978948559558574,
+   "B1": -0.2007802484472399,
+   "C1": -0.6248142671844753,
+   "P2": -0.2511701817759871,
+   "A2": -0.133401535019508,
+   "B2": -0.3709401527233609,
+   "C2": -0.6105542812852655
+  },
+  "best": "A1",
+  "report": {
+   "graph": -0.23750884382764292,
+   "climate": -0.6133313852911613,
+   "curve": {
+    "0.25": 0.029188572779298858,
+    "0.5": -0.010238445092192855,
+    "1.0": -0.3978948559558574
+   }
+  }
+ },
+ "gate_ids": [
+  "o538_2"
+ ],
+ "attempts": [
+  {
+   "name": "gt_r5pt",
+   "gates": [
+    "o524_2",
+    "o538_2",
+    "o522_1",
+    "o526_3"
+   ],
+   "gain": {
+    "train_ceiling_rest60": -0.1027864280768167,
+    "inner": 0.20506172275526247,
+    "s4_first": 0.2789478036148485
+   },
+   "passed": false
+  },
+  {
+   "name": "gt_r5pt2",
+   "gates": [
+    "o526_3"
+   ],
+   "gain": {
+    "train_ceiling_rest60": -0.13074015334426647,
+    "inner": -0.06669700201178408,
+    "s4_first": 0.40715634536597767
+   },
+   "passed": false
+  },
+  {
+   "name": "gt_r5pu",
+   "gates": [
+    "o538_2",
+    "o526_3"
+   ],
+   "gain": {
+    "train_ceiling_rest60": 0.2760981863199623,
+    "inner": 1.0785883083466619,
+    "s4_first": 0.6475023388122336
+   },
+   "passed": false
+  },
+  {
+   "name": "gt_r5pu2",
+   "gates": [
+    "o538_2"
+   ],
+   "gain": {
+    "train_ceiling_rest60": 0.3089788946213372,
+    "inner": 1.0659700848060343,
+    "s4_first": 0.23257907799497657
+   },
+   "passed": false
+  }
+ ],
+ "done": "2026-11-06 09:48:54"
+}

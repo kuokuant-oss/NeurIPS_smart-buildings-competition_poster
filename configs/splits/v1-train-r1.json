@@ -244,7 +244,7 @@
       ],
       "draw": {
         "rng_label": "split-v1/train",
-        "method": "random.Random(int.from_bytes(sha256(label)[:8], 'big')).shuffle(range); take candidates in order, skipping seeds whose floor plan fails the official zone-area check (scenario_generator._check_generated_zone_areas);: also skipping seeds whose floor plan has control volumes the simulator constructor rejects (one-cell-thick strips)"
+        "method": "random.Random(int.from_bytes(sha256(label)[:8], 'big')).shuffle(range); take candidates in order, skipping seeds whose floor plan fails the official zone-area check (scenario_generator._check_generated_zone_areas); constructor_check: also skipping seeds whose floor plan has control volumes the simulator constructor rejects (one-cell-thick strips)"
       },
       "j7": {
         "iterations": 20,
@@ -381,7 +381,7 @@
         {
           "seed": 16645,
           "stratum": "shipped",
-          "reason": ""
+          "reason": "constructor_check"
         },
         {
           "seed": 13592,
@@ -416,7 +416,7 @@
         {
           "seed": 19168,
           "stratum": "default",
-          "reason": ""
+          "reason": "constructor_check"
         },
         {
           "seed": 18467,
@@ -456,7 +456,7 @@
         {
           "seed": 11395,
           "stratum": "default",
-          "reason": ""
+          "reason": "constructor_check"
         },
         {
           "seed": 18887,

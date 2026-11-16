@@ -1,0 +1,73 @@
+{
+ "_note": "Reviewed option list (made by hand), final version. base = levels always on; factors = the split-plot design; tree = candidates of the tree stage (not design factors); loop_reference = levels the closed-loop reference adds to gt_u1b (paper track: the ventilation code). Options file: options-reviewed.json. Changed after the first closed loop of the paper track: o518_1 (humid low supply air) moved from the paper base to the tree candidates; review-design.json is the version the design was fitted with.",
+ "paper": {
+  "base": [
+   "o542_1",
+   "o541_2",
+   "o540_2",
+   "o524_3",
+   "o537_1",
+   "o532_1"
+  ],
+  "factors": [
+   "o525_1",
+   "o523_1",
+   "o514_1",
+   "o516_1",
+   "o526_3",
+   "o529_1",
+   "o521_1",
+   "o502_1",
+   "o519_1",
+   "o527_1",
+   "o544_1g",
+   "o515_3"
+  ],
+  "tree": [
+   "o545_3",
+   "o545_1",
+   "o524_2",
+   "o538_2",
+   "o526_1",
+   "o522_1",
+   "o518_1"
+  ],
+  "loop_reference": [
+   "o542_1"
+  ]
+ },
+ "competition": {
+  "base": [
+   "o546_1",
+   "o541_2",
+   "o540_2",
+   "o518_1",
+   "o524_3",
+   "o537_1",
+   "o532_1"
+  ],
+  "factors": [
+   "o551_1",
+   "o550_1",
+   "o525_1",
+   "o523_2",
+   "o514_1",
+   "o516_1",
+   "o526_3",
+   "o529_1",
+   "o521_1",
+   "o502_1",
+   "o519_1",
+   "o527_1",
+   "o544_1g",
+   "o515_3"
+  ],
+  "tree": [
+   "o545_3",
+   "o545_1",
+   "o524_2",
+   "o526_1",
+   "o522_1"
+  ]
+ }
+}

@@ -1,7 +1,7 @@
 {
   "generated": "2026-11-12T18:32:31+0800",
   "notebook": "data/submissions/pr-opt2/sb-pr-opt2.ipynb",
-  "notebook_sha256": "7d352061a544c0a2f904a0e0797282354d355f40cc9810eb5d39be0a151df794",
+  "notebook_sha256": "7b4155fca6396e487f4f00e8d05b971c070368e86b31f744029c920c5b529661",
   "policy": "smart_building.policies.b2rl.G36PolicyB2RL (default G36Config)",
   "embedded": [
     {
@@ -94,7 +94,7 @@
       "file": "packages/smart_building/policies/b2rl.py",
       "sha256": "83f9ba35c73d64c3f8596ab3cd5100849f22d5f26b89551f853fcaec36f171e3",
       "embedded_json": "data/runs/b2rl/search/models/model-pr_opt2.json",
-      "embedded_json_sha256": "775e88f62e0dc8b1f02eba9822fd2ef2bdeae91d9464f8fea95d4c756aaacc19"
+      "embedded_json_sha256": "1c43d9ebe80424d51630f9483188073856031cb89db59d874da5bf78d9233429"
     }
   ]
 }

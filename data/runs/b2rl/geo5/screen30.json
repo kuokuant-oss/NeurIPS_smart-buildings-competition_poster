@@ -1,0 +1,460 @@
+{
+ "made": "2026-11-05 12:00:49",
+ "n": 30,
+ "cold_c": 5.0,
+ "rule": "all cold (mean outside air < 5 C) + one per city x season stratum (non-cold part) + the rest by base-cost share; weight = stratum size / picks",
+ "specs": [
+  "train/building_11534/denver_1",
+  "train/building_19655/denver_1",
+  "train/building_19950/denver_1",
+  "train/building_12567/fairbanks_3",
+  "train/building_15790/fairbanks_1",
+  "train/building_18842/fairbanks_3",
+  "train/building_19655/fairbanks_1",
+  "train/building_19768/fairbanks_3",
+  "train/building_11164/denver_1",
+  "train/building_15361/denver_1",
+  "train/building_12739/fairbanks_1",
+  "train/building_14042/fairbanks_1",
+  "train/building_14979/fairbanks_1",
+  "train/building_12336/atlanta_7",
+  "train/building_14073/atlanta_3",
+  "train/building_19629/atlanta_5",
+  "train/building_14078/atlanta_1",
+  "train/building_18764/denver_7",
+  "train/building_17821/denver_3",
+  "train/building_19664/fairbanks_7",
+  "train/building_18764/fairbanks_5",
+  "train/building_13597/phoenix_7",
+  "train/building_11818/phoenix_3",
+  "train/building_11902/phoenix_5",
+  "train/building_19664/phoenix_1",
+  "train/building_17224/singapore_7",
+  "train/building_14213/singapore_3",
+  "train/building_19655/singapore_5",
+  "train/building_11010/singapore_1",
+  "train/building_12567/atlanta_5"
+ ],
+ "weights": {
+  "train/building_14073/atlanta_3": 4.0,
+  "train/building_12567/atlanta_5": 4.0,
+  "train/building_19629/atlanta_5": 4.0,
+  "train/building_12336/atlanta_7": 3.0,
+  "train/building_11534/denver_1": 1.0,
+  "train/building_19655/denver_1": 1.0,
+  "train/building_19950/denver_1": 1.0,
+  "train/building_12567/fairbanks_3": 1.0,
+  "train/building_15790/fairbanks_1": 1.0,
+  "train/building_18842/fairbanks_3": 1.0,
+  "train/building_19655/fairbanks_1": 1.0,
+  "train/building_19768/fairbanks_3": 1.0,
+  "train/building_11164/denver_1": 1.0,
+  "train/building_15361/denver_1": 1.0,
+  "train/building_12739/fairbanks_1": 1.0,
+  "train/building_14042/fairbanks_1": 1.0,
+  "train/building_14979/fairbanks_1": 1.0,
+  "train/building_17821/denver_3": 6.0,
+  "train/building_18764/denver_7": 3.0,
+  "train/building_19664/fairbanks_7": 2.0,
+  "train/building_18764/fairbanks_5": 1.0,
+  "train/building_11818/phoenix_3": 3.0,
+  "train/building_19664/phoenix_1": 5.0,
+  "train/building_11902/phoenix_5": 2.0,
+  "train/building_13597/phoenix_7": 2.0,
+  "train/building_11010/singapore_1": 2.0,
+  "train/building_19655/singapore_5": 4.0,
+  "train/building_17224/singapore_7": 2.0,
+  "train/building_14078/atlanta_1": 3.0,
+  "train/building_14213/singapore_3": 3.0
+ },
+ "meta": {
+  "train/building_11534/denver_1": {
+   "city": "denver",
+   "season": "winter",
+   "month": 1,
+   "real": true,
+   "oat_c": -0.89,
+   "base_cost": 0.013158168250179134,
+   "stratum": "cold"
+  },
+  "train/building_19655/denver_1": {
+   "city": "denver",
+   "season": "winter",
+   "month": 1,
+   "real": true,
+   "oat_c": -0.89,
+   "base_cost": 0.00770636157801462,
+   "stratum": "cold"
+  },
+  "train/building_19950/denver_1": {
+   "city": "denver",
+   "season": "winter",
+   "month": 1,
+   "real": true,
+   "oat_c": -0.89,
+   "base_cost": 0.01303892520030775,
+   "stratum": "cold"
+  },
+  "train/building_12567/fairbanks_3": {
+   "city": "fairbanks",
+   "season": "spring",
+   "month": 3,
+   "real": true,
+   "oat_c": -1.67,
+   "base_cost": 0.0182231230254589,
+   "stratum": "cold"
+  },
+  "train/building_15790/fairbanks_1": {
+   "city": "fairbanks",
+   "season": "winter",
+   "month": 1,
+   "real": true,
+   "oat_c": -21.43,
+   "base_cost": 0.03931902218978031,
+   "stratum": "cold"
+  },
+  "train/building_18842/fairbanks_3": {
+   "city": "fairbanks",
+   "season": "spring",
+   "month": 3,
+   "real": true,
+   "oat_c": -1.67,
+   "base_cost": 0.012077941263206757,
+   "stratum": "cold"
+  },
+  "train/building_19655/fairbanks_1": {
+   "city": "fairbanks",
+   "season": "winter",
+   "month": 1,
+   "real": true,
+   "oat_c": -21.43,
+   "base_cost": 0.026240831339303987,
+   "stratum": "cold"
+  },
+  "train/building_19768/fairbanks_3": {
+   "city": "fairbanks",
+   "season": "spring",
+   "month": 3,
+   "real": true,
+   "oat_c": -1.67,
+   "base_cost": 0.01805380551412003,
+   "stratum": "cold"
+  },
+  "train/building_11164/denver_1": {
+   "city": "denver",
+   "season": "winter",
+   "month": 1,
+   "real": false,
+   "oat_c": -0.89,
+   "base_cost": 0.01279611085440067,
+   "stratum": "cold"
+  },
+  "train/building_15361/denver_1": {
+   "city": "denver",
+   "season": "winter",
+   "month": 1,
+   "real": false,
+   "oat_c": -0.89,
+   "base_cost": 0.008246178663476265,
+   "stratum": "cold"
+  },
+  "train/building_12739/fairbanks_1": {
+   "city": "fairbanks",
+   "season": "winter",
+   "month": 1,
+   "real": false,
+   "oat_c": -21.43,
+   "base_cost": 0.03418420330802348,
+   "stratum": "cold"
+  },
+  "train/building_14042/fairbanks_1": {
+   "city": "fairbanks",
+   "season": "winter",
+   "month": 1,
+   "real": false,
+   "oat_c": -21.43,
+   "base_cost": 0.06293309209491353,
+   "stratum": "cold"
+  },
+  "train/building_14979/fairbanks_1": {
+   "city": "fairbanks",
+   "season": "winter",
+   "month": 1,
+   "real": false,
+   "oat_c": -21.43,
+   "base_cost": 0.023441488154028814,
+   "stratum": "cold"
+  },
+  "train/building_12336/atlanta_7": {
+   "city": "atlanta",
+   "season": "autumn",
+   "month": 10,
+   "real": true,
+   "oat_c": 18.16,
+   "base_cost": 0.00427633064544183,
+   "stratum": "atlanta|autumn"
+  },
+  "train/building_14073/atlanta_3": {
+   "city": "atlanta",
+   "season": "spring",
+   "month": 4,
+   "real": true,
+   "oat_c": 20.82,
+   "base_cost": 0.00622854201684887,
+   "stratum": "atlanta|spring"
+  },
+  "train/building_19629/atlanta_5": {
+   "city": "atlanta",
+   "season": "summer",
+   "month": 7,
+   "real": true,
+   "oat_c": 26.98,
+   "base_cost": 0.007408079911704618,
+   "stratum": "atlanta|summer"
+  },
+  "train/building_14078/atlanta_1": {
+   "city": "atlanta",
+   "season": "winter",
+   "month": 1,
+   "real": false,
+   "oat_c": 9.59,
+   "base_cost": 0.007090760206488505,
+   "stratum": "atlanta|winter"
+  },
+  "train/building_18764/denver_7": {
+   "city": "denver",
+   "season": "autumn",
+   "month": 9,
+   "real": true,
+   "oat_c": 12.94,
+   "base_cost": 0.00877213560738239,
+   "stratum": "denver|autumn"
+  },
+  "train/building_17821/denver_3": {
+   "city": "denver",
+   "season": "spring",
+   "month": 4,
+   "real": true,
+   "oat_c": 11.51,
+   "base_cost": 0.0050614992345477195,
+   "stratum": "denver|spring"
+  },
+  "train/building_19664/fairbanks_7": {
+   "city": "fairbanks",
+   "season": "autumn",
+   "month": 9,
+   "real": true,
+   "oat_c": 6.39,
+   "base_cost": 0.005142844551673272,
+   "stratum": "fairbanks|autumn"
+  },
+  "train/building_18764/fairbanks_5": {
+   "city": "fairbanks",
+   "season": "summer",
+   "month": 6,
+   "real": true,
+   "oat_c": 18.91,
+   "base_cost": 0.010619267065906554,
+   "stratum": "fairbanks|summer"
+  },
+  "train/building_13597/phoenix_7": {
+   "city": "phoenix",
+   "season": "autumn",
+   "month": 10,
+   "real": true,
+   "oat_c": 23.3,
+   "base_cost": 0.0032077465519915194,
+   "stratum": "phoenix|autumn"
+  },
+  "train/building_11818/phoenix_3": {
+   "city": "phoenix",
+   "season": "spring",
+   "month": 4,
+   "real": true,
+   "oat_c": 26.98,
+   "base_cost": 0.01678991122766832,
+   "stratum": "phoenix|spring"
+  },
+  "train/building_11902/phoenix_5": {
+   "city": "phoenix",
+   "season": "summer",
+   "month": 7,
+   "real": true,
+   "oat_c": 36.82,
+   "base_cost": 0.012917942777206893,
+   "stratum": "phoenix|summer"
+  },
+  "train/building_19664/phoenix_1": {
+   "city": "phoenix",
+   "season": "winter",
+   "month": 1,
+   "real": true,
+   "oat_c": 13.92,
+   "base_cost": 0.002793511775599208,
+   "stratum": "phoenix|winter"
+  },
+  "train/building_17224/singapore_7": {
+   "city": "singapore",
+   "season": "autumn",
+   "month": 10,
+   "real": true,
+   "oat_c": 27.51,
+   "base_cost": 0.004802784154909472,
+   "stratum": "singapore|autumn"
+  },
+  "train/building_14213/singapore_3": {
+   "city": "singapore",
+   "season": "spring",
+   "month": 4,
+   "real": false,
+   "oat_c": 28.59,
+   "base_cost": 0.008170663006455268,
+   "stratum": "singapore|spring"
+  },
+  "train/building_19655/singapore_5": {
+   "city": "singapore",
+   "season": "summer",
+   "month": 7,
+   "real": true,
+   "oat_c": 28.38,
+   "base_cost": 0.00729869095069735,
+   "stratum": "singapore|summer"
+  },
+  "train/building_11010/singapore_1": {
+   "city": "singapore",
+   "season": "winter",
+   "month": 2,
+   "real": true,
+   "oat_c": 27.33,
+   "base_cost": 0.008466767388894923,
+   "stratum": "singapore|winter"
+  },
+  "train/building_12567/atlanta_5": {
+   "city": "atlanta",
+   "season": "summer",
+   "month": 7,
+   "real": true,
+   "oat_c": 26.98,
+   "base_cost": 0.005866773234697883,
+   "stratum": "atlanta|summer"
+  }
+ },
+ "strata": {
+  "atlanta|autumn": {
+   "size": 3,
+   "picked": [
+    "train/building_12336/atlanta_7"
+   ]
+  },
+  "atlanta|spring": {
+   "size": 4,
+   "picked": [
+    "train/building_14073/atlanta_3"
+   ]
+  },
+  "atlanta|summer": {
+   "size": 8,
+   "picked": [
+    "train/building_12567/atlanta_5",
+    "train/building_19629/atlanta_5"
+   ]
+  },
+  "atlanta|winter": {
+   "size": 3,
+   "picked": [
+    "train/building_14078/atlanta_1"
+   ]
+  },
+  "cold": {
+   "size": 13,
+   "picked": [
+    "train/building_11534/denver_1",
+    "train/building_19655/denver_1",
+    "train/building_19950/denver_1",
+    "train/building_12567/fairbanks_3",
+    "train/building_15790/fairbanks_1",
+    "train/building_18842/fairbanks_3",
+    "train/building_19655/fairbanks_1",
+    "train/building_19768/fairbanks_3",
+    "train/building_11164/denver_1",
+    "train/building_15361/denver_1",
+    "train/building_12739/fairbanks_1",
+    "train/building_14042/fairbanks_1",
+    "train/building_14979/fairbanks_1"
+   ]
+  },
+  "denver|autumn": {
+   "size": 3,
+   "picked": [
+    "train/building_18764/denver_7"
+   ]
+  },
+  "denver|spring": {
+   "size": 6,
+   "picked": [
+    "train/building_17821/denver_3"
+   ]
+  },
+  "fairbanks|autumn": {
+   "size": 2,
+   "picked": [
+    "train/building_19664/fairbanks_7"
+   ]
+  },
+  "fairbanks|summer": {
+   "size": 1,
+   "picked": [
+    "train/building_18764/fairbanks_5"
+   ]
+  },
+  "phoenix|autumn": {
+   "size": 2,
+   "picked": [
+    "train/building_13597/phoenix_7"
+   ]
+  },
+  "phoenix|spring": {
+   "size": 3,
+   "picked": [
+    "train/building_11818/phoenix_3"
+   ]
+  },
+  "phoenix|summer": {
+   "size": 2,
+   "picked": [
+    "train/building_11902/phoenix_5"
+   ]
+  },
+  "phoenix|winter": {
+   "size": 5,
+   "picked": [
+    "train/building_19664/phoenix_1"
+   ]
+  },
+  "singapore|autumn": {
+   "size": 2,
+   "picked": [
+    "train/building_17224/singapore_7"
+   ]
+  },
+  "singapore|spring": {
+   "size": 3,
+   "picked": [
+    "train/building_14213/singapore_3"
+   ]
+  },
+  "singapore|summer": {
+   "size": 4,
+   "picked": [
+    "train/building_19655/singapore_5"
+   ]
+  },
+  "singapore|winter": {
+   "size": 2,
+   "picked": [
+    "train/building_11010/singapore_1"
+   ]
+  }
+ },
+ "population": 66
+}

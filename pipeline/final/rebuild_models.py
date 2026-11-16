@@ -1,6 +1,6 @@
 """Rebuild the final models from their recorded predecessors and compare them with the shipped files.
 
-1. The three hand-made files of the chain from their recorded edits (pipeline/manual/edits).
+1. The four hand-made files of the chain from their recorded edits (pipeline/manual/edits).
 2. gt_x1 -> gt_x5 -> gt_x6 / gt_x7 -> gt_x8 (rule with the learned layer) with build_x.py, build_x345.py, build_x67.py,
    build_x8.py; pr_opt2 (tuned rule) from the coordinate search's end state with build_pr2.py; pr_room with
    build_pr_room.py. Built into data/final/rebuild, compared byte for byte with data/runs/b2rl/search/models.

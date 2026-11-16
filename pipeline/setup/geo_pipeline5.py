@@ -75,12 +75,14 @@ class Pipeline:
         self.base = O.base_model(self.spec)
         self.tracks = [t for t in TRACKS if t in a.tracks.split(",")]
         self.stages = stage_list(self.tracks)
+        screen_meta = {}
         if a.specs:
             self.specs = a.specs.split(",")
             self.weights = {s: 1.0 for s in self.specs}
         else:
             path = ROOT / a.screen_set
             sc = L.read_json(path) or S.build_screen30(path)
+            screen_meta = sc.get("meta", {})
             self.specs, self.weights = sc["specs"], sc["weights"]
         st["specs"], st["weights"] = self.specs, self.weights
         self.meta = st.setdefault("meta", {})
@@ -89,6 +91,8 @@ class Pipeline:
                 se, month = S.season(s)
                 _, r = S.base_full_record(s)
                 oat = round(float(np.mean(r["hourly"]["outside_t"])), 2) if r else None
+                if oat is None:
+                    oat = (screen_meta.get(s) or {}).get("oat_c")
                 self.meta[s] = {"city": S.city(s), "season": se, "month": month, "oat_c": oat}
         self.ms = a.max_steps or None
         self.prefix = "smk_" if self.ms else ""
@@ -831,7 +835,7 @@ def main():
             return 2
         if a.attempt > 2:
             pipe.log("EVENT", f"attempt {a.attempt} of stage {pending['stage']}: beyond the plan's two chances, "
-                              "explicitly asked for")
+                              "a further attempt")
         s = pipe.stage(pending["stage"])
         s.update(attempt=a.attempt, status="pending")
         if pipe.ctx.wake_path.is_file():

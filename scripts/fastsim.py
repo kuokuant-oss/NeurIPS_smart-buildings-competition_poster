@@ -247,6 +247,13 @@ def cmd_report(args):
 
 
 def _build(spec):
+    try:
+        return _build_raw(spec)
+    except Exception as error:
+        return {"spec": spec, "error": repr(error)[:300]}
+
+
+def _build_raw(spec):
     from smart_buildings import evaluate
     from smart_building.learned.b2rl_env import spec_dir
     started = time.time()
@@ -259,9 +266,14 @@ def _build(spec):
 
 def cmd_build(args):
     context = multiprocessing.get_context("spawn")
+    failed = []
     with context.Pool(args.workers, initializer=_init_worker, initargs=("rom",), maxtasksperchild=1) as pool:
         for info in pool.imap_unordered(_build, specs_of(args)):
             print(json.dumps(info, default=str), flush=True)
+            if "error" in info:
+                failed.append(info["spec"])
+    if failed and not args.keep_going:
+        raise SystemExit(f"{len(failed)} reduced model(s) could not be built: {failed}")
 
 
 def index_path(spec):
@@ -560,7 +572,7 @@ def main():
         group = p.add_mutually_exclusive_group(required=True)
         group.add_argument("--set")
         group.add_argument("--specs", nargs="+")
-        group.add_argument("--pool", choices=("train", "inner", "val"))
+        group.add_argument("--pool", choices=("train", "inner", "val", "gen5", "gen6"))
 
     p = sub.add_parser("episodes")
     p.add_argument("--mode", choices=("rom", "exact", "official"), required=True)
@@ -581,6 +593,7 @@ def main():
     p = sub.add_parser("build")
     add_specs(p)
     p.add_argument("--workers", type=int, default=1)
+    p.add_argument("--keep-going", action="store_true", help="report a scenario whose model cannot be built and go on")
     p.set_defaults(func=cmd_build)
     p = sub.add_parser("build-one")
     p.add_argument("--spec", required=True)

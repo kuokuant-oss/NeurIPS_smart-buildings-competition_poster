@@ -1,0 +1,1074 @@
+{
+ "set": "train_ceiling100",
+ "n": 100,
+ "parameter_sets": {
+  "fixed": {
+   "occupied_margin_k": 0.07262655106825111,
+   "discharge_offset_k": 11.563461318727997,
+   "heating_max_ratio": 0.4529957279624725,
+   "unoccupied_lead_min": 132,
+   "t_opt_max_s": 12165.244914685723,
+   "sp_max_pa": 1807.1323159420097
+  },
+  "cold": {
+   "occupied_margin_k": 0.17081739580749059,
+   "discharge_offset_k": 11.32745573593624,
+   "heating_max_ratio": 0.4712571302143467,
+   "unoccupied_lead_min": 160.63084183285127,
+   "t_opt_max_s": 11649.58889450435,
+   "sp_max_pa": 1823.443151710407
+  },
+  "warm": {
+   "occupied_margin_k": 0.01632280987655558,
+   "discharge_offset_k": 11.69878958979635,
+   "heating_max_ratio": 0.44252443332275865,
+   "unoccupied_lead_min": 115.13233240223464,
+   "t_opt_max_s": 12460.927910196498,
+   "sp_max_pa": 1797.7794981903858
+  },
+  "fixed_sp2000": {
+   "occupied_margin_k": 0.07262655106825111,
+   "discharge_offset_k": 11.563461318727997,
+   "heating_max_ratio": 0.4529957279624725,
+   "unoccupied_lead_min": 132,
+   "t_opt_max_s": 12165.244914685723,
+   "sp_max_pa": 2000.0
+  }
+ },
+ "per_set": {
+  "rule": {
+   "score": 0.0,
+   "mean_cost": 0.015457772700209055,
+   "mean_diff": 0.0,
+   "better": 0,
+   "worse": 0,
+   "best_in": 10
+  },
+  "fixed": {
+   "score": -0.019279359571388592,
+   "mean_cost": 0.015192050874477578,
+   "mean_diff": -0.00026572182573147865,
+   "better": 85,
+   "worse": 15,
+   "best_in": 32
+  },
+  "cold": {
+   "score": -0.01396662541713169,
+   "mean_cost": 0.015350026950011978,
+   "mean_diff": -0.00010774575019707835,
+   "better": 70,
+   "worse": 30,
+   "best_in": 40
+  },
+  "warm": {
+   "score": -0.011164739490918734,
+   "mean_cost": 0.015245359515770789,
+   "mean_diff": -0.00021241318443826815,
+   "better": 86,
+   "worse": 14,
+   "best_in": 18
+  },
+  "fixed_sp2000": {
+   "score": -0.01922047144210326,
+   "mean_cost": 0.01519350523860812,
+   "mean_diff": -0.0002642674616009362,
+   "better": 85,
+   "worse": 15,
+   "best_in": 0
+  }
+ },
+ "sbs": "fixed",
+ "sbs_score": -0.019279359571388592,
+ "vbs_score": -0.02821211869993884,
+ "gap_points": 0.8932759128550248,
+ "vbs_rule_fixed_score": -0.022412626982352468,
+ "gap_rule_fixed_points": 0.3133267410963876,
+ "by_class": {
+  "station": {
+   "score": -0.019279359571388592,
+   "gain_over_sbs_points": 0.0,
+   "classes": 5,
+   "choice": {
+    "atlanta": "fixed",
+    "denver": "fixed",
+    "fairbanks": "fixed",
+    "phoenix": "fixed",
+    "singapore": "fixed"
+   }
+  },
+  "building": {
+   "score": -0.025294960447453548,
+   "gain_over_sbs_points": 0.6015600876064956,
+   "classes": 46
+  },
+  "month_outside": {
+   "score": -0.020567498989764555,
+   "gain_over_sbs_points": 0.1288139418375963,
+   "classes": 2,
+   "choice": {
+    "warm": "fixed",
+    "cold": "cold"
+   }
+  },
+  "day1_outside": {
+   "score": -0.020183476805045793,
+   "gain_over_sbs_points": 0.09041172336572006,
+   "classes": 2,
+   "choice": {
+    "warm": "fixed",
+    "cold": "cold"
+   }
+  }
+ },
+ "per_station": {
+  "atlanta": {
+   "rule": 0.0,
+   "fixed": -0.019526955447822535,
+   "cold": -0.01738628612369015,
+   "warm": -0.007663393383508516,
+   "fixed_sp2000": -0.01943206034040797
+  },
+  "denver": {
+   "rule": 0.0,
+   "fixed": -0.024491809961600462,
+   "cold": -0.02253875211971148,
+   "warm": -0.013721029424985754,
+   "fixed_sp2000": -0.024491809961600462
+  },
+  "fairbanks": {
+   "rule": 0.0,
+   "fixed": -0.02930252037548341,
+   "cold": -0.022930813692819324,
+   "warm": -0.022166134040247067,
+   "fixed_sp2000": -0.02930252037548341
+  },
+  "phoenix": {
+   "rule": 0.0,
+   "fixed": -0.01917427168273479,
+   "cold": -0.01732701304143769,
+   "warm": -0.009827341517820548,
+   "fixed_sp2000": -0.01917427168273479
+  },
+  "singapore": {
+   "rule": 0.0,
+   "fixed": -0.003901240389301769,
+   "cold": 0.010349737892000188,
+   "warm": -0.0024457990880317913,
+   "fixed_sp2000": -0.0037016948502896717
+  }
+ },
+ "outside": {
+  "train/building_10419/atlanta_3": {
+   "month": 20.814583333333335,
+   "day1": 15.591666666666667
+  },
+  "train/building_11818/atlanta_1": {
+   "month": 9.584305555555556,
+   "day1": 5.2625
+  },
+  "train/building_11852/atlanta_5": {
+   "month": 26.991666666666667,
+   "day1": 26.195833333333333
+  },
+  "train/building_12336/atlanta_7": {
+   "month": 18.17791666666667,
+   "day1": 18.054166666666667
+  },
+  "train/building_12503/atlanta_3": {
+   "month": 20.814583333333335,
+   "day1": 15.591666666666667
+  },
+  "train/building_12567/atlanta_5": {
+   "month": 26.991666666666667,
+   "day1": 26.195833333333333
+  },
+  "train/building_14073/atlanta_3": {
+   "month": 20.814583333333335,
+   "day1": 15.591666666666667
+  },
+  "train/building_14219/atlanta_5": {
+   "month": 26.991666666666667,
+   "day1": 26.195833333333333
+  },
+  "train/building_16034/atlanta_5": {
+   "month": 26.991666666666667,
+   "day1": 26.195833333333333
+  },
+  "train/building_16071/atlanta_7": {
+   "month": 18.17791666666667,
+   "day1": 18.054166666666667
+  },
+  "train/building_16541/atlanta_5": {
+   "month": 26.991666666666667,
+   "day1": 26.195833333333333
+  },
+  "train/building_16613/atlanta_1": {
+   "month": 9.584305555555556,
+   "day1": 5.2625
+  },
+  "train/building_16821/atlanta_7": {
+   "month": 18.17791666666667,
+   "day1": 18.054166666666667
+  },
+  "train/building_17821/atlanta_1": {
+   "month": 9.584305555555556,
+   "day1": 5.2625
+  },
+  "train/building_18662/atlanta_5": {
+   "month": 26.991666666666667,
+   "day1": 26.195833333333333
+  },
+  "train/building_18842/atlanta_5": {
+   "month": 26.991666666666667,
+   "day1": 26.195833333333333
+  },
+  "train/building_19195/atlanta_3": {
+   "month": 20.814583333333335,
+   "day1": 15.591666666666667
+  },
+  "train/building_19299/atlanta_7": {
+   "month": 18.17791666666667,
+   "day1": 18.054166666666667
+  },
+  "train/building_19629/atlanta_5": {
+   "month": 26.991666666666667,
+   "day1": 26.195833333333333
+  },
+  "train/building_19950/atlanta_7": {
+   "month": 18.17791666666667,
+   "day1": 18.054166666666667
+  },
+  "train/building_10740/denver_5": {
+   "month": 24.18027777777778,
+   "day1": 21.504166666666666
+  },
+  "train/building_11461/denver_3": {
+   "month": 11.501666666666667,
+   "day1": 6.670833333333333
+  },
+  "train/building_11534/denver_1": {
+   "month": -0.8908333333333334,
+   "day1": 0.9125000000000001
+  },
+  "train/building_11818/denver_1": {
+   "month": -0.8908333333333334,
+   "day1": 0.9125000000000001
+  },
+  "train/building_12567/denver_7": {
+   "month": 12.935833333333333,
+   "day1": 16.729166666666668
+  },
+  "train/building_13830/denver_3": {
+   "month": 11.501666666666667,
+   "day1": 6.670833333333333
+  },
+  "train/building_14219/denver_3": {
+   "month": 11.501666666666667,
+   "day1": 6.670833333333333
+  },
+  "train/building_16071/denver_1": {
+   "month": -0.8908333333333334,
+   "day1": 0.9125000000000001
+  },
+  "train/building_16092/denver_3": {
+   "month": 11.501666666666667,
+   "day1": 6.670833333333333
+  },
+  "train/building_16761/denver_3": {
+   "month": 11.501666666666667,
+   "day1": 6.670833333333333
+  },
+  "train/building_16909/denver_5": {
+   "month": 24.18027777777778,
+   "day1": 21.504166666666666
+  },
+  "train/building_17524/denver_3": {
+   "month": 11.501666666666667,
+   "day1": 6.670833333333333
+  },
+  "train/building_17821/denver_3": {
+   "month": 11.501666666666667,
+   "day1": 6.670833333333333
+  },
+  "train/building_18727/denver_7": {
+   "month": 12.935833333333333,
+   "day1": 16.729166666666668
+  },
+  "train/building_18764/denver_7": {
+   "month": 12.935833333333333,
+   "day1": 16.729166666666668
+  },
+  "train/building_18771/denver_5": {
+   "month": 24.18027777777778,
+   "day1": 21.504166666666666
+  },
+  "train/building_19195/denver_3": {
+   "month": 11.501666666666667,
+   "day1": 6.670833333333333
+  },
+  "train/building_19518/denver_5": {
+   "month": 24.18027777777778,
+   "day1": 21.504166666666666
+  },
+  "train/building_19655/denver_1": {
+   "month": -0.8908333333333334,
+   "day1": 0.9125000000000001
+  },
+  "train/building_19950/denver_1": {
+   "month": -0.8908333333333334,
+   "day1": 0.9125000000000001
+  },
+  "train/building_11010/fairbanks_3": {
+   "month": -1.685,
+   "day1": -4.666666666666667
+  },
+  "train/building_11818/fairbanks_1": {
+   "month": -21.4075,
+   "day1": -5.5375
+  },
+  "train/building_11852/fairbanks_1": {
+   "month": -21.4075,
+   "day1": -5.5375
+  },
+  "train/building_11902/fairbanks_1": {
+   "month": -21.4075,
+   "day1": -5.5375
+  },
+  "train/building_12336/fairbanks_5": {
+   "month": 18.909166666666668,
+   "day1": 19.066666666666666
+  },
+  "train/building_12503/fairbanks_1": {
+   "month": -21.4075,
+   "day1": -5.5375
+  },
+  "train/building_12567/fairbanks_3": {
+   "month": -1.685,
+   "day1": -4.666666666666667
+  },
+  "train/building_13745/fairbanks_5": {
+   "month": 18.909166666666668,
+   "day1": 19.066666666666666
+  },
+  "train/building_15790/fairbanks_1": {
+   "month": -21.4075,
+   "day1": -5.5375
+  },
+  "train/building_16034/fairbanks_1": {
+   "month": -21.4075,
+   "day1": -5.5375
+  },
+  "train/building_16092/fairbanks_7": {
+   "month": 6.398333333333333,
+   "day1": 8.6625
+  },
+  "train/building_16613/fairbanks_7": {
+   "month": 6.398333333333333,
+   "day1": 8.6625
+  },
+  "train/building_17821/fairbanks_5": {
+   "month": 18.909166666666668,
+   "day1": 19.066666666666666
+  },
+  "train/building_18764/fairbanks_5": {
+   "month": 18.909166666666668,
+   "day1": 19.066666666666666
+  },
+  "train/building_18842/fairbanks_3": {
+   "month": -1.685,
+   "day1": -4.666666666666667
+  },
+  "train/building_19299/fairbanks_1": {
+   "month": -21.4075,
+   "day1": -5.5375
+  },
+  "train/building_19655/fairbanks_1": {
+   "month": -21.4075,
+   "day1": -5.5375
+  },
+  "train/building_19664/fairbanks_7": {
+   "month": 6.398333333333333,
+   "day1": 8.6625
+  },
+  "train/building_19708/fairbanks_7": {
+   "month": 6.398333333333333,
+   "day1": 8.6625
+  },
+  "train/building_19768/fairbanks_3": {
+   "month": -1.685,
+   "day1": -4.666666666666667
+  },
+  "train/building_10740/phoenix_3": {
+   "month": 26.98625,
+   "day1": 29.383333333333333
+  },
+  "train/building_11818/phoenix_3": {
+   "month": 26.98625,
+   "day1": 29.383333333333333
+  },
+  "train/building_11852/phoenix_1": {
+   "month": 13.921805555555556,
+   "day1": 13.254166666666666
+  },
+  "train/building_11902/phoenix_5": {
+   "month": 36.824305555555554,
+   "day1": 39.125
+  },
+  "train/building_12356/phoenix_1": {
+   "month": 13.921805555555556,
+   "day1": 13.254166666666666
+  },
+  "train/building_13597/phoenix_7": {
+   "month": 23.316666666666666,
+   "day1": 25.95
+  },
+  "train/building_13745/phoenix_7": {
+   "month": 23.316666666666666,
+   "day1": 25.95
+  },
+  "train/building_14219/phoenix_1": {
+   "month": 13.921805555555556,
+   "day1": 13.254166666666666
+  },
+  "train/building_14480/phoenix_1": {
+   "month": 13.921805555555556,
+   "day1": 13.254166666666666
+  },
+  "train/building_15790/phoenix_1": {
+   "month": 13.921805555555556,
+   "day1": 13.254166666666666
+  },
+  "train/building_16092/phoenix_5": {
+   "month": 36.824305555555554,
+   "day1": 39.125
+  },
+  "train/building_16541/phoenix_1": {
+   "month": 13.921805555555556,
+   "day1": 13.254166666666666
+  },
+  "train/building_16821/phoenix_3": {
+   "month": 26.98625,
+   "day1": 29.383333333333333
+  },
+  "train/building_17378/phoenix_3": {
+   "month": 26.98625,
+   "day1": 29.383333333333333
+  },
+  "train/building_18764/phoenix_7": {
+   "month": 23.316666666666666,
+   "day1": 25.95
+  },
+  "train/building_18842/phoenix_7": {
+   "month": 23.316666666666666,
+   "day1": 25.95
+  },
+  "train/building_19299/phoenix_3": {
+   "month": 26.98625,
+   "day1": 29.383333333333333
+  },
+  "train/building_19518/phoenix_5": {
+   "month": 36.824305555555554,
+   "day1": 39.125
+  },
+  "train/building_19664/phoenix_1": {
+   "month": 13.921805555555556,
+   "day1": 13.254166666666666
+  },
+  "train/building_19708/phoenix_3": {
+   "month": 26.98625,
+   "day1": 29.383333333333333
+  },
+  "train/building_10419/singapore_3": {
+   "month": 28.59611111111111,
+   "day1": 28.4375
+  },
+  "train/building_10740/singapore_7": {
+   "month": 27.518055555555556,
+   "day1": 29.566666666666666
+  },
+  "train/building_11010/singapore_1": {
+   "month": 27.328194444444446,
+   "day1": 24.954166666666666
+  },
+  "train/building_11534/singapore_5": {
+   "month": 28.382083333333334,
+   "day1": 28.254166666666666
+  },
+  "train/building_11818/singapore_1": {
+   "month": 27.328194444444446,
+   "day1": 24.954166666666666
+  },
+  "train/building_11902/singapore_7": {
+   "month": 27.518055555555556,
+   "day1": 29.566666666666666
+  },
+  "train/building_13830/singapore_3": {
+   "month": 28.59611111111111,
+   "day1": 28.4375
+  },
+  "train/building_14219/singapore_7": {
+   "month": 27.518055555555556,
+   "day1": 29.566666666666666
+  },
+  "train/building_14480/singapore_3": {
+   "month": 28.59611111111111,
+   "day1": 28.4375
+  },
+  "train/building_15471/singapore_7": {
+   "month": 27.518055555555556,
+   "day1": 29.566666666666666
+  },
+  "train/building_16092/singapore_5": {
+   "month": 28.382083333333334,
+   "day1": 28.254166666666666
+  },
+  "train/building_16613/singapore_1": {
+   "month": 27.328194444444446,
+   "day1": 24.954166666666666
+  },
+  "train/building_16761/singapore_1": {
+   "month": 27.328194444444446,
+   "day1": 24.954166666666666
+  },
+  "train/building_17224/singapore_7": {
+   "month": 27.518055555555556,
+   "day1": 29.566666666666666
+  },
+  "train/building_17524/singapore_7": {
+   "month": 27.518055555555556,
+   "day1": 29.566666666666666
+  },
+  "train/building_18662/singapore_5": {
+   "month": 28.382083333333334,
+   "day1": 28.254166666666666
+  },
+  "train/building_19518/singapore_7": {
+   "month": 27.518055555555556,
+   "day1": 29.566666666666666
+  },
+  "train/building_19655/singapore_5": {
+   "month": 28.382083333333334,
+   "day1": 28.254166666666666
+  },
+  "train/building_19664/singapore_1": {
+   "month": 27.328194444444446,
+   "day1": 24.954166666666666
+  },
+  "train/building_19950/singapore_5": {
+   "month": 28.382083333333334,
+   "day1": 28.254166666666666
+  }
+ },
+ "relative": {
+  "rule": {
+   "train/building_10419/atlanta_3": 0.0,
+   "train/building_11818/atlanta_1": 0.0,
+   "train/building_11852/atlanta_5": 0.0,
+   "train/building_12336/atlanta_7": 0.0,
+   "train/building_12503/atlanta_3": 0.0,
+   "train/building_12567/atlanta_5": 0.0,
+   "train/building_14073/atlanta_3": 0.0,
+   "train/building_14219/atlanta_5": 0.0,
+   "train/building_16034/atlanta_5": 0.0,
+   "train/building_16071/atlanta_7": 0.0,
+   "train/building_16541/atlanta_5": 0.0,
+   "train/building_16613/atlanta_1": 0.0,
+   "train/building_16821/atlanta_7": 0.0,
+   "train/building_17821/atlanta_1": 0.0,
+   "train/building_18662/atlanta_5": 0.0,
+   "train/building_18842/atlanta_5": 0.0,
+   "train/building_19195/atlanta_3": 0.0,
+   "train/building_19299/atlanta_7": 0.0,
+   "train/building_19629/atlanta_5": 0.0,
+   "train/building_19950/atlanta_7": 0.0,
+   "train/building_10740/denver_5": 0.0,
+   "train/building_11461/denver_3": 0.0,
+   "train/building_11534/denver_1": 0.0,
+   "train/building_11818/denver_1": 0.0,
+   "train/building_12567/denver_7": 0.0,
+   "train/building_13830/denver_3": 0.0,
+   "train/building_14219/denver_3": 0.0,
+   "train/building_16071/denver_1": 0.0,
+   "train/building_16092/denver_3": 0.0,
+   "train/building_16761/denver_3": 0.0,
+   "train/building_16909/denver_5": 0.0,
+   "train/building_17524/denver_3": 0.0,
+   "train/building_17821/denver_3": 0.0,
+   "train/building_18727/denver_7": 0.0,
+   "train/building_18764/denver_7": 0.0,
+   "train/building_18771/denver_5": 0.0,
+   "train/building_19195/denver_3": 0.0,
+   "train/building_19518/denver_5": 0.0,
+   "train/building_19655/denver_1": 0.0,
+   "train/building_19950/denver_1": 0.0,
+   "train/building_11010/fairbanks_3": 0.0,
+   "train/building_11818/fairbanks_1": 0.0,
+   "train/building_11852/fairbanks_1": 0.0,
+   "train/building_11902/fairbanks_1": 0.0,
+   "train/building_12336/fairbanks_5": 0.0,
+   "train/building_12503/fairbanks_1": 0.0,
+   "train/building_12567/fairbanks_3": 0.0,
+   "train/building_13745/fairbanks_5": 0.0,
+   "train/building_15790/fairbanks_1": 0.0,
+   "train/building_16034/fairbanks_1": 0.0,
+   "train/building_16092/fairbanks_7": 0.0,
+   "train/building_16613/fairbanks_7": 0.0,
+   "train/building_17821/fairbanks_5": 0.0,
+   "train/building_18764/fairbanks_5": 0.0,
+   "train/building_18842/fairbanks_3": 0.0,
+   "train/building_19299/fairbanks_1": 0.0,
+   "train/building_19655/fairbanks_1": 0.0,
+   "train/building_19664/fairbanks_7": 0.0,
+   "train/building_19708/fairbanks_7": 0.0,
+   "train/building_19768/fairbanks_3": 0.0,
+   "train/building_10740/phoenix_3": 0.0,
+   "train/building_11818/phoenix_3": 0.0,
+   "train/building_11852/phoenix_1": 0.0,
+   "train/building_11902/phoenix_5": 0.0,
+   "train/building_12356/phoenix_1": 0.0,
+   "train/building_13597/phoenix_7": 0.0,
+   "train/building_13745/phoenix_7": 0.0,
+   "train/building_14219/phoenix_1": 0.0,
+   "train/building_14480/phoenix_1": 0.0,
+   "train/building_15790/phoenix_1": 0.0,
+   "train/building_16092/phoenix_5": 0.0,
+   "train/building_16541/phoenix_1": 0.0,
+   "train/building_16821/phoenix_3": 0.0,
+   "train/building_17378/phoenix_3": 0.0,
+   "train/building_18764/phoenix_7": 0.0,
+   "train/building_18842/phoenix_7": 0.0,
+   "train/building_19299/phoenix_3": 0.0,
+   "train/building_19518/phoenix_5": 0.0,
+   "train/building_19664/phoenix_1": 0.0,
+   "train/building_19708/phoenix_3": 0.0,
+   "train/building_10419/singapore_3": 0.0,
+   "train/building_10740/singapore_7": 0.0,
+   "train/building_11010/singapore_1": 0.0,
+   "train/building_11534/singapore_5": 0.0,
+   "train/building_11818/singapore_1": 0.0,
+   "train/building_11902/singapore_7": 0.0,
+   "train/building_13830/singapore_3": 0.0,
+   "train/building_14219/singapore_7": 0.0,
+   "train/building_14480/singapore_3": 0.0,
+   "train/building_15471/singapore_7": 0.0,
+   "train/building_16092/singapore_5": 0.0,
+   "train/building_16613/singapore_1": 0.0,
+   "train/building_16761/singapore_1": 0.0,
+   "train/building_17224/singapore_7": 0.0,
+   "train/building_17524/singapore_7": 0.0,
+   "train/building_18662/singapore_5": 0.0,
+   "train/building_19518/singapore_7": 0.0,
+   "train/building_19655/singapore_5": 0.0,
+   "train/building_19664/singapore_1": 0.0,
+   "train/building_19950/singapore_5": 0.0
+  },
+  "fixed": {
+   "train/building_10419/atlanta_3": -0.02354269165447298,
+   "train/building_11818/atlanta_1": -0.020002597435216152,
+   "train/building_11852/atlanta_5": 0.013026718059446996,
+   "train/building_12336/atlanta_7": -0.048502598216777604,
+   "train/building_12503/atlanta_3": -0.012070609233999163,
+   "train/building_12567/atlanta_5": 0.05597556570799145,
+   "train/building_14073/atlanta_3": -0.014902138751942684,
+   "train/building_14219/atlanta_5": -0.0012646916268815867,
+   "train/building_16034/atlanta_5": -0.027907158043477653,
+   "train/building_16071/atlanta_7": -0.029909376413002065,
+   "train/building_16541/atlanta_5": 0.014135296917703322,
+   "train/building_16613/atlanta_1": -0.07836231536501825,
+   "train/building_16821/atlanta_7": -0.058793579048769695,
+   "train/building_17821/atlanta_1": -0.024936665948083858,
+   "train/building_18662/atlanta_5": -0.013067687383896076,
+   "train/building_18842/atlanta_5": -0.007199964105672696,
+   "train/building_19195/atlanta_3": -0.026886437241825933,
+   "train/building_19299/atlanta_7": -0.041235929797806437,
+   "train/building_19629/atlanta_5": -0.0038848381577646363,
+   "train/building_19950/atlanta_7": -0.04120741121698501,
+   "train/building_10740/denver_5": 0.039536027820311626,
+   "train/building_11461/denver_3": -0.018527373171465022,
+   "train/building_11534/denver_1": -0.005675677531513101,
+   "train/building_11818/denver_1": -0.017873846772949564,
+   "train/building_12567/denver_7": -0.037848288373220185,
+   "train/building_13830/denver_3": -0.03214222909932851,
+   "train/building_14219/denver_3": -0.04645110026037225,
+   "train/building_16071/denver_1": -0.031048605389843664,
+   "train/building_16092/denver_3": -0.05182663562106249,
+   "train/building_16761/denver_3": -0.02068082512170144,
+   "train/building_16909/denver_5": 0.06035468712093639,
+   "train/building_17524/denver_3": -0.05656151020721978,
+   "train/building_17821/denver_3": -0.040290802709131435,
+   "train/building_18727/denver_7": -0.04961653101266872,
+   "train/building_18764/denver_7": -0.027230503915774418,
+   "train/building_18771/denver_5": -0.011084628624514203,
+   "train/building_19195/denver_3": -0.05535510978812841,
+   "train/building_19518/denver_5": -0.019398815405402003,
+   "train/building_19655/denver_1": -0.03163566417636343,
+   "train/building_19950/denver_1": -0.036478766992598666,
+   "train/building_11010/fairbanks_3": -0.017082308606959584,
+   "train/building_11818/fairbanks_1": -0.023086951035483416,
+   "train/building_11852/fairbanks_1": -0.06708241414273608,
+   "train/building_11902/fairbanks_1": -0.030618865619016278,
+   "train/building_12336/fairbanks_5": -0.04660836885093711,
+   "train/building_12503/fairbanks_1": -0.0265310962153521,
+   "train/building_12567/fairbanks_3": -0.027209128146501782,
+   "train/building_13745/fairbanks_5": 0.006870384764187332,
+   "train/building_15790/fairbanks_1": -0.0352672190997767,
+   "train/building_16034/fairbanks_1": -0.04219962076104544,
+   "train/building_16092/fairbanks_7": -0.060888299765741505,
+   "train/building_16613/fairbanks_7": -0.07859222387721576,
+   "train/building_17821/fairbanks_5": -0.015311166338015436,
+   "train/building_18764/fairbanks_5": -0.020882443041716492,
+   "train/building_18842/fairbanks_3": -0.02409143260927127,
+   "train/building_19299/fairbanks_1": -0.02855673001331993,
+   "train/building_19655/fairbanks_1": -0.022340572324551,
+   "train/building_19664/fairbanks_7": 0.0030825336385409408,
+   "train/building_19708/fairbanks_7": -0.014790594857879147,
+   "train/building_19768/fairbanks_3": -0.014863890606877428,
+   "train/building_10740/phoenix_3": 0.04970524985238911,
+   "train/building_11818/phoenix_3": -0.01753467232583461,
+   "train/building_11852/phoenix_1": 0.0037337888006294673,
+   "train/building_11902/phoenix_5": -0.0020976639521582685,
+   "train/building_12356/phoenix_1": -0.04015318190903849,
+   "train/building_13597/phoenix_7": -0.03259836232994251,
+   "train/building_13745/phoenix_7": 0.005720533592773691,
+   "train/building_14219/phoenix_1": -0.04532932438403592,
+   "train/building_14480/phoenix_1": -0.039147373938174246,
+   "train/building_15790/phoenix_1": -0.027249376601771402,
+   "train/building_16092/phoenix_5": -0.007316109806484672,
+   "train/building_16541/phoenix_1": -0.03447339387835657,
+   "train/building_16821/phoenix_3": -0.004947817955402778,
+   "train/building_17378/phoenix_3": -0.02463392825056765,
+   "train/building_18764/phoenix_7": -0.021470615867841825,
+   "train/building_18842/phoenix_7": -0.022876950875535984,
+   "train/building_19299/phoenix_3": -0.022323177443561937,
+   "train/building_19518/phoenix_5": -0.02056401625598281,
+   "train/building_19664/phoenix_1": -0.06455196672023467,
+   "train/building_19708/phoenix_3": -0.015377073405563713,
+   "train/building_10419/singapore_3": -0.003567538352407751,
+   "train/building_10740/singapore_7": 0.04572824376725393,
+   "train/building_11010/singapore_1": 0.009573956981309806,
+   "train/building_11534/singapore_5": 0.0027696159470851356,
+   "train/building_11818/singapore_1": -0.005224322854410657,
+   "train/building_11902/singapore_7": -0.003461147796555486,
+   "train/building_13830/singapore_3": -0.019612196212592137,
+   "train/building_14219/singapore_7": -0.0009132873439207101,
+   "train/building_14480/singapore_3": -0.009452612422528817,
+   "train/building_15471/singapore_7": 0.00016351524883906343,
+   "train/building_16092/singapore_5": -0.015816388302680506,
+   "train/building_16613/singapore_1": -0.0066265294138824204,
+   "train/building_16761/singapore_1": -0.004687852577938356,
+   "train/building_17224/singapore_7": -0.003701626626518406,
+   "train/building_17524/singapore_7": -0.004077418848914993,
+   "train/building_18662/singapore_5": -0.003498441363031235,
+   "train/building_19518/singapore_7": -0.008965455681136936,
+   "train/building_19655/singapore_5": -0.021257086048805163,
+   "train/building_19664/singapore_1": -0.028348858762188844,
+   "train/building_19950/singapore_5": 0.0029506228769891063
+  },
+  "cold": {
+   "train/building_10419/atlanta_3": -0.026959645743992122,
+   "train/building_11818/atlanta_1": -0.007305740439049302,
+   "train/building_11852/atlanta_5": 0.05763974334999156,
+   "train/building_12336/atlanta_7": -0.08213103361189977,
+   "train/building_12503/atlanta_3": -0.017931454692892257,
+   "train/building_12567/atlanta_5": 0.09661222590852558,
+   "train/building_14073/atlanta_3": -0.010401739928884046,
+   "train/building_14219/atlanta_5": 0.00765071982385912,
+   "train/building_16034/atlanta_5": -0.0363693740780523,
+   "train/building_16071/atlanta_7": -0.03422974662499245,
+   "train/building_16541/atlanta_5": 0.027288027973295215,
+   "train/building_16613/atlanta_1": -0.09322638018071139,
+   "train/building_16821/atlanta_7": -0.052338710315890546,
+   "train/building_17821/atlanta_1": -0.03019577140204377,
+   "train/building_18662/atlanta_5": -0.008212577774764362,
+   "train/building_18842/atlanta_5": 0.0013520880730337748,
+   "train/building_19195/atlanta_3": -0.035991526806355534,
+   "train/building_19299/atlanta_7": -0.05076349711708872,
+   "train/building_19629/atlanta_5": 0.0044644083523981415,
+   "train/building_19950/atlanta_7": -0.05667573723828978,
+   "train/building_10740/denver_5": 0.10553101974648782,
+   "train/building_11461/denver_3": -0.0006582311907481486,
+   "train/building_11534/denver_1": 0.009803723924731056,
+   "train/building_11818/denver_1": -0.011131282887774652,
+   "train/building_12567/denver_7": -0.07324875385804486,
+   "train/building_13830/denver_3": -0.05201108683011879,
+   "train/building_14219/denver_3": -0.05809284069859688,
+   "train/building_16071/denver_1": -0.00952921880540425,
+   "train/building_16092/denver_3": -0.10570882778023405,
+   "train/building_16761/denver_3": -0.04117671500016162,
+   "train/building_16909/denver_5": 0.16458914433690053,
+   "train/building_17524/denver_3": -0.07226288341029441,
+   "train/building_17821/denver_3": -0.038771830548973485,
+   "train/building_18727/denver_7": -0.05492566141718824,
+   "train/building_18764/denver_7": -0.024923126498306414,
+   "train/building_18771/denver_5": -0.008679130964379,
+   "train/building_19195/denver_3": -0.07332033695716067,
+   "train/building_19518/denver_5": -0.02431884347099489,
+   "train/building_19655/denver_1": -0.03935708980147745,
+   "train/building_19950/denver_1": -0.0425830702824912,
+   "train/building_11010/fairbanks_3": -0.003699232057506885,
+   "train/building_11818/fairbanks_1": -0.021744829725599546,
+   "train/building_11852/fairbanks_1": -0.03766793644385735,
+   "train/building_11902/fairbanks_1": -0.023747610768374727,
+   "train/building_12336/fairbanks_5": -0.08094145306018696,
+   "train/building_12503/fairbanks_1": -0.012987070470031559,
+   "train/building_12567/fairbanks_3": -0.03193204426362395,
+   "train/building_13745/fairbanks_5": 0.03300515539775062,
+   "train/building_15790/fairbanks_1": -0.010432078633925701,
+   "train/building_16034/fairbanks_1": -0.04410329029464599,
+   "train/building_16092/fairbanks_7": -0.07568271995365727,
+   "train/building_16613/fairbanks_7": -0.07948551908723733,
+   "train/building_17821/fairbanks_5": -0.0023606038016820152,
+   "train/building_18764/fairbanks_5": -0.023979726820508418,
+   "train/building_18842/fairbanks_3": -0.012854072164635189,
+   "train/building_19299/fairbanks_1": -0.017611721418197224,
+   "train/building_19655/fairbanks_1": -0.023361045309991946,
+   "train/building_19664/fairbanks_7": 0.009733542356461733,
+   "train/building_19708/fairbanks_7": -0.0008952472118162191,
+   "train/building_19768/fairbanks_3": 0.002131229874879459,
+   "train/building_10740/phoenix_3": 0.1366618205474135,
+   "train/building_11818/phoenix_3": -0.012485575886192146,
+   "train/building_11852/phoenix_1": 0.0009206250222122403,
+   "train/building_11902/phoenix_5": 0.011079208542710495,
+   "train/building_12356/phoenix_1": -0.07369331255998035,
+   "train/building_13597/phoenix_7": -0.05419423210796448,
+   "train/building_13745/phoenix_7": 0.025991672213374617,
+   "train/building_14219/phoenix_1": -0.04949580810347387,
+   "train/building_14480/phoenix_1": -0.03901971488377154,
+   "train/building_15790/phoenix_1": -0.046971677378292775,
+   "train/building_16092/phoenix_5": 0.0002691665563716583,
+   "train/building_16541/phoenix_1": -0.06670258140587815,
+   "train/building_16821/phoenix_3": 0.021739898224850007,
+   "train/building_17378/phoenix_3": -0.017606029293751657,
+   "train/building_18764/phoenix_7": -0.022674205968820083,
+   "train/building_18842/phoenix_7": -0.02705324165748968,
+   "train/building_19299/phoenix_3": -0.01811911424618884,
+   "train/building_19518/phoenix_5": -0.016656140836248112,
+   "train/building_19664/phoenix_1": -0.09072139445843108,
+   "train/building_19708/phoenix_3": -0.007809623149203526,
+   "train/building_10419/singapore_3": 0.0019656956517879465,
+   "train/building_10740/singapore_7": 0.13904108901577605,
+   "train/building_11010/singapore_1": 0.023578346693053254,
+   "train/building_11534/singapore_5": 0.01062101523193082,
+   "train/building_11818/singapore_1": 0.003129223978652451,
+   "train/building_11902/singapore_7": 0.00787966093650505,
+   "train/building_13830/singapore_3": -0.021184693685946776,
+   "train/building_14219/singapore_7": 0.007210647148893745,
+   "train/building_14480/singapore_3": 0.02926874773157384,
+   "train/building_15471/singapore_7": 0.03789143351501223,
+   "train/building_16092/singapore_5": -0.017217653161226587,
+   "train/building_16613/singapore_1": -0.0019096637876945266,
+   "train/building_16761/singapore_1": 0.002160430940713054,
+   "train/building_17224/singapore_7": 0.053365804042762255,
+   "train/building_17524/singapore_7": -0.0025044627856096735,
+   "train/building_18662/singapore_5": -0.0007111144908759082,
+   "train/building_19518/singapore_7": -0.0014699137023823639,
+   "train/building_19655/singapore_5": -0.028197175386145856,
+   "train/building_19664/singapore_1": -0.036448745169282315,
+   "train/building_19950/singapore_5": 0.0005260851225070695
+  },
+  "warm": {
+   "train/building_10419/atlanta_3": -0.009273700922898698,
+   "train/building_11818/atlanta_1": -0.01720715317044863,
+   "train/building_11852/atlanta_5": -0.004081368744301095,
+   "train/building_12336/atlanta_7": -0.018114464879007364,
+   "train/building_12503/atlanta_3": -0.004984105792946503,
+   "train/building_12567/atlanta_5": 0.03290275775545415,
+   "train/building_14073/atlanta_3": -0.00923743679773803,
+   "train/building_14219/atlanta_5": -0.0027380705539072903,
+   "train/building_16034/atlanta_5": -0.007566498271562749,
+   "train/building_16071/atlanta_7": -0.0034227567595199737,
+   "train/building_16541/atlanta_5": 0.010631455718893346,
+   "train/building_16613/atlanta_1": -0.02787350202849448,
+   "train/building_16821/atlanta_7": -0.03666491925230486,
+   "train/building_17821/atlanta_1": -0.010477982107511719,
+   "train/building_18662/atlanta_5": -0.010236841324519297,
+   "train/building_18842/atlanta_5": -0.006536190240232886,
+   "train/building_19195/atlanta_3": -0.007613829998333377,
+   "train/building_19299/atlanta_7": -0.015035675607828702,
+   "train/building_19629/atlanta_5": -0.003593002740806206,
+   "train/building_19950/atlanta_7": -0.002144581952155944,
+   "train/building_10740/denver_5": 0.010198381086955033,
+   "train/building_11461/denver_3": -0.017126843144935622,
+   "train/building_11534/denver_1": -0.004858120450021208,
+   "train/building_11818/denver_1": -0.01860586541940068,
+   "train/building_12567/denver_7": -0.003114079372528278,
+   "train/building_13830/denver_3": -0.012433484138600348,
+   "train/building_14219/denver_3": -0.024970513959490903,
+   "train/building_16071/denver_1": -0.018432549588716873,
+   "train/building_16092/denver_3": -0.03414001711630943,
+   "train/building_16761/denver_3": -0.02071852371637184,
+   "train/building_16909/denver_5": 0.013374306574139405,
+   "train/building_17524/denver_3": -0.02004707468805289,
+   "train/building_17821/denver_3": -0.002188782482551166,
+   "train/building_18727/denver_7": -0.02428078790478816,
+   "train/building_18764/denver_7": -0.012292358305421636,
+   "train/building_18771/denver_5": -0.007651405405605716,
+   "train/building_19195/denver_3": -0.03192561259394666,
+   "train/building_19518/denver_5": -0.008974709737502806,
+   "train/building_19655/denver_1": -0.010297041354886849,
+   "train/building_19950/denver_1": -0.02593550678167844,
+   "train/building_11010/fairbanks_3": -0.015406964008674029,
+   "train/building_11818/fairbanks_1": -0.02270561326417586,
+   "train/building_11852/fairbanks_1": -0.06322478838767209,
+   "train/building_11902/fairbanks_1": -0.03116141111050119,
+   "train/building_12336/fairbanks_5": 0.0007420089339313929,
+   "train/building_12503/fairbanks_1": -0.032114855489743355,
+   "train/building_12567/fairbanks_3": -0.016202393907651103,
+   "train/building_13745/fairbanks_5": -0.0025119466247081057,
+   "train/building_15790/fairbanks_1": -0.04623865158164542,
+   "train/building_16034/fairbanks_1": -0.027835984528635227,
+   "train/building_16092/fairbanks_7": -0.0468360344423685,
+   "train/building_16613/fairbanks_7": -0.030902472819223425,
+   "train/building_17821/fairbanks_5": 0.013024729624651732,
+   "train/building_18764/fairbanks_5": -0.010028699984758638,
+   "train/building_18842/fairbanks_3": -0.023499961338895314,
+   "train/building_19299/fairbanks_1": -0.03534262248419151,
+   "train/building_19655/fairbanks_1": -0.0182818503421166,
+   "train/building_19664/fairbanks_7": -0.007242311297294579,
+   "train/building_19708/fairbanks_7": -0.011589957089697789,
+   "train/building_19768/fairbanks_3": -0.01596290066157169,
+   "train/building_10740/phoenix_3": 0.0048671964873288065,
+   "train/building_11818/phoenix_3": -0.009473282455542353,
+   "train/building_11852/phoenix_1": 0.016319872323846907,
+   "train/building_11902/phoenix_5": -0.002649853484098408,
+   "train/building_12356/phoenix_1": -0.04118129706344209,
+   "train/building_13597/phoenix_7": -0.010946747906447896,
+   "train/building_13745/phoenix_7": -0.0018313922926957993,
+   "train/building_14219/phoenix_1": -0.01483751846895165,
+   "train/building_14480/phoenix_1": -0.02045997810415201,
+   "train/building_15790/phoenix_1": -0.006552706267053288,
+   "train/building_16092/phoenix_5": -0.004939805627557581,
+   "train/building_16541/phoenix_1": 0.006506598470915392,
+   "train/building_16821/phoenix_3": -0.0034845995835363075,
+   "train/building_17378/phoenix_3": -0.013876555611286423,
+   "train/building_18764/phoenix_7": -0.012270773845131089,
+   "train/building_18842/phoenix_7": -0.01415143682036113,
+   "train/building_19299/phoenix_3": -0.014127719786919735,
+   "train/building_19518/phoenix_5": -0.005333496915751024,
+   "train/building_19664/phoenix_1": -0.043702855305570054,
+   "train/building_19708/phoenix_3": -0.004420478100005232,
+   "train/building_10419/singapore_3": -0.0036971939689809385,
+   "train/building_10740/singapore_7": 0.012959196084557423,
+   "train/building_11010/singapore_1": 0.0019992240443165166,
+   "train/building_11534/singapore_5": -0.0010357254691091278,
+   "train/building_11818/singapore_1": -0.005850876635965729,
+   "train/building_11902/singapore_7": -0.0033878705938023,
+   "train/building_13830/singapore_3": -0.005552056025552865,
+   "train/building_14219/singapore_7": -0.0014940498891522491,
+   "train/building_14480/singapore_3": -0.0065036600793665356,
+   "train/building_15471/singapore_7": 0.00015104417924760583,
+   "train/building_16092/singapore_5": -0.004238654591773416,
+   "train/building_16613/singapore_1": -0.006953794489967469,
+   "train/building_16761/singapore_1": -0.0018981794143703157,
+   "train/building_17224/singapore_7": 0.005039799144065604,
+   "train/building_17524/singapore_7": -0.003066485526719287,
+   "train/building_18662/singapore_5": -0.006834635809770395,
+   "train/building_19518/singapore_7": -0.005307833222289893,
+   "train/building_19655/singapore_5": -0.007620897246237712,
+   "train/building_19664/singapore_1": -0.007679254175127603,
+   "train/building_19950/singapore_5": 0.002055921925362858
+  },
+  "fixed_sp2000": {
+   "train/building_10419/atlanta_3": -0.02354269165447298,
+   "train/building_11818/atlanta_1": -0.020002597435216152,
+   "train/building_11852/atlanta_5": 0.013026718059446996,
+   "train/building_12336/atlanta_7": -0.048502598216777604,
+   "train/building_12503/atlanta_3": -0.012070609233999163,
+   "train/building_12567/atlanta_5": 0.05597556570799145,
+   "train/building_14073/atlanta_3": -0.014902138751942684,
+   "train/building_14219/atlanta_5": -0.0012646916268815867,
+   "train/building_16034/atlanta_5": -0.027907158043477653,
+   "train/building_16071/atlanta_7": -0.029909376413002065,
+   "train/building_16541/atlanta_5": 0.014135296917703322,
+   "train/building_16613/atlanta_1": -0.07836231536501825,
+   "train/building_16821/atlanta_7": -0.058793579048769695,
+   "train/building_17821/atlanta_1": -0.024936665948083858,
+   "train/building_18662/atlanta_5": -0.011169785235604746,
+   "train/building_18842/atlanta_5": -0.007199964105672696,
+   "train/building_19195/atlanta_3": -0.026886437241825933,
+   "train/building_19299/atlanta_7": -0.041235929797806437,
+   "train/building_19629/atlanta_5": -0.0038848381577646363,
+   "train/building_19950/atlanta_7": -0.04120741121698501,
+   "train/building_10740/denver_5": 0.039536027820311626,
+   "train/building_11461/denver_3": -0.018527373171465022,
+   "train/building_11534/denver_1": -0.005675677531513101,
+   "train/building_11818/denver_1": -0.017873846772949564,
+   "train/building_12567/denver_7": -0.037848288373220185,
+   "train/building_13830/denver_3": -0.03214222909932851,
+   "train/building_14219/denver_3": -0.04645110026037225,
+   "train/building_16071/denver_1": -0.031048605389843664,
+   "train/building_16092/denver_3": -0.05182663562106249,
+   "train/building_16761/denver_3": -0.02068082512170144,
+   "train/building_16909/denver_5": 0.06035468712093639,
+   "train/building_17524/denver_3": -0.05656151020721978,
+   "train/building_17821/denver_3": -0.040290802709131435,
+   "train/building_18727/denver_7": -0.04961653101266872,
+   "train/building_18764/denver_7": -0.027230503915774418,
+   "train/building_18771/denver_5": -0.011084628624514203,
+   "train/building_19195/denver_3": -0.05535510978812841,
+   "train/building_19518/denver_5": -0.019398815405402003,
+   "train/building_19655/denver_1": -0.03163566417636343,
+   "train/building_19950/denver_1": -0.036478766992598666,
+   "train/building_11010/fairbanks_3": -0.017082308606959584,
+   "train/building_11818/fairbanks_1": -0.023086951035483416,
+   "train/building_11852/fairbanks_1": -0.06708241414273608,
+   "train/building_11902/fairbanks_1": -0.030618865619016278,
+   "train/building_12336/fairbanks_5": -0.04660836885093711,
+   "train/building_12503/fairbanks_1": -0.0265310962153521,
+   "train/building_12567/fairbanks_3": -0.027209128146501782,
+   "train/building_13745/fairbanks_5": 0.006870384764187332,
+   "train/building_15790/fairbanks_1": -0.0352672190997767,
+   "train/building_16034/fairbanks_1": -0.04219962076104544,
+   "train/building_16092/fairbanks_7": -0.060888299765741505,
+   "train/building_16613/fairbanks_7": -0.07859222387721576,
+   "train/building_17821/fairbanks_5": -0.015311166338015436,
+   "train/building_18764/fairbanks_5": -0.020882443041716492,
+   "train/building_18842/fairbanks_3": -0.02409143260927127,
+   "train/building_19299/fairbanks_1": -0.02855673001331993,
+   "train/building_19655/fairbanks_1": -0.022340572324551,
+   "train/building_19664/fairbanks_7": 0.0030825336385409408,
+   "train/building_19708/fairbanks_7": -0.014790594857879147,
+   "train/building_19768/fairbanks_3": -0.014863890606877428,
+   "train/building_10740/phoenix_3": 0.04970524985238911,
+   "train/building_11818/phoenix_3": -0.01753467232583461,
+   "train/building_11852/phoenix_1": 0.0037337888006294673,
+   "train/building_11902/phoenix_5": -0.0020976639521582685,
+   "train/building_12356/phoenix_1": -0.04015318190903849,
+   "train/building_13597/phoenix_7": -0.03259836232994251,
+   "train/building_13745/phoenix_7": 0.005720533592773691,
+   "train/building_14219/phoenix_1": -0.04532932438403592,
+   "train/building_14480/phoenix_1": -0.039147373938174246,
+   "train/building_15790/phoenix_1": -0.027249376601771402,
+   "train/building_16092/phoenix_5": -0.007316109806484672,
+   "train/building_16541/phoenix_1": -0.03447339387835657,
+   "train/building_16821/phoenix_3": -0.004947817955402778,
+   "train/building_17378/phoenix_3": -0.02463392825056765,
+   "train/building_18764/phoenix_7": -0.021470615867841825,
+   "train/building_18842/phoenix_7": -0.022876950875535984,
+   "train/building_19299/phoenix_3": -0.022323177443561937,
+   "train/building_19518/phoenix_5": -0.02056401625598281,
+   "train/building_19664/phoenix_1": -0.06455196672023467,
+   "train/building_19708/phoenix_3": -0.015377073405563713,
+   "train/building_10419/singapore_3": -0.003567538352407751,
+   "train/building_10740/singapore_7": 0.04572824376725393,
+   "train/building_11010/singapore_1": 0.009573956981309806,
+   "train/building_11534/singapore_5": 0.0027696159470851356,
+   "train/building_11818/singapore_1": -0.005224322854410657,
+   "train/building_11902/singapore_7": -0.003461147796555486,
+   "train/building_13830/singapore_3": -0.019612196212592137,
+   "train/building_14219/singapore_7": -0.0009132873439207101,
+   "train/building_14480/singapore_3": -0.009452612422528817,
+   "train/building_15471/singapore_7": 0.00016351524883906343,
+   "train/building_16092/singapore_5": -0.015816388302680506,
+   "train/building_16613/singapore_1": -0.005937868294164761,
+   "train/building_16761/singapore_1": -0.004687852577938356,
+   "train/building_17224/singapore_7": -0.003701626626518406,
+   "train/building_17524/singapore_7": -0.004077418848914993,
+   "train/building_18662/singapore_5": -0.00019619170250695372,
+   "train/building_19518/singapore_7": -0.008965455681136936,
+   "train/building_19655/singapore_5": -0.021257086048805163,
+   "train/building_19664/singapore_1": -0.028348858762188844,
+   "train/building_19950/singapore_5": 0.0029506228769891063
+  }
+ }
+}

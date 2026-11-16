@@ -169,7 +169,7 @@ def floor_plan_cells_problem(config, scratch):
         generator.save_for_simulator(str(scratch / "floor_plan.npy"), str(scratch / "zone_map.npy"))
     cells = strip_cells(np.load(scratch / "floor_plan.npy"))
     if len(cells):
-        return (f": {len(cells)} control volumes in one-cell-thick strips (first {tuple(int(x) for x in cells[0])}); "
+        return (f"constructor_check: {len(cells)} control volumes in one-cell-thick strips (first {tuple(int(x) for x in cells[0])}); "
                 "the simulator constructor raises in classify_cv")
     return None
 
